@@ -32,3 +32,23 @@ report.[0-9]_.[0-9]_.[0-9]_.[0-9]_.json
 
 # Finder (MacOS) folder config
 .DS_Store
+
+# Comment if you want to include the build with the map
+scripts/main.js
+
+# CS2 Specific
+_other/.autosave
+_other/*_graph.resources
+_other/*_graph.resources.algautosave
+_other/radgencommands.txt
+/_bakeresourcecache
+materials/radgen/
+_other/vtexcommands.txt
+maps/*.log
+AssetBrowserSavedSearches.kv3
+maps/*_bakeresourcecache.vpk
+*.exr
+*.vpk
+_radgen_extras/Overview/*.png
+materials/test.vmat
+\.*
