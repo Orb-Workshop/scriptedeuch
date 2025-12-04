@@ -1,3 +1,6 @@
+// Utility Library
+export { DeepCopy } from "./utils.ts";
+
 // Math Library
 export { default as Vector } from "./math/Vector.ts";
 export { default as QAngle } from "./math/QAngle.ts";

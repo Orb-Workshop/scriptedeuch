@@ -5,7 +5,7 @@
    - https://stackoverflow.com/questions/521295/seeding-the-random-number-generator-in-javascript
 
 */ 
-
+import { DeepCopy } from "../utils.ts";
 
 // Pad the input seed into a hashed value
 function cyrb128(str) {
@@ -137,17 +137,17 @@ export default class SeededRandomNumberGenerator {
 
   // Returns a random choice from an array.
   // if `bDelete`, remove the element from the array.
-  randomChoice(array, bDelete) {
+  randomChoice(array, bDelete = false) {
     let idx = this.randomInteger(0, array.length-1);
     let result = array[idx];
     if (bDelete) array.splice(idx, 1);
-    return result;
+    return (result !== undefined) ? result : null;
   }
 
   // Returns a random combination of values from the `array` as a
   // choice of values of size `count`
   // if `bDelete`, remove the elements from the array.
-  randomCombination(array, count, bDelete) {
+  randomCombination(array, count, bDelete = false) {
     let a = null;
     if (bDelete) a = array;
     else a = DeepCopy(array);
@@ -162,7 +162,7 @@ export default class SeededRandomNumberGenerator {
 
   // Shuffles the elements of an array.
   // if `bCopy`, returns a new array.
-  randomShuffle(array, bCopy) {
+  randomShuffle(array, bCopy = false) {
     let a = null;
     if (bCopy) a = array.map((i) => i);
     else a = array;
