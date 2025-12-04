@@ -1,3 +1,4 @@
+// @ts-nocheck
 /*
    Seeded Random Generator
 

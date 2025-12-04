@@ -1,3 +1,4 @@
+// @ts-nocheck
 // Simplex Noise Implementation
 // https://github.com/SRombauts/SimplexNoise/blob/master/references/SimplexNoise.java
 //

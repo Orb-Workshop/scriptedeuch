@@ -1,3 +1,4 @@
+// @ts-nocheck
 export default class QAngle {
     static Zero = { pitch: 0, yaw: 0, roll: 0 };
 

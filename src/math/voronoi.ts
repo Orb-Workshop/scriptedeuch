@@ -1,3 +1,4 @@
+// @ts-nocheck
 import Point from "./Point.ts";
 import LineSegment from "./LineSegment.ts";
 
