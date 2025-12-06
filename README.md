@@ -1,15 +1,17 @@
 # scriptedeuch
 
+**scriptedeuch** is a set of libraries to be used within CS2 workshop maps.
+
+Documentation: //Coming Soon//
+
 To install dependencies:
 
 ```bash
 bun install
 ```
 
-To run:
+To develop and test:
 
 ```bash
-bun run index.ts
+bun test
 ```
-
-This project was created using `bun init` in bun v1.3.3. [Bun](https://bun.com) is a fast all-in-one JavaScript runtime.
