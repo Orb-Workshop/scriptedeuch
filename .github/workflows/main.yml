@@ -1,0 +1,8 @@
+name: my-workflow
+jobs:
+  test-job:
+    name: test-job
+    runs-on: ubuntu-latest
+    steps:
+      - uses: oven-sh/setup-bun@v2
+      - run: bun test
