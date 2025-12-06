@@ -1,8 +1,29 @@
-name: my-workflow
-jobs:
-  test-job:
-    name: test-job
-    runs-on: ubuntu-latest
-    steps:
-      - uses: oven-sh/setup-bun@v2
-      - run: bun test
+    name: Bun Tests
+
+    on:
+      push:
+        branches:
+          - master
+      pull_request:
+        branches:
+          - master
+      workflow_dispatch: # Allows manual triggering of the workflow
+
+    jobs:
+      test:
+        runs-on: ubuntu-latest
+
+        steps:
+          - name: Checkout repository
+            uses: actions/checkout@v4 # Check out your repository's code
+
+          - name: Install Bun
+            uses: oven-sh/setup-bun@v2 # Use the official setup-bun action
+            with:
+              bun-version: latest
+
+          - name: Install dependencies
+            run: bun install
+
+          - name: Run tests
+            run: bun test
