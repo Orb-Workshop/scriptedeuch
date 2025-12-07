@@ -1,4 +1,4 @@
- import { expect, test } from "bun:test";
+import { expect, test } from "bun:test";
 import QAngle from "./QAngle.ts";
 
 test("QAngle.create", () => {

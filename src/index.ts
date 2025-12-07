@@ -2,12 +2,12 @@
 export { DeepCopy } from "./utils.ts";
 
 // Math Library
-export { default as Vector } from "./math/Vector.ts";
+export { default as Vector3 } from "./math/Vector3.ts";
 export { default as QAngle } from "./math/QAngle.ts";
-export { default as BBox } from "./math/BBox.ts";
-export { default as Point } from "./math/Point.ts";
-export { default as LineSegment } from "./math/LineSegment.ts";
-export { default as VoronoiDiagram } from "./math/voronoi.ts";
+export { default as BBox2 } from "./math/BBox2.ts";
+export { default as Point2 } from "./math/Point2.ts";
+export { default as LineSegment2 } from "./math/LineSegment2.ts";
+export { default as VoronoiDiagram } from "./math/Voronoi.ts";
 
 // Random Library
 export { default as SeededRandomNumberGenerator } from "./random/SeededRandomNumberGenerator.ts";

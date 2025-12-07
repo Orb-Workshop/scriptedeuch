@@ -1,6 +1,7 @@
 // @ts-nocheck
-import Point from "./Point.ts";
-import LineSegment from "./LineSegment.ts";
+import Point2 from "./Point2.ts";
+import BBox2 from "./BBox2.ts";
+import LineSegment2 from "./LineSegment2.ts";
 
 /* Voronoi Implementation
    https://github.com/gorhill/Javascript-Voronoi
@@ -139,66 +140,66 @@ this.reset();return g;};
   
   Example:
 
-  let v = new VoronoiDiagram(procgen);
-  v.compute([new Point(24, 24),
-             new Point(12, 12)]);
- */
+  let v = new VoronoiDiagram();
+  v.compute([new Point2(24, 24),
+             new Point2(12, 12)]);
+*/
 export default class VoronoiDiagram {
-  // Bounding Box Representing Valve Units. A 2000 x 2000 valve unit map.
-  static bbox_valve = {
-    xl: 0,
-    xr: 2000,
-    yt: 0,
-    yb: 2000,
-  };
+    // Bounding Box Representing Valve Units. A 2000 x 2000 valve unit map.
+    static bbox_default = {
+        xl: 0,
+        xr: 2000,
+        yt: 0,
+        yb: 2000,
+    };
 
-  constructor(options) {
-    this.options = options || {};
-    this.bbox = options.bbox || VoronoiDiagram.bbox_valve;
-    this.voronoi = new Voronoi();
-    this.diagram = null;
-  }
+    constructor(options = {}) {
+        this.options = options;
+        this.bbox = options.bbox || VoronoiDiagram.bbox_default;
+        this.voronoi = new Voronoi();
+        this.diagram = null;
+    }
 
-  _convertPointArrayToSites(point_array) {
-    let sites = [];
-    point_array.forEach((p) => sites.push({x: p.x, y: p.y}));
-    return sites;
-  }
+    _convertPointArrayToSites(point_array) {
+        let sites = [];
+        point_array.forEach((p) => sites.push({x: p.x, y: p.y}));
+        return sites;
+    }
 
-  compute(point_array) {
-    let sites = this._convertPointArrayToSites(point_array);
-    if (this.diagram) this.voronoi.recycle(this.diagram);
-    this.diagram = this.voronoi.compute(sites, this.bbox);
-  }
+    compute(point_array) {
+        let sites = this._convertPointArrayToSites(point_array);
+        if (this.diagram) this.voronoi.recycle(this.diagram);
+        this.diagram = this.voronoi.compute(sites, this.bbox);
+    }
 
-  isComputed() { return this.diagram !== null; }
+    isComputed() { return this.diagram !== null; }
 
-  getRawDiagram() {
-    return this.diagram;
-  }
+    getRawDiagram() {
+        return this.diagram;
+    }
 
-  getCompleteEdges() {
-    if (!this.isComputed()) return null;
-    let edges = this.diagram.edges.filter((edge) => edge.rSite && edge.lSite);
-    return edges.map((e) => { return {
-      point_left: new Point(e.lSite.x, e.lSite.y),
-      point_right: new Point(e.rSite.x, e.rSite.y),
-      edge_segment: new LineSegment(new Point(e.va.x, e.va.y),
-                                    new Point(e.vb.x, e.vb.y)),
-    };});
-  }
+    getCompleteEdges() {
+        if (!this.isComputed()) return null;
+        let edges = this.diagram.edges.filter((edge) => edge.rSite && edge.lSite);
+        return edges.map((e) => { return {
+            point_left: new Point2(e.lSite.x, e.lSite.y),
+            point_right: new Point2(e.rSite.x, e.rSite.y),
+            edge_segment: new LineSegment2(new Point2(e.va.x, e.va.y),
+                                           new Point2(e.vb.x, e.vb.y)),
+        };});
+    }
 
-  getEquidistantPoints() {
-    let onlyUnique = (value, index, array) => array.indexOf(value) === index;
-    let edges = this.diagram.edges.filter((edge) => edge.rSite && edge.lSite);
-    return edges
-      .map((edge) => [edge.va, edge.vb])
-      .reduce((acc, edge_pair) => {
-        acc.push(edge_pair[0]);
-        acc.push(edge_pair[1]);
-        return acc;
-      }, [])
-      .filter(onlyUnique)
-      .map((e) => new Point(e.x, e.y));
-  }
+    getEquidistantPoints() {
+        let onlyUnique = (value, index, array) => array.indexOf(value) === index;
+        let edges = this.diagram.edges.filter((edge) => edge.rSite && edge.lSite);
+        return edges
+            .map((edge) => [edge.va, edge.vb])
+            .reduce((acc, edge_pair) => {
+                acc.push(edge_pair[0]);
+                acc.push(edge_pair[1]);
+                return acc;
+            }, [])
+            .filter(onlyUnique)
+            .map((e) => new Point2(e.x, e.y));
+    }
 }
