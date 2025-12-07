@@ -1,7 +1,7 @@
 import { Instance as CSS } from "cs_script/point_script";
-import { Vector2, QAngle } from "./index.ts";
+import { Vector3, QAngle } from "./index.ts";
 
-const v = Vector2.create();
+const v = Vector3.create();
 const q = QAngle.create();
 
 CSS.OnActivate(() => {

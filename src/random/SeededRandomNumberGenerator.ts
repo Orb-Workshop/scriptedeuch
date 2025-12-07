@@ -1,11 +1,10 @@
-// @ts-nocheck
 /*
    Seeded Random Generator
 
    Notes:
    - https://stackoverflow.com/questions/521295/seeding-the-random-number-generator-in-javascript
 
-*/ 
+*/
 import { DeepCopy } from "../utils.ts";
 
 // Pad the input seed into a hashed value
