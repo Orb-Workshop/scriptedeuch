@@ -1,4 +1,3 @@
-// @ts-nocheck
 import Point2 from "./Point2.ts";
 import BBox2 from "./BBox2.ts";
 import LineSegment2 from "./LineSegment2.ts";
@@ -7,6 +6,12 @@ import LineSegment2 from "./LineSegment2.ts";
    https://github.com/gorhill/Javascript-Voronoi
 */
 import {default as RhillVoronoi} from "./rhill-voronoi-core.min.js";
+
+type EdgeResult = {
+    point_left: Point2,
+    point_right: Point2,
+    edge_segment: LineSegment2,
+};
 
 /*
   Adapter for use with scriptedeuch
@@ -33,25 +38,25 @@ export default class Voronoi {
         this.diagram = null;
     }
 
-    _convertPointArrayToSites(point_array) {
+    _convertPointArrayToSites(point_array: Array<Point2>): Array<{x: number, y: number}> {
         let sites = [];
         point_array.forEach((p) => sites.push({x: p.x, y: p.y}));
         return sites;
     }
 
-    compute(point_array) {
+    compute(point_array: Array<Point2>) {
         let sites = this._convertPointArrayToSites(point_array);
         if (this.diagram) this.voronoi.recycle(this.diagram);
         this.diagram = this.voronoi.compute(sites, this.bbox);
     }
 
-    isComputed() { return this.diagram !== null; }
+    isComputed(): boolean { return this.diagram !== null; }
 
     getRawDiagram() {
         return this.diagram;
     }
 
-    getCompleteEdges() {
+    getCompleteEdges(): Array<EdgeResult> {
         if (!this.isComputed()) return null;
         let edges = this.diagram.edges.filter((edge) => edge.rSite && edge.lSite);
         return edges.map((e) => { return {
@@ -62,7 +67,7 @@ export default class Voronoi {
         };});
     }
 
-    getEquidistantPoints() {
+    getEquidistantPoints(): Array<Point2> {
         let onlyUnique = (value, index, array) => array.indexOf(value) === index;
         let edges = this.diagram.edges.filter((edge) => edge.rSite && edge.lSite);
         return edges
