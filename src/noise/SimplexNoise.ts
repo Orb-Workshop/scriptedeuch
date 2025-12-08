@@ -1,4 +1,3 @@
-// @ts-nocheck
 // Simplex Noise Implementation
 // https://github.com/SRombauts/SimplexNoise/blob/master/references/SimplexNoise.java
 //
@@ -8,7 +7,7 @@ class Grad {
     y: number;
     z: number;
     
-    constructor(x, y, z) {
+    constructor(x: number, y: number, z: number) {
         this.x = x;
         this.y = y;
         this.z = z;
@@ -17,13 +16,13 @@ class Grad {
 
 // 2D Simplex Noise
 export default class SimplexNoise {
-    static grad3 = [
+    static grad3: Array<Grad> = [
         new Grad(1,1,0),new Grad(-1,1,0),new Grad(1,-1,0),new Grad(-1,-1,0),
         new Grad(1,0,1),new Grad(-1,0,1),new Grad(1,0,-1),new Grad(-1,0,-1),
         new Grad(0,1,1),new Grad(0,-1,1),new Grad(0,1,-1),new Grad(0,-1,-1),
     ];
 
-    static p = [
+    static p: Array<number> = [
         151,160,137,91,90,15,
         131,13,201,95,96,53,194,233,7,225,140,36,103,30,69,142,8,99,37,240,21,10,23,
         190,6,148,247,120,234,75,0,26,197,62,94,252,219,203,117,35,11,32,57,177,33,
@@ -39,7 +38,7 @@ export default class SimplexNoise {
         138,236,205,93,222,114,67,29,24,72,243,141,128,195,78,66,215,61,156,180,
     ];
 
-    static _fill_perm() {
+    static _fill_perm(): Array<number> {
         let p = SimplexNoise.p;
         let perm = [];
         SimplexNoise.p.forEach((v, i) => {
@@ -47,9 +46,9 @@ export default class SimplexNoise {
         });
         return perm;
     }
-    static perm = SimplexNoise._fill_perm();
+    static perm: Array<number> = SimplexNoise._fill_perm();
 
-    static _fill_permMod12() {
+    static _fill_permMod12(): Array<number> {
         let p = SimplexNoise.p;
         let permMod12 = [];
         p.forEach((v, i) => {
@@ -57,22 +56,22 @@ export default class SimplexNoise {
         });
         return permMod12;
     }
-    static permMod12 = SimplexNoise._fill_permMod12();
+    static permMod12: Array<number> = SimplexNoise._fill_permMod12();
 
     // Skewing and Unskewing Factors
-    static F2 = 0.5*(Math.sqrt(3.0)-1.0);
-    static G2 = (3.0-Math.sqrt(3.0))/6.0;
+    static F2: number = 0.5*(Math.sqrt(3.0)-1.0);
+    static G2: number = (3.0-Math.sqrt(3.0))/6.0;
 
     // Matrix Functions
-    static dot(g, x, y) {
+    static dot(g: Grad, x: number, y: number): number {
         return g.x*x + g.y*y;
     }
 
     /** Main Static Method */
     static noise(xin: number, yin: number): number {
         // Import our static members
-        const grad3 = SimplexNoise.grad3;
-        const perm = SimplexNoise.perm;
+        const grad3: Array<number> = SimplexNoise.grad3;
+        const perm: Array<number> = SimplexNoise.perm;
         const permMod12 = SimplexNoise.permMod12;
         const F2 = SimplexNoise.F2;
         const G2 = SimplexNoise.G2;
