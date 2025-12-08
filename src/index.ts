@@ -7,7 +7,7 @@ export { default as QAngle } from "./math/QAngle.ts";
 export { default as BBox2 } from "./math/BBox2.ts";
 export { default as Point2 } from "./math/Point2.ts";
 export { default as LineSegment2 } from "./math/LineSegment2.ts";
-export { default as VoronoiDiagram } from "./math/Voronoi.ts";
+export { default as Voronoi } from "./math/Voronoi.ts";
 
 // Random Library
 export { default as SeededRandomNumberGenerator } from "./random/SeededRandomNumberGenerator.ts";

@@ -1,9 +1,9 @@
 import { expect, test } from "bun:test";
-import VoronoiDiagram from "./Voronoi.ts";
+import Voronoi from "./Voronoi.ts";
 import Point2 from "./Point2.ts";
 
 test("Voronoi Init 1", () => {
-    let v = new VoronoiDiagram();
+    let v = new Voronoi();
     expect(v.isComputed()).toBe(false);
     v.compute([
         new Point2(200, 200),
