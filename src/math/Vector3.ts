@@ -1,49 +1,67 @@
-export default class Vector {
-    static Null = { x: 16000, y: 16000, z: 16000 };
-    static Zero = { x: 0, y: 0, z: 0 };
+export default class Vector3 {
+    public x: number;
+    public y: number;
+    public z: number;
 
-    static create(x = 0, y = 0, z = 0) {
-        return { x, y, z };
+    constructor(x: number, y: number, z: number) {
+        this.x = x;
+        this.y = y;
+        this.z = z;
+    }
+    
+    static Null: Vector3 = new Vector3(+Infinity, -Infinity, +Infinity);
+    static Zero: Vector3 = new Vector3(0, 0, 0);
+
+    static create(x: number = 0, y: number = 0, z: number = 0): Vector3 {
+        return new Vector3(x, y, z);
     }
 
-    static add(a, b) {
-        return { x: a.x + b.x, y: a.y + b.y, z: a.z + b.z };
+    add(v: Vector3): Vector3 {
+        this.x += v.x;
+        this.y += v.y;
+        this.z += v.z;
+        return this;
     }
 
-    static sub(a, b) {
-        return { x: a.x - b.x, y: a.y - b.y, z: a.z - b.z };
+    sub(v: Vector3) {
+        this.x -= v.x;
+        this.y -= v.y;
+        this.z -= v.z;
+        return this;
     }
 
-    static scale(v, s) {
-        return { x: v.x * s, y: v.y * s, z: v.z * s };
+    scale(s: number): Vector3 {
+        this.x *= s;
+        this.y *= s;
+        this.z *= s;
+        return this;
     }
 
-    static dot(a, b) {
-        return a.x * b.x + a.y * b.y + a.z * b.z;
+    dot(v: Vector3): number {
+        return this.x * v.x + this.y * v.y + this.z * v.z;
     }
 
-    static cross(a, b) {
-        return {
-            x: a.y * b.z - a.z * b.y,
-            y: a.z * b.x - a.x * b.z,
-            z: a.x * b.y - a.y * b.x
-        };
+    cross(v: Vector3): Vector3 {
+        const x = this.y * v.z - this.z * v.y;
+        const y = this.z * v.x - this.x * v.z;
+        const z = this.x * v.y - this.y * v.x;
+        return new Vector3(x, y, z);
     }
 
-    static magnitude(v) {
-        return Math.sqrt(v.x * v.x + v.y * v.y + v.z * v.z);
+    magnitude(): number {
+        return Math.sqrt(this.x * this.x + this.y * this.y + this.z * this.z);
     }
 
-    static normalize(v) {
-        const len = this.magnitude(v);
-        return len === 0 ? this.zeroV : this.scale(v, 1 / len);
+    normalize(): Vector3 {
+        const len = this.magnitude();
+        return len === 0 ? Vector3.Zero : this.scale(1 / len);
     }
 
-    static distance(a, b) {
-        return this.magnitude(this.sub(a, b));
+    distance(v: Vector3): number {
+        return this.sub(v).magnitude();
     }
 
-    static equals(a, b) {
-        return a.x === b.x && a.y === b.y && a.z === b.z;
+    equals(v): boolean {
+        return this.x === v.x && this.y === v.y && this.z === v.z;
     }
 }

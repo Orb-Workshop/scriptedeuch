@@ -49,8 +49,8 @@ export default class SimplexNoise {
     static perm: Array<number> = SimplexNoise._fill_perm();
 
     static _fill_permMod12(): Array<number> {
-        let p = SimplexNoise.p;
-        let permMod12 = [];
+        let p: Array<number> = SimplexNoise.p;
+        let permMod12: Array<number> = [];
         p.forEach((v, i) => {
             permMod12.push(p[i] % 12);
         });
@@ -72,40 +72,43 @@ export default class SimplexNoise {
         // Import our static members
         const grad3: Array<number> = SimplexNoise.grad3;
         const perm: Array<number> = SimplexNoise.perm;
-        const permMod12 = SimplexNoise.permMod12;
-        const F2 = SimplexNoise.F2;
-        const G2 = SimplexNoise.G2;
-        let dot = SimplexNoise.dot;
+        const permMod12: Array<number> = SimplexNoise.permMod12;
+        const F2: number = SimplexNoise.F2;
+        const G2: number = SimplexNoise.G2;
+        let dot: number = SimplexNoise.dot;
         //
-        let n0 = 0.; let n1 = 0.; let n2 = 0.;
-        let s = (xin+yin)*F2;
-        let i = Math.floor(xin+s);
-        let j = Math.floor(yin+s);
-        let t = (i+j)*G2;
-        let X0 = i-t;
-        let Y0 = j-t;
-        let x0 = xin-X0;
-        let y0 = yin-Y0;
+        let n0: number = 0.;
+        let n1: number = 0.;
+        let n2: number = 0.;
+        let s: number = (xin+yin)*F2;
+        let i: number = Math.floor(xin+s);
+        let j: number = Math.floor(yin+s);
+        let t: number = (i+j)*G2;
+        let X0: number = i-t;
+        let Y0: number = j-t;
+        let x0: number = xin-X0;
+        let y0: number = yin-Y0;
 
         // Determine which simplex cell we are in.
-        let i1 = 0; let j1 = 0;
+        let i1: number = 0;
+        let j1: number = 0;
         if (x0>y0)
             i1 = 1;
         else
             j1 = 1;
 
-        let x1 = x0 - i1 + G2;
-        let y1 = y0 - j1 + G2;
-        let x2 = x0 - 1.0 + 2.0 * G2;
-        let y2 = y0 - 1.0 + 2.0 * G2;
+        let x1: number = x0 - i1 + G2;
+        let y1: number = y0 - j1 + G2;
+        let x2: number = x0 - 1.0 + 2.0 * G2;
+        let y2: number = y0 - 1.0 + 2.0 * G2;
         // Work out the hashed gradient indices of the three simplex corners
-        let ii = i & 255;
-        let jj = j & 255;
-        let gi0 = permMod12[ii+perm[jj]];
-        let gi1 = permMod12[ii+i1+perm[jj+j1]];
-        let gi2 = permMod12[ii+1+perm[jj+1]];
+        let ii: number = i & 255;
+        let jj: number = j & 255;
+        let gi0: number = permMod12[ii+perm[jj]];
+        let gi1: number = permMod12[ii+i1+perm[jj+j1]];
+        let gi2: number = permMod12[ii+1+perm[jj+1]];
         // Calculate the contribution from the three corners
-        let t0 = 0.5 - x0*x0-y0*y0;
+        let t0: number = 0.5 - x0*x0-y0*y0;
         if (t0 < 0) {
             n0 = 0.;
         }
@@ -113,7 +116,7 @@ export default class SimplexNoise {
             t0 *= t0;
             n0 = t0 * t0 * dot(grad3[gi0], x0, y0);
         }
-        let t1 = 0.5 - x1*x1-y1*y1;
+        let t1: number = 0.5 - x1*x1-y1*y1;
         if (t1 < 0) {
             n1 = 0.;
         }
@@ -121,7 +124,7 @@ export default class SimplexNoise {
             t1 *= t1;
             n1 = t1 * t1 * dot(grad3[gi1], x1, y1);
         }
-        let t2 = 0.5 - x2*x2-y2*y2;
+        let t2: number = 0.5 - x2*x2-y2*y2;
         if (t2 < 0) {
             n2 = 0.;
         }
