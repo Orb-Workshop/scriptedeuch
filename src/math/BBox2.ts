@@ -50,8 +50,8 @@ export default class BBox2 {
 
     // Returns a new BBox2 expanded by xw*2 units on the x-axis and by
     // yh*2 units on the y-axis around the center;
-    expand(xw: number, yh: number): BBox2 {
-        yh = (yh !== undefined) ? yh : xw;
+    expand(xw: number, yh?: number): BBox2 {
+        yh = yh ?? xw;
         let x = this.x - xw;
         let y = this.y - yh;
         let w = this.w + xw * 2;
@@ -61,8 +61,8 @@ export default class BBox2 {
 
     // Returns a new BBox2 contracted by xw*2 units on the x-axis and by
     // yh*2 units on the y-axis around the center of the BBox.
-    contract(xw: number, yh: number): BBox2 {
-        yh = (yh !== undefined) ? yh : xw;
+    contract(xw: number, yh?: number): BBox2 {
+        yh = yz ?? xw;
         let x = this.x + xw;
         let y = this.y + yh;
         let w = this.w - xw * 2;
