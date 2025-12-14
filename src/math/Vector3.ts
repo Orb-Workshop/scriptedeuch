@@ -23,7 +23,7 @@ export default class Vector3 {
         return this;
     }
 
-    sub(v: Vector3) {
+    sub(v: Vector3): Vector3 {
         this.x -= v.x;
         this.y -= v.y;
         this.z -= v.z;
