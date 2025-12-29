@@ -37,10 +37,9 @@ export default class Mount {
     }
     
     private forEachSystem(f: (system: System) => void) {
-        Object.keys(this.system_listing).forEach((system_name) => {
-            let system = this.system_listing[system_name];
+        for (let system of this.system_listing.values()) {
             f(system);
-        });
+        }
     }
 
     private forEachEnabledSystem(f: (system: System) => void) {
@@ -48,15 +47,21 @@ export default class Mount {
             if (system.IsSystemEnabled()) f(system);
         });
     }
-    
+
     // Register everything with the CSS instance.
     private go() {
         if (this.mount_enabled) return;
         CSS.OnActivate(() => {
             this.forEachEnabledSystem((system) => system.HandleActivate());
         });
+        // TODO: Merge results
         CSS.OnBeforePlayerDamage((event) => {
-            this.forEachEnabledSystem((system) => system.HandleBeforePlayerDamage(event));
+            let result = null;
+            this.forEachEnabledSystem((system) => {
+                const tmp_result = system.HandleBeforePlayerDamage(event);
+                result = tmp_result ?? result;
+            });
+            if (result !== null) return result;
         });
         CSS.OnBombDefuse((event) => {
             this.forEachEnabledSystem((system) => system.HandleBombDefuse(event));
@@ -76,8 +81,8 @@ export default class Mount {
         CSS.OnGunFire((event) => {
             this.forEachEnabledSystem((system) => system.HandleGunFire(event));
         });
-        CSS.OnGunReloaded((event) => {
-            this.forEachEnabledSystem((system) => system.HandleGunReloaded(event));
+        CSS.OnGunReload((event) => {
+            this.forEachEnabledSystem((system) => system.HandleGunReload(event));
         });
         CSS.OnKnifeAttack((event) => {
             this.forEachEnabledSystem((system) => system.HandleKnifeAttack(event));
@@ -125,21 +130,22 @@ export default class Mount {
             after: (memory) => {
                 this.forEachEnabledSystem((system) => system.HandleScriptReloadAfter(memory));
             }});
-
+        
         // Handle tick intervals in each system.
         CSS.SetThink(() => {
             this.forEachEnabledSystem((system) => {
                 system.MaybeThink();
             });
-            CSS.SetNextThink(0); // Pegged at highest tick rate (64-Tick)
+            CSS.SetNextThink(CSS.GetGameTime()); // Pegged at highest tick rate (64-Tick)
         });
-        
+
         this.mount_enabled = true;
     }
 
     public start() {
         this.go();
         this.forEachSystem((system) => system.EnableSystem());
+        CSS.SetNextThink(CSS.GetGameTime());
     }
 
     public stop() {
@@ -163,6 +169,6 @@ export default class Mount {
     }
 
     public list() {
-        return Object.keys(this.system_listing);
+        return Array.from(this.system_listing.keys());
     }
 }

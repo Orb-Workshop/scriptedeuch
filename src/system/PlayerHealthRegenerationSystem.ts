@@ -8,6 +8,7 @@ import System from "../base/System.ts";
 
 export default class PlayerHealthRegenerationSystem extends System {
     constructor(opts) {
+        super();
         opts = opts ?? {};
         let {
             regeneration_rate = 10.0,    // Health Per Second

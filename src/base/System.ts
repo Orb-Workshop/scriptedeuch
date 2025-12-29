@@ -22,7 +22,7 @@ export default abstract class System {
     // https://developer.valvesoftware.com/wiki/Counter-Strike_2_Workshop_Tools/Scripting_API#Instance
     // TODO: do appropriate typechecking.
 
-    HandleActivate(): void { }          // OnActivate
+    HandleActivate() { }                // OnActivate
     HandleBeforePlayerDamage(event) { } // OnBeforePlayerDamage
     HandleBombDefuse(event) { }         // OnBombDefuse
     HandleBombPlant(event) { }          // OnBombPlant
