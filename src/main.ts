@@ -11,6 +11,7 @@ import {
 
     // Systems
     PlayerHealthRegenerationSystem,
+    PlayerModelChangerSystem,
     GameAnnouncerSystem,
     SoundEventSystem,
 } from "./index.ts";
@@ -18,7 +19,6 @@ CSS.Msg("Scriptedeuch!");
 let mount = Mount.instance;
 
 const soundEventSystem = new SoundEventSystem({debug: true});
-mount.register("SoundEventSystem", soundEventSystem);
 
 
 const gameAnnouncerSystem = new GameAnnouncerSystem({callback:(obj) => {
@@ -36,9 +36,16 @@ const gameAnnouncerSystem = new GameAnnouncerSystem({callback:(obj) => {
     CSS.Msg("Player Stats: " + JSON.stringify(player_stats));
     soundEventSystem.PlaySoundToPlayer(player_pawn, "Vote.Passed");
 }});
+
+
+
+// Registering our Systems
+mount.register("SoundEvents", soundEventSystem);
 mount.register("GameAnnouncer", gameAnnouncerSystem);
 mount.register("HealthRegen", new PlayerHealthRegenerationSystem());
+mount.register("ModelChanger", new PlayerModelChangerSystem({point_script_targetname: "main.script"}));
 
+// Listing off what's running
 CSS.Msg("Systems: " + mount.list().join(", "))
 mount.start(); // go
 

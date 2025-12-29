@@ -100,7 +100,7 @@ class PlayerSoundEventController {
         CSS.EntFireAtTarget({target: soundevent_entity, input: "StartSound"});
         this.event_listing[0].time_started = CSS.GetGameTime();
         const player_name = GetPlayerName(this.player_pawn) || "N/A";
-        if (CSS.Msg(`Played Soundevent '${soundevent_name}' to Player '${player_name}'`);
+        if (this.debug) CSS.Msg(`Played Soundevent '${soundevent_name}' to Player '${player_name}'`);
         this.current_sound_is_playing = true;
     }
 

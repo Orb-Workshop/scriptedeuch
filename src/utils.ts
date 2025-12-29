@@ -6,7 +6,7 @@ import {
 } from "cs_script/point_script";
 
 export function DeepCopy(o) {
-  return JSON.parse(JSON.stringify(o));
+    return JSON.parse(JSON.stringify(o));
 }
 
 export function GetPlayerName(player_pawn: CSPlayerPawn): string | null {
@@ -18,4 +18,27 @@ export function GetPlayerName(player_pawn: CSPlayerPawn): string | null {
         !player_controller.IsValid())
         return null;
     return player_controller.GetPlayerName();
+}
+
+export const Memoize = (func) => {
+    const cache = {};
+    return (...args) => {
+        let strKey = args.join(',');
+        if(!cache[strKey]){
+            cache[strKey] = func.apply(this, args);
+        }
+        return cache[strKey];
+    }
+}
+
+export function GenerateAddOutput(opts) {
+    const {
+        output_name,
+        target_name,
+        input_name,
+        parameter = "",
+        delay = 0,
+        max = -1, // infinite
+    } = opts;
+    return `${output_name}>${target_name}>${input_name}>${parameter}>${delay}>${max}`;
 }
