@@ -48,10 +48,9 @@ class EventMessageSystem extends System {
         this.num_ticks++;
     }
 }
-mount.register("EventMessages", new EventMessageSystem());
 
-const healthRegenSystem = new PlayerHealthRegenerationSystem();
-mount.register("HealthRegenSystem", healthRegenSystem);
+mount.register("EventMessages", new EventMessageSystem());
+mount.register("HealthRegen", new PlayerHealthRegenerationSystem());
 
 CSS.Msg("Systems: " + mount.list().join(", "))
 mount.start(); // go
