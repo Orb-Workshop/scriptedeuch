@@ -13,43 +13,16 @@ import {
     PlayerHealthRegenerationSystem,
     GameAnnouncerSystem,
     SoundEventSystem,
+
+    // Asset Discovery
+    FindSoundTemplate,
 } from "./index.ts";
+CSS.Msg("Scriptedeuch!");
 let mount = Mount.instance;
 
-CSS.Msg("Scriptedeuch!");
+const soundEventSystem = new SoundEventSystem();
+mount.register("SoundEventSystem", soundEventSystem);
 
-class EventMessageSystem extends System {
-    constructor() {
-        super();
-        this.SetTickInterval(5); // 5 Seconds Per Tick
-        this.num_ticks = 0;
-    }
-
-    private getPlayerName(player_pawn) {
-        return GetPlayerName(player_pawn) ?? "N/A";
-    }
-    
-    override HandleActivate() {
-        CSS.Msg("Event: OnActivate!");
-    }
-
-    override HandleScriptReloadBefore() {
-        CSS.Msg("Event: OnScriptReload:Before");
-    }
-    
-    override HandlePlayerKill(event) {
-        CSS.Msg("Event: OnPlayerKill - " + this.getPlayerName(event.player));
-    }
-
-    override HandlePlayerLand(event) {
-        CSS.Msg("Event: OnPlayerLand - " + this.getPlayerName(event.player));
-    }
-    
-    override Think() {
-        CSS.Msg("Event: Think - " + this.num_ticks);
-        this.num_ticks++;
-    }
-}
 
 const gameAnnouncerSystem = new GameAnnouncerSystem({callback:(obj) => {
     obj = obj || {};
@@ -64,12 +37,10 @@ const gameAnnouncerSystem = new GameAnnouncerSystem({callback:(obj) => {
 
     CSS.Msg("Player Name: " + GetPlayerName(player_pawn));
     CSS.Msg("Player Stats: " + JSON.stringify(player_stats));
+    soundEventSystem.PlaySoundToPlayer(player_pawn, "UI.CounterBeep");
 }});
-
 mount.register("GameAnnouncer", gameAnnouncerSystem);
-mount.register("EventMessages", new EventMessageSystem());
 mount.register("HealthRegen", new PlayerHealthRegenerationSystem());
 
 CSS.Msg("Systems: " + mount.list().join(", "))
 mount.start(); // go
-

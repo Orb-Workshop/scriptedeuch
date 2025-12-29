@@ -5,6 +5,7 @@ import { Instance as CSS, PointTemplate } from "cs_script/point_script";
 
 export function FindTemplate(r: Regex): PointTemplate | undefined {
     const templates = CSS.FindEntitiesByClass("point_template");
+    for (const template of templates) CSS.Msg(template.GetEntityName());
     return templates.find((template) => r.test(template.GetEntityName()));
 }
 

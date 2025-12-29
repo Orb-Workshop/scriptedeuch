@@ -48,6 +48,7 @@ function AttachSoundToPlayer(obj) {
     empty_entity.SetParent(player_pawn);
     //CSS.EntFireAtTarget({target: empty_entity, input: "SetParentAttachment", value: "head_0"});
     CSS.EntFireAtTarget({target: soundevent_entity, input: "SetSoundEventName", value: soundevent_name});
+    CSS.DebugSphere({center: player_position, radius: 5, duration: 5});
     return soundevent_entity;
 }
 
@@ -64,7 +65,7 @@ class PlayerSoundEventController {
         this.current_sound_is_playing = false;
         this.soundevent_timeout = soundevent_timeout;
     }
-
+    
     queueSound(obj) {
         obj = obj || {};
         const {
@@ -133,6 +134,10 @@ export default class SoundEventSystem extends System {
         this.soundevent_timeout = soundevent_timeout;
     }
 
+    override HandleActivate() {
+        CSS.Msg("Sound Event System Activated!");
+    }
+    
     public PlaySoundToPlayer(player_pawn, soundevent_name, immediate=false) {
         const soundevent_entity = AttachSoundToPlayer({player_pawn, soundevent_name});
         const player_name = GetPlayerName(player_pawn) ?? "N/A";

@@ -1,7 +1,11 @@
 // Base Library
 export { default as Mount } from "./base/Mount.ts";
 export { default as System } from "./base/System.ts";
-export { FindTemplate } from "./base/Asset.ts";
+export {
+    FindTemplate,
+    FindSoundTemplate,
+    FindLightTemplate,
+} from "./base/Asset.ts";
 
 // Mountable Systems
 export { default as PlayerHealthRegenerationSystem } from "./system/PlayerHealthRegenerationSystem.ts";

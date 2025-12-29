@@ -28,7 +28,11 @@ export default class GameAnnouncerSystem extends System {
         
         if (this.callback === undefined) throw new Error("No callback provided");
     }
-
+    
+    override HandleActivate() {
+        CSS.Msg("Game Announcer System Activated!");
+    }
+    
     _resetPlayer(player_pawn) {
         const player_name = GetPlayerName(player_pawn);
         this.player_listing[player_name] = {
