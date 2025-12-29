@@ -17,10 +17,10 @@ export default class PlayerModelChangerSystem extends System {
             script_input_name = "SetRandomModel",
             
             t_models = [
-                "phase2/characters/models/tm_professional/tm_professional_varg_ag2.vmdl",
-                "phase2/characters/models/tm_professional/tm_professional_varf_ag2.vmdl",
-                "phase2/characters/models/tm_professional/tm_professional_varf5_ag2.vmdl",
-                "phase2/characters/models/tm_professional/tm_professional_varj_ag2.vmdl",
+                "characters/models/tm_professional/tm_professional_varg.vmdl",
+                "characters/models/tm_professional/tm_professional_varf.vmdl",
+                "characters/models/tm_professional/tm_professional_varf5.vmdl",
+                "characters/models/tm_professional/tm_professional_varj.vmdl",
             ],
             t_colors = [
                 {r: 255, g: 30,  b: 30},
@@ -30,10 +30,10 @@ export default class PlayerModelChangerSystem extends System {
                 {r: 255, g: 100, b: 100},
             ],
             ct_models = [
-                "phase2/characters/models/ctm_swat/ctm_swat_variante_ag2.vmdl",
-                "phase2/characters/models/ctm_st6/ctm_st6_variantm_ag2.vmdl",
-                "phase2/characters/models/ctm_swat/ctm_swat_variantf_ag2.vmdl",
-                "phase2/characters/models/ctm_gendarmerie/ctm_gendarmerie_variante_ag2.vmdl"
+                "characters/models/ctm_swat/ctm_swat_variante.vmdl",
+                "characters/models/ctm_st6/ctm_st6_variantm.vmdl",
+                "characters/models/ctm_swat/ctm_swat_variantf.vmdl",
+                "characters/models/ctm_gendarmerie/ctm_gendarmerie_variante.vmdl",
             ],
             ct_colors = [
                 {r: 30,  g: 30,   b: 255},
