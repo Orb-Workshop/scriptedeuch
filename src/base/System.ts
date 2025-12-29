@@ -7,9 +7,8 @@ export default abstract class System {
     private system_enabled: bool = false;
     private system_last_think_time: number = 0;
     private system_think_interval: number = 1/128.; // Immediate (Pegged to 64 Tick)
-    SetTickInterval(i: number) {
-        this.system_think_interval = 1/i;
-    }
+    SetTickInterval(i: number) { this.system_think_interval = i; }
+    SetTick(i: number) { this.SetTickInterval(1/i) }
     Think(): void { } // Override for CSS.SetThink
     MaybeThink(): void {
         let current_game_time = CSS.GetGameTime();

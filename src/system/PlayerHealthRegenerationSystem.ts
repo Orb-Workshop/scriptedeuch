@@ -21,7 +21,7 @@ export default class PlayerHealthRegenerationSystem extends System {
         this.max_health_recovery = max_health_recovery;
         this.player_listing = {};
         this.current_time = CSS.GetGameTime();
-        this.SetTickInterval(tick_rate);
+        this.SetTick(tick_rate);
     }
 
     Think() {

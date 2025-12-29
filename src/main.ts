@@ -3,9 +3,14 @@ import {
     CSPlayerPawn,
 } from "cs_script/point_script";
 import {
-    // Base Mountpoint Singleton
+    // Mounting System
     Mount, System,
+    
+    // Utils
     GetPlayerName,
+
+    // Systems
+    PlayerHealthRegenerationSystem,
 } from "./index.ts";
 let mount = Mount.instance;
 
@@ -14,7 +19,7 @@ CSS.Msg("Scriptedeuch!");
 class EventMessageSystem extends System {
     constructor() {
         super();
-        this.SetTickInterval(1); // 1 Tick Per Second
+        this.SetTickInterval(5); // 5 Seconds Per Tick
         this.num_ticks = 0;
     }
 
@@ -44,5 +49,10 @@ class EventMessageSystem extends System {
     }
 }
 mount.register("EventMessages", new EventMessageSystem());
+
+const healthRegenSystem = new PlayerHealthRegenerationSystem();
+mount.register("HealthRegenSystem", healthRegenSystem);
+
 CSS.Msg("Systems: " + mount.list().join(", "))
 mount.start(); // go
+
