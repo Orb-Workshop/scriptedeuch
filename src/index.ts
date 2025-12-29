@@ -1,9 +1,12 @@
 // Base Library
 export { default as Mount } from "./base/Mount.ts";
 export { default as System } from "./base/System.ts";
+export { FindTemplate } from "./base/Asset.ts";
 
 // Mountable Systems
 export { default as PlayerHealthRegenerationSystem } from "./system/PlayerHealthRegenerationSystem.ts";
+export { default as SoundEventSystem } from "./system/SoundEventSystem.ts";
+export { default as GameAnnouncerSystem } from "./system/GameAnnouncerSystem.ts";
 
 // Utility Library
 export { DeepCopy, GetPlayerName } from "./utils.ts";

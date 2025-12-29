@@ -7,9 +7,8 @@ import { GetPlayerName } from "../utils.ts";
 import System from "../base/System.ts";
 
 export default class PlayerHealthRegenerationSystem extends System {
-    constructor(opts) {
+    constructor(opts = {}) {
         super();
-        opts = opts ?? {};
         let {
             regeneration_rate = 10.0,    // Health Per Second
             regeneration_delay = 5.0,    // Seconds
@@ -24,7 +23,7 @@ export default class PlayerHealthRegenerationSystem extends System {
         this.SetTick(tick_rate);
     }
 
-    Think() {
+    override Think() {
         Object.keys(this.player_listing).forEach((player_name) => {
             const current_game_time = CSS.GetGameTime();
             let {
@@ -82,14 +81,14 @@ export default class PlayerHealthRegenerationSystem extends System {
         return this.player_listing[player_name];
     }
 
-    HandleBeforePlayerDamage(event) {
+    override HandleBeforePlayerDamage(event) {
         const damage = event.damage || 0;
         const player_pawn = event.player;
         this._resetPlayer(player_pawn, damage);
         return {};
     }
 
-    HandleActivate() {
+    override HandleActivate() {
         CSS.Msg("Player Health Regeneration Activated!");
     }
     
