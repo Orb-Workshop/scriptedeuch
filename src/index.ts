@@ -12,7 +12,7 @@ export { default as PlayerHealthRegenerationSystem } from "./system/PlayerHealth
 export { default as PlayerModelChangerSystem } from "./system/PlayerModelChangerSystem.ts";
 export { default as SoundEventSystem } from "./system/SoundEventSystem.ts";
 export { default as GameAnnouncerSystem } from "./system/GameAnnouncerSystem.ts";
-
+export { default as DeathmatchSpawnerSystem } from "./system/DeathmatchSpawnerSystem.ts";
 
 // Utility Library
 export {
