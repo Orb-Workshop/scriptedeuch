@@ -42,7 +42,7 @@ export default class DeathmatchSpawnerSystem extends System {
 
     static GetAlivePlayers() {
         return DeathmatchPlayerSpawner.GetActivePlayers().filter((player_controller) => {
-            const player_pawn = player_controller.GetPawn();
+            const player_pawn = player_controller.GetPlayerPawn();
             return (player_pawn instanceof CSPlayerPawn &&
 	        player_pawn.IsValid() &&
 	        player_pawn.IsAlive());
@@ -51,7 +51,7 @@ export default class DeathmatchSpawnerSystem extends System {
 
     static GetDeadPlayers() {
         return DeathmatchPlayerSpawner.GetActivePlayers().filter((player_controller) => {
-            const player_pawn = player_controller.GetPawn();
+            const player_pawn = player_controller.GetPlayerPawn();
             return (!(player_pawn instanceof CSPlayerPawn) ||
 	        !player_pawn.IsValid() ||
 	        !player_pawn.IsAlive());
