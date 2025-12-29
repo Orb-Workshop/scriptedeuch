@@ -13,14 +13,11 @@ import {
     PlayerHealthRegenerationSystem,
     GameAnnouncerSystem,
     SoundEventSystem,
-
-    // Asset Discovery
-    FindSoundTemplate,
 } from "./index.ts";
 CSS.Msg("Scriptedeuch!");
 let mount = Mount.instance;
 
-const soundEventSystem = new SoundEventSystem();
+const soundEventSystem = new SoundEventSystem({debug: true});
 mount.register("SoundEventSystem", soundEventSystem);
 
 

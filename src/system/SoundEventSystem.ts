@@ -19,6 +19,7 @@ function AttachSoundToPlayer(obj) {
     const {
         player_pawn,
         soundevent_name,
+        debug = false,
     } = obj;
     if (!(player_pawn instanceof CSPlayerPawn)) {
         ErrorMessage("player_pawn is not an instance of CSPlayerPawn.");
@@ -48,7 +49,7 @@ function AttachSoundToPlayer(obj) {
     empty_entity.SetParent(player_pawn);
     //CSS.EntFireAtTarget({target: empty_entity, input: "SetParentAttachment", value: "head_0"});
     CSS.EntFireAtTarget({target: soundevent_entity, input: "SetSoundEventName", value: soundevent_name});
-    CSS.DebugSphere({center: player_position, radius: 5, duration: 5});
+    if (debug) CSS.DebugSphere({center: player_position, radius: 5, duration: 5});
     return soundevent_entity;
 }
 
@@ -58,12 +59,14 @@ class PlayerSoundEventController {
         let {
             player_pawn,
             soundevent_timeout = 5., // Seconds
+            debug = false,
         } = opts;
         this.player_pawn = player_pawn;
         this.player_name = GetPlayerName(player_pawn);
         this.event_listing = [];
         this.current_sound_is_playing = false;
         this.soundevent_timeout = soundevent_timeout;
+        this.debug = debug;
     }
     
     queueSound(obj) {
@@ -97,7 +100,7 @@ class PlayerSoundEventController {
         CSS.EntFireAtTarget({target: soundevent_entity, input: "StartSound"});
         this.event_listing[0].time_started = CSS.GetGameTime();
         const player_name = GetPlayerName(this.player_pawn) || "N/A";
-        CSS.Msg(`Played Soundevent '${soundevent_name}' to Player '${player_name}'`);
+        if (CSS.Msg(`Played Soundevent '${soundevent_name}' to Player '${player_name}'`);
         this.current_sound_is_playing = true;
     }
 
@@ -127,11 +130,13 @@ export default class SoundEventSystem extends System {
         let {
             tick_rate = 128.,
             soundevent_timeout = 5., // Seconds
+            debug = false,
         } = obj;
         
         this.SetTick(tick_rate);
         this.player_listing = new Map();
         this.soundevent_timeout = soundevent_timeout;
+        this.debug = debug;
     }
 
     override HandleActivate() {
@@ -139,19 +144,19 @@ export default class SoundEventSystem extends System {
     }
     
     public PlaySoundToPlayer(player_pawn, soundevent_name, immediate=false) {
-        const soundevent_entity = AttachSoundToPlayer({player_pawn, soundevent_name});
+        const soundevent_entity = AttachSoundToPlayer({player_pawn, soundevent_name, debug: this.debug});
         const player_name = GetPlayerName(player_pawn) ?? "N/A";
         if (!soundevent_entity) return;
 
         if (immediate) {
             // Play Immediately.
             CSS.EntFireAtTarget({target: soundevent_entity, input: "StartSound"});
-            CSS.Msg(`Played Soundevent '${soundevent_name}' to Player '${player_name}'`);
+            if (this.debug) CSS.Msg(`Played Soundevent '${soundevent_name}' to Player '${player_name}'`);
         }
         else {
             // Place in Sound Queue.
             this.queueSoundToPlayer({player_pawn, soundevent_entity, soundevent_name});
-            CSS.Msg(`Queued Soundevent '${soundevent_name}' to Player '${player_name}'`);
+            if (this.debug) CSS.Msg(`Queued Soundevent '${soundevent_name}' to Player '${player_name}'`);
         }
     }
     
