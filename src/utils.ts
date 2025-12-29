@@ -3,7 +3,7 @@ import {
     Instance as CSS,
     CSPlayerPawn,
     CSPlayerController,
-} from "./base/Root.ts";
+} from "cs_script/point_script";
 
 export function DeepCopy(o) {
   return JSON.parse(JSON.stringify(o));

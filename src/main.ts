@@ -1,8 +1,8 @@
 import {
-    CSPlayerPawn
+    Instance as CSS,
+    CSPlayerPawn,
 } from "cs_script/point_script";
 import {
-    CSS, // point_script Instance.
     // Base Mountpoint Singleton
     Mount, System,
     GetPlayerName,

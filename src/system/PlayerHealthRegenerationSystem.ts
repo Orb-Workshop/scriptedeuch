@@ -1,8 +1,8 @@
 import {
-    CSS,
+    Instance as CSS,
     CSPlayerPawn,
     CSPlayerController,
-} from "../base/Root.ts";
+} from "cs_script/point_script";
 import { GetPlayerName } from "../utils.ts";
 import System from "../base/System.ts";
 

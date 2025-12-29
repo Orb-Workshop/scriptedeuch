@@ -2,7 +2,7 @@
  * the 'Instance' methods. This class is meant to be a singleton mount
  * point for individual scripts to become composable pieces that can 'plug-in'.
  */
-import { CSS } from "./Root.ts";
+import { Instance as CSS } from "cs_script/point_script";
 import System from "./System.ts";
 
 export default class Mount {

@@ -1,7 +1,7 @@
 /*
   Base System class that all CSS systems should inherit.
 */
-import { CSS } from "./Root.ts";
+import { Instance as CSS } from "cs_script/point_script";
 
 export default abstract class System {
     private system_enabled: bool = false;
