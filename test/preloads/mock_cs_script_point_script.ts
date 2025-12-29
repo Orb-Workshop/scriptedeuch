@@ -8,5 +8,6 @@ mock.module("cs_script/point_script", () => {
         Msg: (msg) => console.log(msg),
         CSPlayerPawn: class CSPlayerPawn {},
         CSPlayerController: class CSPlayerController {},
+        PointTemplate: class PointTemplate {},
     };
 });
