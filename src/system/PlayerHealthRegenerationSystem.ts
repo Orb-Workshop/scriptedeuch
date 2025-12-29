@@ -28,10 +28,10 @@ export default class PlayerHealthRegenerationSystem extends System {
         Object.keys(this.player_listing).forEach((player_name) => {
             const current_game_time = CSS.GetGameTime();
             let {
-	        player_pawn,
-	        fractional_health,
-	        time_since_damaged = current_game_time,
-	        time_since_last_thought = current_game_time,
+                player_pawn,
+                fractional_health,
+                time_since_damaged = current_game_time,
+                time_since_last_thought = current_game_time,
             } = this.player_listing[player_name];
             this.player_listing[player_name].time_since_last_thought = current_game_time;
             if (!this._checkPlayer(player_pawn)) return;
@@ -45,7 +45,7 @@ export default class PlayerHealthRegenerationSystem extends System {
 
             let new_health = fractional_health + health_to_regenerate;
             if (Math.ceil(new_health) >= this.max_health_recovery)
-	        new_health = this.max_health_recovery;
+                new_health = this.max_health_recovery;
 
             this.player_listing[player_name].fractional_health = new_health;
             player_pawn.SetHealth(Math.ceil(new_health));
@@ -70,10 +70,10 @@ export default class PlayerHealthRegenerationSystem extends System {
 
     _checkPlayer(player_pawn) {
         return (player_pawn instanceof CSPlayerPawn &&
-	    player_pawn.IsValid() &&
-	    player_pawn.IsAlive() &&
-	    player_pawn.GetHealth() > 0 &&
-	    player_pawn.GetHealth() < this.max_health_recovery);
+            player_pawn.IsValid() &&
+            player_pawn.IsAlive() &&
+            player_pawn.GetHealth() > 0 &&
+            player_pawn.GetHealth() < this.max_health_recovery);
     }
 
     _getPlayer(player_pawn) {
@@ -97,7 +97,7 @@ export default class PlayerHealthRegenerationSystem extends System {
         Object.keys(this.player_listing).forEach((player_name) => {
             let { player_pawn } = this.player_listing[player_name];
             if (!this._checkPlayer(player_pawn))
-	        delete this.player_listing[player_name];
+                delete this.player_listing[player_name];
         });
     }
 }
