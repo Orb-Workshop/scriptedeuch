@@ -384,4 +384,18 @@
 	}
 
 
+        "player.announcement" = {
+                type = "csgo_mega"
+                use_distance_volume_mapping_curve = true
+                distance_volume_mapping_curve = [
+                    [ 0.0, 1.0, 0.0, 0.0, 2.0, 3.0, ],
+                    [ 20.0, 1.0, 0.0, 0.0, 2.0, 3.0, ],
+                    [ 20.1, 0.0, 0.0, 0.0, 2.0, 3.0, ],
+                ]
+                use_distance_unfiltered_stereo_mapping_curve = true
+                distance_unfiltered_stereo_mapping_curve = [
+                    [ 0.0, 1.0, 0.0, 0.0, 2.0, 3.0, ],
+                    [ 20.0, 1.0, 0.0, 0.0, 2.0, 3.0, ],
+                ]
+        }
 }

@@ -37,10 +37,11 @@ const gameAnnouncerSystem = new GameAnnouncerSystem({callback:(obj) => {
 
     CSS.Msg("Player Name: " + GetPlayerName(player_pawn));
     CSS.Msg("Player Stats: " + JSON.stringify(player_stats));
-    soundEventSystem.PlaySoundToPlayer(player_pawn, "UI.CounterBeep");
+    soundEventSystem.PlaySoundToPlayer(player_pawn, "Vote.Passed");
 }});
 mount.register("GameAnnouncer", gameAnnouncerSystem);
 mount.register("HealthRegen", new PlayerHealthRegenerationSystem());
 
 CSS.Msg("Systems: " + mount.list().join(", "))
 mount.start(); // go
+
