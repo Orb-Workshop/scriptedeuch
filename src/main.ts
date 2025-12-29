@@ -1,14 +1,18 @@
-import { Instance as CSS } from "cs_script/point_script";
-import { Vector3, QAngle } from "./index.ts";
+import {
+    CSS,
+    // Base Mountpoint Singleton
+    Mount, System,
+} from "./index.ts";
+let mount = Mount.instance;
 
-const v = Vector3.create();
-const q = QAngle.create();
 
-CSS.OnActivate(() => {
-    CSS.Msg("ScriptedEuch has been Activated!");
-});
+class ReloadMessageSystem extends System {
+    HandleScriptReloadBefore() {
+        CSS.Msg("Script Reloaded!!");
+    }
+}
+let reloadMessageSystem = new ReloadMessageSystem();
+mount.register("ReloadMessage", reloadMessageSystem);
+mount.start(); // go
 
-CSS.OnScriptReload({after:() => {
-    CSS.Msg("ScriptedEuch has been Reloaded!");
-}});
-
+CSS.Msg("Scriptedeuch Main Script Activated!!");
