@@ -6,14 +6,13 @@ import {
     // Utils
     GetPlayerName,
 
-    // Systems
+    // Mountable Systems
     PlayerHealthRegenerationSystem,
     PlayerModelChangerSystem,
     GameAnnouncerSystem,
     SoundEventSystem,
 } from "./index.ts";
 CSS.Msg("Scriptedeuch!");
-let mount = Mount.instance;
 
 const soundEventSystem = new SoundEventSystem({debug: false});
 const gameAnnouncerSystem = new GameAnnouncerSystem({callback:(obj) => {
@@ -33,11 +32,11 @@ const gameAnnouncerSystem = new GameAnnouncerSystem({callback:(obj) => {
 
 
 // Registering our Systems
-mount.register("SoundEvents", soundEventSystem);
-mount.register("GameAnnouncer", gameAnnouncerSystem);
-mount.register("HealthRegen", new PlayerHealthRegenerationSystem());
-mount.register("PlayerModelChanger", new PlayerModelChangerSystem({point_script_targetname: "main.script"}));
+Mount.Register("SoundEvents", soundEventSystem);
+Mount.Register("GameAnnouncer", gameAnnouncerSystem);
+Mount.Register("HealthRegen", new PlayerHealthRegenerationSystem());
+Mount.Register("PlayerModelChanger", new PlayerModelChangerSystem({point_script_targetname: "main.script"}));
 
 // Listing off what's running
-CSS.Msg("Systems: " + mount.list().join(", "))
-mount.start(); // go
+CSS.Msg("Systems: " + Mount.List().join(", "))
+Mount.Start(); // go

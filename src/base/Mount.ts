@@ -20,20 +20,24 @@ export default class Mount {
         return Mount._instance;
     }
 
-    public register(name: string, system: System) {
-        this.system_listing.set(name, system);
+    public static Register(name: string, system: System) {
+        const mount = Mount.instance;
+        mount.system_listing.set(name, system);
     }
 
-    public unregister(name: string) {
-        this.system_listing.delete(name);
+    public static Unregister(name: string) {
+        const mount = Mount.instance;
+        mount.system_listing.delete(name);
     }
 
-    public hasSystem(name: string): bool {
-        return this.system_listing.has(name);
+    public static HasSystem(name: string): bool {
+        const mount = Mount.instance;
+        return mount.system_listing.has(name);
     }
 
-    public getSystem(name: string): System | null {
-        return this.system_listing.get(name);
+    public static GetSystem(name: string): System | null {
+        const mount = Mount.instance;
+        return mount.system_listing.get(name);
     }
     
     private forEachSystem(f: (system: System) => void) {
@@ -139,36 +143,47 @@ export default class Mount {
             CSS.SetNextThink(CSS.GetGameTime()); // Pegged at highest tick rate (64-Tick)
         });
 
+        this._startSystems();
         this.mount_enabled = true;
     }
 
-    public start() {
-        this.go();
-        this.forEachSystem((system) => system.EnableSystem());
-        CSS.SetNextThink(CSS.GetGameTime());
+    public _startSystems() {
+        this.forEachSystem((system) => system.EnableSystem());        
     }
-
-    public stop() {
+    
+    public _stopSystems() {
         this.forEachSystem((system) => system.DisableSystem());
     }
     
-    public enable(name: string): bool {
-        if (this.hasSystem(name)) {
-            this.getSystem(name).EnableSystem();
+    public static Start() {
+        const mount = Mount.instance;
+        mount.go();
+        CSS.SetNextThink(CSS.GetGameTime());
+    }
+
+    public static Stop() {
+        const mount = Mount.instance;
+        mount._stopSystems();
+    }
+    
+    public static Enable(name: string): bool {
+        if (Mount.HasSystem(name)) {
+            Mount.GetSystem(name).EnableSystem();
             return true;
         }
         return false;
     }
 
-    public disable(name: string): bool {
-        if (this.hasSystem(name)) {
-            this.getSystem(name).DisableSystem();
+    public static Disable(name: string): bool {
+        if (Mount.HasSystem(name)) {
+            Mount.GetSystem(name).DisableSystem();
             return true;
         }
         return false;
     }
 
-    public list() {
-        return Array.from(this.system_listing.keys());
+    public static List() {
+        const mount = Mount.instance;
+        return Array.from(mount.system_listing.keys());
     }
 }
