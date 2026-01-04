@@ -17,3 +17,7 @@ export function FindSoundTemplate() {
 export function FindLightTemplate() {
     return FindTemplate(/scriptedeuch\.light\.template/);
 }
+
+export function FindDialogTemplate() {
+    return FindTemplate(/scriptedeuch\.dialog\.template/);
+}

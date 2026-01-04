@@ -29,7 +29,7 @@ export default class GameAnnouncerSystem extends System {
         if (this.callback === undefined) throw new Error("No callback provided");
     }
     
-    override HandleActivate() {
+    override OnActivate() {
         CSS.Msg("Game Announcer System Activated!");
     }
     
@@ -127,7 +127,7 @@ export default class GameAnnouncerSystem extends System {
         this._resetPlayer(player_pawn);
     }
 
-    override HandlePlayerKill(event) {
+    override OnPlayerKill(event) {
         const player_pawn_attacker = event.attacker;
         const player_pawn_death = event.player;
         const weapon_base = event.weapon;

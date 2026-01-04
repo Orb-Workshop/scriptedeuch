@@ -13,7 +13,7 @@ export { default as PlayerModelChangerSystem } from "./system/PlayerModelChanger
 export { default as SoundEventSystem } from "./system/SoundEventSystem.ts";
 export { default as GameAnnouncerSystem } from "./system/GameAnnouncerSystem.ts";
 export { default as DeathmatchSpawnerSystem } from "./system/DeathmatchSpawnerSystem.ts";
-
+export { default as DialogSystem } from "./system/DialogSystem.ts";
 // Utility Library
 export {
     DeepCopy,

@@ -56,83 +56,83 @@ export default class Mount {
     private go() {
         if (this.mount_enabled) return;
         CSS.OnActivate(() => {
-            this.forEachEnabledSystem((system) => system.HandleActivate());
+            this.forEachEnabledSystem((system) => system.OnActivate());
         });
         // TODO: Merge results
         CSS.OnBeforePlayerDamage((event) => {
             let result = null;
             this.forEachEnabledSystem((system) => {
-                const tmp_result = system.HandleBeforePlayerDamage(event);
+                const tmp_result = system.OnBeforePlayerDamage(event);
                 result = tmp_result ?? result;
             });
             if (result !== null) return result;
         });
         CSS.OnBombDefuse((event) => {
-            this.forEachEnabledSystem((system) => system.HandleBombDefuse(event));
+            this.forEachEnabledSystem((system) => system.OnBombDefuse(event));
         });
         CSS.OnBombPlant((event) => {
-            this.forEachEnabledSystem((system) => system.HandleBombPlant(event));
+            this.forEachEnabledSystem((system) => system.OnBombPlant(event));
         });
         CSS.OnBulletImpact((event) => {
-            this.forEachEnabledSystem((system) => system.HandleBulletImpact(event));
+            this.forEachEnabledSystem((system) => system.OnBulletImpact(event));
         });
         CSS.OnGrenadeBounce((event) => {
-            this.forEachEnabledSystem((system) => system.HandleGrenadeBounce(event));
+            this.forEachEnabledSystem((system) => system.OnGrenadeBounce(event));
         });
         CSS.OnGrenadeThrow((event) => {
-            this.forEachEnabledSystem((system) => system.HandleGrenadeThrow(event));
+            this.forEachEnabledSystem((system) => system.OnGrenadeThrow(event));
         });
         CSS.OnGunFire((event) => {
-            this.forEachEnabledSystem((system) => system.HandleGunFire(event));
+            this.forEachEnabledSystem((system) => system.OnGunFire(event));
         });
         CSS.OnGunReload((event) => {
-            this.forEachEnabledSystem((system) => system.HandleGunReload(event));
+            this.forEachEnabledSystem((system) => system.OnGunReload(event));
         });
         CSS.OnKnifeAttack((event) => {
-            this.forEachEnabledSystem((system) => system.HandleKnifeAttack(event));
+            this.forEachEnabledSystem((system) => system.OnKnifeAttack(event));
         });
         CSS.OnPlayerActivate((event) => {
-            this.forEachEnabledSystem((system) => system.HandlePlayerActivate(event));
+            this.forEachEnabledSystem((system) => system.OnPlayerActivate(event));
         });
         CSS.OnPlayerChat((event) => {
-            this.forEachEnabledSystem((system) => system.HandlePlayerChat(event));
+            this.forEachEnabledSystem((system) => system.OnPlayerChat(event));
         });
         CSS.OnPlayerConnect((event) => {
-            this.forEachEnabledSystem((system) => system.HandlePlayerConnect(event));
+            this.forEachEnabledSystem((system) => system.OnPlayerConnect(event));
         });
         CSS.OnPlayerDamage((event) => {
-            this.forEachEnabledSystem((system) => system.HandlePlayerDamage(event));
+            this.forEachEnabledSystem((system) => system.OnPlayerDamage(event));
         });
         CSS.OnPlayerDisconnect((event) => {
-            this.forEachEnabledSystem((system) => system.HandlePlayerDisconnect(event));
+            this.forEachEnabledSystem((system) => system.OnPlayerDisconnect(event));
         });
         CSS.OnPlayerJump((event) => {
-            this.forEachEnabledSystem((system) => system.HandlePlayerJump(event));
+            this.forEachEnabledSystem((system) => system.OnPlayerJump(event));
         });
         CSS.OnPlayerKill((event) => {
-            this.forEachEnabledSystem((system) => system.HandlePlayerKill(event));
+            this.forEachEnabledSystem((system) => system.OnPlayerKill(event));
         });
         CSS.OnPlayerLand((event) => {
-            this.forEachEnabledSystem((system) => system.HandlePlayerLand(event));
+            this.forEachEnabledSystem((system) => system.OnPlayerLand(event));
         });
         CSS.OnPlayerPing((event) => {
-            this.forEachEnabledSystem((system) => system.HandlePlayerPing(event));
+            this.forEachEnabledSystem((system) => system.OnPlayerPing(event));
         });
         CSS.OnPlayerReset((event) => {
-            this.forEachEnabledSystem((system) => system.HandlePlayerReset(event));
+            this.forEachEnabledSystem((system) => system.OnPlayerReset(event));
         });
         CSS.OnRoundEnd((event) => {
-            this.forEachEnabledSystem((system) => system.HandleRoundEnd(event));
+            this.forEachEnabledSystem((system) => system.OnRoundEnd(event));
         });
         CSS.OnRoundStart((event) => {
-            this.forEachEnabledSystem((system) => system.HandleRoundStart(event));
+            this.forEachEnabledSystem((system) => system.OnRoundStart(event));
         });
         CSS.OnScriptReload({
             before: () => {
-                this.forEachEnabledSystem((system) => system.HandleScriptReloadBefore());
+                this.forEachEnabledSystem((system) => system.OnScriptReloadBefore());
             },
             after: (memory) => {
-                this.forEachEnabledSystem((system) => system.HandleScriptReloadAfter(memory));
+                this.forEachEnabledSystem((system) => system.OnScriptReloadAfter(memory));
             }});
         
         // Handle tick intervals in each system.
@@ -142,8 +142,6 @@ export default class Mount {
             });
             CSS.SetNextThink(CSS.GetGameTime()); // Pegged at highest tick rate (64-Tick)
         });
-
-        this._startSystems();
         this.mount_enabled = true;
     }
 

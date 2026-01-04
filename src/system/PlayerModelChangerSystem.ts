@@ -109,7 +109,7 @@ export default class PlayerModelChangerSystem extends System {
         }
     }
 
-    override HandlePlayerReset(event) {
+    override OnPlayerReset(event) {
         const player_pawn = event.player;
         this.handlePlayerModel(player_pawn);
         this.handlePlayerColor(player_pawn);

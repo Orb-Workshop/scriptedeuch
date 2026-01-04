@@ -139,7 +139,7 @@ export default class SoundEventSystem extends System {
         this.debug = debug;
     }
 
-    override HandleActivate() {
+    override OnActivate() {
         CSS.Msg("Sound Event System Activated!");
     }
     

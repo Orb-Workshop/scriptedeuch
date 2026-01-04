@@ -81,14 +81,14 @@ export default class PlayerHealthRegenerationSystem extends System {
         return this.player_listing[player_name];
     }
 
-    override HandleBeforePlayerDamage(event) {
+    override OnBeforePlayerDamage(event) {
         const damage = event.damage || 0;
         const player_pawn = event.player;
         this._resetPlayer(player_pawn, damage);
         return {};
     }
 
-    override HandleActivate() {
+    override OnActivate() {
         CSS.Msg("Player Health Regeneration Activated!");
     }
     

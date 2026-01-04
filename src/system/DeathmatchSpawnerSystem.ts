@@ -121,11 +121,11 @@ export default class DeathmatchSpawnerSystem extends System {
         });
     }
 
-    override HandlePlayerKill() {
+    override OnPlayerKill() {
         this.Think();
     }
 
-    override HandlePlayerActivate() {
+    override OnPlayerActivate() {
         this.Think();
     }
 }

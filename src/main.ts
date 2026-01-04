@@ -11,6 +11,7 @@ import {
     PlayerModelChangerSystem,
     GameAnnouncerSystem,
     SoundEventSystem,
+    DialogSystem,
 } from "./index.ts";
 CSS.Msg("Scriptedeuch!");
 
@@ -36,7 +37,10 @@ Mount.Register("SoundEvents", soundEventSystem);
 Mount.Register("GameAnnouncer", gameAnnouncerSystem);
 Mount.Register("HealthRegen", new PlayerHealthRegenerationSystem());
 Mount.Register("PlayerModelChanger", new PlayerModelChangerSystem({point_script_targetname: "main.script"}));
+Mount.Register("DialogSystem", new DialogSystem());
+
 
 // Listing off what's running
 CSS.Msg("Systems: " + Mount.List().join(", "))
 Mount.Start(); // go
+
