@@ -30,17 +30,20 @@ const gameAnnouncerSystem = new GameAnnouncerSystem({callback:(obj) => {
     CSS.Msg("Player Stats: " + JSON.stringify(player_stats));
     soundEventSystem.PlaySoundToPlayer(player_pawn, "Vote.Passed", true);
 }});
+const dialogSystem = new DialogSystem();
+let dialog = dialogSystem.CreateDialog();
 
 
 // Registering our Systems
 Mount.Register("SoundEvents", soundEventSystem);
 Mount.Register("GameAnnouncer", gameAnnouncerSystem);
 Mount.Register("HealthRegen", new PlayerHealthRegenerationSystem());
-Mount.Register("PlayerModelChanger", new PlayerModelChangerSystem({point_script_targetname: "main.script"}));
-Mount.Register("DialogSystem", new DialogSystem());
+Mount.Register("PlayerModelChanger", new PlayerModelChangerSystem({
+    point_script_targetname: "main.script"
+}));
+Mount.Register("Dialog", dialogSystem);
 
 
 // Listing off what's running
 CSS.Msg("Systems: " + Mount.List().join(", "))
 Mount.Start(); // go
-

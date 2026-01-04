@@ -142,6 +142,7 @@ export default class Mount {
             });
             CSS.SetNextThink(CSS.GetGameTime()); // Pegged at highest tick rate (64-Tick)
         });
+        this._startSystems();
         this.mount_enabled = true;
     }
 
