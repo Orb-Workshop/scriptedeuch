@@ -4,6 +4,7 @@ import {
 } from "cs_script/point_script";
 import { FindByClass } from "../base/Asset.ts";
 
+
 /* 
    A helper class for 'trigger_multiple' entities
  */
