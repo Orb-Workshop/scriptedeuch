@@ -49,3 +49,7 @@ export {
 
 // Noise
 export { default as SimplexNoise } from "./noise/SimplexNoise.ts";
+
+// Entity Helpers
+export { default as EntityHelper } from "./helper/EntityHelper.ts";
+export { default as TriggerMultiple } from "./helper/TriggerMultiple.ts";
