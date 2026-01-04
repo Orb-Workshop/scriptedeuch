@@ -2,9 +2,11 @@
 export { default as Mount } from "./base/Mount.ts";
 export { default as System } from "./base/System.ts";
 export {
+    FindByClass,
     FindTemplate,
     FindSoundTemplate,
     FindLightTemplate,
+    FindDialogTemplate,
 } from "./base/Asset.ts";
 
 // Mountable Systems

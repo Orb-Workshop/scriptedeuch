@@ -4,9 +4,13 @@
 import { Instance as CSS, PointTemplate } from "cs_script/point_script";
 import { Memoize } from "../utils.ts";
 
+export function FindByClass(classname, r: Regex) {
+    const template = CSS.FindEntitiesByClass(classname);
+    return templates.find(template => r.test(template.GetEntityName()));
+}
+
 export function FindTemplate(r: Regex): PointTemplate | undefined {
-    const templates = CSS.FindEntitiesByClass("point_template");
-    return templates.find((template) => r.test(template.GetEntityName()));
+    return FindByClass("point_template", r)
 }
 //export const FindTemplate = Memoize(_FindTemplate);
 
