@@ -9,7 +9,7 @@ import {
     QAngle as QAngleType,
 } from "cs_script/point_script";
 import System from "../base/System.ts";
-import { FindProjectileTemplate, FindTemplate } from "../base/Asset.ts";
+import { FindTemplate } from "../base/Asset.ts";
 import { default as Vector } from "../math/Vector3.ts";
 import QAngle from "../math/QAngle.ts";
 
@@ -30,7 +30,7 @@ export default class ProjectileWeaponSystem extends System {
             weapon_class = "weapon_ak47",
             projectile_template_name = "scriptedeuch.projectile.template", // Default
             projectile_speed = 2600,
-            projectile_collision_radius = 0.01,
+            projectile_collision_radius = 1,
             projectile_fizzle_delay = 5.0, // Seconds
             explosion_template_name,
             spawn_forward_distance = 100.,
@@ -158,7 +158,7 @@ class ProjectileController {
             return;
         }
         
-        const current_position = this.entity.GetAbsOrigin();
+        const current_position = Vector.From(this.entity.GetAbsOrigin());
         const trace: TraceResult = CSS.TraceSphere({
             start: this.last_position,
             end: current_position,
@@ -178,15 +178,17 @@ class ProjectileController {
     }
     
     HandleCollision(trace: TraceResult) {
-        const impact_position = trace.end;
-
+        CSS.Msg("Hit!");
+        const impact_position = Vector.From(trace.end);
+        
         // TODO: spawn explosion template
 
-        const entity_hit = CSS.TraceLine({
-            start: this.last_position,
-            end: impact_position,
-            ignoreEntity: this.entity,
-        }).hitEntity;
+        const entity_hit = trace.hitEntity;
+        // const entity_hit = CSS.TraceLine({
+        //     start: this.last_position,
+        //     end: impact_position,
+        //     ignoreEntity: this.entity,
+        // }).hitEntity;
 
         if (entity_hit && entity_hit.IsValid() && entity_hit.GetClassName() === "player") {
             const player_hit = entity_hit as CSPlayerPawn;
@@ -200,5 +202,3 @@ class ProjectileController {
         }
     }
 }
-
-

@@ -35,7 +35,7 @@ const dialogSystem = new DialogSystem();
 let dialog = dialogSystem.CreateDialog();
 
 const projectileWeaponSystem = new ProjectileWeaponSystem({
-    projectile_speed: 1000,
+    projectile_speed: 1200,
 });
 
 // Registering our Systems
