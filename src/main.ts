@@ -35,7 +35,7 @@ const dialogSystem = new DialogSystem();
 let dialog = dialogSystem.CreateDialog();
 
 const projectileWeaponSystem = new ProjectileWeaponSystem({
-    projectile_speed: 100,
+    projectile_speed: 1000,
 });
 
 // Registering our Systems
@@ -52,4 +52,3 @@ Mount.Register("ProjectileTest", projectileWeaponSystem);
 // Listing off what's running
 CSS.Msg("Systems: " + Mount.List().join(", "))
 Mount.Start(); // go
-

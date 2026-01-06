@@ -7,3 +7,4 @@ test("QAngle.Create", () => {
     expect(v.yaw).toBe(0.);
     expect(v.roll).toBe(0.);
 });
+

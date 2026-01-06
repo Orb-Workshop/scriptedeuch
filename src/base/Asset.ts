@@ -4,12 +4,17 @@
 import { Instance as CSS, PointTemplate } from "cs_script/point_script";
 import { Memoize } from "../utils.ts";
 
-export function FindByClass(classname: string, r: Regex): PointTemplate | undefined {
+export function FindByClass(classname: string, r: RegExp | string): PointTemplate | undefined {
     const entities = CSS.FindEntitiesByClass(classname);
-    return entities.find(entity => r.test(entity.GetEntityName()));
+    if (typeof r == "string")
+        return entities.find(entity => entity.GetEntityName().includes(r));
+    else if (r.constructor.name === "RegExp")
+        return entities.find(entity => r.test(entity.GetEntityName()));
+    else
+        throw new Error("Unknown pattern type: " + typeof r);
 }
 
-export function FindTemplate(r: Regex): PointTemplate | undefined {
+export function FindTemplate(r: RegExp | string): PointTemplate | undefined {
     return FindByClass("point_template", r)
 }
 //export const FindTemplate = Memoize(_FindTemplate);
@@ -33,3 +38,4 @@ export function FindDialogTemplate() {
 export function FindProjectileTemplate() {
     return FindTemplate(/scriptedeuch\.projectile\.template/);
 }
+
