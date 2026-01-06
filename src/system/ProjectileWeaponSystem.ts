@@ -4,8 +4,8 @@ import {
 } from "cs_script/point_script";
 import System from "../base/System.ts";
 import { FindProjectileTemplate } from "../base/Asset.ts";
+import { Vector3 as Vector } from "../math/Vector3.ts";
 
-const default_projectile_template = FindProjectileTemplate();
 
 export default class ProjectileWeaponSystem extends System {
     private weapon_name: string;
@@ -15,7 +15,7 @@ export default class ProjectileWeaponSystem extends System {
     constructor(opts = {}) {
         const {
             weapon_name = "weapon_ak47",
-            projectile_template = default_projectile_template,
+            projectile_template = FindProjectileTemplate(), // Default
             explosion_template,
         } = opts;
 
@@ -34,7 +34,7 @@ export default class ProjectileWeaponSystem extends System {
     }
     
     private fireProjectile(player_pawn: CSPlayerPawn) {
-        
+        CSS.Msg("Projectiled Fired!");
     }
 }
 
