@@ -1,3 +1,5 @@
+import { Vector as VectorType } from "cs_script/point_script";
+
 export default class Vector3 {
     public x: number;
     public y: number;
@@ -12,10 +14,14 @@ export default class Vector3 {
     static Null: Vector3 = new Vector3(+Infinity, -Infinity, +Infinity);
     static Zero: Vector3 = new Vector3(0, 0, 0);
 
-    static create(x: number = 0, y: number = 0, z: number = 0): Vector3 {
+    static Create(x: number = 0, y: number = 0, z: number = 0): Vector3 {
         return new Vector3(x, y, z);
     }
 
+    static From({x, y, z}: VectorType) {
+        return new Vector3(x, y, z);
+    }
+    
     add(v: Vector3): Vector3 {
         this.x += v.x;
         this.y += v.y;
@@ -23,6 +29,10 @@ export default class Vector3 {
         return this;
     }
 
+    static Add(v1: Vector3, v2: Vector3) {
+        return 
+    }
+    
     sub(v: Vector3): Vector3 {
         this.x -= v.x;
         this.y -= v.y;

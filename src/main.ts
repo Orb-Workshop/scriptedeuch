@@ -34,7 +34,9 @@ const gameAnnouncerSystem = new GameAnnouncerSystem({callback:(obj) => {
 const dialogSystem = new DialogSystem();
 let dialog = dialogSystem.CreateDialog();
 
-const projectileWeaponSystem = new ProjectileWeaponSystem();
+const projectileWeaponSystem = new ProjectileWeaponSystem({
+    projectile_speed: 100,
+});
 
 // Registering our Systems
 Mount.Register("SoundEvents", soundEventSystem);
@@ -50,3 +52,4 @@ Mount.Register("ProjectileTest", projectileWeaponSystem);
 // Listing off what's running
 CSS.Msg("Systems: " + Mount.List().join(", "))
 Mount.Start(); // go
+

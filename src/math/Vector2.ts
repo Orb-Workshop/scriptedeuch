@@ -10,7 +10,7 @@ export default class Vector2 {
     static Null: Vector2 = new Vector2(+Infinity, -Infinity);
     static Zero: Vector2 = new Vector2(0, 0);
 
-    static create(x: number = 0, y: number = 0): Vector2 {
+    static Create(x: number = 0, y: number = 0): Vector2 {
         return new Vector2(x, y);
     }
 

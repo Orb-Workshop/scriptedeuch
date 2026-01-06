@@ -1,12 +1,13 @@
-// @ts-nocheck
+import Vector3 from "./Vector3.ts";
+
 export default class QAngle {
     static Zero = { pitch: 0, yaw: 0, roll: 0 };
 
-    static create(pitch = 0, yaw = 0, roll = 0) {
+    static Create(pitch = 0, yaw = 0, roll = 0) {
         return { pitch, yaw, roll };
     }
 
-    static clone(a) {
+    static Clone(a) {
         return { pitch: a.pitch, yaw: a.yaw, roll: a.roll };
     }
 
@@ -45,7 +46,7 @@ export default class QAngle {
         return deg * Math.PI / 180.;
     }
 
-    static NormalVector(angle) {
+    static NormalVector(angle): Vector3 {
         let pitch = QAngle.Deg2Rad(angle.pitch);
         let yaw = QAngle.Deg2Rad(angle.yaw);
 
@@ -53,7 +54,8 @@ export default class QAngle {
         let y = Math.sin(yaw) * Math.cos(pitch);
         let z = -Math.sin(pitch);
         
-        return {x, y, z};
+        return new Vector3(x, y, z);
     }
 
 }
+
