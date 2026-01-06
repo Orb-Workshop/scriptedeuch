@@ -7,6 +7,7 @@ export {
     FindSoundTemplate,
     FindLightTemplate,
     FindDialogTemplate,
+    FindProjectileTemplate,
 } from "./base/Asset.ts";
 
 // Mountable Systems
@@ -17,6 +18,7 @@ export { default as GameAnnouncerSystem } from "./system/GameAnnouncerSystem.ts"
 export { default as DeathmatchSpawnerSystem } from "./system/DeathmatchSpawnerSystem.ts";
 export { default as DialogSystem } from "./system/DialogSystem.ts";
 export { default as WeaponReplacementSystem } from "./system/WeaponReplacementSystem.ts";
+export { default as ProjectileWeaponSystem } from "./system/ProjectileWeaponSystem.ts";
 
 // Utility Library
 export {

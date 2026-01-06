@@ -12,6 +12,7 @@ import {
     GameAnnouncerSystem,
     SoundEventSystem,
     DialogSystem,
+    ProjectileWeaponSystem,
 } from "./index.ts";
 CSS.Msg("Scriptedeuch!");
 
@@ -33,6 +34,7 @@ const gameAnnouncerSystem = new GameAnnouncerSystem({callback:(obj) => {
 const dialogSystem = new DialogSystem();
 let dialog = dialogSystem.CreateDialog();
 
+const projectileWeaponSystem = new ProjectileWeaponSystem();
 
 // Registering our Systems
 Mount.Register("SoundEvents", soundEventSystem);
@@ -42,6 +44,7 @@ Mount.Register("PlayerModelChanger", new PlayerModelChangerSystem({
     point_script_targetname: "main.script"
 }));
 Mount.Register("Dialog", dialogSystem);
+Mount.Register("ProjectileTest", projectileWeaponSystem);
 
 
 // Listing off what's running
