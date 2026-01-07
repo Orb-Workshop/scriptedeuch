@@ -76,9 +76,8 @@ export default class ProjectileWeaponSystem extends System {
             this.fireProjectile(event.weapon);
         }
     }
-    
+
     private fireProjectile(weapon_base: CSWeaponBase) {
-        CSS.Msg("Projectile Fired!");
         const player_pawn = weapon_base.GetOwner();
         const player_eye_position = player_pawn.GetEyePosition();
         const player_eye_angles = player_pawn.GetEyeAngles();
@@ -112,10 +111,9 @@ export default class ProjectileWeaponSystem extends System {
             CSS.EntFireAtTarget({target: projectile_entity, input: "DisableGravity"});
         
         CSS.EntFireAtTarget({target: projectile_entity, input: "EnableMotion"});
-        CSS.EntFireAtTarget({target: projectile_entity, input: "Wake"});
-        
+        CSS.EntFireAtTarget({target: projectile_entity, input: "Wake"});        
         projectile_entity.Teleport({velocity: projectile_velocity});
-        CSS.Msg("Projectile Velocity: " + JSON.stringify(projectile_velocity));
+
 
         this.projectile_controllers.push(new ProjectileController({
             parent: this,

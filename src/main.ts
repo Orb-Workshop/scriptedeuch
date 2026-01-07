@@ -38,8 +38,9 @@ let dialog = dialogSystem.CreateDialog();
 const schedulingSystem = new SchedulingSystem();
 
 const projectileWeaponSystem = new ProjectileWeaponSystem({
-    projectile_speed: 12000,
-    projectile_gravity_enabled: false,
+    projectile_speed: 2000,
+    projectile_gravity_enabled: true,
+    projectile_collision_radius: 0.1,
 });
 
 projectileWeaponSystem.setInitCallback(({entity}) => {
