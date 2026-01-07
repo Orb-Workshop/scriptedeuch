@@ -13,6 +13,7 @@ import {
     SoundEventSystem,
     DialogSystem,
     ProjectileWeaponSystem,
+    SchedulingSystem,
 } from "./index.ts";
 CSS.Msg("Scriptedeuch!");
 
@@ -34,8 +35,19 @@ const gameAnnouncerSystem = new GameAnnouncerSystem({callback:(obj) => {
 const dialogSystem = new DialogSystem();
 let dialog = dialogSystem.CreateDialog();
 
+const schedulingSystem = new SchedulingSystem();
+
 const projectileWeaponSystem = new ProjectileWeaponSystem({
-    projectile_speed: 1200,
+    projectile_speed: 12000,
+    projectile_gravity_enabled: false,
+});
+
+projectileWeaponSystem.setInitCallback(({entity}) => {
+    const velocity = entity.GetAbsVelocity();
+    schedulingSystem.setTimeout(() => {
+        CSS.EntFireAtTarget({target: entity, input: "EnableGravity"});
+        entity.Teleport({velocity});
+    }, 1000);
 });
 
 // Registering our Systems
@@ -47,6 +59,7 @@ Mount.Register("PlayerModelChanger", new PlayerModelChangerSystem({
 }));
 Mount.Register("Dialog", dialogSystem);
 Mount.Register("ProjectileTest", projectileWeaponSystem);
+Mount.Register("Scheduling", schedulingSystem);
 
 
 // Listing off what's running

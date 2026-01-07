@@ -21,21 +21,15 @@ export function FindTemplate(r: RegExp | string): PointTemplate | undefined {
 
 // default
 export function FindSoundTemplate() {
-    return FindTemplate(/scriptedeuch\.soundevent\.template/);
+    return FindTemplate("scriptedeuch.soundevent.template");
 }
 
 // default
 export function FindLightTemplate() {
-    return FindTemplate(/scriptedeuch\.light\.template/);
+    return FindTemplate("scriptedeuch.light.template");
 }
 
 // default
 export function FindDialogTemplate() {
-    return FindTemplate(/scriptedeuch\.dialog\.template/);
+    return FindTemplate("scriptedeuch.dialog.template");
 }
-
-// default
-export function FindProjectileTemplate() {
-    return FindTemplate(/scriptedeuch\.projectile\.template/);
-}
-
