@@ -79,22 +79,12 @@ export default class ProjectileWeaponSystem extends System {
 
     private fireProjectile(weapon_base: CSWeaponBase) {
         const player_pawn = weapon_base.GetOwner();
-        const player_eye_position = player_pawn.GetEyePosition();
-        const player_eye_angles = player_pawn.GetEyeAngles();
-        const player_forward_vector = QAngle.NormalVector(player_eye_angles);
-
-        const spawn_position = Vector.Create(
-            player_eye_position.x +
-                player_forward_vector.x * this.spawn_forward_distance +
-                player_forward_vector.x * this.spawn_offset.x,
-
-            player_eye_position.y +
-                player_forward_vector.y * this.spawn_forward_distance +
-                player_forward_vector.y * this.spawn_offset.y,
-
-            player_eye_position.z +
-                player_forward_vector.z * this.spawn_forward_distance +
-                player_forward_vector.z * this.spawn_offset.z);
+        const player_eye_position = Vector.From(player_pawn.GetEyePosition());
+        const player_eye_angles = QAngle.From(player_pawn.GetEyeAngles());
+        const player_direction = player_eye_angles.direction();
+        const spawn_position = player_eye_position.add(
+            player_direction.scale(this.spawn_forward_distance));
+        // TODO: add spawn offset
 
         const projectile_template = FindTemplate(this.projectile_template_name);
         if (!projectile_template)
@@ -103,7 +93,7 @@ export default class ProjectileWeaponSystem extends System {
         const [projectile_entity] = projectile_template.ForceSpawn(
             spawn_position, player_eye_angles);
 
-        const projectile_velocity = player_forward_vector.scale(this.projectile_speed);
+        const projectile_velocity = player_direction.scale(this.projectile_speed);
 
         if (this.projectile_gravity_enabled)
             CSS.EntFireAtTarget({target: projectile_entity, input: "EnableGravity"});
@@ -121,7 +111,7 @@ export default class ProjectileWeaponSystem extends System {
             owner: player_pawn,
             weapon: weapon_base,
             initial_position: spawn_position,
-            initial_direction: player_forward_vector,
+            initial_direction: player_direction,
         }));
         
         // Cleanup after a delay

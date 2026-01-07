@@ -18,33 +18,26 @@ export default class Vector3 {
         return new Vector3(x, y, z);
     }
 
-    static From({x, y, z}: VectorType) {
+    static From({x, y, z}: VectorType): Vector3 {
         return new Vector3(x, y, z);
     }
     
     add(v: Vector3): Vector3 {
-        this.x += v.x;
-        this.y += v.y;
-        this.z += v.z;
-        return this;
-    }
-
-    static Add(v1: Vector3, v2: Vector3) {
-        return 
+        return new Vector3(this.x + v.x,
+                           this.y + v.y,
+                           this.z + v.z);
     }
     
     sub(v: Vector3): Vector3 {
-        this.x -= v.x;
-        this.y -= v.y;
-        this.z -= v.z;
-        return this;
+        return new Vector3(this.x - v.x,
+                           this.y - v.y,
+                           this.z - v.z);
     }
 
     scale(s: number): Vector3 {
-        this.x *= s;
-        this.y *= s;
-        this.z *= s;
-        return this;
+        return new Vector3(this.x * s,
+                           this.y * s,
+                           this.z * s);
     }
 
     dot(v: Vector3): number {

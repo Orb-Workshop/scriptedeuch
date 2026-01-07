@@ -38,13 +38,15 @@ let dialog = dialogSystem.CreateDialog();
 const schedulingSystem = new SchedulingSystem();
 
 const projectileWeaponSystem = new ProjectileWeaponSystem({
-    projectile_speed: 2000,
+    weapon_class: "weapon_ak47",
+    projectile_damage: 1,
+    projectile_speed: 33_480, // M80 Round
     projectile_gravity_enabled: true,
-    projectile_collision_radius: 0.1,
+    projectile_collision_radius: 1,
 });
 
 projectileWeaponSystem.setInitCallback(({entity}) => {
-    CSS.EntFireAtTarget({target: entity, input: "EnableGravity", delay: 1});
+    CSS.EntFireAtTarget({target: entity, input: "DisableGravity", delay: 1});
     schedulingSystem.setTimeout(() => {
         if (entity?.IsValid()) {
             entity?.Teleport({velocity: entity?.GetAbsVelocity()})
@@ -63,7 +65,6 @@ Mount.Register("PlayerModelChanger", new PlayerModelChangerSystem({
 Mount.Register("Dialog", dialogSystem);
 Mount.Register("ProjectileTest", projectileWeaponSystem);
 Mount.Register("Scheduling", schedulingSystem);
-
 
 // Listing off what's running
 CSS.Msg("Systems: " + Mount.List().join(", "))
