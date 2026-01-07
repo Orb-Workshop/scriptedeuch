@@ -13,10 +13,10 @@ import { FindTemplate } from "../base/Asset.ts";
 import { default as Vector } from "../math/Vector3.ts";
 import QAngle from "../math/QAngle.ts";
 
-type CallbackBase = (p: ProjectileController) => void;
-type InitCallbackParams = CallbackBase;
-type CollisionCallbackParams = (p: ProjectileController, t: TraceResult) => void;
-type ThinkCallbackParams = CallbackBase;
+type BaseHookFunction = (p: ProjectileController) => void;
+type InitHookFunction = BaseHookFunction;
+type CollisionHookFunction = (p: ProjectileController, t: TraceResult) => void;
+type ThinkHookFunction = BaseHookFunction;
 
 export default class ProjectileWeaponSystem extends System {
     private weapon_class: string;
@@ -30,14 +30,14 @@ export default class ProjectileWeaponSystem extends System {
     private spawn_offset: Vector;
     //
     private projectile_controllers: Array<ProjectileController> = [];
-    private on_init_callback: (p: ProjectileController) => void;
-    private on_collision_callback: (p: ProjectileController, t: TraceResult) => void;
-    private on_think_callback: (p: ProjectileController) => void;
+    private on_init_hook: InitHookFunction;
+    private on_collision_hook: CollisionHookFunction;
+    private on_think_hook: ThinkHookFunction;
     
     constructor({
         weapon_class = "weapon_ak47",
         projectile_template_name = "scriptedeuch.projectile.template", // Default
-        projectile_speed = 2600,
+        projectile_speed = 2_600,
         projectile_collision_radius = 1,
         projectile_fizzle_delay = 5.0, // Seconds
         projectile_gravity_enabled = true,
@@ -57,16 +57,16 @@ export default class ProjectileWeaponSystem extends System {
         this.spawn_offset = spawn_offset;
     }
 
-    public setInitCallback(callback: InitCallbackParams) {
-        this.on_init_callback = callback;
+    public setInitHook(hook: InitHookFunction) {
+        this.on_init_hook = hook;
     }
 
-    public setCollisionCallback(callback: CollisionCallbackParams) {
-        this.on_collision_callback = callback;
+    public setCollisionHook(hook: CollisionHookFunction) {
+        this.on_collision_hook = hook;
     }
 
-    public setThinkCallback(callback: ThinkCallbackParams) {
-        this.on_think_callback = callback;
+    public setThinkHook(hook: ThinkHookFunction) {
+        this.on_think_hook = hook;
     }
     
     override OnGunFire(event) {
@@ -161,9 +161,9 @@ class ProjectileController {
         this.collision_radius = this.parent.projectile_collision_radius;
         this.last_position = initial_position;
 
-        // Run Init Callback
-        if (this.parent.on_init_callback)
-            this.parent.on_init_callback(this);
+        // Run Init Hook
+        if (this.parent.on_init_hook)
+            this.parent.on_init_hook(this);
     }
 
     public isDirty() { return this.dirty; }
@@ -194,9 +194,9 @@ class ProjectileController {
             return;
         }
 
-        // Run Think Callback
-        if (this.parent.on_think_callback)
-            this.parent.on_think_callback(this);
+        // Run Think Hook
+        if (this.parent.on_think_hook)
+            this.parent.on_think_hook(this);
         
         this.last_position = current_position;
     }
@@ -215,9 +215,9 @@ class ProjectileController {
                 damageType: 1, // CRUSH?
             });
 
-            // Run Collision Callback
-            if (this.parent.on_collision_callback)
-                this.parent.on_collision_callback(this, trace);
+            // Run Collision Hook
+            if (this.parent.on_collision_hook)
+                this.parent.on_collision_hook(this, trace);
         }
     }
 }

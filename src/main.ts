@@ -40,12 +40,12 @@ const schedulingSystem = new SchedulingSystem();
 const projectileWeaponSystem = new ProjectileWeaponSystem({
     weapon_class: "weapon_ak47",
     projectile_damage: 1,
-    projectile_speed: 33_480, // M80 Round
+    projectile_speed: 33_480, // M80 Round, Inches Per Second
     projectile_gravity_enabled: true,
     projectile_collision_radius: 1,
 });
 
-projectileWeaponSystem.setInitCallback(({entity}) => {
+projectileWeaponSystem.setInitHook(({entity}) => {
     CSS.EntFireAtTarget({target: entity, input: "DisableGravity", delay: 1});
     schedulingSystem.setTimeout(() => {
         if (entity?.IsValid()) {
@@ -69,4 +69,3 @@ Mount.Register("Scheduling", schedulingSystem);
 // Listing off what's running
 CSS.Msg("Systems: " + Mount.List().join(", "))
 Mount.Start(); // go
-
