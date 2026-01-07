@@ -43,11 +43,13 @@ const projectileWeaponSystem = new ProjectileWeaponSystem({
 });
 
 projectileWeaponSystem.setInitCallback(({entity}) => {
-    const velocity = entity.GetAbsVelocity();
+    CSS.EntFireAtTarget({target: entity, input: "EnableGravity", delay: 1});
     schedulingSystem.setTimeout(() => {
-        CSS.EntFireAtTarget({target: entity, input: "EnableGravity"});
-        entity.Teleport({velocity});
-    }, 1000);
+        if (entity?.IsValid()) {
+            entity?.Teleport({velocity: entity?.GetAbsVelocity()})
+            CSS.Msg("Boop!");
+        }
+    }, 1100);
 });
 
 // Registering our Systems
@@ -65,3 +67,4 @@ Mount.Register("Scheduling", schedulingSystem);
 // Listing off what's running
 CSS.Msg("Systems: " + Mount.List().join(", "))
 Mount.Start(); // go
+

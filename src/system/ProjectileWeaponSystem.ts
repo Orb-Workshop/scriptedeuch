@@ -146,14 +146,14 @@ export default class ProjectileWeaponSystem extends System {
 }
 
 class ProjectileController {
-    private parent: ProjectileWeaponSystem;
-    private entity: Entity;
-    private owner: CSPlayerPawn;
-    private weapon: CSWeaponBase;
-    private initial_position: Vector;
-    private initial_direction: Vector;
-    private collision_radius: number;
-    private last_position: Vector;
+    public parent: ProjectileWeaponSystem;
+    public entity: Entity;
+    public owner: CSPlayerPawn;
+    public weapon: CSWeaponBase;
+    public initial_position: Vector;
+    public initial_direction: Vector;
+    public collision_radius: number;
+    public last_position: Vector;
     private dirty: boolean = false;
     
     constructor({
@@ -200,7 +200,7 @@ class ProjectileController {
         });
 
         if (trace.didHit) {
-            this.HandleCollision(trace);
+            this.handleCollision(trace);
             this.dirty = true;
             this.entity.Remove();
             return;
@@ -213,8 +213,8 @@ class ProjectileController {
         this.last_position = current_position;
     }
     
-    HandleCollision(trace: TraceResult) {
-        const impact_position = Vector.From(trace.end);
+    private handleCollision(trace: TraceResult) {
+        //const impact_position = Vector.From(trace.end);
         
         const entity_hit = trace.hitEntity;
         if (entity_hit && entity_hit.IsValid() && entity_hit.GetClassName() === "player") {
