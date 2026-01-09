@@ -1,8 +1,9 @@
-import { CSS as Instance } from "cs_script/point_script";
+import { Instance as CSS } from "cs_script/point_script";
 import Mount from "./Mount.ts";
 import System from "./System.ts";
 import { GenName } from "../utils.ts";
 
+const DEFAULT_ACTOR_POOL_NAME = "DefaultActorPool";
 
 interface ActorInterface {
     IsDirty: () => boolean;
@@ -18,8 +19,7 @@ export default abstract class Actor implements ActorInterface {
     private last_think: boolean = 0;
     private think_interval: number = 1/128;
     
-    constructor(actor_pool_name: string = "DefaultActorPool") {
-        CSS.Msg("Hail!");
+    constructor(actor_pool_name: string = DEFAULT_ACTOR_POOL_NAME) {
         if (!Mount.HasSystem(actor_pool_name)) {
             this.actor_pool = Mount.Register(actor_pool_name, new ActorSystem());
         }
@@ -31,7 +31,6 @@ export default abstract class Actor implements ActorInterface {
         this.actor_pool.Spawn(this);
     }
 
-   
     //
     // Actor Static Methods
     //
@@ -39,8 +38,10 @@ export default abstract class Actor implements ActorInterface {
     /**
        Send messages to other actors in the actor pool.
      */
-    static SendMessage(name: string, data: any) {
-        this.actor_pool.SendMessage(name, data);
+    static SendMessage(name: string, data: any, actor_pool_name: string = DEFAULT_ACTOR_POOL_NAME) {
+        const actor_pool = Mount.GetSystem(actor_pool_name) as ActorSystem;
+        if (!actor_pool) throw Error("Failed to Find Actor Pool: " + actor_pool_name);
+        actor_pool.SendMessage(name, data);
     }
 
     //
@@ -62,7 +63,7 @@ export default abstract class Actor implements ActorInterface {
     MaybeThink() {
         let current_game_time = CSS.GetGameTime();
         const lifetime = current_game_time - this.last_think
-        if (this.lifetime >= this.think_interval) {
+        if (lifetime >= this.think_interval) {
             this.Think();
             this.last_think = CSS.GetGameTime();
         }
@@ -97,9 +98,7 @@ type ThinkCallback = () => void;
 export class ThinkTask extends Actor {
     private callback: ThinkCallback;
     
-    constructor(callback: ThinkCallback, {
-        interval = 1.0, // Seconds
-    }) {
+    constructor(callback: ThinkCallback, interval = 1.0) {
         super();
         this.SetTickInterval(interval);
         this.callback = callback.bind(this);

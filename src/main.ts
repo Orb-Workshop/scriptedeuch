@@ -1,7 +1,9 @@
 import { Instance as CSS } from "cs_script/point_script";
 import {
     // Mounting System
-    Mount, System, Actor,
+    Mount,
+    System,
+    Actor,
     ThinkTask,
     MessageTask,
 
@@ -52,9 +54,17 @@ projectileWeaponSystem.setInitHook(({entity}) => {
     }, 1100);
 });
 
-//let TimedEvent = new ThinkTask(() => {
-//    CSS.Msg("Hello!");
-//})
+let TimedEvent = new ThinkTask(() => {
+    ThinkTask.SendMessage("Echo", {data: "Some Data"});
+}, 5);
+
+let TimedEvent2 = new ThinkTask(() => {
+    ThinkTask.SendMessage("Echo", {data: "Some Data2"});
+}, 4);
+
+let MessageEcho = new MessageTask((name, data) => {
+    if (name == "Echo") CSS.Msg("Echo: " + JSON.stringify(data));
+});
 
 // Registering our Systems
 Mount.Register("SoundEvents", soundEventSystem);
