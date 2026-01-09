@@ -42,3 +42,11 @@ export function GenerateAddOutput(opts) {
     } = opts;
     return `${output_name}>${target_name}>${input_name}>${parameter}>${delay}>${max}`;
 }
+
+let unique_names = new Map();
+export function GenerateUniqueName(s: string = "ScriptedEuch") {
+    const id = unique_names.getOrInsert(s, 0);
+    unique_names.set(s, id+1);
+    return s+id;
+}
+export let GenName = GenerateUniqueName;

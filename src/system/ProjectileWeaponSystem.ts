@@ -9,7 +9,7 @@ import {
     QAngle as QAngleType,
 } from "cs_script/point_script";
 import System from "../base/System.ts";
-import { FindTemplate } from "../base/Asset.ts";
+import { FindTemplate, FindProjectileTemplate } from "../base/Asset.ts";
 import { default as Vector } from "../math/Vector3.ts";
 import QAngle from "../math/QAngle.ts";
 
@@ -37,7 +37,7 @@ export default class ProjectileWeaponSystem extends System {
     constructor({
         weapon_class = "weapon_ak47",
         projectile_template_name = "scriptedeuch.projectile.template", // Default
-        projectile_speed = 2_600,
+        projectile_speed = 2000,
         projectile_collision_radius = 1,
         projectile_fizzle_delay = 5.0, // Seconds
         projectile_gravity_enabled = true,
@@ -70,14 +70,25 @@ export default class ProjectileWeaponSystem extends System {
     }
     
     override OnGunFire(event) {
-        const weapon_class = event.weapon.GetClassName();
-        const player_pawn = event.weapon.GetOwner();
+        const weapon_class = event?.weapon?.GetClassName();
+        const player_pawn = event?.weapon?.GetOwner();
         if (weapon_class == this.weapon_class) {
-            this.fireProjectile(event.weapon);
+            this.FireProjectileFromWeapon(event.weapon);
         }
     }
 
-    private fireProjectile(weapon_base: CSWeaponBase) {
+    public FireProjectile({position,
+                           rotation,
+                           velocity,
+                           projectile}:
+                          {position: Vector,
+                           rotation: QAngle,
+                           velocity: Vector,
+                           projectile: Projectile}) {
+        
+    }
+    
+    public FireProjectileFromWeapon(weapon_base: CSWeaponBase) {
         const player_pawn = weapon_base.GetOwner();
         const player_eye_position = Vector.From(player_pawn.GetEyePosition());
         const player_eye_angles = QAngle.From(player_pawn.GetEyeAngles());
@@ -90,7 +101,7 @@ export default class ProjectileWeaponSystem extends System {
         if (!projectile_template)
             throw new Error(
                 "Failed to find projectile template with name: " + this.projectile_template_name);
-        const [projectile_entity] = projectile_template.ForceSpawn(
+        const [projectile_entity, ...other_entities] = projectile_template.ForceSpawn(
             spawn_position, player_eye_angles);
 
         const projectile_velocity = player_direction.scale(this.projectile_speed);
@@ -104,10 +115,10 @@ export default class ProjectileWeaponSystem extends System {
         CSS.EntFireAtTarget({target: projectile_entity, input: "Wake"});        
         projectile_entity.Teleport({velocity: projectile_velocity});
 
-
         this.projectile_controllers.push(new ProjectileController({
             parent: this,
             entity: projectile_entity,
+            entity_children: other_entities,
             owner: player_pawn,
             weapon: weapon_base,
             initial_position: spawn_position,
@@ -117,14 +128,14 @@ export default class ProjectileWeaponSystem extends System {
         // Cleanup after a delay
         CSS.EntFireAtTarget({
             target: projectile_entity,
-            input: "Kill",
+            input: "KillHierarchy",
             delay: this.projectile_fizzle_delay, // Seconds
         });
     }
 
     private cleanup() {
         this.projectile_controllers = this.projectile_controllers.filter(
-            projectile => !projectile.isDirty());
+            projectile => !projectile.IsDirty());
     }
     
     override Think() {
@@ -136,6 +147,7 @@ export default class ProjectileWeaponSystem extends System {
 class ProjectileController {
     public parent: ProjectileWeaponSystem;
     public entity: Entity;
+    public entity_children: Array<Entity>;
     public owner: CSPlayerPawn;
     public weapon: CSWeaponBase;
     public initial_position: Vector;
@@ -147,6 +159,7 @@ class ProjectileController {
     constructor({
         parent,
         entity,
+        entity_children,
         owner,
         weapon,
         initial_position,
@@ -154,6 +167,7 @@ class ProjectileController {
     }) {
         this.parent = parent;
         this.entity = entity;
+        this.entity_children = entity_children;
         this.owner = owner;
         this.weapon = weapon;
         this.initial_position = initial_position;
@@ -166,7 +180,11 @@ class ProjectileController {
             this.parent.on_init_hook(this);
     }
 
-    public isDirty() { return this.dirty; }
+    public IsDirty() { return this.dirty; }
+    public Remove() {
+        if (this.entity.IsValid()) this.entity.Remove();
+        this.dirty = true;
+    }
     
     think() {
         if (this.dirty) return;
@@ -177,7 +195,7 @@ class ProjectileController {
             this.dirty = true;
             return;
         }
-        
+
         const current_position = Vector.From(this.entity.GetAbsOrigin());
         const trace: TraceResult = CSS.TraceSphere({
             start: this.last_position,
@@ -189,8 +207,6 @@ class ProjectileController {
 
         if (trace.didHit) {
             this.handleCollision(trace);
-            this.dirty = true;
-            this.entity.Remove();
             return;
         }
 
@@ -202,7 +218,7 @@ class ProjectileController {
     }
     
     private handleCollision(trace: TraceResult) {
-        //const impact_position = Vector.From(trace.end);
+        this.Remove();
         
         const entity_hit = trace.hitEntity;
         if (entity_hit && entity_hit.IsValid() && entity_hit.GetClassName() === "player") {
@@ -219,5 +235,45 @@ class ProjectileController {
             if (this.parent.on_collision_hook)
                 this.parent.on_collision_hook(this, trace);
         }
+    }
+}
+
+interface ProjectileInterface {
+    OnInit(): Function;
+    OnCollision(): Function;
+    OnThink(): Function;
+    IsDirty(): Function;
+}
+
+class Projectile implements ProjectileInterface {
+    public initial_position: Vector;
+    public initial_rotation: QAngle;
+    public initial_velocity: Vector;
+    public template: PointTemplate;
+    //
+    public entity: Entity;
+    public entity_children: Array<Entity>;
+    //
+    public lifetime: number;
+    constructor({position= Vector.Zero,
+                 rotation = QAngle.Zero,
+                 velocity = Vector.Zero,
+                 template = FindProjectileTemplate()}) {
+        this.initial_position = position;
+        this.initial_rotation = rotation;
+        this.initial_velocity = velocity;
+        this.template = template;
+    }
+
+    OnInit() {
+
+    }
+
+    OnCollision() {
+
+    }
+
+    OnThink() {
+        
     }
 }

@@ -1,7 +1,9 @@
 import { Instance as CSS } from "cs_script/point_script";
 import {
     // Mounting System
-    Mount, System,
+    Mount, System, Actor,
+    ThinkTask,
+    MessageTask,
     
     // Utils
     GetPlayerName,
@@ -40,9 +42,10 @@ const schedulingSystem = new SchedulingSystem();
 const projectileWeaponSystem = new ProjectileWeaponSystem({
     weapon_class: "weapon_ak47",
     projectile_damage: 1,
+    // Note: Projectile speed is clamped by engine(?)
     projectile_speed: 33_480, // M80 Round, Inches Per Second
-    projectile_gravity_enabled: true,
-    projectile_collision_radius: 1,
+    projectile_gravity_enabled: false,
+    projectile_collision_radius: 10,
 });
 
 projectileWeaponSystem.setInitHook(({entity}) => {
@@ -54,6 +57,10 @@ projectileWeaponSystem.setInitHook(({entity}) => {
         }
     }, 1100);
 });
+
+//let TimedEvent = new ThinkTask(() => {
+//    CSS.Msg("Hello!");
+//})
 
 // Registering our Systems
 Mount.Register("SoundEvents", soundEventSystem);

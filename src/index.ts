@@ -2,6 +2,11 @@
 export { default as Mount } from "./base/Mount.ts";
 export { default as System } from "./base/System.ts";
 export {
+    Actor,
+    ThinkTask,
+    MessageTask,
+} from "./base/Actor.ts";
+export {
     FindByClass,
     FindTemplate,
     FindSoundTemplate,
@@ -26,6 +31,8 @@ export {
     GetPlayerName,
     Memoize,
     GenerateAddOutput,
+    GenerateUniqueName,
+    GenName, 
 } from "./utils.ts";
 
 // Math Library

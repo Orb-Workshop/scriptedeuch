@@ -33,3 +33,8 @@ export function FindLightTemplate() {
 export function FindDialogTemplate() {
     return FindTemplate("scriptedeuch.dialog.template");
 }
+
+// default
+export function FindProjectileTemplate() {
+    return FindTemplate("scriptedeuch.projectile.template");
+}

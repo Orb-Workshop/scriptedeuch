@@ -20,9 +20,10 @@ export default class Mount {
         return Mount._instance;
     }
 
-    public static Register(name: string, system: System) {
+    public static Register(name: string, system: System): System {
         const mount = Mount.instance;
         mount.system_listing.set(name, system);
+        return system;
     }
 
     public static Unregister(name: string) {
