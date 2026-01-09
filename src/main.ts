@@ -4,23 +4,17 @@ import {
     Mount, System, Actor,
     ThinkTask,
     MessageTask,
-    
+
     // Utils
     GetPlayerName,
 
     // Mountable Systems
-    PlayerHealthRegenerationSystem,
-    PlayerModelChangerSystem,
-    GameAnnouncerSystem,
-    SoundEventSystem,
-    DialogSystem,
-    ProjectileWeaponSystem,
-    SchedulingSystem,
+    MSystems,
 } from "./index.ts";
 CSS.Msg("Scriptedeuch!");
 
-const soundEventSystem = new SoundEventSystem({debug: false});
-const gameAnnouncerSystem = new GameAnnouncerSystem({callback:(obj) => {
+const soundEventSystem = new MSystems.SoundEventSystem({debug: false});
+const gameAnnouncerSystem = new MSystems.GameAnnouncerSystem({callback:(obj) => {
     let {player_pawn, player_stats} = obj;
     let {kills_with_same_weapon = 0,
          killing_spree_weapon_name = null,
@@ -34,12 +28,12 @@ const gameAnnouncerSystem = new GameAnnouncerSystem({callback:(obj) => {
     CSS.Msg("Player Stats: " + JSON.stringify(player_stats));
     soundEventSystem.PlaySoundToPlayer(player_pawn, "Vote.Passed", true);
 }});
-const dialogSystem = new DialogSystem();
+const dialogSystem = new MSystems.DialogSystem();
 let dialog = dialogSystem.CreateDialog();
 
-const schedulingSystem = new SchedulingSystem();
+const schedulingSystem = new MSystems.SchedulingSystem();
 
-const projectileWeaponSystem = new ProjectileWeaponSystem({
+const projectileWeaponSystem = new MSystems.ProjectileWeaponSystem({
     weapon_class: "weapon_ak47",
     projectile_damage: 1,
     // Note: Projectile speed is clamped by engine(?)
@@ -65,8 +59,8 @@ projectileWeaponSystem.setInitHook(({entity}) => {
 // Registering our Systems
 Mount.Register("SoundEvents", soundEventSystem);
 Mount.Register("GameAnnouncer", gameAnnouncerSystem);
-Mount.Register("HealthRegen", new PlayerHealthRegenerationSystem());
-Mount.Register("PlayerModelChanger", new PlayerModelChangerSystem({
+Mount.Register("HealthRegen", new MSystems.PlayerHealthRegenerationSystem());
+Mount.Register("PlayerModelChanger", new MSystems.PlayerModelChangerSystem({
     point_script_targetname: "main.script"
 }));
 Mount.Register("Dialog", dialogSystem);

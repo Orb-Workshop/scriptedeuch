@@ -19,6 +19,7 @@ export default abstract class Actor implements ActorInterface {
     private think_interval: number = 1/128;
     
     constructor(actor_pool_name: string = "DefaultActorPool") {
+        CSS.Msg("Hail!");
         if (!Mount.HasSystem(actor_pool_name)) {
             this.actor_pool = Mount.Register(actor_pool_name, new ActorSystem());
         }
@@ -93,7 +94,7 @@ type ThinkCallback = () => void;
 /**
    Implementation of Actor as a repeatable think function task.
  */
-class ThinkTask extends Actor {
+export class ThinkTask extends Actor {
     private callback: ThinkCallback;
     
     constructor(callback: ThinkCallback, {
@@ -104,7 +105,7 @@ class ThinkTask extends Actor {
         this.callback = callback.bind(this);
     }
     
-    Think() {
+    override Think() {
         const chk = this.callback();
         if (chk?.abort === true) this.Remove();
     }
@@ -120,7 +121,7 @@ type MessageCallback = (name: string, data: any) => void;
    Implementation of Actor as a message passage task, for sending and
    receiving messages with actors.
  */
-class MessageTask extends Actor {
+export class MessageTask extends Actor {
     private callback: MessageCallback;
 
     constructor(message_callback: MessageCallback) {
@@ -128,7 +129,7 @@ class MessageTask extends Actor {
         this.callback = message_callback.bind(this);
     }
 
-    ReceiveMessage(name: string, data: any): void {
+    override ReceiveMessage(name: string, data: any): void {
         const chk = this.callback(name, data);
         if (chk?.abort === true) this.Remove();
     }
@@ -148,6 +149,7 @@ class ActorSystem extends System {
         super();
     }
 
+    // Called by Actor impl.
     Spawn(a: Actor) {
         this.actor_listing.push(a);
     }
