@@ -7,22 +7,27 @@ import { GetPlayerName } from "../utils";
 import { System } from "../base/index";
 
 export default class PlayerHealthRegenerationSystem extends System {
-    constructor(opts = {}) {
+    private current_time: number = CSS.GetGameTime();
+    private regeneration_rate: number;
+    private regeneration_delay: number;
+    private max_health_recovery: number;
+    private player_listing: {[key:string]:any};
+    
+    constructor({
+        regeneration_rate = 10.0,    // Health Per Second
+        regeneration_delay = 5.0,    // Seconds
+        max_health_recovery = 100.0, // Health Points
+        tick_rate = 128.,            // Immediate, pegged at 64-Tick
+    } = {}) {
         super();
-        let {
-            regeneration_rate = 10.0,    // Health Per Second
-            regeneration_delay = 5.0,    // Seconds
-            max_health_recovery = 100.0, // Health Points
-            tick_rate = 128.,            // Immediate, pegged at 64-Tick
-        } = opts;
         this.regeneration_rate = regeneration_rate;
         this.regeneration_delay = regeneration_delay;
         this.max_health_recovery = max_health_recovery;
         this.player_listing = {};
-        this.current_time = CSS.GetGameTime();
         this.SetTick(tick_rate);
     }
 
+   
     override Think() {
         Object.keys(this.player_listing).forEach((player_name) => {
             const current_game_time = CSS.GetGameTime();

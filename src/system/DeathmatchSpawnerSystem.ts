@@ -2,11 +2,14 @@ import {
     Instance as CSS,
     CSPlayerController,
     CSPlayerPawn,
+    Entity,
 } from "cs_script/point_script";
-import System from "../base/System";
+import { System } from "../base/index";
 import { default as Vector } from "../math/Vector3";
 
 export default class DeathmatchSpawnerSystem extends System {
+    private enabled_spawners: Array<Entity>;
+    
     constructor() {
         super();
         this.SetTick(5); // 5 Ticks Per Second
@@ -34,14 +37,14 @@ export default class DeathmatchSpawnerSystem extends System {
     static GetActivePlayers() {
         const TEAM_NUMBER_T = 2;
         const TEAM_NUMBER_CT = 3;
-        return DeathmatchPlayerSpawner.GetPlayerControllers().filter((player_controller) => {
+        return DeathmatchSpawnerSystem.GetPlayerControllers().filter((player_controller) => {
             const team_number = player_controller.GetTeamNumber();
             return (team_number === TEAM_NUMBER_T || team_number === TEAM_NUMBER_CT);
         });
     }
 
     static GetAlivePlayers() {
-        return DeathmatchPlayerSpawner.GetActivePlayers().filter((player_controller) => {
+        return DeathmatchSpawnerSystem.GetActivePlayers().filter((player_controller) => {
             const player_pawn = player_controller.GetPlayerPawn();
             return (player_pawn instanceof CSPlayerPawn &&
 	        player_pawn.IsValid() &&
@@ -50,7 +53,7 @@ export default class DeathmatchSpawnerSystem extends System {
     }
 
     static GetDeadPlayers() {
-        return DeathmatchPlayerSpawner.GetActivePlayers().filter((player_controller) => {
+        return DeathmatchSpawnerSystem.GetActivePlayers().filter((player_controller) => {
             const player_pawn = player_controller.GetPlayerPawn();
             return (!(player_pawn instanceof CSPlayerPawn) ||
 	        !player_pawn.IsValid() ||
@@ -59,7 +62,7 @@ export default class DeathmatchSpawnerSystem extends System {
     }
 
     _disableAllSpawners() {
-        this.player_spawners.forEach((spawner) => {
+        DeathmatchSpawnerSystem.RetrievePlayerSpawns().forEach((spawner) => {
             CSS.EntFireAtTarget({target: spawner, input: "SetDisabled"});
         });
         this.enabled_spawners = [];
@@ -71,25 +74,25 @@ export default class DeathmatchSpawnerSystem extends System {
     }
 
     _getDisabledSpawners() {
-        return DeathmatchPlayerSpawner.RetrievePlayerSpawns().filter((spawner) => {
+        return DeathmatchSpawnerSystem.RetrievePlayerSpawns().filter((spawner) => {
             return (this.enabled_spawners.indexOf(spawner) < 0);
         });
     }
 
     _scoreSpawner(spawner) {
-        const spawner_position = spawner.GetAbsOrigin();
-        const player_positions = DeathmatchPlayerSpawner.GetAlivePlayers().map((player_controller) => {
+        const spawner_position = Vector.From(spawner.GetAbsOrigin());
+        const player_positions = DeathmatchSpawnerSystem.GetAlivePlayers().map((player_controller) => {
             const player_pawn = player_controller.GetPlayerPawn();
-            return player_pawn.GetAbsOrigin();
+            return Vector.From(player_pawn.GetAbsOrigin());
         });
         const active_spawn_positions = this.enabled_spawners.map((spawner) => {
-            return spawner.GetAbsOrigin();
+            return Vector.From(spawner.GetAbsOrigin());
         });
 
         const all_positions = player_positions.concat(active_spawn_positions);
         let total_score = 0;
         all_positions.forEach((position) => {
-            const distance = Vector.distance(spawner_position, position);
+            const distance = spawner_position.distance(position);
             total_score += distance;
         });
         return [spawner, total_score];
@@ -97,8 +100,8 @@ export default class DeathmatchSpawnerSystem extends System {
 
     override Think() {
         this._disableAllSpawners();
-        CSS.Msg("Number of Dead Players: " + DeathmatchPlayerSpawner.GetDeadPlayers().length);
-        DeathmatchPlayerSpawner.GetDeadPlayers().forEach((_) => {
+        CSS.Msg("Number of Dead Players: " + DeathmatchSpawnerSystem.GetDeadPlayers().length);
+        DeathmatchSpawnerSystem.GetDeadPlayers().forEach((_) => {
             const spawner_scores = this._getDisabledSpawners().map((spawner) => {
 	        return this._scoreSpawner(spawner);
             });

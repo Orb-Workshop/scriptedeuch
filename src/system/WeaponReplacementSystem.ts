@@ -13,15 +13,21 @@ import { System } from "../base/index";
   }})
 */
 
+type Dict = {[key: string]: string};
 export default class WeaponReplacementSystem extends System {
-    constructor(opts) {
+    private primary: Dict;
+    private secondary: Dict;
+    private melee: Dict;
+    
+    constructor({
+        primary = {},
+        secondary = {},
+        melee = {},
+    }) {
         super();
-        let {
-            primary = {},
-            //secondary = {},
-            //melee = {},
-        } = opts;
         this.primary = primary;
+        this.secondary = secondary;
+        this.melee = melee;
     }
 
     override OnActivate() {
@@ -40,7 +46,7 @@ export default class WeaponReplacementSystem extends System {
     }
 
     public ReplaceWeapons(player_pawn: CSPlayerPawn) {
-        replacePrimary(player_pawn);
+        this.replacePrimary(player_pawn);
     }
     
     override Tick() {

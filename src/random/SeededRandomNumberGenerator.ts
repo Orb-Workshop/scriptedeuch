@@ -5,8 +5,8 @@
   - https://stackoverflow.com/questions/521295/seeding-the-random-number-generator-in-javascript
 
 */
-import { DeepCopy } from "../utils.ts";
-import { RandomSeed } from "./utils.ts";
+import { DeepCopy } from "../utils";
+import { RandomSeed } from "./utils";
 
 // Pad the input seed into a hashed value
 function cyrb128(str: string): [number, number, number, number] {
@@ -29,8 +29,8 @@ function cyrb128(str: string): [number, number, number, number] {
 
 
 // Seeded Random Number Generator Algorithm
-function sfc32(a: number, b: number, c: number, d: number): number {
-    return function() {
+function sfc32(a: number, b: number, c: number, d: number): () => number {
+    return () => {
         a |= 0; b |= 0; c |= 0; d |= 0;
         let t = (a + b | 0) + d | 0;
         d = d + 1 | 0;
@@ -43,14 +43,14 @@ function sfc32(a: number, b: number, c: number, d: number): number {
 }
 
 
-const DEFAULT_TOTAL_DISTRIBUTION = 10_000_000;
+const DEFAULT_TOTAL_DISTRIBUTION: number = 10_000_000;
 export default class SeededRandomNumberGenerator {
-    total_distribution: number;
-    seed: string;
-    hashed_seed: string;
-    generator: () => string;
+    private total_distribution: number;
+    private seed: string;
+    private hashed_seed: Array<number>;
+    private generator: () => number;
     
-    constructor(seed = RandomSeed(), options = {}) {
+    constructor(seed: string = RandomSeed(), options = {}) {
         this.total_distribution = options.total_distribution || DEFAULT_TOTAL_DISTRIBUTION;
 
         // Create cyrb128 state:

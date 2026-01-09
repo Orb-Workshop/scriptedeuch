@@ -22,7 +22,18 @@ type EdgeResult = {
   v.compute([new Point2(24, 24),
              new Point2(12, 12)]);
 */
+type VoronoiBBox = {
+    xl: number,
+    xr: number,
+    yt: number,
+    yb: number,
+};
+
 export default class Voronoi {
+    private bbox: VoronoiBBox;
+    private voronoi: RhillVoronoi = new RhillVoronoi();
+    private diagram = null;
+    
     // Bounding Box Representing Source2 Units. A 2000 x 2000 source2 unit map.
     static bbox_default = {
         xl: 0,
@@ -32,10 +43,7 @@ export default class Voronoi {
     };
 
     constructor(options = {}) {
-        this.options = options;
         this.bbox = options.bbox || Voronoi.bbox_default;
-        this.voronoi = new RhillVoronoi();
-        this.diagram = null;
     }
 
     _convertPointArrayToSites(point_array: Array<Point2>): Array<{x: number, y: number}> {

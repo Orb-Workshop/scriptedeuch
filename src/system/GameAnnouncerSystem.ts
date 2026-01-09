@@ -14,15 +14,17 @@ function IsFreeForAll() {
     return CSS.GetGameType() == 1 && CSS.GetGameMode() == 2;
 }
 
+type Dict = {[key: string]: any};
 export default class GameAnnouncerSystem extends System {
-    constructor(opts = {}) {
+    private player_listing: Dict = {};
+    private callback: Function;
+    private kill_award_interval: number;
+    
+    constructor({
+        callback,
+        kill_award_interval = 5.0, // Seconds,
+    } = {}) {
         super();
-
-        let {
-            callback,
-            kill_award_interval = 5.0, // Seconds,
-        } = opts;
-        this.player_listing = {};
         this.callback = callback;
         this.kill_award_interval = kill_award_interval;
         
@@ -118,7 +120,6 @@ export default class GameAnnouncerSystem extends System {
         player_stats.time_since_last_kill = current_game_time;
         this.callback({
             player_pawn: player_pawn_attacker,
-            player_pawn_death: player_pawn_death,
             player_stats: player_stats,
         });
     }

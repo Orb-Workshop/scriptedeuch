@@ -1,6 +1,7 @@
 import {
     Instance as CSS,
     CSPlayerPawn,
+    Color,
 } from "cs_script/point_script";
 import { System } from "../base/index";
 import RandomChoiceGenerator from "../random/RandomChoiceGenerator";
@@ -10,41 +11,49 @@ const T_TEAM_NUMBER = 2;
 const CT_TEAM_NUMBER = 3;
 
 export default class PlayerModelChangerSystem extends System {
-    constructor(opts = {}) {
+    private point_script_targetname: string;
+    private script_input_name: string;
+
+    // Generators
+    private t_model_gen: Generator<string>;
+    private t_color_gen: Generator<Color>;
+    private ct_model_gen: Generator<string>;
+    private ct_color_gen: Generator<Color>;
+    
+    constructor({
+        point_script_targetname,
+        script_input_name = "SetRandomModel",
+        
+        t_models = [
+            "characters/models/tm_professional/tm_professional_varg.vmdl",
+            "characters/models/tm_professional/tm_professional_varf.vmdl",
+            "characters/models/tm_professional/tm_professional_varf5.vmdl",
+            "characters/models/tm_professional/tm_professional_varj.vmdl",
+        ],
+        t_colors = [
+            {r: 255, g: 30,  b: 30},
+            {r: 255, g: 40,  b: 40},
+            {r: 255, g: 45,  b: 45},
+            {r: 255, g: 75,  b: 75},
+            {r: 255, g: 100, b: 100},
+        ],
+        ct_models = [
+            "characters/models/ctm_swat/ctm_swat_variante.vmdl",
+            "characters/models/ctm_st6/ctm_st6_variantm.vmdl",
+            "characters/models/ctm_swat/ctm_swat_variantf.vmdl",
+            "characters/models/ctm_gendarmerie/ctm_gendarmerie_variante.vmdl",
+        ],
+        ct_colors = [
+            {r: 30,  g: 30,   b: 255},
+            {r: 50,  g: 50,   b: 255},
+            {r: 0,   g: 100,  b: 255},
+            {r: 70,  g: 70,   b: 255},
+            {r: 100, g: 100,  b: 255},
+            {r: 100, g: 120,  b: 255},
+            {r: 120, g: 120,  b: 255},
+        ],
+    } = {}) {
         super();
-        let {
-            point_script_targetname,
-            script_input_name = "SetRandomModel",
-            
-            t_models = [
-                "characters/models/tm_professional/tm_professional_varg.vmdl",
-                "characters/models/tm_professional/tm_professional_varf.vmdl",
-                "characters/models/tm_professional/tm_professional_varf5.vmdl",
-                "characters/models/tm_professional/tm_professional_varj.vmdl",
-            ],
-            t_colors = [
-                {r: 255, g: 30,  b: 30},
-                {r: 255, g: 40,  b: 40},
-                {r: 255, g: 45,  b: 45},
-                {r: 255, g: 75,  b: 75},
-                {r: 255, g: 100, b: 100},
-            ],
-            ct_models = [
-                "characters/models/ctm_swat/ctm_swat_variante.vmdl",
-                "characters/models/ctm_st6/ctm_st6_variantm.vmdl",
-                "characters/models/ctm_swat/ctm_swat_variantf.vmdl",
-                "characters/models/ctm_gendarmerie/ctm_gendarmerie_variante.vmdl",
-            ],
-            ct_colors = [
-                {r: 30,  g: 30,   b: 255},
-                {r: 50,  g: 50,   b: 255},
-                {r: 0,   g: 100,  b: 255},
-                {r: 70,  g: 70,   b: 255},
-                {r: 100, g: 100,  b: 255},
-                {r: 100, g: 120,  b: 255},
-                {r: 120, g: 120,  b: 255},
-            ],
-        } = opts;
         if (point_script_targetname === undefined) throw new Error("Require 'point_script_targetname'");
         this.point_script_targetname = point_script_targetname;
         this.script_input_name = script_input_name;

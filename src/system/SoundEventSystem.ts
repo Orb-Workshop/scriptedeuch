@@ -13,13 +13,18 @@ function ErrorMessage(msg) {
     CSS.Msg("Game Announcer Error: " + msg);
 }
 
-function AttachSoundToPlayer(obj) {
-    obj = obj || {};
-    const {
-        player_pawn,
-        soundevent_name,
-        debug = false,
-    } = obj;
+type AttachSoundToPlayerParams = {
+    player_pawn:CSPlayerPawn,
+    soundevent_name: string,
+    debug: boolean,
+}
+
+function AttachSoundToPlayer({
+    player_pawn,
+    soundevent_name,
+    debug = false,
+}: AttachSoundToPlayerParams = {}) {
+
     if (!(player_pawn instanceof CSPlayerPawn)) {
         ErrorMessage("player_pawn is not an instance of CSPlayerPawn.");
         return null;
@@ -28,7 +33,7 @@ function AttachSoundToPlayer(obj) {
 
     let soundevent_template = Default.SoundTemplate();
     if (!(soundevent_template instanceof PointTemplate)) {
-        ErrorMessage(`point_template named " + '${template_target}' is missing...`);
+        ErrorMessage(`soundevent point_template is missing...`);
         return null;
     }
     
@@ -44,6 +49,7 @@ function AttachSoundToPlayer(obj) {
     // Slight Workaround: attempting to parent the point_soundevent
     // directly failed to work, so i'm parenting a
     // prop_dynamic_ornament, which has the point_soundevent parented.
+    // FIXME: attempt to get best practise working, possibly a bug on valve's end.
     empty_entity.Teleport({position: player_position});
     empty_entity.SetParent(player_pawn);
     //CSS.EntFireAtTarget({target: empty_entity, input: "SetParentAttachment", value: "head_0"});
@@ -54,27 +60,28 @@ function AttachSoundToPlayer(obj) {
 
 
 class PlayerSoundEventController {
-    constructor(opts = {}) {
-        let {
-            player_pawn,
-            soundevent_timeout = 5., // Seconds
-            debug = false,
-        } = opts;
+    private event_listing: Array<any> = [];
+    private current_sound_is_playing: boolean = false;
+    private player_pawn: CSPlayerPawn;
+    private player_name: string;
+    private soundevent_timeout: number;
+    private debug: boolean;
+    
+    constructor({
+        player_pawn,
+        soundevent_timeout = 5., // Seconds
+        debug = false,
+    } = {}) {
         this.player_pawn = player_pawn;
         this.player_name = GetPlayerName(player_pawn);
-        this.event_listing = [];
-        this.current_sound_is_playing = false;
         this.soundevent_timeout = soundevent_timeout;
         this.debug = debug;
     }
-    
-    queueSound(obj) {
-        obj = obj || {};
-        const {
-            soundevent_name,
-            soundevent_entity,
-        } = obj;
 
+    queueSound({
+        soundevent_name,
+        soundevent_entity,
+    } = {}) {
         const connection_id = CSS.ConnectOutput(soundevent_entity, "OnSoundFinished", (_) => {
             this._popQueue();
             this.current_sound_is_playing = false;
@@ -123,17 +130,17 @@ class PlayerSoundEventController {
 }
 
 export default class SoundEventSystem extends System {
-    constructor(obj = {}) {
+    private player_listing: Map<string, PlayerSoundEventController> = new Map();
+    private soundevent_timeout: number;
+    private debug: boolean;
+    
+    constructor({
+        tick_rate = 128.,
+        soundevent_timeout = 5., // Seconds
+        debug = false,
+    } = {}) {
         super();
-
-        let {
-            tick_rate = 128.,
-            soundevent_timeout = 5., // Seconds
-            debug = false,
-        } = obj;
-        
         this.SetTick(tick_rate);
-        this.player_listing = new Map();
         this.soundevent_timeout = soundevent_timeout;
         this.debug = debug;
     }

@@ -70,12 +70,12 @@ export default class SimplexNoise {
     /** Main Static Method */
     static noise(xin: number, yin: number): number {
         // Import our static members
-        const grad3: Array<number> = SimplexNoise.grad3;
+        const grad3: Array<Grad> = SimplexNoise.grad3;
         const perm: Array<number> = SimplexNoise.perm;
         const permMod12: Array<number> = SimplexNoise.permMod12;
         const F2: number = SimplexNoise.F2;
         const G2: number = SimplexNoise.G2;
-        let dot: number = SimplexNoise.dot;
+        const dot: Function = SimplexNoise.dot;
         //
         let n0: number = 0.;
         let n1: number = 0.;

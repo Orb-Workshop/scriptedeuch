@@ -12,10 +12,6 @@ export default class DialogSystem extends System {
 
     constructor(opts = {}) {
         super();
-
-        let {
-            
-        } = opts;
     }
 
     override OnActivate() {
@@ -28,33 +24,35 @@ export default class DialogSystem extends System {
         return dialog;
     }
 
-    override Tick() {
-        this.dialog_listing.forEach(dialog => dialog.tick());
+    override Think() {
+        this.dialog_listing.forEach(dialog => dialog.think());
     }
 }
 
+type TextFieldOptions = {template?: PointTemplate}
+
 class Dialog {
     public fields: Array<DialogField> = [];
-    public cleanup: bool = false;
+    public cleanup: boolean = false;
     
-    constructor(opts = {}) {
-        let {
-            position = Vector.Zero,
-            rotation = QAngle.Zero,
-        } = opts;
+    constructor({
+        position = Vector.Zero,
+        rotation = QAngle.Zero,
+    } = {}) {
+        
     }
 
-    public AddTextField(msg, opts = {}) {
+    public AddTextField(msg: string, opts: TextFieldOptions = {}) {
         opts.template = opts.template ?? Default.DialogTemplate();
         this.fields.push(new Text(msg, opts))
     }
         
-    public AddClickableTextField(msg, callback, opts = {}) {
+    public AddClickableTextField(msg, callback, opts: TextFieldOptions = {}) {
         opts.template = opts.template ?? Default.DialogTemplate();
     }
 
-    public tick() {
-        this.fields.forEach(field => field.tick());
+    public think() {
+        this.fields.forEach(field => field.think());
     }
 
     // Show the dialog.
@@ -69,25 +67,29 @@ class Dialog {
 }
 
 class DialogField {
-    tick() {
+    think() {
 
     }
 }
 
 class Text extends DialogField {
-    constructor(msg, opts = {}) {
+    private template: PointTemplate;
+    
+    constructor(msg, {
+        template = Default.DialogTemplate(),
+    } = {}) {
         super();
-        let {
-            template = Default.DialogTemplate(),
-        } = opts;
+        this.template = template;
     }
 }
 
 class ClickableText extends DialogField {
-    constructor(msg, opts = {}) {
+    private template: PointTemplate;
+    
+    constructor(msg, {
+        template = Default.DialogTemplate(),
+    } = {}) {
         super();
-        let {
-            template = Default.DialogTemplate(),
-        } = opts;
+        this.template = template;
     }
 }
