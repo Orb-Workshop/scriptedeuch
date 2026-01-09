@@ -44,7 +44,7 @@ export function GenerateAddOutput(opts) {
 }
 
 
-export function* UniqueNameGenerator(s: string = "ScriptedEuch-") {
+function* UniqueNameGenerator(s) {
     let id = 0;
     while(true) {
         yield (s + id++);
