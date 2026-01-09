@@ -4,6 +4,7 @@ import {
     CSPlayerPawn,
     CSWeaponBase,
     PointTemplate,
+    TraceResult,
 } from "cs_script/point_script";
 import { Actor, Asset, Default } from "../base/index.ts";
 import * as Math from "../math/index.ts";
@@ -11,24 +12,54 @@ import { UniqueGen } from "../utils.ts";
 
 const UniqueName = UniqueGen("Projectile-");
 
+export enum ProjectileState {
+    IDLE = 0;
+    FIRED = 1;
+    DEAD = 2;
+}
+
 export default class Projectile extends Actor {
     public name: string = UniqueName();
+    public state: ProjectileState = ProjectileState.IDLE;
     //
     public initial_position: Math.Vector3;
+    public last_position: Math.Vector3;
     public initial_rotation: Math.QAngle;
     public initial_velocity: Math.Vector3;
     public entity: Entity;
     public entity_children: Array<Entity>;
     public weapon: CSWeaponBase;
     public owner: CSPlayerPawn;
-    public name: string;
+    public fizzle_delay: number;
+    public damage: number;
+    public damage_type: number;
+    public ignore_players: boolean;
+    public remove_on_collision: boolean;
     
     static FromWeapon(weapon_base: CSWeaponBase, {
         template = Default.ProjectileTemplate(),
-        spawn_forward_distance = 100.,
-        spawn_offset = Math.Vector3.Zero,
+        forward_distance = 100.,
+        offset = Math.Vector3.Zero,
+        speed = 1000,
+        ...opts
     }) {
+        const player_pawn = weapon_base.GetOwner();
+        const player_eye_position = Math.Vector3.From(player_pawn.GetEyePosition());
+        const rotation = Math.QAngle.From(player_pawn.GetEyeAngles());
+        const direction = player_eye_angles.direction();
+        const position = player_eye_position.add(direction.scale(forward_distance));
+        // TODO: add offset
+        const velocity = direction.scale(speed);
         
+        return new Projectile({
+            position,
+            rotation: player_eye_angles,
+            velocity,
+            template,
+            weapon: weapon_base,
+            owner: player_pawn,
+            ...opts,
+        });
     }
 
     constructor({
@@ -40,21 +71,103 @@ export default class Projectile extends Actor {
         collision_radius = 1.0,
         weapon = null,
         owner = null,
-        lifetime = 5, // Seconds
+        fizzle_delay = 5, // Seconds
+        damage = 20,
+        damage_type = 1, // CRUSH FIXME:
+        ignore_players = false,
+        remove_on_collision = false,
     } = {}) {
         super();
         this.initial_position = position;
+        this.last_position = position;
         this.initial_rotation = rotation;
         this.initial_velocity = velocity;
         this.template = template;
         this.collision_radius = collision_radius;
         this.weapon = weapon;
         this.owner = owner;
-        this.lifetime = lifetime;
+        this.fizzle_delay = fizzle_delay;
+        this.damage = damage;
+        this.damage_type = damage_type;
+        this.ignore_players = ignore_players;
+        this.remove_on_collision = remove_on_collision;
+        
     }
 
+    Fire(): Projectile {
+        if (this.state !== ProjectileState.IDLE)
+            throw new Error("Already Fired!");
+        [this.entity, ...this.entity_children] = this.template.ForceSpawn({
+            position: this.initial_position,
+            rotation: this.initial_rotation,
+        });
+        this.entity.Teleport({velocity: this.initial_velocity});
+        
+        this.state = ProjectileState.FIRED;
+        return this;
+    }
+
+    private getCurrentPosition() {
+        return Math.Vector3.From(this.entity.GetAbsOrigin());
+    }
+
+    private getLastPosition() {
+        return this.last_position;
+    }
+    
+    private updateLastPosition() {
+        const current_position = this.getCurrentPosition();
+        this.last_position = current_position;
+    }
+    
+    CheckCollision() {
+        const current_position = this.getCurrentPosition();
+        const last_position = this.getLastPosition();
+        
+        const trace: TraceResult = CSS.TraceSphere({
+            start: last_position,
+            end: current_position,
+            ignoreEntity: this.entity,
+            radius: this.collision_radius,
+            ignorePlayers: this.ignore_players,
+        });
+
+        if (trace.didHit) {
+            if (this.remove_on_collision) this.Remove();
+            this.HandleCollision(trace);
+        }
+    }
+
+    HandleCollision(trace) {
+        const entity_hit = trace.hitEntity;
+        if (!entity_hit?.IsValid()) return;        
+        if (entity_hit.GetClassName() !== "player") return;
+        
+        const player_hit = entity_hit as CSPlayerPawn;
+        player_hit.TakeDamage({
+            damage: this.damage,
+            attacker: this.owner,
+            inflictor: this.weapon,
+            weapon: this.weapon,
+            damageType: this.damage_type, // CRUSH?
+        });
+    }
+    
+    Remove() {
+        this.state = ProjectileState.DEAD;
+        this.MakeDirty();
+        if (this.entity?.IsValid()) this.entity.Remove();
+    }
+    
     override Think() {
-        CSS.Msg("Pew Pew!");
+        if (this.GetLifetime() >= this.fizzle_delay) this.Remove();
+        if (this.state !== ProjectileState.FIRED) return;
+        if (!this.entity?.IsValid()) {
+            this.Remove();
+            return;
+        }
+        this.CheckCollision();
+        this.updateLastPosition();
     }
 
     override ReceiveMessage(name, data) {

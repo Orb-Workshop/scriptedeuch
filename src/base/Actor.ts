@@ -15,6 +15,7 @@ export default abstract class Actor implements ActorInterface {
     private actor_pool: ActorSystem;
     //
     private dirty: boolean = false;
+    private init_think: boolean = CSS.GetGameTime();
     private last_think: boolean = CSS.GetGameTime();
     private think_interval: number = 1/128;
     
@@ -41,7 +42,8 @@ export default abstract class Actor implements ActorInterface {
                        data: any = null,
                        actor_pool_name: string = DEFAULT_ACTOR_POOL_NAME) {
         const actor_pool = Mount.GetSystem(actor_pool_name) as ActorSystem;
-        if (!actor_pool) throw Error("Failed to Find Actor Pool: " + actor_pool_name);
+        if (!actor_pool) throw new Error(
+            "Failed to Find Actor Pool: " + actor_pool_name);
         actor_pool.SendMessage(name, data);
     }
 
@@ -50,7 +52,8 @@ export default abstract class Actor implements ActorInterface {
     //
     public SetTickInterval(i: number) { this.think_interval = i; }
     public SetTick(i: number) { this.SetTickInterval(1/i) }
-
+    public GetLifetime() { return CSS.GetGameTime() - this.init_think; }
+    
     /**
        Mark the Actor for removal from the actor pool.
      */
@@ -64,8 +67,8 @@ export default abstract class Actor implements ActorInterface {
     
     MaybeThink() {
         let current_game_time = CSS.GetGameTime();
-        const lifetime = current_game_time - this.last_think
-        if (lifetime >= this.think_interval) {
+        const think_lifetime = current_game_time - this.last_think
+        if (think_lifetime >= this.think_interval) {
             try {
                 this.Think();
             }
@@ -97,7 +100,7 @@ export default abstract class Actor implements ActorInterface {
     Think(): void {}
 }
 
-type ThinkCallback = () => void;
+type ThinkCallback = (instance: ThinkTask) => void;
 
 /**
    Implementation of Actor as a repeatable think function task.
@@ -112,12 +115,12 @@ export class ThinkTask extends Actor {
     }
     
     override Think() {
-        const chk = this.callback();
+        const chk = this.callback(this);
         if (chk?.abort === true) this.Remove();
     }
 }
 
-type MessageCallback = (name: string, data: any) => void;
+type MessageCallback = (name: string, data: any, instance: MessageTask) => void;
 
 /**
    Implementation of Actor as a message passage task, for sending and
@@ -132,7 +135,7 @@ export class MessageTask extends Actor {
     }
 
     override ReceiveMessage(name: string, data: any): void {
-        const chk = this.callback(name, data);
+        const chk = this.callback(name, data, this);
         if (chk?.abort === true) this.Remove();
     }
 }

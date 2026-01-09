@@ -58,25 +58,34 @@ projectileWeaponSystem.setInitHook(({entity}) => {
     }, 1100);
 });
 
-let TimedEvent = new ThinkTask(() => {
-    ThinkTask.SendMessage("Echo", {data: "Some Data"});
+let idx = 0;
+let TimedEvent = new ThinkTask((inst) => {
+    ThinkTask.SendMessage("Echo", {
+        data: "Some Data",
+        idx: idx++,
+        alive_time: inst.GetLifetime(),
+    });
 }, 5);
 
-let TimedEvent2 = new ThinkTask(() => {
-    ThinkTask.SendMessage("Echo", {data: "Some Data2"});
+let TimedEvent2 = new ThinkTask((inst) => {
+    ThinkTask.SendMessage("Echo", {
+        data: "Some Data2",
+        idx: idx++,
+        alive_time: inst.GetLifetime(),
+    });
 }, 4);
 
-let MessageEcho = new MessageTask((name, data) => {
+let MessageEcho = new MessageTask((name, data, inst) => {
     if (name == "Echo") CSS.Msg("Echo: " + JSON.stringify(data));
 });
 
 let StopProjectiles = new ThinkTask(() => {
     ThinkTask.SendMessage("KillAll");
-}, 5);
+}, 10);
 
 
 CSS.Msg("Test1");
-let Projectile = new SActor.Projectile({});
+let Projectile = new SActor.Projectile({fizzle_delay: 1});
 CSS.Msg("Test2");
 
 // Registering our Systems
