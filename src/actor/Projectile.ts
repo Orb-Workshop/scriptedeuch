@@ -13,9 +13,9 @@ import { UniqueGen } from "../utils.ts";
 const UniqueName = UniqueGen("Projectile-");
 
 export enum ProjectileState {
-    IDLE = 0;
-    FIRED = 1;
-    DEAD = 2;
+    IDLE = 0,
+    FIRED = 1,
+    DEAD = 2,
 }
 
 export default class Projectile extends Actor {

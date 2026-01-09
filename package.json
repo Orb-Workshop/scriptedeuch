@@ -1,19 +1,20 @@
 {
-  "name": "scriptedeuch",
-  "module": "src/index.ts",
-  "type": "module",
-  "devDependencies": {
-    "@types/bun": "latest",
-    "typedoc": "^0.28.15",
-    "typedoc-plugin-markdown": "^4.9.0"
-  },
-  "peerDependencies": {
-    "typescript": "^5"
-  },
-  "scripts": {
-    "build": "bun build ./src/main.ts --outdir ./scripts --external cs_script/point_script",
-    "watch": "bun --watch build ./src/main.ts --outdir ./scripts --external cs_script/point_script",
-    "test": "bun test",
-    "docs": "bunx typedoc"
-  }
+    "name": "scriptedeuch",
+    "module": "src/index.ts",
+    "type": "module",
+    "devDependencies": {
+        "@types/bun": "latest",
+        "typedoc": "^0.28.15",
+        "typedoc-plugin-markdown": "^4.9.0"
+    },
+    "peerDependencies": {
+        "typescript": "^5.9.3"
+    },
+    "scripts": {
+        "build": "bun build ./src/main.ts --outdir ./scripts --external cs_script/point_script",
+        "watch": "bun --watch build ./src/main.ts --outdir ./scripts --external cs_script/point_script",
+        "test": "bun test",
+        "docs": "bunx typedoc",
+        "typecheck": "tsc --noEmit ./src/index.ts"
+    }
 }
