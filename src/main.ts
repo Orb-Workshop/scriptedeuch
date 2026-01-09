@@ -11,12 +11,16 @@ import {
     GetPlayerName,
 
     // Mountable Systems
-    MSystems,
+    MSystem,
+
+    // Spawnable Actors
+    SActor,
+    
 } from "./index.ts";
 CSS.Msg("Scriptedeuch!");
 
-const soundEventSystem = new MSystems.SoundEventSystem({debug: false});
-const gameAnnouncerSystem = new MSystems.GameAnnouncerSystem({callback:(obj) => {
+const soundEventSystem = new MSystem.SoundEventSystem({debug: false});
+const gameAnnouncerSystem = new MSystem.GameAnnouncerSystem({callback:(obj) => {
     let {player_pawn, player_stats} = obj;
     let {kills_with_same_weapon = 0,
          killing_spree_weapon_name = null,
@@ -30,12 +34,12 @@ const gameAnnouncerSystem = new MSystems.GameAnnouncerSystem({callback:(obj) => 
     CSS.Msg("Player Stats: " + JSON.stringify(player_stats));
     soundEventSystem.PlaySoundToPlayer(player_pawn, "Vote.Passed", true);
 }});
-const dialogSystem = new MSystems.DialogSystem();
+const dialogSystem = new MSystem.DialogSystem();
 let dialog = dialogSystem.CreateDialog();
 
-const schedulingSystem = new MSystems.SchedulingSystem();
+const schedulingSystem = new MSystem.SchedulingSystem();
 
-const projectileWeaponSystem = new MSystems.ProjectileWeaponSystem({
+const projectileWeaponSystem = new MSystem.ProjectileWeaponSystem({
     weapon_class: "weapon_ak47",
     projectile_damage: 1,
     // Note: Projectile speed is clamped by engine(?)
@@ -66,11 +70,17 @@ let MessageEcho = new MessageTask((name, data) => {
     if (name == "Echo") CSS.Msg("Echo: " + JSON.stringify(data));
 });
 
+let StopProjectiles = new ThinkTask(() => {
+    ThinkTask.SendMessage("Die");
+}, 5);
+
+let Projectile = new SActor.Projectile({});
+
 // Registering our Systems
 Mount.Register("SoundEvents", soundEventSystem);
 Mount.Register("GameAnnouncer", gameAnnouncerSystem);
-Mount.Register("HealthRegen", new MSystems.PlayerHealthRegenerationSystem());
-Mount.Register("PlayerModelChanger", new MSystems.PlayerModelChangerSystem({
+Mount.Register("HealthRegen", new MSystem.PlayerHealthRegenerationSystem());
+Mount.Register("PlayerModelChanger", new MSystem.PlayerModelChangerSystem({
     point_script_targetname: "main.script"
 }));
 Mount.Register("Dialog", dialogSystem);

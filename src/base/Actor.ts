@@ -16,7 +16,7 @@ export default abstract class Actor implements ActorInterface {
     private actor_pool: ActorSystem;
     //
     private dirty: boolean = false;
-    private last_think: boolean = 0;
+    private last_think: boolean = CSS.GetGameTime();
     private think_interval: number = 1/128;
     
     constructor(actor_pool_name: string = DEFAULT_ACTOR_POOL_NAME) {
@@ -38,7 +38,9 @@ export default abstract class Actor implements ActorInterface {
     /**
        Send messages to other actors in the actor pool.
      */
-    static SendMessage(name: string, data: any, actor_pool_name: string = DEFAULT_ACTOR_POOL_NAME) {
+    static SendMessage(name: string,
+                       data: any = null,
+                       actor_pool_name: string = DEFAULT_ACTOR_POOL_NAME) {
         const actor_pool = Mount.GetSystem(actor_pool_name) as ActorSystem;
         if (!actor_pool) throw Error("Failed to Find Actor Pool: " + actor_pool_name);
         actor_pool.SendMessage(name, data);
@@ -54,7 +56,8 @@ export default abstract class Actor implements ActorInterface {
        Mark the Actor for removal from the actor pool.
      */
     public MakeDirty() { this.dirty = true; }
-
+    public Remove() { this.MakeDirty() }
+    
     //
     // ActorInterface Methods
     //
@@ -108,10 +111,6 @@ export class ThinkTask extends Actor {
         const chk = this.callback();
         if (chk?.abort === true) this.Remove();
     }
-
-    public Remove() {
-        this.MakeDirty();
-    }
 }
 
 type MessageCallback = (name: string, data: any) => void;
@@ -132,10 +131,6 @@ export class MessageTask extends Actor {
         const chk = this.callback(name, data);
         if (chk?.abort === true) this.Remove();
     }
-
-    public Remove() {
-        this.MakeDirty();
-    }
 }
 
 /**
@@ -154,7 +149,7 @@ class ActorSystem extends System {
     }
 
     // Called by Actor impl.
-    SendMessage(name: string, data: any): void {
+    SendMessage(name: string, data: any = null): void {
         this.actor_listing.forEach((actor) => {
             if (!actor.IsDirty()) {
                 actor.ReceiveMessage(name, data);

@@ -9,7 +9,10 @@ export {
 } from "./base/index.ts";
 
 // Mountable Systems
-export * as MSystems from "./system/index.ts";
+export * as MSystem from "./system/index.ts";
+
+// Spawnable Actors (Auto-Mounting)
+export * as SActor from "./actor/index.ts";
 
 // Utility Library
 export {
