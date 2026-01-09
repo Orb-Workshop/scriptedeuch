@@ -7,13 +7,13 @@ export {
     MessageTask,
     Asset,
     Default,
-} from "./base/index.ts";
+} from "./base/index";
 
 // Mountable Systems
-export * as MSystem from "./system/index.ts";
+export * as MSystem from "./system/index";
 
 // Spawnable Actors (Auto-Mounting)
-export * as SActor from "./actor/index.ts";
+export * as SActor from "./actor/index";
 
 // Utility Library
 export {
@@ -22,16 +22,16 @@ export {
     Memoize,
     GenerateAddOutput,
     UniqueGen,
-} from "./utils.ts";
+} from "./utils";
 
 // Math Library
-export * as Math from "./math/index.ts";
+export * as Math from "./math/index";
 
 // Random Library
-export * as Random from "./random/index.ts";
+export * as Random from "./random/index";
 
 // Noise
-export * as Noise from "./noise/index.ts";
+export * as Noise from "./noise/index";
 
 // Entity Helpers
-export * as Helper from "./helper/index.ts";
+export * as Helper from "./helper/index";

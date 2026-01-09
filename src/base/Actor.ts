@@ -1,6 +1,5 @@
 import { Instance as CSS } from "cs_script/point_script";
 import { Mount, System } from "./index";
-import { GenName } from "../utils";
 
 const DEFAULT_ACTOR_POOL_NAME = "DefaultActorPool";
 
@@ -15,16 +14,16 @@ export default abstract class Actor implements ActorInterface {
     private actor_pool: ActorSystem;
     //
     private dirty: boolean = false;
-    private init_think: boolean = CSS.GetGameTime();
-    private last_think: boolean = CSS.GetGameTime();
+    private init_think: number = CSS.GetGameTime();
+    private last_think: number = CSS.GetGameTime();
     private think_interval: number = 1/128;
     
     constructor(actor_pool_name: string = DEFAULT_ACTOR_POOL_NAME) {
         if (!Mount.HasSystem(actor_pool_name)) {
-            this.actor_pool = Mount.Register(actor_pool_name, new ActorSystem());
+            this.actor_pool = Mount.Register(actor_pool_name, new ActorSystem()) as ActorSystem;
         }
         else {
-            this.actor_pool = Mount.GetSystem(actor_pool_name);
+            this.actor_pool = Mount.GetSystem(actor_pool_name) as ActorSystem;
         }
 
         // Spawn our actor within the actor pool

@@ -26,8 +26,10 @@ export default class Projectile extends Actor {
     public last_position: Math.Vector3;
     public initial_rotation: Math.QAngle;
     public initial_velocity: Math.Vector3;
+    public template: PointTemplate;
     public entity: Entity;
     public entity_children: Array<Entity>;
+    public collision_radius: number;
     public weapon: CSWeaponBase;
     public owner: CSPlayerPawn;
     public fizzle_delay: number;
@@ -46,14 +48,14 @@ export default class Projectile extends Actor {
         const player_pawn = weapon_base.GetOwner();
         const player_eye_position = Math.Vector3.From(player_pawn.GetEyePosition());
         const rotation = Math.QAngle.From(player_pawn.GetEyeAngles());
-        const direction = player_eye_angles.direction();
+        const direction = rotation.direction();
         const position = player_eye_position.add(direction.scale(forward_distance));
         // TODO: add offset
         const velocity = direction.scale(speed);
         
         return new Projectile({
             position,
-            rotation: player_eye_angles,
+            rotation,
             velocity,
             template,
             weapon: weapon_base,

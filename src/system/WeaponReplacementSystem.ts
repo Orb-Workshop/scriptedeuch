@@ -49,7 +49,7 @@ export default class WeaponReplacementSystem extends System {
         this.replacePrimary(player_pawn);
     }
     
-    override Tick() {
+    override Think() {
         const players = CSS.FindEntitiesByClass("player"); // CSPlayerPawn
         players.forEach(player_pawn => this.ReplaceWeapons(player_pawn))
     }

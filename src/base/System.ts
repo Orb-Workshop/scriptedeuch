@@ -4,14 +4,14 @@
 import { Instance as CSS } from "cs_script/point_script";
 
 export default abstract class System {
-    private system_enabled: bool = true;
+    private system_enabled: boolean = true;
     private system_last_think_time: number = 0;
     private system_think_interval: number = 1/128.; // Immediate (Pegged to 64 Tick)
 
     // System Methods
     EnableSystem() { this.system_enabled = true }
     DisableSystem() { this.system_enabled = false }
-    IsSystemEnabled(): bool { return this.system_enabled }
+    IsSystemEnabled(): boolean { return this.system_enabled }
     SetTickInterval(i: number) { this.system_think_interval = i; }
     SetTick(i: number) { this.SetTickInterval(1/i) }
 

@@ -8,8 +8,8 @@ import System from "./System";
 export default class Mount {
     static _instance: Mount;
 
-    private mount_enabled: bool = false;
-    private system_listing: Map<System> = new Map();
+    private mount_enabled: boolean = false;
+    private system_listing: Map<string, System> = new Map();
     private constructor() {}
 
     public static get instance(): Mount {
@@ -31,7 +31,7 @@ export default class Mount {
         mount.system_listing.delete(name);
     }
 
-    public static HasSystem(name: string): bool {
+    public static HasSystem(name: string): boolean {
         const mount = Mount.instance;
         return mount.system_listing.has(name);
     }
@@ -166,7 +166,7 @@ export default class Mount {
         mount._stopSystems();
     }
     
-    public static Enable(name: string): bool {
+    public static Enable(name: string): boolean {
         if (Mount.HasSystem(name)) {
             Mount.GetSystem(name).EnableSystem();
             return true;
@@ -174,7 +174,7 @@ export default class Mount {
         return false;
     }
 
-    public static Disable(name: string): bool {
+    public static Disable(name: string): boolean {
         if (Mount.HasSystem(name)) {
             Mount.GetSystem(name).DisableSystem();
             return true;
