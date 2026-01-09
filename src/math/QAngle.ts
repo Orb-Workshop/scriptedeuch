@@ -1,5 +1,5 @@
 import { QAngle as QAngleType } from "cs_script/point_script";
-import Vector3 from "./Vector3.ts";
+import Vector3 from "./Vector3";
 
 export default class QAngle {
     public pitch: number;

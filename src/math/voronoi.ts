@@ -1,6 +1,6 @@
-import Point2 from "./Point2.ts";
-import BBox2 from "./BBox2.ts";
-import LineSegment2 from "./LineSegment2.ts";
+import Point2 from "./Point2";
+import BBox2 from "./BBox2";
+import LineSegment2 from "./LineSegment2";
 
 /* Voronoi Implementation
    https://github.com/gorhill/Javascript-Voronoi

@@ -6,8 +6,8 @@ import {
     BaseModelEntity,
     Entity,
 } from "cs_script/point_script";
-import { GetPlayerName } from "../utils.ts";
-import System from "../base/System.ts";
+import { GetPlayerName } from "../utils";
+import System from "../base/System";
 
 // Deathmatch Game Mode
 function IsFreeForAll() {

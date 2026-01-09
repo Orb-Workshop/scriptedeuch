@@ -1,5 +1,5 @@
 import { expect, test } from "bun:test";
-import Vector2 from "./Vector2.ts";
+import Vector2 from "./Vector2";
 
 test("Vector2.create", () => {
     const v = Vector2.Create();

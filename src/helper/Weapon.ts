@@ -2,4 +2,4 @@ import {
     Instance as CSS,
     CSWeaponBase,
 } from "cs_script/point_script";
-import Projectile from "../actor/Projectile.ts";
+import { Projectile } from "../actor/index";

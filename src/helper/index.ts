@@ -1,3 +1,3 @@
-export { default as EntityHelper } from "./EntityHelper.ts";
-export { default as TriggerMultiple } from "./TriggerMultiple.ts";
-export * from "./Weapon.ts";
+export { default as EntityHelper } from "./EntityHelper";
+export { default as TriggerMultiple } from "./TriggerMultiple";
+export * from "./Weapon";

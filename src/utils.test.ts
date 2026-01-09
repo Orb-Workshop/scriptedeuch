@@ -1,5 +1,5 @@
 import { expect, test } from "bun:test";
-import { UniqueGen } from "./utils.ts";
+import { UniqueGen } from "./utils";
 
 test("UniqueGen Test", () => {
     const g = UniqueGen("Test-");

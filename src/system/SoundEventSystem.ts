@@ -6,9 +6,8 @@ import {
     BaseModelEntity,
     Entity,
 } from "cs_script/point_script";
-import { System, Default } from "../base/index.ts";
-import { GetPlayerName } from "../utils.ts";
-import System from "../base/System.ts";
+import { System, Default } from "../base/index";
+import { GetPlayerName } from "../utils";
 
 function ErrorMessage(msg) {
     CSS.Msg("Game Announcer Error: " + msg);

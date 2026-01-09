@@ -6,9 +6,9 @@ import {
     PointTemplate,
     TraceResult,
 } from "cs_script/point_script";
-import { Actor, Asset, Default } from "../base/index.ts";
-import * as Math from "../math/index.ts";
-import { UniqueGen } from "../utils.ts";
+import { Actor, Asset, Default } from "../base/index";
+import * as Math from "../math/index";
+import { UniqueGen } from "../utils";
 
 const UniqueName = UniqueGen("Projectile-");
 

@@ -3,7 +3,7 @@
  * point for individual scripts to become composable pieces that can 'plug-in'.
  */
 import { Instance as CSS } from "cs_script/point_script";
-import System from "./System.ts";
+import System from "./System";
 
 export default class Mount {
     static _instance: Mount;

@@ -1,6 +1,6 @@
 import { expect, test } from "bun:test";
-import LineSegment2 from "./LineSegment2.ts";
-import Point2 from "./Point2.ts";
+import LineSegment2 from "./LineSegment2";
+import Point2 from "./Point2";
 
 test("LineSegment2 Init 1", () => {
     const p1 = new Point2(0, 0);

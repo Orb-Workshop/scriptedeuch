@@ -1,5 +1,5 @@
 import { expect, test } from "bun:test";
-import Point3 from "./Point3.ts";
+import Point3 from "./Point3";
 
 test("Point3 Test Init 1", () => {
     const p = new Point3();

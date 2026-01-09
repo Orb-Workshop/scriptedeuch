@@ -2,10 +2,10 @@ import {
     Instance as CSS,
     PointTemplate,
 } from "cs_script/point_script";
-import { System, Default } from "../base/index.ts";
-import { GetPlayerName } from "../utils.ts";
-import { default as Vector } from "../math/Vector3.ts";
-import QAngle from "../math/QAngle.ts";
+import { System, Default } from "../base/index";
+import { GetPlayerName } from "../utils";
+import { default as Vector } from "../math/Vector3";
+import QAngle from "../math/QAngle";
 
 export default class DialogSystem extends System {
     private dialog_listing: Array<Dialog> = [];

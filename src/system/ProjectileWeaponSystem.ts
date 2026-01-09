@@ -8,10 +8,10 @@ import {
     Vector as VectorType,
     QAngle as QAngleType,
 } from "cs_script/point_script";
-import System from "../base/System.ts";
-import { FindTemplate } from "../base/Asset.ts";
-import { default as Vector } from "../math/Vector3.ts";
-import QAngle from "../math/QAngle.ts";
+import { System } from "../base/index";
+import { FindTemplate } from "../base/Asset";
+import { default as Vector } from "../math/Vector3";
+import QAngle from "../math/QAngle";
 
 type BaseHookFunction = (p: ProjectileController) => void;
 type InitHookFunction = BaseHookFunction;

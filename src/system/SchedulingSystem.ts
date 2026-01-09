@@ -1,7 +1,7 @@
 import {
     Instance as CSS,
 } from "cs_script/point_script";
-import System from "../base/System.ts";
+import { System } from "../base/index";
 
 
 // Inspired by Poggiecek

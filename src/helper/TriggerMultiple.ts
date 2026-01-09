@@ -2,8 +2,7 @@ import {
     Instance as CSS,
     Entity,
 } from "cs_script/point_script";
-import { FindByClass } from "../base/Asset.ts";
-import EntityHelper from "./EntityHelper.ts";
+import EntityHelper from "./EntityHelper";
 
 
 /* 

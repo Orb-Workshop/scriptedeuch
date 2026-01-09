@@ -1,1 +1,1 @@
-export { default as SimplexNoise } from "./SimplexNoise.ts";
+export { default as SimplexNoise } from "./SimplexNoise";

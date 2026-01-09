@@ -1,4 +1,4 @@
-import Point3 from "./Point3.ts";
+import Point3 from "./Point3";
 
 // Bounding Box 3D
 export default class BBox3 {

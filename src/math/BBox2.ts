@@ -1,4 +1,4 @@
-import Point2 from "./Point2.ts";
+import Point2 from "./Point2";
 
 // Bounding Box 2D
 export default class BBox2 {

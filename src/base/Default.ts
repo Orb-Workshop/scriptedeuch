@@ -1,7 +1,7 @@
 /*
   Defaults, from scriptedeuch prefabs and cs2 assets.
 */
-import { Asset } from "./index.ts";
+import { Asset } from "./index";
 
 export function SoundTemplate() {
     return Asset.FindTemplate("scriptedeuch.soundevent.template");

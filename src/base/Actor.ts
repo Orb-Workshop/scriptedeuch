@@ -1,6 +1,6 @@
 import { Instance as CSS } from "cs_script/point_script";
-import { Mount, System } from "./index.ts";
-import { GenName } from "../utils.ts";
+import { Mount, System } from "./index";
+import { GenName } from "../utils";
 
 const DEFAULT_ACTOR_POOL_NAME = "DefaultActorPool";
 

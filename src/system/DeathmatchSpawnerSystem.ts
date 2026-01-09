@@ -3,8 +3,8 @@ import {
     CSPlayerController,
     CSPlayerPawn,
 } from "cs_script/point_script";
-import System from "../base/System.ts";
-import { default as Vector } from "../math/Vector3.ts";
+import System from "../base/System";
+import { default as Vector } from "../math/Vector3";
 
 export default class DeathmatchSpawnerSystem extends System {
     constructor() {

@@ -1,5 +1,5 @@
 import { expect, test } from "bun:test";
-import QAngle from "./QAngle.ts";
+import QAngle from "./QAngle";
 
 test("QAngle.Create", () => {
     const v = QAngle.Create();

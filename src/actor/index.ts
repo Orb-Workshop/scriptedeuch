@@ -1,1 +1,1 @@
-export { default as Projectile } from "./Projectile.ts";
+export { default as Projectile } from "./Projectile";

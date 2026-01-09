@@ -1,6 +1,6 @@
 import { expect, test } from "bun:test";
-import Voronoi from "./Voronoi.ts";
-import Point2 from "./Point2.ts";
+import Voronoi from "./Voronoi";
+import Point2 from "./Point2";
 
 test("Voronoi Init 1", () => {
     let v = new Voronoi();

@@ -2,9 +2,9 @@ import {
     Instance as CSS,
     CSPlayerPawn,
 } from "cs_script/point_script";
-import System from "../base/System.ts";
-import RandomChoiceGenerator from "../random/RandomChoiceGenerator.ts";
-import { GenerateAddOutput } from "../utils.ts";
+import { System } from "../base/index";
+import RandomChoiceGenerator from "../random/RandomChoiceGenerator";
+import { GenerateAddOutput } from "../utils";
 
 const T_TEAM_NUMBER = 2;
 const CT_TEAM_NUMBER = 3;

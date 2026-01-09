@@ -1,6 +1,6 @@
 import { expect, test } from "bun:test";
-import BBox3 from "./BBox3.ts";
-import Point3 from "./Point3.ts";
+import BBox3 from "./BBox3";
+import Point3 from "./Point3";
 
 test("BBox3 Init 1", () => {
     let b = new BBox3(0, 0, 0, 1, 1, 1);

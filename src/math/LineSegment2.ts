@@ -1,4 +1,4 @@
-import Point2 from "./Point2.ts";
+import Point2 from "./Point2";
 
 export default class LineSegment2 {
     a: Point2;

@@ -16,7 +16,7 @@ import {
     // Spawnable Actors
     SActor,
     
-} from "./index.ts";
+} from "./index";
 CSS.Msg("Scriptedeuch!");
 
 const soundEventSystem = new MSystem.SoundEventSystem({debug: false});
