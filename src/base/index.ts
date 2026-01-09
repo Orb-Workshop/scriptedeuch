@@ -6,3 +6,5 @@ export {
     MessageTask
 } from "./Actor.ts";
 export * as Asset from "./Asset.ts";
+export * as Default from "./Default.ts";
+

@@ -1,6 +1,5 @@
 import { Instance as CSS } from "cs_script/point_script";
-import Mount from "./Mount.ts";
-import System from "./System.ts";
+import { Mount, System } from "./index.ts";
 import { GenName } from "../utils.ts";
 
 const DEFAULT_ACTOR_POOL_NAME = "DefaultActorPool";
@@ -8,8 +7,8 @@ const DEFAULT_ACTOR_POOL_NAME = "DefaultActorPool";
 interface ActorInterface {
     IsDirty: () => boolean;
     MaybeThink: () => void;
-    Dispose: () => void;
-    ReceiveMessage: (name: string, data: any) => void;
+    Dispose: () => void; // Override
+    ReceiveMessage: (name: string, data: any) => void; // Override
 }
 
 export default abstract class Actor implements ActorInterface {
@@ -67,7 +66,12 @@ export default abstract class Actor implements ActorInterface {
         let current_game_time = CSS.GetGameTime();
         const lifetime = current_game_time - this.last_think
         if (lifetime >= this.think_interval) {
-            this.Think();
+            try {
+                this.Think();
+            }
+            catch(e) {
+                CSS.Msg("Failed Within Actor Think Function...");
+            }
             this.last_think = CSS.GetGameTime();
         }
     }

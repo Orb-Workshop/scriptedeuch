@@ -6,6 +6,7 @@ export {
     ThinkTask,
     MessageTask,
     Asset,
+    Default,
 } from "./base/index.ts";
 
 // Mountable Systems
@@ -20,8 +21,8 @@ export {
     GetPlayerName,
     Memoize,
     GenerateAddOutput,
-    GenerateUniqueName,
-    GenName, 
+    UniqueNameGenerator,
+    UniqueGen,
 } from "./utils.ts";
 
 // Math Library

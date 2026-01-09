@@ -9,7 +9,7 @@ import {
     QAngle as QAngleType,
 } from "cs_script/point_script";
 import System from "../base/System.ts";
-import { FindTemplate, FindProjectileTemplate } from "../base/Asset.ts";
+import { FindTemplate } from "../base/Asset.ts";
 import { default as Vector } from "../math/Vector3.ts";
 import QAngle from "../math/QAngle.ts";
 

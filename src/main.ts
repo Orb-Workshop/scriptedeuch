@@ -71,10 +71,13 @@ let MessageEcho = new MessageTask((name, data) => {
 });
 
 let StopProjectiles = new ThinkTask(() => {
-    ThinkTask.SendMessage("Die");
+    ThinkTask.SendMessage("KillAll");
 }, 5);
 
+
+CSS.Msg("Test1");
 let Projectile = new SActor.Projectile({});
+CSS.Msg("Test2");
 
 // Registering our Systems
 Mount.Register("SoundEvents", soundEventSystem);
