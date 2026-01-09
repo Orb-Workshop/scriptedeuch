@@ -50,4 +50,8 @@ export function* UniqueNameGenerator(s: string = "ScriptedEuch-") {
         yield (s + id++);
     }
 }
-export const UniqueGen = UniqueNameGenerator;
+
+export function UniqueGen(s: string = "ScriptedEuch-") {
+    const gen = UniqueNameGenerator(s);
+    return () => gen.next().value;
+}

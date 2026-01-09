@@ -9,16 +9,11 @@ import { Actor, Asset, Default } from "../base/index.ts";
 import * as Math from "../math/index.ts";
 import { UniqueGen } from "../utils.ts";
 
-const UniqueNameGen = UniqueGen("Projectile-");
-function UniqueName() {
-    return UniqueNameGen.next().value;
-}
-
-let gen = UniqueGen("TestGen");
-CSS.Msg(gen.next().value);
+const UniqueName = UniqueGen("Projectile-");
 
 export default class Projectile extends Actor {
     public name: string = UniqueName();
+    //
     public initial_position: Math.Vector3;
     public initial_rotation: Math.QAngle;
     public initial_velocity: Math.Vector3;
@@ -37,10 +32,10 @@ export default class Projectile extends Actor {
     }
 
     constructor({
-        //position = Math.Vector3.Zero,
-        //rotation = Math.QAngle.Zero,
-        //velocity = Math.Vector3.Zero,
-        //template = Default.ProjectileTemplate(),
+        position = Math.Vector3.Zero,
+        rotation = Math.QAngle.Zero,
+        velocity = Math.Vector3.Zero,
+        template = Default.ProjectileTemplate(),
         //
         collision_radius = 1.0,
         weapon = null,
@@ -48,10 +43,18 @@ export default class Projectile extends Actor {
         lifetime = 5, // Seconds
     } = {}) {
         super();
+        this.initial_position = position;
+        this.initial_rotation = rotation;
+        this.initial_velocity = velocity;
+        this.template = template;
+        this.collision_radius = collision_radius;
+        this.weapon = weapon;
+        this.owner = owner;
+        this.lifetime = lifetime;
     }
 
     override Think() {
-        //CSS.Msg("Pew Pew!");
+        CSS.Msg("Pew Pew!");
     }
 
     override ReceiveMessage(name, data) {
@@ -61,6 +64,7 @@ export default class Projectile extends Actor {
 
     override Dispose() {
         CSS.Msg("Dead!");
+        if (this.entity?.IsValid()) this.entity.Remove();
     }
 }
 

@@ -3,7 +3,7 @@ import { UniqueGen } from "./utils.ts";
 
 test("UniqueGen Test", () => {
     const g = UniqueGen("Test-");
-    const gen = () => g.next().value;
+    const gen = UniqueGen("Test-");
     
     const unique0 = gen();
     expect(unique0).toBe("Test-0");
