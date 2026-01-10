@@ -7,7 +7,7 @@ import {
     Entity,
 } from "cs_script/point_script";
 import { GetPlayerName } from "../utils";
-import System from "../base/System";
+import { System } from "../base/index";
 
 // Deathmatch Game Mode
 function IsFreeForAll() {

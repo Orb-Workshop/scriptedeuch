@@ -7,7 +7,7 @@ interface ActorInterface {
     IsDirty: () => boolean;
     MaybeThink: () => void;
     Dispose: () => void; // Override
-    ReceiveMessage: (name: string, data: any) => void; // Override
+    ReceiveMessage: (tag: string, data: any) => void; // Override
 }
 
 export default abstract class Actor implements ActorInterface {
@@ -37,13 +37,13 @@ export default abstract class Actor implements ActorInterface {
     /**
        Send messages to other actors in the actor pool.
      */
-    static SendMessage(name: string,
+    static SendMessage(tag: string,
                        data: any = null,
                        actor_pool_name: string = DEFAULT_ACTOR_POOL_NAME) {
         const actor_pool = Mount.GetSystem(actor_pool_name) as ActorSystem;
         if (!actor_pool) throw new Error(
             "Failed to Find Actor Pool: " + actor_pool_name);
-        actor_pool.SendMessage(name, data);
+        actor_pool.SendMessage(tag, data);
     }
 
     //
@@ -91,7 +91,7 @@ export default abstract class Actor implements ActorInterface {
     /**
        Override Interface Method. React to messages sent by other actors in the actor pool.
      */
-    ReceiveMessage(name: string, data: any) {}
+    ReceiveMessage(tag: string, data: any) {}
     
     /**
        Override Method. Is called at the `think_interval`.
@@ -119,7 +119,7 @@ export class ThinkTask extends Actor {
     }
 }
 
-type MessageCallback = (name: string, data: any, instance: MessageTask) => void;
+type MessageCallback = (tag: string, data: any, instance: MessageTask) => void;
 
 /**
    Implementation of Actor as a message passage task, for sending and
@@ -133,8 +133,8 @@ export class MessageTask extends Actor {
         this.callback = message_callback.bind(this);
     }
 
-    override ReceiveMessage(name: string, data: any): void {
-        const chk = this.callback(name, data, this);
+    override ReceiveMessage(tag: string, data: any): void {
+        const chk = this.callback(tag, data, this);
         if (chk?.abort === true) this.Remove();
     }
 }
@@ -155,10 +155,10 @@ class ActorSystem extends System {
     }
 
     // Called by Actor impl.
-    SendMessage(name: string, data: any = null): void {
+    SendMessage(tag: string, data: any = null): void {
         this.actor_listing.forEach((actor) => {
             if (!actor.IsDirty()) {
-                actor.ReceiveMessage(name, data);
+                actor.ReceiveMessage(tag, data);
             }
         });
     }
@@ -174,4 +174,3 @@ class ActorSystem extends System {
         dirty_actors.forEach(actor => actor.Dispose());
     }
 }
-
