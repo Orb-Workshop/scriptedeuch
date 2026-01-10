@@ -18,13 +18,15 @@ export default class WeaponReplacementSystem extends System {
     private primary: Dict;
     private secondary: Dict;
     private melee: Dict;
-    
+
     constructor({
         primary = {},
         secondary = {},
         melee = {},
+        tick_rate = 8.,
     }) {
         super();
+        this.setTick(tick_rate);
         this.primary = primary;
         this.secondary = secondary;
         this.melee = melee;
@@ -45,8 +47,32 @@ export default class WeaponReplacementSystem extends System {
         player_pawn.GiveNamedItem(replacement_weapon, true);
     }
 
+    private replaceSecondary(player_pawn: CSPlayerPawn) {
+        const weapon_secondary: CSWeaponBase | undefined = player_pawn.FindWeaponBySlot(
+            CSGearSlot.PISTOL);
+        const weapon_name = weapon_secondary?.GetData()?.GetName()
+        if (!weapon_name) return;
+        const replacement_weapon = this.secondary[weapon_name];
+        if (!replacement_weapon) return;
+        weapon_secondary.Remove();
+        player_pawn.GiveNamedItem(replacement_weapon, true);
+    }
+
+    private replaceMelee(player_pawn: CSPlayerPawn) {
+        const weapon_melee: CSWeaponBase | undefined = player_pawn.FindWeaponBySlot(
+            CSGearSlot.KNIFE);
+        const weapon_name = weapon_melee?.GetData()?.GetName()
+        if (!weapon_name) return;
+        const replacement_weapon = this.melee[weapon_name];
+        if (!replacement_weapon) return;
+        weapon_melee.Remove();
+        player_pawn.GiveNamedItem(replacement_weapon, true);
+    }
+    
     public ReplaceWeapons(player_pawn: CSPlayerPawn) {
         this.replacePrimary(player_pawn);
+        this.replaceSecondary(player_pawn);
+        this.replaceMelee(player_pawn);
     }
     
     override Think() {
@@ -59,3 +85,4 @@ export default class WeaponReplacementSystem extends System {
         this.ReplaceWeapons(player_pawn);
     }
 }
+

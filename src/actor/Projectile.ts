@@ -99,10 +99,9 @@ export default class Projectile extends Actor {
     Fire(): Projectile {
         if (this.state !== ProjectileState.IDLE)
             throw new Error("Already Fired!");
-        [this.entity, ...this.entity_children] = this.template.ForceSpawn({
-            position: this.initial_position,
-            rotation: this.initial_rotation,
-        });
+        [this.entity, ...this.entity_children] = this.template.ForceSpawn(
+            this.initial_position,
+            this.initial_rotation);
         this.entity.Teleport({velocity: this.initial_velocity});
         
         this.state = ProjectileState.FIRED;

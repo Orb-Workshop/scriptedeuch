@@ -84,6 +84,22 @@ let StopProjectiles = new ThinkTask(() => {
 }, 10);
 
 
+class GlockShot extends System {
+    constructor() {
+        super();
+    }
+
+    OnGunFire(event) {
+        const weapon_base = event.weapon;
+        const class_name = weapon_base?.GetClassName();
+        if (class_name !== "weapon_glock") return;
+        let projectile = SActor.Projectile.FromWeapon(weapon_base, {
+            
+        }).Fire();
+    }
+}
+
+
 CSS.Msg("Test1");
 let Projectile = new SActor.Projectile({fizzle_delay: 1});
 CSS.Msg("Test2");
@@ -98,6 +114,7 @@ Mount.Register("PlayerModelChanger", new MSystem.PlayerModelChangerSystem({
 Mount.Register("Dialog", dialogSystem);
 Mount.Register("ProjectileTest", projectileWeaponSystem);
 Mount.Register("Scheduling", schedulingSystem);
+Mount.Register("GlockShot", new GlockShot());
 
 // Listing off what's running
 CSS.Msg("Systems: " + Mount.List().join(", "))
