@@ -4,7 +4,7 @@ import {
     CSPlayerPawn,
     Entity,
 } from "cs_script/point_script";
-import { System } from "../base/index";
+import { System } from "../base";
 import { default as Vector } from "../math/Vector3";
 
 export default class DeathmatchSpawnerSystem extends System {

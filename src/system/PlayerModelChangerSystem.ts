@@ -3,9 +3,9 @@ import {
     CSPlayerPawn,
     Color,
 } from "cs_script/point_script";
-import { System } from "../base/index";
-import RandomChoiceGenerator from "../random/RandomChoiceGenerator";
-import { GenerateAddOutput } from "../utils";
+import { System } from "../base";
+import { RandomChoiceGenerator } from "../random";
+import { GenerateAddOutput } from "../util";
 
 const T_TEAM_NUMBER = 2;
 const CT_TEAM_NUMBER = 3;

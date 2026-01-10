@@ -182,7 +182,7 @@ export default class Mount {
         return false;
     }
 
-    public static List() {
+    public static List(): Array<string> {
         const mount = Mount.instance;
         return Array.from(mount.system_listing.keys());
     }

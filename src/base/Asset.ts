@@ -2,7 +2,7 @@
   Asset discovery, particularly point_template entities.
 */
 import { Instance as CSS, PointTemplate } from "cs_script/point_script";
-import { Memoize } from "../utils";
+import { Memoize } from "../util";
 
 export function FindByClass(classname: string, r: RegExp | string): PointTemplate | undefined {
     const entities = CSS.FindEntitiesByClass(classname);

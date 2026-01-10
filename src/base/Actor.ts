@@ -99,45 +99,6 @@ export default abstract class Actor implements ActorInterface {
     Think(): void {}
 }
 
-type ThinkCallback = (instance: ThinkTask) => void;
-
-/**
-   Implementation of Actor as a repeatable think function task.
- */
-export class ThinkTask extends Actor {
-    private callback: ThinkCallback;
-    
-    constructor(callback: ThinkCallback, interval = 1.0) {
-        super();
-        this.SetTickInterval(interval);
-        this.callback = callback.bind(this);
-    }
-    
-    override Think() {
-        const chk = this.callback(this);
-        if (chk?.abort === true) this.Remove();
-    }
-}
-
-type MessageCallback = (tag: string, data: any, instance: MessageTask) => void;
-
-/**
-   Implementation of Actor as a message passage task, for sending and
-   receiving messages with actors.
- */
-export class MessageTask extends Actor {
-    private callback: MessageCallback;
-
-    constructor(message_callback: MessageCallback) {
-        super();
-        this.callback = message_callback.bind(this);
-    }
-
-    override ReceiveMessage(tag: string, data: any): void {
-        const chk = this.callback(tag, data, this);
-        if (chk?.abort === true) this.Remove();
-    }
-}
 
 /**
    Implements the Actor Pool as a System.

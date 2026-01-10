@@ -3,8 +3,8 @@ import {
     CSPlayerPawn,
     CSPlayerController,
 } from "cs_script/point_script";
-import { GetPlayerName } from "../utils/index";
-import { System } from "../base/index";
+import { GetPlayerName } from "../util";
+import { System } from "../base";
 
 export default class PlayerHealthRegenerationSystem extends System {
     private current_time: number = CSS.GetGameTime();

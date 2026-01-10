@@ -2,8 +2,8 @@ import {
     Instance as CSS,
     PointTemplate,
 } from "cs_script/point_script";
-import { System, Default } from "../base/index";
-import { GetPlayerName } from "../utils";
+import { System, Default } from "../base";
+import { GetPlayerName } from "../util";
 import { default as Vector } from "../math/Vector3";
 import QAngle from "../math/QAngle";
 

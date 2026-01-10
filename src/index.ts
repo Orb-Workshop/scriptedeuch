@@ -1,31 +1,25 @@
+/* Advanced Library Framework */
+
 // Base Library
-export {
-    Mount,
-    System,
-    Actor,
-    ThinkTask,
-    MessageTask,
-    Asset,
-    Default,
-} from "./base/index";
+export * as Base from "./base";
 
 // Mountable Systems
-export * as MSystem from "./system/index";
+export * as System from "./system";
 
 // Spawnable Actors (Auto-Mounting)
-export * as SActor from "./actor/index";
+export * as Actor from "./actor";
 
 // Utility Library
-export * as Utils from "./utils/index";
+export * as Util from "./util";
 
 // Math Library
-export * as Math from "./math/index";
+export * as Math from "./math";
 
 // Random Library
-export * as Random from "./random/index";
+export * as Random from "./random";
 
 // Noise
-export * as Noise from "./noise/index";
+export * as Noise from "./noise";
 
 // Entity Helpers
-export * as Helper from "./helper/index";
+export * as Helper from "./helper";

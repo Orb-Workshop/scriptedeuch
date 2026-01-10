@@ -1,26 +1,42 @@
 import { Instance as CSS } from "cs_script/point_script";
 import {
-    // Mounting System
-    Mount,
+    
+    // Base of the Library Framework
+    Base,
+
+    // Mountable Systems in Framework, which extend Base.System
     System,
+
+    // Spawnable Actors in Framework, which extend Base.Actor
     Actor,
-    ThinkTask,
-    MessageTask,
 
-    // Utils
-    Utils,
+    // Math data types that extend the cs2 Vector and QAngle data interface.
+    Math,
 
-    // Mountable Systems
-    MSystem,
+    // Randomness, seeded and unseeded.
+    Random,
 
-    // Spawnable Actors
-    SActor,
+    // Noise library
+    Noise,
+
+    // Utility Functions, Helper Classes
+    Util,
+    Helper,
     
 } from "./index";
-CSS.Msg("Scriptedeuch!");
 
-const soundEventSystem = new MSystem.SoundEventSystem({debug: false});
-const gameAnnouncerSystem = new MSystem.GameAnnouncerSystem({callback:(obj) => {
+const {
+    Mount,
+    ThinkTask,
+    MessageTask,
+} = Base;
+
+CSS.Msg("Scriptedeuch!!");
+
+const soundEventSystem = new System.SoundEventSystem({debug: false});
+Mount.Register("SoundEvents", soundEventSystem);
+
+const gameAnnouncerSystem = new System.GameAnnouncerSystem({callback:(obj) => {
     let {player_pawn, player_stats} = obj;
     let {kills_with_same_weapon = 0,
          killing_spree_weapon_name = null,
@@ -30,10 +46,16 @@ const gameAnnouncerSystem = new MSystem.GameAnnouncerSystem({callback:(obj) => {
          enemy_had_killing_spree = false,
          enemy_was_teammate = false} = player_stats;
 
-    CSS.Msg("Player Name: " + Utils.GetPlayerName(player_pawn));
+    CSS.Msg("Player Name: " + Util.GetPlayerName(player_pawn));
     CSS.Msg("Player Stats: " + JSON.stringify(player_stats));
     soundEventSystem.PlaySoundToPlayer(player_pawn, "Vote.Passed", true);
 }});
+Mount.Register("GameAnnouncer", gameAnnouncerSystem);
+Mount.Register("HealthRegen", new System.PlayerHealthRegenerationSystem());
+Mount.Register("PlayerModelChanger", new System.PlayerModelChangerSystem({
+    point_script_targetname: "main.script"
+}));
+let Projectile = new Actor.Projectile({fizzle_delay: 1});
 
 
 let idx = 0;
@@ -62,7 +84,7 @@ let StopProjectiles = new ThinkTask(() => {
 }, 10);
 
 
-class GlockShot extends System {
+class GlockShot extends Base.System {
     constructor() {
         super();
     }
@@ -71,8 +93,8 @@ class GlockShot extends System {
         const weapon_base = event.weapon;
         const class_name = weapon_base?.GetClassName();
         if (class_name !== "weapon_glock") return;
-        let projectile = SActor.Projectile.FromWeapon(weapon_base, {
-            damage: 1,
+        let projectile = Actor.Projectile.FromWeapon(weapon_base, {
+            damage: 150,
             speed: 10_000,
             disable_gravity: true,
             collision_radius: 10.0,
@@ -80,18 +102,9 @@ class GlockShot extends System {
         }).Fire();
     }
 }
-
-let Projectile = new SActor.Projectile({fizzle_delay: 1});
-
-// Registering our Systems
-Mount.Register("SoundEvents", soundEventSystem);
-Mount.Register("GameAnnouncer", gameAnnouncerSystem);
-Mount.Register("HealthRegen", new MSystem.PlayerHealthRegenerationSystem());
-Mount.Register("PlayerModelChanger", new MSystem.PlayerModelChangerSystem({
-    point_script_targetname: "main.script"
-}));
 Mount.Register("GlockShot", new GlockShot());
 
 // Listing off what's running
 CSS.Msg("Systems: " + Mount.List().join(", "))
 Mount.Start(); // go
+

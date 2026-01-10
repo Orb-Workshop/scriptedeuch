@@ -5,7 +5,7 @@
   - https://stackoverflow.com/questions/521295/seeding-the-random-number-generator-in-javascript
 
 */
-import { DeepCopy } from "../utils";
+import { DeepCopy } from "../util";
 import { RandomSeed } from "./utils";
 
 // Pad the input seed into a hashed value
