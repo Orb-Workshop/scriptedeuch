@@ -34,29 +34,7 @@ const gameAnnouncerSystem = new MSystem.GameAnnouncerSystem({callback:(obj) => {
     CSS.Msg("Player Stats: " + JSON.stringify(player_stats));
     soundEventSystem.PlaySoundToPlayer(player_pawn, "Vote.Passed", true);
 }});
-const dialogSystem = new MSystem.DialogSystem();
-let dialog = dialogSystem.CreateDialog();
 
-const schedulingSystem = new MSystem.SchedulingSystem();
-
-const projectileWeaponSystem = new MSystem.ProjectileWeaponSystem({
-    weapon_class: "weapon_ak47",
-    projectile_damage: 1,
-    // Note: Projectile speed is clamped by engine(?)
-    projectile_speed: 33_480, // M80 Round, Inches Per Second
-    projectile_gravity_enabled: false,
-    projectile_collision_radius: 10,
-});
-
-projectileWeaponSystem.setInitHook(({entity}) => {
-    CSS.EntFireAtTarget({target: entity, input: "DisableGravity", delay: 1});
-    schedulingSystem.setTimeout(() => {
-        if (entity?.IsValid()) {
-            entity?.Teleport({velocity: entity?.GetAbsVelocity()})
-            CSS.Msg("Boop!");
-        }
-    }, 1100);
-});
 
 let idx = 0;
 let TimedEvent = new ThinkTask((inst) => {
@@ -94,15 +72,15 @@ class GlockShot extends System {
         const class_name = weapon_base?.GetClassName();
         if (class_name !== "weapon_glock") return;
         let projectile = SActor.Projectile.FromWeapon(weapon_base, {
-            
+            damage: 1,
+            speed: 10_000,
+            disable_gravity: true,
+            collision_radius: 10.0,
         }).Fire();
     }
 }
 
-
-CSS.Msg("Test1");
 let Projectile = new SActor.Projectile({fizzle_delay: 1});
-CSS.Msg("Test2");
 
 // Registering our Systems
 Mount.Register("SoundEvents", soundEventSystem);
@@ -111,9 +89,6 @@ Mount.Register("HealthRegen", new MSystem.PlayerHealthRegenerationSystem());
 Mount.Register("PlayerModelChanger", new MSystem.PlayerModelChangerSystem({
     point_script_targetname: "main.script"
 }));
-Mount.Register("Dialog", dialogSystem);
-Mount.Register("ProjectileTest", projectileWeaponSystem);
-Mount.Register("Scheduling", schedulingSystem);
 Mount.Register("GlockShot", new GlockShot());
 
 // Listing off what's running

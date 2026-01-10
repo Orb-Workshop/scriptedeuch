@@ -37,6 +37,7 @@ export default class Projectile extends Actor {
     public damage_type: number;
     public ignore_players: boolean;
     public remove_on_collision: boolean;
+    public disable_gravity: boolean;
     
     static FromWeapon(weapon_base: CSWeaponBase, {
         template = Default.ProjectileTemplate(),
@@ -78,6 +79,7 @@ export default class Projectile extends Actor {
         damage_type = 1, // CRUSH FIXME:
         ignore_players = false,
         remove_on_collision = false,
+        disable_gravity = false,
     } = {}) {
         super();
         this.initial_position = position;
@@ -93,7 +95,7 @@ export default class Projectile extends Actor {
         this.damage_type = damage_type;
         this.ignore_players = ignore_players;
         this.remove_on_collision = remove_on_collision;
-        
+        this.disable_gravity = disable_gravity;
     }
 
     Fire(): Projectile {
@@ -102,8 +104,15 @@ export default class Projectile extends Actor {
         [this.entity, ...this.entity_children] = this.template.ForceSpawn(
             this.initial_position,
             this.initial_rotation);
+
+        // handle this.disable_gravity
+        if (this.disable_gravity)
+            CSS.EntFireAtTarget({target: this.entity, input: "DisableGravity"});
+        else
+            CSS.EntFireAtTarget({target: this.entity, input: "EnableGravity"});
+
+        // 
         this.entity.Teleport({velocity: this.initial_velocity});
-        
         this.state = ProjectileState.FIRED;
         return this;
     }
@@ -177,7 +186,6 @@ export default class Projectile extends Actor {
     }
 
     override Dispose() {
-        CSS.Msg("Dead!");
         if (this.entity?.IsValid()) this.entity.Remove();
     }
 }
