@@ -8,7 +8,7 @@ import {
     MessageTask,
 
     // Utils
-    GetPlayerName,
+    Utils,
 
     // Mountable Systems
     MSystem,
@@ -30,7 +30,7 @@ const gameAnnouncerSystem = new MSystem.GameAnnouncerSystem({callback:(obj) => {
          enemy_had_killing_spree = false,
          enemy_was_teammate = false} = player_stats;
 
-    CSS.Msg("Player Name: " + GetPlayerName(player_pawn));
+    CSS.Msg("Player Name: " + Utils.GetPlayerName(player_pawn));
     CSS.Msg("Player Stats: " + JSON.stringify(player_stats));
     soundEventSystem.PlaySoundToPlayer(player_pawn, "Vote.Passed", true);
 }});

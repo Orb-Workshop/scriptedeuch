@@ -26,7 +26,7 @@ export default class WeaponReplacementSystem extends System {
         tick_rate = 8.,
     }) {
         super();
-        this.setTick(tick_rate);
+        this.SetTick(tick_rate);
         this.primary = primary;
         this.secondary = secondary;
         this.melee = melee;

@@ -3,7 +3,7 @@ import {
     CSPlayerPawn,
     CSPlayerController,
 } from "cs_script/point_script";
-import { GetPlayerName } from "../utils";
+import { GetPlayerName } from "../utils/index";
 import { System } from "../base/index";
 
 export default class PlayerHealthRegenerationSystem extends System {

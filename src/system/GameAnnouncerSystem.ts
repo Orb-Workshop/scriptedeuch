@@ -6,7 +6,7 @@ import {
     BaseModelEntity,
     Entity,
 } from "cs_script/point_script";
-import { GetPlayerName } from "../utils";
+import { GetPlayerName } from "../utils/index";
 import { System } from "../base/index";
 
 // Deathmatch Game Mode

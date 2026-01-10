@@ -16,13 +16,7 @@ export * as MSystem from "./system/index";
 export * as SActor from "./actor/index";
 
 // Utility Library
-export {
-    DeepCopy,
-    GetPlayerName,
-    Memoize,
-    GenerateAddOutput,
-    UniqueGen,
-} from "./utils";
+export * as Utils from "./utils/index";
 
 // Math Library
 export * as Math from "./math/index";
