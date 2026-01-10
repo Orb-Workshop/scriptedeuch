@@ -67,7 +67,7 @@ class GlockShot extends System {
         super();
     }
 
-    OnGunFire(event) {
+    override OnGunFire(event) {
         const weapon_base = event.weapon;
         const class_name = weapon_base?.GetClassName();
         if (class_name !== "weapon_glock") return;
@@ -76,6 +76,7 @@ class GlockShot extends System {
             speed: 10_000,
             disable_gravity: true,
             collision_radius: 10.0,
+            remove_on_collision: true,
         }).Fire();
     }
 }

@@ -10,7 +10,9 @@ mock.module("cs_script/point_script", () => {
         Entity: class Entity {},
         CSPlayerPawn: class CSPlayerPawn {},
         CSPlayerController: class CSPlayerController {},
-        PointTemplate: class PointTemplate {},
+        PointTemplate: class PointTemplate {
+            
+        },
         CSGearSlot: class CSGearSlot {},
     };
 });
