@@ -4,7 +4,7 @@
 
 **scriptedeuch** is a set of libraries to be used within CS2 workshop maps.
 
-Documentation: //Coming Soon//
+Documentation: [here](docs/README.md)
 
 To install dependencies:
 
