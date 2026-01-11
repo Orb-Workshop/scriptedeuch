@@ -28,15 +28,15 @@ function DoSomethingOnActivate2() {
   //...
 }
 
-function DoSomethingOnPlayerKill() {
+function DoSomethingOnPlayerKill(event) {
   //...
 }
 
-function DoSomethingOnPlayerKill2() {
+function DoSomethingOnPlayerKill2(event) {
   //...
 }
 
-function DoSomethingOnPlayerReset() {
+function DoSomethingOnPlayerReset(event) {
   //...
 }
 
@@ -47,25 +47,25 @@ Instance.OnActivate(() => {
 });
 
 Instance.OnPlayerKill((event) => {
-  DoSomethingOnPlayerKill();
-  DoSomethingOnPlayerKill2();
+  DoSomethingOnPlayerKill(event);
+  DoSomethingOnPlayerKill2(event);
 });
 
 Instance.OnPlayerReset((event) => {
-  DoSomethingOnPlayerReset();
+  DoSomethingOnPlayerReset(event);
 });
 
 // ...
 ```
 
 
-**The mounting framework replaces point_script Instance event handling
-  to allow Systems to work in tandem more easily. Multiple systems can
-  handle events independently of the Instance event handler.
+The mounting framework replaces point_script Instance event handling
+to allow Systems to work in tandem more easily. Multiple systems can
+handle events independently of the Instance event handler.
 
 
 Here's the same example written using the **scriptedeuch** mounter
-(Base.Mount) and systems framework (Base.System)
+`Base.Mount` and systems framework `Base.System`.
 
 ```typescript
 //import { Instance } from "cs_script/point_script";
@@ -80,12 +80,12 @@ class DoSomething extends Base.System {
     // DoSomethingOnActivate()
   }
 
-  override OnPlayerKill() {
-    // DoSomethingOnPlayerKill()
+  override OnPlayerKill(event) {
+    // DoSomethingOnPlayerKill(event)
   }
 
-  override OnPlayerReset() {
-    // DoSomethingOnPlayerReset()
+  override OnPlayerReset(event) {
+    // DoSomethingOnPlayerReset(event)
   }
 }
 
@@ -98,8 +98,8 @@ class DoSomething2 extends Base.System {
     // DoSomethingOnActivate2()
   }
 
-  override OnPlayerKill() {
-    // DoSomethingOnPlayerKill2()
+  override OnPlayerKill(event) {
+    // DoSomethingOnPlayerKill2(event)
   }
 }
 
@@ -113,6 +113,35 @@ Base.Mount.Start(); // Attaches Instance.On* events to the registered systems.
 
 The separation of concerns and encapsulation of logic into individual
 systems allows for easier code re-use.
+
+### I tink, therefore I am.
+
+The mounter also replaces `Instance.SetThink` and
+`Instance.SetNextThink` functionality. Systems can override
+`Base.System.Think()` and set their own *Tick Rate*. (Default, every available tick, 64-Tick)
+
+```typescript
+import { Instance as CSS } from "cs_script/point_script";
+import { Base } from "scriptedeuch";
+
+class RepeatingMsgs extends Base.System {
+  private num: number = 0;
+  public msgs: Array<string>;
+  constructor(msgs: Array<string>) {
+    super();
+    // this.SetTick(128); // Default (pegged at 64-Tick)
+    this.SetTickInterval(1); // Every Second
+    this.msgs = msgs;
+  }
+
+  override Think() {
+    const len = this.msgs.length;
+    CSS.Msg(this.msgs[this.num++ % len]);
+  }
+}
+Base.Mount.Register("Clock", new RepeatingMsgs(["Tick!", "Tock!"]));
+Base.Mount.Start();
+```
 
 ## Description
 
