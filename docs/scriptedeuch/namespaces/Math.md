@@ -521,7 +521,7 @@ Defined in: [math/LineSegment2.ts:12](https://github.com/Orb-Workshop/scriptedeu
 
 ### LineSegment3
 
-Defined in: [math/LineSegment3.ts:3](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/math/LineSegment3.ts#L3)
+Defined in: [math/LineSegment3.ts:4](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/math/LineSegment3.ts#L4)
 
 #### Constructors
 
@@ -529,7 +529,7 @@ Defined in: [math/LineSegment3.ts:3](https://github.com/Orb-Workshop/scriptedeuc
 
 > **new LineSegment3**(`point_a`, `point_b`): [`LineSegment3`](#linesegment3)
 
-Defined in: [math/LineSegment3.ts:7](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/math/LineSegment3.ts#L7)
+Defined in: [math/LineSegment3.ts:8](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/math/LineSegment3.ts#L8)
 
 ###### Parameters
 
@@ -546,8 +546,8 @@ Defined in: [math/LineSegment3.ts:7](https://github.com/Orb-Workshop/scriptedeuc
 
 | Property | Type | Defined in |
 | ------ | ------ | ------ |
-| <a id="a-1"></a> `a` | [`Point3`](#point3) | [math/LineSegment3.ts:4](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/math/LineSegment3.ts#L4) |
-| <a id="b-1"></a> `b` | [`Point3`](#point3) | [math/LineSegment3.ts:5](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/math/LineSegment3.ts#L5) |
+| <a id="a-1"></a> `a` | [`Point3`](#point3) | [math/LineSegment3.ts:5](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/math/LineSegment3.ts#L5) |
+| <a id="b-1"></a> `b` | [`Point3`](#point3) | [math/LineSegment3.ts:6](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/math/LineSegment3.ts#L6) |
 
 #### Methods
 
@@ -555,17 +555,19 @@ Defined in: [math/LineSegment3.ts:7](https://github.com/Orb-Workshop/scriptedeuc
 
 > **direction**(): \[`number`, `number`, `number`\]
 
-Defined in: [math/LineSegment3.ts:29](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/math/LineSegment3.ts#L29)
+Defined in: [math/LineSegment3.ts:31](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/math/LineSegment3.ts#L31)
 
 ###### Returns
 
 \[`number`, `number`, `number`\]
 
+A unit/direction vector from point 'a' to 'b'
+
 ##### distance()
 
 > **distance**(): `number`
 
-Defined in: [math/LineSegment3.ts:18](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/math/LineSegment3.ts#L18)
+Defined in: [math/LineSegment3.ts:19](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/math/LineSegment3.ts#L19)
 
 ###### Returns
 
@@ -575,23 +577,28 @@ Defined in: [math/LineSegment3.ts:18](https://github.com/Orb-Workshop/scriptedeu
 
 > **getNormalizedPoint**(`norm`): [`Point3`](#point3)
 
-Defined in: [math/LineSegment3.ts:46](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/math/LineSegment3.ts#L46)
+Defined in: [math/LineSegment3.ts:50](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/math/LineSegment3.ts#L50)
 
 ###### Parameters
 
 | Parameter | Type |
 | ------ | ------ |
-| `norm` | `any` |
+| `norm` | `number` |
 
 ###### Returns
 
 [`Point3`](#point3)
 
+A Point between `this.a` and `this.b` based on a normalized value
+between 0.0 and 1.0
+ex. norm = 0. --> `return this.a`
+    norm = 1. --> `return this.b`
+
 ##### midpoint()
 
 > **midpoint**(): [`Point3`](#point3)
 
-Defined in: [math/LineSegment3.ts:12](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/math/LineSegment3.ts#L12)
+Defined in: [math/LineSegment3.ts:13](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/math/LineSegment3.ts#L13)
 
 ###### Returns
 

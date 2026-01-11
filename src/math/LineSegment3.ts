@@ -1,4 +1,5 @@
 import Point3 from "./Point3";
+import Vector3 from "./Vector3";
 
 export default class LineSegment3 {
     a: Point3;
@@ -24,8 +25,9 @@ export default class LineSegment3 {
         return Math.hypot(ab_x, ab_y, ab_z);
     }
 
-    // Returns a unit/direction vector from point 'a' to 'b'
-    // TODO: return a Vector3
+    /** @returns
+        A unit/direction vector from point 'a' to 'b'
+    */
     direction(): [number, number, number] {
         let a = this.a;
         let b = this.b;
@@ -36,14 +38,16 @@ export default class LineSegment3 {
         let unit_x = ab_x / ab_mag;
         let unit_y = ab_y / ab_mag;
         let unit_z = ab_z / ab_mag;
-        return [unit_x, unit_y, unit_z];
+        return new Vector3(unit_x, unit_y, unit_z);
     }
 
-    // returns a Point between a and b based on a normalized value
-    // between 0.0 and 1.0
-    // ex. norm=0. --> return this.a
-    //     norm=1. --> return this.b
-    getNormalizedPoint(norm) {
+    /** @returns 
+        A Point between `this.a` and `this.b` based on a normalized value
+        between 0.0 and 1.0
+        ex. norm = 0. --> `return this.a`
+            norm = 1. --> `return this.b`
+    */
+    getNormalizedPoint(norm: number): Point3 {
         let a = this.a;
         let b = this.b;
 
