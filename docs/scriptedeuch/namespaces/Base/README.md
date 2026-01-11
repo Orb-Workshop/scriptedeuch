@@ -449,6 +449,10 @@ Send messages to other actors in the actor pool.
 
 Defined in: [base/Mount.ts:8](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/Mount.ts#L8)
 
+The Fundamental Library Framework. Systems and Actors are extended
+from `Base.System` and `Base.Actor`, while `Base.Mount` mounts
+them with the point_script `Instance.On*` events.
+
 #### Properties
 
 | Property | Modifier | Type | Defined in |

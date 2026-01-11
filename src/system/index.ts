@@ -1,3 +1,7 @@
+/**
+   Implementations which extend the abstract `Base.System` class.
+ */
+
 // Mountable Systems
 export { default as PlayerHealthRegenerationSystem } from "./PlayerHealthRegenerationSystem";
 export { default as PlayerModelChangerSystem } from "./PlayerModelChangerSystem";

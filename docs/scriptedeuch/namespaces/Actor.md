@@ -12,6 +12,8 @@
 
 Defined in: [actor/Projectile.ts:21](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/actor/Projectile.ts#L21)
 
+Actor.* implementations which extend the abstract `Base.Actor`.
+
 #### Extends
 
 - [`Actor`](Base/README.md#actor)

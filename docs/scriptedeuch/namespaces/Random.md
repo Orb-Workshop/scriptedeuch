@@ -10,7 +10,9 @@
 
 ### SeededRandomNumberGenerator
 
-Defined in: [random/SeededRandomNumberGenerator.ts:47](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/random/SeededRandomNumberGenerator.ts#L47)
+Defined in: [random/SeededRandomNumberGenerator.ts:50](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/random/SeededRandomNumberGenerator.ts#L50)
+
+Generate predictable randomness with a provided `seed` string.
 
 #### Constructors
 
@@ -18,7 +20,7 @@ Defined in: [random/SeededRandomNumberGenerator.ts:47](https://github.com/Orb-Wo
 
 > **new SeededRandomNumberGenerator**(`seed`, `options`): [`SeededRandomNumberGenerator`](#seededrandomnumbergenerator)
 
-Defined in: [random/SeededRandomNumberGenerator.ts:53](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/random/SeededRandomNumberGenerator.ts#L53)
+Defined in: [random/SeededRandomNumberGenerator.ts:56](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/random/SeededRandomNumberGenerator.ts#L56)
 
 ###### Parameters
 
@@ -37,7 +39,7 @@ Defined in: [random/SeededRandomNumberGenerator.ts:53](https://github.com/Orb-Wo
 
 > **\_getDistribution**(`tupl`, `norm_factor`): `any`[][]
 
-Defined in: [random/SeededRandomNumberGenerator.ts:64](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/random/SeededRandomNumberGenerator.ts#L64)
+Defined in: [random/SeededRandomNumberGenerator.ts:67](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/random/SeededRandomNumberGenerator.ts#L67)
 
 ###### Parameters
 
@@ -54,7 +56,10 @@ Defined in: [random/SeededRandomNumberGenerator.ts:64](https://github.com/Orb-Wo
 
 > **randomChance**(`norm`): `boolean`
 
-Defined in: [random/SeededRandomNumberGenerator.ts:124](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/random/SeededRandomNumberGenerator.ts#L124)
+Defined in: [random/SeededRandomNumberGenerator.ts:132](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/random/SeededRandomNumberGenerator.ts#L132)
+
+`norm` is a value between 0.0 and 1.0, and returns true if the
+generated value is less than `norm`.
 
 ###### Parameters
 
@@ -66,11 +71,23 @@ Defined in: [random/SeededRandomNumberGenerator.ts:124](https://github.com/Orb-W
 
 `boolean`
 
+###### Example
+
+```ts
+let srng = new SeededRandomNumberGenerator("Test");
+let coinFlip = () => { return srng.randomChance(0.5); };
+let quarter = () => { return coinFlip() && coinFlip(); };
+let deca = () => { return srng.randomChance(0.1); };
+```
+
 ##### randomChoice()
 
 > **randomChoice**\<`T`\>(`array`, `bDelete`): `T` \| `null`
 
-Defined in: [random/SeededRandomNumberGenerator.ts:143](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/random/SeededRandomNumberGenerator.ts#L143)
+Defined in: [random/SeededRandomNumberGenerator.ts:153](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/random/SeededRandomNumberGenerator.ts#L153)
+
+Returns a random choice from an array.
+if `bDelete`, remove the element from the array.
 
 ###### Type Parameters
 
@@ -93,7 +110,11 @@ Defined in: [random/SeededRandomNumberGenerator.ts:143](https://github.com/Orb-W
 
 > **randomCombination**\<`T`\>(`array`, `count`, `bDelete`): `T`[]
 
-Defined in: [random/SeededRandomNumberGenerator.ts:153](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/random/SeededRandomNumberGenerator.ts#L153)
+Defined in: [random/SeededRandomNumberGenerator.ts:165](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/random/SeededRandomNumberGenerator.ts#L165)
+
+Returns a random combination of values from the `array` as a
+choice of values of size `count`
+if `bDelete`, remove the elements from the array.
 
 ###### Type Parameters
 
@@ -117,7 +138,7 @@ Defined in: [random/SeededRandomNumberGenerator.ts:153](https://github.com/Orb-W
 
 > **randomDistribution**(`o`): `string`
 
-Defined in: [random/SeededRandomNumberGenerator.ts:96](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/random/SeededRandomNumberGenerator.ts#L96)
+Defined in: [random/SeededRandomNumberGenerator.ts:101](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/random/SeededRandomNumberGenerator.ts#L101)
 
 ###### Parameters
 
@@ -133,7 +154,7 @@ Defined in: [random/SeededRandomNumberGenerator.ts:96](https://github.com/Orb-Wo
 
 > **randomFloat**(`start`, `end?`): `number`
 
-Defined in: [random/SeededRandomNumberGenerator.ts:128](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/random/SeededRandomNumberGenerator.ts#L128)
+Defined in: [random/SeededRandomNumberGenerator.ts:136](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/random/SeededRandomNumberGenerator.ts#L136)
 
 ###### Parameters
 
@@ -150,7 +171,7 @@ Defined in: [random/SeededRandomNumberGenerator.ts:128](https://github.com/Orb-W
 
 > **randomInteger**(`start`, `end?`): `number`
 
-Defined in: [random/SeededRandomNumberGenerator.ts:137](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/random/SeededRandomNumberGenerator.ts#L137)
+Defined in: [random/SeededRandomNumberGenerator.ts:145](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/random/SeededRandomNumberGenerator.ts#L145)
 
 ###### Parameters
 
@@ -167,7 +188,10 @@ Defined in: [random/SeededRandomNumberGenerator.ts:137](https://github.com/Orb-W
 
 > **randomShuffle**\<`T`\>(`array`, `bCopy`): `T`[]
 
-Defined in: [random/SeededRandomNumberGenerator.ts:171](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/random/SeededRandomNumberGenerator.ts#L171)
+Defined in: [random/SeededRandomNumberGenerator.ts:185](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/random/SeededRandomNumberGenerator.ts#L185)
+
+Shuffles the elements of an array.
+if `bCopy`, returns a new array.
 
 ###### Type Parameters
 

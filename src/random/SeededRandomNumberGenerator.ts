@@ -1,4 +1,4 @@
-/*
+/**
   Seeded Random Generator
 
   Notes:
@@ -44,6 +44,9 @@ function sfc32(a: number, b: number, c: number, d: number): () => number {
 
 
 const DEFAULT_TOTAL_DISTRIBUTION: number = 10_000_000;
+/**
+   Generate predictable randomness with a provided `seed` string.
+ */
 export default class SeededRandomNumberGenerator {
     private total_distribution: number;
     private seed: string;
@@ -75,8 +78,11 @@ export default class SeededRandomNumberGenerator {
     }
     
     /*
-      Example:
+      Get random distribution based on keyvalue weights.
+
+      @example
       
+      ```typescript
       let srng = new SeededRandomNumberGenerator("Test2");
       let dist = {
         Head: 2,
@@ -90,9 +96,8 @@ export default class SeededRandomNumberGenerator {
       console.log(gen()); // Chest
       console.log(gen()); // Chest
       console.log(gen()); // Chest
+      ```
     */
-
-    // Get random distribution based on keyvalue weights.
     randomDistribution(o: Object): string {
         let tupl = [];
         for (const [k, v] of Object.entries(o)) {
@@ -112,14 +117,17 @@ export default class SeededRandomNumberGenerator {
         })[2];
     }
 
-    // `norm` is a value between 0.0 and 1.0, and returns true if the
-    // generated value is less than `norm`.
-    /*
-      Examples
-      let srng = new SeededRandomNumberGenerator("Test");
-      let coinFlip = () => { return srng.randomChance(0.5); };
-      let quarter = () => { return coinFlip() && coinFlip(); };
-      let deca = () => { return srng.randomChance(0.1); };
+    /**
+       `norm` is a value between 0.0 and 1.0, and returns true if the
+       generated value is less than `norm`.
+
+       @example
+       ```ts
+       let srng = new SeededRandomNumberGenerator("Test");
+       let coinFlip = () => { return srng.randomChance(0.5); };
+       let quarter = () => { return coinFlip() && coinFlip(); };
+       let deca = () => { return srng.randomChance(0.1); };
+       ```
     */
     randomChance(norm: number): boolean {
         return (this.generator() <= norm);
@@ -138,18 +146,22 @@ export default class SeededRandomNumberGenerator {
         return Math.round(this.randomFloat(start, end));
     }
 
-    // Returns a random choice from an array.
-    // if `bDelete`, remove the element from the array.
+    /**
+       Returns a random choice from an array.
+       if `bDelete`, remove the element from the array.
+    */
     randomChoice<T = any>(array: Array<T>, bDelete: boolean = false): T | null {
         const idx: number = this.randomInteger(0, array.length-1);
         let result: T = array[idx];
         if (bDelete) array.splice(idx, 1);
         return (result !== undefined) ? result : null;
     }
-
-    // Returns a random combination of values from the `array` as a
-    // choice of values of size `count`
-    // if `bDelete`, remove the elements from the array.
+    
+    /**
+      Returns a random combination of values from the `array` as a
+      choice of values of size `count`
+      if `bDelete`, remove the elements from the array.
+    */
     randomCombination<T = any>(array: Array<T>, count: number = 1, bDelete: boolean = false): Array<T> {
         let a = null;
         if (bDelete)
@@ -166,8 +178,10 @@ export default class SeededRandomNumberGenerator {
         return result;
     }
 
-    // Shuffles the elements of an array.
-    // if `bCopy`, returns a new array.
+    /**
+       Shuffles the elements of an array.
+       if `bCopy`, returns a new array.
+    */
     randomShuffle<T = any>(array: Array<T>, bCopy: boolean = false): Array<T> {
         let a = null;
         if (bCopy)

@@ -2064,6 +2064,8 @@ Defined in: [base/System.ts:30](https://github.com/Orb-Workshop/scriptedeuch/blo
 
 Defined in: [system/PlayerHealthRegenerationSystem.ts:9](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/system/PlayerHealthRegenerationSystem.ts#L9)
 
+Implementations which extend the abstract `Base.System` class.
+
 #### Extends
 
 - [`System`](Base/README.md#system)

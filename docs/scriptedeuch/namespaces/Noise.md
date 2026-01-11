@@ -12,6 +12,8 @@
 
 Defined in: [noise/SimplexNoise.ts:18](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/noise/SimplexNoise.ts#L18)
 
+Noise Generation Classes and Functions.
+
 #### Constructors
 
 ##### Constructor

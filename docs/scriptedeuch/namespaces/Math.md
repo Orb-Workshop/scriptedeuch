@@ -872,6 +872,8 @@ Defined in: [math/QAngle.ts:25](https://github.com/Orb-Workshop/scriptedeuch/blo
 
 Defined in: [math/Vector2.ts:1](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/math/Vector2.ts#L1)
 
+Math Classes and Functions. Adapters for Instance.Vector, Instance.QAngle interfaces.
+
 #### Constructors
 
 ##### Constructor

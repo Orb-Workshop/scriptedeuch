@@ -1,3 +1,7 @@
+/**
+   Randomness Functions and Classes
+ */
+
 export { default as SeededRandomNumberGenerator } from "./SeededRandomNumberGenerator";
 export { default as RandomChoiceGenerator } from "./RandomChoiceGenerator";
 export {
