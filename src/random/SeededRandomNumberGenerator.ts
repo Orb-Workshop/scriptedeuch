@@ -77,7 +77,7 @@ export default class SeededRandomNumberGenerator {
         return dist; // [[cstart, cend, value], ...]
     }
     
-    /*
+    /**
       Get random distribution based on keyvalue weights.
 
       @example

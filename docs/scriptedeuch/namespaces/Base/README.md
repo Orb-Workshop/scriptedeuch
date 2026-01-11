@@ -6,6 +6,8 @@
 
 # Base
 
+Base Library
+
 ## Namespaces
 
 | Namespace | Description |

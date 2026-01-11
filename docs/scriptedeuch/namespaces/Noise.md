@@ -6,6 +6,8 @@
 
 # Noise
 
+Noise Library
+
 ## Classes
 
 ### SimplexNoise

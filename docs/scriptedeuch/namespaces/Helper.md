@@ -6,6 +6,8 @@
 
 # Helper
 
+Entity Helpers
+
 ## Classes
 
 ### EntityHelper

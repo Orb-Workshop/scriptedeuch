@@ -6,6 +6,8 @@
 
 # Random
 
+Random Library
+
 ## Classes
 
 ### SeededRandomNumberGenerator
@@ -140,6 +142,8 @@ if `bDelete`, remove the elements from the array.
 
 Defined in: [random/SeededRandomNumberGenerator.ts:101](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/random/SeededRandomNumberGenerator.ts#L101)
 
+Get random distribution based on keyvalue weights.
+
 ###### Parameters
 
 | Parameter | Type |
@@ -149,6 +153,24 @@ Defined in: [random/SeededRandomNumberGenerator.ts:101](https://github.com/Orb-W
 ###### Returns
 
 `string`
+
+###### Example
+
+```typescript
+let srng = new SeededRandomNumberGenerator("Test2");
+let dist = {
+  Head: 2,
+  Chest: 3,
+  Legs: 1,
+}
+let gen = () => { return srng.randomDistribution(dist); };
+console.log(gen()); // Head
+console.log(gen()); // Head
+console.log(gen()); // Legs
+console.log(gen()); // Chest
+console.log(gen()); // Chest
+console.log(gen()); // Chest
+```
 
 ##### randomFloat()
 

@@ -6,6 +6,8 @@
 
 # Math
 
+Math Library
+
 ## Classes
 
 ### BBox2

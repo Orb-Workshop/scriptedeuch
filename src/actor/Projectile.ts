@@ -18,6 +18,9 @@ export enum ProjectileState {
     DEAD = 2,
 }
 
+/**
+   
+ */
 export default class Projectile extends Actor {
     public name: string = UniqueName();
     public state: ProjectileState = ProjectileState.IDLE;

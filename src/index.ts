@@ -1,25 +1,25 @@
 /* Advanced Library Framework */
 
-// Base Library
+/** Base Library */
 export * as Base from "./base";
 
-// Mountable Systems
+/** Mountable Systems */
 export * as System from "./system";
 
-// Spawnable Actors (Auto-Mounting)
+/** Spawnable Actors (Auto-Mounting) */
 export * as Actor from "./actor";
 
-// Utility Library
+/** Utility Library */
 export * as Util from "./util";
 
-// Math Library
+/** Math Library */
 export * as Math from "./math";
 
-// Random Library
+/** Random Library */
 export * as Random from "./random";
 
-// Noise
+/** Noise Library */
 export * as Noise from "./noise";
 
-// Entity Helpers
+/** Entity Helpers */
 export * as Helper from "./helper";

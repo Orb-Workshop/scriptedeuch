@@ -6,13 +6,13 @@
 
 # Actor
 
+Spawnable Actors (Auto-Mounting)
+
 ## Classes
 
 ### Projectile
 
-Defined in: [actor/Projectile.ts:21](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/actor/Projectile.ts#L21)
-
-Actor.* implementations which extend the abstract `Base.Actor`.
+Defined in: [actor/Projectile.ts:24](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/actor/Projectile.ts#L24)
 
 #### Extends
 
@@ -24,7 +24,7 @@ Actor.* implementations which extend the abstract `Base.Actor`.
 
 > **new Projectile**(`__namedParameters`): [`Projectile`](#projectile)
 
-Defined in: [actor/Projectile.ts:68](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/actor/Projectile.ts#L68)
+Defined in: [actor/Projectile.ts:71](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/actor/Projectile.ts#L71)
 
 ###### Parameters
 
@@ -57,24 +57,24 @@ Defined in: [actor/Projectile.ts:68](https://github.com/Orb-Workshop/scriptedeuc
 
 | Property | Modifier | Type | Default value | Defined in |
 | ------ | ------ | ------ | ------ | ------ |
-| <a id="collision_radius"></a> `collision_radius` | `public` | `number` | `undefined` | [actor/Projectile.ts:32](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/actor/Projectile.ts#L32) |
-| <a id="damage"></a> `damage` | `public` | `number` | `undefined` | [actor/Projectile.ts:36](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/actor/Projectile.ts#L36) |
-| <a id="damage_type"></a> `damage_type` | `public` | `number` | `undefined` | [actor/Projectile.ts:37](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/actor/Projectile.ts#L37) |
-| <a id="disable_gravity"></a> `disable_gravity` | `public` | `boolean` | `undefined` | [actor/Projectile.ts:40](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/actor/Projectile.ts#L40) |
-| <a id="entity"></a> `entity` | `public` | `Entity` | `undefined` | [actor/Projectile.ts:30](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/actor/Projectile.ts#L30) |
-| <a id="entity_children"></a> `entity_children` | `public` | `Entity`[] | `undefined` | [actor/Projectile.ts:31](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/actor/Projectile.ts#L31) |
-| <a id="fizzle_delay"></a> `fizzle_delay` | `public` | `number` | `undefined` | [actor/Projectile.ts:35](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/actor/Projectile.ts#L35) |
-| <a id="ignore_players"></a> `ignore_players` | `public` | `boolean` | `undefined` | [actor/Projectile.ts:38](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/actor/Projectile.ts#L38) |
-| <a id="initial_position"></a> `initial_position` | `public` | [`Vector3`](Math.md#vector3) | `undefined` | [actor/Projectile.ts:25](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/actor/Projectile.ts#L25) |
-| <a id="initial_rotation"></a> `initial_rotation` | `public` | [`QAngle`](Math.md#qangle) | `undefined` | [actor/Projectile.ts:27](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/actor/Projectile.ts#L27) |
-| <a id="initial_velocity"></a> `initial_velocity` | `public` | [`Vector3`](Math.md#vector3) | `undefined` | [actor/Projectile.ts:28](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/actor/Projectile.ts#L28) |
-| <a id="last_position"></a> `last_position` | `public` | [`Vector3`](Math.md#vector3) | `undefined` | [actor/Projectile.ts:26](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/actor/Projectile.ts#L26) |
-| <a id="name"></a> `name` | `public` | `string` | `undefined` | [actor/Projectile.ts:22](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/actor/Projectile.ts#L22) |
-| <a id="owner"></a> `owner` | `public` | `CSPlayerPawn` | `undefined` | [actor/Projectile.ts:34](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/actor/Projectile.ts#L34) |
-| <a id="remove_on_collision"></a> `remove_on_collision` | `public` | `boolean` | `undefined` | [actor/Projectile.ts:39](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/actor/Projectile.ts#L39) |
-| <a id="state"></a> `state` | `public` | `ProjectileState` | `ProjectileState.IDLE` | [actor/Projectile.ts:23](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/actor/Projectile.ts#L23) |
-| <a id="template"></a> `template` | `public` | `PointTemplate` | `undefined` | [actor/Projectile.ts:29](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/actor/Projectile.ts#L29) |
-| <a id="weapon"></a> `weapon` | `public` | `CSWeaponBase` | `undefined` | [actor/Projectile.ts:33](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/actor/Projectile.ts#L33) |
+| <a id="collision_radius"></a> `collision_radius` | `public` | `number` | `undefined` | [actor/Projectile.ts:35](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/actor/Projectile.ts#L35) |
+| <a id="damage"></a> `damage` | `public` | `number` | `undefined` | [actor/Projectile.ts:39](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/actor/Projectile.ts#L39) |
+| <a id="damage_type"></a> `damage_type` | `public` | `number` | `undefined` | [actor/Projectile.ts:40](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/actor/Projectile.ts#L40) |
+| <a id="disable_gravity"></a> `disable_gravity` | `public` | `boolean` | `undefined` | [actor/Projectile.ts:43](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/actor/Projectile.ts#L43) |
+| <a id="entity"></a> `entity` | `public` | `Entity` | `undefined` | [actor/Projectile.ts:33](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/actor/Projectile.ts#L33) |
+| <a id="entity_children"></a> `entity_children` | `public` | `Entity`[] | `undefined` | [actor/Projectile.ts:34](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/actor/Projectile.ts#L34) |
+| <a id="fizzle_delay"></a> `fizzle_delay` | `public` | `number` | `undefined` | [actor/Projectile.ts:38](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/actor/Projectile.ts#L38) |
+| <a id="ignore_players"></a> `ignore_players` | `public` | `boolean` | `undefined` | [actor/Projectile.ts:41](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/actor/Projectile.ts#L41) |
+| <a id="initial_position"></a> `initial_position` | `public` | [`Vector3`](Math.md#vector3) | `undefined` | [actor/Projectile.ts:28](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/actor/Projectile.ts#L28) |
+| <a id="initial_rotation"></a> `initial_rotation` | `public` | [`QAngle`](Math.md#qangle) | `undefined` | [actor/Projectile.ts:30](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/actor/Projectile.ts#L30) |
+| <a id="initial_velocity"></a> `initial_velocity` | `public` | [`Vector3`](Math.md#vector3) | `undefined` | [actor/Projectile.ts:31](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/actor/Projectile.ts#L31) |
+| <a id="last_position"></a> `last_position` | `public` | [`Vector3`](Math.md#vector3) | `undefined` | [actor/Projectile.ts:29](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/actor/Projectile.ts#L29) |
+| <a id="name"></a> `name` | `public` | `string` | `undefined` | [actor/Projectile.ts:25](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/actor/Projectile.ts#L25) |
+| <a id="owner"></a> `owner` | `public` | `CSPlayerPawn` | `undefined` | [actor/Projectile.ts:37](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/actor/Projectile.ts#L37) |
+| <a id="remove_on_collision"></a> `remove_on_collision` | `public` | `boolean` | `undefined` | [actor/Projectile.ts:42](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/actor/Projectile.ts#L42) |
+| <a id="state"></a> `state` | `public` | `ProjectileState` | `ProjectileState.IDLE` | [actor/Projectile.ts:26](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/actor/Projectile.ts#L26) |
+| <a id="template"></a> `template` | `public` | `PointTemplate` | `undefined` | [actor/Projectile.ts:32](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/actor/Projectile.ts#L32) |
+| <a id="weapon"></a> `weapon` | `public` | `CSWeaponBase` | `undefined` | [actor/Projectile.ts:36](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/actor/Projectile.ts#L36) |
 
 #### Methods
 
@@ -82,7 +82,7 @@ Defined in: [actor/Projectile.ts:68](https://github.com/Orb-Workshop/scriptedeuc
 
 > **CheckCollision**(): `void`
 
-Defined in: [actor/Projectile.ts:133](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/actor/Projectile.ts#L133)
+Defined in: [actor/Projectile.ts:136](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/actor/Projectile.ts#L136)
 
 ###### Returns
 
@@ -92,7 +92,7 @@ Defined in: [actor/Projectile.ts:133](https://github.com/Orb-Workshop/scriptedeu
 
 > **Dispose**(): `void`
 
-Defined in: [actor/Projectile.ts:188](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/actor/Projectile.ts#L188)
+Defined in: [actor/Projectile.ts:191](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/actor/Projectile.ts#L191)
 
 Override Interface Method. Called after an actor has been made dirty,
 and has been removed from the actor pool
@@ -109,7 +109,7 @@ and has been removed from the actor pool
 
 > **Fire**(): [`Projectile`](#projectile)
 
-Defined in: [actor/Projectile.ts:101](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/actor/Projectile.ts#L101)
+Defined in: [actor/Projectile.ts:104](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/actor/Projectile.ts#L104)
 
 ###### Returns
 
@@ -133,7 +133,7 @@ Defined in: [base/Actor.ts:54](https://github.com/Orb-Workshop/scriptedeuch/blob
 
 > **HandleCollision**(`trace`): `void`
 
-Defined in: [actor/Projectile.ts:151](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/actor/Projectile.ts#L151)
+Defined in: [actor/Projectile.ts:154](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/actor/Projectile.ts#L154)
 
 ###### Parameters
 
@@ -193,7 +193,7 @@ Defined in: [base/Actor.ts:67](https://github.com/Orb-Workshop/scriptedeuch/blob
 
 > **ReceiveMessage**(`name`, `data`): `void`
 
-Defined in: [actor/Projectile.ts:183](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/actor/Projectile.ts#L183)
+Defined in: [actor/Projectile.ts:186](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/actor/Projectile.ts#L186)
 
 Override Interface Method. React to messages sent by other actors in the actor pool.
 
@@ -216,7 +216,7 @@ Override Interface Method. React to messages sent by other actors in the actor p
 
 > **Remove**(): `void`
 
-Defined in: [actor/Projectile.ts:166](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/actor/Projectile.ts#L166)
+Defined in: [actor/Projectile.ts:169](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/actor/Projectile.ts#L169)
 
 ###### Returns
 
@@ -270,7 +270,7 @@ Defined in: [base/Actor.ts:52](https://github.com/Orb-Workshop/scriptedeuch/blob
 
 > **Think**(): `void`
 
-Defined in: [actor/Projectile.ts:172](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/actor/Projectile.ts#L172)
+Defined in: [actor/Projectile.ts:175](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/actor/Projectile.ts#L175)
 
 Override Method. Is called at the `think_interval`.
 
@@ -286,7 +286,7 @@ Override Method. Is called at the `think_interval`.
 
 > `static` **FromWeapon**(`weapon_base`, `__namedParameters`): [`Projectile`](#projectile)
 
-Defined in: [actor/Projectile.ts:42](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/actor/Projectile.ts#L42)
+Defined in: [actor/Projectile.ts:45](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/actor/Projectile.ts#L45)
 
 ###### Parameters
 
