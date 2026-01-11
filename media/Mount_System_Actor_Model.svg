@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="800"
+   height="800"
+   viewBox="0 0 211.66666 211.66645"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
+   sodipodi:docname="Mount_System_Actor_Model.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#999999"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="px"
+     inkscape:zoom="1.0570195"
+     inkscape:cx="319.76705"
+     inkscape:cy="385.51796"
+     inkscape:window-width="3778"
+     inkscape:window-height="1057"
+     inkscape:window-x="54"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1">
+    <rect
+       x="202.45605"
+       y="441.80832"
+       width="401.1279"
+       height="85.145073"
+       id="rect2" />
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:#929292;fill-opacity:0.8923077;stroke:none;stroke-width:0.529166;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.505769"
+       id="rect8"
+       width="204.75407"
+       height="202.25096"
+       x="4.0049696"
+       y="3.5043485"
+       rx="2.2699418"
+       ry="2.2699418" />
+    <g
+       id="g2"
+       transform="matrix(0.61794022,0,0,0.61794022,101.84844,62.994827)">
+      <rect
+         style="fill:#aa7f69;stroke-width:0.264999;stroke-linecap:round;stroke-linejoin:round"
+         id="rect1-5"
+         width="75.343536"
+         height="48.309975"
+         x="20.02486"
+         y="12.265226"
+         rx="3.6734002"
+         ry="3.6734002" />
+      <text
+         xml:space="preserve"
+         style="font-size:14.1111px;line-height:125%;font-family:Consolas;-inkscape-font-specification:Consolas;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         x="56.319916"
+         y="39.799408"
+         id="text1-5"><tspan
+           sodipodi:role="line"
+           id="tspan1-1"
+           style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583px"
+           x="56.319916"
+           y="39.799408">System</tspan></text>
+    </g>
+    <g
+       id="g2-4"
+       transform="matrix(0.61794022,0,0,0.61794022,49.621892,62.994827)">
+      <rect
+         style="fill:#aa7f69;stroke-width:0.264999;stroke-linecap:round;stroke-linejoin:round"
+         id="rect1-5-6"
+         width="75.343536"
+         height="48.309975"
+         x="20.02486"
+         y="12.265226"
+         rx="3.6734002"
+         ry="3.6734002" />
+      <text
+         xml:space="preserve"
+         style="font-size:14.1111px;line-height:125%;font-family:Consolas;-inkscape-font-specification:Consolas;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         x="56.319916"
+         y="39.799408"
+         id="text1-5-7"><tspan
+           sodipodi:role="line"
+           id="tspan1-1-2"
+           style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583px"
+           x="56.319916"
+           y="39.799408">System</tspan></text>
+    </g>
+    <g
+       id="g8"
+       transform="translate(0,0.03787874)">
+      <rect
+         style="fill:#bd9c8b;fill-opacity:1;stroke-width:0.163754;stroke-linecap:round;stroke-linejoin:round"
+         id="rect1-5-6-3"
+         width="46.5578"
+         height="29.852676"
+         x="10.248462"
+         y="70.536125"
+         rx="2.2699418"
+         ry="2.2699418" />
+      <text
+         xml:space="preserve"
+         style="font-size:5.64444px;line-height:125%;font-family:Consolas;-inkscape-font-specification:Consolas;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.163496px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         x="33.734966"
+         y="83.846443"
+         id="text1-5-7-4"><tspan
+           sodipodi:role="line"
+           style="font-size:5.64444px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.163496px"
+           x="33.734966"
+           y="83.846443"
+           id="tspan5">ActorSystem</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:4.23333px;line-height:125%;font-family:Consolas;-inkscape-font-specification:Consolas;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.163496px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         x="33.709545"
+         y="90.699677"
+         id="text1-5-7-4-2"><tspan
+           sodipodi:role="line"
+           style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:Consolas;-inkscape-font-specification:'Consolas Italic';fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.163496px"
+           x="33.709545"
+           y="90.699677"
+           id="tspan5-1">DefaultActorPool</tspan></text>
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-size:7.9925px;line-height:125%;font-family:Consolas;-inkscape-font-specification:Consolas;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:none;stroke:#000000;stroke-width:0.42817px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="187.34291"
+       y="145.61737"
+       id="text6"
+       transform="matrix(0.61794021,0,0,0.61794021,-2.1257053,62.956952)"><tspan
+         sodipodi:role="line"
+         id="tspan6"
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.9925px;font-family:Consolas;-inkscape-font-specification:'Consolas Italic';fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.42817px"
+         x="187.34291"
+         y="145.61737">Base.Mount.Start()</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:3.52778px;line-height:125%;font-family:Consolas;-inkscape-font-specification:Consolas;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="172.38271"
+       y="104.95935"
+       id="text6-6"><tspan
+         sodipodi:role="line"
+         id="tspan6-0"
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52778px;font-family:Consolas;-inkscape-font-specification:'Consolas Italic';fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583px"
+         x="172.38271"
+         y="104.95935">Base.Mount.Register(name, system)</tspan></text>
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1.32292;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:1.32292, 1.32292;stroke-dashoffset:0;stroke-opacity:1"
+       d="M 34.292553,41.551562 34.042242,70.086974"
+       id="path4" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1.32292;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:1.32292, 1.32292;stroke-dashoffset:0;stroke-opacity:1"
+       d="m 33.503781,100.44245 -0.250311,6.50808"
+       id="path4-0"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1.32292;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:1.32292, 1.32292;stroke-dashoffset:0;stroke-opacity:1"
+       d="m 85.645646,100.44245 -0.250311,6.50808"
+       id="path4-0-9"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1.32292;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:1.32292, 1.32292;stroke-dashoffset:0;stroke-opacity:1"
+       d="m 137.78751,100.44245 -0.25031,6.50808"
+       id="path4-0-6"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1.32292;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:1.32292, 1.32292;stroke-dashoffset:0;stroke-opacity:1"
+       d="m 85.819458,147.95597 -0.250311,6.50808"
+       id="path4-0-4"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1.32292;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:1.32292, 1.32292;stroke-dashoffset:0;stroke-opacity:1"
+       d="M 84.604985,41.301254 34.292553,69.586353"
+       id="path5" />
+    <g
+       id="g4"
+       transform="matrix(0.61794022,0,0,0.61794022,50.033514,3.9291661)">
+      <rect
+         style="fill:#6c69aa;fill-opacity:1;stroke-width:0.264999;stroke-linecap:round;stroke-linejoin:round"
+         id="rect1-5-6-0"
+         width="75.343536"
+         height="48.309975"
+         x="20.02486"
+         y="12.265226"
+         rx="3.6734002"
+         ry="3.6734002" />
+      <text
+         xml:space="preserve"
+         style="font-size:14.1111px;line-height:125%;font-family:Consolas;-inkscape-font-specification:Consolas;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         x="56.319916"
+         y="39.799408"
+         id="text1-5-7-0"><tspan
+           sodipodi:role="line"
+           id="tspan1-1-2-4"
+           style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583px"
+           x="56.319916"
+           y="39.799408">Actor</tspan></text>
+    </g>
+    <g
+       id="g4-3"
+       transform="matrix(0.61794022,0,0,0.61794022,101.66118,4.0624834)">
+      <rect
+         style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.85633913;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.50576925"
+         id="rect6"
+         width="252.76526"
+         height="93.571754"
+         x="-151.95895"
+         y="4.3627248"
+         rx="3.6733999"
+         ry="3.6733999" />
+      <text
+         xml:space="preserve"
+         style="font-size:6.85071px;line-height:125%;font-family:Consolas;-inkscape-font-specification:Consolas;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:none;stroke:#000000;stroke-width:0.42817px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         x="33.564255"
+         y="94.288834"
+         id="text7"><tspan
+           sodipodi:role="line"
+           id="tspan7"
+           style="font-size:6.85071px;fill:#3a3a3a;fill-opacity:1;stroke:none;stroke-width:0.42817px"
+           x="33.564259"
+           y="94.288834">Base.Actor.SendMessage(tag, data)</tspan></text>
+    </g>
+    <g
+       id="g7"
+       transform="translate(0,-0.13331694)">
+      <rect
+         style="fill:#698faa;fill-opacity:1;stroke-width:0.264999;stroke-linecap:round;stroke-linejoin:round"
+         id="rect1-5-6-0-1"
+         width="75.343536"
+         height="48.309975"
+         x="20.02486"
+         y="12.265226"
+         rx="3.6734002"
+         ry="3.6734002"
+         transform="matrix(0.61794021,0,0,0.61794021,101.66118,4.0624834)" />
+      <text
+         xml:space="preserve"
+         style="font-size:10.2761px;line-height:125%;font-family:Consolas;-inkscape-font-specification:Consolas;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         x="56.319916"
+         y="39.799408"
+         id="text1-5-7-0-3"
+         transform="matrix(0.61794021,0,0,0.61794021,101.66118,4.0624834)"><tspan
+           sodipodi:role="line"
+           id="tspan1-1-2-4-9"
+           style="font-size:10.2761px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583px"
+           x="56.319916"
+           y="39.799408">MessageTask</tspan></text>
+    </g>
+    <g
+       id="g4-9"
+       transform="matrix(0.61794022,0,0,0.61794022,-1.5941519,3.9291661)">
+      <rect
+         style="fill:#6c69aa;fill-opacity:1;stroke-width:0.264999;stroke-linecap:round;stroke-linejoin:round"
+         id="rect1-5-6-0-2"
+         width="75.343536"
+         height="48.309975"
+         x="20.02486"
+         y="12.265226"
+         rx="3.6734002"
+         ry="3.6734002" />
+      <text
+         xml:space="preserve"
+         style="font-size:14.1111px;line-height:125%;font-family:Consolas;-inkscape-font-specification:Consolas;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         x="56.319916"
+         y="39.799408"
+         id="text1-5-7-0-7"><tspan
+           sodipodi:role="line"
+           id="tspan1-1-2-4-0"
+           style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583px"
+           x="56.319916"
+           y="39.799408">Actor</tspan></text>
+    </g>
+    <g
+       id="g2-4-7"
+       transform="matrix(0.61999528,0,0,0.61794022,37.333495,80.315121)">
+      <g
+         id="g1"
+         transform="translate(-64.406566,47.393511)">
+        <rect
+           style="fill:#69aa85;fill-opacity:1;stroke-width:0.55064;stroke-linecap:round;stroke-linejoin:round"
+           id="rect1-5-6-6"
+           width="243.60403"
+           height="64.512886"
+           x="20.02486"
+           y="-3.9376833"
+           rx="4.5435557"
+           ry="4.9054389" />
+        <text
+           xml:space="preserve"
+           style="font-size:18.8439px;line-height:125%;font-family:Consolas;-inkscape-font-specification:Consolas;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.353323px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           x="148.69749"
+           y="33.641464"
+           id="text1-5-7-2"><tspan
+             sodipodi:role="line"
+             id="tspan1-1-2-7"
+             style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.353323px"
+             x="148.69749"
+             y="33.641464">Mount</tspan></text>
+      </g>
+    </g>
+    <g
+       id="g3"
+       transform="translate(0,47.624976)">
+      <rect
+         style="fill:#aeaeae;fill-opacity:1;stroke:none;stroke-width:0.264999;stroke-linecap:round;stroke-linejoin:round"
+         id="rect1"
+         width="193.4902"
+         height="41.551582"
+         x="9.7621193"
+         y="107.63362"
+         rx="3.0037286"
+         ry="3.0312681" />
+      <text
+         xml:space="preserve"
+         transform="matrix(0.26458333,0,0,0.26458333,-0.75093222,3.7546611)"
+         id="text1"
+         style="font-size:53.3333px;line-height:125%;font-family:Consolas;-inkscape-font-specification:Consolas;text-align:center;letter-spacing:0px;word-spacing:0px;white-space:pre;shape-inside:url(#rect2);display:inline;fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"><tspan
+           x="285.72891"
+           y="488.08461"
+           id="tspan3"><tspan
+             style="fill:#000000;stroke:none"
+             id="tspan1">Instance</tspan></tspan></text>
+    </g>
+  </g>
+</svg>
