@@ -6,7 +6,7 @@
 
 # System
 
-Mountable Systems
+Mountable Systems that extend `Base.System`
 
 ## Classes
 

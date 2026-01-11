@@ -6,7 +6,7 @@
 
 # Actor
 
-Spawnable Actors (Auto-Mounting)
+Spawnable Actors (Auto-Mounting) that extend `Base.Actor`
 
 ## Classes
 

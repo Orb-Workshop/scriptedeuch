@@ -6,7 +6,7 @@
 
 # Helper
 
-Entity Helpers
+Entity Helper Library
 
 ## Classes
 

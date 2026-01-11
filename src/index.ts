@@ -3,10 +3,10 @@
 /** Base Library */
 export * as Base from "./base";
 
-/** Mountable Systems */
+/** Mountable Systems that extend `Base.System` */
 export * as System from "./system";
 
-/** Spawnable Actors (Auto-Mounting) */
+/** Spawnable Actors (Auto-Mounting) that extend `Base.Actor` */
 export * as Actor from "./actor";
 
 /** Utility Library */
@@ -21,5 +21,5 @@ export * as Random from "./random";
 /** Noise Library */
 export * as Noise from "./noise";
 
-/** Entity Helpers */
+/** Entity Helper Library */
 export * as Helper from "./helper";
