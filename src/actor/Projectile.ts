@@ -12,6 +12,7 @@ import { UniqueGen } from "../util";
 
 const UniqueName = UniqueGen("Projectile-");
 
+/** Different states of `Projectile.state` */
 export enum ProjectileState {
     IDLE = 0,
     FIRED = 1,
@@ -19,7 +20,7 @@ export enum ProjectileState {
 }
 
 /**
-   An Actor that controls the spawning and projection of a `prop_physics_multiplayer`.
+   An Actor that controls the spawning and collision of a `prop_physics_multiplayer`.
  */
 export default class Projectile extends Actor {
     public name: string = UniqueName();
@@ -55,7 +56,7 @@ export default class Projectile extends Actor {
         offset = Math.Vector3.Zero,
         speed = 1000,
         ...opts
-    }) {
+    }): Projectile {
         const player_pawn = weapon_base.GetOwner();
         const player_eye_position = Math.Vector3.From(player_pawn.GetEyePosition());
         const rotation = Math.QAngle.From(player_pawn.GetEyeAngles());
@@ -134,20 +135,21 @@ export default class Projectile extends Actor {
         return this;
     }
 
-    private getCurrentPosition() {
+    private getCurrentPosition(): Vector3 {
         return Math.Vector3.From(this.entity.GetAbsOrigin());
     }
 
-    private getLastPosition() {
+    private getLastPosition(): number {
         return this.last_position;
     }
     
-    private updateLastPosition() {
+    private updateLastPosition(): void {
         const current_position = this.getCurrentPosition();
         this.last_position = current_position;
     }
-    
-    CheckCollision() {
+
+    /** Check the collision per tick. */
+    CheckCollision(): void {
         const current_position = this.getCurrentPosition();
         const last_position = this.getLastPosition();
         
@@ -165,7 +167,8 @@ export default class Projectile extends Actor {
         }
     }
 
-    HandleCollision(trace) {
+    /** Handles the collision itself, where `trace` is the collision. */
+    HandleCollision(trace: TraceResult): void {
         const entity_hit = trace.hitEntity;
         if (!entity_hit?.IsValid()) return;        
         if (entity_hit.GetClassName() !== "player") return;
@@ -180,13 +183,13 @@ export default class Projectile extends Actor {
         });
     }
     
-    Remove() {
+    Remove(): void {
         this.state = ProjectileState.DEAD;
         super.Remove();
         if (this.entity?.IsValid()) this.entity.Remove();
     }
     
-    override Think() {
+    override Think(): void {
         if (this.GetLifetime() >= this.fizzle_delay) this.Remove();
         if (this.state !== ProjectileState.FIRED) return;
         if (!this.entity?.IsValid()) {
@@ -197,12 +200,12 @@ export default class Projectile extends Actor {
         this.updateLastPosition();
     }
 
-    override ReceiveMessage(tag, data) {
+    override ReceiveMessage(tag, data): void {
         if (tag == "Kill" && data?.name === this.name) this.Remove();
         if (tag == "KillAll") this.Remove();
     }
 
-    override Dispose() {
+    override Dispose(): void {
         if (this.entity?.IsValid()) this.entity.Remove();
     }
 }
