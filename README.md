@@ -350,3 +350,12 @@ OR
 bun run watch
 ```
 
+## References
+
+- [Bun](https://bun.com/)
+
+- [CS2 Scripting API](https://www.source2.wiki/Scripting/Counter-Strike%202/cs_script/functionList?game=any)
+
+## Related Projects
+
+- [bounty_mode](https://github.com/Orb-Workshop/bounty_mode)
