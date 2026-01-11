@@ -6,7 +6,7 @@
 
 # Noise
 
-Noise Library
+Noise Utility Library
 
 ## Classes
 

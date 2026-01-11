@@ -6,7 +6,7 @@
 
 # Math
 
-Math Library
+Math Utility Library
 
 ## Classes
 

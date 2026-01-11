@@ -1,6 +1,6 @@
 /* Advanced Library Framework */
 
-/** Base Library */
+/** Base Library Framework Components */
 export * as Base from "./base";
 
 /** Mountable Systems that extend `Base.System` */
@@ -12,13 +12,13 @@ export * as Actor from "./actor";
 /** Utility Library */
 export * as Util from "./util";
 
-/** Math Library */
+/** Math Utility Library */
 export * as Math from "./math";
 
-/** Random Library */
+/** Random Utility Library */
 export * as Random from "./random";
 
-/** Noise Library */
+/** Noise Utility Library */
 export * as Noise from "./noise";
 
 /** Entity Helper Library */

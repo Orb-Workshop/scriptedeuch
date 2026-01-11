@@ -14,6 +14,8 @@ Spawnable Actors (Auto-Mounting) that extend `Base.Actor`
 
 Defined in: [actor/Projectile.ts:24](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/actor/Projectile.ts#L24)
 
+An Actor that controls the spawning and projection of a `prop_physics_multiplayer`.
+
 #### Extends
 
 - [`Actor`](Base/README.md#actor)
@@ -24,7 +26,7 @@ Defined in: [actor/Projectile.ts:24](https://github.com/Orb-Workshop/scriptedeuc
 
 > **new Projectile**(`__namedParameters`): [`Projectile`](#projectile)
 
-Defined in: [actor/Projectile.ts:71](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/actor/Projectile.ts#L71)
+Defined in: [actor/Projectile.ts:78](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/actor/Projectile.ts#L78)
 
 ###### Parameters
 
@@ -82,7 +84,7 @@ Defined in: [actor/Projectile.ts:71](https://github.com/Orb-Workshop/scriptedeuc
 
 > **CheckCollision**(): `void`
 
-Defined in: [actor/Projectile.ts:136](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/actor/Projectile.ts#L136)
+Defined in: [actor/Projectile.ts:150](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/actor/Projectile.ts#L150)
 
 ###### Returns
 
@@ -92,7 +94,7 @@ Defined in: [actor/Projectile.ts:136](https://github.com/Orb-Workshop/scriptedeu
 
 > **Dispose**(): `void`
 
-Defined in: [actor/Projectile.ts:191](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/actor/Projectile.ts#L191)
+Defined in: [actor/Projectile.ts:205](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/actor/Projectile.ts#L205)
 
 Override Interface Method. Called after an actor has been made dirty,
 and has been removed from the actor pool
@@ -109,11 +111,15 @@ and has been removed from the actor pool
 
 > **Fire**(): [`Projectile`](#projectile)
 
-Defined in: [actor/Projectile.ts:104](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/actor/Projectile.ts#L104)
+Defined in: [actor/Projectile.ts:118](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/actor/Projectile.ts#L118)
+
+Fire the Projectile, changing it to the 'fired' state.
 
 ###### Returns
 
 [`Projectile`](#projectile)
+
+itself.
 
 ##### GetLifetime()
 
@@ -133,7 +139,7 @@ Defined in: [base/Actor.ts:54](https://github.com/Orb-Workshop/scriptedeuch/blob
 
 > **HandleCollision**(`trace`): `void`
 
-Defined in: [actor/Projectile.ts:154](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/actor/Projectile.ts#L154)
+Defined in: [actor/Projectile.ts:168](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/actor/Projectile.ts#L168)
 
 ###### Parameters
 
@@ -191,9 +197,9 @@ Defined in: [base/Actor.ts:67](https://github.com/Orb-Workshop/scriptedeuch/blob
 
 ##### ReceiveMessage()
 
-> **ReceiveMessage**(`name`, `data`): `void`
+> **ReceiveMessage**(`tag`, `data`): `void`
 
-Defined in: [actor/Projectile.ts:186](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/actor/Projectile.ts#L186)
+Defined in: [actor/Projectile.ts:200](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/actor/Projectile.ts#L200)
 
 Override Interface Method. React to messages sent by other actors in the actor pool.
 
@@ -201,7 +207,7 @@ Override Interface Method. React to messages sent by other actors in the actor p
 
 | Parameter | Type |
 | ------ | ------ |
-| `name` | `any` |
+| `tag` | `any` |
 | `data` | `any` |
 
 ###### Returns
@@ -216,7 +222,7 @@ Override Interface Method. React to messages sent by other actors in the actor p
 
 > **Remove**(): `void`
 
-Defined in: [actor/Projectile.ts:169](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/actor/Projectile.ts#L169)
+Defined in: [actor/Projectile.ts:183](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/actor/Projectile.ts#L183)
 
 ###### Returns
 
@@ -270,7 +276,7 @@ Defined in: [base/Actor.ts:52](https://github.com/Orb-Workshop/scriptedeuch/blob
 
 > **Think**(): `void`
 
-Defined in: [actor/Projectile.ts:175](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/actor/Projectile.ts#L175)
+Defined in: [actor/Projectile.ts:189](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/actor/Projectile.ts#L189)
 
 Override Method. Is called at the `think_interval`.
 
@@ -286,7 +292,13 @@ Override Method. Is called at the `think_interval`.
 
 > `static` **FromWeapon**(`weapon_base`, `__namedParameters`): [`Projectile`](#projectile)
 
-Defined in: [actor/Projectile.ts:45](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/actor/Projectile.ts#L45)
+Defined in: [actor/Projectile.ts:52](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/actor/Projectile.ts#L52)
+
+Create an instance of Projectile based on a firing `weapon_base` entity in-game.
+
+Note:
+
+- This is useful for connecting to `Base.System.OnGunFire({ weapon })`.
 
 ###### Parameters
 

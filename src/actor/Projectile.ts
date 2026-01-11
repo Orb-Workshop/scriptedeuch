@@ -19,7 +19,7 @@ export enum ProjectileState {
 }
 
 /**
-   
+   An Actor that controls the spawning and projection of a `prop_physics_multiplayer`.
  */
 export default class Projectile extends Actor {
     public name: string = UniqueName();
@@ -41,7 +41,14 @@ export default class Projectile extends Actor {
     public ignore_players: boolean;
     public remove_on_collision: boolean;
     public disable_gravity: boolean;
-    
+
+    /**
+       Create an instance of Projectile based on a firing `weapon_base` entity in-game.
+       
+       Note:
+
+       - This is useful for connecting to `Base.System.OnGunFire({ weapon })`.
+     */
     static FromWeapon(weapon_base: CSWeaponBase, {
         template = Default.ProjectileTemplate(),
         forward_distance = 100.,
@@ -101,6 +108,13 @@ export default class Projectile extends Actor {
         this.disable_gravity = disable_gravity;
     }
 
+    /**
+       Fire the Projectile, changing it to the 'fired' state.
+
+       @returns
+
+       itself.
+    */
     Fire(): Projectile {
         if (this.state !== ProjectileState.IDLE)
             throw new Error("Already Fired!");
@@ -168,7 +182,7 @@ export default class Projectile extends Actor {
     
     Remove() {
         this.state = ProjectileState.DEAD;
-        this.MakeDirty();
+        super.Remove();
         if (this.entity?.IsValid()) this.entity.Remove();
     }
     
@@ -183,9 +197,9 @@ export default class Projectile extends Actor {
         this.updateLastPosition();
     }
 
-    override ReceiveMessage(name, data) {
-        if (name == "Kill" && data?.name === this.name) this.Remove();
-        if (name == "KillAll") this.Remove();
+    override ReceiveMessage(tag, data) {
+        if (tag == "Kill" && data?.name === this.name) this.Remove();
+        if (tag == "KillAll") this.Remove();
     }
 
     override Dispose() {

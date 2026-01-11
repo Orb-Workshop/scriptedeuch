@@ -6,7 +6,7 @@
 
 # Random
 
-Random Library
+Random Utility Library
 
 ## Classes
 
