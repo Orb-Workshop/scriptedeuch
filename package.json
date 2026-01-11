@@ -14,7 +14,7 @@
         "build": "bun build ./src/main.ts --outdir ./scripts --external cs_script/point_script",
         "watch": "bun --watch build ./src/main.ts --outdir ./scripts --external cs_script/point_script",
         "test": "bun test",
-        "docs": "bunx typedoc",
+        "docs": "bunx typedoc --skipErrorChecking",
         "typecheck": "tsc --noEmit ./src/index.ts"
     }
 }
