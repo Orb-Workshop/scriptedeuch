@@ -1061,6 +1061,10 @@ Defined in: [math/Vector2.ts:13](https://github.com/Orb-Workshop/scriptedeuch/bl
 
 Defined in: [math/Vector3.ts:3](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/math/Vector3.ts#L3)
 
+#### Implements
+
+- `unknown`
+
 #### Constructors
 
 ##### Constructor
@@ -1097,7 +1101,9 @@ Defined in: [math/Vector3.ts:8](https://github.com/Orb-Workshop/scriptedeuch/blo
 
 > **add**(`v`): [`Vector3`](#vector3)
 
-Defined in: [math/Vector3.ts:25](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/math/Vector3.ts#L25)
+Defined in: [math/Vector3.ts:28](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/math/Vector3.ts#L28)
+
+Add two vectors and return a new `Vector3`
 
 ###### Parameters
 
@@ -1113,7 +1119,7 @@ Defined in: [math/Vector3.ts:25](https://github.com/Orb-Workshop/scriptedeuch/bl
 
 > **cross**(`v`): [`Vector3`](#vector3)
 
-Defined in: [math/Vector3.ts:47](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/math/Vector3.ts#L47)
+Defined in: [math/Vector3.ts:53](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/math/Vector3.ts#L53)
 
 ###### Parameters
 
@@ -1129,7 +1135,7 @@ Defined in: [math/Vector3.ts:47](https://github.com/Orb-Workshop/scriptedeuch/bl
 
 > **distance**(`v`): `number`
 
-Defined in: [math/Vector3.ts:63](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/math/Vector3.ts#L63)
+Defined in: [math/Vector3.ts:69](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/math/Vector3.ts#L69)
 
 ###### Parameters
 
@@ -1145,7 +1151,9 @@ Defined in: [math/Vector3.ts:63](https://github.com/Orb-Workshop/scriptedeuch/bl
 
 > **dot**(`v`): `number`
 
-Defined in: [math/Vector3.ts:43](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/math/Vector3.ts#L43)
+Defined in: [math/Vector3.ts:49](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/math/Vector3.ts#L49)
+
+Return dot product of this vector with `v`
 
 ###### Parameters
 
@@ -1161,7 +1169,7 @@ Defined in: [math/Vector3.ts:43](https://github.com/Orb-Workshop/scriptedeuch/bl
 
 > **equals**(`v`): `boolean`
 
-Defined in: [math/Vector3.ts:67](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/math/Vector3.ts#L67)
+Defined in: [math/Vector3.ts:73](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/math/Vector3.ts#L73)
 
 ###### Parameters
 
@@ -1177,7 +1185,7 @@ Defined in: [math/Vector3.ts:67](https://github.com/Orb-Workshop/scriptedeuch/bl
 
 > **magnitude**(): `number`
 
-Defined in: [math/Vector3.ts:54](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/math/Vector3.ts#L54)
+Defined in: [math/Vector3.ts:60](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/math/Vector3.ts#L60)
 
 ###### Returns
 
@@ -1187,7 +1195,7 @@ Defined in: [math/Vector3.ts:54](https://github.com/Orb-Workshop/scriptedeuch/bl
 
 > **normalize**(): [`Vector3`](#vector3)
 
-Defined in: [math/Vector3.ts:58](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/math/Vector3.ts#L58)
+Defined in: [math/Vector3.ts:64](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/math/Vector3.ts#L64)
 
 ###### Returns
 
@@ -1197,7 +1205,9 @@ Defined in: [math/Vector3.ts:58](https://github.com/Orb-Workshop/scriptedeuch/bl
 
 > **scale**(`s`): [`Vector3`](#vector3)
 
-Defined in: [math/Vector3.ts:37](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/math/Vector3.ts#L37)
+Defined in: [math/Vector3.ts:42](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/math/Vector3.ts#L42)
+
+Return a scaled `Vector3`, scaled by `s`.
 
 ###### Parameters
 
@@ -1213,7 +1223,9 @@ Defined in: [math/Vector3.ts:37](https://github.com/Orb-Workshop/scriptedeuch/bl
 
 > **sub**(`v`): [`Vector3`](#vector3)
 
-Defined in: [math/Vector3.ts:31](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/math/Vector3.ts#L31)
+Defined in: [math/Vector3.ts:35](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/math/Vector3.ts#L35)
+
+Subtract two vectors and return a new `Vector3`
 
 ###### Parameters
 
@@ -1229,7 +1241,9 @@ Defined in: [math/Vector3.ts:31](https://github.com/Orb-Workshop/scriptedeuch/bl
 
 > `static` **Create**(`x`, `y`, `z`): [`Vector3`](#vector3)
 
-Defined in: [math/Vector3.ts:17](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/math/Vector3.ts#L17)
+Defined in: [math/Vector3.ts:18](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/math/Vector3.ts#L18)
+
+Same as constructor
 
 ###### Parameters
 
@@ -1247,7 +1261,9 @@ Defined in: [math/Vector3.ts:17](https://github.com/Orb-Workshop/scriptedeuch/bl
 
 > `static` **From**(`__namedParameters`): [`Vector3`](#vector3)
 
-Defined in: [math/Vector3.ts:21](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/math/Vector3.ts#L21)
+Defined in: [math/Vector3.ts:23](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/math/Vector3.ts#L23)
+
+Create Vector from CS Vector Interface
 
 ###### Parameters
 

@@ -1,6 +1,6 @@
 import { Vector as VectorType } from "cs_script/point_script";
 
-export default class Vector3 {
+export default class Vector3 implements VectorType {
     public x: number;
     public y: number;
     public z: number;
@@ -14,32 +14,38 @@ export default class Vector3 {
     static Null: Vector3 = new Vector3(+Infinity, -Infinity, +Infinity);
     static Zero: Vector3 = new Vector3(0, 0, 0);
 
+    /** Same as constructor */
     static Create(x: number = 0, y: number = 0, z: number = 0): Vector3 {
         return new Vector3(x, y, z);
     }
 
+    /** Create Vector from CS Vector Interface */
     static From({x, y, z}: VectorType): Vector3 {
         return new Vector3(x, y, z);
     }
-    
+
+    /** Add two vectors and return a new `Vector3` */
     add(v: Vector3): Vector3 {
         return new Vector3(this.x + v.x,
                            this.y + v.y,
                            this.z + v.z);
     }
-    
+
+    /** Subtract two vectors and return a new `Vector3` */
     sub(v: Vector3): Vector3 {
         return new Vector3(this.x - v.x,
                            this.y - v.y,
                            this.z - v.z);
     }
 
+    /** Return a scaled `Vector3`, scaled by `s`. */
     scale(s: number): Vector3 {
         return new Vector3(this.x * s,
                            this.y * s,
                            this.z * s);
     }
 
+    /** Return dot product of this vector with `v` */
     dot(v: Vector3): number {
         return this.x * v.x + this.y * v.y + this.z * v.z;
     }
