@@ -55,7 +55,7 @@ Defined in: [base/Actor.ts:21](https://github.com/Orb-Workshop/scriptedeuch/blob
 
 > **Dispose**(): `void`
 
-Defined in: [base/Actor.ts:89](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/Actor.ts#L89)
+Defined in: [base/Actor.ts:93](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/Actor.ts#L93)
 
 Override Interface Method. Called after an actor has been made dirty,
 and has been removed from the actor pool
@@ -72,7 +72,9 @@ and has been removed from the actor pool
 
 > **GetLifetime**(): `number`
 
-Defined in: [base/Actor.ts:54](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/Actor.ts#L54)
+Defined in: [base/Actor.ts:57](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/Actor.ts#L57)
+
+How long the actor has been alive in seconds.
 
 ###### Returns
 
@@ -82,7 +84,9 @@ Defined in: [base/Actor.ts:54](https://github.com/Orb-Workshop/scriptedeuch/blob
 
 > **IsDirty**(): `boolean`
 
-Defined in: [base/Actor.ts:65](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/Actor.ts#L65)
+Defined in: [base/Actor.ts:68](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/Actor.ts#L68)
+
+Determine if the Actor is marked for removal.
 
 ###### Returns
 
@@ -96,7 +100,7 @@ Defined in: [base/Actor.ts:65](https://github.com/Orb-Workshop/scriptedeuch/blob
 
 > **MakeDirty**(): `void`
 
-Defined in: [base/Actor.ts:59](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/Actor.ts#L59)
+Defined in: [base/Actor.ts:60](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/Actor.ts#L60)
 
 Mark the Actor for removal from the actor pool.
 
@@ -108,7 +112,9 @@ Mark the Actor for removal from the actor pool.
 
 > **MaybeThink**(): `void`
 
-Defined in: [base/Actor.ts:67](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/Actor.ts#L67)
+Defined in: [base/Actor.ts:71](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/Actor.ts#L71)
+
+Performs `this.Think()` if it past a certain interval
 
 ###### Returns
 
@@ -122,7 +128,7 @@ Defined in: [base/Actor.ts:67](https://github.com/Orb-Workshop/scriptedeuch/blob
 
 > **ReceiveMessage**(`tag`, `data`): `void`
 
-Defined in: [base/Actor.ts:94](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/Actor.ts#L94)
+Defined in: [base/Actor.ts:98](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/Actor.ts#L98)
 
 Override Interface Method. React to messages sent by other actors in the actor pool.
 
@@ -145,7 +151,9 @@ Override Interface Method. React to messages sent by other actors in the actor p
 
 > **Remove**(): `void`
 
-Defined in: [base/Actor.ts:60](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/Actor.ts#L60)
+Defined in: [base/Actor.ts:62](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/Actor.ts#L62)
+
+Same as `this.MakeDirty()`.
 
 ###### Returns
 
@@ -155,7 +163,9 @@ Defined in: [base/Actor.ts:60](https://github.com/Orb-Workshop/scriptedeuch/blob
 
 > **SetTick**(`i`): `void`
 
-Defined in: [base/Actor.ts:53](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/Actor.ts#L53)
+Defined in: [base/Actor.ts:55](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/Actor.ts#L55)
+
+Set the Tick Interval of the system in terms of *tick rate*.
 
 ###### Parameters
 
@@ -171,7 +181,9 @@ Defined in: [base/Actor.ts:53](https://github.com/Orb-Workshop/scriptedeuch/blob
 
 > **SetTickInterval**(`i`): `void`
 
-Defined in: [base/Actor.ts:52](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/Actor.ts#L52)
+Defined in: [base/Actor.ts:53](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/Actor.ts#L53)
+
+Set the Tick Interval of the system. Expressed in Seconds.
 
 ###### Parameters
 
@@ -187,7 +199,7 @@ Defined in: [base/Actor.ts:52](https://github.com/Orb-Workshop/scriptedeuch/blob
 
 > **Think**(): `void`
 
-Defined in: [base/Actor.ts:99](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/Actor.ts#L99)
+Defined in: [base/Actor.ts:103](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/Actor.ts#L103)
 
 Override Method. Is called at the `think_interval`.
 
@@ -257,7 +269,7 @@ Defined in: [base/MessageTask.ts:12](https://github.com/Orb-Workshop/scriptedeuc
 
 > **Dispose**(): `void`
 
-Defined in: [base/Actor.ts:89](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/Actor.ts#L89)
+Defined in: [base/Actor.ts:93](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/Actor.ts#L93)
 
 Override Interface Method. Called after an actor has been made dirty,
 and has been removed from the actor pool
@@ -274,7 +286,9 @@ and has been removed from the actor pool
 
 > **GetLifetime**(): `number`
 
-Defined in: [base/Actor.ts:54](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/Actor.ts#L54)
+Defined in: [base/Actor.ts:57](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/Actor.ts#L57)
+
+How long the actor has been alive in seconds.
 
 ###### Returns
 
@@ -288,7 +302,9 @@ Defined in: [base/Actor.ts:54](https://github.com/Orb-Workshop/scriptedeuch/blob
 
 > **IsDirty**(): `boolean`
 
-Defined in: [base/Actor.ts:65](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/Actor.ts#L65)
+Defined in: [base/Actor.ts:68](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/Actor.ts#L68)
+
+Determine if the Actor is marked for removal.
 
 ###### Returns
 
@@ -302,7 +318,7 @@ Defined in: [base/Actor.ts:65](https://github.com/Orb-Workshop/scriptedeuch/blob
 
 > **MakeDirty**(): `void`
 
-Defined in: [base/Actor.ts:59](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/Actor.ts#L59)
+Defined in: [base/Actor.ts:60](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/Actor.ts#L60)
 
 Mark the Actor for removal from the actor pool.
 
@@ -318,7 +334,9 @@ Mark the Actor for removal from the actor pool.
 
 > **MaybeThink**(): `void`
 
-Defined in: [base/Actor.ts:67](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/Actor.ts#L67)
+Defined in: [base/Actor.ts:71](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/Actor.ts#L71)
+
+Performs `this.Think()` if it past a certain interval
 
 ###### Returns
 
@@ -355,7 +373,9 @@ Override Interface Method. React to messages sent by other actors in the actor p
 
 > **Remove**(): `void`
 
-Defined in: [base/Actor.ts:60](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/Actor.ts#L60)
+Defined in: [base/Actor.ts:62](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/Actor.ts#L62)
+
+Same as `this.MakeDirty()`.
 
 ###### Returns
 
@@ -369,7 +389,9 @@ Defined in: [base/Actor.ts:60](https://github.com/Orb-Workshop/scriptedeuch/blob
 
 > **SetTick**(`i`): `void`
 
-Defined in: [base/Actor.ts:53](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/Actor.ts#L53)
+Defined in: [base/Actor.ts:55](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/Actor.ts#L55)
+
+Set the Tick Interval of the system in terms of *tick rate*.
 
 ###### Parameters
 
@@ -389,7 +411,9 @@ Defined in: [base/Actor.ts:53](https://github.com/Orb-Workshop/scriptedeuch/blob
 
 > **SetTickInterval**(`i`): `void`
 
-Defined in: [base/Actor.ts:52](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/Actor.ts#L52)
+Defined in: [base/Actor.ts:53](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/Actor.ts#L53)
+
+Set the Tick Interval of the system. Expressed in Seconds.
 
 ###### Parameters
 
@@ -409,7 +433,7 @@ Defined in: [base/Actor.ts:52](https://github.com/Orb-Workshop/scriptedeuch/blob
 
 > **Think**(): `void`
 
-Defined in: [base/Actor.ts:99](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/Actor.ts#L99)
+Defined in: [base/Actor.ts:103](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/Actor.ts#L103)
 
 Override Method. Is called at the `think_interval`.
 
@@ -449,7 +473,7 @@ Send messages to other actors in the actor pool.
 
 ### Mount
 
-Defined in: [base/Mount.ts:8](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/Mount.ts#L8)
+Defined in: [base/Mount.ts:36](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/Mount.ts#L36)
 
 The Fundamental Library Framework. Systems and Actors are extended
 from `Base.System` and `Base.Actor`, while `Base.Mount` mounts
@@ -457,9 +481,9 @@ them with the point_script `Instance.On*` events.
 
 #### Properties
 
-| Property | Modifier | Type | Defined in |
-| ------ | ------ | ------ | ------ |
-| <a id="_instance"></a> `_instance` | `static` | [`Mount`](#mount) | [base/Mount.ts:9](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/Mount.ts#L9) |
+| Property | Modifier | Type | Description | Defined in |
+| ------ | ------ | ------ | ------ | ------ |
+| <a id="_instance"></a> `_instance` | `static` | [`Mount`](#mount) | Singleton Instance | [base/Mount.ts:38](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/Mount.ts#L38) |
 
 #### Accessors
 
@@ -469,7 +493,9 @@ them with the point_script `Instance.On*` events.
 
 > **get** `static` **instance**(): [`Mount`](#mount)
 
-Defined in: [base/Mount.ts:15](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/Mount.ts#L15)
+Defined in: [base/Mount.ts:47](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/Mount.ts#L47)
+
+Singleton Getter
 
 ###### Returns
 
@@ -481,7 +507,9 @@ Defined in: [base/Mount.ts:15](https://github.com/Orb-Workshop/scriptedeuch/blob
 
 > **\_startSystems**(): `void`
 
-Defined in: [base/Mount.ts:150](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/Mount.ts#L150)
+Defined in: [base/Mount.ts:189](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/Mount.ts#L189)
+
+Enable All Registered Systems
 
 ###### Returns
 
@@ -491,7 +519,9 @@ Defined in: [base/Mount.ts:150](https://github.com/Orb-Workshop/scriptedeuch/blo
 
 > **\_stopSystems**(): `void`
 
-Defined in: [base/Mount.ts:154](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/Mount.ts#L154)
+Defined in: [base/Mount.ts:194](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/Mount.ts#L194)
+
+Disable All Registered Systems
 
 ###### Returns
 
@@ -501,7 +531,9 @@ Defined in: [base/Mount.ts:154](https://github.com/Orb-Workshop/scriptedeuch/blo
 
 > `static` **Disable**(`name`): `boolean`
 
-Defined in: [base/Mount.ts:177](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/Mount.ts#L177)
+Defined in: [base/Mount.ts:221](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/Mount.ts#L221)
+
+Disable Registered System with `name`.
 
 ###### Parameters
 
@@ -517,7 +549,9 @@ Defined in: [base/Mount.ts:177](https://github.com/Orb-Workshop/scriptedeuch/blo
 
 > `static` **Enable**(`name`): `boolean`
 
-Defined in: [base/Mount.ts:169](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/Mount.ts#L169)
+Defined in: [base/Mount.ts:212](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/Mount.ts#L212)
+
+Enable Registered System with `name`.
 
 ###### Parameters
 
@@ -533,7 +567,7 @@ Defined in: [base/Mount.ts:169](https://github.com/Orb-Workshop/scriptedeuch/blo
 
 > `static` **GetSystem**(`name`): [`System`](#system) \| `null`
 
-Defined in: [base/Mount.ts:39](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/Mount.ts#L39)
+Defined in: [base/Mount.ts:75](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/Mount.ts#L75)
 
 ###### Parameters
 
@@ -545,11 +579,13 @@ Defined in: [base/Mount.ts:39](https://github.com/Orb-Workshop/scriptedeuch/blob
 
 [`System`](#system) \| `null`
 
+`Base.System` registered as `name`, or `null`
+
 ##### HasSystem()
 
 > `static` **HasSystem**(`name`): `boolean`
 
-Defined in: [base/Mount.ts:34](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/Mount.ts#L34)
+Defined in: [base/Mount.ts:69](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/Mount.ts#L69)
 
 ###### Parameters
 
@@ -561,21 +597,29 @@ Defined in: [base/Mount.ts:34](https://github.com/Orb-Workshop/scriptedeuch/blob
 
 `boolean`
 
+`true`, if system registered as `name` exists.
+
 ##### List()
 
 > `static` **List**(): `string`[]
 
-Defined in: [base/Mount.ts:185](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/Mount.ts#L185)
+Defined in: [base/Mount.ts:232](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/Mount.ts#L232)
+
+List all Systems
 
 ###### Returns
 
 `string`[]
 
+A list of registered system names.
+
 ##### Register()
 
 > `static` **Register**(`name`, `system`): [`System`](#system)
 
-Defined in: [base/Mount.ts:23](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/Mount.ts#L23)
+Defined in: [base/Mount.ts:56](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/Mount.ts#L56)
+
+Register a `Base.System`
 
 ###### Parameters
 
@@ -592,7 +636,9 @@ Defined in: [base/Mount.ts:23](https://github.com/Orb-Workshop/scriptedeuch/blob
 
 > `static` **Start**(): `void`
 
-Defined in: [base/Mount.ts:158](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/Mount.ts#L158)
+Defined in: [base/Mount.ts:199](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/Mount.ts#L199)
+
+Start Enabled Systems
 
 ###### Returns
 
@@ -602,7 +648,9 @@ Defined in: [base/Mount.ts:158](https://github.com/Orb-Workshop/scriptedeuch/blo
 
 > `static` **Stop**(): `void`
 
-Defined in: [base/Mount.ts:164](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/Mount.ts#L164)
+Defined in: [base/Mount.ts:206](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/Mount.ts#L206)
+
+Stop and Disable all Systems
 
 ###### Returns
 
@@ -612,7 +660,9 @@ Defined in: [base/Mount.ts:164](https://github.com/Orb-Workshop/scriptedeuch/blo
 
 > `static` **Unregister**(`name`): `void`
 
-Defined in: [base/Mount.ts:29](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/Mount.ts#L29)
+Defined in: [base/Mount.ts:63](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/Mount.ts#L63)
+
+Unregister a `Base.System`
 
 ###### Parameters
 
@@ -1152,7 +1202,7 @@ Defined in: [base/ThinkTask.ts:11](https://github.com/Orb-Workshop/scriptedeuch/
 
 > **Dispose**(): `void`
 
-Defined in: [base/Actor.ts:89](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/Actor.ts#L89)
+Defined in: [base/Actor.ts:93](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/Actor.ts#L93)
 
 Override Interface Method. Called after an actor has been made dirty,
 and has been removed from the actor pool
@@ -1169,7 +1219,9 @@ and has been removed from the actor pool
 
 > **GetLifetime**(): `number`
 
-Defined in: [base/Actor.ts:54](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/Actor.ts#L54)
+Defined in: [base/Actor.ts:57](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/Actor.ts#L57)
+
+How long the actor has been alive in seconds.
 
 ###### Returns
 
@@ -1183,7 +1235,9 @@ Defined in: [base/Actor.ts:54](https://github.com/Orb-Workshop/scriptedeuch/blob
 
 > **IsDirty**(): `boolean`
 
-Defined in: [base/Actor.ts:65](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/Actor.ts#L65)
+Defined in: [base/Actor.ts:68](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/Actor.ts#L68)
+
+Determine if the Actor is marked for removal.
 
 ###### Returns
 
@@ -1197,7 +1251,7 @@ Defined in: [base/Actor.ts:65](https://github.com/Orb-Workshop/scriptedeuch/blob
 
 > **MakeDirty**(): `void`
 
-Defined in: [base/Actor.ts:59](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/Actor.ts#L59)
+Defined in: [base/Actor.ts:60](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/Actor.ts#L60)
 
 Mark the Actor for removal from the actor pool.
 
@@ -1213,7 +1267,9 @@ Mark the Actor for removal from the actor pool.
 
 > **MaybeThink**(): `void`
 
-Defined in: [base/Actor.ts:67](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/Actor.ts#L67)
+Defined in: [base/Actor.ts:71](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/Actor.ts#L71)
+
+Performs `this.Think()` if it past a certain interval
 
 ###### Returns
 
@@ -1227,7 +1283,7 @@ Defined in: [base/Actor.ts:67](https://github.com/Orb-Workshop/scriptedeuch/blob
 
 > **ReceiveMessage**(`tag`, `data`): `void`
 
-Defined in: [base/Actor.ts:94](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/Actor.ts#L94)
+Defined in: [base/Actor.ts:98](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/Actor.ts#L98)
 
 Override Interface Method. React to messages sent by other actors in the actor pool.
 
@@ -1250,7 +1306,9 @@ Override Interface Method. React to messages sent by other actors in the actor p
 
 > **Remove**(): `void`
 
-Defined in: [base/Actor.ts:60](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/Actor.ts#L60)
+Defined in: [base/Actor.ts:62](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/Actor.ts#L62)
+
+Same as `this.MakeDirty()`.
 
 ###### Returns
 
@@ -1264,7 +1322,9 @@ Defined in: [base/Actor.ts:60](https://github.com/Orb-Workshop/scriptedeuch/blob
 
 > **SetTick**(`i`): `void`
 
-Defined in: [base/Actor.ts:53](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/Actor.ts#L53)
+Defined in: [base/Actor.ts:55](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/Actor.ts#L55)
+
+Set the Tick Interval of the system in terms of *tick rate*.
 
 ###### Parameters
 
@@ -1284,7 +1344,9 @@ Defined in: [base/Actor.ts:53](https://github.com/Orb-Workshop/scriptedeuch/blob
 
 > **SetTickInterval**(`i`): `void`
 
-Defined in: [base/Actor.ts:52](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/Actor.ts#L52)
+Defined in: [base/Actor.ts:53](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/Actor.ts#L53)
+
+Set the Tick Interval of the system. Expressed in Seconds.
 
 ###### Parameters
 

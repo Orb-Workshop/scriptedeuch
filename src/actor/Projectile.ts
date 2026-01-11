@@ -21,6 +21,29 @@ export enum ProjectileState {
 
 /**
    An Actor that controls the spawning and collision of a `prop_physics_multiplayer`.
+
+   @example
+   ```ts
+   class GlockShot extends Base.System {
+       constructor() {
+           super();
+       }
+   
+       override OnGunFire(event) {
+           const weapon_base = event.weapon;
+           const class_name = weapon_base?.GetClassName();
+           if (class_name !== "weapon_glock") return;
+           let projectile = Actor.Projectile.FromWeapon(weapon_base, {
+               damage: 150,
+               speed: 10_000,
+               disable_gravity: true,
+               collision_radius: 10.0,
+               remove_on_collision: true,
+           }).Fire();
+       }
+   }
+   Mount.Register("GlockShot", new GlockShot());
+   ```
  */
 export default class Projectile extends Actor {
     public name: string = UniqueName();
@@ -183,7 +206,7 @@ export default class Projectile extends Actor {
         });
     }
     
-    Remove(): void {
+    override Remove(): void {
         this.state = ProjectileState.DEAD;
         super.Remove();
         if (this.entity?.IsValid()) this.entity.Remove();

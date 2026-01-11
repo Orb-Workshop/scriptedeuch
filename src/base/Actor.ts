@@ -39,7 +39,7 @@ export default abstract class Actor implements ActorInterface {
      */
     static SendMessage(tag: string,
                        data: any = null,
-                       actor_pool_name: string = DEFAULT_ACTOR_POOL_NAME) {
+                       actor_pool_name: string = DEFAULT_ACTOR_POOL_NAME): void {
         const actor_pool = Mount.GetSystem(actor_pool_name) as ActorSystem;
         if (!actor_pool) throw new Error(
             "Failed to Find Actor Pool: " + actor_pool_name);
@@ -49,22 +49,26 @@ export default abstract class Actor implements ActorInterface {
     //
     // Actor Public Methods
     //
-    public SetTickInterval(i: number) { this.think_interval = i; }
-    public SetTick(i: number) { this.SetTickInterval(1/i) }
-    public GetLifetime() { return CSS.GetGameTime() - this.init_think; }
+    /** Set the Tick Interval of the system. Expressed in Seconds. */
+    public SetTickInterval(i: number): void { this.think_interval = i; }
+    /** Set the Tick Interval of the system in terms of *tick rate*. */
+    public SetTick(i: number): void { this.SetTickInterval(1/i) }
+    /** How long the actor has been alive in seconds. */
+    public GetLifetime(): number { return CSS.GetGameTime() - this.init_think; }
     
-    /**
-       Mark the Actor for removal from the actor pool.
-     */
-    public MakeDirty() { this.dirty = true; }
-    public Remove() { this.MakeDirty() }
+    /** Mark the Actor for removal from the actor pool. */
+    public MakeDirty(): void { this.dirty = true; }
+    /** Same as `this.MakeDirty()`. */
+    public Remove(): void { this.MakeDirty() }
     
     //
     // ActorInterface Methods
     //
-    IsDirty() { return this.dirty; }
-    
-    MaybeThink() {
+    /** Determine if the Actor is marked for removal. */
+    IsDirty(): boolean { return this.dirty; }
+
+    /** Performs `this.Think()` if it past a certain interval */
+    MaybeThink(): void {
         let current_game_time = CSS.GetGameTime();
         const think_lifetime = current_game_time - this.last_think
         if (think_lifetime >= this.think_interval) {
@@ -91,7 +95,7 @@ export default abstract class Actor implements ActorInterface {
     /**
        Override Interface Method. React to messages sent by other actors in the actor pool.
      */
-    ReceiveMessage(tag: string, data: any) {}
+    ReceiveMessage(tag: string, data: any): void {}
     
     /**
        Override Method. Is called at the `think_interval`.
@@ -111,8 +115,9 @@ class ActorSystem extends System {
     }
 
     // Called by Actor impl.
-    Spawn(a: Actor) {
+    Spawn(a: Actor): Actor {
         this.actor_listing.push(a);
+        return a;
     }
 
     // Called by Actor impl.
@@ -124,12 +129,12 @@ class ActorSystem extends System {
         });
     }
     
-    Think() {
+    override Think(): void {
         this.actor_listing.forEach(actor => actor.MaybeThink());
         this.cleanup();
     }
 
-    private cleanup() {
+    private cleanup(): void {
         const dirty_actors = this.actor_listing.filter(actor => actor.IsDirty());
         this.actor_listing = this.actor_listing.filter(actor => !actor.IsDirty())
         dirty_actors.forEach(actor => actor.Dispose());

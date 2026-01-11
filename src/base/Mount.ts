@@ -1,17 +1,49 @@
-/* The main mount point for CSS systems, which then take advantage of
- * the 'Instance' methods. This class is meant to be a singleton mount
- * point for individual scripts to become composable pieces that can 'plug-in'.
+/** 
+    The Main Mount Point for scriptedeuch `Base.System` and
+    `Base.Actor` classes.
+
+    An Example of `Base.System` using the mounter.
+    @example
+    ```ts
+    import { Instance as CSS } from "cs_script/point_script";
+    import { Base } from "scriptedeuch";
+    class EchoActivate extends Base.System {
+      constructor() { super() }
+      override OnActivate() { CSS.Msg("Activated!") }
+    }
+    Base.Mount.Register("EchoActivate", new EchoActivate());
+    Base.Mount.Start();
+    ```
+
+    An Example of `Base.Actor` using the mounter.
+    ```ts
+    import { Instance as CSS } from "cs_script/point_script";
+    import { Base } from "scriptedeuch";
+    class EchoActivate extends Base.Actor
+      constructor() {
+        super()
+        CSS.Msg("Activated!");
+      }
+    }
+    const echo = new EchoActivate();
+    Base.Mount.Start();
+    ```
  */
+
 import { Instance as CSS } from "cs_script/point_script";
 import System from "./System";
 
 export default class Mount {
+    /** Singleton Instance */
     static _instance: Mount;
 
+    /** Mounter Enabled */
     private mount_enabled: boolean = false;
+    /** A Mapping of Registered Systems */
     private system_listing: Map<string, System> = new Map();
     private constructor() {}
 
+    /** Singleton Getter */
     public static get instance(): Mount {
         if (!Mount._instance) {
             Mount._instance = new Mount();
@@ -20,41 +52,47 @@ export default class Mount {
         return Mount._instance;
     }
 
+    /** Register a `Base.System` */
     public static Register(name: string, system: System): System {
         const mount = Mount.instance;
         mount.system_listing.set(name, system);
         return system;
     }
 
-    public static Unregister(name: string) {
+    /** Unregister a `Base.System` */
+    public static Unregister(name: string): void {
         const mount = Mount.instance;
         mount.system_listing.delete(name);
     }
 
+    /** @returns `true`, if system registered as `name` exists. */
     public static HasSystem(name: string): boolean {
         const mount = Mount.instance;
         return mount.system_listing.has(name);
     }
 
+    /** @returns `Base.System` registered as `name`, or `null` */
     public static GetSystem(name: string): System | null {
         const mount = Mount.instance;
         return mount.system_listing.get(name);
     }
-    
+
+    /** Iterate over each system with callback, `f`.  */
     private forEachSystem(f: (system: System) => void) {
         for (let system of this.system_listing.values()) {
             f(system);
         }
     }
 
+    /** Iterate over each enabled system with callback, `f`. */
     private forEachEnabledSystem(f: (system: System) => void) {
         this.forEachSystem((system) => {
             if (system.IsSystemEnabled()) f(system);
         });
     }
 
-    // Register everything with the CSS instance.
-    private go() {
+    /** Register Everything with the CSS Instance. */
+    private go(): void {
         if (this.mount_enabled) return;
         CSS.OnActivate(() => {
             this.forEachEnabledSystem((system) => system.OnActivate());
@@ -147,25 +185,30 @@ export default class Mount {
         this.mount_enabled = true;
     }
 
-    public _startSystems() {
+    /** Enable All Registered Systems */
+    public _startSystems(): void {
         this.forEachSystem((system) => system.EnableSystem());        
     }
-    
-    public _stopSystems() {
+
+    /** Disable All Registered Systems */
+    public _stopSystems(): void {
         this.forEachSystem((system) => system.DisableSystem());
     }
-    
-    public static Start() {
+
+    /** Start Enabled Systems */
+    public static Start(): void {
         const mount = Mount.instance;
         mount.go();
         CSS.SetNextThink(CSS.GetGameTime());
     }
 
-    public static Stop() {
+    /** Stop and Disable all Systems */
+    public static Stop(): void {
         const mount = Mount.instance;
         mount._stopSystems();
     }
-    
+
+    /** Enable Registered System with `name`. */
     public static Enable(name: string): boolean {
         if (Mount.HasSystem(name)) {
             Mount.GetSystem(name).EnableSystem();
@@ -174,6 +217,7 @@ export default class Mount {
         return false;
     }
 
+    /** Disable Registered System with `name`. */
     public static Disable(name: string): boolean {
         if (Mount.HasSystem(name)) {
             Mount.GetSystem(name).DisableSystem();
@@ -182,6 +226,9 @@ export default class Mount {
         return false;
     }
 
+    /** List all Systems
+        @returns A list of registered system names.
+     */
     public static List(): Array<string> {
         const mount = Mount.instance;
         return Array.from(mount.system_listing.keys());
