@@ -13,6 +13,69 @@ API Documentation: [here](docs/README.md)
 
 ## Quickstart
 
+### I want my players to regenerate health like Torus.
+
+```typescript
+import { Base, System } from "scriptedeuch";
+
+Base.Mount.Register("HealthRegen", new PlayerHealthRegenerationSystem({
+  regeneration_rate: 10.0,    // Health Per Second
+  regeneration_delay: 5.0,    // Seconds
+  max_health_recovery: 100.0, // 0-100
+}));
+Base.Mount.Start();
+```
+
+### I want to change the default player models
+```typescript
+import { Base, System } from "scriptedeuch";
+
+Base.Mount.Register("PlayerModelChanger", new System.PlayerModelChangerSystem({
+  point_script_targetname: "main.script",
+  t_models: ["characters/models/tm_professional/tm_professional_varg.vmdl"],
+  ct_models: ["characters/models/ctm_swat/ctm_swat_variante.vmdl"],
+  t_colors: [{r: 255, g: 255, b: 255}],
+  ct_colors: [{r: 255, g: 255, b: 255}],
+});
+Base.Mount.Start();
+```
+
+### I want to track killing sprees, and play sounds to players
+
+Note: `System.SoundEventSystem` requires the
+`./maps/prefabs/scriptedeuch/scriptedeuch_root.vmap` prefab to be
+imported into your map.
+
+```typescript
+import { Instance as CSS } from "cs_script/point_script";
+import { Base, System, Util } from "scriptedeuch";
+
+const soundEventSystem = Base.Mount.Register("SoundEvents", new System.SoundEventSystem({
+  debug: false,
+}));
+
+Base.Mount.Register("GameAnnouncer", new System.GameAnnouncerSystem({
+  callback:(obj) => {
+    let {player_pawn, player_stats} = obj;
+    let {kills_with_same_weapon = 0,
+         killing_spree_weapon_name = null,
+         kills_since_interval = 0,
+         kills_since_death = 0,
+         enemy_killed = null, // CSPlayerPawn, last enemy killed (or teammate)
+         enemy_had_killing_spree = false,
+         enemy_was_teammate = false} = player_stats;
+
+    CSS.Msg("Player Name: " + Util.GetPlayerName(player_pawn));
+    CSS.Msg("Player Stats: " + JSON.stringify(player_stats));
+    
+    // Kill Ping
+    soundEventSystem.PlaySoundToPlayer(player_pawn, "Vote.Passed", true);
+}});
+Base.Mount.Start();
+```
+
+## Detailed Description
+
 **scriptedeuch** as a fundamental step employs a *Mount*ing process,
   which works in tandem with System classes.
 
@@ -316,12 +379,9 @@ Actors communicate with each other through the static method
 `Base.Actor.ReceiveMessage(key: string, data: any)`, which can be used
 as an event messaging system to build interactions between actors.
 
-## Description
-
 ### Mount System Actor Model
 
 ![Mount System Actor Model Diagram](media/Mount_System_Actor_Model.png)
-
 
 
 ## Development & Testing
