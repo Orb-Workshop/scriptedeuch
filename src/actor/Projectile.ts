@@ -24,6 +24,7 @@ export enum ProjectileState {
 
    @example
    ```ts
+   import { Base } from "scriptedeuch";
    class GlockShot extends Base.System {
        constructor() {
            super();
@@ -42,7 +43,7 @@ export enum ProjectileState {
            }).Fire();
        }
    }
-   Mount.Register("GlockShot", new GlockShot());
+   Base.Mount.Register("GlockShot", new GlockShot());
    ```
  */
 export default class Projectile extends Actor {
