@@ -48,18 +48,22 @@ export default class Voronoi {
         this.bbox = options.bbox || Voronoi.bbox_default;
     }
 
+    /** Compute the points within the previously designated `this.bbox`. */
     compute(point_array: Array<Point2>): void {
         const sites = point_array;
         if (this.diagram) this.voronoi.recycle(this.diagram);
         this.diagram = this.voronoi.compute(sites, this.bbox);
     }
 
+    /** Returns whether a computation has finished. */
     isComputed(): boolean { return this.diagram !== null; }
 
+    /** Get the raw RhillVoronoi diagram */
     getRawDiagram() {
         return this.diagram;
     }
 
+    /** Returns the complete edges of a computed voronoi diagram */
     getCompleteEdges(): Array<EdgeResult> {
         if (!this.isComputed()) return null;
         const edges = this.diagram.edges.filter((edge) => edge.rSite && edge.lSite);
@@ -71,6 +75,7 @@ export default class Voronoi {
         };});
     }
 
+    /** Returns equidistant points from the computed Voronoi diagram */
     getEquidistantPoints(): Array<Point2> {
         const onlyUnique = (value, index, array) => array.indexOf(value) === index;
         const edges = this.diagram.edges.filter((edge) => edge.rSite && edge.lSite);

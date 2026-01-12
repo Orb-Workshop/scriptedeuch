@@ -1335,7 +1335,9 @@ Defined in: math/Voronoi.ts:47
 
 > **compute**(`point_array`): `void`
 
-Defined in: math/Voronoi.ts:51
+Defined in: math/Voronoi.ts:52
+
+Compute the points within the previously designated `this.bbox`.
 
 ###### Parameters
 
@@ -1351,7 +1353,9 @@ Defined in: math/Voronoi.ts:51
 
 > **getCompleteEdges**(): `EdgeResult`[]
 
-Defined in: math/Voronoi.ts:63
+Defined in: math/Voronoi.ts:67
+
+Returns the complete edges of a computed voronoi diagram
 
 ###### Returns
 
@@ -1361,7 +1365,9 @@ Defined in: math/Voronoi.ts:63
 
 > **getEquidistantPoints**(): [`Point2`](#point2)[]
 
-Defined in: math/Voronoi.ts:74
+Defined in: math/Voronoi.ts:79
+
+Returns equidistant points from the computed Voronoi diagram
 
 ###### Returns
 
@@ -1371,7 +1377,9 @@ Defined in: math/Voronoi.ts:74
 
 > **getRawDiagram**(): `null`
 
-Defined in: math/Voronoi.ts:59
+Defined in: math/Voronoi.ts:62
+
+Get the raw RhillVoronoi diagram
 
 ###### Returns
 
@@ -1381,7 +1389,9 @@ Defined in: math/Voronoi.ts:59
 
 > **isComputed**(): `boolean`
 
-Defined in: math/Voronoi.ts:57
+Defined in: math/Voronoi.ts:59
+
+Returns whether a computation has finished.
 
 ###### Returns
 

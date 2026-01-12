@@ -236,19 +236,27 @@ if `bCopy`, returns a new array.
 
 ### RandomChoiceGenerator()
 
-> **RandomChoiceGenerator**(`xs`): `Generator`\<`any`, `void`, `unknown`\>
+> **RandomChoiceGenerator**\<`T`\>(`xs`): `Generator`\<`T`\>
 
-Defined in: [random/RandomChoiceGenerator.ts:13](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/random/RandomChoiceGenerator.ts#L13)
+Defined in: [random/RandomChoiceGenerator.ts:18](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/random/RandomChoiceGenerator.ts#L18)
+
+Returns a generator that returns a random shuffle of the provided array.
+
+#### Type Parameters
+
+| Type Parameter |
+| ------ |
+| `T` |
 
 #### Parameters
 
 | Parameter | Type |
 | ------ | ------ |
-| `xs` | `any` |
+| `xs` | `T`[] |
 
 #### Returns
 
-`Generator`\<`any`, `void`, `unknown`\>
+`Generator`\<`T`\>
 
 ***
 

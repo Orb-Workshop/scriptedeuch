@@ -1,7 +1,10 @@
-// Simplex Noise Implementation
-// https://github.com/SRombauts/SimplexNoise/blob/master/references/SimplexNoise.java
-//
+/**
+   A Simplex Noise Implemetation.
 
+   @see [SimpleNoise Java Implementation](https://github.com/SRombauts/SimplexNoise/blob/master/references/SimplexNoise.java)
+ */
+
+/** Array Gradient */
 class Grad {
     x: number;
     y: number;
@@ -14,7 +17,7 @@ class Grad {
     }
 }
 
-// 2D Simplex Noise
+/** 2D Simplex Noise */
 export default class SimplexNoise {
     static grad3: Array<Grad> = [
         new Grad(1,1,0),new Grad(-1,1,0),new Grad(1,-1,0),new Grad(-1,-1,0),
