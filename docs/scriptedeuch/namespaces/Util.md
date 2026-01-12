@@ -14,7 +14,9 @@ Utility Library
 
 > **DeepCopy**(`o`): `any`
 
-Defined in: [util/index.ts:8](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/util/index.ts#L8)
+Defined in: [util/index.ts:10](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/util/index.ts#L10)
+
+Returns a deep copy of the provided object, `o`.
 
 #### Parameters
 
@@ -32,7 +34,9 @@ Defined in: [util/index.ts:8](https://github.com/Orb-Workshop/scriptedeuch/blob/
 
 > **GenerateAddOutput**(`opts`): `string`
 
-Defined in: [util/index.ts:34](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/util/index.ts#L34)
+Defined in: [util/index.ts:39](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/util/index.ts#L39)
+
+Generate an 'AddOutput' line for IO Events.
 
 #### Parameters
 
@@ -50,7 +54,9 @@ Defined in: [util/index.ts:34](https://github.com/Orb-Workshop/scriptedeuch/blob
 
 > **GetPlayerName**(`player_pawn`): `string` \| `null`
 
-Defined in: [util/index.ts:12](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/util/index.ts#L12)
+Defined in: [util/index.ts:15](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/util/index.ts#L15)
+
+Return the player name of a CSPlayerPawn, or `null` if it isn't available.
 
 #### Parameters
 
@@ -68,13 +74,15 @@ Defined in: [util/index.ts:12](https://github.com/Orb-Workshop/scriptedeuch/blob
 
 > **Memoize**(`func`): (...`args`) => `any`
 
-Defined in: [util/index.ts:23](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/util/index.ts#L23)
+Defined in: [util/index.ts:27](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/util/index.ts#L27)
+
+Standard Memoize Function
 
 #### Parameters
 
 | Parameter | Type |
 | ------ | ------ |
-| `func` | `any` |
+| `func` | `Function` |
 
 #### Returns
 
@@ -84,7 +92,7 @@ Defined in: [util/index.ts:23](https://github.com/Orb-Workshop/scriptedeuch/blob
 
 | Parameter | Type |
 | ------ | ------ |
-| ...`args` | `any`[] |
+| ...`args` | `any` |
 
 ##### Returns
 
@@ -94,9 +102,11 @@ Defined in: [util/index.ts:23](https://github.com/Orb-Workshop/scriptedeuch/blob
 
 ### UniqueGen()
 
-> **UniqueGen**(`s`): () => `any`
+> **UniqueGen**(`s`): () => `string`
 
-Defined in: [util/index.ts:54](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/util/index.ts#L54)
+Defined in: [util/index.ts:60](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/util/index.ts#L60)
+
+Returns a function that generates unique indexed names prefixed with `s`
 
 #### Parameters
 
@@ -106,8 +116,8 @@ Defined in: [util/index.ts:54](https://github.com/Orb-Workshop/scriptedeuch/blob
 
 #### Returns
 
-> (): `any`
+> (): `string`
 
 ##### Returns
 
-`any`
+`string`
