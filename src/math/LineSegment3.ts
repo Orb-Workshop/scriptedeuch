@@ -11,33 +11,33 @@ export default class LineSegment3 {
     }
 
     midpoint(): Point3 {
-        let m_x = (this.a.x + this.b.x) / 2;
-        let m_y = (this.a.y + this.b.y) / 2;
+        const m_x = (this.a.x + this.b.x) / 2;
+        const m_y = (this.a.y + this.b.y) / 2;
         return new Point3(m_x, m_y);
     }
 
     distance(): number {
-        let a = this.a;
-        let b = this.b;
-        let ab_x = b.x - a.x;
-        let ab_y = b.y - a.y;
-        let ab_z = b.z - a.z;
+        const a = this.a;
+        const b = this.b;
+        const ab_x = b.x - a.x;
+        const ab_y = b.y - a.y;
+        const ab_z = b.z - a.z;
         return Math.hypot(ab_x, ab_y, ab_z);
     }
 
     /** @returns
-        A unit/direction vector from point 'a' to 'b'
+        A unit/direction vector from point `this.a` to `this.b`.
     */
-    direction(): [number, number, number] {
-        let a = this.a;
-        let b = this.b;
-        let ab_x = b.x - a.x;
-        let ab_y = b.y - a.y;
-        let ab_z = b.z - a.z;
-        let ab_mag = this.distance();
-        let unit_x = ab_x / ab_mag;
-        let unit_y = ab_y / ab_mag;
-        let unit_z = ab_z / ab_mag;
+    direction(): Vector3 {
+        const a = this.a;
+        const b = this.b;
+        const ab_x = b.x - a.x;
+        const ab_y = b.y - a.y;
+        const ab_z = b.z - a.z;
+        const ab_mag = this.distance();
+        const unit_x = ab_x / ab_mag;
+        const unit_y = ab_y / ab_mag;
+        const unit_z = ab_z / ab_mag;
         return new Vector3(unit_x, unit_y, unit_z);
     }
 
@@ -48,17 +48,17 @@ export default class LineSegment3 {
             norm = 1. --> `return this.b`
     */
     getNormalizedPoint(norm: number): Point3 {
-        let a = this.a;
-        let b = this.b;
+        const a = this.a;
+        const b = this.b;
 
         if (norm <= 0.) return a;
         if (norm >= 1.) return b;
 
-        let point_distance = this.distance() * norm;
-        let unit_vector = this.direction();
-        let unit_x = unit_vector[0];
-        let unit_y = unit_vector[1];
-        let unit_z = unit_vector[2];
+        const point_distance = this.distance() * norm;
+        const unit_vector = this.direction();
+        const unit_x = unit_vector[0];
+        const unit_y = unit_vector[1];
+        const unit_z = unit_vector[2];
         return new Point3(a.x + unit_x * point_distance,
 		          a.y + unit_y * point_distance,
                           a.z + unit_z * point_distance);
