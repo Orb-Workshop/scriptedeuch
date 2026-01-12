@@ -20,14 +20,14 @@ export function GetPlayerName(player_pawn: CSPlayerPawn): string | null {
     return player_controller.GetPlayerName();
 }
 
-export const Memoize = (func) => {
-    const cache = {};
-    return (...args) => {
-        let strKey = args.join(',');
-        if(!cache[strKey]){
-            cache[strKey] = func.apply(this, args);
+export function Memoize(func: Function) {
+    const cache = new Map();
+    return (...args: any) => {
+        const key = new Array(args);
+        if(!cache.has(key)){
+            cache.set(key, func.apply(this, args));
         }
-        return cache[strKey];
+        return cache.get(key);
     }
 }
 
