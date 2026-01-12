@@ -1293,7 +1293,17 @@ Create Vector from CS Vector Interface
 
 ### Voronoi
 
-Defined in: math/Voronoi.ts:32
+Defined in: math/Voronoi.ts:34
+
+Adapter for use with scriptedeuch
+
+#### Example
+
+```ts
+let v = new Voronoi();
+v.compute([new Point2(24, 24),
+           new Point2(12, 12)]);
+```
 
 #### Constructors
 
@@ -1301,7 +1311,7 @@ Defined in: math/Voronoi.ts:32
 
 > **new Voronoi**(`options`): [`Voronoi`](#voronoi)
 
-Defined in: math/Voronoi.ts:45
+Defined in: math/Voronoi.ts:47
 
 ###### Parameters
 
@@ -1317,35 +1327,15 @@ Defined in: math/Voronoi.ts:45
 
 | Property | Modifier | Type | Defined in |
 | ------ | ------ | ------ | ------ |
-| <a id="bbox_default"></a> `bbox_default` | `static` | `object` | math/Voronoi.ts:38 |
-| `bbox_default.xl` | `public` | `number` | math/Voronoi.ts:39 |
-| `bbox_default.xr` | `public` | `number` | math/Voronoi.ts:40 |
-| `bbox_default.yb` | `public` | `number` | math/Voronoi.ts:42 |
-| `bbox_default.yt` | `public` | `number` | math/Voronoi.ts:41 |
+| <a id="bbox_default"></a> `bbox_default` | `static` | `VoronoiBBox` | math/Voronoi.ts:40 |
 
 #### Methods
-
-##### \_convertPointArrayToSites()
-
-> **\_convertPointArrayToSites**(`point_array`): `object`[]
-
-Defined in: math/Voronoi.ts:49
-
-###### Parameters
-
-| Parameter | Type |
-| ------ | ------ |
-| `point_array` | [`Point2`](#point2)[] |
-
-###### Returns
-
-`object`[]
 
 ##### compute()
 
 > **compute**(`point_array`): `void`
 
-Defined in: math/Voronoi.ts:55
+Defined in: math/Voronoi.ts:51
 
 ###### Parameters
 
@@ -1361,7 +1351,7 @@ Defined in: math/Voronoi.ts:55
 
 > **getCompleteEdges**(): `EdgeResult`[]
 
-Defined in: math/Voronoi.ts:67
+Defined in: math/Voronoi.ts:63
 
 ###### Returns
 
@@ -1371,7 +1361,7 @@ Defined in: math/Voronoi.ts:67
 
 > **getEquidistantPoints**(): [`Point2`](#point2)[]
 
-Defined in: math/Voronoi.ts:78
+Defined in: math/Voronoi.ts:74
 
 ###### Returns
 
@@ -1381,7 +1371,7 @@ Defined in: math/Voronoi.ts:78
 
 > **getRawDiagram**(): `null`
 
-Defined in: math/Voronoi.ts:63
+Defined in: math/Voronoi.ts:59
 
 ###### Returns
 
@@ -1391,7 +1381,7 @@ Defined in: math/Voronoi.ts:63
 
 > **isComputed**(): `boolean`
 
-Defined in: math/Voronoi.ts:61
+Defined in: math/Voronoi.ts:57
 
 ###### Returns
 
