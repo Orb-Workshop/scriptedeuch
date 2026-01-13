@@ -169,7 +169,7 @@ export default class Mount {
         // OnScriptReload functionality is split up into separate overrides
         // System.OnScriptReloadBefore(...) and System.OnScriptReloadAfter(...)
         // The memory reload functionality works with individual registered systems.
-        const system_memory_store = new Map();
+        const system_memory_store: Map<string, any> = new Map();
         CSS.OnScriptReload({
             before: () => {
                 this.forEachEnabledSystem((system, key) => {

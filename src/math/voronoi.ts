@@ -5,7 +5,7 @@ import LineSegment2 from "./LineSegment2";
 /* Voronoi Implementation
    https://github.com/gorhill/Javascript-Voronoi
 */
-import {default as RhillVoronoi} from "./rhill-voronoi-core.min.js";
+import { default as RhillVoronoi } from "./rhill-voronoi-core.min.js";
 
 interface EdgeResult {
     point_left: Point2;

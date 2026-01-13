@@ -1,4 +1,4 @@
-import { Actor } from "./index";
+import Actor from "./Actor";
 
 type ThinkCallback = (instance: ThinkTask) => void;
 

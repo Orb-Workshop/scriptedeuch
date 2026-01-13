@@ -2,7 +2,7 @@
   Defaults, from scriptedeuch prefabs and cs2 assets.
 */
 import { PointTemplate } from "cs_script/point_script";
-import { Asset } from "./index";
+import * as Asset from "./Asset";
 
 export const SOUND_EVENT_TEMPLATE = "scriptedeuch.soundevent.template";
 export function SoundTemplate(): PointTemplate {

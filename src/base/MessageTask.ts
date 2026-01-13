@@ -1,4 +1,4 @@
-import { Actor } from "./index";
+import Actor from "./Actor";
 
 type MessageCallback = (tag: string, data: any, instance: MessageTask) => void;
 
