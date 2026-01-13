@@ -78,16 +78,16 @@ export default class Mount {
     }
 
     /** Iterate over each system with callback, `f`.  */
-    private forEachSystem(f: (system: System) => void) {
-        for (let system of this.system_listing.values()) {
-            f(system);
-        }
+    private forEachSystem(f: (system: System, key: string) => void) {
+        this.system_listing.forEach((system, key) => {
+            f(system, key);
+        });
     }
 
     /** Iterate over each enabled system with callback, `f`. */
     private forEachEnabledSystem(f: (system: System) => void) {
-        this.forEachSystem((system) => {
-            if (system.IsSystemEnabled()) f(system);
+        this.forEachSystem((system, key) => {
+            if (system.IsSystemEnabled()) f(system, key);
         });
     }
 
@@ -97,7 +97,6 @@ export default class Mount {
         CSS.OnActivate(() => {
             this.forEachEnabledSystem((system) => system.OnActivate());
         });
-        // TODO: Merge results
         CSS.OnBeforePlayerDamage((event) => {
             let result = null;
             this.forEachEnabledSystem((system) => {
@@ -166,12 +165,24 @@ export default class Mount {
         CSS.OnRoundStart((event) => {
             this.forEachEnabledSystem((system) => system.OnRoundStart(event));
         });
+
+        // OnScriptReload functionality is split up into separate overrides
+        // System.OnScriptReloadBefore(...) and System.OnScriptReloadAfter(...)
+        // The memory reload functionality works with individual registered systems.
+        const system_memory_store = new Map();
         CSS.OnScriptReload({
             before: () => {
-                this.forEachEnabledSystem((system) => system.OnScriptReloadBefore());
+                this.forEachEnabledSystem((system, key) => {
+                    const memory = system.OnScriptReloadBefore();
+                    system_memory_store.set(key, memory);
+                    return memory;
+                });
             },
-            after: (memory) => {
-                this.forEachEnabledSystem((system) => system.OnScriptReloadAfter(memory));
+            after: (_) => {
+                this.forEachEnabledSystem((system, key) => {
+                    const memory = system_memory_store.get(key);
+                    system.OnScriptReloadAfter(memory);
+                });
             }});
         
         // Handle tick intervals in each system.
