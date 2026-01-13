@@ -152,7 +152,7 @@ itself.
 
 > **GetLifetime**(): `number`
 
-Defined in: [base/Actor.ts:57](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/Actor.ts#L57)
+Defined in: [base/Actor.ts:58](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/Actor.ts#L58)
 
 How long the actor has been alive in seconds.
 
@@ -186,7 +186,7 @@ Handles the collision itself, where `trace` is the collision.
 
 > **IsDirty**(): `boolean`
 
-Defined in: [base/Actor.ts:68](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/Actor.ts#L68)
+Defined in: [base/Actor.ts:69](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/Actor.ts#L69)
 
 Determine if the Actor is marked for removal.
 
@@ -202,7 +202,7 @@ Determine if the Actor is marked for removal.
 
 > **MakeDirty**(): `void`
 
-Defined in: [base/Actor.ts:60](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/Actor.ts#L60)
+Defined in: [base/Actor.ts:61](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/Actor.ts#L61)
 
 Mark the Actor for removal from the actor pool.
 
@@ -218,7 +218,7 @@ Mark the Actor for removal from the actor pool.
 
 > **MaybeThink**(): `void`
 
-Defined in: [base/Actor.ts:71](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/Actor.ts#L71)
+Defined in: [base/Actor.ts:72](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/Actor.ts#L72)
 
 Performs `this.Think()` if it past a certain interval
 
@@ -273,7 +273,7 @@ Same as `this.MakeDirty()`.
 
 > **SetTick**(`i`): `void`
 
-Defined in: [base/Actor.ts:55](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/Actor.ts#L55)
+Defined in: [base/Actor.ts:56](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/Actor.ts#L56)
 
 Set the Tick Interval of the system in terms of *tick rate*.
 
@@ -295,7 +295,7 @@ Set the Tick Interval of the system in terms of *tick rate*.
 
 > **SetTickInterval**(`i`): `void`
 
-Defined in: [base/Actor.ts:53](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/Actor.ts#L53)
+Defined in: [base/Actor.ts:54](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/Actor.ts#L54)
 
 Set the Tick Interval of the system. Expressed in Seconds.
 
@@ -360,7 +360,7 @@ Note:
 
 > `static` **SendMessage**(`tag`, `data`, `actor_pool_name`): `void`
 
-Defined in: [base/Actor.ts:40](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/Actor.ts#L40)
+Defined in: [base/Actor.ts:41](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/Actor.ts#L41)
 
 Send messages to other actors in the actor pool.
 
