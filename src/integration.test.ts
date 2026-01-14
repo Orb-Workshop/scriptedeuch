@@ -1,5 +1,5 @@
 import { expect, test } from "bun:test";
-import { Math } from "./index.ts";
+import { Math } from "./index";
 
 test("Integration Test 1", () => {
     const v = Math.Vector3.Create(6, 7, 0);

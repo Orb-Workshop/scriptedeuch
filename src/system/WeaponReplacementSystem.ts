@@ -3,7 +3,7 @@ import {
     CSWeaponBase, CSWeaponData,
     CSGearSlot,
 } from "cs_script/point_script";
-import { System } from "../base/index";
+import { System } from "../base";
 
 // Weapon replacement example
 /*

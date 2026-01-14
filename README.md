@@ -76,8 +76,8 @@ Base.Mount.Start();
 
 ## Detailed Description
 
-**scriptedeuch** as a fundamental step employs a *Mount*ing process,
-  which works in tandem with System classes.
+**scriptedeuch** as a fundamental step employs a *Mount*ing process (`Base.Mount`),
+  which works closely with System classes (`Base.System`).
 
 How you would typically write a CS script
 ```typescript
@@ -121,14 +121,9 @@ Instance.OnPlayerReset((event) => {
 // ...
 ```
 
-
-The mounting framework replaces point_script Instance event handling
-to allow Systems to work in tandem more easily. Multiple systems can
-handle events independently of the Instance event handler.
-
-
 Here's the same example written using the **scriptedeuch** mounter
-`Base.Mount` and systems framework `Base.System`.
+`Base.Mount` and systems framework `Base.System`. Individual systems
+can handle events independently of the Instance event handler.
 
 ```typescript
 //import { Instance } from "cs_script/point_script";
