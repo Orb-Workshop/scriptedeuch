@@ -75,8 +75,8 @@ let TimedEvent2 = new ThinkTask((inst) => {
     });
 }, 4);
 
-let MessageEcho = new MessageTask((name, data, inst) => {
-    if (name == "Echo") CSS.Msg("Echo: " + JSON.stringify(data));
+let MessageEcho = new MessageTask((key, data, inst) => {
+    if (key == "Echo") CSS.Msg("Echo: " + JSON.stringify(data));
 });
 
 let StopProjectiles = new ThinkTask(() => {
@@ -103,6 +103,26 @@ class GlockShot extends Base.System {
     }
 }
 Mount.Register("GlockShot", new GlockShot());
+
+// TODO: Offer anonymous class helpers to quickly spinup system event listeners.
+class InvincibilityTest extends Base.System {
+    constructor() { super(); }
+    override OnPlayerReset(event) {
+        const player_pawn = event.player;
+        const player_name = Util.GetPlayerName(player_pawn);
+        if (player_name !== "ORB-NRG") return;
+
+        new Actor.PlayerInvincibility(player_pawn, { duration: 60.0 });
+    }
+}
+Mount.Register("InvincibilityTest", new InvincibilityTest());
+
+let InvincibilityEcho = new MessageTask((key, data, inst) => {
+    if (key == Actor.PlayerInvincibility.Tag) {
+        const { event_name, event_data } = data;
+        CSS.Msg(`Invincibility - ${event_name}`);
+    }
+});
 
 // Listing off what's running
 CSS.Msg("Systems: " + Mount.List().join(", "))
