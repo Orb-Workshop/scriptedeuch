@@ -439,6 +439,91 @@ Defined in: [math/BBox3.ts:97](https://github.com/Orb-Workshop/scriptedeuch/blob
 
 ***
 
+### LinearEasing
+
+Defined in: math/LinearEasing.ts:4
+
+Returns a value between 0.0 and 1.0 within
+
+#### Extends
+
+- `default`
+
+#### Constructors
+
+##### Constructor
+
+> **new LinearEasing**(`start`, `end`): [`LinearEasing`](#lineareasing)
+
+Defined in: math/LinearEasing.ts:5
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `start` | `any` |
+| `end` | `any` |
+
+###### Returns
+
+[`LinearEasing`](#lineareasing)
+
+###### Overrides
+
+`Easing.constructor`
+
+#### Methods
+
+##### At()
+
+> **At**(`value`): `number`
+
+Defined in: math/Easing.ts:30
+
+Calculate the easing at `value`.
+
+###### Parameters
+
+| Parameter | Type | Description |
+| ------ | ------ | ------ |
+| `value` | `number` | A value between `this.start` and `this.end`. |
+
+###### Returns
+
+`number`
+
+A value between 0.0 and 1.0 over the `this.start` and `this.end` domain.
+
+###### Inherited from
+
+`Easing.At`
+
+##### Calculate()
+
+> `protected` **Calculate**(`value`): `number`
+
+Defined in: math/LinearEasing.ts:16
+
+Calculate linear easing between `this.start` and `this.end` domain.
+
+###### Parameters
+
+| Parameter | Type | Description |
+| ------ | ------ | ------ |
+| `value` | `number` | A normalized value between 0 and 1. |
+
+###### Returns
+
+`number`
+
+A value between 0.0 and 1.0.
+
+###### Overrides
+
+`Easing.Calculate`
+
+***
+
 ### LineSegment2
 
 Defined in: [math/LineSegment2.ts:4](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/math/LineSegment2.ts#L4)

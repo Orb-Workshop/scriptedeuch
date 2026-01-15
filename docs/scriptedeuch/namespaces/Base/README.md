@@ -26,6 +26,8 @@ Defined in: [base/Actor.ts:14](https://github.com/Orb-Workshop/scriptedeuch/blob
 - [`ThinkTask`](#thinktask)
 - [`MessageTask`](#messagetask)
 - [`Projectile`](../Actor.md#projectile)
+- [`PlayerInvincibility`](../Actor.md#playerinvincibility)
+- [`Explosion`](../Actor.md#explosion)
 
 #### Implements
 
