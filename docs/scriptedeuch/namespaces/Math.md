@@ -441,7 +441,7 @@ Defined in: [math/BBox3.ts:97](https://github.com/Orb-Workshop/scriptedeuch/blob
 
 ### LinearEasing
 
-Defined in: math/LinearEasing.ts:4
+Defined in: [math/LinearEasing.ts:4](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/math/LinearEasing.ts#L4)
 
 Returns a value between 0.0 and 1.0 within
 
@@ -455,7 +455,7 @@ Returns a value between 0.0 and 1.0 within
 
 > **new LinearEasing**(`start`, `end`): [`LinearEasing`](#lineareasing)
 
-Defined in: math/LinearEasing.ts:5
+Defined in: [math/LinearEasing.ts:5](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/math/LinearEasing.ts#L5)
 
 ###### Parameters
 
@@ -478,7 +478,7 @@ Defined in: math/LinearEasing.ts:5
 
 > **At**(`value`): `number`
 
-Defined in: math/Easing.ts:30
+Defined in: [math/Easing.ts:30](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/math/Easing.ts#L30)
 
 Calculate the easing at `value`.
 
@@ -502,7 +502,7 @@ A value between 0.0 and 1.0 over the `this.start` and `this.end` domain.
 
 > `protected` **Calculate**(`value`): `number`
 
-Defined in: math/LinearEasing.ts:16
+Defined in: [math/LinearEasing.ts:16](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/math/LinearEasing.ts#L16)
 
 Calculate linear easing between `this.start` and `this.end` domain.
 
@@ -1234,7 +1234,7 @@ Defined in: [math/Vector3.ts:53](https://github.com/Orb-Workshop/scriptedeuch/bl
 
 > **distance**(`v`): `number`
 
-Defined in: [math/Vector3.ts:69](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/math/Vector3.ts#L69)
+Defined in: [math/Vector3.ts:70](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/math/Vector3.ts#L70)
 
 ###### Parameters
 
@@ -1268,7 +1268,7 @@ Return dot product of this vector with `v`
 
 > **equals**(`v`): `boolean`
 
-Defined in: [math/Vector3.ts:73](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/math/Vector3.ts#L73)
+Defined in: [math/Vector3.ts:74](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/math/Vector3.ts#L74)
 
 ###### Parameters
 
@@ -1294,7 +1294,9 @@ Defined in: [math/Vector3.ts:60](https://github.com/Orb-Workshop/scriptedeuch/bl
 
 > **normalize**(): [`Vector3`](#vector3)
 
-Defined in: [math/Vector3.ts:64](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/math/Vector3.ts#L64)
+Defined in: [math/Vector3.ts:65](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/math/Vector3.ts#L65)
+
+Normalize and return a direction vector.
 
 ###### Returns
 

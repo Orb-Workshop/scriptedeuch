@@ -12,7 +12,10 @@ Spawnable Actors (Auto-Mounting) that extend `Base.Actor`
 
 ### Explosion
 
-Defined in: actor/Explosion.ts:11
+Defined in: [actor/Explosion.ts:17](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/actor/Explosion.ts#L17)
+
+Allows you to perform an 'explosion effect' at the given
+`position`, which damages players and applies a force. The damage can be attributed to a player.
 
 #### Extends
 
@@ -24,17 +27,18 @@ Defined in: actor/Explosion.ts:11
 
 > **new Explosion**(`__namedParameters`): [`Explosion`](#explosion)
 
-Defined in: actor/Explosion.ts:12
+Defined in: [actor/Explosion.ts:29](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/actor/Explosion.ts#L29)
 
 ###### Parameters
 
 | Parameter | Type |
 | ------ | ------ |
-| `__namedParameters` | \{ `player_damage?`: `number`; `player_damage_falloff?`: `number`; `player_force?`: `number`; `player_force_falloff?`: `number`; `position?`: [`Vector3`](Math.md#vector3); `radius?`: `number`; \} |
-| `__namedParameters.player_damage?` | `number` |
-| `__namedParameters.player_damage_falloff?` | `number` |
-| `__namedParameters.player_force?` | `number` |
-| `__namedParameters.player_force_falloff?` | `number` |
+| `__namedParameters` | \{ `damage?`: `number`; `damage_falloff?`: `number`; `debug?`: `boolean`; `force?`: `number`; `force_falloff?`: `number`; `position?`: [`Vector3`](Math.md#vector3); `radius?`: `number`; \} |
+| `__namedParameters.damage?` | `number` |
+| `__namedParameters.damage_falloff?` | `number` |
+| `__namedParameters.debug?` | `boolean` |
+| `__namedParameters.force?` | `number` |
+| `__namedParameters.force_falloff?` | `number` |
 | `__namedParameters.position?` | [`Vector3`](Math.md#vector3) |
 | `__namedParameters.radius?` | `number` |
 
@@ -45,6 +49,12 @@ Defined in: actor/Explosion.ts:12
 ###### Overrides
 
 [`Actor`](Base/README.md#actor).[`constructor`](Base/README.md#constructor)
+
+#### Properties
+
+| Property | Modifier | Type | Default value | Defined in |
+| ------ | ------ | ------ | ------ | ------ |
+| <a id="tag"></a> `Tag` | `static` | `string` | `"ExplosionTag"` | [actor/Explosion.ts:18](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/actor/Explosion.ts#L18) |
 
 #### Methods
 
@@ -64,6 +74,22 @@ and has been removed from the actor pool
 ###### Inherited from
 
 [`Actor`](Base/README.md#actor).[`Dispose`](Base/README.md#dispose)
+
+##### Explode()
+
+> **Explode**(`inflictor`): `void` \| [`Explosion`](#explosion)
+
+Defined in: [actor/Explosion.ts:119](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/actor/Explosion.ts#L119)
+
+###### Parameters
+
+| Parameter | Type | Default value |
+| ------ | ------ | ------ |
+| `inflictor` | `CSPlayerPawn` | `null` |
+
+###### Returns
+
+`void` \| [`Explosion`](#explosion)
 
 ##### GetLifetime()
 
@@ -228,6 +254,26 @@ Override Method. Is called at the `think_interval`.
 
 [`Actor`](Base/README.md#actor).[`Think`](Base/README.md#think)
 
+##### GetAlivePlayers()
+
+> `static` **GetAlivePlayers**(): `CSPlayerPawn`[]
+
+Defined in: [actor/Explosion.ts:56](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/actor/Explosion.ts#L56)
+
+###### Returns
+
+`CSPlayerPawn`[]
+
+##### GetPlayers()
+
+> `static` **GetPlayers**(): `CSPlayerPawn`[]
+
+Defined in: [actor/Explosion.ts:52](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/actor/Explosion.ts#L52)
+
+###### Returns
+
+`CSPlayerPawn`[]
+
 ##### SendMessage()
 
 > `static` **SendMessage**(`tag`, `data`, `actor_pool_name`): `void`
@@ -298,7 +344,7 @@ Defined in: [actor/PlayerInvincibility.ts:21](https://github.com/Orb-Workshop/sc
 
 | Property | Modifier | Type | Default value | Defined in |
 | ------ | ------ | ------ | ------ | ------ |
-| <a id="tag"></a> `Tag` | `static` | `string` | `"PlayerInvincibilityTag"` | [actor/PlayerInvincibility.ts:18](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/actor/PlayerInvincibility.ts#L18) |
+| <a id="tag-1"></a> `Tag` | `static` | `string` | `"PlayerInvincibilityTag"` | [actor/PlayerInvincibility.ts:18](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/actor/PlayerInvincibility.ts#L18) |
 
 #### Methods
 
