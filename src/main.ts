@@ -125,8 +125,6 @@ let InvincibilityEcho = new MessageTask((key, data, inst) => {
 });
 
 CSS.OnScriptInput("Explosion", ({ activator, caller }) => {
-    // activator is the person pressing the button or touching something
-    // caller is the entity performing the IO, like an entity `info_target`.
     const inflictor = activator;
     if (!caller?.IsValid()) return;
     const position = Math.Vector3.From(caller.GetAbsOrigin());

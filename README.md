@@ -414,3 +414,7 @@ bun run watch
 ## Related Projects
 
 - [bounty_mode](https://github.com/Orb-Workshop/bounty_mode)
+
+- [trigger_invincibility](https://github.com/Orb-Workshop/trigger_invincibility)
+
+- [trigger_explosion](https://github.com/Orb-Workshop/trigger_explosion)
