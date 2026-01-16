@@ -38,7 +38,7 @@ test("LinearEasing Advanced", () => {
         else return 0.1 - 0.1 * new LinearEasing(500, 1000).At(value);
     }
 
-    const chk = (from, to) => expect(easeInCrazyStyle(from)).toEqual(to);
+    const chk = (from, to) => expect(easeOutCrazyStyle(from)).toEqual(to);
     chk(10, 1.0);
     chk(100, 1.0);
     chk(150, 0.75);

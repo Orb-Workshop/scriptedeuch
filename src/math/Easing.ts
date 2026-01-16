@@ -28,15 +28,13 @@ export default abstract class Easing {
         @returns A value between 0.0 and 1.0 over the `this.start` and `this.end` domain.
     */
     public At(value: number): number {
-        let result = null;
+        if (this.start == this.end) return 1.0;
         if (value <= this.start) return 0.0;
-        if (value >= this.end) return 1.0
+        if (value >= this.end) return 1.0;
                 
         // normalize our value between 0. and 1.
         const normalized_value = (value - this.start) / (this.end - this.start)
-        result = this.Calculate(normalized_value);
-
-        return result;
+        return this.Calculate(normalized_value);
     }
 
     /**

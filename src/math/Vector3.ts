@@ -61,6 +61,7 @@ export default class Vector3 implements VectorType {
         return Math.sqrt(this.x * this.x + this.y * this.y + this.z * this.z);
     }
 
+    /** Normalize and return a direction vector. */
     normalize(): Vector3 {
         const len = this.magnitude();
         return len === 0 ? Vector3.Zero : this.scale(1 / len);

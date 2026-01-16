@@ -124,6 +124,22 @@ let InvincibilityEcho = new MessageTask((key, data, inst) => {
     }
 });
 
+CSS.OnScriptInput("Explosion", ({ activator, caller }) => {
+    // activator is the person pressing the button or touching something
+    // caller is the entity performing the IO, like an entity `info_target`.
+    const inflictor = activator;
+    if (!caller?.IsValid()) return;
+    const position = Math.Vector3.From(caller.GetAbsOrigin());
+    let explosion = new Actor.Explosion({
+        position,
+    }).Explode(inflictor);
+    explosion.Remove();
+
+    CSS.Msg(Util.GetPlayerName(activator));
+    CSS.Msg(caller?.GetClassName());
+});
+
+
 // Listing off what's running
 CSS.Msg("Systems: " + Mount.List().join(", "))
 Mount.Start(); // go
