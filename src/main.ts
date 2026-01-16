@@ -112,7 +112,7 @@ class InvincibilityTest extends Base.System {
         const player_name = Util.GetPlayerName(player_pawn);
         if (player_name !== "ORB-NRG") return;
 
-        new Actor.PlayerInvincibility(player_pawn, { duration: 60.0 });
+        new Actor.PlayerInvincibility(player_pawn, { duration: 1.0 });
     }
 }
 Mount.Register("InvincibilityTest", new InvincibilityTest());
@@ -132,13 +132,13 @@ CSS.OnScriptInput("Explosion", ({ activator, caller }) => {
     const position = Math.Vector3.From(caller.GetAbsOrigin());
     let explosion = new Actor.Explosion({
         position,
+        debug: false,
     }).Explode(inflictor);
     explosion.Remove();
 
     CSS.Msg(Util.GetPlayerName(activator));
     CSS.Msg(caller?.GetClassName());
 });
-
 
 // Listing off what's running
 CSS.Msg("Systems: " + Mount.List().join(", "))

@@ -6,9 +6,7 @@ import {
 } from "cs_script/point_script";
 import * as Base from "../base";
 import * as Math from "../math";
-
-const DEFAULT_PLAYER_MASS = 80; //kg
-
+import * as Util from "../util";
 
 /** 
 
@@ -19,30 +17,35 @@ const DEFAULT_PLAYER_MASS = 80; //kg
 export default class Explosion extends Base.Actor {
     static Tag: string = "ExplosionTag";
     private position: Vector3;
+    //
     private radius: number;
-    //
-    private force: number;
     private force_falloff: number;
-    //
-    private damage: number;
     private damage_falloff: number;
+    //
+    private force: number; // TODO: what is this unit?
+    private damage: number;
+    private debug: boolean;
     
     constructor({
         position = Math.Vector3.Zero,
-        radius = 100, // sphere radius
-        force = 500,
+        //
+        radius = 400, // sphere radius
         force_falloff = 50, // half force at 75 units
+        damage_falloff = 25, // half damage at 50 units
+        //
+        force = 1000,
         damage = 100,
-        damage_falloff = 0, // half damage at 50 units
         debug = true,
     }) {
         super();
         this.position = position;
+        //
         this.radius = radius;
-        this.force = force;
         this.force_falloff = force_falloff;
-        this.damage = damage;
         this.damage_falloff = damage_falloff;
+        //
+        this.force = force;
+        this.damage = damage;
         this.debug = debug;
     }
     
@@ -68,7 +71,11 @@ export default class Explosion extends Base.Actor {
     private checkPlayerCollision(player_pawn: CSPlayerPawn): boolean {
         const player_center = this.getPlayerCenter(player_pawn);
         const distance = this.position.distance(player_center);
-        if (distance >= this.radius) return true;
+        if (this.debug) {
+            CSS.Msg(`Player Name: ${Util.GetPlayerName(player_pawn)}`);
+            CSS.Msg(`Distance: ${distance}`);
+        }
+        if (distance <= this.radius) return true;
         return false;
     }
 
@@ -76,7 +83,7 @@ export default class Explosion extends Base.Actor {
         const distance = this.position.distance(this.getPlayerCenter(player_pawn));
         const easeFunction = (d) => {
             if (d <= this.damage_falloff) return 1.0;
-            else return 1.0 - new LinearEasing(this.damage_falloff, this.radius).At(d);
+            else return 1.0 - new Math.LinearEasing(this.damage_falloff, this.radius).At(d);
         }
         const damage = this.damage * easeFunction(distance);
         player_pawn.TakeDamage({
@@ -84,6 +91,9 @@ export default class Explosion extends Base.Actor {
             damage,
             attacker: inflictor,
         });
+        if (this.debug) {
+            CSS.Msg(`Damage: ${damage}`);
+        }
     }
 
     private handlePlayerForce(player_pawn: CSPlayerPawn): void {
@@ -91,16 +101,19 @@ export default class Explosion extends Base.Actor {
         const distance = this.position.distance(player_center);
         const easeFunction = (d) => {
             if (d <= this.force_falloff) return 1.0;
-            else return 1.0 - new LinearEasing(this.force_falloff, this.radius).At(d);
+            else return 1.0 - new Math.LinearEasing(this.force_falloff, this.radius).At(d);
         }
         const force = this.force * easeFunction(distance);
-        const force_direction = this.position.sub(player_center).normalize();
-
+        const force_direction = player_center.sub(this.position).normalize();
+        
         // TODO: come up with a better force and velocity relationship for impulse force.
         
-        const player_velocity = player_pawn.GetAbsVelocity();
-        const velocity = player_velocity.add(force_direction.scale(force / DEFAULT_PLAYER_MASS));
+        const player_velocity = Math.Vector3.From(player_pawn.GetAbsVelocity());
+        const velocity = player_velocity.add(force_direction.scale(force));
         player_pawn.Teleport({ velocity });
+        if (this.debug) {
+            CSS.Msg(`Force: ${force}`);
+        }
     }
     
     public Explode(inflictor: CSPlayerPawn = null): Explosion | void {
@@ -108,7 +121,7 @@ export default class Explosion extends Base.Actor {
             CSS.DebugSphere({
                 center: this.position,
                 radius: this.radius,
-                duration: 5, // seconds
+                duration: 1, // seconds
             });
         }
         Explosion.GetAlivePlayers().forEach((player) => {
