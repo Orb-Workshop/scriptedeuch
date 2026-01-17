@@ -77,7 +77,7 @@ export default abstract class Actor implements ActorInterface {
                 this.Think();
             }
             catch(e) {
-                CSS.Msg("Failed Within Actor Think Function...");
+                CSS.Msg(`Actor Think Error: ${e.toString()}`);
             }
             this.last_think = CSS.GetGameTime();
         }
