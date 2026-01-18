@@ -10,6 +10,9 @@ import {
     // Spawnable Actors in Framework, which extend Base.Actor
     Actor,
 
+    // Events Handling Library built on top of `Base.Actor` actor pool.
+    Event,
+    
     // Math data types that extend the cs2 Vector and QAngle data interface.
     Math,
 
@@ -32,6 +35,7 @@ const {
 } = Base;
 
 CSS.Msg("Scriptedeuch!!");
+
 
 const soundEventSystem = new System.SoundEventSystem({debug: false});
 Mount.Register("SoundEvents", soundEventSystem);
@@ -75,9 +79,20 @@ let TimedEvent2 = new ThinkTask((inst) => {
     });
 }, 4);
 
-let MessageEcho = new MessageTask((key, data, inst) => {
-    if (key == "Echo") CSS.Msg("Echo: " + JSON.stringify(data));
-});
+//let MessageEcho = new MessageTask((key, data, inst) => {
+//    if (key == "Echo") CSS.Msg("Echo: " + JSON.stringify(data));
+//});
+
+try {
+    CSS.Msg(JSON.stringify(Event));
+    new Event.Listener("Echo").On("echo", (msg) => CSS.Msg(`Echo Message: ${msg}`));
+    const sender = new Event.Sender("Echo");
+    const echo = (msg) => sender.Send("echo", msg);
+    echo("Hello World!");
+} catch(e) {
+    CSS.Msg(`Error Events: ${e.toString()}`);
+}
+
 
 let StopProjectiles = new ThinkTask(() => {
     ThinkTask.SendMessage("KillAll");
