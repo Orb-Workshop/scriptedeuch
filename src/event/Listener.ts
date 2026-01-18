@@ -4,7 +4,7 @@
    callbacks in a particular event format.
 */
 import { Instance as CSS } from "cs_script/point_script";
-import { Base } from "scriptedeuch";
+import * as Base from "../base";
 
 type Callback = (any) => void;
 

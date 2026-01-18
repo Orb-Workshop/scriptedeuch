@@ -3,7 +3,7 @@
    a particular event format.
 */
 import { Instance as CSS } from "cs_script/point_script";
-import { Base } from "scriptedeuch";
+import * as Base from "../base";
 
 export default class Sender {
     private tag: string;
