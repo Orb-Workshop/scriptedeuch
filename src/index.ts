@@ -9,6 +9,9 @@ export * as System from "./system";
 /** Spawnable Actors (Auto-Mounting) that extend `Base.Actor` */
 export * as Actor from "./actor";
 
+/** Event Listener and Sender */
+export * as Event from "./event";
+
 /** Utility Library */
 export * as Util from "./util";
 
