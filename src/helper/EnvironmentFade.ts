@@ -1,5 +1,5 @@
 /**
-   Entity Adapter for 'EnvironmentFade' --> 'env_fade'
+   Entity Adapter for 'env_fade' cs2 entity.
  */
 import {
     Instance as CSS,
