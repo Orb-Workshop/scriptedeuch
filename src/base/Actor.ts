@@ -30,7 +30,7 @@ export default abstract class Actor implements ActorInterface {
         // Spawn our actor within the actor pool
         this.actor_pool.Spawn(this);
     }
-
+    
     //
     // Actor Static Methods
     //
@@ -56,7 +56,8 @@ export default abstract class Actor implements ActorInterface {
     public SetTick(i: number): void { this.SetTickInterval(1/i) }
     /** How long the actor has been alive in seconds. */
     public GetLifetime(): number { return CSS.GetGameTime() - this.init_think; }
-    
+    /** Delta Since last think time. */
+    public GetDelta(): number { return CSS.GetGameTime() - this.last_think; }
     /** Mark the Actor for removal from the actor pool. */
     public MakeDirty(): void { this.dirty = true; }
     /** Same as `this.MakeDirty()`. */
@@ -94,7 +95,12 @@ export default abstract class Actor implements ActorInterface {
     Dispose(): void {}
 
     /**
-       Override Interface Method. React to messages sent by other actors in the actor pool.
+       Override Interface Method. React to messages sent by other
+       actors in the actor pool.
+
+       Note: `Event.Listener` and `Event.Sender` with tags are
+       preferred over this method.
+
      */
     ReceiveMessage(tag: string, data: any): void {}
     
