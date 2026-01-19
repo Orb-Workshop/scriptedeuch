@@ -8,7 +8,16 @@ import * as Base from "../base";
 
 export type Callback = (any) => void;
 
-/** Similar to Base.MessageTask, except it processes an event structure. */
+/** Similar to Base.MessageTask, except it processes an event structure.
+
+ Notes:
+ 
+ - listeners used within actors or systems should call
+   `Listener.Remove()` when they themselves are being removed.
+   The best place to do this is within `Base.Actor.Dispose()` for actors,
+   or for non-preserved entities within systems, within `Base.System.OnRoundEnd`.
+
+*/
 export default class Listener extends Base.Actor {
     /** Will listen to actor messages with given `tag` during instantiation */
     private tag: string
@@ -22,7 +31,6 @@ export default class Listener extends Base.Actor {
         if (this.tag !== tag) return;
         const { event_name = null,
                 event_data = null } = data;
-        if (!event_name) CSS.Msg("EventListener: Null Event Encountered");
         if (this.receivers.has(event_name))
             this.receivers.get(event_name)(event_data);
     }
