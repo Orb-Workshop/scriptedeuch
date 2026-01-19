@@ -62,7 +62,7 @@ Defined in: [actor/Explosion.ts:29](https://github.com/Orb-Workshop/scriptedeuch
 
 > **Dispose**(): `void`
 
-Defined in: [base/Actor.ts:94](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/Actor.ts#L94)
+Defined in: [base/Actor.ts:95](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/Actor.ts#L95)
 
 Override Interface Method. Called after an actor has been made dirty,
 and has been removed from the actor pool
@@ -91,6 +91,22 @@ Defined in: [actor/Explosion.ts:119](https://github.com/Orb-Workshop/scriptedeuc
 
 `void` \| [`Explosion`](#explosion)
 
+##### GetDelta()
+
+> **GetDelta**(): `number`
+
+Defined in: [base/Actor.ts:60](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/Actor.ts#L60)
+
+Delta Since last think time.
+
+###### Returns
+
+`number`
+
+###### Inherited from
+
+[`Actor`](Base/README.md#actor).[`GetDelta`](Base/README.md#getdelta)
+
 ##### GetLifetime()
 
 > **GetLifetime**(): `number`
@@ -111,7 +127,7 @@ How long the actor has been alive in seconds.
 
 > **IsDirty**(): `boolean`
 
-Defined in: [base/Actor.ts:69](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/Actor.ts#L69)
+Defined in: [base/Actor.ts:70](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/Actor.ts#L70)
 
 Determine if the Actor is marked for removal.
 
@@ -127,7 +143,7 @@ Determine if the Actor is marked for removal.
 
 > **MakeDirty**(): `void`
 
-Defined in: [base/Actor.ts:61](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/Actor.ts#L61)
+Defined in: [base/Actor.ts:62](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/Actor.ts#L62)
 
 Mark the Actor for removal from the actor pool.
 
@@ -143,7 +159,7 @@ Mark the Actor for removal from the actor pool.
 
 > **MaybeThink**(): `void`
 
-Defined in: [base/Actor.ts:72](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/Actor.ts#L72)
+Defined in: [base/Actor.ts:73](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/Actor.ts#L73)
 
 Performs `this.Think()` if it past a certain interval
 
@@ -159,9 +175,13 @@ Performs `this.Think()` if it past a certain interval
 
 > **ReceiveMessage**(`tag`, `data`): `void`
 
-Defined in: [base/Actor.ts:99](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/Actor.ts#L99)
+Defined in: [base/Actor.ts:105](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/Actor.ts#L105)
 
-Override Interface Method. React to messages sent by other actors in the actor pool.
+Override Interface Method. React to messages sent by other
+actors in the actor pool.
+
+Note: `Event.Listener` and `Event.Sender` with tags are
+preferred over this method.
 
 ###### Parameters
 
@@ -182,7 +202,7 @@ Override Interface Method. React to messages sent by other actors in the actor p
 
 > **Remove**(): `void`
 
-Defined in: [base/Actor.ts:63](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/Actor.ts#L63)
+Defined in: [base/Actor.ts:64](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/Actor.ts#L64)
 
 Same as `this.MakeDirty()`.
 
@@ -242,7 +262,7 @@ Set the Tick Interval of the system. Expressed in Seconds.
 
 > **Think**(): `void`
 
-Defined in: [base/Actor.ts:104](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/Actor.ts#L104)
+Defined in: [base/Actor.ts:110](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/Actor.ts#L110)
 
 Override Method. Is called at the `think_interval`.
 
@@ -365,6 +385,22 @@ and has been removed from the actor pool
 
 [`Actor`](Base/README.md#actor).[`Dispose`](Base/README.md#dispose)
 
+##### GetDelta()
+
+> **GetDelta**(): `number`
+
+Defined in: [base/Actor.ts:60](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/Actor.ts#L60)
+
+Delta Since last think time.
+
+###### Returns
+
+`number`
+
+###### Inherited from
+
+[`Actor`](Base/README.md#actor).[`GetDelta`](Base/README.md#getdelta)
+
 ##### GetLifetime()
 
 > **GetLifetime**(): `number`
@@ -385,7 +421,7 @@ How long the actor has been alive in seconds.
 
 > **IsDirty**(): `boolean`
 
-Defined in: [base/Actor.ts:69](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/Actor.ts#L69)
+Defined in: [base/Actor.ts:70](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/Actor.ts#L70)
 
 Determine if the Actor is marked for removal.
 
@@ -401,7 +437,7 @@ Determine if the Actor is marked for removal.
 
 > **MakeDirty**(): `void`
 
-Defined in: [base/Actor.ts:61](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/Actor.ts#L61)
+Defined in: [base/Actor.ts:62](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/Actor.ts#L62)
 
 Mark the Actor for removal from the actor pool.
 
@@ -417,7 +453,7 @@ Mark the Actor for removal from the actor pool.
 
 > **MaybeThink**(): `void`
 
-Defined in: [base/Actor.ts:72](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/Actor.ts#L72)
+Defined in: [base/Actor.ts:73](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/Actor.ts#L73)
 
 Performs `this.Think()` if it past a certain interval
 
@@ -433,9 +469,13 @@ Performs `this.Think()` if it past a certain interval
 
 > **ReceiveMessage**(`tag`, `data`): `void`
 
-Defined in: [base/Actor.ts:99](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/Actor.ts#L99)
+Defined in: [base/Actor.ts:105](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/Actor.ts#L105)
 
-Override Interface Method. React to messages sent by other actors in the actor pool.
+Override Interface Method. React to messages sent by other
+actors in the actor pool.
+
+Note: `Event.Listener` and `Event.Sender` with tags are
+preferred over this method.
 
 ###### Parameters
 
@@ -456,7 +496,7 @@ Override Interface Method. React to messages sent by other actors in the actor p
 
 > **Remove**(): `void`
 
-Defined in: [base/Actor.ts:63](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/Actor.ts#L63)
+Defined in: [base/Actor.ts:64](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/Actor.ts#L64)
 
 Same as `this.MakeDirty()`.
 
@@ -709,6 +749,22 @@ Fire the Projectile, changing it to the 'fired' state.
 
 itself.
 
+##### GetDelta()
+
+> **GetDelta**(): `number`
+
+Defined in: [base/Actor.ts:60](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/Actor.ts#L60)
+
+Delta Since last think time.
+
+###### Returns
+
+`number`
+
+###### Inherited from
+
+[`Actor`](Base/README.md#actor).[`GetDelta`](Base/README.md#getdelta)
+
 ##### GetLifetime()
 
 > **GetLifetime**(): `number`
@@ -747,7 +803,7 @@ Handles the collision itself, where `trace` is the collision.
 
 > **IsDirty**(): `boolean`
 
-Defined in: [base/Actor.ts:69](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/Actor.ts#L69)
+Defined in: [base/Actor.ts:70](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/Actor.ts#L70)
 
 Determine if the Actor is marked for removal.
 
@@ -763,7 +819,7 @@ Determine if the Actor is marked for removal.
 
 > **MakeDirty**(): `void`
 
-Defined in: [base/Actor.ts:61](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/Actor.ts#L61)
+Defined in: [base/Actor.ts:62](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/Actor.ts#L62)
 
 Mark the Actor for removal from the actor pool.
 
@@ -779,7 +835,7 @@ Mark the Actor for removal from the actor pool.
 
 > **MaybeThink**(): `void`
 
-Defined in: [base/Actor.ts:72](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/Actor.ts#L72)
+Defined in: [base/Actor.ts:73](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/Actor.ts#L73)
 
 Performs `this.Think()` if it past a certain interval
 
@@ -797,7 +853,11 @@ Performs `this.Think()` if it past a certain interval
 
 Defined in: [actor/Projectile.ts:227](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/actor/Projectile.ts#L227)
 
-Override Interface Method. React to messages sent by other actors in the actor pool.
+Override Interface Method. React to messages sent by other
+actors in the actor pool.
+
+Note: `Event.Listener` and `Event.Sender` with tags are
+preferred over this method.
 
 ###### Parameters
 

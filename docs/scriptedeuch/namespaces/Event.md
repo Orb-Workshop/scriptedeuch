@@ -12,9 +12,16 @@ Event Listener and Sender
 
 ### Listener
 
-Defined in: [event/Listener.ts:12](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/event/Listener.ts#L12)
+Defined in: [event/Listener.ts:21](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/event/Listener.ts#L21)
 
 Similar to Base.MessageTask, except it processes an event structure.
+
+Notes:
+
+- listeners used within actors or systems should call
+  `Listener.Remove()` when they themselves are being removed.
+  The best place to do this is within `Base.Actor.Dispose()` for actors,
+  or for non-preserved entities within systems, within `Base.System.OnRoundEnd`.
 
 #### Extends
 
@@ -26,7 +33,7 @@ Similar to Base.MessageTask, except it processes an event structure.
 
 > **new Listener**(`tag`): [`Listener`](#listener)
 
-Defined in: [event/Listener.ts:16](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/event/Listener.ts#L16)
+Defined in: [event/Listener.ts:25](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/event/Listener.ts#L25)
 
 ###### Parameters
 
@@ -48,7 +55,7 @@ Defined in: [event/Listener.ts:16](https://github.com/Orb-Workshop/scriptedeuch/
 
 > **Dispose**(): `void`
 
-Defined in: [base/Actor.ts:94](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/Actor.ts#L94)
+Defined in: [base/Actor.ts:95](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/Actor.ts#L95)
 
 Override Interface Method. Called after an actor has been made dirty,
 and has been removed from the actor pool
@@ -60,6 +67,22 @@ and has been removed from the actor pool
 ###### Inherited from
 
 [`Actor`](Base/README.md#actor).[`Dispose`](Base/README.md#dispose)
+
+##### GetDelta()
+
+> **GetDelta**(): `number`
+
+Defined in: [base/Actor.ts:60](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/Actor.ts#L60)
+
+Delta Since last think time.
+
+###### Returns
+
+`number`
+
+###### Inherited from
+
+[`Actor`](Base/README.md#actor).[`GetDelta`](Base/README.md#getdelta)
 
 ##### GetLifetime()
 
@@ -81,7 +104,7 @@ How long the actor has been alive in seconds.
 
 > **IsDirty**(): `boolean`
 
-Defined in: [base/Actor.ts:69](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/Actor.ts#L69)
+Defined in: [base/Actor.ts:70](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/Actor.ts#L70)
 
 Determine if the Actor is marked for removal.
 
@@ -97,7 +120,7 @@ Determine if the Actor is marked for removal.
 
 > **MakeDirty**(): `void`
 
-Defined in: [base/Actor.ts:61](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/Actor.ts#L61)
+Defined in: [base/Actor.ts:62](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/Actor.ts#L62)
 
 Mark the Actor for removal from the actor pool.
 
@@ -113,7 +136,7 @@ Mark the Actor for removal from the actor pool.
 
 > **MaybeThink**(): `void`
 
-Defined in: [base/Actor.ts:72](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/Actor.ts#L72)
+Defined in: [base/Actor.ts:73](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/Actor.ts#L73)
 
 Performs `this.Think()` if it past a certain interval
 
@@ -129,7 +152,7 @@ Performs `this.Think()` if it past a certain interval
 
 > **On**(`event_name`, `event_callback`): [`Listener`](#listener)
 
-Defined in: [event/Listener.ts:30](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/event/Listener.ts#L30)
+Defined in: [event/Listener.ts:38](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/event/Listener.ts#L38)
 
 ###### Parameters
 
@@ -146,9 +169,13 @@ Defined in: [event/Listener.ts:30](https://github.com/Orb-Workshop/scriptedeuch/
 
 > **ReceiveMessage**(`tag`, `data`): `void`
 
-Defined in: [event/Listener.ts:21](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/event/Listener.ts#L21)
+Defined in: [event/Listener.ts:30](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/event/Listener.ts#L30)
 
-Override Interface Method. React to messages sent by other actors in the actor pool.
+Override Interface Method. React to messages sent by other
+actors in the actor pool.
+
+Note: `Event.Listener` and `Event.Sender` with tags are
+preferred over this method.
 
 ###### Parameters
 
@@ -169,7 +196,7 @@ Override Interface Method. React to messages sent by other actors in the actor p
 
 > **Remove**(): `void`
 
-Defined in: [base/Actor.ts:63](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/Actor.ts#L63)
+Defined in: [base/Actor.ts:64](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/Actor.ts#L64)
 
 Same as `this.MakeDirty()`.
 
@@ -229,7 +256,7 @@ Set the Tick Interval of the system. Expressed in Seconds.
 
 > **Think**(): `void`
 
-Defined in: [base/Actor.ts:104](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/Actor.ts#L104)
+Defined in: [base/Actor.ts:110](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/Actor.ts#L110)
 
 Override Method. Is called at the `think_interval`.
 
