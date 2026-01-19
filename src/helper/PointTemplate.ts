@@ -9,10 +9,12 @@ import {
 } from "cs_script/point_script";
 import { default as EntityHelper, MaybeEntity } from "./EntityHelper";
 
+const CLASSNAME = "point_template";
+
 export default class PointTemplate extends EntityHelper {
     constructor(entity: Entity) {
         super(entity);
-        if (entity.GetClassName() !== "point_template")
+        if (entity.GetClassName() !== CLASSNAME)
             throw new Error(`PointTemplate - Classname Error: ${this?.entity?.GetClassName()}`);
     }
 
@@ -22,15 +24,19 @@ export default class PointTemplate extends EntityHelper {
 
     abstract public static Find<T = PointTemplate>(r: RegExp | string): T | null {
         // Overload with each entity helper
-        return EntityHelper.FindByClass<PointTemplate>("point_template", r);
+        return EntityHelper.FindByClass<PointTemplate>(CLASSNAME, r);
+    }
+
+    public static FindAll<T = PointTemplate>(r: RegExp | string): Array<T> {
+        return EntityHelper.FindAllByClass<PointTemplate>(CLASSNAME, r);
     }
     
     //
     // Adapters for PointTemplate
     // @see: https://www.source2.wiki/Scripting/Counter-Strike%202/cs_script/functionList?game=any#pointtemplate
 
-    public ForceSpawn(origin?: VectorType, rotation?: QAngleType): Entity[] | undefined {
-        return this.entity.ForceSpawn(origin, rotation);
+    public ForceSpawn(origin?: VectorType, rotation?: QAngleType): Entity[] {
+        return this.entity.ForceSpawn(origin, rotation) ?? [];
     }
     
 }

@@ -158,8 +158,8 @@ CSS.OnScriptInput("Explosion", ({ activator, caller }) => {
 });
 
 try {
-    const e = Helper.EntityHelper.FindByClass("env_fade", "scriptedeuch.env_fade");
-    CSS.Msg("EntityHelper --> " + e.GetClassName());
+    const e = Helper.EnvironmentFade.Find("scriptedeuch.env_fade");
+    CSS.Msg("EnvironmentFade --> " + e.GetClassName());
 }
 catch(e) {
     CSS.Msg("Error: " + e.toString());
@@ -169,3 +169,4 @@ catch(e) {
 // Listing off what's running
 CSS.Msg("Systems: " + Mount.List().join(", "))
 Mount.Start(); // go
+

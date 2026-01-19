@@ -9,7 +9,7 @@ import {
 } from "cs_script/point_script";
 import { default as EntityHelper, MaybeEntity } from "./EntityHelper";
 
-const CLASSNAME = "env_fade";
+export const CLASSNAME = "env_fade";
 
 export default class EnvironmentFade extends EntityHelper {
     constructor(entity: Entity) {
@@ -23,12 +23,12 @@ export default class EnvironmentFade extends EntityHelper {
     }
 
    
-    abstract public static Find(r: RegExp | string): EnvironmentFade | null {
+    public static Find(r: RegExp | string): EnvironmentFade | null {
         // Overload with each entity helper
         return EntityHelper.FindByClass<EnvironmentFade>(CLASSNAME, r);
     }
 
-    abstract public static FindAll<T = EnvironmentFade>(r: RegExp | string): Array<T> {
+    public static FindAll<EnvironmentFade>(r: RegExp | string): Array<EnvironmentFade> {
         return EntityHelper.FindByClass<EnvironmentFade>(CLASSNAME, r);
     }
     
@@ -36,3 +36,4 @@ export default class EnvironmentFade extends EntityHelper {
         this.FireEvent({input: "Fade", ...opts});
     }
 }
+

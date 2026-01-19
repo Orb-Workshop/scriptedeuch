@@ -8,18 +8,25 @@ import {
 } from "cs_script/point_script";
 import { default as EntityHelper, MaybeEntity } from "./EntityHelper";
 
+export const CLASSNAME = "basemodelentity";
+
 export default class BaseModelEntity extends EntityHelper {
     constructor(entity: Entity) {
         super(entity);
     }
 
     public static From<T = BaseModelEntity>(e: MaybeEntity): T | null {
-        return EntityHelper.From<T>(e);
+        return EntityHelper.From<BaseModelEntity>(e, CLASSNAME);
     }
 
-    abstract public static Find<T = BaseModelEntity>(r: RegExp | string): T | null {
+    public static Find<T = BaseModelEntity>(r: RegExp | string): T | null {
         // Overload with each entity helper
-        return EntityHelper.FindByClass<BaseModelEntity>("basemodelentity", r);
+        return EntityHelper.FindByClass<BaseModelEntity>(CLASSNAME, r);
+    }
+
+    public static FindAll<T = BaseModelEntity>(r: RegExp | string): T | null {
+        // Overload with each entity helper
+        return EntityHelper.FindAllByClass<BaseModelEntity>(CLASSNAME, r);
     }
     
     //
@@ -27,22 +34,22 @@ export default class BaseModelEntity extends EntityHelper {
     // @see: https://www.source2.wiki/Scripting/Counter-Strike%202/cs_script/functionList?game=any#basemodelentity
     
     public SetModel(s: string): void {
-        this.entity.SetModel(s);
+        this.raw.SetModel(s);
     }
 
     public SetModelScale(s: number): void {
-        this.entity.SetModelScale(s);
+        this.raw.SetModelScale(s);
     }
 
     public SetColor(c: ColorType): void {
-        this.entity.SetColor(c);
+        this.raw.SetColor(c);
     }
 
     public Glow(color?: Color): void {
-        this.entity.Glow(color);
+        this.raw.Glow(color);
     }
 
     public Unglow(): void {
-        this.entity.Unglow();
+        this.raw.Unglow();
     }
 }

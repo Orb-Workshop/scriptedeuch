@@ -10,7 +10,7 @@ import {
 import { default as EntityHelper, MaybeEntity } from "./EntityHelper";
 
 /** The cs2 entity we're adapting to */
-const CLASSNAME: string = "point_soundevent";
+export const CLASSNAME: string = "point_soundevent";
 
 export default class PointSoundEvent extends EntityHelper {
     constructor(entity: Entity) {
@@ -23,13 +23,13 @@ export default class PointSoundEvent extends EntityHelper {
         return EntityHelper.From<PointSoundEvent>(e, CLASSNAME);
     }
    
-    abstract public static Find(r: RegExp | string): PointSoundEvent | null {
+    public static Find(r: RegExp | string): PointSoundEvent | null {
         // Overload with each entity helper
         return EntityHelper.FindByClass<PointSoundEvent>(CLASSNAME, r);
     }
 
-    abstract public static FindAll<T = PointSoundEvent>(r: RegExp | string): Array<T> {
-        return EntityHelper.FindByClass<PointSoundEvent>(CLASSNAME, r);
+    public static FindAll<T = PointSoundEvent>(r: RegExp | string): Array<T> {
+        return EntityHelper.FindAllByClass<PointSoundEvent>(CLASSNAME, r);
     }
     
     SetSoundEventName(soundevent_name: string, opts): void {

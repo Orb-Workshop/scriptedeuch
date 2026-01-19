@@ -7,7 +7,7 @@ import {
     ConnectOutputCallback,
 } from "./EntityHelper";
 
-const CLASSNAME = "trigger_multiple";
+export const CLASSNAME = "trigger_multiple";
 
 /* 
    An adapter class for 'trigger_multiple' entities
@@ -21,12 +21,12 @@ export default class TriggerMultiple extends EntityHelper {
         return EntityHelper.From<TriggerMultiple>(e);
     }
 
-    abstract public static Find<T = TriggerMultiple>(r: RegExp | string): T | null {
+    public static Find<T = TriggerMultiple>(r: RegExp | string): T | null {
         return EntityHelper.FindByClass<TriggerMultiple>(CLASSNAME, r);
     }
 
-    abstract public static FindAll<T = TriggerMultiple>(r: RegExp | string): Array<T> {
-        return EntityHelper.FindByClass<TriggerMultiple>(CLASSNAME, r);
+    public static FindAll<T = TriggerMultiple>(r: RegExp | string): Array<T> {
+        return EntityHelper.FindAllByClass<TriggerMultiple>(CLASSNAME, r);
     }
     
     OnStartTouch(callback: ConnectOutputCallback): TriggerMultiple {

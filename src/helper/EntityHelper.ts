@@ -26,6 +26,16 @@ export default abstract class EntityHelper {
         this.entity = entity;
     }
 
+    abstract public static Find<T = EntityHelper>(r: RegExp | string): T | null {
+        // Overload with each inherited entity helper by classname
+        // uses EntityHelper.FindByClass
+    }
+
+    abstract public static FindAll<T= EntityHelper>(r: RegExp | string): Array<T> {
+        // Overload with each inherited entity helper by classname
+        // uses EntityHelper.FindAllByClass
+    }
+    
     public static From<T = EntityHelper>(e: MaybeEntity, check_class?: string): T | null {
         if (e === undefined || e === null || !(e?.IsValid())) return null;
         const classname = e.GetClassName();
@@ -44,16 +54,6 @@ export default abstract class EntityHelper {
     public static FindAllByClass<T = EntityHelper>(classname: string, r: RegExp | string): Array<T> {
         const entities = Base.Asset.FindAllByClass(classname, r);
         return entities.map(e => EntityHelper.From<T>(e));
-    }
-    
-    abstract public static Find<T = EntityHelper>(r: RegExp | string): T | null {
-        // Overload with each inherited entity helper by classname
-        // uses EntityHelper.FindByClass
-    }
-
-    abstract public static FindAll<T= EntityHelper>(r: RegExp | string): Array<T> {
-        // Overload with each inherited entity helper by classname
-        // uses EntityHelper.FindAllByClass
     }
     
     public get raw(): Entity { return this.entity }
@@ -208,7 +208,7 @@ export default abstract class EntityHelper {
         return this.raw.GetGroundEntity();
     }
 
-    public TakeDamage({ damage, inflictor, attacker, weapon, ...opts}): number {
+    public TakeDamage({ damage, inflictor, attacker, weapon, ...opts }): number {
         return this.raw.TakeDamage({ damage, inflictor, attacker, weapon, ...opts });
     }
 
