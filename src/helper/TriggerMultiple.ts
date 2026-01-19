@@ -13,19 +13,28 @@ export default class TriggerMultiple extends EntityHelper {
         super(entity);
     }
 
-    HandleStartTouch(callback): number {
-        return CSS.ConnectOutput(this.raw, "OnStartTouch", callback)
+    public static From<T = TriggerMultiple>(e: MaybeEntity): T | null {
+        return EntityHelper.From<T>(e);
     }
 
-    HandleStartTouchAll(callback): number {
-        return CSS.ConnectOutput(this.raw, "OnStartTouchAll", callback);
-    }
-
-    HandleEndTouch(callback): number {
-        return CSS.ConnectOutput(this.raw, "OnEndTouch", callback);
+    abstract public static Find<T = TriggerMultiple>(r: RegExp | string): T | null {
+        // Overload with each entity helper
+        return EntityHelper.FindByClass<TriggerMultiple>("trigger_multiple", r);
     }
     
-    HandleEndTouchAll(callback): number {
-        return CSS.ConnectOutput(this.raw, "OnEndTouchAll", callback);
+    OnStartTouch(callback): TriggerMultiple {
+        return this.ConnectOutput<TriggerMultiple>("OnStartTouch", callback)
+    }
+
+    OnStartTouchAll(callback): TriggerMultiple {
+        return this.ConnectOutput<TriggerMultiple>("OnStartTouchAll", callback);
+    }
+
+    OnEndTouch(callback): TriggerMultiple {
+        return this.ConnectOutput<TriggerMultiple>("OnEndTouch", callback);
+    }
+    
+    OnEndTouchAll(callback): TriggerMultiple {
+        return this.ConnectOutput<TriggerMultiple>("OnEndTouchAll", callback);
     }
 }

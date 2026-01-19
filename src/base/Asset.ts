@@ -1,7 +1,11 @@
 /**
    Asset discovery, particularly point_template entities.
 */
-import { Instance as CSS, PointTemplate } from "cs_script/point_script";
+import {
+    Instance as CSS,
+    PointTemplate,
+    Entity,
+} from "cs_script/point_script";
 import { Memoize } from "../util";
 
 /** 
@@ -12,19 +16,20 @@ import { Memoize } from "../util";
 
     @see [Entity List](https://cs2.poggu.me/dumped-data/entity-list)
  */
-export function FindByClass(classname: string, r: RegExp | string): PointTemplate | undefined {
+export function FindByClass(classname: string, r: RegExp | string): Entity | null {
     const entities = CSS.FindEntitiesByClass(classname);
     if (typeof r == "string")
-        return entities.find(entity => entity.GetEntityName().includes(r));
+        return entities.find(entity => entity.GetEntityName().includes(r)) ?? null;
     else if (r.constructor.name === "RegExp")
-        return entities.find(entity => r.test(entity.GetEntityName()));
+        return entities.find(entity => r.test(entity.GetEntityName())) ?? null;
     else
         throw new Error("Unknown pattern type: " + typeof r);
 }
 
 /** Find a 'point_template' entity partially matching `r`. */
-export function FindTemplate(r: RegExp | string): PointTemplate | undefined {
+export function FindTemplate(r: RegExp | string): PointTemplate | null {
     return FindByClass("point_template", r)
 }
 //export const FindTemplate = Memoize(_FindTemplate);
+
 
