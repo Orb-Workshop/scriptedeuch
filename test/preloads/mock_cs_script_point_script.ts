@@ -1,6 +1,4 @@
 import { mock } from "bun:test";
-//import Entity from "./MockEntity";
-//import PointTemplate from "./MockPointTemplate";
 
 class Entity {
     GetClassName = mock(() => "classname_test");

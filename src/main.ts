@@ -91,11 +91,10 @@ let TimedEvent2 = new ThinkTask((inst) => {
 //});
 
 try {
-    CSS.Msg(JSON.stringify(Event));
-    new Event.Listener("Echo").On("echo", (msg) => CSS.Msg(`Echo Message: ${msg}`));
-    const sender = new Event.Sender("Echo");
-    const echo = (msg) => sender.Send("echo", msg);
-    echo("Hello World!");
+    //new Event.Listener("Echo").On("echo", (msg) => CSS.Msg(`Echo Message: ${msg}`));
+    //const sender = new Event.Sender("Echo");
+    //const echo = (msg) => sender.Send("echo", msg);
+    //echo("Hello World!");
 } catch(e) {
     CSS.Msg(`Error Events: ${e.toString()}`);
 }
@@ -104,6 +103,7 @@ try {
 let StopProjectiles = new ThinkTask(() => {
     ThinkTask.SendMessage("KillAll");
 }, 10);
+
 
 
 class GlockShot extends Base.System {
@@ -158,10 +158,12 @@ CSS.OnScriptInput("Explosion", ({ activator, caller }) => {
 });
 
 try {
-    const fade = Helper.EnvironmentFade.Find("scriptedeuch.env_fade");
-    const button = Helper.FuncButton.Find("scriptedeuch.fade_button");
-    button.OnPressed(() => fade.Fade());
-    CSS.Msg("EnvironmentFade --> " + fade.GetClassName());
+    Event.OnRoundStart(() => {
+        const fade = Helper.EnvironmentFade.Find("scriptedeuch.env_fade");
+        const button = Helper.FuncButton.Find("scriptedeuch.fade_button");
+        button.OnPressed(() => fade.Fade());
+        CSS.Msg("EnvironmentFade --> " + fade.GetClassName());
+    });
 }
 catch(e) {
     CSS.Msg("Error: " + e.toString());

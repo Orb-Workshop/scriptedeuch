@@ -38,3 +38,4 @@ export default class EnvironmentFade extends EntityHelper {
         this.FireEvent({ input: "Fade", ...opts });
     }
 }
+

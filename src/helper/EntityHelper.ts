@@ -82,7 +82,9 @@ export default abstract class EntityHelper {
             CSS.ConnectOutput(this.raw, event_name, callback));
     }
 
-    /** Represents EventListening of IO entities with `this.ConnectOutput` */
+    /** Represents EventListening of IO entities with `this.ConnectOutput`
+        
+     */
     public On(event_name: string, callback: ConnectOutputCallback): EntityHelper {
         this.ConnectOutput(event_name, callback);
         return this;

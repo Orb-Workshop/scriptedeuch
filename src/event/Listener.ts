@@ -6,7 +6,7 @@
 import { Instance as CSS } from "cs_script/point_script";
 import * as Base from "../base";
 
-type Callback = (any) => void;
+export type Callback = (any) => void;
 
 /** Similar to Base.MessageTask, except it processes an event structure. */
 export default class Listener extends Base.Actor {
