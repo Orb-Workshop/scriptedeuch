@@ -10,7 +10,15 @@ import * as Base from "../base";
 import * as SEMath from "../math";
 
 
+interface ConnectOutputEvent {
+    input?: any;
+    caller?: Entity;
+    activator?: Entity;
+}
+export type ConnectOutputCallback = (event: ConnectOutputEvent) => void;
 export type MaybeEntity = Entity | undefined | null;
+
+
 export default abstract class EntityHelper {
     private connection_ids: Array<number> = [];
     private entity: Entity;
@@ -18,8 +26,13 @@ export default abstract class EntityHelper {
         this.entity = entity;
     }
 
-    public static From<T = EntityHelper>(e: MaybeEntity): EntityHelper | null {
+    public static From<T = EntityHelper>(e: MaybeEntity, check_class?: string): T | null {
         if (e === undefined || e === null || !(e?.IsValid())) return null;
+        const classname = e.GetClassName();
+        if (check_class !== undefined && check_class !== classname) {
+            throw new Error(
+                `EntityHelper classname check failed. Expected(${check_class}) - Actual(${classname})`);
+        }
         return new EntityHelper(e) as T;
     }
     
@@ -28,8 +41,19 @@ export default abstract class EntityHelper {
         return EntityHelper.From<T>(entity);
     }
 
+    public static FindAllByClass<T = EntityHelper>(classname: string, r: RegExp | string): Array<T> {
+        const entities = Base.Asset.FindAllByClass(classname, r);
+        return entities.map(e => EntityHelper.From<T>(e));
+    }
+    
     abstract public static Find<T = EntityHelper>(r: RegExp | string): T | null {
         // Overload with each inherited entity helper by classname
+        // uses EntityHelper.FindByClass
+    }
+
+    abstract public static FindAll<T= EntityHelper>(r: RegExp | string): Array<T> {
+        // Overload with each inherited entity helper by classname
+        // uses EntityHelper.FindAllByClass
     }
     
     public get raw(): Entity { return this.entity }
@@ -43,10 +67,31 @@ export default abstract class EntityHelper {
         CSS.FireAtTarget(opts);
     }
 
+    public FireUser1(opts = {}): void {
+        this.FireEvent({input: "FireUser1", ...opts});
+    }
+    
+    public FireUser2(opts = {}): void {
+        this.FireEvent({input: "FireUser2", ...opts});
+    }
+    
+    public FireUser3(opts = {}): void {
+        this.FireEvent({input: "FireUser3", ...opts});
+    }
+    
+    public FireUser4(opts = {}): void {
+        this.FireEvent({input: "FireUser4", ...opts});
+    }
+    
     // TODO: Maybe handle connection ids on disposal?
-    public ConnectOutput<T = EntityHelper>(event_name, callback: (event) => void): T {
+    public ConnectOutput(event_name: string, callback: ConnectOutputCallback): void {
         this.connection_ids.push(
             CSS.ConnectOutput(this.raw, event_name, callback));
+    }
+
+    /** Represents EventListening of IO entities with `this.ConnectOutput` */
+    public On<T = EntityHelper>(event_name: string, callback: ConnectOutputCallback): T {
+        this.ConnectOutput(event_name, callback);
         return this;
     }
     

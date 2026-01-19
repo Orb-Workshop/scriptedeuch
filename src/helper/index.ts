@@ -4,4 +4,4 @@ export { default as BaseModelEntity } from "./BaseModelEntity";
 export { default as PointTemplate } from "./PointTemplate";
 export { default as PointSoundEvent } from "./PointSoundEvent";
 export { default as MoveableSoundEvent } from "./MoveableSoundEvent";
-
+export { default as EnvironmentFade } from "./EnvironmentFade";
