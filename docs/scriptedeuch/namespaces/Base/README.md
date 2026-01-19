@@ -28,6 +28,7 @@ Defined in: [base/Actor.ts:14](https://github.com/Orb-Workshop/scriptedeuch/blob
 - [`Projectile`](../Actor.md#projectile)
 - [`PlayerInvincibility`](../Actor.md#playerinvincibility)
 - [`Explosion`](../Actor.md#explosion)
+- [`Listener`](../Event.md#listener)
 
 #### Implements
 
