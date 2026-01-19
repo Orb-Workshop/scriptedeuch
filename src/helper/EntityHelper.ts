@@ -22,8 +22,8 @@ export type MaybeEntity = Entity | undefined | null;
 export default abstract class EntityHelper {
     private connection_ids: Array<number> = [];
     private entity: Entity;
-    constructor(entity: Entity) {
-        this.entity = entity;
+    constructor(entity: Entity | EntityHelper) {
+        this.entity = entity?.raw || entity;
     }
 
     abstract public static Find<T = EntityHelper>(r: RegExp | string): T | null {

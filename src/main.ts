@@ -158,11 +158,10 @@ CSS.OnScriptInput("Explosion", ({ activator, caller }) => {
 });
 
 try {
-    const e = Helper.EnvironmentFade.Find("scriptedeuch.env_fade");
-    const b = Helper.FuncButton.Find("scriptedeuch.fade_button");
-    if (!b) {CSS.Msg("Did not find");}
-    b.OnPressed(() => e.Fade());
-    CSS.Msg("EnvironmentFade --> " + e.GetClassName());
+    const fade = Helper.EnvironmentFade.Find("scriptedeuch.env_fade");
+    const button = Helper.FuncButton.Find("scriptedeuch.fade_button");
+    button.OnPressed(() => fade.Fade());
+    CSS.Msg("EnvironmentFade --> " + fade.GetClassName());
 }
 catch(e) {
     CSS.Msg("Error: " + e.toString());
