@@ -22,17 +22,16 @@ export default class EnvironmentFade extends EntityHelper {
         return EntityHelper.From<EnvironmentFade>(e, CLASSNAME);
     }
 
-   
     public static Find(r: RegExp | string): EnvironmentFade | null {
         // Overload with each entity helper
-        return EntityHelper.FindByClass<EnvironmentFade>(CLASSNAME, r);
+        return EntityHelper.FindByClass<EnvironmentFade>(CLASSNAME, r) as EnvironmentFade;
     }
 
     public static FindAll<EnvironmentFade>(r: RegExp | string): Array<EnvironmentFade> {
         return EntityHelper.FindByClass<EnvironmentFade>(CLASSNAME, r);
     }
     
-    Fade(opts = {}): void {
+    public Fade(opts = {}): void {
         this.FireEvent({ input: "Fade", ...opts });
     }
 }

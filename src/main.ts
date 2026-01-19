@@ -159,6 +159,9 @@ CSS.OnScriptInput("Explosion", ({ activator, caller }) => {
 
 try {
     const e = Helper.EnvironmentFade.Find("scriptedeuch.env_fade");
+    const b = Helper.FuncButton.Find("scriptedeuch.fade_button");
+    if (!b) {CSS.Msg("Did not find");}
+    //b.OnPressed(() => e.Fade());
     CSS.Msg("EnvironmentFade --> " + e.GetClassName());
 }
 catch(e) {

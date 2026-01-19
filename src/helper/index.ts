@@ -5,4 +5,5 @@ export { default as PointTemplate } from "./PointTemplate";
 export { default as PointSoundEvent } from "./PointSoundEvent";
 export { default as MoveableSoundEvent } from "./MoveableSoundEvent";
 export { default as EnvironmentFade } from "./EnvironmentFade";
+export { default as FuncButton } from "./FuncButton";
 export { default as Color } from "./Color";

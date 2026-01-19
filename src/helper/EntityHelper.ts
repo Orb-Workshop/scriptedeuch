@@ -48,12 +48,12 @@ export default abstract class EntityHelper {
     
     public static FindByClass<T = EntityHelper>(classname: string, r: RegExp | string): T | null {
         const entity = Base.Asset.FindByClass(classname, r);
-        return EntityHelper.From<T>(entity);
+        return EntityHelper.From<T>(entity, classname) as T;
     }
 
     public static FindAllByClass<T = EntityHelper>(classname: string, r: RegExp | string): Array<T> {
         const entities = Base.Asset.FindAllByClass(classname, r);
-        return entities.map(e => EntityHelper.From<T>(e));
+        return entities.map(e => EntityHelper.From<T>(e) as T);
     }
     
     public get raw(): Entity { return this.entity }
@@ -92,7 +92,7 @@ export default abstract class EntityHelper {
     /** Represents EventListening of IO entities with `this.ConnectOutput` */
     public On<T = EntityHelper>(event_name: string, callback: ConnectOutputCallback): T {
         this.ConnectOutput(event_name, callback);
-        return this;
+        return this as T;
     }
     
     //
