@@ -12,7 +12,7 @@ Entity Helper Library
 
 ### BaseModelEntity
 
-Defined in: [helper/BaseModelEntity.ts:11](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L11)
+Defined in: [helper/BaseModelEntity.ts:13](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L13)
 
 #### Extends
 
@@ -24,7 +24,7 @@ Defined in: [helper/BaseModelEntity.ts:11](https://github.com/Orb-Workshop/scrip
 
 > **new BaseModelEntity**(`entity`): [`BaseModelEntity`](#basemodelentity)
 
-Defined in: [helper/BaseModelEntity.ts:12](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L12)
+Defined in: [helper/BaseModelEntity.ts:14](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L14)
 
 ###### Parameters
 
@@ -38,7 +38,7 @@ Defined in: [helper/BaseModelEntity.ts:12](https://github.com/Orb-Workshop/scrip
 
 ###### Overrides
 
-[`EntityHelper`](#entityhelper).[`constructor`](#constructor-1)
+[`EntityHelper`](#entityhelper).[`constructor`](#constructor-2)
 
 #### Accessors
 
@@ -409,7 +409,7 @@ Defined in: [helper/EntityHelper.ts:171](https://github.com/Orb-Workshop/scripte
 
 > **Glow**(`color?`): `void`
 
-Defined in: [helper/BaseModelEntity.ts:41](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L41)
+Defined in: [helper/BaseModelEntity.ts:48](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L48)
 
 ###### Parameters
 
@@ -524,7 +524,7 @@ Defined in: [helper/EntityHelper.ts:219](https://github.com/Orb-Workshop/scripte
 
 > **SetColor**(`c`): `void`
 
-Defined in: [helper/BaseModelEntity.ts:37](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L37)
+Defined in: [helper/BaseModelEntity.ts:44](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L44)
 
 ###### Parameters
 
@@ -600,7 +600,7 @@ Defined in: [helper/EntityHelper.ts:191](https://github.com/Orb-Workshop/scripte
 
 > **SetModel**(`s`): `void`
 
-Defined in: [helper/BaseModelEntity.ts:29](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L29)
+Defined in: [helper/BaseModelEntity.ts:36](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L36)
 
 ###### Parameters
 
@@ -616,7 +616,7 @@ Defined in: [helper/BaseModelEntity.ts:29](https://github.com/Orb-Workshop/scrip
 
 > **SetModelScale**(`s`): `void`
 
-Defined in: [helper/BaseModelEntity.ts:33](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L33)
+Defined in: [helper/BaseModelEntity.ts:40](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L40)
 
 ###### Parameters
 
@@ -719,7 +719,7 @@ Defined in: [helper/EntityHelper.ts:139](https://github.com/Orb-Workshop/scripte
 
 > **Unglow**(): `void`
 
-Defined in: [helper/BaseModelEntity.ts:45](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L45)
+Defined in: [helper/BaseModelEntity.ts:52](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L52)
 
 ###### Returns
 
@@ -727,9 +727,9 @@ Defined in: [helper/BaseModelEntity.ts:45](https://github.com/Orb-Workshop/scrip
 
 ##### Find()
 
-> `abstract` `static` **Find**\<`T`\>(`r`): `T` \| `null`
+> `static` **Find**\<`T`\>(`r`): `T` \| `null`
 
-Defined in: [helper/BaseModelEntity.ts:20](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L20)
+Defined in: [helper/BaseModelEntity.ts:22](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L22)
 
 ###### Type Parameters
 
@@ -753,15 +753,15 @@ Defined in: [helper/BaseModelEntity.ts:20](https://github.com/Orb-Workshop/scrip
 
 ##### FindAll()
 
-> `abstract` `static` **FindAll**\<`T`\>(`r`): `T`[]
+> `static` **FindAll**\<`T`\>(`r`): `T` \| `null`
 
-Defined in: [helper/EntityHelper.ts:54](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L54)
+Defined in: [helper/BaseModelEntity.ts:27](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L27)
 
 ###### Type Parameters
 
 | Type Parameter | Default type |
 | ------ | ------ |
-| `T` | [`EntityHelper`](#entityhelper) |
+| `T` | [`BaseModelEntity`](#basemodelentity) |
 
 ###### Parameters
 
@@ -771,9 +771,9 @@ Defined in: [helper/EntityHelper.ts:54](https://github.com/Orb-Workshop/scripted
 
 ###### Returns
 
-`T`[]
+`T` \| `null`
 
-###### Inherited from
+###### Overrides
 
 [`EntityHelper`](#entityhelper).[`FindAll`](#findall-2)
 
@@ -781,7 +781,7 @@ Defined in: [helper/EntityHelper.ts:54](https://github.com/Orb-Workshop/scripted
 
 > `static` **FindAllByClass**\<`T`\>(`classname`, `r`): `T`[]
 
-Defined in: [helper/EntityHelper.ts:44](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L44)
+Defined in: [helper/EntityHelper.ts:54](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L54)
 
 ###### Type Parameters
 
@@ -808,7 +808,7 @@ Defined in: [helper/EntityHelper.ts:44](https://github.com/Orb-Workshop/scripted
 
 > `static` **FindByClass**\<`T`\>(`classname`, `r`): `T` \| `null`
 
-Defined in: [helper/EntityHelper.ts:39](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L39)
+Defined in: [helper/EntityHelper.ts:49](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L49)
 
 ###### Type Parameters
 
@@ -835,7 +835,7 @@ Defined in: [helper/EntityHelper.ts:39](https://github.com/Orb-Workshop/scripted
 
 > `static` **From**\<`T`\>(`e`): `T` \| `null`
 
-Defined in: [helper/BaseModelEntity.ts:16](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L16)
+Defined in: [helper/BaseModelEntity.ts:18](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L18)
 
 ###### Type Parameters
 
@@ -855,7 +855,65 @@ Defined in: [helper/BaseModelEntity.ts:16](https://github.com/Orb-Workshop/scrip
 
 ###### Overrides
 
-[`EntityHelper`](#entityhelper).[`From`](#from-2)
+[`EntityHelper`](#entityhelper).[`From`](#from-4)
+
+***
+
+### Color
+
+Defined in: [helper/Color.ts:10](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/Color.ts#L10)
+
+#### Implements
+
+- `unknown`
+
+#### Constructors
+
+##### Constructor
+
+> **new Color**(`r`, `g`, `b`, `a`): [`Color`](#color)
+
+Defined in: [helper/Color.ts:15](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/Color.ts#L15)
+
+###### Parameters
+
+| Parameter | Type | Default value |
+| ------ | ------ | ------ |
+| `r` | `number` | `undefined` |
+| `g` | `number` | `undefined` |
+| `b` | `number` | `undefined` |
+| `a` | `number` | `MAX_VALUE` |
+
+###### Returns
+
+[`Color`](#color)
+
+#### Properties
+
+| Property | Modifier | Type | Defined in |
+| ------ | ------ | ------ | ------ |
+| <a id="a"></a> `a` | `public` | `number` | [helper/Color.ts:14](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/Color.ts#L14) |
+| <a id="b"></a> `b` | `public` | `number` | [helper/Color.ts:13](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/Color.ts#L13) |
+| <a id="g"></a> `g` | `public` | `number` | [helper/Color.ts:12](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/Color.ts#L12) |
+| <a id="r"></a> `r` | `public` | `number` | [helper/Color.ts:11](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/Color.ts#L11) |
+
+#### Methods
+
+##### From()
+
+> `static` **From**(`__namedParameters`): [`Color`](#color)
+
+Defined in: [helper/Color.ts:22](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/Color.ts#L22)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `__namedParameters` | `ColorType` |
+
+###### Returns
+
+[`Color`](#color)
 
 ***
 
@@ -1361,7 +1419,7 @@ Defined in: [helper/EntityHelper.ts:139](https://github.com/Orb-Workshop/scripte
 
 > `abstract` `static` **Find**\<`T`\>(`r`): `T` \| `null`
 
-Defined in: [helper/EntityHelper.ts:49](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L49)
+Defined in: [helper/EntityHelper.ts:29](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L29)
 
 ###### Type Parameters
 
@@ -1383,7 +1441,7 @@ Defined in: [helper/EntityHelper.ts:49](https://github.com/Orb-Workshop/scripted
 
 > `abstract` `static` **FindAll**\<`T`\>(`r`): `T`[]
 
-Defined in: [helper/EntityHelper.ts:54](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L54)
+Defined in: [helper/EntityHelper.ts:34](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L34)
 
 ###### Type Parameters
 
@@ -1405,7 +1463,7 @@ Defined in: [helper/EntityHelper.ts:54](https://github.com/Orb-Workshop/scripted
 
 > `static` **FindAllByClass**\<`T`\>(`classname`, `r`): `T`[]
 
-Defined in: [helper/EntityHelper.ts:44](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L44)
+Defined in: [helper/EntityHelper.ts:54](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L54)
 
 ###### Type Parameters
 
@@ -1428,7 +1486,7 @@ Defined in: [helper/EntityHelper.ts:44](https://github.com/Orb-Workshop/scripted
 
 > `static` **FindByClass**\<`T`\>(`classname`, `r`): `T` \| `null`
 
-Defined in: [helper/EntityHelper.ts:39](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L39)
+Defined in: [helper/EntityHelper.ts:49](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L49)
 
 ###### Type Parameters
 
@@ -1451,7 +1509,7 @@ Defined in: [helper/EntityHelper.ts:39](https://github.com/Orb-Workshop/scripted
 
 > `static` **From**\<`T`\>(`e`, `check_class?`): `T` \| `null`
 
-Defined in: [helper/EntityHelper.ts:29](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L29)
+Defined in: [helper/EntityHelper.ts:39](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L39)
 
 ###### Type Parameters
 
@@ -1500,7 +1558,7 @@ Defined in: [helper/EnvironmentFade.ts:15](https://github.com/Orb-Workshop/scrip
 
 ###### Overrides
 
-[`EntityHelper`](#entityhelper).[`constructor`](#constructor-1)
+[`EntityHelper`](#entityhelper).[`constructor`](#constructor-2)
 
 #### Accessors
 
@@ -2131,7 +2189,7 @@ Defined in: [helper/EntityHelper.ts:139](https://github.com/Orb-Workshop/scripte
 
 ##### Find()
 
-> `abstract` `static` **Find**(`r`): [`EnvironmentFade`](#environmentfade) \| `null`
+> `static` **Find**(`r`): [`EnvironmentFade`](#environmentfade) \| `null`
 
 Defined in: [helper/EnvironmentFade.ts:26](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EnvironmentFade.ts#L26)
 
@@ -2151,15 +2209,15 @@ Defined in: [helper/EnvironmentFade.ts:26](https://github.com/Orb-Workshop/scrip
 
 ##### FindAll()
 
-> `abstract` `static` **FindAll**\<`T`\>(`r`): `T`[]
+> `static` **FindAll**\<`EnvironmentFade`\>(`r`): `EnvironmentFade`[]
 
 Defined in: [helper/EnvironmentFade.ts:31](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EnvironmentFade.ts#L31)
 
 ###### Type Parameters
 
-| Type Parameter | Default type |
-| ------ | ------ |
-| `T` | [`EnvironmentFade`](#environmentfade) |
+| Type Parameter |
+| ------ |
+| `EnvironmentFade` |
 
 ###### Parameters
 
@@ -2169,7 +2227,7 @@ Defined in: [helper/EnvironmentFade.ts:31](https://github.com/Orb-Workshop/scrip
 
 ###### Returns
 
-`T`[]
+`EnvironmentFade`[]
 
 ###### Overrides
 
@@ -2179,7 +2237,7 @@ Defined in: [helper/EnvironmentFade.ts:31](https://github.com/Orb-Workshop/scrip
 
 > `static` **FindAllByClass**\<`T`\>(`classname`, `r`): `T`[]
 
-Defined in: [helper/EntityHelper.ts:44](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L44)
+Defined in: [helper/EntityHelper.ts:54](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L54)
 
 ###### Type Parameters
 
@@ -2206,7 +2264,7 @@ Defined in: [helper/EntityHelper.ts:44](https://github.com/Orb-Workshop/scripted
 
 > `static` **FindByClass**\<`T`\>(`classname`, `r`): `T` \| `null`
 
-Defined in: [helper/EntityHelper.ts:39](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L39)
+Defined in: [helper/EntityHelper.ts:49](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L49)
 
 ###### Type Parameters
 
@@ -2247,7 +2305,7 @@ Defined in: [helper/EnvironmentFade.ts:21](https://github.com/Orb-Workshop/scrip
 
 ###### Overrides
 
-[`EntityHelper`](#entityhelper).[`From`](#from-2)
+[`EntityHelper`](#entityhelper).[`From`](#from-4)
 
 ***
 
@@ -2282,7 +2340,7 @@ Defined in: [helper/MoveableSoundEvent.ts:10](https://github.com/Orb-Workshop/sc
 
 ###### Overrides
 
-[`EntityHelper`](#entityhelper).[`constructor`](#constructor-1)
+[`EntityHelper`](#entityhelper).[`constructor`](#constructor-2)
 
 #### Accessors
 
@@ -2948,7 +3006,7 @@ Defined in: [helper/EntityHelper.ts:139](https://github.com/Orb-Workshop/scripte
 
 > `abstract` `static` **Find**\<`T`\>(`r`): `T` \| `null`
 
-Defined in: [helper/EntityHelper.ts:49](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L49)
+Defined in: [helper/EntityHelper.ts:29](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L29)
 
 ###### Type Parameters
 
@@ -2974,7 +3032,7 @@ Defined in: [helper/EntityHelper.ts:49](https://github.com/Orb-Workshop/scripted
 
 > `abstract` `static` **FindAll**\<`T`\>(`r`): `T`[]
 
-Defined in: [helper/EntityHelper.ts:54](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L54)
+Defined in: [helper/EntityHelper.ts:34](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L34)
 
 ###### Type Parameters
 
@@ -3000,7 +3058,7 @@ Defined in: [helper/EntityHelper.ts:54](https://github.com/Orb-Workshop/scripted
 
 > `static` **FindAllByClass**\<`T`\>(`classname`, `r`): `T`[]
 
-Defined in: [helper/EntityHelper.ts:44](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L44)
+Defined in: [helper/EntityHelper.ts:54](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L54)
 
 ###### Type Parameters
 
@@ -3027,7 +3085,7 @@ Defined in: [helper/EntityHelper.ts:44](https://github.com/Orb-Workshop/scripted
 
 > `static` **FindByClass**\<`T`\>(`classname`, `r`): `T` \| `null`
 
-Defined in: [helper/EntityHelper.ts:39](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L39)
+Defined in: [helper/EntityHelper.ts:49](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L49)
 
 ###### Type Parameters
 
@@ -3054,7 +3112,7 @@ Defined in: [helper/EntityHelper.ts:39](https://github.com/Orb-Workshop/scripted
 
 > `static` **From**\<`T`\>(`e`, `check_class?`): `T` \| `null`
 
-Defined in: [helper/EntityHelper.ts:29](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L29)
+Defined in: [helper/EntityHelper.ts:39](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L39)
 
 ###### Type Parameters
 
@@ -3075,7 +3133,7 @@ Defined in: [helper/EntityHelper.ts:29](https://github.com/Orb-Workshop/scripted
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`From`](#from-2)
+[`EntityHelper`](#entityhelper).[`From`](#from-4)
 
 ##### Spawn()
 
@@ -3124,7 +3182,7 @@ Defined in: [helper/PointSoundEvent.ts:16](https://github.com/Orb-Workshop/scrip
 
 ###### Overrides
 
-[`EntityHelper`](#entityhelper).[`constructor`](#constructor-1)
+[`EntityHelper`](#entityhelper).[`constructor`](#constructor-2)
 
 #### Accessors
 
@@ -3788,7 +3846,7 @@ Defined in: [helper/EntityHelper.ts:139](https://github.com/Orb-Workshop/scripte
 
 ##### Find()
 
-> `abstract` `static` **Find**(`r`): [`PointSoundEvent`](#pointsoundevent) \| `null`
+> `static` **Find**(`r`): [`PointSoundEvent`](#pointsoundevent) \| `null`
 
 Defined in: [helper/PointSoundEvent.ts:26](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PointSoundEvent.ts#L26)
 
@@ -3808,7 +3866,7 @@ Defined in: [helper/PointSoundEvent.ts:26](https://github.com/Orb-Workshop/scrip
 
 ##### FindAll()
 
-> `abstract` `static` **FindAll**\<`T`\>(`r`): `T`[]
+> `static` **FindAll**\<`T`\>(`r`): `T`[]
 
 Defined in: [helper/PointSoundEvent.ts:31](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PointSoundEvent.ts#L31)
 
@@ -3836,7 +3894,7 @@ Defined in: [helper/PointSoundEvent.ts:31](https://github.com/Orb-Workshop/scrip
 
 > `static` **FindAllByClass**\<`T`\>(`classname`, `r`): `T`[]
 
-Defined in: [helper/EntityHelper.ts:44](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L44)
+Defined in: [helper/EntityHelper.ts:54](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L54)
 
 ###### Type Parameters
 
@@ -3863,7 +3921,7 @@ Defined in: [helper/EntityHelper.ts:44](https://github.com/Orb-Workshop/scripted
 
 > `static` **FindByClass**\<`T`\>(`classname`, `r`): `T` \| `null`
 
-Defined in: [helper/EntityHelper.ts:39](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L39)
+Defined in: [helper/EntityHelper.ts:49](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L49)
 
 ###### Type Parameters
 
@@ -3904,13 +3962,13 @@ Defined in: [helper/PointSoundEvent.ts:22](https://github.com/Orb-Workshop/scrip
 
 ###### Overrides
 
-[`EntityHelper`](#entityhelper).[`From`](#from-2)
+[`EntityHelper`](#entityhelper).[`From`](#from-4)
 
 ***
 
 ### PointTemplate
 
-Defined in: [helper/PointTemplate.ts:12](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PointTemplate.ts#L12)
+Defined in: [helper/PointTemplate.ts:14](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PointTemplate.ts#L14)
 
 #### Extends
 
@@ -3922,7 +3980,7 @@ Defined in: [helper/PointTemplate.ts:12](https://github.com/Orb-Workshop/scripte
 
 > **new PointTemplate**(`entity`): [`PointTemplate`](#pointtemplate)
 
-Defined in: [helper/PointTemplate.ts:13](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PointTemplate.ts#L13)
+Defined in: [helper/PointTemplate.ts:15](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PointTemplate.ts#L15)
 
 ###### Parameters
 
@@ -3936,7 +3994,7 @@ Defined in: [helper/PointTemplate.ts:13](https://github.com/Orb-Workshop/scripte
 
 ###### Overrides
 
-[`EntityHelper`](#entityhelper).[`constructor`](#constructor-1)
+[`EntityHelper`](#entityhelper).[`constructor`](#constructor-2)
 
 #### Accessors
 
@@ -4081,9 +4139,9 @@ Defined in: [helper/EntityHelper.ts:82](https://github.com/Orb-Workshop/scripted
 
 ##### ForceSpawn()
 
-> **ForceSpawn**(`origin?`, `rotation?`): `Entity`[] \| `undefined`
+> **ForceSpawn**(`origin?`, `rotation?`): `Entity`[]
 
-Defined in: [helper/PointTemplate.ts:32](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PointTemplate.ts#L32)
+Defined in: [helper/PointTemplate.ts:38](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PointTemplate.ts#L38)
 
 ###### Parameters
 
@@ -4094,7 +4152,7 @@ Defined in: [helper/PointTemplate.ts:32](https://github.com/Orb-Workshop/scripte
 
 ###### Returns
 
-`Entity`[] \| `undefined`
+`Entity`[]
 
 ##### GetAbsAngles()
 
@@ -4570,7 +4628,7 @@ Defined in: [helper/EntityHelper.ts:139](https://github.com/Orb-Workshop/scripte
 
 > `abstract` `static` **Find**\<`T`\>(`r`): `T` \| `null`
 
-Defined in: [helper/PointTemplate.ts:23](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PointTemplate.ts#L23)
+Defined in: [helper/PointTemplate.ts:25](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PointTemplate.ts#L25)
 
 ###### Type Parameters
 
@@ -4594,15 +4652,15 @@ Defined in: [helper/PointTemplate.ts:23](https://github.com/Orb-Workshop/scripte
 
 ##### FindAll()
 
-> `abstract` `static` **FindAll**\<`T`\>(`r`): `T`[]
+> `static` **FindAll**\<`T`\>(`r`): `T`[]
 
-Defined in: [helper/EntityHelper.ts:54](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L54)
+Defined in: [helper/PointTemplate.ts:30](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PointTemplate.ts#L30)
 
 ###### Type Parameters
 
 | Type Parameter | Default type |
 | ------ | ------ |
-| `T` | [`EntityHelper`](#entityhelper) |
+| `T` | [`PointTemplate`](#pointtemplate) |
 
 ###### Parameters
 
@@ -4614,7 +4672,7 @@ Defined in: [helper/EntityHelper.ts:54](https://github.com/Orb-Workshop/scripted
 
 `T`[]
 
-###### Inherited from
+###### Overrides
 
 [`EntityHelper`](#entityhelper).[`FindAll`](#findall-2)
 
@@ -4622,7 +4680,7 @@ Defined in: [helper/EntityHelper.ts:54](https://github.com/Orb-Workshop/scripted
 
 > `static` **FindAllByClass**\<`T`\>(`classname`, `r`): `T`[]
 
-Defined in: [helper/EntityHelper.ts:44](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L44)
+Defined in: [helper/EntityHelper.ts:54](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L54)
 
 ###### Type Parameters
 
@@ -4649,7 +4707,7 @@ Defined in: [helper/EntityHelper.ts:44](https://github.com/Orb-Workshop/scripted
 
 > `static` **FindByClass**\<`T`\>(`classname`, `r`): `T` \| `null`
 
-Defined in: [helper/EntityHelper.ts:39](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L39)
+Defined in: [helper/EntityHelper.ts:49](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L49)
 
 ###### Type Parameters
 
@@ -4676,7 +4734,7 @@ Defined in: [helper/EntityHelper.ts:39](https://github.com/Orb-Workshop/scripted
 
 > `static` **From**\<`T`\>(`e`): `T` \| `null`
 
-Defined in: [helper/PointTemplate.ts:19](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PointTemplate.ts#L19)
+Defined in: [helper/PointTemplate.ts:21](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PointTemplate.ts#L21)
 
 ###### Type Parameters
 
@@ -4696,7 +4754,7 @@ Defined in: [helper/PointTemplate.ts:19](https://github.com/Orb-Workshop/scripte
 
 ###### Overrides
 
-[`EntityHelper`](#entityhelper).[`From`](#from-2)
+[`EntityHelper`](#entityhelper).[`From`](#from-4)
 
 ***
 
@@ -4728,7 +4786,7 @@ Defined in: [helper/TriggerMultiple.ts:16](https://github.com/Orb-Workshop/scrip
 
 ###### Overrides
 
-[`EntityHelper`](#entityhelper).[`constructor`](#constructor-1)
+[`EntityHelper`](#entityhelper).[`constructor`](#constructor-2)
 
 #### Accessors
 
@@ -5407,7 +5465,7 @@ Defined in: [helper/EntityHelper.ts:139](https://github.com/Orb-Workshop/scripte
 
 ##### Find()
 
-> `abstract` `static` **Find**\<`T`\>(`r`): `T` \| `null`
+> `static` **Find**\<`T`\>(`r`): `T` \| `null`
 
 Defined in: [helper/TriggerMultiple.ts:24](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/TriggerMultiple.ts#L24)
 
@@ -5433,7 +5491,7 @@ Defined in: [helper/TriggerMultiple.ts:24](https://github.com/Orb-Workshop/scrip
 
 ##### FindAll()
 
-> `abstract` `static` **FindAll**\<`T`\>(`r`): `T`[]
+> `static` **FindAll**\<`T`\>(`r`): `T`[]
 
 Defined in: [helper/TriggerMultiple.ts:28](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/TriggerMultiple.ts#L28)
 
@@ -5461,7 +5519,7 @@ Defined in: [helper/TriggerMultiple.ts:28](https://github.com/Orb-Workshop/scrip
 
 > `static` **FindAllByClass**\<`T`\>(`classname`, `r`): `T`[]
 
-Defined in: [helper/EntityHelper.ts:44](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L44)
+Defined in: [helper/EntityHelper.ts:54](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L54)
 
 ###### Type Parameters
 
@@ -5488,7 +5546,7 @@ Defined in: [helper/EntityHelper.ts:44](https://github.com/Orb-Workshop/scripted
 
 > `static` **FindByClass**\<`T`\>(`classname`, `r`): `T` \| `null`
 
-Defined in: [helper/EntityHelper.ts:39](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L39)
+Defined in: [helper/EntityHelper.ts:49](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L49)
 
 ###### Type Parameters
 
@@ -5535,4 +5593,4 @@ Defined in: [helper/TriggerMultiple.ts:20](https://github.com/Orb-Workshop/scrip
 
 ###### Overrides
 
-[`EntityHelper`](#entityhelper).[`From`](#from-2)
+[`EntityHelper`](#entityhelper).[`From`](#from-4)
