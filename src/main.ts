@@ -157,38 +157,7 @@ CSS.OnScriptInput("Explosion", ({ activator, caller }) => {
     explosion.Remove();
 });
 
-class MoveableSoundEvent extends Helper.BaseModelEntity {
-    private sound_event: Helper.PointSoundEvent; // parented to empty prop_dynamic
-    constructor(empty_prop_dynamic_entity: Entity, sound_event_entity: Entity) {
-        super(empty_prop_dynamic_entity); // prop_dynamic
-        this.sound_event = new Helper.PointSoundEvent(sound_event_entity);
-    }
 
-    SetSoundEventName(soundevent_name: string, opts) {
-        this.sound_event.SetSoundEventName(soundevent_name, opts);
-    }
-    
-    StartSound(opts): void {
-        this.sound_event.StartSound(opts);
-    }
-
-    StopSound(opts): void {
-        this.sound_event.StopSound(opts);
-    }
-}
-
-class MoveableSoundEventSpawner extends Helper.PointTemplate {
-    private template = Helper.PointTemplate.Find(Base.Default.SOUND_EVENT_TEMPLATE);
-    constructor() {
-        super(this.template);
-    }
-
-    Spawn(position = Math.Vector3.Zero): MoveableSoundEvent {
-        const [empty_prop_dynamic_entity,
-               sound_event_entity] = this.ForceSpawn(position);
-        return new MoveableSoundEvent(empty_prop_dynamic_entity, sound_event_entity);
-    }
-}
 
 
 

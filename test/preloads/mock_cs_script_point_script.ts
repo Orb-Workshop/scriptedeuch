@@ -1,18 +1,26 @@
 import { mock } from "bun:test";
+//import Entity from "./MockEntity";
+//import PointTemplate from "./MockPointTemplate";
+
+class Entity {
+    GetClassName = mock(() => "classname_test");
+}
+
+class PointTemplate {
+    ForceSpawn = mock((...args) => [new Entity(), new Entity()]);
+}
 
 mock.module("cs_script/point_script", () => {
     return {
         Instance: {
-            Msg: (msg) => console.log(msg),
-            GetGameTime: _ => 0,
-            FindEntitiesByClass: mock((s) => []),
+            Msg: mock((msg) => console.log(msg)),
+            GetGameTime: mock(() => 0),
+            FindEntitiesByClass: mock(s => []),
         },
-        Entity: class Entity {},
+        Entity: Entity,
         CSPlayerPawn: class CSPlayerPawn {},
         CSPlayerController: class CSPlayerController {},
-        PointTemplate: class PointTemplate {
-            
-        },
+        PointTemplate: PointTemplate,
         CSGearSlot: class CSGearSlot {},
     };
 });
