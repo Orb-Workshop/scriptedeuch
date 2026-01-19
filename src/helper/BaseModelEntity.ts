@@ -6,27 +6,28 @@ import {
     Entity,
     Color as ColorType,
 } from "cs_script/point_script";
+import * as Util from "../util";
 import { default as EntityHelper, MaybeEntity } from "./EntityHelper";
 
-export const CLASSNAME = "basemodelentity";
 
+export const CLASSNAME = "basemodelentity";
 export default class BaseModelEntity extends EntityHelper {
     constructor(entity: Entity) {
         super(entity);
-        if (entity.GetClassName() !== CLASSNAME)
-            throw new Error(`BaseModelEntity - Classname Error: ${this?.entity?.GetClassName()}`);
     }
 
-    public static From<T = BaseModelEntity>(e: MaybeEntity): T | null {
-        return EntityHelper.From<BaseModelEntity>(e, CLASSNAME);
+    public static From(e: MaybeEntity): BaseModelEntity {
+        if (Util.CheckClass(e, CLASSNAME))
+            throw new Error(`BaseModelEntity - Classname Error: ${e?.GetClassName()}`);
+        return new BaseModelEntity(e);
     }
 
-    public static Find<T = BaseModelEntity>(r: RegExp | string): T | null {
-        // Overload with each entity helper
-        return EntityHelper.FindByClass<BaseModelEntity>(CLASSNAME, r);
+    public static Find(r: RegExp | string): BaseModelEntity {
+        const e = EntityHelper.FindByClass(CLASSNAME, r, true);
+        return new BaseModelEntity(e.raw);
     }
 
-    public static FindAll<T = BaseModelEntity>(r: RegExp | string): T | null {
+    public static FindAll(r: RegExp | string): T | null {
         // Overload with each entity helper
         return EntityHelper.FindAllByClass<BaseModelEntity>(CLASSNAME, r);
     }

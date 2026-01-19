@@ -8,7 +8,7 @@ import {
 } from "cs_script/point_script";
 import * as Base from "../base";
 import * as SEMath from "../math";
-
+import * as Util from "../util";
 
 interface ConnectOutputEvent {
     input?: any;
@@ -36,24 +36,17 @@ export default abstract class EntityHelper {
         // uses EntityHelper.FindAllByClass
     }
     
-    public static From<T = EntityHelper>(e: MaybeEntity, check_class?: string): T | null {
-        if (e === undefined || e === null || !(e?.IsValid())) return null;
-        const classname = e.GetClassName();
-        if (check_class !== undefined && check_class !== classname) {
-            throw new Error(
-                `EntityHelper classname check failed. Expected(${check_class}) - Actual(${classname})`);
-        }
-        return new EntityHelper(e) as T;
-    }
-    
-    public static FindByClass<T = EntityHelper>(classname: string, r: RegExp | string): T | null {
-        const entity = Base.Asset.FindByClass(classname, r);
-        return EntityHelper.From<T>(entity, classname) as T;
+    public static FindByClass(classname: string, r: RegExp | string, error = false): EntityHelper | null {
+        const e = Base.Asset.FindByClass(classname, r);
+        if (!e && error)
+            throw new Error(`Failed to find '${classname}' with search pattern '${r.toString()}'`);
+        else if (!e && !error) return null;
+        return new EntityHelper(e);
     }
 
-    public static FindAllByClass<T = EntityHelper>(classname: string, r: RegExp | string): Array<T> {
-        const entities = Base.Asset.FindAllByClass(classname, r);
-        return entities.map(e => EntityHelper.From<T>(e) as T);
+    public static FindAllByClass(classname: string, r: RegExp | string): Array<EntityHelper> {
+        const es = Base.Asset.FindAllByClass(classname, r) ?? [];
+        return es.map(e => new EntityHelper(e));
     }
     
     public get raw(): Entity { return this.entity }
@@ -64,7 +57,7 @@ export default abstract class EntityHelper {
             CSS.Msg("Error: Fired event with no input.");
             return;
         }
-        CSS.FireAtTarget(opts);
+        CSS.EntFireAtTarget(opts);
     }
 
     public FireUser1(opts = {}): void {
@@ -90,9 +83,9 @@ export default abstract class EntityHelper {
     }
 
     /** Represents EventListening of IO entities with `this.ConnectOutput` */
-    public On<T = EntityHelper>(event_name: string, callback: ConnectOutputCallback): T {
+    public On(event_name: string, callback: ConnectOutputCallback): EntityHelper {
         this.ConnectOutput(event_name, callback);
-        return this as T;
+        return this;
     }
     
     //

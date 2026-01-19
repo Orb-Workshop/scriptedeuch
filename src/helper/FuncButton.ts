@@ -9,31 +9,34 @@ import {
 } from "cs_script/point_script";
 import {
     default as EntityHelper,
-    MaybeEntity,
     ConnectOutputCallback,
 } from "./EntityHelper";
-import {default as BaseModelEntity} from "./BaseModelEntity";
+import * as Base from "../base";
+import * as Util from "../util";
+import { default as BaseModelEntity } from "./BaseModelEntity";
 
 export const CLASSNAME = "func_button";
 
 export default class FuncButton extends BaseModelEntity {
     constructor(entity: Entity) {
         super(entity);
-        if (entity.GetClassName() !== CLASSNAME)
-            throw new Error(`FuncButton - Classname Error: ${this?.entity?.GetClassName()}`);
     }
 
-    public static From(e: MaybeEntity): FuncButton | null {
-        return EntityHelper.From<FuncButton>(e, CLASSNAME);
+    public static From(e: Entity): FuncButton {
+        if (!Util.CheckClass(e, CLASSNAME))
+            throw new Error(`FuncButton - Classname Error: ${e?.GetClassName()}`);
+        return new FuncButton(e);
     }
    
-    public static Find(r: RegExp | string): FuncButton | null {
+    public static Find(r: RegExp | string): FuncButton {
         // Overload with each entity helper
-        return EntityHelper.FindByClass<FuncButton>(CLASSNAME, r) as FuncButton;
+        const e = EntityHelper.FindByClass(CLASSNAME, r, true);
+        return new FuncButton(e.raw);
     }
 
-    public static FindAll<FuncButton>(r: RegExp | string): Array<FuncButton> {
-        return EntityHelper.FindAllByClass<FuncButton>(CLASSNAME, r);
+    public static FindAll(r: RegExp | string): Array<FuncButton> {
+        const es = EntityHelper.FindAllByClass(CLASSNAME, r);
+        return es.map(e => new FuncButton(e.raw));
     }
 
     public Lock(opts = {}): void {
@@ -49,10 +52,11 @@ export default class FuncButton extends BaseModelEntity {
     }
 
     public OnPressed(callback: ConnectOutputCallback): FuncButton {
-        return this.On<FuncButton>("OnPressed", callback)
+        return this.On("OnPressed", callback) as FuncButton;
     }
     
     public OnUseLocked(callback: ConnectOutputCallback): FuncButton {
-        return this.On<FuncButton>("OnUseLocked", callback)
+        return this.On("OnUseLocked", callback) as FuncButton;
     }
+    
 }

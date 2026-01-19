@@ -4,10 +4,12 @@
 import {
     Instance as CSS,
     Entity,
-    Vector as VectorType,
-    QAngle as QAngleType,
 } from "cs_script/point_script";
-import { default as EntityHelper, MaybeEntity } from "./EntityHelper";
+import {
+    default as EntityHelper,
+    ConnectOutputCallback,
+} from "./EntityHelper";
+import * as Util from "../util";
 
 /** The cs2 entity we're adapting to */
 export const CLASSNAME: string = "point_soundevent";
@@ -15,20 +17,21 @@ export const CLASSNAME: string = "point_soundevent";
 export default class PointSoundEvent extends EntityHelper {
     constructor(entity: Entity) {
         super(entity);
-        if (entity.GetClassName() !== CLASSNAME)
-            throw new Error(`PointSoundEvent - Classname Error: ${this?.entity?.GetClassName()}`);
     }
 
-    public static From(e: MaybeEntity): PointSoundEvent | null {
-        return EntityHelper.From<PointSoundEvent>(e, CLASSNAME);
+    public static From(e: Entity): PointSoundEvent | null {
+        if (!Util.CheckClass(e, CLASSNAME))
+            throw new Error(
+                `PointSoundEvent - Classname Error: ${e?.GetClassName()}`);
+        return new PointSoundEvent(e);
     }
    
-    public static Find(r: RegExp | string): PointSoundEvent | null {
-        // Overload with each entity helper
-        return EntityHelper.FindByClass<PointSoundEvent>(CLASSNAME, r);
+    public static Find(r: RegExp | string): PointSoundEvent {
+        const e = EntityHelper.FindByClass(CLASSNAME, r, true);
+        return new PointSoundEvent(e.raw);
     }
 
-    public static FindAll<T = PointSoundEvent>(r: RegExp | string): Array<T> {
+    public static FindAll(r: RegExp | string): Array<PointSoundEvent> {
         return EntityHelper.FindAllByClass<PointSoundEvent>(CLASSNAME, r);
     }
     

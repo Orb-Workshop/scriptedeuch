@@ -3,6 +3,7 @@ import {
     Instance as CSS,
     CSPlayerPawn,
     CSPlayerController,
+    Entity,
 } from "cs_script/point_script";
 
 /** Returns a deep copy of the provided object, `o`.
@@ -60,4 +61,10 @@ function* UniqueNameGenerator(s: string): Generator<string> {
 export function UniqueGen(s: string = "ScriptedEuch-"): () => string {
     const gen = UniqueNameGenerator(s);
     return () => gen.next().value;
+}
+
+
+/** Returns 'true' if the given entity has the given classname */
+export function CheckClass(e: Entity, classname: string): boolean {
+    return (e?.GetClassName() == classname);
 }

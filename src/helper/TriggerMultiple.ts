@@ -6,6 +6,7 @@ import {
     default as EntityHelper,
     ConnectOutputCallback,
 } from "./EntityHelper";
+import * as Util from "../util";
 
 export const CLASSNAME = "trigger_multiple";
 
@@ -17,31 +18,35 @@ export default class TriggerMultiple extends EntityHelper {
         super(entity);
     }
 
-    public static From<T = TriggerMultiple>(e: MaybeEntity): T | null {
-        return EntityHelper.From<TriggerMultiple>(e);
+    public static From(entity: Entity): TriggerMultiple {
+        if (!Util.CheckClass(entity, CLASSNAME))
+            throw new Error(`TriggerMultiple - Classname Error: ${entity?.GetClassName()}`);
+        return new TriggerMultiple(entity);
     }
 
-    public static Find<T = TriggerMultiple>(r: RegExp | string): T | null {
-        return EntityHelper.FindByClass<TriggerMultiple>(CLASSNAME, r);
+    public static Find(r: RegExp | string): TriggerMultiple {
+        const e = EntityHelper.FindByClass(CLASSNAME, r, true);
+        return new TriggerMultiple(e.raw);
     }
 
-    public static FindAll<T = TriggerMultiple>(r: RegExp | string): Array<T> {
-        return EntityHelper.FindAllByClass<TriggerMultiple>(CLASSNAME, r);
+    public static FindAll(r: RegExp | string): Array<TriggerMultiple> {
+        const es = EntityHelper.FindAllByClass(CLASSNAME, r);
+        return es.map(e => new TriggerMultiple(e));
     }
     
     OnStartTouch(callback: ConnectOutputCallback): TriggerMultiple {
-        return this.On<TriggerMultiple>("OnStartTouch", callback)
+        return this.On("OnStartTouch", callback) as TriggerMultiple;
     }
 
     OnStartTouchAll(callback: ConnectOutputCallback): TriggerMultiple {
-        return this.On<TriggerMultiple>("OnStartTouchAll", callback);
+        return this.On("OnStartTouchAll", callback) as TriggerMultiple;
     }
 
     OnEndTouch(callback: ConnectOutputCallback): TriggerMultiple {
-        return this.On<TriggerMultiple>("OnEndTouch", callback);
+        return this.On("OnEndTouch", callback) as TriggerMultiple;
     }
     
     OnEndTouchAll(callback: ConnectOutputCallback): TriggerMultiple {
-        return this.On<TriggerMultiple>("OnEndTouchAll", callback);
+        return this.On("OnEndTouchAll", callback) as TriggerMultiple;
     }
 }
