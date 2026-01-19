@@ -307,3 +307,77 @@ Defined in: [event/Sender.ts:14](https://github.com/Orb-Workshop/scriptedeuch/bl
 ###### Returns
 
 `void`
+
+## Functions
+
+### GetGlobalListener()
+
+> **GetGlobalListener**(): [`Listener`](#listener)
+
+Defined in: [event/Global.ts:48](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/event/Global.ts#L48)
+
+Returns an `Event.Listener` using the global `Tag`.
+
+#### Returns
+
+[`Listener`](#listener)
+
+***
+
+### OnActivate()
+
+> **OnActivate**(`callback`): [`Listener`](#listener)
+
+Defined in: [event/Global.ts:58](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/event/Global.ts#L58)
+
+Instance.OnActivate()
+
+#### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `callback` | `Callback` |
+
+#### Returns
+
+[`Listener`](#listener)
+
+***
+
+### OnRoundEnd()
+
+> **OnRoundEnd**(`callback`): [`Listener`](#listener)
+
+Defined in: [event/Global.ts:68](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/event/Global.ts#L68)
+
+Instance.OnRoundEnd()
+
+#### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `callback` | `Callback` |
+
+#### Returns
+
+[`Listener`](#listener)
+
+***
+
+### OnRoundStart()
+
+> **OnRoundStart**(`callback`): [`Listener`](#listener)
+
+Defined in: [event/Global.ts:63](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/event/Global.ts#L63)
+
+Instance.OnRoundStart()
+
+#### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `callback` | `Callback` |
+
+#### Returns
+
+[`Listener`](#listener)
