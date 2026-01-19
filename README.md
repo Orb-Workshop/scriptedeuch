@@ -1,7 +1,5 @@
 # scriptedeuch
 
-[![Bun Tests](https://github.com/Orb-Workshop/scriptedeuch/actions/workflows/main.yml/badge.svg)](https://github.com/Orb-Workshop/scriptedeuch/actions/workflows/main.yml)
-
 **scriptedeuch** is a Library and Framework to be used within CS2
   workshop maps. It is supposed to provide useful tools to ease
   development, and works in tandem with

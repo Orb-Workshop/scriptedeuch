@@ -13,6 +13,8 @@ export const CLASSNAME = "basemodelentity";
 export default class BaseModelEntity extends EntityHelper {
     constructor(entity: Entity) {
         super(entity);
+        if (entity.GetClassName() !== CLASSNAME)
+            throw new Error(`BaseModelEntity - Classname Error: ${this?.entity?.GetClassName()}`);
     }
 
     public static From<T = BaseModelEntity>(e: MaybeEntity): T | null {
@@ -45,7 +47,7 @@ export default class BaseModelEntity extends EntityHelper {
         this.raw.SetColor(c);
     }
 
-    public Glow(color?: Color): void {
+    public Glow(color?: ColorType): void {
         this.raw.Glow(color);
     }
 
