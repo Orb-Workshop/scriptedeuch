@@ -169,6 +169,13 @@ catch(e) {
     CSS.Msg("Error: " + e.toString());
 }
 
+const FreezeTime = Base.Mount.Register("FreezeTime", new System.FreezeTimeSystem());
+new Base.ThinkTask(() => {
+    CSS.Msg(`Elapsed Freeze Time: ${FreezeTime.GetElapsedFreezeTime()}`);
+    CSS.Msg(`Elapsed Round Time: ${FreezeTime.GetElapsedRoundTime()}`);
+}, 1/128);
+
+
 
 // Listing off what's running
 CSS.Msg("Systems: " + Mount.List().join(", "))

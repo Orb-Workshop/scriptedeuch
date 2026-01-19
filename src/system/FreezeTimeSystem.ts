@@ -16,6 +16,7 @@ export default class FreezeTimeSystem extends Base.System {
     private freeze_end_time: number = CSS.GetGameTime();
     private round_start_time: number = CSS.GetGameTime();
     private round_end_time: number = CSS.GetGameTime();
+    private is_round_ended: boolean = false;
     
     constructor() {
         super();
@@ -43,7 +44,11 @@ export default class FreezeTimeSystem extends Base.System {
     
     override OnRoundStart() {
         this.freeze_start_time = CSS.GetGameTime();
-        this.is_frozen = true;
+        this.is_round_ended = false;
+    }
+
+    override OnRoundEnd() {
+        this.is_round_ended = true;
     }
     
     override Think() {
@@ -52,7 +57,7 @@ export default class FreezeTimeSystem extends Base.System {
             this.round_start_time = CSS.GetGameTime();
             this.round_end_time = CSS.GetGameTime();
         }
-        else {
+        else if (!this.is_round_ended) {
             this.round_end_time = CSS.GetGameTime();
         }
     }
@@ -72,4 +77,5 @@ export function GetElapsedRoundTime(): number {
 export function GetElapsedFreezeTime(): number {
     return AutoMount().GetElapsedFreezeTime();
 }
+
 

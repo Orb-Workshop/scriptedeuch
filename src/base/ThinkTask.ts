@@ -19,3 +19,4 @@ export default class ThinkTask extends Actor {
         if (chk?.abort === true) this.Remove();
     }
 }
+
