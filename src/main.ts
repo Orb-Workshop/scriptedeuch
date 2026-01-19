@@ -9,9 +9,12 @@ import {
 
     // Spawnable Actors in Framework, which extend Base.Actor
     Actor,
-
+    
     // Events Handling Library built on top of `Base.Actor` actor pool.
     Event,
+
+    // Helper classes for wrapping and adapting to source2 entities.
+    Helper,
     
     // Math data types that extend the cs2 Vector and QAngle data interface.
     Math,
@@ -22,9 +25,8 @@ import {
     // Noise library
     Noise,
 
-    // Utility Functions, Helper Classes
+    // Utility Functions
     Util,
-    Helper,
     
 } from "./index";
 
@@ -37,28 +39,34 @@ const {
 CSS.Msg("Scriptedeuch!!");
 
 
-const soundEventSystem = new System.SoundEventSystem({debug: false});
-Mount.Register("SoundEvents", soundEventSystem);
+const soundEventSystem = Mount.Register(
+    "SoundEvents",
+    new System.SoundEventSystem({
+        debug: false
+    }));
 
-const gameAnnouncerSystem = new System.GameAnnouncerSystem({callback:(obj) => {
-    let {player_pawn, player_stats} = obj;
-    let {kills_with_same_weapon = 0,
-         killing_spree_weapon_name = null,
-         kills_since_interval = 0,
-         kills_since_death = 0,
-         enemy_killed = null, // CSPlayerPawn, last enemy killed (or teammate)
-         enemy_had_killing_spree = false,
-         enemy_was_teammate = false} = player_stats;
+const gameAnnouncerSystem = Mount.Register(
+    "GameAnnouncer",
+    new System.GameAnnouncerSystem({callback:(obj) => {
+        let {player_pawn, player_stats} = obj;
+        let {kills_with_same_weapon = 0,
+             killing_spree_weapon_name = null,
+             kills_since_interval = 0,
+             kills_since_death = 0,
+             enemy_killed = null, // CSPlayerPawn, last enemy killed (or teammate)
+             enemy_had_killing_spree = false,
+             enemy_was_teammate = false} = player_stats;
 
-    CSS.Msg("Player Name: " + Util.GetPlayerName(player_pawn));
-    CSS.Msg("Player Stats: " + JSON.stringify(player_stats));
-    soundEventSystem.PlaySoundToPlayer(player_pawn, "Vote.Passed", true);
-}});
-Mount.Register("GameAnnouncer", gameAnnouncerSystem);
+        CSS.Msg("Player Name: " + Util.GetPlayerName(player_pawn));
+        CSS.Msg("Player Stats: " + JSON.stringify(player_stats));
+        soundEventSystem.PlaySoundToPlayer(player_pawn, "Vote.Passed", true);
+    }}));
+
 Mount.Register("HealthRegen", new System.PlayerHealthRegenerationSystem());
 Mount.Register("PlayerModelChanger", new System.PlayerModelChangerSystem({
     point_script_targetname: "main.script"
 }));
+
 let Projectile = new Actor.Projectile({fizzle_delay: 1});
 
 
@@ -70,7 +78,6 @@ let TimedEvent = new ThinkTask((inst) => {
         alive_time: inst.GetLifetime(),
     });
 }, 5);
-
 let TimedEvent2 = new ThinkTask((inst) => {
     ThinkTask.SendMessage("Echo", {
         data: "Some Data2",
@@ -148,12 +155,43 @@ CSS.OnScriptInput("Explosion", ({ activator, caller }) => {
         debug: false,
     }).Explode(inflictor);
     explosion.Remove();
-
-    CSS.Msg(Util.GetPlayerName(activator));
-    CSS.Msg(caller?.GetClassName());
 });
+
+class MoveableSoundEvent extends Helper.BaseModelEntity {
+    private sound_event: Helper.PointSoundEvent; // parented to empty prop_dynamic
+    constructor(empty_prop_dynamic_entity: Entity, sound_event_entity: Entity) {
+        super(empty_prop_dynamic_entity); // prop_dynamic
+        this.sound_event = new Helper.PointSoundEvent(sound_event_entity);
+    }
+
+    SetSoundEventName(soundevent_name: string, opts) {
+        this.sound_event.SetSoundEventName(soundevent_name, opts);
+    }
+    
+    StartSound(opts): void {
+        this.sound_event.StartSound(opts);
+    }
+
+    StopSound(opts): void {
+        this.sound_event.StopSound(opts);
+    }
+}
+
+class MoveableSoundEventSpawner extends Helper.PointTemplate {
+    private template = Helper.PointTemplate.Find(Base.Default.SOUND_EVENT_TEMPLATE);
+    constructor() {
+        super(this.template);
+    }
+
+    Spawn(position = Math.Vector3.Zero): MoveableSoundEvent {
+        const [empty_prop_dynamic_entity,
+               sound_event_entity] = this.ForceSpawn(position);
+        return new MoveableSoundEvent(empty_prop_dynamic_entity, sound_event_entity);
+    }
+}
+
+
 
 // Listing off what's running
 CSS.Msg("Systems: " + Mount.List().join(", "))
 Mount.Start(); // go
-
