@@ -9,32 +9,33 @@ import {
 import * as Base from "../base";
 import * as SEMath from "../math";
 
+
 export type MaybeEntity = Entity | undefined | null;
 export default abstract class EntityHelper {
     private connection_ids: Array<number> = [];
-    protected entity: Entity;
+    private entity: Entity;
     constructor(entity: Entity) {
         this.entity = entity;
     }
 
-    public static From<T = EntityHelper>(e: MaybeEntity): T | null {
+    public static From<T = EntityHelper>(e: MaybeEntity): EntityHelper | null {
         if (e === undefined || e === null || !(e?.IsValid())) return null;
-        return new T(e);
+        return new EntityHelper(e) as T;
     }
-
+    
     public static FindByClass<T = EntityHelper>(classname: string, r: RegExp | string): T | null {
         const entity = Base.Asset.FindByClass(classname, r);
         return EntityHelper.From<T>(entity);
     }
 
     abstract public static Find<T = EntityHelper>(r: RegExp | string): T | null {
-        // Overload with each entity helper
+        // Overload with each inherited entity helper by classname
     }
     
     public get raw(): Entity { return this.entity }
     
     public FireEvent(opts = {}) {
-        opts.target = this.entity;
+        opts.target = this.raw;
         if (!opts.input) {
             CSS.Msg("Error: Fired event with no input.");
             return;
@@ -55,79 +56,79 @@ export default abstract class EntityHelper {
     //
     
     public IsValid(): boolean {
-        return this.entity?.IsValid();
+        return this.raw?.IsValid() as boolean;
     }
 
     public GetAbsOrigin(): SEMath.Vector3 {
-        return SEMath.Vector3.From(this.entity.GetAbsOrigin());
+        return SEMath.Vector3.From(this.raw.GetAbsOrigin());
     }
 
     public GetLocalOrigin(): SEMath.Vector3 {
-        return SEMath.Vector3.From(this.entity.GetLocalOrigin());
+        return SEMath.Vector3.From(this.raw.GetLocalOrigin());
     }
 
     public GetAbsAngles(): SEMath.QAngle {
-        return SEMath.QAngle.From(this.entity.GetAbsAngles());
+        return SEMath.QAngle.From(this.raw.GetAbsAngles());
     }
 
     public GetLocalAngles(): SEMath.QAngle {
-        return SEMath.QAngle.From(this.entity.GetLocalAngles());
+        return SEMath.QAngle.From(this.raw.GetLocalAngles());
     }
 
     public GetAbsVelocity(): SEMath.Vector3 {
-        return SEMath.Vector3.From(this.entity.GetAbsVelocity());
+        return SEMath.Vector3.From(this.raw.GetAbsVelocity());
     }
 
     public GetLocalVelocity(): SEMath.Vector3 {
-        return SEMath.Vector3.From(this.entity.GetAbsVelocity());
+        return SEMath.Vector3.From(this.raw.GetAbsVelocity());
     }
 
     public GetEyeAngles(): SEMath.QAngle {
-        return SEMath.QAngle.From(this.entity.GetEyeAngles());
+        return SEMath.QAngle.From(this.raw.GetEyeAngles());
     }
 
     public GetEyePosition(): SEMath.Vector3 {
-        return SEMath.Vector3.From(this.entity.GetEyePosition());
+        return SEMath.Vector3.From(this.raw.GetEyePosition());
     }
 
     public Teleport({position, rotation, velocity, ...opts}): void {
-        this.entity.Teleport({position, rotation, velocity, ...opts});
+        this.raw.Teleport({position, rotation, velocity, ...opts});
     }
 
     public GetClassName(): string {
-        return this.entity.GetClassName();
+        return this.raw.GetClassName();
     }
 
     public GetEntityName(): string {
-        return this.entity.GetEntityName();
+        return this.raw.GetEntityName();
     }
 
     public SetEntityName(s: string): void {
-        this.entity.SetEntityName(s);
+        this.raw.SetEntityName(s);
     }
 
     public GetOwner(): Entity | undefined {
-        return this.entity.GetOwner();
+        return this.raw.GetOwner();
     }
 
     public SetOwner(e: Entity): void {
-        this.entity.SetOwner(e);
+        this.raw.SetOwner(e);
     }
 
     public GetParent(): Entity | undefined {
-        return this.entity.GetParent();
+        return this.raw.GetParent();
     }
 
     public SetParent(e: Entity): void {
-        this.entity.SetParent(e);
+        this.raw.SetParent(e);
     }
 
     public GetTeamNumber(): number {
-        return this.entity.GetTeamNumber();
+        return this.raw.GetTeamNumber();
     }
 
     public GetHealth(): number {
-        return this.entity.GetHealth();
+        return this.raw.GetHealth();
     }
 
     public SetHealth(hp: number): void {
@@ -135,7 +136,7 @@ export default abstract class EntityHelper {
             CSS.Msg("ERROR: provided health is less than or equal to zero.");
             return;
         }
-        this.entity.SetHealth(hp);
+        this.raw.SetHealth(hp);
     }
 
     public GetMaxHealth(): number {
@@ -147,31 +148,31 @@ export default abstract class EntityHelper {
             CSS.Msg("ERROR: provided max health is less than or equal to zero.");
             return;
         }
-        this.entity.SetMaxHealth(hp);
+        this.raw.SetMaxHealth(hp);
     }
 
     public IsAlive(): boolean {
-        return this.entity.IsAlive();
+        return this.raw.IsAlive();
     }
 
     public IsWorld(): boolean {
-        return this.entity.IsWorld();
+        return this.raw.IsWorld();
     }
 
     public GetGroundEntity(): Entity | undefined {
-        return this.entity.GetGroundEntity();
+        return this.raw.GetGroundEntity();
     }
 
     public TakeDamage({ damage, inflictor, attacker, weapon, ...opts}): number {
-        return this.entity.TakeDamage({ damage, inflictor, attacker, weapon, ...opts });
+        return this.raw.TakeDamage({ damage, inflictor, attacker, weapon, ...opts });
     }
 
     public Kill(): void {
-        this.entity.Kill();
+        this.raw.Kill();
     }
 
     public Remove(): void {
-        this.entity.Remove();
+        this.raw.Remove();
     }
 }
 

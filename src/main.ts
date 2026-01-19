@@ -157,8 +157,13 @@ CSS.OnScriptInput("Explosion", ({ activator, caller }) => {
     explosion.Remove();
 });
 
-
-
+try {
+    const e = Helper.EntityHelper.FindByClass("env_fade", "scriptedeuch.env_fade");
+    CSS.Msg("EntityHelper --> " + e.GetClassName());
+}
+catch(e) {
+    CSS.Msg("Error: " + e.toString());
+}
 
 
 // Listing off what's running

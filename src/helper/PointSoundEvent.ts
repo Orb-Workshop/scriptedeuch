@@ -16,11 +16,12 @@ export default class PointSoundEvent extends EntityHelper {
             throw new Error(`PointSoundEvent - Classname Error: ${this?.entity?.GetClassName()}`);
     }
 
-    public static From<T = PointSoundEvent>(e: MaybeEntity): T | null {
-        return EntityHelper.From<T>(e);
+    public static From(e: MaybeEntity): PointSoundEvent | null {
+        return EntityHelper.From<PointSoundEvent>(e);
     }
 
-    abstract public static Find<T = PointSoundEvent>(r: RegExp | string): T | null {
+   
+    abstract public static Find(r: RegExp | string): PointSoundEvent | null {
         // Overload with each entity helper
         return EntityHelper.FindByClass<PointSoundEvent>("point_soundevent", r);
     }
@@ -29,11 +30,11 @@ export default class PointSoundEvent extends EntityHelper {
         this.FireEvent({input: "SetSoundEventName", value: soundevent_name, ...opts});
     }
 
-    StartSound(opts): void {
+    StartSound(opts = {}): void {
         this.FireEvent({input: "StartSound", ...opts});
     }
 
-    StopSound(opts): void {
+    StopSound(opts = {}): void {
         this.FireEvent({input: "StopSound", ...opts});
     }
     
