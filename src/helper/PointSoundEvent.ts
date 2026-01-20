@@ -19,7 +19,7 @@ export default class PointSoundEvent extends EntityHelper {
         super(entity);
     }
 
-    public static From(e: Entity): PointSoundEvent | null {
+    public static From(e: Entity): PointSoundEvent {
         if (!Util.CheckClass(e, CLASSNAME))
             throw new Error(
                 `PointSoundEvent - Classname Error: ${e?.GetClassName()}`);
@@ -32,19 +32,20 @@ export default class PointSoundEvent extends EntityHelper {
     }
 
     public static FindAll(r: RegExp | string): Array<PointSoundEvent> {
-        return EntityHelper.FindAllByClass<PointSoundEvent>(CLASSNAME, r);
+        const es = EntityHelper.FindAllByClass(CLASSNAME, r);
+        return es.map(e => new PointSoundEvent(e.raw));
     }
     
-    SetSoundEventName(soundevent_name: string, opts): void {
-        this.FireEvent({input: "SetSoundEventName", value: soundevent_name, ...opts});
+    SetSoundEventName(soundevent_name: string, opts = {}): void {
+        this.FireIO({input: "SetSoundEventName", value: soundevent_name, ...opts});
     }
 
     StartSound(opts = {}): void {
-        this.FireEvent({input: "StartSound", ...opts});
+        this.FireIO({input: "StartSound", ...opts});
     }
 
     StopSound(opts = {}): void {
-        this.FireEvent({input: "StopSound", ...opts});
+        this.FireIO({input: "StopSound", ...opts});
     }
     
 }

@@ -7,7 +7,7 @@ import {
     Color as ColorType,
 } from "cs_script/point_script";
 import * as Util from "../util";
-import { default as EntityHelper, MaybeEntity } from "./EntityHelper";
+import EntityHelper from "./EntityHelper";
 
 
 export const CLASSNAME = "basemodelentity";
@@ -16,8 +16,8 @@ export default class BaseModelEntity extends EntityHelper {
         super(entity);
     }
 
-    public static From(e: MaybeEntity): BaseModelEntity {
-        if (Util.CheckClass(e, CLASSNAME))
+    public static From(e: Entity): BaseModelEntity {
+        if (!Util.CheckClass(e, CLASSNAME))
             throw new Error(`BaseModelEntity - Classname Error: ${e?.GetClassName()}`);
         return new BaseModelEntity(e);
     }
@@ -27,11 +27,12 @@ export default class BaseModelEntity extends EntityHelper {
         return new BaseModelEntity(e.raw);
     }
 
-    public static FindAll(r: RegExp | string): T | null {
+    public static FindAll(r: RegExp | string): Array<BaseModelEntity> {
         // Overload with each entity helper
-        return EntityHelper.FindAllByClass<BaseModelEntity>(CLASSNAME, r);
+        const es = EntityHelper.FindAllByClass(CLASSNAME, r);
+        return es.map(e => new BaseModelEntity(e.raw));
     }
-    
+
     //
     // Adapters for BaseModelEntity
     // @see: https://www.source2.wiki/Scripting/Counter-Strike%202/cs_script/functionList?game=any#basemodelentity

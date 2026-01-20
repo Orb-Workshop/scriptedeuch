@@ -7,36 +7,39 @@ import {
     Vector as VectorType,
     QAngle as QAngleType,
 } from "cs_script/point_script";
-import { default as EntityHelper, MaybeEntity } from "./EntityHelper";
+import EntityHelper from "./EntityHelper";
+import * as Util from "../util";
 
 const CLASSNAME = "point_template";
 
 export default class PointTemplate extends EntityHelper {
     constructor(entity: Entity) {
         super(entity);
-        if (entity.GetClassName() !== CLASSNAME)
-            throw new Error(`PointTemplate - Classname Error: ${this?.entity?.GetClassName()}`);
     }
 
-    public static From<T = PointTemplate>(e: MaybeEntity): T | null {
-        return EntityHelper.From<T>(e);
+    public static From(e: Entity): PointTemplate {
+        if (!Util.CheckClass(e, CLASSNAME))
+            throw new Error(`PointTemplate - Classname Error: ${e?.GetClassName()}`);
+        return new PointTemplate(e);
     }
 
-    abstract public static Find<T = PointTemplate>(r: RegExp | string): T | null {
-        // Overload with each entity helper
-        return EntityHelper.FindByClass<PointTemplate>(CLASSNAME, r);
+    public static Find(r: RegExp | string): PointTemplate {
+        const e = EntityHelper.FindByClass(CLASSNAME, r, true);
+        return new PointTemplate(e.raw);
     }
 
-    public static FindAll<T = PointTemplate>(r: RegExp | string): Array<T> {
-        return EntityHelper.FindAllByClass<PointTemplate>(CLASSNAME, r);
+    public static FindAll(r: RegExp | string): Array<PointTemplate> {
+        const es = EntityHelper.FindAllByClass(CLASSNAME, r);
+        return es.map(e => new PointTemplate(e.raw));
     }
     
     //
     // Adapters for PointTemplate
     // @see: https://www.source2.wiki/Scripting/Counter-Strike%202/cs_script/functionList?game=any#pointtemplate
 
-    public ForceSpawn(origin?: VectorType, rotation?: QAngleType): Entity[] {
-        return this.entity.ForceSpawn(origin, rotation) ?? [];
+    public ForceSpawn(origin?: VectorType, rotation?: QAngleType): EntityHelper[] {
+        const es = this.entity.ForceSpawn(origin, rotation) ?? [];
+        return es.map(e => new EntityHelper(e));
     }
     
 }

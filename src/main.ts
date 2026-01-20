@@ -76,6 +76,7 @@ let TimedEvent = new ThinkTask((inst) => {
         data: "Some Data",
         idx: idx++,
         alive_time: inst.GetLifetime(),
+        delta: inst.GetDelta(),
     });
 }, 5);
 let TimedEvent2 = new ThinkTask((inst) => {
@@ -83,6 +84,7 @@ let TimedEvent2 = new ThinkTask((inst) => {
         data: "Some Data2",
         idx: idx++,
         alive_time: inst.GetLifetime(),
+        delta: inst.GetDelta(),
     });
 }, 4);
 

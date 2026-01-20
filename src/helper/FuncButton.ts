@@ -40,15 +40,15 @@ export default class FuncButton extends BaseModelEntity {
     }
 
     public Lock(opts = {}): void {
-        this.FireEvent({ input: "Lock", ...opts });
+        this.FireIO({ input: "Lock", ...opts });
     }
 
     public Unlock(opts = {}): void {
-        this.FireEvent({ input: "Unlock", ...opts });
+        this.FireIO({ input: "Unlock", ...opts });
     }
     
     public Press(opts = {}): void {
-        this.FireEvent({ input: "Press", ...opts });
+        this.FireIO({ input: "Press", ...opts });
     }
 
     public OnPressed(callback: ConnectOutputCallback): FuncButton {

@@ -31,12 +31,12 @@ export default abstract class EntityHelper {
         this.entity = entity?.raw || entity;
     }
 
-    abstract public static Find<T = EntityHelper>(r: RegExp | string): T | null {
+    abstract public static Find<T = EntityHelper>(r: RegExp | string): T {
         // Overload with each inherited entity helper by classname
         // uses EntityHelper.FindByClass
     }
 
-    abstract public static FindAll<T= EntityHelper>(r: RegExp | string): Array<T> {
+    abstract public static FindAll<T = EntityHelper>(r: RegExp | string): Array<T> {
         // Overload with each inherited entity helper by classname
         // uses EntityHelper.FindAllByClass
     }
@@ -56,7 +56,7 @@ export default abstract class EntityHelper {
     
     public get raw(): Entity { return this.entity }
     
-    public FireEvent(opts = {}) {
+    public FireIO(opts = {}) {
         opts.target = this.raw;
         if (!opts.input) {
             CSS.Msg("Error: Fired event with no input.");
@@ -66,19 +66,19 @@ export default abstract class EntityHelper {
     }
 
     public FireUser1(opts = {}): void {
-        this.FireEvent({input: "FireUser1", ...opts});
+        this.FireIO({input: "FireUser1", ...opts});
     }
     
     public FireUser2(opts = {}): void {
-        this.FireEvent({input: "FireUser2", ...opts});
+        this.FireIO({input: "FireUser2", ...opts});
     }
     
     public FireUser3(opts = {}): void {
-        this.FireEvent({input: "FireUser3", ...opts});
+        this.FireIO({input: "FireUser3", ...opts});
     }
     
     public FireUser4(opts = {}): void {
-        this.FireEvent({input: "FireUser4", ...opts});
+        this.FireIO({input: "FireUser4", ...opts});
     }
 
     private resetCallbacks(): void {

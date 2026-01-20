@@ -38,7 +38,7 @@ export default class EnvironmentFade extends EntityHelper {
     }
     
     public Fade(opts = {}): void {
-        this.FireEvent({ input: "Fade", ...opts });
+        this.FireIO({ input: "Fade", ...opts });
     }
 }
 
