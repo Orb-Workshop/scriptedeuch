@@ -42,8 +42,30 @@ export default class FuncBreakable extends BaseModelEntity {
         this.FireIO({ input: "Break", ...opts });
     }
 
+    public SetHealth(value: number, opts = {}): void {
+        this.FireIO({ input: "SetHealth", value, ...opts });
+    }
+    
+    public AddHealth(value: number, opts = {}): void {
+        this.FireIO({ input: "AddHealth", value, ...opts });
+    }
+
+    public RemoveHealth(value: number, opts = {}): void {
+        this.FireIO({ input: "RemoveHealth", value, ...opts });
+    }
+
+    public SetMass(value: number, opts = {}): void {
+        this.FireIO({ input: "SetMass", value, ...opts });
+    }
+    
     // IO Event Outputs
     public OnBreak(callback: ConnectOutputCallback): FuncBreakable {
         return this.On("OnBreak", callback) as FuncBreakable;
     }
+    
+    // IO Event Outputs
+    public OnHealthChanged(callback: ConnectOutputCallback): FuncBreakable {
+        return this.On("OnHealthChanged", callback) as FuncBreakable;
+    }
+    
 }

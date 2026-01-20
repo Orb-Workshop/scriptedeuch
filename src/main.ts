@@ -168,12 +168,13 @@ function Init() {
         fade.Fade();
         hud_hint.ShowHudHint({ activator });
         shake.StartShake();
+        CSS.EntFireAtTarget({target: shooter, input: "Shoot"});
     });
     CSS.Msg("Is this valid? " + fade.IsValid());
 }
-Init();
 
 try {
+    Init();
     Event.OnRoundStart(() => {
         Init();
     });

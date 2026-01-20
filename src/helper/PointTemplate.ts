@@ -1,5 +1,5 @@
 /**
-   Entity Adapter for 'BaseModelEntity'
+   Entity Adapter for 'point_template'
  */
 import {
     Instance as CSS,

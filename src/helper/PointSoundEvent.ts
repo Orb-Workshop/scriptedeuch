@@ -1,5 +1,5 @@
 /**
-   Entity Adapter for 'PointSoundEvent'
+   Entity Adapter for 'point_soundevent' cs2 entity.
  */
 import {
     Instance as CSS,
@@ -35,6 +35,8 @@ export default class PointSoundEvent extends EntityHelper {
         const es = EntityHelper.FindAllByClass(CLASSNAME, r);
         return es.map(e => new PointSoundEvent(e.raw));
     }
+
+    // IO Event Inputs
     
     SetSoundEventName(soundevent_name: string, opts = {}): void {
         this.FireIO({input: "SetSoundEventName", value: soundevent_name, ...opts});
@@ -46,6 +48,12 @@ export default class PointSoundEvent extends EntityHelper {
 
     StopSound(opts = {}): void {
         this.FireIO({input: "StopSound", ...opts});
+    }
+
+    // IO Event Outputs
+    
+    public OnSoundFinished(callback: ConnectOutputCallback): PointSoundEvent {
+        return this.On("OnSoundFinished", callback) as PointSoundEvent;
     }
     
 }
