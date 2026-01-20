@@ -9,12 +9,15 @@ import {
 } from "cs_script/point_script";
 import { default as EntityHelper, MaybeEntity } from "./EntityHelper";
 import * as Util from "../util";
+import * as Event from "../event";
+import { RemoveActorOnRoundEnd } from "./util";
 
 export const CLASSNAME = "env_fade";
 
 export default class EnvironmentFade extends EntityHelper {
     constructor(entity: Entity) {
         super(entity);
+        RemoveActorOnRoundEnd(this);
     }
 
     public static From(e: Entity): EnvironmentFade {

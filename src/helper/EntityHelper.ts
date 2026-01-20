@@ -9,6 +9,7 @@ import {
 import * as Base from "../base";
 import * as SEMath from "../math";
 import * as Util from "../util";
+import * as Event from "../event";
 
 interface ConnectOutputEvent {
     input?: any;
