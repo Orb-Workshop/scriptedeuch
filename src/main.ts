@@ -162,8 +162,13 @@ CSS.OnScriptInput("Explosion", ({ activator, caller }) => {
 function Init() {
     const fade = Helper.EnvironmentFade.Find("scriptedeuch.env_fade");
     const hud_hint = Helper.EnvironmentHudHint.Find("scriptedeuch.hud_blind_message");
+    const shake = Helper.EnvironmentShake.Find("scriptedeuch.env_shake");
     const button = Helper.FuncButton.Find("scriptedeuch.fade_button");
-    button.OnPressed(({ activator }) => { fade.Fade(); hud_hint.ShowHudHint({ activator }); });
+    button.OnPressed(({ activator }) => {
+        fade.Fade();
+        hud_hint.ShowHudHint({ activator });
+        shake.StartShake();
+    });
     CSS.Msg("Is this valid? " + fade.IsValid());
 }
 Init();
