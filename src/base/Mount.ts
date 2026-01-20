@@ -30,7 +30,11 @@
     ```
  */
 
-import { Instance as CSS } from "cs_script/point_script";
+import {
+    Instance as CSS,
+    CSDamageTypes,
+    CSDamageFlags,
+} from "cs_script/point_script";
 import System from "./System";
 
 export default class Mount {
@@ -97,11 +101,33 @@ export default class Mount {
         CSS.OnActivate(() => {
             this.forEachEnabledSystem((system) => system.OnActivate());
         });
+
+        /** { abort: true } takes precedence */
         CSS.OnBeforePlayerDamage((event) => {
             let result = null;
             this.forEachEnabledSystem((system) => {
                 const tmp_result = system.OnBeforePlayerDamage(event);
-                result = tmp_result ?? result;
+                if (tmp_result === null || tmp_result === undefined) return;
+                if (tmp_result?.abort === true) result = { abort: true };
+                if (result?.abort === true) return;
+
+                // Merging Damage
+                if (typeof tmp_result.damage == "number") {
+                    result = result || {};
+                    result.damage += tmp_result.damage;
+                }
+
+                // Merging CSDamageTypes.
+                if (typeof tmp_result.damageTypes == "number") {
+                    result = result || {};
+                    result.damageTypes |= tmp_result.damageTypes;
+                }
+
+                // Merging CSDamageFlags
+                if (typeof tmp_result.damageFlags == "number") {
+                    result = result || {};
+                    result.damageFlags |= tmp_result.damageFlags;
+                }
             });
             if (result !== null) return result;
         });

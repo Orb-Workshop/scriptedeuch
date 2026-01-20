@@ -171,8 +171,8 @@ catch(e) {
 
 const FreezeTime = Base.Mount.Register("FreezeTime", new System.FreezeTimeSystem());
 new Base.ThinkTask(() => {
-    CSS.Msg(`Elapsed Freeze Time: ${FreezeTime.GetElapsedFreezeTime()}`);
-    CSS.Msg(`Elapsed Round Time: ${FreezeTime.GetElapsedRoundTime()}`);
+    //CSS.Msg(`Elapsed Freeze Time: ${FreezeTime.GetElapsedFreezeTime()}`);
+    //CSS.Msg(`Elapsed Round Time: ${FreezeTime.GetElapsedRoundTime()}`);
 }, 1/128);
 
 
