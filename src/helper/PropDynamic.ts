@@ -131,5 +131,42 @@ export default class PropDynamic extends FuncBreakable {
     public SetPlaybackRate(value: number, opts = {}): void {
         this.FireIO({ input: "SetPlaybackRate", value, ...opts });
     }
+
+    // IO Event Outputs
+
+    public OnTakeDamage(callback: ConnectOutputCallback): PropDynamic {
+        return this.On("OnTakeDamage", callback) as PropDynamic;
+    }
+
+    public OnHealthChanged(callback: ConnectOutputCallback): PropDynamic {
+        return this.On("OnHealthChanged", callback) as PropDynamic;
+    }
+
+    public OnAnimationBegun(callback: ConnectOutputCallback): PropDynamic {
+        return this.On("OnAnimationBegun", callback) as PropDynamic;
+    }
+
+    public OnAnimationDone(callback: ConnectOutputCallback): PropDynamic {
+        return this.On("OnAnimationDone", callback) as PropDynamic;
+    }
+
+    public OnAnimationReachedEnd(callback: ConnectOutputCallback): PropDynamic {
+        return this.On("OnAnimationReachedEnd", callback) as PropDynamic;
+    }
+
+    public OnAnimationReachedStart(callback: ConnectOutputCallback): PropDynamic {
+        return this.On("OnAnimationReachedStart", callback) as PropDynamic;
+    }
+
+    public OnAnimationLoopCycleDone(callback: ConnectOutputCallback): PropDynamic {
+        return this.On("OnAnimationLoopCycleDone", callback) as PropDynamic;
+    }
+    
+    public OnDestructibleHitGroupDamageLevelChanged(
+        callback: ConnectOutputCallback): PropDynamic {
+        return this.On("OnDestructibleHitGroupDamageLevelChanged", callback) as PropDynamic;
+    }
+    
+
     
 }

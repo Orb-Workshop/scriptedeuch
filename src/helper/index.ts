@@ -18,9 +18,12 @@ export { default as PointTemplate } from "./PointTemplate";
 export { default as PropDynamic } from "./PropDynamic";
 export { default as PropPhysicsMultiplayer } from "./PropPhysicsMultiplayer";
 export { default as TriggerMultiple } from "./TriggerMultiple";
+export { default as InfoMapParameters, WinCondition } from "./InfoMapParameters";
+
 
 // Extensions to cs2 entities. Often make up multiple entities
 export { default as MoveableSoundEvent } from "./MoveableSoundEvent";
 
 // Color class, implements point_script `Color` interface.
 export { default as Color } from "./Color";
+

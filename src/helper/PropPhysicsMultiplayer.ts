@@ -104,24 +104,25 @@ export default class PropPhysicsMultiplayer extends FuncBreakable {
     }
     
     // IO Event Outputs
+    
     public OnMotionEnabled(callback: ConnectOutputCallback): PropPhysicsMultiplayer {
-        return this.On("OnMotionEnabled", callback) as FuncBreakable;
+        return this.On("OnMotionEnabled", callback) as PropPhysicsMultiplayer;
     }
 
     public OnTakeDamage(callback: ConnectOutputCallback): PropPhysicsMultiplayer {
-        return this.On("OnTakeDamage", callback) as FuncBreakable;
+        return this.On("OnTakeDamage", callback) as PropPhysicsMultiplayer;
     }
 
     public OnAwakened(callback: ConnectOutputCallback): PropPhysicsMultiplayer {
-        return this.On("OnAwakened", callback) as FuncBreakable;
+        return this.On("OnAwakened", callback) as PropPhysicsMultiplayer;
     }
 
     public OnPlayerUse(callback: ConnectOutputCallback): PropPhysicsMultiplayer {
-        return this.On("OnPlayerUse", callback) as FuncBreakable;
+        return this.On("OnPlayerUse", callback) as PropPhysicsMultiplayer;
     }
 
     public OnOutOfWorld(callback: ConnectOutputCallback): PropPhysicsMultiplayer {
-        return this.On("OnOutOfWorld", callback) as FuncBreakable;
+        return this.On("OnOutOfWorld", callback) as PropPhysicsMultiplayer;
     }
     
 }
