@@ -1,5 +1,5 @@
 /**
-   Entity Adapter for 'PropDynamic'
+   Entity Adapter for 'prop_dynamic'
  */
 import {
     Instance as CSS,
@@ -12,10 +12,10 @@ import {
     ConnectOutputCallback,
 } from "./EntityHelper";
 import BaseModelEntity from "./BaseModelEntity";
-
+import FuncBreakable from "./FuncBreakable";
 
 export const CLASSNAME = "prop_dynamic";
-export default class PropDynamic extends BaseModelEntity {
+export default class PropDynamic extends FuncBreakable {
     constructor(entity: Entity) {
         super(entity);
     }
@@ -35,15 +35,5 @@ export default class PropDynamic extends BaseModelEntity {
         // Overload with each entity helper
         const es = EntityHelper.FindAllByClass(CLASSNAME, r);
         return es.map(e => new PropDynamic(e.raw));
-    }
-
-    // IO Event Inputs
-    public Break(opts = {}): void {
-        this.FireIO({ input: "Break", ...opts });
-    }
-
-    // IO Event Outputs
-    public OnBreak(callback: ConnectOutputCallback): PropDynamic {
-        return this.On("OnBreak", callback) as PropDynamic;
     }
 }
