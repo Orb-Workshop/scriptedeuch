@@ -512,7 +512,7 @@ Send messages to other actors in the actor pool.
 
 ### Mount
 
-Defined in: [base/Mount.ts:36](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/Mount.ts#L36)
+Defined in: [base/Mount.ts:40](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/Mount.ts#L40)
 
 The Fundamental Library Framework. Systems and Actors are extended
 from `Base.System` and `Base.Actor`, while `Base.Mount` mounts
@@ -522,7 +522,7 @@ them with the point_script `Instance.On*` events.
 
 | Property | Modifier | Type | Description | Defined in |
 | ------ | ------ | ------ | ------ | ------ |
-| <a id="_instance"></a> `_instance` | `static` | [`Mount`](#mount) | Singleton Instance | [base/Mount.ts:38](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/Mount.ts#L38) |
+| <a id="_instance"></a> `_instance` | `static` | [`Mount`](#mount) | Singleton Instance | [base/Mount.ts:42](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/Mount.ts#L42) |
 
 #### Accessors
 
@@ -532,7 +532,7 @@ them with the point_script `Instance.On*` events.
 
 > **get** `static` **instance**(): [`Mount`](#mount)
 
-Defined in: [base/Mount.ts:47](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/Mount.ts#L47)
+Defined in: [base/Mount.ts:51](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/Mount.ts#L51)
 
 Singleton Getter
 
@@ -546,7 +546,7 @@ Singleton Getter
 
 > **\_startSystems**(): `void`
 
-Defined in: [base/Mount.ts:200](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/Mount.ts#L200)
+Defined in: [base/Mount.ts:226](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/Mount.ts#L226)
 
 Enable All Registered Systems
 
@@ -558,7 +558,7 @@ Enable All Registered Systems
 
 > **\_stopSystems**(): `void`
 
-Defined in: [base/Mount.ts:205](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/Mount.ts#L205)
+Defined in: [base/Mount.ts:231](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/Mount.ts#L231)
 
 Disable All Registered Systems
 
@@ -570,7 +570,7 @@ Disable All Registered Systems
 
 > `static` **Disable**(`name`): `boolean`
 
-Defined in: [base/Mount.ts:232](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/Mount.ts#L232)
+Defined in: [base/Mount.ts:258](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/Mount.ts#L258)
 
 Disable Registered System with `name`.
 
@@ -588,7 +588,7 @@ Disable Registered System with `name`.
 
 > `static` **Enable**(`name`): `boolean`
 
-Defined in: [base/Mount.ts:223](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/Mount.ts#L223)
+Defined in: [base/Mount.ts:249](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/Mount.ts#L249)
 
 Enable Registered System with `name`.
 
@@ -606,7 +606,7 @@ Enable Registered System with `name`.
 
 > `static` **GetSystem**(`name`): [`System`](#system) \| `null`
 
-Defined in: [base/Mount.ts:75](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/Mount.ts#L75)
+Defined in: [base/Mount.ts:79](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/Mount.ts#L79)
 
 ###### Parameters
 
@@ -624,7 +624,7 @@ Defined in: [base/Mount.ts:75](https://github.com/Orb-Workshop/scriptedeuch/blob
 
 > `static` **HasSystem**(`name`): `boolean`
 
-Defined in: [base/Mount.ts:69](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/Mount.ts#L69)
+Defined in: [base/Mount.ts:73](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/Mount.ts#L73)
 
 ###### Parameters
 
@@ -642,7 +642,7 @@ Defined in: [base/Mount.ts:69](https://github.com/Orb-Workshop/scriptedeuch/blob
 
 > `static` **List**(): `string`[]
 
-Defined in: [base/Mount.ts:243](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/Mount.ts#L243)
+Defined in: [base/Mount.ts:269](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/Mount.ts#L269)
 
 List all Systems
 
@@ -656,7 +656,7 @@ A list of registered system names.
 
 > `static` **Register**(`name`, `system`): [`System`](#system)
 
-Defined in: [base/Mount.ts:56](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/Mount.ts#L56)
+Defined in: [base/Mount.ts:60](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/Mount.ts#L60)
 
 Register a `Base.System`
 
@@ -675,7 +675,7 @@ Register a `Base.System`
 
 > `static` **Start**(): `void`
 
-Defined in: [base/Mount.ts:210](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/Mount.ts#L210)
+Defined in: [base/Mount.ts:236](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/Mount.ts#L236)
 
 Start Enabled Systems
 
@@ -687,7 +687,7 @@ Start Enabled Systems
 
 > `static` **Stop**(): `void`
 
-Defined in: [base/Mount.ts:217](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/Mount.ts#L217)
+Defined in: [base/Mount.ts:243](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/Mount.ts#L243)
 
 Stop and Disable all Systems
 
@@ -699,7 +699,7 @@ Stop and Disable all Systems
 
 > `static` **Unregister**(`name`): `void`
 
-Defined in: [base/Mount.ts:63](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/Mount.ts#L63)
+Defined in: [base/Mount.ts:67](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/Mount.ts#L67)
 
 Unregister a `Base.System`
 
