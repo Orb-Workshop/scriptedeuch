@@ -162,7 +162,7 @@ try {
         const fade = Helper.EnvironmentFade.Find("scriptedeuch.env_fade");
         const button = Helper.FuncButton.Find("scriptedeuch.fade_button");
         button.OnPressed(() => fade.Fade());
-        CSS.Msg("EnvironmentFade --> " + fade.GetClassName());
+        CSS.Msg("Is this valid? " + fade.IsValid());
     });
 }
 catch(e) {

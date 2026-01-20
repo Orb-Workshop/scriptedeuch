@@ -18,9 +18,13 @@ interface ConnectOutputEvent {
 export type ConnectOutputCallback = (event: ConnectOutputEvent) => void;
 export type MaybeEntity = Entity | undefined | null;
 
+interface ConnectionData {
+    callback: ConnectOutputCallback;
+    id: number;
+}
 
 export default abstract class EntityHelper {
-    private connection_ids: Array<number> = [];
+    private connection_ids: Map<string, ConnectionData> = new Map();
     private entity: Entity;
     constructor(entity: Entity | EntityHelper) {
         this.entity = entity?.raw || entity;
@@ -75,16 +79,27 @@ export default abstract class EntityHelper {
     public FireUser4(opts = {}): void {
         this.FireEvent({input: "FireUser4", ...opts});
     }
+
+    private resetCallbacks(): void {
+        this.connection_ids.forEach(({ id, callback }, event_name) => {
+            CSS.DisconnectOutput(id);
+            const new_id = CSS.ConnectOutput(this.raw, event_name, callback);
+            this.connection_ids.set(event_name, { new_id, callback });
+        });
+    }
     
-    // TODO: Maybe handle connection ids on disposal?
+    /** Represents EventListening of IO entities with `this.ConnectOutput`
+        TODO: Use Global Events to 'latch onto' the callbacks this method represents.
+     */
     public ConnectOutput(event_name: string, callback: ConnectOutputCallback): void {
-        this.connection_ids.push(
-            CSS.ConnectOutput(this.raw, event_name, callback));
+        if (this.connection_ids.has(event_name)) {
+            const old_id = this.connection_ids.get(event_name).id;
+            CSS.DisconnectOutput(old_id);
+        }
+        const id = CSS.ConnectOutput(this.raw, event_name, callback);
+        this.connection_ids.set(event_name, { id, callback });
     }
 
-    /** Represents EventListening of IO entities with `this.ConnectOutput`
-        
-     */
     public On(event_name: string, callback: ConnectOutputCallback): EntityHelper {
         this.ConnectOutput(event_name, callback);
         return this;
