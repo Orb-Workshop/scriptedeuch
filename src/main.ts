@@ -159,12 +159,18 @@ CSS.OnScriptInput("Explosion", ({ activator, caller }) => {
     explosion.Remove();
 });
 
+function Init() {
+    const fade = Helper.EnvironmentFade.Find("scriptedeuch.env_fade");
+    const hud_hint = Helper.EnvironmentHudHint.Find("scriptedeuch.hud_blind_message");
+    const button = Helper.FuncButton.Find("scriptedeuch.fade_button");
+    button.OnPressed(({ activator }) => { fade.Fade(); hud_hint.ShowHudHint({ activator }); });
+    CSS.Msg("Is this valid? " + fade.IsValid());
+}
+Init();
+
 try {
     Event.OnRoundStart(() => {
-        const fade = Helper.EnvironmentFade.Find("scriptedeuch.env_fade");
-        const button = Helper.FuncButton.Find("scriptedeuch.fade_button");
-        button.OnPressed(() => fade.Fade());
-        CSS.Msg("Is this valid? " + fade.IsValid());
+        Init();
     });
 }
 catch(e) {

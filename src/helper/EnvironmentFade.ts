@@ -17,7 +17,7 @@ export const CLASSNAME = "env_fade";
 export default class EnvironmentFade extends EntityHelper {
     constructor(entity: Entity) {
         super(entity);
-        RemoveActorOnRoundEnd(this);
+        //RemoveActorOnRoundEnd(this);
     }
 
     public static From(e: Entity): EnvironmentFade {
@@ -36,6 +36,8 @@ export default class EnvironmentFade extends EntityHelper {
         const es = EntityHelper.FindAllByClass(CLASSNAME, r);
         return es.map(e => new EnvironmentFade(e.raw));
     }
+
+    // IO Event Inputs
     
     public Fade(opts = {}): void {
         this.FireIO({ input: "Fade", ...opts });

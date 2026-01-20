@@ -52,6 +52,10 @@ export default class LogicRelay extends EntityHelper {
     public Trigger(opts = {}): void {
         this.FireIO({ input: "Trigger", ...opts });
     }
+
+    public CancelPending(opts = {}): void {
+        this.FireIO({ input: "CancelPending", ...opts });
+    }
     
     // IO Event Outputs
     public OnTrigger(callback: ConnectOutputCallback): LogicRelay {
