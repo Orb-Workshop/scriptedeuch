@@ -41,19 +41,35 @@ export default class BaseModelEntity extends EntityHelper {
         this.raw.SetModel(s);
     }
 
+    public GetModelName(): string {
+        return this.raw.GetModelName();
+    }
+    
     public SetModelScale(s: number): void {
         this.raw.SetModelScale(s);
     }
 
+    public GetModelScale(): string {
+        return this.raw.GetModelScale(s);
+    }
+    
     public SetColor(c: ColorType): void {
         this.raw.SetColor(c);
     }
 
+    public GetColor(): ColorType {
+        return this.raw.GetColor();
+    }
+    
     public Glow(color?: ColorType): void {
         this.raw.Glow(color);
     }
 
     public Unglow(): void {
         this.raw.Unglow();
+    }
+
+    public IsGlowing(): boolean {
+        return this.raw.IsGlowing();
     }
 }
