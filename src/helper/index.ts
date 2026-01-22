@@ -9,21 +9,22 @@ export { default as EnvironmentHudHint } from "./EnvironmentHudHint";
 export { default as EnvironmentShake } from "./EnvironmentShake";
 export { default as FuncBreakable } from "./FuncBreakable";
 export { default as FuncButton } from "./FuncButton";
+export { default as FuncMoveLinear } from "./FuncMoveLinear";
+export { default as FuncTrackTrain } from "./FuncTrackTrain";
 export { default as GameMoney } from "./GameMoney";
+export { default as InfoMapParameters, WinCondition } from "./InfoMapParameters";
 export { default as InfoTarget } from "./InfoTarget";
 export { default as InfoTeleportDestination } from "./InfoTeleportDestination";
 export { default as LogicRelay } from "./LogicRelay";
+export { default as PathTrack } from "./PathTrack";
 export { default as PointSoundEvent } from "./PointSoundEvent";
 export { default as PointTemplate } from "./PointTemplate";
 export { default as PropDynamic } from "./PropDynamic";
 export { default as PropPhysicsMultiplayer } from "./PropPhysicsMultiplayer";
 export { default as TriggerMultiple } from "./TriggerMultiple";
-export { default as InfoMapParameters, WinCondition } from "./InfoMapParameters";
-
 
 // Extensions to cs2 entities. Often make up multiple entities
 export { default as MoveableSoundEvent } from "./MoveableSoundEvent";
 
 // Color class, implements point_script `Color` interface.
 export { default as Color } from "./Color";
-

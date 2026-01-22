@@ -28,7 +28,6 @@ export default class BaseModelEntity extends EntityHelper {
     }
 
     public static FindAll(r: RegExp | string): Array<BaseModelEntity> {
-        // Overload with each entity helper
         const es = EntityHelper.FindAllByClass(CLASSNAME, r);
         return es.map(e => new BaseModelEntity(e.raw));
     }
