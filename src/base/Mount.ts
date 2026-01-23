@@ -108,26 +108,21 @@ export default class Mount {
             this.forEachEnabledSystem((system) => {
                 const tmp_result = system.OnBeforePlayerDamage(event);
                 if (tmp_result === null || tmp_result === undefined) return;
-                if (tmp_result?.abort === true) result = { abort: true };
-                if (result?.abort === true) return;
-
-                // Merging Damage
-                if (typeof tmp_result.damage == "number") {
-                    result = result || {};
-                    result.damage += tmp_result.damage;
+                if (tmp_result?.abort === true) {
+                    result = { abort: true };
+                    return;
                 }
 
-                // Merging CSDamageTypes.
-                if (typeof tmp_result.damageTypes == "number") {
-                    result = result || {};
-                    result.damageTypes |= tmp_result.damageTypes;
-                }
-
-                // Merging CSDamageFlags
-                if (typeof tmp_result.damageFlags == "number") {
-                    result = result || {};
-                    result.damageFlags |= tmp_result.damageFlags;
-                }
+                { damage = 0,
+                  damageTypes = 0,
+                  damageFlags = 0,
+                } = tmp_result;
+                
+                // Merging Damage, Types, Flags
+                result = result || {};
+                result.damage += damage;
+                result.damageTypes |= damageTypes;
+                result.damageFlags |= damageFlags;
             });
             if (result !== null) return result;
         });
