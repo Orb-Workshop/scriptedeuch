@@ -113,9 +113,10 @@ export default class Mount {
                     return;
                 }
 
-                { damage = 0,
-                  damageTypes = 0,
-                  damageFlags = 0,
+                const {
+                    damage = 0,
+                    damageTypes = 0,
+                    damageFlags = 0,
                 } = tmp_result;
                 
                 // Merging Damage, Types, Flags
