@@ -2,7 +2,8 @@
 export { default as EntityHelper } from "./EntityHelper";
 
 // Inherits `Helper.EntityHelper` to resemble cs2 entities
-//export { default as EnvironmentShooter } from "./EnvironmentShooter";
+// env_shooter doesn't seem to materialize in cs2 as an entity.
+// export { default as EnvironmentShooter } from "./EnvironmentShooter";
 export { default as BaseModelEntity } from "./BaseModelEntity";
 export { default as EnvironmentFade } from "./EnvironmentFade";
 export { default as EnvironmentHudHint } from "./EnvironmentHudHint";
@@ -20,6 +21,7 @@ export { default as PathTrack } from "./PathTrack";
 export { default as PointSoundEvent } from "./PointSoundEvent";
 export { default as PointTemplate } from "./PointTemplate";
 export { default as PropDynamic } from "./PropDynamic";
+export { default as PropDynamicOrnament } from "./PropDynamicOrnament";
 export { default as PropPhysicsMultiplayer } from "./PropPhysicsMultiplayer";
 export { default as TriggerMultiple } from "./TriggerMultiple";
 
