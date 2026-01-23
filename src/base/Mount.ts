@@ -104,12 +104,17 @@ export default class Mount {
 
         /** { abort: true } takes precedence */
         CSS.OnBeforePlayerDamage((event) => {
-            let result = null;
+            let result = {
+                damage: 0,
+                damageTypes: 0,
+                damageFlags: 0,
+                abort: false,
+            };
             this.forEachEnabledSystem((system) => {
-                const tmp_result = system.OnBeforePlayerDamage(event);
-                if (tmp_result === null || tmp_result === undefined) return;
+                const tmp_result = system.OnBeforePlayerDamage(event) ?? null;
+                if (tmp_result === null) return;
                 if (tmp_result?.abort === true) {
-                    result = { abort: true };
+                    result.abort = true;
                     return;
                 }
 
@@ -120,7 +125,6 @@ export default class Mount {
                 } = tmp_result;
                 
                 // Merging Damage, Types, Flags
-                result = result || {};
                 result.damage += damage;
                 result.damageTypes |= damageTypes;
                 result.damageFlags |= damageFlags;
