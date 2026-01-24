@@ -7,6 +7,7 @@ export { default as EntityHelper } from "./EntityHelper";
 export { default as BaseModelEntity } from "./BaseModelEntity";
 export { default as EnvironmentFade } from "./EnvironmentFade";
 export { default as EnvironmentHudHint } from "./EnvironmentHudHint";
+export { default as EnvironmentParticleGlow } from "./EnvironmentParticleGlow";
 export { default as EnvironmentShake } from "./EnvironmentShake";
 export { default as FuncBreakable } from "./FuncBreakable";
 export { default as FuncButton } from "./FuncButton";

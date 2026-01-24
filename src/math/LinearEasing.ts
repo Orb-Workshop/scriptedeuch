@@ -1,6 +1,6 @@
 import Easing from "./Easing";
 
-/** Returns a value between 0.0 and 1.0 within  */
+/** Returns a value between 0.0 and 1.0. lerp.  */
 export default class LinearEasing extends Easing {
     constructor(start, end) {
         super(start, end); // Initialized `this.start` and `this.end`.
