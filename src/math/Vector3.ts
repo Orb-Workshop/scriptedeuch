@@ -78,4 +78,9 @@ export default class Vector3 implements VectorType {
     toString(): string {
         return `( ${[this.x, this.y, this.z].join(", ")} )`;
     }
+
+    clamp(v: number): Vector3 {
+        if (this.magnitude() < v) return Vector3.From(this);
+        return this.normalize().scale(v);
+    }
 }

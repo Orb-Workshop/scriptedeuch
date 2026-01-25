@@ -28,7 +28,8 @@ export default abstract class System {
     IsSystemEnabled(): boolean { return this.system_enabled }
     SetTickInterval(i: number) { this.system_think_interval = i; }
     SetTick(i: number) { this.SetTickInterval(1/i) }
-
+    GetDelta(): number { return CSS.GetGameTime() - this.system_last_think_time; }
+    
     MaybeThink(): void {
         let current_game_time = CSS.GetGameTime();
         if (current_game_time - this.system_last_think_time >= this.system_think_interval) {
