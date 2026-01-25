@@ -9,6 +9,9 @@ import * as SEMath from "../math";
 import * as Event from "../event";
 
 
+const JUMP_VELOCITY = 100;
+
+
 /** Actor Component to mount a player to a prop_dynamic, or similar moveable entity. */
 export default class PlayerMount extends Base.Actor {
     static Tag: string = "PlayerMountTag";
@@ -43,6 +46,7 @@ export default class PlayerMount extends Base.Actor {
     }
 
     private UpdatePawnPosition(): void {
+        if (!PlayerMount.IsMounted(this.player_pawn)) return;
         // Move player into position
         const mount_position = SEMath.Vector3.From(this.mount_entity.GetAbsOrigin())
             .add(this.mount_offset);
@@ -63,10 +67,15 @@ export default class PlayerMount extends Base.Actor {
     
     private HandleJump(): void {
         this.UnMountPlayer();
+        let velocity = SEMath.Vector3.From(this.player_pawn.GetAbsVelocity());
+        velocity.z += JUMP_VELOCITY;
+        this.player_pawn.Teleport({ velocity });
+        
     }
     
     override Dispose(): void {
         this.global_listener.Remove();
+        this.listener.Remove();
     }
 
     override Think(): void {

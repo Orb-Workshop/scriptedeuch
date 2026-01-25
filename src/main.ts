@@ -174,6 +174,8 @@ function Init() {
 
 const PlayerMountEventSender = new Event.Sender(Actor.PlayerMount.Tag);
 function InitPlayerMount(): void {
+    CSS.FindEntitiesByClass("player").forEach(p => { p.mounted = false });
+    
     const button = Helper.FuncButton.Find("scriptedeuch.mount_button_use");
     button.OnPressed(({ activator }) => {
         const player = activator;
@@ -182,7 +184,8 @@ function InitPlayerMount(): void {
         }
         else {
             const mount_entity = Helper.PropDynamic.Find("scriptedeuch.magic_broom");
-            const player_mount = new Actor.PlayerMount(player, { mount_entity });
+            const mount_offset = Math.Vector3.Zero;
+            const player_mount = new Actor.PlayerMount(player, { mount_entity, mount_offset });
         }
         CSS.Msg("Button Pressed");
     });
@@ -207,7 +210,7 @@ new Base.ThinkTask(() => {
 }, 1/128);
 
 
-
 // Listing off what's running
 CSS.Msg("Systems: " + Mount.List().join(", "))
 Mount.Start(); // go
+
