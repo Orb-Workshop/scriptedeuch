@@ -74,4 +74,8 @@ export default class Vector3 implements VectorType {
     equals(v): boolean {
         return this.x === v.x && this.y === v.y && this.z === v.z;
     }
+
+    toString(): string {
+        return `( ${[this.x, this.y, this.z].join(", ")} )`;
+    }
 }

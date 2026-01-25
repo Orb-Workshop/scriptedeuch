@@ -209,6 +209,7 @@ new Base.ThinkTask(() => {
     //CSS.Msg(`Elapsed Round Time: ${FreezeTime.GetElapsedRoundTime()}`);
 }, 1/128);
 
+Mount.Register("KnifeDash", new System.KnifeDashSystem())
 
 // Listing off what's running
 CSS.Msg("Systems: " + Mount.List().join(", "))

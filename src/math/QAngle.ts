@@ -1,7 +1,7 @@
 import { QAngle as QAngleType } from "cs_script/point_script";
 import Vector3 from "./Vector3";
 
-export default class QAngle {
+export default class QAngle implements QAngleType {
     public pitch: number;
     public yaw: number;
     public roll: number;

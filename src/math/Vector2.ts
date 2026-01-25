@@ -56,4 +56,9 @@ export default class Vector2 {
     equals(v): boolean {
         return this.x === v.x && this.y === v.y;
     }
+
+    toString(): string {
+        return `( ${[this.x, this.y].join(", ")} )`;
+    }
+    
 }

@@ -7,7 +7,7 @@
    - Includes Automount functions.
 */
 import { Instance as CSS } from "cs_script/point_script";
-import * as Base from "../Base";
+import * as Base from "../base";
 
 const SystemName = "DefaultFreezeTime";
 
