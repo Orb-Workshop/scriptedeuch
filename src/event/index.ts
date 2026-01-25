@@ -8,9 +8,9 @@ export {
     GetGlobalListener,
     
     // Break-out Listeners. Similar to System instance events, except
-    // you can't relay responses.
+    // you can't relay a return value. (no return on OnBeforePlayerDamage)
     OnActivate,
     OnRoundStart,
     OnRoundEnd,
-    
+    OnPlayerJump,
 } from "./Global";

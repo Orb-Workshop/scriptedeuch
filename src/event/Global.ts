@@ -42,6 +42,10 @@ class EventSystem extends Base.System {
     override OnRoundEnd(event): void {
         this.sender.Send("RoundEnd", event);
     }
+
+    override OnPlayerJump(event): void {
+        this.sender.Send("PlayerJump", event);
+    }
 }
 
 /** Returns an `Event.Listener` using the global `Tag`. */
@@ -67,4 +71,9 @@ export function OnRoundStart(callback: Callback): Listener {
 /** Instance.OnRoundEnd() */
 export function OnRoundEnd(callback: Callback): Listener {
     return GetGlobalListener().On("RoundEnd", callback);
+}
+
+/** Instance.OnPlayerJump() */
+export function OnPlayerJump(callback: Callback): Listener {
+    return GetGlobalListener().On("PlayerJump", callback);
 }

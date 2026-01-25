@@ -11,7 +11,7 @@ const DefaultSystemName = "DefaultPlayerInvincibility";
     
     @example
     ```typescript
-    new PlayerInvincibility(player_pawn, {duration: 5.0});
+    new PlayerInvincibility(player_pawn, {duration: 5.0}); // 5 Seconds
     ```
  */
 export default class PlayerInvincibility extends Base.Actor {
