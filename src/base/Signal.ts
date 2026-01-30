@@ -1,5 +1,6 @@
 /**
    @see: https://playfulprogramming.com/posts/what-are-signals/
+   FIXME: Implement Glitchless Signals
 */
 
 export default class Signal {
