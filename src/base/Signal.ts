@@ -22,7 +22,8 @@ export default class Signal {
         });
 
         return {
-            get: value_signal.get,
+            set: (_) => { throw new Error("Computed is Read-Only"); },
+            get: () => value_signal.get(),
         }
     }
 
