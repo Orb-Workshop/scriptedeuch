@@ -52,3 +52,6 @@ maps/*_bakeresourcecache.vpk
 _radgen_extras/Overview/*.png
 materials/test.vmat
 \.*
+
+# Shadow-CLJS Intermediates
+src/compiled_cljs
