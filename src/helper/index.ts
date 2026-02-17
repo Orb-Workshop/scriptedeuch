@@ -15,6 +15,8 @@ export { default as FuncMoveLinear } from "./FuncMoveLinear";
 export { default as FuncTrackTrain } from "./FuncTrackTrain";
 export { default as GameMoney } from "./GameMoney";
 export { default as InfoMapParameters, WinCondition } from "./InfoMapParameters";
+export { default as InfoParticleSystem } from "./InfoParticleSystem";
+export { default as InfoParticleTarget } from "./InfoParticleTarget";
 export { default as InfoTarget } from "./InfoTarget";
 export { default as InfoTeleportDestination } from "./InfoTeleportDestination";
 export { default as LogicRelay } from "./LogicRelay";

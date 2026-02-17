@@ -189,6 +189,20 @@ function InitPlayerMount(): void {
         }
         CSS.Msg("Button Pressed");
     });
+
+    let particle_system_enabled = true;
+    Helper.FuncButton.Find("test_particle_system_button").OnPressed(() => {
+        const particle_system = Helper.InfoParticleSystem.Find("test_particle_system");
+        if (particle_system_enabled) {
+            particle_system.Stop();
+            particle_system_enabled = false;
+        }
+        else {
+            particle_system.Start();
+            particle_system_enabled = true;
+        }
+    });
+    
 }
 
 try {
@@ -210,7 +224,11 @@ new Base.ThinkTask(() => {
 }, 1/128);
 
 Mount.Register("KnifeDash", new System.KnifeDashSystem());
-Mount.Register("PlayerSliding", new System.PlayerSlidingSystem());
+//Mount.Register("PlayerSliding", new System.PlayerSlidingSystem());
+
+
+
+
 
 // Listing off what's running
 CSS.Msg("Systems: " + Mount.List().join(", "))
