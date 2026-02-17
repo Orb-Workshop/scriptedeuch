@@ -227,8 +227,8 @@ export default abstract class EntityHelper {
         this.raw.Kill();
     }
 
-    public KillHierarchy(): void {
-        this.FireIO({ input: "KillHierarchy" });
+    public KillHierarchy(opts = {}): void {
+        this.FireIO({ input: "KillHierarchy", ...opts });
     }
 
     public KillAll(): void {
