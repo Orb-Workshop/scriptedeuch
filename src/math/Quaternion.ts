@@ -30,6 +30,17 @@ export default class Quaternion implements QuaternionType {
     static From(q: QuaternionType): Quaternion {
         return new Quaternion(q.w, q.x, q.y, q.z);
     }
+
+    static FromAxisAngle(v: Vector, angle: number = 0): {
+        v = v.normalize();
+        const half_angle = angle / 2;
+        return new Quaternion(
+            Math.cos(half_angle),
+            Math.sin(half_angle) * v.x,
+            Math.sin(half_angle) * v.y,
+            Math.sin(half_angle) * v.z,
+        );
+    }
     
     add(q: Quaternion): Quaternion {
         return new Quaternion(
@@ -105,21 +116,18 @@ export default class Quaternion implements QuaternionType {
         return this.conjugate().scale(1 / mag);
     }
 
-    // Cross Product between Quaternions
-    product(q): Quaternion {
-        // qv1 * qv2
-        let qv1 = Vector.From(this);
-        let qv2 = Vector.From(q);
-        let qv = Vector.From(qv2);
-        let w = this.w * q.w - qv1.dot(qv2);
-        qv = qv.scale(this.w);
-        qv = qv.add(qv1.scale(q.w));
-        qv = qv.add(qv1.cross(qv2));
+    multiply(q: Quaternion): Quaternion {
         return new Quaternion(
-            w,
-            qv.x,
-            qv.y,
-            qv.z,
+            this.w * q.w - this.x * q.x - this.y * q.y - this.z * q.z,
+            this.w * q.x + this.x * q.w + this.y * q.z - this.z * q.y,
+            this.w * q.y - this.x * q.z + this.y * q.w + this.z * q.x,
+            this.w * q.z + this.x * q.y - this.y * q.x + this.z * q.w,
         );
+    }
+
+    transform(v: Vector): Vector {
+        const p = new Quaternion(0, v.x, v.y, v.z);
+        const t = this.multiply(p).multiply(this.inverse());
+        return new Vector(t.x, t.y, t.z);
     }
 }

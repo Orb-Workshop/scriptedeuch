@@ -47,3 +47,7 @@ test("Quaternion Arithmetic 1", () => {
     expect(q2_norm.magnitude()).toBeCloseTo(1.0);
     
 });
+
+test("Quaternion Operations 1", () => {
+    
+});

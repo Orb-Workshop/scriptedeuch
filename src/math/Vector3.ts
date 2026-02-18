@@ -11,9 +11,13 @@ export default class Vector3 implements VectorType {
         this.z = z;
     }
     
-    static Null: Vector3 = new Vector3(+Infinity, -Infinity, +Infinity);
-    static Zero: Vector3 = new Vector3(0, 0, 0);
+    static Null   = new Vector3(+Infinity, -Infinity, +Infinity);
+    static Zero   = new Vector3(0, 0, 0);
+    static X_AXIS = new Vector(1, 0, 0);
+    static Y_AXIS = new Vector(0, 1, 0);
+    static Z_AXIS = new Vector(0, 0, 1);
 
+    
     /** Same as constructor */
     static Create(x: number = 0, y: number = 0, z: number = 0): Vector3 {
         return new Vector3(x, y, z);
