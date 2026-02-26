@@ -39,13 +39,13 @@ const {
 CSS.Msg("Scriptedeuch!!");
 
 
-const soundEventSystem = Mount.Register(
+const soundEventSystem = Base.Mount.Register(
     "SoundEvents",
     new System.SoundEventSystem({
         debug: false
     }));
 
-const gameAnnouncerSystem = Mount.Register(
+const gameAnnouncerSystem = Base.Mount.Register(
     "GameAnnouncer",
     new System.GameAnnouncerSystem({callback:(obj) => {
         let {player_pawn, player_stats} = obj;
@@ -71,7 +71,7 @@ let Projectile = new Actor.Projectile({fizzle_delay: 1});
 
 
 let idx = 0;
-let TimedEvent = new ThinkTask((inst) => {
+let TimedEvent = new Base.ThinkTask((inst) => {
     ThinkTask.SendMessage("Echo", {
         data: "Some Data",
         idx: idx++,
@@ -79,7 +79,7 @@ let TimedEvent = new ThinkTask((inst) => {
         delta: inst.GetDelta(),
     });
 }, 5);
-let TimedEvent2 = new ThinkTask((inst) => {
+let TimedEvent2 = new Base.ThinkTask((inst) => {
     ThinkTask.SendMessage("Echo", {
         data: "Some Data2",
         idx: idx++,
@@ -226,12 +226,6 @@ new Base.ThinkTask(() => {
 Mount.Register("KnifeDash", new System.KnifeDashSystem());
 //Mount.Register("PlayerSliding", new System.PlayerSlidingSystem());
 
-
-
-
-
 // Listing off what's running
 CSS.Msg("Systems: " + Mount.List().join(", "))
 Mount.Start(); // go
-
-

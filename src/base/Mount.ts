@@ -102,7 +102,7 @@ export default class Mount {
 
        - CSS.OnBeforePlayerDamage is replaced with CSS.OnModifyPlayerDamage
        - { abort: true } takes precedence
-     */
+    */
     private HandleModifyPlayerDamage(event) {
         // Dress up our event as the result between modifications.
         event.abort = false;
@@ -187,22 +187,23 @@ export default class Mount {
         // OnScriptReload functionality is split up into separate overrides
         // System.OnScriptReloadBefore(...) and System.OnScriptReloadAfter(...)
         // The memory reload functionality works with individual registered systems.
-        const system_memory_store: Map<string, any> = new Map();
+        const system_memory_store = {};
         CSS.OnScriptReload({
             before: () => {
                 this.forEachEnabledSystem((system, key) => {
-                    const memory = system.OnScriptReloadBefore();
-                    system_memory_store.set(key, memory);
+                    const memory = system.OnScriptReloadBefore() ?? null;
+                    system_memory_store[key] = JSON.stringify(memory);
                 });
                 return system_memory_store;
             },
             after: (system_memory_store) => {
                 this.forEachEnabledSystem((system, key) => {
-                    const memory = system_memory_store.get(key);
+                    const memory = JSON.parse(system_memory_store[key] ?? null);
                     system.OnScriptReloadAfter(memory);
+                    system.OnScriptReload();
                 });
             }});
-        
+
         // Handle tick intervals in each system.
         CSS.SetThink(() => {
             this.forEachEnabledSystem((system) => {
@@ -257,7 +258,7 @@ export default class Mount {
 
     /** List all Systems
         @returns A list of registered system names.
-     */
+    */
     public static List(): Array<string> {
         const mount = Mount.instance;
         return Array.from(mount.system_listing.keys());

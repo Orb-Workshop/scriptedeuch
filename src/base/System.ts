@@ -204,5 +204,8 @@ export default abstract class System {
     */
     OnScriptReloadAfter<T>(memory: T): void { }
 
-    //TODO: Maybe include Script Inputs?
+    /**
+        Simpler Version of OnScriptReloadAfter
+    */
+    OnScriptReload(): void { }
 }
