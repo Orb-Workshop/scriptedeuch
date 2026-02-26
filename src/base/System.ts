@@ -6,6 +6,8 @@ import {
     Instance as CSS,
     BeforePlayerDamageEvent,
     BeforePlayerDamageModify,
+    ModifyPlayerDamageEvent,
+    ModfiyPlayerDamageResult,
     Vector as VectorType,
     CSWeaponBase,
     Entity,
@@ -60,8 +62,15 @@ export default abstract class System {
     /** 
         Instance.OnBeforePlayerDamage()
         @overload
+        @deprecated
      */
     OnBeforePlayerDamage(event: BeforePlayerDamageEvent): BeforePlayerDamageModify | { abort: true } | void { }
+
+    /**
+       Instance.OnModifyPlayerDamage()
+       @overload
+     */
+    OnModifyPlayerDamage(event: ModifyPlayerDamageEvent): ModfiyPlayerDamageResult | void { }
     
     /** 
         Instance.OnBombDefuse()

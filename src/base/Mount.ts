@@ -95,6 +95,25 @@ export default class Mount {
         });
     }
 
+    /**
+       Handle Modifying Player Damage EventCallback
+       
+       Notes:
+
+       - CSS.OnBeforePlayerDamage is replaced with CSS.OnModifyPlayerDamage
+       - { abort: true } takes precedence
+     */
+    private HandleModifyPlayerDamage(event) {
+        // Dress up our event as the result between modifications.
+        event.abort = false;
+        
+        this.forEachEnabledSystem((system) => {
+            const result = system.OnBeforePlayerDamage(event) ?? {};
+            event = { ...event, ...result };
+        });
+        return event;
+    }
+
     /** Register Everything with the CSS Instance. */
     private go(): void {
         if (this.mount_enabled) return;
@@ -102,35 +121,8 @@ export default class Mount {
             this.forEachEnabledSystem((system) => system.OnActivate());
         });
 
-        /** { abort: true } takes precedence */
-        CSS.OnBeforePlayerDamage((event) => {
-            let result = {
-                damage: 0,
-                damageTypes: 0,
-                damageFlags: 0,
-                abort: false,
-            };
-            this.forEachEnabledSystem((system) => {
-                const tmp_result = system.OnBeforePlayerDamage(event) ?? null;
-                if (tmp_result === null) return;
-                if (tmp_result?.abort === true) {
-                    result.abort = true;
-                    return;
-                }
-
-                const {
-                    damage = 0,
-                    damageTypes = 0,
-                    damageFlags = 0,
-                } = tmp_result;
-                
-                // Merging Damage, Types, Flags
-                result.damage += damage;
-                result.damageTypes |= damageTypes;
-                result.damageFlags |= damageFlags;
-            });
-            if (result !== null) return result;
-        });
+        CSS.OnBeforePlayerDamage((event) => HandleModifyPlayerDamage(event));
+        CSS.OnModifyPlayerDamage((event) => HandleModifyPlayerDamage(event));
         CSS.OnBombDefuse((event) => {
             this.forEachEnabledSystem((system) => system.OnBombDefuse(event));
         });
@@ -201,10 +193,10 @@ export default class Mount {
                 this.forEachEnabledSystem((system, key) => {
                     const memory = system.OnScriptReloadBefore();
                     system_memory_store.set(key, memory);
-                    return memory;
                 });
+                return system_memory_store;
             },
-            after: (_) => {
+            after: (system_memory_store) => {
                 this.forEachEnabledSystem((system, key) => {
                     const memory = system_memory_store.get(key);
                     system.OnScriptReloadAfter(memory);
