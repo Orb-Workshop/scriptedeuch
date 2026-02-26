@@ -123,7 +123,7 @@ Standard Memoize Function
 
 ### UniqueGen()
 
-> **UniqueGen**(`s`): () => `string`
+> **UniqueGen**(`s?`): () => `string`
 
 Defined in: [util/index.ts:61](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/util/index.ts#L61)
 

@@ -20,22 +20,22 @@ Defined in: [helper/InfoMapParameters.ts:48](https://github.com/Orb-Workshop/scr
 
 | Enumeration Member | Value | Defined in |
 | ------ | ------ | ------ |
-| <a id="all_hostages_rescued"></a> `ALL_HOSTAGES_RESCUED` | `10` | [helper/InfoMapParameters.ts:59](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/InfoMapParameters.ts#L59) |
-| <a id="bomb_defused"></a> `BOMB_DEFUSED` | `6` | [helper/InfoMapParameters.ts:55](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/InfoMapParameters.ts#L55) |
-| <a id="cts_prevent_escape"></a> `CTS_PREVENT_ESCAPE` | `4` | [helper/InfoMapParameters.ts:53](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/InfoMapParameters.ts#L53) |
-| <a id="cts_win"></a> `CTS_WIN` | `7` | [helper/InfoMapParameters.ts:56](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/InfoMapParameters.ts#L56) |
-| <a id="draw"></a> `DRAW` | `9` | [helper/InfoMapParameters.ts:58](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/InfoMapParameters.ts#L58) |
-| <a id="escaping_terrorists_neutralized"></a> `ESCAPING_TERRORISTS_NEUTRALIZED` | `5` | [helper/InfoMapParameters.ts:54](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/InfoMapParameters.ts#L54) |
-| <a id="game_commencing"></a> `GAME_COMMENCING` | `15` | [helper/InfoMapParameters.ts:64](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/InfoMapParameters.ts#L64) |
-| <a id="hostages_not_rescued"></a> `HOSTAGES_NOT_RESCUED` | `12` | [helper/InfoMapParameters.ts:61](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/InfoMapParameters.ts#L61) |
-| <a id="target_bombed"></a> `TARGET_BOMBED` | `0` | [helper/InfoMapParameters.ts:49](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/InfoMapParameters.ts#L49) |
-| <a id="target_saved"></a> `TARGET_SAVED` | `11` | [helper/InfoMapParameters.ts:60](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/InfoMapParameters.ts#L60) |
-| <a id="terrorists_escaped"></a> `TERRORISTS_ESCAPED` | `3` | [helper/InfoMapParameters.ts:52](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/InfoMapParameters.ts#L52) |
-| <a id="terrorists_not_escaped"></a> `TERRORISTS_NOT_ESCAPED` | `13` | [helper/InfoMapParameters.ts:62](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/InfoMapParameters.ts#L62) |
-| <a id="terrorists_win"></a> `TERRORISTS_WIN` | `8` | [helper/InfoMapParameters.ts:57](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/InfoMapParameters.ts#L57) |
-| <a id="vip_assassinated"></a> `VIP_ASSASSINATED` | `2` | [helper/InfoMapParameters.ts:51](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/InfoMapParameters.ts#L51) |
-| <a id="vip_escaped"></a> `VIP_ESCAPED` | `1` | [helper/InfoMapParameters.ts:50](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/InfoMapParameters.ts#L50) |
-| <a id="vip_not_escaped"></a> `VIP_NOT_ESCAPED` | `14` | [helper/InfoMapParameters.ts:63](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/InfoMapParameters.ts#L63) |
+| <a id="enumeration-member-all_hostages_rescued"></a> `ALL_HOSTAGES_RESCUED` | `10` | [helper/InfoMapParameters.ts:59](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/InfoMapParameters.ts#L59) |
+| <a id="enumeration-member-bomb_defused"></a> `BOMB_DEFUSED` | `6` | [helper/InfoMapParameters.ts:55](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/InfoMapParameters.ts#L55) |
+| <a id="enumeration-member-cts_prevent_escape"></a> `CTS_PREVENT_ESCAPE` | `4` | [helper/InfoMapParameters.ts:53](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/InfoMapParameters.ts#L53) |
+| <a id="enumeration-member-cts_win"></a> `CTS_WIN` | `7` | [helper/InfoMapParameters.ts:56](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/InfoMapParameters.ts#L56) |
+| <a id="enumeration-member-draw"></a> `DRAW` | `9` | [helper/InfoMapParameters.ts:58](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/InfoMapParameters.ts#L58) |
+| <a id="enumeration-member-escaping_terrorists_neutralized"></a> `ESCAPING_TERRORISTS_NEUTRALIZED` | `5` | [helper/InfoMapParameters.ts:54](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/InfoMapParameters.ts#L54) |
+| <a id="enumeration-member-game_commencing"></a> `GAME_COMMENCING` | `15` | [helper/InfoMapParameters.ts:64](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/InfoMapParameters.ts#L64) |
+| <a id="enumeration-member-hostages_not_rescued"></a> `HOSTAGES_NOT_RESCUED` | `12` | [helper/InfoMapParameters.ts:61](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/InfoMapParameters.ts#L61) |
+| <a id="enumeration-member-target_bombed"></a> `TARGET_BOMBED` | `0` | [helper/InfoMapParameters.ts:49](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/InfoMapParameters.ts#L49) |
+| <a id="enumeration-member-target_saved"></a> `TARGET_SAVED` | `11` | [helper/InfoMapParameters.ts:60](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/InfoMapParameters.ts#L60) |
+| <a id="enumeration-member-terrorists_escaped"></a> `TERRORISTS_ESCAPED` | `3` | [helper/InfoMapParameters.ts:52](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/InfoMapParameters.ts#L52) |
+| <a id="enumeration-member-terrorists_not_escaped"></a> `TERRORISTS_NOT_ESCAPED` | `13` | [helper/InfoMapParameters.ts:62](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/InfoMapParameters.ts#L62) |
+| <a id="enumeration-member-terrorists_win"></a> `TERRORISTS_WIN` | `8` | [helper/InfoMapParameters.ts:57](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/InfoMapParameters.ts#L57) |
+| <a id="enumeration-member-vip_assassinated"></a> `VIP_ASSASSINATED` | `2` | [helper/InfoMapParameters.ts:51](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/InfoMapParameters.ts#L51) |
+| <a id="enumeration-member-vip_escaped"></a> `VIP_ESCAPED` | `1` | [helper/InfoMapParameters.ts:50](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/InfoMapParameters.ts#L50) |
+| <a id="enumeration-member-vip_not_escaped"></a> `VIP_NOT_ESCAPED` | `14` | [helper/InfoMapParameters.ts:63](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/InfoMapParameters.ts#L63) |
 
 ## Classes
 
@@ -45,12 +45,15 @@ Defined in: [helper/BaseModelEntity.ts:14](https://github.com/Orb-Workshop/scrip
 
 #### Extends
 
-- [`EntityHelper`](#entityhelper)
+- [`EntityHelper`](#abstract-entityhelper)
 
 #### Extended by
 
 - [`FuncBreakable`](#funcbreakable)
 - [`FuncButton`](#funcbutton)
+- [`FuncMoveLinear`](#funcmovelinear)
+- [`FuncTrackTrain`](#functracktrain)
+- [`PathTrack`](#pathtrack)
 
 #### Constructors
 
@@ -72,7 +75,7 @@ Defined in: [helper/BaseModelEntity.ts:15](https://github.com/Orb-Workshop/scrip
 
 ###### Overrides
 
-[`EntityHelper`](#entityhelper).[`constructor`](#constructor-2)
+[`EntityHelper`](#abstract-entityhelper).[`constructor`](#constructor-2)
 
 #### Accessors
 
@@ -90,7 +93,7 @@ Defined in: [helper/EntityHelper.ts:57](https://github.com/Orb-Workshop/scripted
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`raw`](#raw-1)
+[`EntityHelper`](#abstract-entityhelper).[`raw`](#raw-1)
 
 #### Methods
 
@@ -116,11 +119,11 @@ TODO: Use Global Events to 'latch onto' the callbacks this method represents.
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`ConnectOutput`](#connectoutput-2)
+[`EntityHelper`](#abstract-entityhelper).[`ConnectOutput`](#connectoutput-1)
 
 ##### FireIO()
 
-> **FireIO**(`opts`): `void`
+> **FireIO**(`opts?`): `void`
 
 Defined in: [helper/EntityHelper.ts:59](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L59)
 
@@ -136,11 +139,11 @@ Defined in: [helper/EntityHelper.ts:59](https://github.com/Orb-Workshop/scripted
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`FireIO`](#fireio-2)
+[`EntityHelper`](#abstract-entityhelper).[`FireIO`](#fireio-1)
 
 ##### FireUser1()
 
-> **FireUser1**(`opts`): `void`
+> **FireUser1**(`opts?`): `void`
 
 Defined in: [helper/EntityHelper.ts:68](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L68)
 
@@ -156,11 +159,11 @@ Defined in: [helper/EntityHelper.ts:68](https://github.com/Orb-Workshop/scripted
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`FireUser1`](#fireuser1-2)
+[`EntityHelper`](#abstract-entityhelper).[`FireUser1`](#fireuser1-1)
 
 ##### FireUser2()
 
-> **FireUser2**(`opts`): `void`
+> **FireUser2**(`opts?`): `void`
 
 Defined in: [helper/EntityHelper.ts:72](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L72)
 
@@ -176,11 +179,11 @@ Defined in: [helper/EntityHelper.ts:72](https://github.com/Orb-Workshop/scripted
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`FireUser2`](#fireuser2-2)
+[`EntityHelper`](#abstract-entityhelper).[`FireUser2`](#fireuser2-1)
 
 ##### FireUser3()
 
-> **FireUser3**(`opts`): `void`
+> **FireUser3**(`opts?`): `void`
 
 Defined in: [helper/EntityHelper.ts:76](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L76)
 
@@ -196,11 +199,11 @@ Defined in: [helper/EntityHelper.ts:76](https://github.com/Orb-Workshop/scripted
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`FireUser3`](#fireuser3-2)
+[`EntityHelper`](#abstract-entityhelper).[`FireUser3`](#fireuser3-1)
 
 ##### FireUser4()
 
-> **FireUser4**(`opts`): `void`
+> **FireUser4**(`opts?`): `void`
 
 Defined in: [helper/EntityHelper.ts:80](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L80)
 
@@ -216,7 +219,7 @@ Defined in: [helper/EntityHelper.ts:80](https://github.com/Orb-Workshop/scripted
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`FireUser4`](#fireuser4-2)
+[`EntityHelper`](#abstract-entityhelper).[`FireUser4`](#fireuser4-1)
 
 ##### GetAbsAngles()
 
@@ -230,7 +233,7 @@ Defined in: [helper/EntityHelper.ts:126](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`GetAbsAngles`](#getabsangles-2)
+[`EntityHelper`](#abstract-entityhelper).[`GetAbsAngles`](#getabsangles-1)
 
 ##### GetAbsOrigin()
 
@@ -244,7 +247,7 @@ Defined in: [helper/EntityHelper.ts:118](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`GetAbsOrigin`](#getabsorigin-2)
+[`EntityHelper`](#abstract-entityhelper).[`GetAbsOrigin`](#getabsorigin-1)
 
 ##### GetAbsVelocity()
 
@@ -258,7 +261,7 @@ Defined in: [helper/EntityHelper.ts:134](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`GetAbsVelocity`](#getabsvelocity-2)
+[`EntityHelper`](#abstract-entityhelper).[`GetAbsVelocity`](#getabsvelocity-1)
 
 ##### GetClassName()
 
@@ -272,7 +275,17 @@ Defined in: [helper/EntityHelper.ts:154](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`GetClassName`](#getclassname-2)
+[`EntityHelper`](#abstract-entityhelper).[`GetClassName`](#getclassname-1)
+
+##### GetColor()
+
+> **GetColor**(): `ColorType`
+
+Defined in: [helper/BaseModelEntity.ts:59](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L59)
+
+###### Returns
+
+`ColorType`
 
 ##### GetEntityName()
 
@@ -286,7 +299,7 @@ Defined in: [helper/EntityHelper.ts:158](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`GetEntityName`](#getentityname-2)
+[`EntityHelper`](#abstract-entityhelper).[`GetEntityName`](#getentityname-1)
 
 ##### GetEyeAngles()
 
@@ -300,7 +313,7 @@ Defined in: [helper/EntityHelper.ts:142](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`GetEyeAngles`](#geteyeangles-2)
+[`EntityHelper`](#abstract-entityhelper).[`GetEyeAngles`](#geteyeangles-1)
 
 ##### GetEyePosition()
 
@@ -314,7 +327,7 @@ Defined in: [helper/EntityHelper.ts:146](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`GetEyePosition`](#geteyeposition-2)
+[`EntityHelper`](#abstract-entityhelper).[`GetEyePosition`](#geteyeposition-1)
 
 ##### GetGroundEntity()
 
@@ -328,7 +341,7 @@ Defined in: [helper/EntityHelper.ts:218](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`GetGroundEntity`](#getgroundentity-2)
+[`EntityHelper`](#abstract-entityhelper).[`GetGroundEntity`](#getgroundentity-1)
 
 ##### GetHealth()
 
@@ -342,7 +355,7 @@ Defined in: [helper/EntityHelper.ts:186](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`GetHealth`](#gethealth-2)
+[`EntityHelper`](#abstract-entityhelper).[`GetHealth`](#gethealth-1)
 
 ##### GetLocalAngles()
 
@@ -356,7 +369,7 @@ Defined in: [helper/EntityHelper.ts:130](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`GetLocalAngles`](#getlocalangles-2)
+[`EntityHelper`](#abstract-entityhelper).[`GetLocalAngles`](#getlocalangles-1)
 
 ##### GetLocalOrigin()
 
@@ -370,7 +383,7 @@ Defined in: [helper/EntityHelper.ts:122](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`GetLocalOrigin`](#getlocalorigin-2)
+[`EntityHelper`](#abstract-entityhelper).[`GetLocalOrigin`](#getlocalorigin-1)
 
 ##### GetLocalVelocity()
 
@@ -384,7 +397,7 @@ Defined in: [helper/EntityHelper.ts:138](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`GetLocalVelocity`](#getlocalvelocity-2)
+[`EntityHelper`](#abstract-entityhelper).[`GetLocalVelocity`](#getlocalvelocity-1)
 
 ##### GetMaxHealth()
 
@@ -398,7 +411,27 @@ Defined in: [helper/EntityHelper.ts:198](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`GetMaxHealth`](#getmaxhealth-2)
+[`EntityHelper`](#abstract-entityhelper).[`GetMaxHealth`](#getmaxhealth-1)
+
+##### GetModelName()
+
+> **GetModelName**(): `string`
+
+Defined in: [helper/BaseModelEntity.ts:43](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L43)
+
+###### Returns
+
+`string`
+
+##### GetModelScale()
+
+> **GetModelScale**(): `string`
+
+Defined in: [helper/BaseModelEntity.ts:51](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L51)
+
+###### Returns
+
+`string`
 
 ##### GetOwner()
 
@@ -412,7 +445,7 @@ Defined in: [helper/EntityHelper.ts:166](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`GetOwner`](#getowner-2)
+[`EntityHelper`](#abstract-entityhelper).[`GetOwner`](#getowner-1)
 
 ##### GetParent()
 
@@ -426,7 +459,7 @@ Defined in: [helper/EntityHelper.ts:174](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`GetParent`](#getparent-2)
+[`EntityHelper`](#abstract-entityhelper).[`GetParent`](#getparent-1)
 
 ##### GetTeamNumber()
 
@@ -440,13 +473,13 @@ Defined in: [helper/EntityHelper.ts:182](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`GetTeamNumber`](#getteamnumber-2)
+[`EntityHelper`](#abstract-entityhelper).[`GetTeamNumber`](#getteamnumber-1)
 
 ##### Glow()
 
 > **Glow**(`color?`): `void`
 
-Defined in: [helper/BaseModelEntity.ts:52](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L52)
+Defined in: [helper/BaseModelEntity.ts:63](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L63)
 
 ###### Parameters
 
@@ -470,7 +503,17 @@ Defined in: [helper/EntityHelper.ts:210](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`IsAlive`](#isalive-2)
+[`EntityHelper`](#abstract-entityhelper).[`IsAlive`](#isalive-1)
+
+##### IsGlowing()
+
+> **IsGlowing**(): `boolean`
+
+Defined in: [helper/BaseModelEntity.ts:71](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L71)
+
+###### Returns
+
+`boolean`
 
 ##### IsValid()
 
@@ -484,7 +527,7 @@ Defined in: [helper/EntityHelper.ts:114](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`IsValid`](#isvalid-2)
+[`EntityHelper`](#abstract-entityhelper).[`IsValid`](#isvalid-1)
 
 ##### IsWorld()
 
@@ -498,7 +541,7 @@ Defined in: [helper/EntityHelper.ts:214](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`IsWorld`](#isworld-2)
+[`EntityHelper`](#abstract-entityhelper).[`IsWorld`](#isworld-1)
 
 ##### Kill()
 
@@ -512,11 +555,45 @@ Defined in: [helper/EntityHelper.ts:226](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`Kill`](#kill-2)
+[`EntityHelper`](#abstract-entityhelper).[`Kill`](#kill-1)
+
+##### KillAll()
+
+> **KillAll**(): `void`
+
+Defined in: [helper/EntityHelper.ts:234](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L234)
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`KillAll`](#killall-1)
+
+##### KillHierarchy()
+
+> **KillHierarchy**(`opts?`): `void`
+
+Defined in: [helper/EntityHelper.ts:230](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L230)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `opts` | \{ \} |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`KillHierarchy`](#killhierarchy-1)
 
 ##### On()
 
-> **On**(`event_name`, `callback`): [`EntityHelper`](#entityhelper)
+> **On**(`event_name`, `callback`): [`EntityHelper`](#abstract-entityhelper)
 
 Defined in: [helper/EntityHelper.ts:104](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L104)
 
@@ -529,17 +606,17 @@ Defined in: [helper/EntityHelper.ts:104](https://github.com/Orb-Workshop/scripte
 
 ###### Returns
 
-[`EntityHelper`](#entityhelper)
+[`EntityHelper`](#abstract-entityhelper)
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`On`](#on-2)
+[`EntityHelper`](#abstract-entityhelper).[`On`](#on-1)
 
 ##### Remove()
 
 > **Remove**(): `void`
 
-Defined in: [helper/EntityHelper.ts:230](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L230)
+Defined in: [helper/EntityHelper.ts:238](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L238)
 
 ###### Returns
 
@@ -547,13 +624,13 @@ Defined in: [helper/EntityHelper.ts:230](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`Remove`](#remove-2)
+[`EntityHelper`](#abstract-entityhelper).[`Remove`](#remove-1)
 
 ##### SetColor()
 
 > **SetColor**(`c`): `void`
 
-Defined in: [helper/BaseModelEntity.ts:48](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L48)
+Defined in: [helper/BaseModelEntity.ts:55](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L55)
 
 ###### Parameters
 
@@ -583,7 +660,7 @@ Defined in: [helper/EntityHelper.ts:162](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`SetEntityName`](#setentityname-2)
+[`EntityHelper`](#abstract-entityhelper).[`SetEntityName`](#setentityname-1)
 
 ##### SetHealth()
 
@@ -603,7 +680,7 @@ Defined in: [helper/EntityHelper.ts:190](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`SetHealth`](#sethealth-2)
+[`EntityHelper`](#abstract-entityhelper).[`SetHealth`](#sethealth-1)
 
 ##### SetMaxHealth()
 
@@ -623,13 +700,13 @@ Defined in: [helper/EntityHelper.ts:202](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`SetMaxHealth`](#setmaxhealth-2)
+[`EntityHelper`](#abstract-entityhelper).[`SetMaxHealth`](#setmaxhealth-1)
 
 ##### SetModel()
 
 > **SetModel**(`s`): `void`
 
-Defined in: [helper/BaseModelEntity.ts:40](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L40)
+Defined in: [helper/BaseModelEntity.ts:39](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L39)
 
 ###### Parameters
 
@@ -645,7 +722,7 @@ Defined in: [helper/BaseModelEntity.ts:40](https://github.com/Orb-Workshop/scrip
 
 > **SetModelScale**(`s`): `void`
 
-Defined in: [helper/BaseModelEntity.ts:44](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L44)
+Defined in: [helper/BaseModelEntity.ts:47](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L47)
 
 ###### Parameters
 
@@ -675,7 +752,7 @@ Defined in: [helper/EntityHelper.ts:170](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`SetOwner`](#setowner-2)
+[`EntityHelper`](#abstract-entityhelper).[`SetOwner`](#setowner-1)
 
 ##### SetParent()
 
@@ -695,7 +772,7 @@ Defined in: [helper/EntityHelper.ts:178](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`SetParent`](#setparent-2)
+[`EntityHelper`](#abstract-entityhelper).[`SetParent`](#setparent-1)
 
 ##### TakeDamage()
 
@@ -719,7 +796,7 @@ Defined in: [helper/EntityHelper.ts:222](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`TakeDamage`](#takedamage-2)
+[`EntityHelper`](#abstract-entityhelper).[`TakeDamage`](#takedamage-1)
 
 ##### Teleport()
 
@@ -742,13 +819,13 @@ Defined in: [helper/EntityHelper.ts:150](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`Teleport`](#teleport-2)
+[`EntityHelper`](#abstract-entityhelper).[`Teleport`](#teleport-1)
 
 ##### Unglow()
 
 > **Unglow**(): `void`
 
-Defined in: [helper/BaseModelEntity.ts:56](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L56)
+Defined in: [helper/BaseModelEntity.ts:67](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L67)
 
 ###### Returns
 
@@ -772,7 +849,7 @@ Defined in: [helper/BaseModelEntity.ts:25](https://github.com/Orb-Workshop/scrip
 
 ###### Overrides
 
-[`EntityHelper`](#entityhelper).[`Find`](#find-2)
+[`EntityHelper`](#abstract-entityhelper).[`Find`](#find-1)
 
 ##### FindAll()
 
@@ -792,11 +869,11 @@ Defined in: [helper/BaseModelEntity.ts:30](https://github.com/Orb-Workshop/scrip
 
 ###### Overrides
 
-[`EntityHelper`](#entityhelper).[`FindAll`](#findall-2)
+[`EntityHelper`](#abstract-entityhelper).[`FindAll`](#findall-1)
 
 ##### FindAllByClass()
 
-> `static` **FindAllByClass**(`classname`, `r`): [`EntityHelper`](#entityhelper)[]
+> `static` **FindAllByClass**(`classname`, `r`): [`EntityHelper`](#abstract-entityhelper)[]
 
 Defined in: [helper/EntityHelper.ts:52](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L52)
 
@@ -809,15 +886,15 @@ Defined in: [helper/EntityHelper.ts:52](https://github.com/Orb-Workshop/scripted
 
 ###### Returns
 
-[`EntityHelper`](#entityhelper)[]
+[`EntityHelper`](#abstract-entityhelper)[]
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`FindAllByClass`](#findallbyclass-2)
+[`EntityHelper`](#abstract-entityhelper).[`FindAllByClass`](#findallbyclass-1)
 
 ##### FindByClass()
 
-> `static` **FindByClass**(`classname`, `r`, `error`): [`EntityHelper`](#entityhelper) \| `null`
+> `static` **FindByClass**(`classname`, `r`, `error?`): [`EntityHelper`](#abstract-entityhelper) \| `null`
 
 Defined in: [helper/EntityHelper.ts:44](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L44)
 
@@ -831,11 +908,11 @@ Defined in: [helper/EntityHelper.ts:44](https://github.com/Orb-Workshop/scripted
 
 ###### Returns
 
-[`EntityHelper`](#entityhelper) \| `null`
+[`EntityHelper`](#abstract-entityhelper) \| `null`
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`FindByClass`](#findbyclass-2)
+[`EntityHelper`](#abstract-entityhelper).[`FindByClass`](#findbyclass-1)
 
 ##### From()
 
@@ -867,7 +944,7 @@ Defined in: [helper/Color.ts:10](https://github.com/Orb-Workshop/scriptedeuch/bl
 
 ##### Constructor
 
-> **new Color**(`r`, `g`, `b`, `a`): [`Color`](#color)
+> **new Color**(`r`, `g`, `b`, `a?`): [`Color`](#color)
 
 Defined in: [helper/Color.ts:15](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/Color.ts#L15)
 
@@ -922,22 +999,25 @@ Defined in: [helper/EntityHelper.ts:27](https://github.com/Orb-Workshop/scripted
 - [`BaseModelEntity`](#basemodelentity)
 - [`EnvironmentFade`](#environmentfade)
 - [`EnvironmentHudHint`](#environmenthudhint)
+- [`EnvironmentParticleGlow`](#environmentparticleglow)
 - [`EnvironmentShake`](#environmentshake)
 - [`GameMoney`](#gamemoney)
+- [`InfoMapParameters`](#infomapparameters)
+- [`InfoParticleSystem`](#infoparticlesystem)
+- [`InfoParticleTarget`](#infoparticletarget)
 - [`InfoTarget`](#infotarget)
 - [`InfoTeleportDestination`](#infoteleportdestination)
 - [`LogicRelay`](#logicrelay)
 - [`PointSoundEvent`](#pointsoundevent)
 - [`PointTemplate`](#pointtemplate)
 - [`TriggerMultiple`](#triggermultiple)
-- [`InfoMapParameters`](#infomapparameters)
 - [`MoveableSoundEvent`](#moveablesoundevent)
 
 #### Constructors
 
 ##### Constructor
 
-> **new EntityHelper**(`entity`): [`EntityHelper`](#entityhelper)
+> **new EntityHelper**(`entity`): [`EntityHelper`](#abstract-entityhelper)
 
 Defined in: [helper/EntityHelper.ts:30](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L30)
 
@@ -949,7 +1029,7 @@ Defined in: [helper/EntityHelper.ts:30](https://github.com/Orb-Workshop/scripted
 
 ###### Returns
 
-[`EntityHelper`](#entityhelper)
+[`EntityHelper`](#abstract-entityhelper)
 
 #### Accessors
 
@@ -989,7 +1069,7 @@ TODO: Use Global Events to 'latch onto' the callbacks this method represents.
 
 ##### FireIO()
 
-> **FireIO**(`opts`): `void`
+> **FireIO**(`opts?`): `void`
 
 Defined in: [helper/EntityHelper.ts:59](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L59)
 
@@ -1005,7 +1085,7 @@ Defined in: [helper/EntityHelper.ts:59](https://github.com/Orb-Workshop/scripted
 
 ##### FireUser1()
 
-> **FireUser1**(`opts`): `void`
+> **FireUser1**(`opts?`): `void`
 
 Defined in: [helper/EntityHelper.ts:68](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L68)
 
@@ -1021,7 +1101,7 @@ Defined in: [helper/EntityHelper.ts:68](https://github.com/Orb-Workshop/scripted
 
 ##### FireUser2()
 
-> **FireUser2**(`opts`): `void`
+> **FireUser2**(`opts?`): `void`
 
 Defined in: [helper/EntityHelper.ts:72](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L72)
 
@@ -1037,7 +1117,7 @@ Defined in: [helper/EntityHelper.ts:72](https://github.com/Orb-Workshop/scripted
 
 ##### FireUser3()
 
-> **FireUser3**(`opts`): `void`
+> **FireUser3**(`opts?`): `void`
 
 Defined in: [helper/EntityHelper.ts:76](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L76)
 
@@ -1053,7 +1133,7 @@ Defined in: [helper/EntityHelper.ts:76](https://github.com/Orb-Workshop/scripted
 
 ##### FireUser4()
 
-> **FireUser4**(`opts`): `void`
+> **FireUser4**(`opts?`): `void`
 
 Defined in: [helper/EntityHelper.ts:80](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L80)
 
@@ -1267,9 +1347,35 @@ Defined in: [helper/EntityHelper.ts:226](https://github.com/Orb-Workshop/scripte
 
 `void`
 
+##### KillAll()
+
+> **KillAll**(): `void`
+
+Defined in: [helper/EntityHelper.ts:234](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L234)
+
+###### Returns
+
+`void`
+
+##### KillHierarchy()
+
+> **KillHierarchy**(`opts?`): `void`
+
+Defined in: [helper/EntityHelper.ts:230](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L230)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `opts` | \{ \} |
+
+###### Returns
+
+`void`
+
 ##### On()
 
-> **On**(`event_name`, `callback`): [`EntityHelper`](#entityhelper)
+> **On**(`event_name`, `callback`): [`EntityHelper`](#abstract-entityhelper)
 
 Defined in: [helper/EntityHelper.ts:104](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L104)
 
@@ -1282,13 +1388,13 @@ Defined in: [helper/EntityHelper.ts:104](https://github.com/Orb-Workshop/scripte
 
 ###### Returns
 
-[`EntityHelper`](#entityhelper)
+[`EntityHelper`](#abstract-entityhelper)
 
 ##### Remove()
 
 > **Remove**(): `void`
 
-Defined in: [helper/EntityHelper.ts:230](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L230)
+Defined in: [helper/EntityHelper.ts:238](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L238)
 
 ###### Returns
 
@@ -1423,7 +1529,7 @@ Defined in: [helper/EntityHelper.ts:34](https://github.com/Orb-Workshop/scripted
 
 | Type Parameter | Default type |
 | ------ | ------ |
-| `T` | [`EntityHelper`](#entityhelper) |
+| `T` | [`EntityHelper`](#abstract-entityhelper) |
 
 ###### Parameters
 
@@ -1445,7 +1551,7 @@ Defined in: [helper/EntityHelper.ts:39](https://github.com/Orb-Workshop/scripted
 
 | Type Parameter | Default type |
 | ------ | ------ |
-| `T` | [`EntityHelper`](#entityhelper) |
+| `T` | [`EntityHelper`](#abstract-entityhelper) |
 
 ###### Parameters
 
@@ -1459,7 +1565,7 @@ Defined in: [helper/EntityHelper.ts:39](https://github.com/Orb-Workshop/scripted
 
 ##### FindAllByClass()
 
-> `static` **FindAllByClass**(`classname`, `r`): [`EntityHelper`](#entityhelper)[]
+> `static` **FindAllByClass**(`classname`, `r`): [`EntityHelper`](#abstract-entityhelper)[]
 
 Defined in: [helper/EntityHelper.ts:52](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L52)
 
@@ -1472,11 +1578,11 @@ Defined in: [helper/EntityHelper.ts:52](https://github.com/Orb-Workshop/scripted
 
 ###### Returns
 
-[`EntityHelper`](#entityhelper)[]
+[`EntityHelper`](#abstract-entityhelper)[]
 
 ##### FindByClass()
 
-> `static` **FindByClass**(`classname`, `r`, `error`): [`EntityHelper`](#entityhelper) \| `null`
+> `static` **FindByClass**(`classname`, `r`, `error?`): [`EntityHelper`](#abstract-entityhelper) \| `null`
 
 Defined in: [helper/EntityHelper.ts:44](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L44)
 
@@ -1490,7 +1596,7 @@ Defined in: [helper/EntityHelper.ts:44](https://github.com/Orb-Workshop/scripted
 
 ###### Returns
 
-[`EntityHelper`](#entityhelper) \| `null`
+[`EntityHelper`](#abstract-entityhelper) \| `null`
 
 ***
 
@@ -1500,7 +1606,7 @@ Defined in: [helper/EnvironmentFade.ts:17](https://github.com/Orb-Workshop/scrip
 
 #### Extends
 
-- [`EntityHelper`](#entityhelper)
+- [`EntityHelper`](#abstract-entityhelper)
 
 #### Constructors
 
@@ -1522,7 +1628,7 @@ Defined in: [helper/EnvironmentFade.ts:18](https://github.com/Orb-Workshop/scrip
 
 ###### Overrides
 
-[`EntityHelper`](#entityhelper).[`constructor`](#constructor-2)
+[`EntityHelper`](#abstract-entityhelper).[`constructor`](#constructor-2)
 
 #### Accessors
 
@@ -1540,7 +1646,7 @@ Defined in: [helper/EntityHelper.ts:57](https://github.com/Orb-Workshop/scripted
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`raw`](#raw-1)
+[`EntityHelper`](#abstract-entityhelper).[`raw`](#raw-1)
 
 #### Methods
 
@@ -1566,11 +1672,11 @@ TODO: Use Global Events to 'latch onto' the callbacks this method represents.
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`ConnectOutput`](#connectoutput-2)
+[`EntityHelper`](#abstract-entityhelper).[`ConnectOutput`](#connectoutput-1)
 
 ##### Fade()
 
-> **Fade**(`opts`): `void`
+> **Fade**(`opts?`): `void`
 
 Defined in: [helper/EnvironmentFade.ts:42](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EnvironmentFade.ts#L42)
 
@@ -1586,7 +1692,7 @@ Defined in: [helper/EnvironmentFade.ts:42](https://github.com/Orb-Workshop/scrip
 
 ##### FireIO()
 
-> **FireIO**(`opts`): `void`
+> **FireIO**(`opts?`): `void`
 
 Defined in: [helper/EntityHelper.ts:59](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L59)
 
@@ -1602,11 +1708,11 @@ Defined in: [helper/EntityHelper.ts:59](https://github.com/Orb-Workshop/scripted
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`FireIO`](#fireio-2)
+[`EntityHelper`](#abstract-entityhelper).[`FireIO`](#fireio-1)
 
 ##### FireUser1()
 
-> **FireUser1**(`opts`): `void`
+> **FireUser1**(`opts?`): `void`
 
 Defined in: [helper/EntityHelper.ts:68](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L68)
 
@@ -1622,11 +1728,11 @@ Defined in: [helper/EntityHelper.ts:68](https://github.com/Orb-Workshop/scripted
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`FireUser1`](#fireuser1-2)
+[`EntityHelper`](#abstract-entityhelper).[`FireUser1`](#fireuser1-1)
 
 ##### FireUser2()
 
-> **FireUser2**(`opts`): `void`
+> **FireUser2**(`opts?`): `void`
 
 Defined in: [helper/EntityHelper.ts:72](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L72)
 
@@ -1642,11 +1748,11 @@ Defined in: [helper/EntityHelper.ts:72](https://github.com/Orb-Workshop/scripted
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`FireUser2`](#fireuser2-2)
+[`EntityHelper`](#abstract-entityhelper).[`FireUser2`](#fireuser2-1)
 
 ##### FireUser3()
 
-> **FireUser3**(`opts`): `void`
+> **FireUser3**(`opts?`): `void`
 
 Defined in: [helper/EntityHelper.ts:76](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L76)
 
@@ -1662,11 +1768,11 @@ Defined in: [helper/EntityHelper.ts:76](https://github.com/Orb-Workshop/scripted
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`FireUser3`](#fireuser3-2)
+[`EntityHelper`](#abstract-entityhelper).[`FireUser3`](#fireuser3-1)
 
 ##### FireUser4()
 
-> **FireUser4**(`opts`): `void`
+> **FireUser4**(`opts?`): `void`
 
 Defined in: [helper/EntityHelper.ts:80](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L80)
 
@@ -1682,7 +1788,7 @@ Defined in: [helper/EntityHelper.ts:80](https://github.com/Orb-Workshop/scripted
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`FireUser4`](#fireuser4-2)
+[`EntityHelper`](#abstract-entityhelper).[`FireUser4`](#fireuser4-1)
 
 ##### GetAbsAngles()
 
@@ -1696,7 +1802,7 @@ Defined in: [helper/EntityHelper.ts:126](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`GetAbsAngles`](#getabsangles-2)
+[`EntityHelper`](#abstract-entityhelper).[`GetAbsAngles`](#getabsangles-1)
 
 ##### GetAbsOrigin()
 
@@ -1710,7 +1816,7 @@ Defined in: [helper/EntityHelper.ts:118](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`GetAbsOrigin`](#getabsorigin-2)
+[`EntityHelper`](#abstract-entityhelper).[`GetAbsOrigin`](#getabsorigin-1)
 
 ##### GetAbsVelocity()
 
@@ -1724,7 +1830,7 @@ Defined in: [helper/EntityHelper.ts:134](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`GetAbsVelocity`](#getabsvelocity-2)
+[`EntityHelper`](#abstract-entityhelper).[`GetAbsVelocity`](#getabsvelocity-1)
 
 ##### GetClassName()
 
@@ -1738,7 +1844,7 @@ Defined in: [helper/EntityHelper.ts:154](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`GetClassName`](#getclassname-2)
+[`EntityHelper`](#abstract-entityhelper).[`GetClassName`](#getclassname-1)
 
 ##### GetEntityName()
 
@@ -1752,7 +1858,7 @@ Defined in: [helper/EntityHelper.ts:158](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`GetEntityName`](#getentityname-2)
+[`EntityHelper`](#abstract-entityhelper).[`GetEntityName`](#getentityname-1)
 
 ##### GetEyeAngles()
 
@@ -1766,7 +1872,7 @@ Defined in: [helper/EntityHelper.ts:142](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`GetEyeAngles`](#geteyeangles-2)
+[`EntityHelper`](#abstract-entityhelper).[`GetEyeAngles`](#geteyeangles-1)
 
 ##### GetEyePosition()
 
@@ -1780,7 +1886,7 @@ Defined in: [helper/EntityHelper.ts:146](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`GetEyePosition`](#geteyeposition-2)
+[`EntityHelper`](#abstract-entityhelper).[`GetEyePosition`](#geteyeposition-1)
 
 ##### GetGroundEntity()
 
@@ -1794,7 +1900,7 @@ Defined in: [helper/EntityHelper.ts:218](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`GetGroundEntity`](#getgroundentity-2)
+[`EntityHelper`](#abstract-entityhelper).[`GetGroundEntity`](#getgroundentity-1)
 
 ##### GetHealth()
 
@@ -1808,7 +1914,7 @@ Defined in: [helper/EntityHelper.ts:186](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`GetHealth`](#gethealth-2)
+[`EntityHelper`](#abstract-entityhelper).[`GetHealth`](#gethealth-1)
 
 ##### GetLocalAngles()
 
@@ -1822,7 +1928,7 @@ Defined in: [helper/EntityHelper.ts:130](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`GetLocalAngles`](#getlocalangles-2)
+[`EntityHelper`](#abstract-entityhelper).[`GetLocalAngles`](#getlocalangles-1)
 
 ##### GetLocalOrigin()
 
@@ -1836,7 +1942,7 @@ Defined in: [helper/EntityHelper.ts:122](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`GetLocalOrigin`](#getlocalorigin-2)
+[`EntityHelper`](#abstract-entityhelper).[`GetLocalOrigin`](#getlocalorigin-1)
 
 ##### GetLocalVelocity()
 
@@ -1850,7 +1956,7 @@ Defined in: [helper/EntityHelper.ts:138](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`GetLocalVelocity`](#getlocalvelocity-2)
+[`EntityHelper`](#abstract-entityhelper).[`GetLocalVelocity`](#getlocalvelocity-1)
 
 ##### GetMaxHealth()
 
@@ -1864,7 +1970,7 @@ Defined in: [helper/EntityHelper.ts:198](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`GetMaxHealth`](#getmaxhealth-2)
+[`EntityHelper`](#abstract-entityhelper).[`GetMaxHealth`](#getmaxhealth-1)
 
 ##### GetOwner()
 
@@ -1878,7 +1984,7 @@ Defined in: [helper/EntityHelper.ts:166](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`GetOwner`](#getowner-2)
+[`EntityHelper`](#abstract-entityhelper).[`GetOwner`](#getowner-1)
 
 ##### GetParent()
 
@@ -1892,7 +1998,7 @@ Defined in: [helper/EntityHelper.ts:174](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`GetParent`](#getparent-2)
+[`EntityHelper`](#abstract-entityhelper).[`GetParent`](#getparent-1)
 
 ##### GetTeamNumber()
 
@@ -1906,7 +2012,7 @@ Defined in: [helper/EntityHelper.ts:182](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`GetTeamNumber`](#getteamnumber-2)
+[`EntityHelper`](#abstract-entityhelper).[`GetTeamNumber`](#getteamnumber-1)
 
 ##### IsAlive()
 
@@ -1920,7 +2026,7 @@ Defined in: [helper/EntityHelper.ts:210](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`IsAlive`](#isalive-2)
+[`EntityHelper`](#abstract-entityhelper).[`IsAlive`](#isalive-1)
 
 ##### IsValid()
 
@@ -1934,7 +2040,7 @@ Defined in: [helper/EntityHelper.ts:114](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`IsValid`](#isvalid-2)
+[`EntityHelper`](#abstract-entityhelper).[`IsValid`](#isvalid-1)
 
 ##### IsWorld()
 
@@ -1948,7 +2054,7 @@ Defined in: [helper/EntityHelper.ts:214](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`IsWorld`](#isworld-2)
+[`EntityHelper`](#abstract-entityhelper).[`IsWorld`](#isworld-1)
 
 ##### Kill()
 
@@ -1962,11 +2068,45 @@ Defined in: [helper/EntityHelper.ts:226](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`Kill`](#kill-2)
+[`EntityHelper`](#abstract-entityhelper).[`Kill`](#kill-1)
+
+##### KillAll()
+
+> **KillAll**(): `void`
+
+Defined in: [helper/EntityHelper.ts:234](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L234)
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`KillAll`](#killall-1)
+
+##### KillHierarchy()
+
+> **KillHierarchy**(`opts?`): `void`
+
+Defined in: [helper/EntityHelper.ts:230](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L230)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `opts` | \{ \} |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`KillHierarchy`](#killhierarchy-1)
 
 ##### On()
 
-> **On**(`event_name`, `callback`): [`EntityHelper`](#entityhelper)
+> **On**(`event_name`, `callback`): [`EntityHelper`](#abstract-entityhelper)
 
 Defined in: [helper/EntityHelper.ts:104](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L104)
 
@@ -1979,17 +2119,17 @@ Defined in: [helper/EntityHelper.ts:104](https://github.com/Orb-Workshop/scripte
 
 ###### Returns
 
-[`EntityHelper`](#entityhelper)
+[`EntityHelper`](#abstract-entityhelper)
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`On`](#on-2)
+[`EntityHelper`](#abstract-entityhelper).[`On`](#on-1)
 
 ##### Remove()
 
 > **Remove**(): `void`
 
-Defined in: [helper/EntityHelper.ts:230](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L230)
+Defined in: [helper/EntityHelper.ts:238](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L238)
 
 ###### Returns
 
@@ -1997,7 +2137,7 @@ Defined in: [helper/EntityHelper.ts:230](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`Remove`](#remove-2)
+[`EntityHelper`](#abstract-entityhelper).[`Remove`](#remove-1)
 
 ##### SetEntityName()
 
@@ -2017,7 +2157,7 @@ Defined in: [helper/EntityHelper.ts:162](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`SetEntityName`](#setentityname-2)
+[`EntityHelper`](#abstract-entityhelper).[`SetEntityName`](#setentityname-1)
 
 ##### SetHealth()
 
@@ -2037,7 +2177,7 @@ Defined in: [helper/EntityHelper.ts:190](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`SetHealth`](#sethealth-2)
+[`EntityHelper`](#abstract-entityhelper).[`SetHealth`](#sethealth-1)
 
 ##### SetMaxHealth()
 
@@ -2057,7 +2197,7 @@ Defined in: [helper/EntityHelper.ts:202](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`SetMaxHealth`](#setmaxhealth-2)
+[`EntityHelper`](#abstract-entityhelper).[`SetMaxHealth`](#setmaxhealth-1)
 
 ##### SetOwner()
 
@@ -2077,7 +2217,7 @@ Defined in: [helper/EntityHelper.ts:170](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`SetOwner`](#setowner-2)
+[`EntityHelper`](#abstract-entityhelper).[`SetOwner`](#setowner-1)
 
 ##### SetParent()
 
@@ -2097,7 +2237,7 @@ Defined in: [helper/EntityHelper.ts:178](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`SetParent`](#setparent-2)
+[`EntityHelper`](#abstract-entityhelper).[`SetParent`](#setparent-1)
 
 ##### TakeDamage()
 
@@ -2121,7 +2261,7 @@ Defined in: [helper/EntityHelper.ts:222](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`TakeDamage`](#takedamage-2)
+[`EntityHelper`](#abstract-entityhelper).[`TakeDamage`](#takedamage-1)
 
 ##### Teleport()
 
@@ -2144,7 +2284,7 @@ Defined in: [helper/EntityHelper.ts:150](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`Teleport`](#teleport-2)
+[`EntityHelper`](#abstract-entityhelper).[`Teleport`](#teleport-1)
 
 ##### Find()
 
@@ -2164,7 +2304,7 @@ Defined in: [helper/EnvironmentFade.ts:29](https://github.com/Orb-Workshop/scrip
 
 ###### Overrides
 
-[`EntityHelper`](#entityhelper).[`Find`](#find-2)
+[`EntityHelper`](#abstract-entityhelper).[`Find`](#find-1)
 
 ##### FindAll()
 
@@ -2184,11 +2324,11 @@ Defined in: [helper/EnvironmentFade.ts:35](https://github.com/Orb-Workshop/scrip
 
 ###### Overrides
 
-[`EntityHelper`](#entityhelper).[`FindAll`](#findall-2)
+[`EntityHelper`](#abstract-entityhelper).[`FindAll`](#findall-1)
 
 ##### FindAllByClass()
 
-> `static` **FindAllByClass**(`classname`, `r`): [`EntityHelper`](#entityhelper)[]
+> `static` **FindAllByClass**(`classname`, `r`): [`EntityHelper`](#abstract-entityhelper)[]
 
 Defined in: [helper/EntityHelper.ts:52](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L52)
 
@@ -2201,15 +2341,15 @@ Defined in: [helper/EntityHelper.ts:52](https://github.com/Orb-Workshop/scripted
 
 ###### Returns
 
-[`EntityHelper`](#entityhelper)[]
+[`EntityHelper`](#abstract-entityhelper)[]
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`FindAllByClass`](#findallbyclass-2)
+[`EntityHelper`](#abstract-entityhelper).[`FindAllByClass`](#findallbyclass-1)
 
 ##### FindByClass()
 
-> `static` **FindByClass**(`classname`, `r`, `error`): [`EntityHelper`](#entityhelper) \| `null`
+> `static` **FindByClass**(`classname`, `r`, `error?`): [`EntityHelper`](#abstract-entityhelper) \| `null`
 
 Defined in: [helper/EntityHelper.ts:44](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L44)
 
@@ -2223,11 +2363,11 @@ Defined in: [helper/EntityHelper.ts:44](https://github.com/Orb-Workshop/scripted
 
 ###### Returns
 
-[`EntityHelper`](#entityhelper) \| `null`
+[`EntityHelper`](#abstract-entityhelper) \| `null`
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`FindByClass`](#findbyclass-2)
+[`EntityHelper`](#abstract-entityhelper).[`FindByClass`](#findbyclass-1)
 
 ##### From()
 
@@ -2253,7 +2393,7 @@ Defined in: [helper/EnvironmentHudHint.ts:17](https://github.com/Orb-Workshop/sc
 
 #### Extends
 
-- [`EntityHelper`](#entityhelper)
+- [`EntityHelper`](#abstract-entityhelper)
 
 #### Constructors
 
@@ -2275,7 +2415,7 @@ Defined in: [helper/EnvironmentHudHint.ts:18](https://github.com/Orb-Workshop/sc
 
 ###### Overrides
 
-[`EntityHelper`](#entityhelper).[`constructor`](#constructor-2)
+[`EntityHelper`](#abstract-entityhelper).[`constructor`](#constructor-2)
 
 #### Accessors
 
@@ -2293,7 +2433,7 @@ Defined in: [helper/EntityHelper.ts:57](https://github.com/Orb-Workshop/scripted
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`raw`](#raw-1)
+[`EntityHelper`](#abstract-entityhelper).[`raw`](#raw-1)
 
 #### Methods
 
@@ -2319,11 +2459,11 @@ TODO: Use Global Events to 'latch onto' the callbacks this method represents.
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`ConnectOutput`](#connectoutput-2)
+[`EntityHelper`](#abstract-entityhelper).[`ConnectOutput`](#connectoutput-1)
 
 ##### FireIO()
 
-> **FireIO**(`opts`): `void`
+> **FireIO**(`opts?`): `void`
 
 Defined in: [helper/EntityHelper.ts:59](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L59)
 
@@ -2339,11 +2479,11 @@ Defined in: [helper/EntityHelper.ts:59](https://github.com/Orb-Workshop/scripted
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`FireIO`](#fireio-2)
+[`EntityHelper`](#abstract-entityhelper).[`FireIO`](#fireio-1)
 
 ##### FireUser1()
 
-> **FireUser1**(`opts`): `void`
+> **FireUser1**(`opts?`): `void`
 
 Defined in: [helper/EntityHelper.ts:68](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L68)
 
@@ -2359,11 +2499,11 @@ Defined in: [helper/EntityHelper.ts:68](https://github.com/Orb-Workshop/scripted
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`FireUser1`](#fireuser1-2)
+[`EntityHelper`](#abstract-entityhelper).[`FireUser1`](#fireuser1-1)
 
 ##### FireUser2()
 
-> **FireUser2**(`opts`): `void`
+> **FireUser2**(`opts?`): `void`
 
 Defined in: [helper/EntityHelper.ts:72](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L72)
 
@@ -2379,11 +2519,11 @@ Defined in: [helper/EntityHelper.ts:72](https://github.com/Orb-Workshop/scripted
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`FireUser2`](#fireuser2-2)
+[`EntityHelper`](#abstract-entityhelper).[`FireUser2`](#fireuser2-1)
 
 ##### FireUser3()
 
-> **FireUser3**(`opts`): `void`
+> **FireUser3**(`opts?`): `void`
 
 Defined in: [helper/EntityHelper.ts:76](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L76)
 
@@ -2399,11 +2539,11 @@ Defined in: [helper/EntityHelper.ts:76](https://github.com/Orb-Workshop/scripted
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`FireUser3`](#fireuser3-2)
+[`EntityHelper`](#abstract-entityhelper).[`FireUser3`](#fireuser3-1)
 
 ##### FireUser4()
 
-> **FireUser4**(`opts`): `void`
+> **FireUser4**(`opts?`): `void`
 
 Defined in: [helper/EntityHelper.ts:80](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L80)
 
@@ -2419,7 +2559,7 @@ Defined in: [helper/EntityHelper.ts:80](https://github.com/Orb-Workshop/scripted
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`FireUser4`](#fireuser4-2)
+[`EntityHelper`](#abstract-entityhelper).[`FireUser4`](#fireuser4-1)
 
 ##### GetAbsAngles()
 
@@ -2433,7 +2573,7 @@ Defined in: [helper/EntityHelper.ts:126](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`GetAbsAngles`](#getabsangles-2)
+[`EntityHelper`](#abstract-entityhelper).[`GetAbsAngles`](#getabsangles-1)
 
 ##### GetAbsOrigin()
 
@@ -2447,7 +2587,7 @@ Defined in: [helper/EntityHelper.ts:118](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`GetAbsOrigin`](#getabsorigin-2)
+[`EntityHelper`](#abstract-entityhelper).[`GetAbsOrigin`](#getabsorigin-1)
 
 ##### GetAbsVelocity()
 
@@ -2461,7 +2601,7 @@ Defined in: [helper/EntityHelper.ts:134](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`GetAbsVelocity`](#getabsvelocity-2)
+[`EntityHelper`](#abstract-entityhelper).[`GetAbsVelocity`](#getabsvelocity-1)
 
 ##### GetClassName()
 
@@ -2475,7 +2615,7 @@ Defined in: [helper/EntityHelper.ts:154](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`GetClassName`](#getclassname-2)
+[`EntityHelper`](#abstract-entityhelper).[`GetClassName`](#getclassname-1)
 
 ##### GetEntityName()
 
@@ -2489,7 +2629,7 @@ Defined in: [helper/EntityHelper.ts:158](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`GetEntityName`](#getentityname-2)
+[`EntityHelper`](#abstract-entityhelper).[`GetEntityName`](#getentityname-1)
 
 ##### GetEyeAngles()
 
@@ -2503,7 +2643,7 @@ Defined in: [helper/EntityHelper.ts:142](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`GetEyeAngles`](#geteyeangles-2)
+[`EntityHelper`](#abstract-entityhelper).[`GetEyeAngles`](#geteyeangles-1)
 
 ##### GetEyePosition()
 
@@ -2517,7 +2657,7 @@ Defined in: [helper/EntityHelper.ts:146](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`GetEyePosition`](#geteyeposition-2)
+[`EntityHelper`](#abstract-entityhelper).[`GetEyePosition`](#geteyeposition-1)
 
 ##### GetGroundEntity()
 
@@ -2531,7 +2671,7 @@ Defined in: [helper/EntityHelper.ts:218](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`GetGroundEntity`](#getgroundentity-2)
+[`EntityHelper`](#abstract-entityhelper).[`GetGroundEntity`](#getgroundentity-1)
 
 ##### GetHealth()
 
@@ -2545,7 +2685,7 @@ Defined in: [helper/EntityHelper.ts:186](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`GetHealth`](#gethealth-2)
+[`EntityHelper`](#abstract-entityhelper).[`GetHealth`](#gethealth-1)
 
 ##### GetLocalAngles()
 
@@ -2559,7 +2699,7 @@ Defined in: [helper/EntityHelper.ts:130](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`GetLocalAngles`](#getlocalangles-2)
+[`EntityHelper`](#abstract-entityhelper).[`GetLocalAngles`](#getlocalangles-1)
 
 ##### GetLocalOrigin()
 
@@ -2573,7 +2713,7 @@ Defined in: [helper/EntityHelper.ts:122](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`GetLocalOrigin`](#getlocalorigin-2)
+[`EntityHelper`](#abstract-entityhelper).[`GetLocalOrigin`](#getlocalorigin-1)
 
 ##### GetLocalVelocity()
 
@@ -2587,7 +2727,7 @@ Defined in: [helper/EntityHelper.ts:138](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`GetLocalVelocity`](#getlocalvelocity-2)
+[`EntityHelper`](#abstract-entityhelper).[`GetLocalVelocity`](#getlocalvelocity-1)
 
 ##### GetMaxHealth()
 
@@ -2601,7 +2741,7 @@ Defined in: [helper/EntityHelper.ts:198](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`GetMaxHealth`](#getmaxhealth-2)
+[`EntityHelper`](#abstract-entityhelper).[`GetMaxHealth`](#getmaxhealth-1)
 
 ##### GetOwner()
 
@@ -2615,7 +2755,7 @@ Defined in: [helper/EntityHelper.ts:166](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`GetOwner`](#getowner-2)
+[`EntityHelper`](#abstract-entityhelper).[`GetOwner`](#getowner-1)
 
 ##### GetParent()
 
@@ -2629,7 +2769,7 @@ Defined in: [helper/EntityHelper.ts:174](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`GetParent`](#getparent-2)
+[`EntityHelper`](#abstract-entityhelper).[`GetParent`](#getparent-1)
 
 ##### GetTeamNumber()
 
@@ -2643,11 +2783,11 @@ Defined in: [helper/EntityHelper.ts:182](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`GetTeamNumber`](#getteamnumber-2)
+[`EntityHelper`](#abstract-entityhelper).[`GetTeamNumber`](#getteamnumber-1)
 
 ##### HideHudHint()
 
-> **HideHudHint**(`opts`): `void`
+> **HideHudHint**(`opts?`): `void`
 
 Defined in: [helper/EnvironmentHudHint.ts:47](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EnvironmentHudHint.ts#L47)
 
@@ -2673,7 +2813,7 @@ Defined in: [helper/EntityHelper.ts:210](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`IsAlive`](#isalive-2)
+[`EntityHelper`](#abstract-entityhelper).[`IsAlive`](#isalive-1)
 
 ##### IsValid()
 
@@ -2687,7 +2827,7 @@ Defined in: [helper/EntityHelper.ts:114](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`IsValid`](#isvalid-2)
+[`EntityHelper`](#abstract-entityhelper).[`IsValid`](#isvalid-1)
 
 ##### IsWorld()
 
@@ -2701,7 +2841,7 @@ Defined in: [helper/EntityHelper.ts:214](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`IsWorld`](#isworld-2)
+[`EntityHelper`](#abstract-entityhelper).[`IsWorld`](#isworld-1)
 
 ##### Kill()
 
@@ -2715,11 +2855,45 @@ Defined in: [helper/EntityHelper.ts:226](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`Kill`](#kill-2)
+[`EntityHelper`](#abstract-entityhelper).[`Kill`](#kill-1)
+
+##### KillAll()
+
+> **KillAll**(): `void`
+
+Defined in: [helper/EntityHelper.ts:234](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L234)
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`KillAll`](#killall-1)
+
+##### KillHierarchy()
+
+> **KillHierarchy**(`opts?`): `void`
+
+Defined in: [helper/EntityHelper.ts:230](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L230)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `opts` | \{ \} |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`KillHierarchy`](#killhierarchy-1)
 
 ##### On()
 
-> **On**(`event_name`, `callback`): [`EntityHelper`](#entityhelper)
+> **On**(`event_name`, `callback`): [`EntityHelper`](#abstract-entityhelper)
 
 Defined in: [helper/EntityHelper.ts:104](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L104)
 
@@ -2732,17 +2906,17 @@ Defined in: [helper/EntityHelper.ts:104](https://github.com/Orb-Workshop/scripte
 
 ###### Returns
 
-[`EntityHelper`](#entityhelper)
+[`EntityHelper`](#abstract-entityhelper)
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`On`](#on-2)
+[`EntityHelper`](#abstract-entityhelper).[`On`](#on-1)
 
 ##### Remove()
 
 > **Remove**(): `void`
 
-Defined in: [helper/EntityHelper.ts:230](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L230)
+Defined in: [helper/EntityHelper.ts:238](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L238)
 
 ###### Returns
 
@@ -2750,7 +2924,7 @@ Defined in: [helper/EntityHelper.ts:230](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`Remove`](#remove-2)
+[`EntityHelper`](#abstract-entityhelper).[`Remove`](#remove-1)
 
 ##### SetEntityName()
 
@@ -2770,7 +2944,7 @@ Defined in: [helper/EntityHelper.ts:162](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`SetEntityName`](#setentityname-2)
+[`EntityHelper`](#abstract-entityhelper).[`SetEntityName`](#setentityname-1)
 
 ##### SetHealth()
 
@@ -2790,7 +2964,7 @@ Defined in: [helper/EntityHelper.ts:190](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`SetHealth`](#sethealth-2)
+[`EntityHelper`](#abstract-entityhelper).[`SetHealth`](#sethealth-1)
 
 ##### SetMaxHealth()
 
@@ -2810,7 +2984,7 @@ Defined in: [helper/EntityHelper.ts:202](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`SetMaxHealth`](#setmaxhealth-2)
+[`EntityHelper`](#abstract-entityhelper).[`SetMaxHealth`](#setmaxhealth-1)
 
 ##### SetOwner()
 
@@ -2830,7 +3004,7 @@ Defined in: [helper/EntityHelper.ts:170](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`SetOwner`](#setowner-2)
+[`EntityHelper`](#abstract-entityhelper).[`SetOwner`](#setowner-1)
 
 ##### SetParent()
 
@@ -2850,11 +3024,11 @@ Defined in: [helper/EntityHelper.ts:178](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`SetParent`](#setparent-2)
+[`EntityHelper`](#abstract-entityhelper).[`SetParent`](#setparent-1)
 
 ##### ShowHudHint()
 
-> **ShowHudHint**(`opts`): `void`
+> **ShowHudHint**(`opts?`): `void`
 
 Defined in: [helper/EnvironmentHudHint.ts:42](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EnvironmentHudHint.ts#L42)
 
@@ -2890,7 +3064,7 @@ Defined in: [helper/EntityHelper.ts:222](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`TakeDamage`](#takedamage-2)
+[`EntityHelper`](#abstract-entityhelper).[`TakeDamage`](#takedamage-1)
 
 ##### Teleport()
 
@@ -2913,7 +3087,7 @@ Defined in: [helper/EntityHelper.ts:150](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`Teleport`](#teleport-2)
+[`EntityHelper`](#abstract-entityhelper).[`Teleport`](#teleport-1)
 
 ##### Find()
 
@@ -2933,7 +3107,7 @@ Defined in: [helper/EnvironmentHudHint.ts:29](https://github.com/Orb-Workshop/sc
 
 ###### Overrides
 
-[`EntityHelper`](#entityhelper).[`Find`](#find-2)
+[`EntityHelper`](#abstract-entityhelper).[`Find`](#find-1)
 
 ##### FindAll()
 
@@ -2953,11 +3127,11 @@ Defined in: [helper/EnvironmentHudHint.ts:35](https://github.com/Orb-Workshop/sc
 
 ###### Overrides
 
-[`EntityHelper`](#entityhelper).[`FindAll`](#findall-2)
+[`EntityHelper`](#abstract-entityhelper).[`FindAll`](#findall-1)
 
 ##### FindAllByClass()
 
-> `static` **FindAllByClass**(`classname`, `r`): [`EntityHelper`](#entityhelper)[]
+> `static` **FindAllByClass**(`classname`, `r`): [`EntityHelper`](#abstract-entityhelper)[]
 
 Defined in: [helper/EntityHelper.ts:52](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L52)
 
@@ -2970,15 +3144,15 @@ Defined in: [helper/EntityHelper.ts:52](https://github.com/Orb-Workshop/scripted
 
 ###### Returns
 
-[`EntityHelper`](#entityhelper)[]
+[`EntityHelper`](#abstract-entityhelper)[]
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`FindAllByClass`](#findallbyclass-2)
+[`EntityHelper`](#abstract-entityhelper).[`FindAllByClass`](#findallbyclass-1)
 
 ##### FindByClass()
 
-> `static` **FindByClass**(`classname`, `r`, `error`): [`EntityHelper`](#entityhelper) \| `null`
+> `static` **FindByClass**(`classname`, `r`, `error?`): [`EntityHelper`](#abstract-entityhelper) \| `null`
 
 Defined in: [helper/EntityHelper.ts:44](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L44)
 
@@ -2992,11 +3166,11 @@ Defined in: [helper/EntityHelper.ts:44](https://github.com/Orb-Workshop/scripted
 
 ###### Returns
 
-[`EntityHelper`](#entityhelper) \| `null`
+[`EntityHelper`](#abstract-entityhelper) \| `null`
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`FindByClass`](#findbyclass-2)
+[`EntityHelper`](#abstract-entityhelper).[`FindByClass`](#findbyclass-1)
 
 ##### From()
 
@@ -3016,13 +3190,915 @@ Defined in: [helper/EnvironmentHudHint.ts:23](https://github.com/Orb-Workshop/sc
 
 ***
 
+### EnvironmentParticleGlow
+
+Defined in: [helper/EnvironmentParticleGlow.ts:17](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EnvironmentParticleGlow.ts#L17)
+
+#### Extends
+
+- [`EntityHelper`](#abstract-entityhelper)
+
+#### Constructors
+
+##### Constructor
+
+> **new EnvironmentParticleGlow**(`entity`): [`EnvironmentParticleGlow`](#environmentparticleglow)
+
+Defined in: [helper/EnvironmentParticleGlow.ts:18](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EnvironmentParticleGlow.ts#L18)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `entity` | `Entity` |
+
+###### Returns
+
+[`EnvironmentParticleGlow`](#environmentparticleglow)
+
+###### Overrides
+
+[`EntityHelper`](#abstract-entityhelper).[`constructor`](#constructor-2)
+
+#### Accessors
+
+##### raw
+
+###### Get Signature
+
+> **get** **raw**(): `Entity`
+
+Defined in: [helper/EntityHelper.ts:57](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L57)
+
+###### Returns
+
+`Entity`
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`raw`](#raw-1)
+
+#### Methods
+
+##### ConnectOutput()
+
+> **ConnectOutput**(`event_name`, `callback`): `void`
+
+Defined in: [helper/EntityHelper.ts:95](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L95)
+
+Represents EventListening of IO entities with `this.ConnectOutput`
+TODO: Use Global Events to 'latch onto' the callbacks this method represents.
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `event_name` | `string` |
+| `callback` | `ConnectOutputCallback` |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`ConnectOutput`](#connectoutput-1)
+
+##### DestroyImmediately()
+
+> **DestroyImmediately**(`opts?`): `void`
+
+Defined in: [helper/EnvironmentParticleGlow.ts:66](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EnvironmentParticleGlow.ts#L66)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `opts` | \{ \} |
+
+###### Returns
+
+`void`
+
+##### FireIO()
+
+> **FireIO**(`opts?`): `void`
+
+Defined in: [helper/EntityHelper.ts:59](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L59)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `opts` | \{ \} |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`FireIO`](#fireio-1)
+
+##### FireUser1()
+
+> **FireUser1**(`opts?`): `void`
+
+Defined in: [helper/EntityHelper.ts:68](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L68)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `opts` | \{ \} |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`FireUser1`](#fireuser1-1)
+
+##### FireUser2()
+
+> **FireUser2**(`opts?`): `void`
+
+Defined in: [helper/EntityHelper.ts:72](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L72)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `opts` | \{ \} |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`FireUser2`](#fireuser2-1)
+
+##### FireUser3()
+
+> **FireUser3**(`opts?`): `void`
+
+Defined in: [helper/EntityHelper.ts:76](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L76)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `opts` | \{ \} |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`FireUser3`](#fireuser3-1)
+
+##### FireUser4()
+
+> **FireUser4**(`opts?`): `void`
+
+Defined in: [helper/EntityHelper.ts:80](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L80)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `opts` | \{ \} |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`FireUser4`](#fireuser4-1)
+
+##### GetAbsAngles()
+
+> **GetAbsAngles**(): [`QAngle`](Math.md#qangle)
+
+Defined in: [helper/EntityHelper.ts:126](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L126)
+
+###### Returns
+
+[`QAngle`](Math.md#qangle)
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`GetAbsAngles`](#getabsangles-1)
+
+##### GetAbsOrigin()
+
+> **GetAbsOrigin**(): [`Vector3`](Math.md#vector3)
+
+Defined in: [helper/EntityHelper.ts:118](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L118)
+
+###### Returns
+
+[`Vector3`](Math.md#vector3)
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`GetAbsOrigin`](#getabsorigin-1)
+
+##### GetAbsVelocity()
+
+> **GetAbsVelocity**(): [`Vector3`](Math.md#vector3)
+
+Defined in: [helper/EntityHelper.ts:134](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L134)
+
+###### Returns
+
+[`Vector3`](Math.md#vector3)
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`GetAbsVelocity`](#getabsvelocity-1)
+
+##### GetClassName()
+
+> **GetClassName**(): `string`
+
+Defined in: [helper/EntityHelper.ts:154](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L154)
+
+###### Returns
+
+`string`
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`GetClassName`](#getclassname-1)
+
+##### GetEntityName()
+
+> **GetEntityName**(): `string`
+
+Defined in: [helper/EntityHelper.ts:158](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L158)
+
+###### Returns
+
+`string`
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`GetEntityName`](#getentityname-1)
+
+##### GetEyeAngles()
+
+> **GetEyeAngles**(): [`QAngle`](Math.md#qangle)
+
+Defined in: [helper/EntityHelper.ts:142](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L142)
+
+###### Returns
+
+[`QAngle`](Math.md#qangle)
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`GetEyeAngles`](#geteyeangles-1)
+
+##### GetEyePosition()
+
+> **GetEyePosition**(): [`Vector3`](Math.md#vector3)
+
+Defined in: [helper/EntityHelper.ts:146](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L146)
+
+###### Returns
+
+[`Vector3`](Math.md#vector3)
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`GetEyePosition`](#geteyeposition-1)
+
+##### GetGroundEntity()
+
+> **GetGroundEntity**(): `any`
+
+Defined in: [helper/EntityHelper.ts:218](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L218)
+
+###### Returns
+
+`any`
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`GetGroundEntity`](#getgroundentity-1)
+
+##### GetHealth()
+
+> **GetHealth**(): `number`
+
+Defined in: [helper/EntityHelper.ts:186](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L186)
+
+###### Returns
+
+`number`
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`GetHealth`](#gethealth-1)
+
+##### GetLocalAngles()
+
+> **GetLocalAngles**(): [`QAngle`](Math.md#qangle)
+
+Defined in: [helper/EntityHelper.ts:130](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L130)
+
+###### Returns
+
+[`QAngle`](Math.md#qangle)
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`GetLocalAngles`](#getlocalangles-1)
+
+##### GetLocalOrigin()
+
+> **GetLocalOrigin**(): [`Vector3`](Math.md#vector3)
+
+Defined in: [helper/EntityHelper.ts:122](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L122)
+
+###### Returns
+
+[`Vector3`](Math.md#vector3)
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`GetLocalOrigin`](#getlocalorigin-1)
+
+##### GetLocalVelocity()
+
+> **GetLocalVelocity**(): [`Vector3`](Math.md#vector3)
+
+Defined in: [helper/EntityHelper.ts:138](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L138)
+
+###### Returns
+
+[`Vector3`](Math.md#vector3)
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`GetLocalVelocity`](#getlocalvelocity-1)
+
+##### GetMaxHealth()
+
+> **GetMaxHealth**(): `number`
+
+Defined in: [helper/EntityHelper.ts:198](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L198)
+
+###### Returns
+
+`number`
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`GetMaxHealth`](#getmaxhealth-1)
+
+##### GetOwner()
+
+> **GetOwner**(): `any`
+
+Defined in: [helper/EntityHelper.ts:166](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L166)
+
+###### Returns
+
+`any`
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`GetOwner`](#getowner-1)
+
+##### GetParent()
+
+> **GetParent**(): `any`
+
+Defined in: [helper/EntityHelper.ts:174](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L174)
+
+###### Returns
+
+`any`
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`GetParent`](#getparent-1)
+
+##### GetTeamNumber()
+
+> **GetTeamNumber**(): `number`
+
+Defined in: [helper/EntityHelper.ts:182](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L182)
+
+###### Returns
+
+`number`
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`GetTeamNumber`](#getteamnumber-1)
+
+##### IsAlive()
+
+> **IsAlive**(): `boolean`
+
+Defined in: [helper/EntityHelper.ts:210](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L210)
+
+###### Returns
+
+`boolean`
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`IsAlive`](#isalive-1)
+
+##### IsValid()
+
+> **IsValid**(): `boolean`
+
+Defined in: [helper/EntityHelper.ts:114](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L114)
+
+###### Returns
+
+`boolean`
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`IsValid`](#isvalid-1)
+
+##### IsWorld()
+
+> **IsWorld**(): `boolean`
+
+Defined in: [helper/EntityHelper.ts:214](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L214)
+
+###### Returns
+
+`boolean`
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`IsWorld`](#isworld-1)
+
+##### Kill()
+
+> **Kill**(): `void`
+
+Defined in: [helper/EntityHelper.ts:226](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L226)
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`Kill`](#kill-1)
+
+##### KillAll()
+
+> **KillAll**(): `void`
+
+Defined in: [helper/EntityHelper.ts:234](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L234)
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`KillAll`](#killall-1)
+
+##### KillHierarchy()
+
+> **KillHierarchy**(`opts?`): `void`
+
+Defined in: [helper/EntityHelper.ts:230](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L230)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `opts` | \{ \} |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`KillHierarchy`](#killhierarchy-1)
+
+##### On()
+
+> **On**(`event_name`, `callback`): [`EntityHelper`](#abstract-entityhelper)
+
+Defined in: [helper/EntityHelper.ts:104](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L104)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `event_name` | `string` |
+| `callback` | `ConnectOutputCallback` |
+
+###### Returns
+
+[`EntityHelper`](#abstract-entityhelper)
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`On`](#on-1)
+
+##### Remove()
+
+> **Remove**(): `void`
+
+Defined in: [helper/EntityHelper.ts:238](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L238)
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`Remove`](#remove-1)
+
+##### setalphascale()
+
+> **setalphascale**(`opts?`): `void`
+
+Defined in: [helper/EnvironmentParticleGlow.ts:50](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EnvironmentParticleGlow.ts#L50)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `opts` | \{ \} |
+
+###### Returns
+
+`void`
+
+##### setcolortint()
+
+> **setcolortint**(`opts?`): `void`
+
+Defined in: [helper/EnvironmentParticleGlow.ts:42](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EnvironmentParticleGlow.ts#L42)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `opts` | \{ \} |
+
+###### Returns
+
+`void`
+
+##### SetControlPoint()
+
+> **SetControlPoint**(`x`, `y`, `z`, `opts?`): `void`
+
+Defined in: [helper/EnvironmentParticleGlow.ts:70](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EnvironmentParticleGlow.ts#L70)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `x` | `number` |
+| `y` | `number` |
+| `z` | `number` |
+| `opts` | \{ \} |
+
+###### Returns
+
+`void`
+
+##### SetEntityName()
+
+> **SetEntityName**(`s`): `void`
+
+Defined in: [helper/EntityHelper.ts:162](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L162)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `s` | `string` |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`SetEntityName`](#setentityname-1)
+
+##### SetHealth()
+
+> **SetHealth**(`hp`): `void`
+
+Defined in: [helper/EntityHelper.ts:190](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L190)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `hp` | `number` |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`SetHealth`](#sethealth-1)
+
+##### SetMaxHealth()
+
+> **SetMaxHealth**(`hp`): `void`
+
+Defined in: [helper/EntityHelper.ts:202](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L202)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `hp` | `number` |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`SetMaxHealth`](#setmaxhealth-1)
+
+##### SetOwner()
+
+> **SetOwner**(`e`): `void`
+
+Defined in: [helper/EntityHelper.ts:170](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L170)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `e` | `Entity` |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`SetOwner`](#setowner-1)
+
+##### SetParent()
+
+> **SetParent**(`e`): `void`
+
+Defined in: [helper/EntityHelper.ts:178](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L178)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `e` | `Entity` |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`SetParent`](#setparent-1)
+
+##### setscale()
+
+> **setscale**(`opts?`): `void`
+
+Defined in: [helper/EnvironmentParticleGlow.ts:46](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EnvironmentParticleGlow.ts#L46)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `opts` | \{ \} |
+
+###### Returns
+
+`void`
+
+##### Start()
+
+> **Start**(`opts?`): `void`
+
+Defined in: [helper/EnvironmentParticleGlow.ts:54](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EnvironmentParticleGlow.ts#L54)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `opts` | \{ \} |
+
+###### Returns
+
+`void`
+
+##### Stop()
+
+> **Stop**(`opts?`): `void`
+
+Defined in: [helper/EnvironmentParticleGlow.ts:58](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EnvironmentParticleGlow.ts#L58)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `opts` | \{ \} |
+
+###### Returns
+
+`void`
+
+##### StopPlayEndCap()
+
+> **StopPlayEndCap**(`opts?`): `void`
+
+Defined in: [helper/EnvironmentParticleGlow.ts:62](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EnvironmentParticleGlow.ts#L62)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `opts` | \{ \} |
+
+###### Returns
+
+`void`
+
+##### TakeDamage()
+
+> **TakeDamage**(`__namedParameters`): `number`
+
+Defined in: [helper/EntityHelper.ts:222](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L222)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `__namedParameters` | \{ `attacker`: `any`; `damage`: `any`; `inflictor`: `any`; `weapon`: `any`; \} |
+| `__namedParameters.attacker` | `any` |
+| `__namedParameters.damage` | `any` |
+| `__namedParameters.inflictor` | `any` |
+| `__namedParameters.weapon` | `any` |
+
+###### Returns
+
+`number`
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`TakeDamage`](#takedamage-1)
+
+##### Teleport()
+
+> **Teleport**(`__namedParameters`): `void`
+
+Defined in: [helper/EntityHelper.ts:150](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L150)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `__namedParameters` | \{ `position`: `any`; `rotation`: `any`; `velocity`: `any`; \} |
+| `__namedParameters.position` | `any` |
+| `__namedParameters.rotation` | `any` |
+| `__namedParameters.velocity` | `any` |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`Teleport`](#teleport-1)
+
+##### Find()
+
+> `static` **Find**(`r`): [`EnvironmentParticleGlow`](#environmentparticleglow)
+
+Defined in: [helper/EnvironmentParticleGlow.ts:29](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EnvironmentParticleGlow.ts#L29)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `r` | `string` \| `RegExp` |
+
+###### Returns
+
+[`EnvironmentParticleGlow`](#environmentparticleglow)
+
+###### Overrides
+
+[`EntityHelper`](#abstract-entityhelper).[`Find`](#find-1)
+
+##### FindAll()
+
+> `static` **FindAll**(`r`): [`EnvironmentParticleGlow`](#environmentparticleglow)[]
+
+Defined in: [helper/EnvironmentParticleGlow.ts:35](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EnvironmentParticleGlow.ts#L35)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `r` | `string` \| `RegExp` |
+
+###### Returns
+
+[`EnvironmentParticleGlow`](#environmentparticleglow)[]
+
+###### Overrides
+
+[`EntityHelper`](#abstract-entityhelper).[`FindAll`](#findall-1)
+
+##### FindAllByClass()
+
+> `static` **FindAllByClass**(`classname`, `r`): [`EntityHelper`](#abstract-entityhelper)[]
+
+Defined in: [helper/EntityHelper.ts:52](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L52)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `classname` | `string` |
+| `r` | `string` \| `RegExp` |
+
+###### Returns
+
+[`EntityHelper`](#abstract-entityhelper)[]
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`FindAllByClass`](#findallbyclass-1)
+
+##### FindByClass()
+
+> `static` **FindByClass**(`classname`, `r`, `error?`): [`EntityHelper`](#abstract-entityhelper) \| `null`
+
+Defined in: [helper/EntityHelper.ts:44](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L44)
+
+###### Parameters
+
+| Parameter | Type | Default value |
+| ------ | ------ | ------ |
+| `classname` | `string` | `undefined` |
+| `r` | `string` \| `RegExp` | `undefined` |
+| `error` | `boolean` | `false` |
+
+###### Returns
+
+[`EntityHelper`](#abstract-entityhelper) \| `null`
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`FindByClass`](#findbyclass-1)
+
+##### From()
+
+> `static` **From**(`e`): [`EnvironmentParticleGlow`](#environmentparticleglow)
+
+Defined in: [helper/EnvironmentParticleGlow.ts:23](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EnvironmentParticleGlow.ts#L23)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `e` | `Entity` |
+
+###### Returns
+
+[`EnvironmentParticleGlow`](#environmentparticleglow)
+
+***
+
 ### EnvironmentShake
 
 Defined in: [helper/EnvironmentShake.ts:17](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EnvironmentShake.ts#L17)
 
 #### Extends
 
-- [`EntityHelper`](#entityhelper)
+- [`EntityHelper`](#abstract-entityhelper)
 
 #### Constructors
 
@@ -3044,7 +4120,7 @@ Defined in: [helper/EnvironmentShake.ts:18](https://github.com/Orb-Workshop/scri
 
 ###### Overrides
 
-[`EntityHelper`](#entityhelper).[`constructor`](#constructor-2)
+[`EntityHelper`](#abstract-entityhelper).[`constructor`](#constructor-2)
 
 #### Accessors
 
@@ -3062,13 +4138,13 @@ Defined in: [helper/EntityHelper.ts:57](https://github.com/Orb-Workshop/scripted
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`raw`](#raw-1)
+[`EntityHelper`](#abstract-entityhelper).[`raw`](#raw-1)
 
 #### Methods
 
 ##### Amplitude()
 
-> **Amplitude**(`opts`): `void`
+> **Amplitude**(`opts?`): `void`
 
 Defined in: [helper/EnvironmentShake.ts:50](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EnvironmentShake.ts#L50)
 
@@ -3104,11 +4180,11 @@ TODO: Use Global Events to 'latch onto' the callbacks this method represents.
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`ConnectOutput`](#connectoutput-2)
+[`EntityHelper`](#abstract-entityhelper).[`ConnectOutput`](#connectoutput-1)
 
 ##### FireIO()
 
-> **FireIO**(`opts`): `void`
+> **FireIO**(`opts?`): `void`
 
 Defined in: [helper/EntityHelper.ts:59](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L59)
 
@@ -3124,11 +4200,11 @@ Defined in: [helper/EntityHelper.ts:59](https://github.com/Orb-Workshop/scripted
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`FireIO`](#fireio-2)
+[`EntityHelper`](#abstract-entityhelper).[`FireIO`](#fireio-1)
 
 ##### FireUser1()
 
-> **FireUser1**(`opts`): `void`
+> **FireUser1**(`opts?`): `void`
 
 Defined in: [helper/EntityHelper.ts:68](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L68)
 
@@ -3144,11 +4220,11 @@ Defined in: [helper/EntityHelper.ts:68](https://github.com/Orb-Workshop/scripted
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`FireUser1`](#fireuser1-2)
+[`EntityHelper`](#abstract-entityhelper).[`FireUser1`](#fireuser1-1)
 
 ##### FireUser2()
 
-> **FireUser2**(`opts`): `void`
+> **FireUser2**(`opts?`): `void`
 
 Defined in: [helper/EntityHelper.ts:72](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L72)
 
@@ -3164,11 +4240,11 @@ Defined in: [helper/EntityHelper.ts:72](https://github.com/Orb-Workshop/scripted
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`FireUser2`](#fireuser2-2)
+[`EntityHelper`](#abstract-entityhelper).[`FireUser2`](#fireuser2-1)
 
 ##### FireUser3()
 
-> **FireUser3**(`opts`): `void`
+> **FireUser3**(`opts?`): `void`
 
 Defined in: [helper/EntityHelper.ts:76](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L76)
 
@@ -3184,11 +4260,11 @@ Defined in: [helper/EntityHelper.ts:76](https://github.com/Orb-Workshop/scripted
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`FireUser3`](#fireuser3-2)
+[`EntityHelper`](#abstract-entityhelper).[`FireUser3`](#fireuser3-1)
 
 ##### FireUser4()
 
-> **FireUser4**(`opts`): `void`
+> **FireUser4**(`opts?`): `void`
 
 Defined in: [helper/EntityHelper.ts:80](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L80)
 
@@ -3204,11 +4280,11 @@ Defined in: [helper/EntityHelper.ts:80](https://github.com/Orb-Workshop/scripted
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`FireUser4`](#fireuser4-2)
+[`EntityHelper`](#abstract-entityhelper).[`FireUser4`](#fireuser4-1)
 
 ##### Frequency()
 
-> **Frequency**(`opts`): `void`
+> **Frequency**(`opts?`): `void`
 
 Defined in: [helper/EnvironmentShake.ts:54](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EnvironmentShake.ts#L54)
 
@@ -3234,7 +4310,7 @@ Defined in: [helper/EntityHelper.ts:126](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`GetAbsAngles`](#getabsangles-2)
+[`EntityHelper`](#abstract-entityhelper).[`GetAbsAngles`](#getabsangles-1)
 
 ##### GetAbsOrigin()
 
@@ -3248,7 +4324,7 @@ Defined in: [helper/EntityHelper.ts:118](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`GetAbsOrigin`](#getabsorigin-2)
+[`EntityHelper`](#abstract-entityhelper).[`GetAbsOrigin`](#getabsorigin-1)
 
 ##### GetAbsVelocity()
 
@@ -3262,7 +4338,7 @@ Defined in: [helper/EntityHelper.ts:134](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`GetAbsVelocity`](#getabsvelocity-2)
+[`EntityHelper`](#abstract-entityhelper).[`GetAbsVelocity`](#getabsvelocity-1)
 
 ##### GetClassName()
 
@@ -3276,7 +4352,7 @@ Defined in: [helper/EntityHelper.ts:154](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`GetClassName`](#getclassname-2)
+[`EntityHelper`](#abstract-entityhelper).[`GetClassName`](#getclassname-1)
 
 ##### GetEntityName()
 
@@ -3290,7 +4366,7 @@ Defined in: [helper/EntityHelper.ts:158](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`GetEntityName`](#getentityname-2)
+[`EntityHelper`](#abstract-entityhelper).[`GetEntityName`](#getentityname-1)
 
 ##### GetEyeAngles()
 
@@ -3304,7 +4380,7 @@ Defined in: [helper/EntityHelper.ts:142](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`GetEyeAngles`](#geteyeangles-2)
+[`EntityHelper`](#abstract-entityhelper).[`GetEyeAngles`](#geteyeangles-1)
 
 ##### GetEyePosition()
 
@@ -3318,7 +4394,7 @@ Defined in: [helper/EntityHelper.ts:146](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`GetEyePosition`](#geteyeposition-2)
+[`EntityHelper`](#abstract-entityhelper).[`GetEyePosition`](#geteyeposition-1)
 
 ##### GetGroundEntity()
 
@@ -3332,7 +4408,7 @@ Defined in: [helper/EntityHelper.ts:218](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`GetGroundEntity`](#getgroundentity-2)
+[`EntityHelper`](#abstract-entityhelper).[`GetGroundEntity`](#getgroundentity-1)
 
 ##### GetHealth()
 
@@ -3346,7 +4422,7 @@ Defined in: [helper/EntityHelper.ts:186](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`GetHealth`](#gethealth-2)
+[`EntityHelper`](#abstract-entityhelper).[`GetHealth`](#gethealth-1)
 
 ##### GetLocalAngles()
 
@@ -3360,7 +4436,7 @@ Defined in: [helper/EntityHelper.ts:130](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`GetLocalAngles`](#getlocalangles-2)
+[`EntityHelper`](#abstract-entityhelper).[`GetLocalAngles`](#getlocalangles-1)
 
 ##### GetLocalOrigin()
 
@@ -3374,7 +4450,7 @@ Defined in: [helper/EntityHelper.ts:122](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`GetLocalOrigin`](#getlocalorigin-2)
+[`EntityHelper`](#abstract-entityhelper).[`GetLocalOrigin`](#getlocalorigin-1)
 
 ##### GetLocalVelocity()
 
@@ -3388,7 +4464,7 @@ Defined in: [helper/EntityHelper.ts:138](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`GetLocalVelocity`](#getlocalvelocity-2)
+[`EntityHelper`](#abstract-entityhelper).[`GetLocalVelocity`](#getlocalvelocity-1)
 
 ##### GetMaxHealth()
 
@@ -3402,7 +4478,7 @@ Defined in: [helper/EntityHelper.ts:198](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`GetMaxHealth`](#getmaxhealth-2)
+[`EntityHelper`](#abstract-entityhelper).[`GetMaxHealth`](#getmaxhealth-1)
 
 ##### GetOwner()
 
@@ -3416,7 +4492,7 @@ Defined in: [helper/EntityHelper.ts:166](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`GetOwner`](#getowner-2)
+[`EntityHelper`](#abstract-entityhelper).[`GetOwner`](#getowner-1)
 
 ##### GetParent()
 
@@ -3430,7 +4506,7 @@ Defined in: [helper/EntityHelper.ts:174](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`GetParent`](#getparent-2)
+[`EntityHelper`](#abstract-entityhelper).[`GetParent`](#getparent-1)
 
 ##### GetTeamNumber()
 
@@ -3444,7 +4520,7 @@ Defined in: [helper/EntityHelper.ts:182](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`GetTeamNumber`](#getteamnumber-2)
+[`EntityHelper`](#abstract-entityhelper).[`GetTeamNumber`](#getteamnumber-1)
 
 ##### IsAlive()
 
@@ -3458,7 +4534,7 @@ Defined in: [helper/EntityHelper.ts:210](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`IsAlive`](#isalive-2)
+[`EntityHelper`](#abstract-entityhelper).[`IsAlive`](#isalive-1)
 
 ##### IsValid()
 
@@ -3472,7 +4548,7 @@ Defined in: [helper/EntityHelper.ts:114](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`IsValid`](#isvalid-2)
+[`EntityHelper`](#abstract-entityhelper).[`IsValid`](#isvalid-1)
 
 ##### IsWorld()
 
@@ -3486,7 +4562,7 @@ Defined in: [helper/EntityHelper.ts:214](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`IsWorld`](#isworld-2)
+[`EntityHelper`](#abstract-entityhelper).[`IsWorld`](#isworld-1)
 
 ##### Kill()
 
@@ -3500,11 +4576,45 @@ Defined in: [helper/EntityHelper.ts:226](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`Kill`](#kill-2)
+[`EntityHelper`](#abstract-entityhelper).[`Kill`](#kill-1)
+
+##### KillAll()
+
+> **KillAll**(): `void`
+
+Defined in: [helper/EntityHelper.ts:234](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L234)
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`KillAll`](#killall-1)
+
+##### KillHierarchy()
+
+> **KillHierarchy**(`opts?`): `void`
+
+Defined in: [helper/EntityHelper.ts:230](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L230)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `opts` | \{ \} |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`KillHierarchy`](#killhierarchy-1)
 
 ##### On()
 
-> **On**(`event_name`, `callback`): [`EntityHelper`](#entityhelper)
+> **On**(`event_name`, `callback`): [`EntityHelper`](#abstract-entityhelper)
 
 Defined in: [helper/EntityHelper.ts:104](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L104)
 
@@ -3517,17 +4627,17 @@ Defined in: [helper/EntityHelper.ts:104](https://github.com/Orb-Workshop/scripte
 
 ###### Returns
 
-[`EntityHelper`](#entityhelper)
+[`EntityHelper`](#abstract-entityhelper)
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`On`](#on-2)
+[`EntityHelper`](#abstract-entityhelper).[`On`](#on-1)
 
 ##### Remove()
 
 > **Remove**(): `void`
 
-Defined in: [helper/EntityHelper.ts:230](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L230)
+Defined in: [helper/EntityHelper.ts:238](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L238)
 
 ###### Returns
 
@@ -3535,7 +4645,7 @@ Defined in: [helper/EntityHelper.ts:230](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`Remove`](#remove-2)
+[`EntityHelper`](#abstract-entityhelper).[`Remove`](#remove-1)
 
 ##### SetEntityName()
 
@@ -3555,7 +4665,7 @@ Defined in: [helper/EntityHelper.ts:162](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`SetEntityName`](#setentityname-2)
+[`EntityHelper`](#abstract-entityhelper).[`SetEntityName`](#setentityname-1)
 
 ##### SetHealth()
 
@@ -3575,7 +4685,7 @@ Defined in: [helper/EntityHelper.ts:190](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`SetHealth`](#sethealth-2)
+[`EntityHelper`](#abstract-entityhelper).[`SetHealth`](#sethealth-1)
 
 ##### SetMaxHealth()
 
@@ -3595,7 +4705,7 @@ Defined in: [helper/EntityHelper.ts:202](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`SetMaxHealth`](#setmaxhealth-2)
+[`EntityHelper`](#abstract-entityhelper).[`SetMaxHealth`](#setmaxhealth-1)
 
 ##### SetOwner()
 
@@ -3615,7 +4725,7 @@ Defined in: [helper/EntityHelper.ts:170](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`SetOwner`](#setowner-2)
+[`EntityHelper`](#abstract-entityhelper).[`SetOwner`](#setowner-1)
 
 ##### SetParent()
 
@@ -3635,11 +4745,11 @@ Defined in: [helper/EntityHelper.ts:178](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`SetParent`](#setparent-2)
+[`EntityHelper`](#abstract-entityhelper).[`SetParent`](#setparent-1)
 
 ##### StartShake()
 
-> **StartShake**(`opts`): `void`
+> **StartShake**(`opts?`): `void`
 
 Defined in: [helper/EnvironmentShake.ts:42](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EnvironmentShake.ts#L42)
 
@@ -3655,7 +4765,7 @@ Defined in: [helper/EnvironmentShake.ts:42](https://github.com/Orb-Workshop/scri
 
 ##### StopShake()
 
-> **StopShake**(`opts`): `void`
+> **StopShake**(`opts?`): `void`
 
 Defined in: [helper/EnvironmentShake.ts:46](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EnvironmentShake.ts#L46)
 
@@ -3691,7 +4801,7 @@ Defined in: [helper/EntityHelper.ts:222](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`TakeDamage`](#takedamage-2)
+[`EntityHelper`](#abstract-entityhelper).[`TakeDamage`](#takedamage-1)
 
 ##### Teleport()
 
@@ -3714,7 +4824,7 @@ Defined in: [helper/EntityHelper.ts:150](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`Teleport`](#teleport-2)
+[`EntityHelper`](#abstract-entityhelper).[`Teleport`](#teleport-1)
 
 ##### Find()
 
@@ -3734,7 +4844,7 @@ Defined in: [helper/EnvironmentShake.ts:29](https://github.com/Orb-Workshop/scri
 
 ###### Overrides
 
-[`EntityHelper`](#entityhelper).[`Find`](#find-2)
+[`EntityHelper`](#abstract-entityhelper).[`Find`](#find-1)
 
 ##### FindAll()
 
@@ -3754,11 +4864,11 @@ Defined in: [helper/EnvironmentShake.ts:35](https://github.com/Orb-Workshop/scri
 
 ###### Overrides
 
-[`EntityHelper`](#entityhelper).[`FindAll`](#findall-2)
+[`EntityHelper`](#abstract-entityhelper).[`FindAll`](#findall-1)
 
 ##### FindAllByClass()
 
-> `static` **FindAllByClass**(`classname`, `r`): [`EntityHelper`](#entityhelper)[]
+> `static` **FindAllByClass**(`classname`, `r`): [`EntityHelper`](#abstract-entityhelper)[]
 
 Defined in: [helper/EntityHelper.ts:52](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L52)
 
@@ -3771,15 +4881,15 @@ Defined in: [helper/EntityHelper.ts:52](https://github.com/Orb-Workshop/scripted
 
 ###### Returns
 
-[`EntityHelper`](#entityhelper)[]
+[`EntityHelper`](#abstract-entityhelper)[]
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`FindAllByClass`](#findallbyclass-2)
+[`EntityHelper`](#abstract-entityhelper).[`FindAllByClass`](#findallbyclass-1)
 
 ##### FindByClass()
 
-> `static` **FindByClass**(`classname`, `r`, `error`): [`EntityHelper`](#entityhelper) \| `null`
+> `static` **FindByClass**(`classname`, `r`, `error?`): [`EntityHelper`](#abstract-entityhelper) \| `null`
 
 Defined in: [helper/EntityHelper.ts:44](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L44)
 
@@ -3793,11 +4903,11 @@ Defined in: [helper/EntityHelper.ts:44](https://github.com/Orb-Workshop/scripted
 
 ###### Returns
 
-[`EntityHelper`](#entityhelper) \| `null`
+[`EntityHelper`](#abstract-entityhelper) \| `null`
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`FindByClass`](#findbyclass-2)
+[`EntityHelper`](#abstract-entityhelper).[`FindByClass`](#findbyclass-1)
 
 ##### From()
 
@@ -3874,7 +4984,7 @@ Defined in: [helper/EntityHelper.ts:57](https://github.com/Orb-Workshop/scripted
 
 ##### AddHealth()
 
-> **AddHealth**(`value`, `opts`): `void`
+> **AddHealth**(`value`, `opts?`): `void`
 
 Defined in: [helper/FuncBreakable.ts:49](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/FuncBreakable.ts#L49)
 
@@ -3891,7 +5001,7 @@ Defined in: [helper/FuncBreakable.ts:49](https://github.com/Orb-Workshop/scripte
 
 ##### Break()
 
-> **Break**(`opts`): `void`
+> **Break**(`opts?`): `void`
 
 Defined in: [helper/FuncBreakable.ts:41](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/FuncBreakable.ts#L41)
 
@@ -3931,7 +5041,7 @@ TODO: Use Global Events to 'latch onto' the callbacks this method represents.
 
 ##### FireIO()
 
-> **FireIO**(`opts`): `void`
+> **FireIO**(`opts?`): `void`
 
 Defined in: [helper/EntityHelper.ts:59](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L59)
 
@@ -3951,7 +5061,7 @@ Defined in: [helper/EntityHelper.ts:59](https://github.com/Orb-Workshop/scripted
 
 ##### FireUser1()
 
-> **FireUser1**(`opts`): `void`
+> **FireUser1**(`opts?`): `void`
 
 Defined in: [helper/EntityHelper.ts:68](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L68)
 
@@ -3971,7 +5081,7 @@ Defined in: [helper/EntityHelper.ts:68](https://github.com/Orb-Workshop/scripted
 
 ##### FireUser2()
 
-> **FireUser2**(`opts`): `void`
+> **FireUser2**(`opts?`): `void`
 
 Defined in: [helper/EntityHelper.ts:72](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L72)
 
@@ -3991,7 +5101,7 @@ Defined in: [helper/EntityHelper.ts:72](https://github.com/Orb-Workshop/scripted
 
 ##### FireUser3()
 
-> **FireUser3**(`opts`): `void`
+> **FireUser3**(`opts?`): `void`
 
 Defined in: [helper/EntityHelper.ts:76](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L76)
 
@@ -4011,7 +5121,7 @@ Defined in: [helper/EntityHelper.ts:76](https://github.com/Orb-Workshop/scripted
 
 ##### FireUser4()
 
-> **FireUser4**(`opts`): `void`
+> **FireUser4**(`opts?`): `void`
 
 Defined in: [helper/EntityHelper.ts:80](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L80)
 
@@ -4084,6 +5194,20 @@ Defined in: [helper/EntityHelper.ts:154](https://github.com/Orb-Workshop/scripte
 ###### Inherited from
 
 [`BaseModelEntity`](#basemodelentity).[`GetClassName`](#getclassname)
+
+##### GetColor()
+
+> **GetColor**(): `ColorType`
+
+Defined in: [helper/BaseModelEntity.ts:59](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L59)
+
+###### Returns
+
+`ColorType`
+
+###### Inherited from
+
+[`BaseModelEntity`](#basemodelentity).[`GetColor`](#getcolor)
 
 ##### GetEntityName()
 
@@ -4211,6 +5335,34 @@ Defined in: [helper/EntityHelper.ts:198](https://github.com/Orb-Workshop/scripte
 
 [`BaseModelEntity`](#basemodelentity).[`GetMaxHealth`](#getmaxhealth)
 
+##### GetModelName()
+
+> **GetModelName**(): `string`
+
+Defined in: [helper/BaseModelEntity.ts:43](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L43)
+
+###### Returns
+
+`string`
+
+###### Inherited from
+
+[`BaseModelEntity`](#basemodelentity).[`GetModelName`](#getmodelname)
+
+##### GetModelScale()
+
+> **GetModelScale**(): `string`
+
+Defined in: [helper/BaseModelEntity.ts:51](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L51)
+
+###### Returns
+
+`string`
+
+###### Inherited from
+
+[`BaseModelEntity`](#basemodelentity).[`GetModelScale`](#getmodelscale)
+
 ##### GetOwner()
 
 > **GetOwner**(): `any`
@@ -4257,7 +5409,7 @@ Defined in: [helper/EntityHelper.ts:182](https://github.com/Orb-Workshop/scripte
 
 > **Glow**(`color?`): `void`
 
-Defined in: [helper/BaseModelEntity.ts:52](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L52)
+Defined in: [helper/BaseModelEntity.ts:63](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L63)
 
 ###### Parameters
 
@@ -4286,6 +5438,20 @@ Defined in: [helper/EntityHelper.ts:210](https://github.com/Orb-Workshop/scripte
 ###### Inherited from
 
 [`BaseModelEntity`](#basemodelentity).[`IsAlive`](#isalive)
+
+##### IsGlowing()
+
+> **IsGlowing**(): `boolean`
+
+Defined in: [helper/BaseModelEntity.ts:71](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L71)
+
+###### Returns
+
+`boolean`
+
+###### Inherited from
+
+[`BaseModelEntity`](#basemodelentity).[`IsGlowing`](#isglowing)
 
 ##### IsValid()
 
@@ -4329,9 +5495,43 @@ Defined in: [helper/EntityHelper.ts:226](https://github.com/Orb-Workshop/scripte
 
 [`BaseModelEntity`](#basemodelentity).[`Kill`](#kill)
 
+##### KillAll()
+
+> **KillAll**(): `void`
+
+Defined in: [helper/EntityHelper.ts:234](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L234)
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`BaseModelEntity`](#basemodelentity).[`KillAll`](#killall)
+
+##### KillHierarchy()
+
+> **KillHierarchy**(`opts?`): `void`
+
+Defined in: [helper/EntityHelper.ts:230](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L230)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `opts` | \{ \} |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`BaseModelEntity`](#basemodelentity).[`KillHierarchy`](#killhierarchy)
+
 ##### On()
 
-> **On**(`event_name`, `callback`): [`EntityHelper`](#entityhelper)
+> **On**(`event_name`, `callback`): [`EntityHelper`](#abstract-entityhelper)
 
 Defined in: [helper/EntityHelper.ts:104](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L104)
 
@@ -4344,7 +5544,7 @@ Defined in: [helper/EntityHelper.ts:104](https://github.com/Orb-Workshop/scripte
 
 ###### Returns
 
-[`EntityHelper`](#entityhelper)
+[`EntityHelper`](#abstract-entityhelper)
 
 ###### Inherited from
 
@@ -4386,7 +5586,7 @@ Defined in: [helper/FuncBreakable.ts:67](https://github.com/Orb-Workshop/scripte
 
 > **Remove**(): `void`
 
-Defined in: [helper/EntityHelper.ts:230](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L230)
+Defined in: [helper/EntityHelper.ts:238](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L238)
 
 ###### Returns
 
@@ -4398,7 +5598,7 @@ Defined in: [helper/EntityHelper.ts:230](https://github.com/Orb-Workshop/scripte
 
 ##### RemoveHealth()
 
-> **RemoveHealth**(`value`, `opts`): `void`
+> **RemoveHealth**(`value`, `opts?`): `void`
 
 Defined in: [helper/FuncBreakable.ts:53](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/FuncBreakable.ts#L53)
 
@@ -4417,7 +5617,7 @@ Defined in: [helper/FuncBreakable.ts:53](https://github.com/Orb-Workshop/scripte
 
 > **SetColor**(`c`): `void`
 
-Defined in: [helper/BaseModelEntity.ts:48](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L48)
+Defined in: [helper/BaseModelEntity.ts:55](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L55)
 
 ###### Parameters
 
@@ -4455,7 +5655,7 @@ Defined in: [helper/EntityHelper.ts:162](https://github.com/Orb-Workshop/scripte
 
 ##### SetHealth()
 
-> **SetHealth**(`value`, `opts`): `void`
+> **SetHealth**(`value`, `opts?`): `void`
 
 Defined in: [helper/FuncBreakable.ts:45](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/FuncBreakable.ts#L45)
 
@@ -4476,7 +5676,7 @@ Defined in: [helper/FuncBreakable.ts:45](https://github.com/Orb-Workshop/scripte
 
 ##### SetMass()
 
-> **SetMass**(`value`, `opts`): `void`
+> **SetMass**(`value`, `opts?`): `void`
 
 Defined in: [helper/FuncBreakable.ts:57](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/FuncBreakable.ts#L57)
 
@@ -4515,7 +5715,7 @@ Defined in: [helper/EntityHelper.ts:202](https://github.com/Orb-Workshop/scripte
 
 > **SetModel**(`s`): `void`
 
-Defined in: [helper/BaseModelEntity.ts:40](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L40)
+Defined in: [helper/BaseModelEntity.ts:39](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L39)
 
 ###### Parameters
 
@@ -4535,7 +5735,7 @@ Defined in: [helper/BaseModelEntity.ts:40](https://github.com/Orb-Workshop/scrip
 
 > **SetModelScale**(`s`): `void`
 
-Defined in: [helper/BaseModelEntity.ts:44](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L44)
+Defined in: [helper/BaseModelEntity.ts:47](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L47)
 
 ###### Parameters
 
@@ -4642,7 +5842,7 @@ Defined in: [helper/EntityHelper.ts:150](https://github.com/Orb-Workshop/scripte
 
 > **Unglow**(): `void`
 
-Defined in: [helper/BaseModelEntity.ts:56](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L56)
+Defined in: [helper/BaseModelEntity.ts:67](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L67)
 
 ###### Returns
 
@@ -4694,7 +5894,7 @@ Defined in: [helper/FuncBreakable.ts:34](https://github.com/Orb-Workshop/scripte
 
 ##### FindAllByClass()
 
-> `static` **FindAllByClass**(`classname`, `r`): [`EntityHelper`](#entityhelper)[]
+> `static` **FindAllByClass**(`classname`, `r`): [`EntityHelper`](#abstract-entityhelper)[]
 
 Defined in: [helper/EntityHelper.ts:52](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L52)
 
@@ -4707,7 +5907,7 @@ Defined in: [helper/EntityHelper.ts:52](https://github.com/Orb-Workshop/scripted
 
 ###### Returns
 
-[`EntityHelper`](#entityhelper)[]
+[`EntityHelper`](#abstract-entityhelper)[]
 
 ###### Inherited from
 
@@ -4715,7 +5915,7 @@ Defined in: [helper/EntityHelper.ts:52](https://github.com/Orb-Workshop/scripted
 
 ##### FindByClass()
 
-> `static` **FindByClass**(`classname`, `r`, `error`): [`EntityHelper`](#entityhelper) \| `null`
+> `static` **FindByClass**(`classname`, `r`, `error?`): [`EntityHelper`](#abstract-entityhelper) \| `null`
 
 Defined in: [helper/EntityHelper.ts:44](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L44)
 
@@ -4729,7 +5929,7 @@ Defined in: [helper/EntityHelper.ts:44](https://github.com/Orb-Workshop/scripted
 
 ###### Returns
 
-[`EntityHelper`](#entityhelper) \| `null`
+[`EntityHelper`](#abstract-entityhelper) \| `null`
 
 ###### Inherited from
 
@@ -4833,7 +6033,7 @@ TODO: Use Global Events to 'latch onto' the callbacks this method represents.
 
 ##### FireIO()
 
-> **FireIO**(`opts`): `void`
+> **FireIO**(`opts?`): `void`
 
 Defined in: [helper/EntityHelper.ts:59](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L59)
 
@@ -4853,7 +6053,7 @@ Defined in: [helper/EntityHelper.ts:59](https://github.com/Orb-Workshop/scripted
 
 ##### FireUser1()
 
-> **FireUser1**(`opts`): `void`
+> **FireUser1**(`opts?`): `void`
 
 Defined in: [helper/EntityHelper.ts:68](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L68)
 
@@ -4873,7 +6073,7 @@ Defined in: [helper/EntityHelper.ts:68](https://github.com/Orb-Workshop/scripted
 
 ##### FireUser2()
 
-> **FireUser2**(`opts`): `void`
+> **FireUser2**(`opts?`): `void`
 
 Defined in: [helper/EntityHelper.ts:72](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L72)
 
@@ -4893,7 +6093,7 @@ Defined in: [helper/EntityHelper.ts:72](https://github.com/Orb-Workshop/scripted
 
 ##### FireUser3()
 
-> **FireUser3**(`opts`): `void`
+> **FireUser3**(`opts?`): `void`
 
 Defined in: [helper/EntityHelper.ts:76](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L76)
 
@@ -4913,7 +6113,7 @@ Defined in: [helper/EntityHelper.ts:76](https://github.com/Orb-Workshop/scripted
 
 ##### FireUser4()
 
-> **FireUser4**(`opts`): `void`
+> **FireUser4**(`opts?`): `void`
 
 Defined in: [helper/EntityHelper.ts:80](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L80)
 
@@ -4986,6 +6186,20 @@ Defined in: [helper/EntityHelper.ts:154](https://github.com/Orb-Workshop/scripte
 ###### Inherited from
 
 [`BaseModelEntity`](#basemodelentity).[`GetClassName`](#getclassname)
+
+##### GetColor()
+
+> **GetColor**(): `ColorType`
+
+Defined in: [helper/BaseModelEntity.ts:59](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L59)
+
+###### Returns
+
+`ColorType`
+
+###### Inherited from
+
+[`BaseModelEntity`](#basemodelentity).[`GetColor`](#getcolor)
 
 ##### GetEntityName()
 
@@ -5113,6 +6327,34 @@ Defined in: [helper/EntityHelper.ts:198](https://github.com/Orb-Workshop/scripte
 
 [`BaseModelEntity`](#basemodelentity).[`GetMaxHealth`](#getmaxhealth)
 
+##### GetModelName()
+
+> **GetModelName**(): `string`
+
+Defined in: [helper/BaseModelEntity.ts:43](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L43)
+
+###### Returns
+
+`string`
+
+###### Inherited from
+
+[`BaseModelEntity`](#basemodelentity).[`GetModelName`](#getmodelname)
+
+##### GetModelScale()
+
+> **GetModelScale**(): `string`
+
+Defined in: [helper/BaseModelEntity.ts:51](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L51)
+
+###### Returns
+
+`string`
+
+###### Inherited from
+
+[`BaseModelEntity`](#basemodelentity).[`GetModelScale`](#getmodelscale)
+
 ##### GetOwner()
 
 > **GetOwner**(): `any`
@@ -5159,7 +6401,7 @@ Defined in: [helper/EntityHelper.ts:182](https://github.com/Orb-Workshop/scripte
 
 > **Glow**(`color?`): `void`
 
-Defined in: [helper/BaseModelEntity.ts:52](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L52)
+Defined in: [helper/BaseModelEntity.ts:63](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L63)
 
 ###### Parameters
 
@@ -5188,6 +6430,20 @@ Defined in: [helper/EntityHelper.ts:210](https://github.com/Orb-Workshop/scripte
 ###### Inherited from
 
 [`BaseModelEntity`](#basemodelentity).[`IsAlive`](#isalive)
+
+##### IsGlowing()
+
+> **IsGlowing**(): `boolean`
+
+Defined in: [helper/BaseModelEntity.ts:71](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L71)
+
+###### Returns
+
+`boolean`
+
+###### Inherited from
+
+[`BaseModelEntity`](#basemodelentity).[`IsGlowing`](#isglowing)
 
 ##### IsValid()
 
@@ -5231,9 +6487,43 @@ Defined in: [helper/EntityHelper.ts:226](https://github.com/Orb-Workshop/scripte
 
 [`BaseModelEntity`](#basemodelentity).[`Kill`](#kill)
 
+##### KillAll()
+
+> **KillAll**(): `void`
+
+Defined in: [helper/EntityHelper.ts:234](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L234)
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`BaseModelEntity`](#basemodelentity).[`KillAll`](#killall)
+
+##### KillHierarchy()
+
+> **KillHierarchy**(`opts?`): `void`
+
+Defined in: [helper/EntityHelper.ts:230](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L230)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `opts` | \{ \} |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`BaseModelEntity`](#basemodelentity).[`KillHierarchy`](#killhierarchy)
+
 ##### Lock()
 
-> **Lock**(`opts`): `void`
+> **Lock**(`opts?`): `void`
 
 Defined in: [helper/FuncButton.ts:42](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/FuncButton.ts#L42)
 
@@ -5249,7 +6539,7 @@ Defined in: [helper/FuncButton.ts:42](https://github.com/Orb-Workshop/scriptedeu
 
 ##### On()
 
-> **On**(`event_name`, `callback`): [`EntityHelper`](#entityhelper)
+> **On**(`event_name`, `callback`): [`EntityHelper`](#abstract-entityhelper)
 
 Defined in: [helper/EntityHelper.ts:104](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L104)
 
@@ -5262,7 +6552,7 @@ Defined in: [helper/EntityHelper.ts:104](https://github.com/Orb-Workshop/scripte
 
 ###### Returns
 
-[`EntityHelper`](#entityhelper)
+[`EntityHelper`](#abstract-entityhelper)
 
 ###### Inherited from
 
@@ -5302,7 +6592,7 @@ Defined in: [helper/FuncButton.ts:58](https://github.com/Orb-Workshop/scriptedeu
 
 ##### Press()
 
-> **Press**(`opts`): `void`
+> **Press**(`opts?`): `void`
 
 Defined in: [helper/FuncButton.ts:50](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/FuncButton.ts#L50)
 
@@ -5320,7 +6610,7 @@ Defined in: [helper/FuncButton.ts:50](https://github.com/Orb-Workshop/scriptedeu
 
 > **Remove**(): `void`
 
-Defined in: [helper/EntityHelper.ts:230](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L230)
+Defined in: [helper/EntityHelper.ts:238](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L238)
 
 ###### Returns
 
@@ -5334,7 +6624,7 @@ Defined in: [helper/EntityHelper.ts:230](https://github.com/Orb-Workshop/scripte
 
 > **SetColor**(`c`): `void`
 
-Defined in: [helper/BaseModelEntity.ts:48](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L48)
+Defined in: [helper/BaseModelEntity.ts:55](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L55)
 
 ###### Parameters
 
@@ -5414,7 +6704,7 @@ Defined in: [helper/EntityHelper.ts:202](https://github.com/Orb-Workshop/scripte
 
 > **SetModel**(`s`): `void`
 
-Defined in: [helper/BaseModelEntity.ts:40](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L40)
+Defined in: [helper/BaseModelEntity.ts:39](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L39)
 
 ###### Parameters
 
@@ -5434,7 +6724,7 @@ Defined in: [helper/BaseModelEntity.ts:40](https://github.com/Orb-Workshop/scrip
 
 > **SetModelScale**(`s`): `void`
 
-Defined in: [helper/BaseModelEntity.ts:44](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L44)
+Defined in: [helper/BaseModelEntity.ts:47](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L47)
 
 ###### Parameters
 
@@ -5541,7 +6831,7 @@ Defined in: [helper/EntityHelper.ts:150](https://github.com/Orb-Workshop/scripte
 
 > **Unglow**(): `void`
 
-Defined in: [helper/BaseModelEntity.ts:56](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L56)
+Defined in: [helper/BaseModelEntity.ts:67](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L67)
 
 ###### Returns
 
@@ -5553,7 +6843,7 @@ Defined in: [helper/BaseModelEntity.ts:56](https://github.com/Orb-Workshop/scrip
 
 ##### Unlock()
 
-> **Unlock**(`opts`): `void`
+> **Unlock**(`opts?`): `void`
 
 Defined in: [helper/FuncButton.ts:46](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/FuncButton.ts#L46)
 
@@ -5609,7 +6899,7 @@ Defined in: [helper/FuncButton.ts:37](https://github.com/Orb-Workshop/scriptedeu
 
 ##### FindAllByClass()
 
-> `static` **FindAllByClass**(`classname`, `r`): [`EntityHelper`](#entityhelper)[]
+> `static` **FindAllByClass**(`classname`, `r`): [`EntityHelper`](#abstract-entityhelper)[]
 
 Defined in: [helper/EntityHelper.ts:52](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L52)
 
@@ -5622,7 +6912,7 @@ Defined in: [helper/EntityHelper.ts:52](https://github.com/Orb-Workshop/scripted
 
 ###### Returns
 
-[`EntityHelper`](#entityhelper)[]
+[`EntityHelper`](#abstract-entityhelper)[]
 
 ###### Inherited from
 
@@ -5630,7 +6920,7 @@ Defined in: [helper/EntityHelper.ts:52](https://github.com/Orb-Workshop/scripted
 
 ##### FindByClass()
 
-> `static` **FindByClass**(`classname`, `r`, `error`): [`EntityHelper`](#entityhelper) \| `null`
+> `static` **FindByClass**(`classname`, `r`, `error?`): [`EntityHelper`](#abstract-entityhelper) \| `null`
 
 Defined in: [helper/EntityHelper.ts:44](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L44)
 
@@ -5644,7 +6934,7 @@ Defined in: [helper/EntityHelper.ts:44](https://github.com/Orb-Workshop/scripted
 
 ###### Returns
 
-[`EntityHelper`](#entityhelper) \| `null`
+[`EntityHelper`](#abstract-entityhelper) \| `null`
 
 ###### Inherited from
 
@@ -5672,13 +6962,2351 @@ Defined in: [helper/FuncButton.ts:25](https://github.com/Orb-Workshop/scriptedeu
 
 ***
 
+### FuncMoveLinear
+
+Defined in: [helper/FuncMoveLinear.ts:20](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/FuncMoveLinear.ts#L20)
+
+#### Extends
+
+- [`BaseModelEntity`](#basemodelentity)
+
+#### Constructors
+
+##### Constructor
+
+> **new FuncMoveLinear**(`entity`): [`FuncMoveLinear`](#funcmovelinear)
+
+Defined in: [helper/FuncMoveLinear.ts:21](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/FuncMoveLinear.ts#L21)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `entity` | `Entity` |
+
+###### Returns
+
+[`FuncMoveLinear`](#funcmovelinear)
+
+###### Overrides
+
+[`BaseModelEntity`](#basemodelentity).[`constructor`](#constructor)
+
+#### Accessors
+
+##### raw
+
+###### Get Signature
+
+> **get** **raw**(): `Entity`
+
+Defined in: [helper/EntityHelper.ts:57](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L57)
+
+###### Returns
+
+`Entity`
+
+###### Inherited from
+
+[`BaseModelEntity`](#basemodelentity).[`raw`](#raw)
+
+#### Methods
+
+##### Close()
+
+> **Close**(`opts?`): `void`
+
+Defined in: [helper/FuncMoveLinear.ts:47](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/FuncMoveLinear.ts#L47)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `opts` | \{ \} |
+
+###### Returns
+
+`void`
+
+##### ConnectOutput()
+
+> **ConnectOutput**(`event_name`, `callback`): `void`
+
+Defined in: [helper/EntityHelper.ts:95](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L95)
+
+Represents EventListening of IO entities with `this.ConnectOutput`
+TODO: Use Global Events to 'latch onto' the callbacks this method represents.
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `event_name` | `string` |
+| `callback` | `ConnectOutputCallback` |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`BaseModelEntity`](#basemodelentity).[`ConnectOutput`](#connectoutput)
+
+##### FireIO()
+
+> **FireIO**(`opts?`): `void`
+
+Defined in: [helper/EntityHelper.ts:59](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L59)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `opts` | \{ \} |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`BaseModelEntity`](#basemodelentity).[`FireIO`](#fireio)
+
+##### FireUser1()
+
+> **FireUser1**(`opts?`): `void`
+
+Defined in: [helper/EntityHelper.ts:68](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L68)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `opts` | \{ \} |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`BaseModelEntity`](#basemodelentity).[`FireUser1`](#fireuser1)
+
+##### FireUser2()
+
+> **FireUser2**(`opts?`): `void`
+
+Defined in: [helper/EntityHelper.ts:72](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L72)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `opts` | \{ \} |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`BaseModelEntity`](#basemodelentity).[`FireUser2`](#fireuser2)
+
+##### FireUser3()
+
+> **FireUser3**(`opts?`): `void`
+
+Defined in: [helper/EntityHelper.ts:76](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L76)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `opts` | \{ \} |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`BaseModelEntity`](#basemodelentity).[`FireUser3`](#fireuser3)
+
+##### FireUser4()
+
+> **FireUser4**(`opts?`): `void`
+
+Defined in: [helper/EntityHelper.ts:80](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L80)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `opts` | \{ \} |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`BaseModelEntity`](#basemodelentity).[`FireUser4`](#fireuser4)
+
+##### GetAbsAngles()
+
+> **GetAbsAngles**(): [`QAngle`](Math.md#qangle)
+
+Defined in: [helper/EntityHelper.ts:126](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L126)
+
+###### Returns
+
+[`QAngle`](Math.md#qangle)
+
+###### Inherited from
+
+[`BaseModelEntity`](#basemodelentity).[`GetAbsAngles`](#getabsangles)
+
+##### GetAbsOrigin()
+
+> **GetAbsOrigin**(): [`Vector3`](Math.md#vector3)
+
+Defined in: [helper/EntityHelper.ts:118](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L118)
+
+###### Returns
+
+[`Vector3`](Math.md#vector3)
+
+###### Inherited from
+
+[`BaseModelEntity`](#basemodelentity).[`GetAbsOrigin`](#getabsorigin)
+
+##### GetAbsVelocity()
+
+> **GetAbsVelocity**(): [`Vector3`](Math.md#vector3)
+
+Defined in: [helper/EntityHelper.ts:134](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L134)
+
+###### Returns
+
+[`Vector3`](Math.md#vector3)
+
+###### Inherited from
+
+[`BaseModelEntity`](#basemodelentity).[`GetAbsVelocity`](#getabsvelocity)
+
+##### GetClassName()
+
+> **GetClassName**(): `string`
+
+Defined in: [helper/EntityHelper.ts:154](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L154)
+
+###### Returns
+
+`string`
+
+###### Inherited from
+
+[`BaseModelEntity`](#basemodelentity).[`GetClassName`](#getclassname)
+
+##### GetColor()
+
+> **GetColor**(): `ColorType`
+
+Defined in: [helper/BaseModelEntity.ts:59](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L59)
+
+###### Returns
+
+`ColorType`
+
+###### Inherited from
+
+[`BaseModelEntity`](#basemodelentity).[`GetColor`](#getcolor)
+
+##### GetEntityName()
+
+> **GetEntityName**(): `string`
+
+Defined in: [helper/EntityHelper.ts:158](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L158)
+
+###### Returns
+
+`string`
+
+###### Inherited from
+
+[`BaseModelEntity`](#basemodelentity).[`GetEntityName`](#getentityname)
+
+##### GetEyeAngles()
+
+> **GetEyeAngles**(): [`QAngle`](Math.md#qangle)
+
+Defined in: [helper/EntityHelper.ts:142](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L142)
+
+###### Returns
+
+[`QAngle`](Math.md#qangle)
+
+###### Inherited from
+
+[`BaseModelEntity`](#basemodelentity).[`GetEyeAngles`](#geteyeangles)
+
+##### GetEyePosition()
+
+> **GetEyePosition**(): [`Vector3`](Math.md#vector3)
+
+Defined in: [helper/EntityHelper.ts:146](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L146)
+
+###### Returns
+
+[`Vector3`](Math.md#vector3)
+
+###### Inherited from
+
+[`BaseModelEntity`](#basemodelentity).[`GetEyePosition`](#geteyeposition)
+
+##### GetGroundEntity()
+
+> **GetGroundEntity**(): `any`
+
+Defined in: [helper/EntityHelper.ts:218](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L218)
+
+###### Returns
+
+`any`
+
+###### Inherited from
+
+[`BaseModelEntity`](#basemodelentity).[`GetGroundEntity`](#getgroundentity)
+
+##### GetHealth()
+
+> **GetHealth**(): `number`
+
+Defined in: [helper/EntityHelper.ts:186](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L186)
+
+###### Returns
+
+`number`
+
+###### Inherited from
+
+[`BaseModelEntity`](#basemodelentity).[`GetHealth`](#gethealth)
+
+##### GetLocalAngles()
+
+> **GetLocalAngles**(): [`QAngle`](Math.md#qangle)
+
+Defined in: [helper/EntityHelper.ts:130](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L130)
+
+###### Returns
+
+[`QAngle`](Math.md#qangle)
+
+###### Inherited from
+
+[`BaseModelEntity`](#basemodelentity).[`GetLocalAngles`](#getlocalangles)
+
+##### GetLocalOrigin()
+
+> **GetLocalOrigin**(): [`Vector3`](Math.md#vector3)
+
+Defined in: [helper/EntityHelper.ts:122](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L122)
+
+###### Returns
+
+[`Vector3`](Math.md#vector3)
+
+###### Inherited from
+
+[`BaseModelEntity`](#basemodelentity).[`GetLocalOrigin`](#getlocalorigin)
+
+##### GetLocalVelocity()
+
+> **GetLocalVelocity**(): [`Vector3`](Math.md#vector3)
+
+Defined in: [helper/EntityHelper.ts:138](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L138)
+
+###### Returns
+
+[`Vector3`](Math.md#vector3)
+
+###### Inherited from
+
+[`BaseModelEntity`](#basemodelentity).[`GetLocalVelocity`](#getlocalvelocity)
+
+##### GetMaxHealth()
+
+> **GetMaxHealth**(): `number`
+
+Defined in: [helper/EntityHelper.ts:198](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L198)
+
+###### Returns
+
+`number`
+
+###### Inherited from
+
+[`BaseModelEntity`](#basemodelentity).[`GetMaxHealth`](#getmaxhealth)
+
+##### GetModelName()
+
+> **GetModelName**(): `string`
+
+Defined in: [helper/BaseModelEntity.ts:43](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L43)
+
+###### Returns
+
+`string`
+
+###### Inherited from
+
+[`BaseModelEntity`](#basemodelentity).[`GetModelName`](#getmodelname)
+
+##### GetModelScale()
+
+> **GetModelScale**(): `string`
+
+Defined in: [helper/BaseModelEntity.ts:51](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L51)
+
+###### Returns
+
+`string`
+
+###### Inherited from
+
+[`BaseModelEntity`](#basemodelentity).[`GetModelScale`](#getmodelscale)
+
+##### GetOwner()
+
+> **GetOwner**(): `any`
+
+Defined in: [helper/EntityHelper.ts:166](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L166)
+
+###### Returns
+
+`any`
+
+###### Inherited from
+
+[`BaseModelEntity`](#basemodelentity).[`GetOwner`](#getowner)
+
+##### GetParent()
+
+> **GetParent**(): `any`
+
+Defined in: [helper/EntityHelper.ts:174](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L174)
+
+###### Returns
+
+`any`
+
+###### Inherited from
+
+[`BaseModelEntity`](#basemodelentity).[`GetParent`](#getparent)
+
+##### GetTeamNumber()
+
+> **GetTeamNumber**(): `number`
+
+Defined in: [helper/EntityHelper.ts:182](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L182)
+
+###### Returns
+
+`number`
+
+###### Inherited from
+
+[`BaseModelEntity`](#basemodelentity).[`GetTeamNumber`](#getteamnumber)
+
+##### Glow()
+
+> **Glow**(`color?`): `void`
+
+Defined in: [helper/BaseModelEntity.ts:63](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L63)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `color?` | `any` |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`BaseModelEntity`](#basemodelentity).[`Glow`](#glow)
+
+##### IsAlive()
+
+> **IsAlive**(): `boolean`
+
+Defined in: [helper/EntityHelper.ts:210](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L210)
+
+###### Returns
+
+`boolean`
+
+###### Inherited from
+
+[`BaseModelEntity`](#basemodelentity).[`IsAlive`](#isalive)
+
+##### IsGlowing()
+
+> **IsGlowing**(): `boolean`
+
+Defined in: [helper/BaseModelEntity.ts:71](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L71)
+
+###### Returns
+
+`boolean`
+
+###### Inherited from
+
+[`BaseModelEntity`](#basemodelentity).[`IsGlowing`](#isglowing)
+
+##### IsValid()
+
+> **IsValid**(): `boolean`
+
+Defined in: [helper/EntityHelper.ts:114](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L114)
+
+###### Returns
+
+`boolean`
+
+###### Inherited from
+
+[`BaseModelEntity`](#basemodelentity).[`IsValid`](#isvalid)
+
+##### IsWorld()
+
+> **IsWorld**(): `boolean`
+
+Defined in: [helper/EntityHelper.ts:214](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L214)
+
+###### Returns
+
+`boolean`
+
+###### Inherited from
+
+[`BaseModelEntity`](#basemodelentity).[`IsWorld`](#isworld)
+
+##### Kill()
+
+> **Kill**(): `void`
+
+Defined in: [helper/EntityHelper.ts:226](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L226)
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`BaseModelEntity`](#basemodelentity).[`Kill`](#kill)
+
+##### KillAll()
+
+> **KillAll**(): `void`
+
+Defined in: [helper/EntityHelper.ts:234](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L234)
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`BaseModelEntity`](#basemodelentity).[`KillAll`](#killall)
+
+##### KillHierarchy()
+
+> **KillHierarchy**(`opts?`): `void`
+
+Defined in: [helper/EntityHelper.ts:230](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L230)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `opts` | \{ \} |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`BaseModelEntity`](#basemodelentity).[`KillHierarchy`](#killhierarchy)
+
+##### On()
+
+> **On**(`event_name`, `callback`): [`EntityHelper`](#abstract-entityhelper)
+
+Defined in: [helper/EntityHelper.ts:104](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L104)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `event_name` | `string` |
+| `callback` | `ConnectOutputCallback` |
+
+###### Returns
+
+[`EntityHelper`](#abstract-entityhelper)
+
+###### Inherited from
+
+[`BaseModelEntity`](#basemodelentity).[`On`](#on)
+
+##### OnFullyClosed()
+
+> **OnFullyClosed**(`callback`): [`FuncMoveLinear`](#funcmovelinear)
+
+Defined in: [helper/FuncMoveLinear.ts:81](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/FuncMoveLinear.ts#L81)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `callback` | `ConnectOutputCallback` |
+
+###### Returns
+
+[`FuncMoveLinear`](#funcmovelinear)
+
+##### OnFullyOpened()
+
+> **OnFullyOpened**(`callback`): [`FuncMoveLinear`](#funcmovelinear)
+
+Defined in: [helper/FuncMoveLinear.ts:77](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/FuncMoveLinear.ts#L77)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `callback` | `ConnectOutputCallback` |
+
+###### Returns
+
+[`FuncMoveLinear`](#funcmovelinear)
+
+##### Open()
+
+> **Open**(`opts?`): `void`
+
+Defined in: [helper/FuncMoveLinear.ts:43](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/FuncMoveLinear.ts#L43)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `opts` | \{ \} |
+
+###### Returns
+
+`void`
+
+##### Remove()
+
+> **Remove**(): `void`
+
+Defined in: [helper/EntityHelper.ts:238](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L238)
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`BaseModelEntity`](#basemodelentity).[`Remove`](#remove)
+
+##### ResetPosition()
+
+> **ResetPosition**(`opts?`): `void`
+
+Defined in: [helper/FuncMoveLinear.ts:55](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/FuncMoveLinear.ts#L55)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `opts` | \{ \} |
+
+###### Returns
+
+`void`
+
+##### SetColor()
+
+> **SetColor**(`c`): `void`
+
+Defined in: [helper/BaseModelEntity.ts:55](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L55)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `c` | `ColorType` |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`BaseModelEntity`](#basemodelentity).[`SetColor`](#setcolor)
+
+##### SetEntityName()
+
+> **SetEntityName**(`s`): `void`
+
+Defined in: [helper/EntityHelper.ts:162](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L162)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `s` | `string` |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`BaseModelEntity`](#basemodelentity).[`SetEntityName`](#setentityname)
+
+##### SetHealth()
+
+> **SetHealth**(`hp`): `void`
+
+Defined in: [helper/EntityHelper.ts:190](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L190)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `hp` | `number` |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`BaseModelEntity`](#basemodelentity).[`SetHealth`](#sethealth)
+
+##### SetMaxHealth()
+
+> **SetMaxHealth**(`hp`): `void`
+
+Defined in: [helper/EntityHelper.ts:202](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L202)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `hp` | `number` |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`BaseModelEntity`](#basemodelentity).[`SetMaxHealth`](#setmaxhealth)
+
+##### SetModel()
+
+> **SetModel**(`s`): `void`
+
+Defined in: [helper/BaseModelEntity.ts:39](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L39)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `s` | `string` |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`BaseModelEntity`](#basemodelentity).[`SetModel`](#setmodel)
+
+##### SetModelScale()
+
+> **SetModelScale**(`s`): `void`
+
+Defined in: [helper/BaseModelEntity.ts:47](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L47)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `s` | `number` |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`BaseModelEntity`](#basemodelentity).[`SetModelScale`](#setmodelscale)
+
+##### SetMoveDistanceFromEnd()
+
+> **SetMoveDistanceFromEnd**(`opts?`): `void`
+
+Defined in: [helper/FuncMoveLinear.ts:71](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/FuncMoveLinear.ts#L71)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `opts` | \{ \} |
+
+###### Returns
+
+`void`
+
+##### SetMoveDistanceFromStart()
+
+> **SetMoveDistanceFromStart**(`opts?`): `void`
+
+Defined in: [helper/FuncMoveLinear.ts:67](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/FuncMoveLinear.ts#L67)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `opts` | \{ \} |
+
+###### Returns
+
+`void`
+
+##### SetOwner()
+
+> **SetOwner**(`e`): `void`
+
+Defined in: [helper/EntityHelper.ts:170](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L170)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `e` | `Entity` |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`BaseModelEntity`](#basemodelentity).[`SetOwner`](#setowner)
+
+##### SetParent()
+
+> **SetParent**(`e`): `void`
+
+Defined in: [helper/EntityHelper.ts:178](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L178)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `e` | `Entity` |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`BaseModelEntity`](#basemodelentity).[`SetParent`](#setparent)
+
+##### SetPosition()
+
+> **SetPosition**(`value`, `opts?`): `void`
+
+Defined in: [helper/FuncMoveLinear.ts:51](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/FuncMoveLinear.ts#L51)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `value` | `number` |
+| `opts` | \{ \} |
+
+###### Returns
+
+`void`
+
+##### SetSpeed()
+
+> **SetSpeed**(`value`, `opts?`): `void`
+
+Defined in: [helper/FuncMoveLinear.ts:59](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/FuncMoveLinear.ts#L59)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `value` | `number` |
+| `opts` | \{ \} |
+
+###### Returns
+
+`void`
+
+##### TakeDamage()
+
+> **TakeDamage**(`__namedParameters`): `number`
+
+Defined in: [helper/EntityHelper.ts:222](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L222)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `__namedParameters` | \{ `attacker`: `any`; `damage`: `any`; `inflictor`: `any`; `weapon`: `any`; \} |
+| `__namedParameters.attacker` | `any` |
+| `__namedParameters.damage` | `any` |
+| `__namedParameters.inflictor` | `any` |
+| `__namedParameters.weapon` | `any` |
+
+###### Returns
+
+`number`
+
+###### Inherited from
+
+[`BaseModelEntity`](#basemodelentity).[`TakeDamage`](#takedamage)
+
+##### Teleport()
+
+> **Teleport**(`__namedParameters`): `void`
+
+Defined in: [helper/EntityHelper.ts:150](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L150)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `__namedParameters` | \{ `position`: `any`; `rotation`: `any`; `velocity`: `any`; \} |
+| `__namedParameters.position` | `any` |
+| `__namedParameters.rotation` | `any` |
+| `__namedParameters.velocity` | `any` |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`BaseModelEntity`](#basemodelentity).[`Teleport`](#teleport)
+
+##### TeleportToTarget()
+
+> **TeleportToTarget**(`opts?`): `void`
+
+Defined in: [helper/FuncMoveLinear.ts:63](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/FuncMoveLinear.ts#L63)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `opts` | \{ \} |
+
+###### Returns
+
+`void`
+
+##### Unglow()
+
+> **Unglow**(): `void`
+
+Defined in: [helper/BaseModelEntity.ts:67](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L67)
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`BaseModelEntity`](#basemodelentity).[`Unglow`](#unglow)
+
+##### Find()
+
+> `static` **Find**(`r`): [`FuncMoveLinear`](#funcmovelinear)
+
+Defined in: [helper/FuncMoveLinear.ts:31](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/FuncMoveLinear.ts#L31)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `r` | `string` \| `RegExp` |
+
+###### Returns
+
+[`FuncMoveLinear`](#funcmovelinear)
+
+###### Overrides
+
+[`BaseModelEntity`](#basemodelentity).[`Find`](#find)
+
+##### FindAll()
+
+> `static` **FindAll**(`r`): [`FuncMoveLinear`](#funcmovelinear)[]
+
+Defined in: [helper/FuncMoveLinear.ts:36](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/FuncMoveLinear.ts#L36)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `r` | `string` \| `RegExp` |
+
+###### Returns
+
+[`FuncMoveLinear`](#funcmovelinear)[]
+
+###### Overrides
+
+[`BaseModelEntity`](#basemodelentity).[`FindAll`](#findall)
+
+##### FindAllByClass()
+
+> `static` **FindAllByClass**(`classname`, `r`): [`EntityHelper`](#abstract-entityhelper)[]
+
+Defined in: [helper/EntityHelper.ts:52](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L52)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `classname` | `string` |
+| `r` | `string` \| `RegExp` |
+
+###### Returns
+
+[`EntityHelper`](#abstract-entityhelper)[]
+
+###### Inherited from
+
+[`BaseModelEntity`](#basemodelentity).[`FindAllByClass`](#findallbyclass)
+
+##### FindByClass()
+
+> `static` **FindByClass**(`classname`, `r`, `error?`): [`EntityHelper`](#abstract-entityhelper) \| `null`
+
+Defined in: [helper/EntityHelper.ts:44](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L44)
+
+###### Parameters
+
+| Parameter | Type | Default value |
+| ------ | ------ | ------ |
+| `classname` | `string` | `undefined` |
+| `r` | `string` \| `RegExp` | `undefined` |
+| `error` | `boolean` | `false` |
+
+###### Returns
+
+[`EntityHelper`](#abstract-entityhelper) \| `null`
+
+###### Inherited from
+
+[`BaseModelEntity`](#basemodelentity).[`FindByClass`](#findbyclass)
+
+##### From()
+
+> `static` **From**(`e`): [`FuncMoveLinear`](#funcmovelinear)
+
+Defined in: [helper/FuncMoveLinear.ts:25](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/FuncMoveLinear.ts#L25)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `e` | `Entity` |
+
+###### Returns
+
+[`FuncMoveLinear`](#funcmovelinear)
+
+###### Overrides
+
+[`BaseModelEntity`](#basemodelentity).[`From`](#from)
+
+***
+
+### FuncTrackTrain
+
+Defined in: [helper/FuncTrackTrain.ts:20](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/FuncTrackTrain.ts#L20)
+
+#### Extends
+
+- [`BaseModelEntity`](#basemodelentity)
+
+#### Constructors
+
+##### Constructor
+
+> **new FuncTrackTrain**(`entity`): [`FuncTrackTrain`](#functracktrain)
+
+Defined in: [helper/FuncTrackTrain.ts:21](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/FuncTrackTrain.ts#L21)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `entity` | `Entity` |
+
+###### Returns
+
+[`FuncTrackTrain`](#functracktrain)
+
+###### Overrides
+
+[`BaseModelEntity`](#basemodelentity).[`constructor`](#constructor)
+
+#### Accessors
+
+##### raw
+
+###### Get Signature
+
+> **get** **raw**(): `Entity`
+
+Defined in: [helper/EntityHelper.ts:57](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L57)
+
+###### Returns
+
+`Entity`
+
+###### Inherited from
+
+[`BaseModelEntity`](#basemodelentity).[`raw`](#raw)
+
+#### Methods
+
+##### ConnectOutput()
+
+> **ConnectOutput**(`event_name`, `callback`): `void`
+
+Defined in: [helper/EntityHelper.ts:95](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L95)
+
+Represents EventListening of IO entities with `this.ConnectOutput`
+TODO: Use Global Events to 'latch onto' the callbacks this method represents.
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `event_name` | `string` |
+| `callback` | `ConnectOutputCallback` |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`BaseModelEntity`](#basemodelentity).[`ConnectOutput`](#connectoutput)
+
+##### DisableShadows()
+
+> **DisableShadows**(`opts?`): `void`
+
+Defined in: [helper/FuncTrackTrain.ts:43](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/FuncTrackTrain.ts#L43)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `opts` | \{ \} |
+
+###### Returns
+
+`void`
+
+##### EnableShadows()
+
+> **EnableShadows**(`opts?`): `void`
+
+Defined in: [helper/FuncTrackTrain.ts:47](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/FuncTrackTrain.ts#L47)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `opts` | \{ \} |
+
+###### Returns
+
+`void`
+
+##### FireIO()
+
+> **FireIO**(`opts?`): `void`
+
+Defined in: [helper/EntityHelper.ts:59](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L59)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `opts` | \{ \} |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`BaseModelEntity`](#basemodelentity).[`FireIO`](#fireio)
+
+##### FireUser1()
+
+> **FireUser1**(`opts?`): `void`
+
+Defined in: [helper/EntityHelper.ts:68](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L68)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `opts` | \{ \} |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`BaseModelEntity`](#basemodelentity).[`FireUser1`](#fireuser1)
+
+##### FireUser2()
+
+> **FireUser2**(`opts?`): `void`
+
+Defined in: [helper/EntityHelper.ts:72](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L72)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `opts` | \{ \} |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`BaseModelEntity`](#basemodelentity).[`FireUser2`](#fireuser2)
+
+##### FireUser3()
+
+> **FireUser3**(`opts?`): `void`
+
+Defined in: [helper/EntityHelper.ts:76](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L76)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `opts` | \{ \} |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`BaseModelEntity`](#basemodelentity).[`FireUser3`](#fireuser3)
+
+##### FireUser4()
+
+> **FireUser4**(`opts?`): `void`
+
+Defined in: [helper/EntityHelper.ts:80](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L80)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `opts` | \{ \} |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`BaseModelEntity`](#basemodelentity).[`FireUser4`](#fireuser4)
+
+##### GetAbsAngles()
+
+> **GetAbsAngles**(): [`QAngle`](Math.md#qangle)
+
+Defined in: [helper/EntityHelper.ts:126](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L126)
+
+###### Returns
+
+[`QAngle`](Math.md#qangle)
+
+###### Inherited from
+
+[`BaseModelEntity`](#basemodelentity).[`GetAbsAngles`](#getabsangles)
+
+##### GetAbsOrigin()
+
+> **GetAbsOrigin**(): [`Vector3`](Math.md#vector3)
+
+Defined in: [helper/EntityHelper.ts:118](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L118)
+
+###### Returns
+
+[`Vector3`](Math.md#vector3)
+
+###### Inherited from
+
+[`BaseModelEntity`](#basemodelentity).[`GetAbsOrigin`](#getabsorigin)
+
+##### GetAbsVelocity()
+
+> **GetAbsVelocity**(): [`Vector3`](Math.md#vector3)
+
+Defined in: [helper/EntityHelper.ts:134](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L134)
+
+###### Returns
+
+[`Vector3`](Math.md#vector3)
+
+###### Inherited from
+
+[`BaseModelEntity`](#basemodelentity).[`GetAbsVelocity`](#getabsvelocity)
+
+##### GetClassName()
+
+> **GetClassName**(): `string`
+
+Defined in: [helper/EntityHelper.ts:154](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L154)
+
+###### Returns
+
+`string`
+
+###### Inherited from
+
+[`BaseModelEntity`](#basemodelentity).[`GetClassName`](#getclassname)
+
+##### GetColor()
+
+> **GetColor**(): `ColorType`
+
+Defined in: [helper/BaseModelEntity.ts:59](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L59)
+
+###### Returns
+
+`ColorType`
+
+###### Inherited from
+
+[`BaseModelEntity`](#basemodelentity).[`GetColor`](#getcolor)
+
+##### GetEntityName()
+
+> **GetEntityName**(): `string`
+
+Defined in: [helper/EntityHelper.ts:158](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L158)
+
+###### Returns
+
+`string`
+
+###### Inherited from
+
+[`BaseModelEntity`](#basemodelentity).[`GetEntityName`](#getentityname)
+
+##### GetEyeAngles()
+
+> **GetEyeAngles**(): [`QAngle`](Math.md#qangle)
+
+Defined in: [helper/EntityHelper.ts:142](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L142)
+
+###### Returns
+
+[`QAngle`](Math.md#qangle)
+
+###### Inherited from
+
+[`BaseModelEntity`](#basemodelentity).[`GetEyeAngles`](#geteyeangles)
+
+##### GetEyePosition()
+
+> **GetEyePosition**(): [`Vector3`](Math.md#vector3)
+
+Defined in: [helper/EntityHelper.ts:146](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L146)
+
+###### Returns
+
+[`Vector3`](Math.md#vector3)
+
+###### Inherited from
+
+[`BaseModelEntity`](#basemodelentity).[`GetEyePosition`](#geteyeposition)
+
+##### GetGroundEntity()
+
+> **GetGroundEntity**(): `any`
+
+Defined in: [helper/EntityHelper.ts:218](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L218)
+
+###### Returns
+
+`any`
+
+###### Inherited from
+
+[`BaseModelEntity`](#basemodelentity).[`GetGroundEntity`](#getgroundentity)
+
+##### GetHealth()
+
+> **GetHealth**(): `number`
+
+Defined in: [helper/EntityHelper.ts:186](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L186)
+
+###### Returns
+
+`number`
+
+###### Inherited from
+
+[`BaseModelEntity`](#basemodelentity).[`GetHealth`](#gethealth)
+
+##### GetLocalAngles()
+
+> **GetLocalAngles**(): [`QAngle`](Math.md#qangle)
+
+Defined in: [helper/EntityHelper.ts:130](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L130)
+
+###### Returns
+
+[`QAngle`](Math.md#qangle)
+
+###### Inherited from
+
+[`BaseModelEntity`](#basemodelentity).[`GetLocalAngles`](#getlocalangles)
+
+##### GetLocalOrigin()
+
+> **GetLocalOrigin**(): [`Vector3`](Math.md#vector3)
+
+Defined in: [helper/EntityHelper.ts:122](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L122)
+
+###### Returns
+
+[`Vector3`](Math.md#vector3)
+
+###### Inherited from
+
+[`BaseModelEntity`](#basemodelentity).[`GetLocalOrigin`](#getlocalorigin)
+
+##### GetLocalVelocity()
+
+> **GetLocalVelocity**(): [`Vector3`](Math.md#vector3)
+
+Defined in: [helper/EntityHelper.ts:138](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L138)
+
+###### Returns
+
+[`Vector3`](Math.md#vector3)
+
+###### Inherited from
+
+[`BaseModelEntity`](#basemodelentity).[`GetLocalVelocity`](#getlocalvelocity)
+
+##### GetMaxHealth()
+
+> **GetMaxHealth**(): `number`
+
+Defined in: [helper/EntityHelper.ts:198](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L198)
+
+###### Returns
+
+`number`
+
+###### Inherited from
+
+[`BaseModelEntity`](#basemodelentity).[`GetMaxHealth`](#getmaxhealth)
+
+##### GetModelName()
+
+> **GetModelName**(): `string`
+
+Defined in: [helper/BaseModelEntity.ts:43](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L43)
+
+###### Returns
+
+`string`
+
+###### Inherited from
+
+[`BaseModelEntity`](#basemodelentity).[`GetModelName`](#getmodelname)
+
+##### GetModelScale()
+
+> **GetModelScale**(): `string`
+
+Defined in: [helper/BaseModelEntity.ts:51](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L51)
+
+###### Returns
+
+`string`
+
+###### Inherited from
+
+[`BaseModelEntity`](#basemodelentity).[`GetModelScale`](#getmodelscale)
+
+##### GetOwner()
+
+> **GetOwner**(): `any`
+
+Defined in: [helper/EntityHelper.ts:166](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L166)
+
+###### Returns
+
+`any`
+
+###### Inherited from
+
+[`BaseModelEntity`](#basemodelentity).[`GetOwner`](#getowner)
+
+##### GetParent()
+
+> **GetParent**(): `any`
+
+Defined in: [helper/EntityHelper.ts:174](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L174)
+
+###### Returns
+
+`any`
+
+###### Inherited from
+
+[`BaseModelEntity`](#basemodelentity).[`GetParent`](#getparent)
+
+##### GetTeamNumber()
+
+> **GetTeamNumber**(): `number`
+
+Defined in: [helper/EntityHelper.ts:182](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L182)
+
+###### Returns
+
+`number`
+
+###### Inherited from
+
+[`BaseModelEntity`](#basemodelentity).[`GetTeamNumber`](#getteamnumber)
+
+##### Glow()
+
+> **Glow**(`color?`): `void`
+
+Defined in: [helper/BaseModelEntity.ts:63](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L63)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `color?` | `any` |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`BaseModelEntity`](#basemodelentity).[`Glow`](#glow)
+
+##### IsAlive()
+
+> **IsAlive**(): `boolean`
+
+Defined in: [helper/EntityHelper.ts:210](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L210)
+
+###### Returns
+
+`boolean`
+
+###### Inherited from
+
+[`BaseModelEntity`](#basemodelentity).[`IsAlive`](#isalive)
+
+##### IsGlowing()
+
+> **IsGlowing**(): `boolean`
+
+Defined in: [helper/BaseModelEntity.ts:71](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L71)
+
+###### Returns
+
+`boolean`
+
+###### Inherited from
+
+[`BaseModelEntity`](#basemodelentity).[`IsGlowing`](#isglowing)
+
+##### IsValid()
+
+> **IsValid**(): `boolean`
+
+Defined in: [helper/EntityHelper.ts:114](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L114)
+
+###### Returns
+
+`boolean`
+
+###### Inherited from
+
+[`BaseModelEntity`](#basemodelentity).[`IsValid`](#isvalid)
+
+##### IsWorld()
+
+> **IsWorld**(): `boolean`
+
+Defined in: [helper/EntityHelper.ts:214](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L214)
+
+###### Returns
+
+`boolean`
+
+###### Inherited from
+
+[`BaseModelEntity`](#basemodelentity).[`IsWorld`](#isworld)
+
+##### Kill()
+
+> **Kill**(): `void`
+
+Defined in: [helper/EntityHelper.ts:226](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L226)
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`BaseModelEntity`](#basemodelentity).[`Kill`](#kill)
+
+##### KillAll()
+
+> **KillAll**(): `void`
+
+Defined in: [helper/EntityHelper.ts:234](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L234)
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`BaseModelEntity`](#basemodelentity).[`KillAll`](#killall)
+
+##### KillHierarchy()
+
+> **KillHierarchy**(`opts?`): `void`
+
+Defined in: [helper/EntityHelper.ts:230](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L230)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `opts` | \{ \} |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`BaseModelEntity`](#basemodelentity).[`KillHierarchy`](#killhierarchy)
+
+##### LockOrientation()
+
+> **LockOrientation**(`opts?`): `void`
+
+Defined in: [helper/FuncTrackTrain.ts:99](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/FuncTrackTrain.ts#L99)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `opts` | \{ \} |
+
+###### Returns
+
+`void`
+
+##### MoveToPathNode()
+
+> **MoveToPathNode**(`value`, `opts?`): `void`
+
+Defined in: [helper/FuncTrackTrain.ts:91](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/FuncTrackTrain.ts#L91)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `value` | `string` |
+| `opts` | \{ \} |
+
+###### Returns
+
+`void`
+
+##### On()
+
+> **On**(`event_name`, `callback`): [`EntityHelper`](#abstract-entityhelper)
+
+Defined in: [helper/EntityHelper.ts:104](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L104)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `event_name` | `string` |
+| `callback` | `ConnectOutputCallback` |
+
+###### Returns
+
+[`EntityHelper`](#abstract-entityhelper)
+
+###### Inherited from
+
+[`BaseModelEntity`](#basemodelentity).[`On`](#on)
+
+##### OnArrivedAtDestinationNode()
+
+> **OnArrivedAtDestinationNode**(`callback`): [`FuncTrackTrain`](#functracktrain)
+
+Defined in: [helper/FuncTrackTrain.ts:117](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/FuncTrackTrain.ts#L117)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `callback` | `ConnectOutputCallback` |
+
+###### Returns
+
+[`FuncTrackTrain`](#functracktrain)
+
+##### OnKilled()
+
+> **OnKilled**(`callback`): [`FuncTrackTrain`](#functracktrain)
+
+Defined in: [helper/FuncTrackTrain.ts:121](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/FuncTrackTrain.ts#L121)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `callback` | `ConnectOutputCallback` |
+
+###### Returns
+
+[`FuncTrackTrain`](#functracktrain)
+
+##### OnNext()
+
+> **OnNext**(`callback`): [`FuncTrackTrain`](#functracktrain)
+
+Defined in: [helper/FuncTrackTrain.ts:113](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/FuncTrackTrain.ts#L113)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `callback` | `ConnectOutputCallback` |
+
+###### Returns
+
+[`FuncTrackTrain`](#functracktrain)
+
+##### OnStart()
+
+> **OnStart**(`callback`): [`FuncTrackTrain`](#functracktrain)
+
+Defined in: [helper/FuncTrackTrain.ts:109](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/FuncTrackTrain.ts#L109)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `callback` | `ConnectOutputCallback` |
+
+###### Returns
+
+[`FuncTrackTrain`](#functracktrain)
+
+##### Remove()
+
+> **Remove**(): `void`
+
+Defined in: [helper/EntityHelper.ts:238](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L238)
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`BaseModelEntity`](#basemodelentity).[`Remove`](#remove)
+
+##### Resume()
+
+> **Resume**(`opts?`): `void`
+
+Defined in: [helper/FuncTrackTrain.ts:79](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/FuncTrackTrain.ts#L79)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `opts` | \{ \} |
+
+###### Returns
+
+`void`
+
+##### Reverse()
+
+> **Reverse**(`opts?`): `void`
+
+Defined in: [helper/FuncTrackTrain.ts:83](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/FuncTrackTrain.ts#L83)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `opts` | \{ \} |
+
+###### Returns
+
+`void`
+
+##### SetColor()
+
+> **SetColor**(`c`): `void`
+
+Defined in: [helper/BaseModelEntity.ts:55](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L55)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `c` | `ColorType` |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`BaseModelEntity`](#basemodelentity).[`SetColor`](#setcolor)
+
+##### SetEntityName()
+
+> **SetEntityName**(`s`): `void`
+
+Defined in: [helper/EntityHelper.ts:162](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L162)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `s` | `string` |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`BaseModelEntity`](#basemodelentity).[`SetEntityName`](#setentityname)
+
+##### SetHealth()
+
+> **SetHealth**(`hp`): `void`
+
+Defined in: [helper/EntityHelper.ts:190](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L190)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `hp` | `number` |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`BaseModelEntity`](#basemodelentity).[`SetHealth`](#sethealth)
+
+##### SetMaxHealth()
+
+> **SetMaxHealth**(`hp`): `void`
+
+Defined in: [helper/EntityHelper.ts:202](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L202)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `hp` | `number` |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`BaseModelEntity`](#basemodelentity).[`SetMaxHealth`](#setmaxhealth)
+
+##### SetMaxSpeed()
+
+> **SetMaxSpeed**(`value`, `opts?`): `void`
+
+Defined in: [helper/FuncTrackTrain.ts:55](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/FuncTrackTrain.ts#L55)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `value` | `number` |
+| `opts` | \{ \} |
+
+###### Returns
+
+`void`
+
+##### SetModel()
+
+> **SetModel**(`s`): `void`
+
+Defined in: [helper/BaseModelEntity.ts:39](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L39)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `s` | `string` |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`BaseModelEntity`](#basemodelentity).[`SetModel`](#setmodel)
+
+##### SetModelScale()
+
+> **SetModelScale**(`s`): `void`
+
+Defined in: [helper/BaseModelEntity.ts:47](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L47)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `s` | `number` |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`BaseModelEntity`](#basemodelentity).[`SetModelScale`](#setmodelscale)
+
+##### SetMoveDistanceFromEnd()
+
+> **SetMoveDistanceFromEnd**(`value`, `opts?`): `void`
+
+Defined in: [helper/FuncTrackTrain.ts:59](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/FuncTrackTrain.ts#L59)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `value` | `number` |
+| `opts` | \{ \} |
+
+###### Returns
+
+`void`
+
+##### SetOwner()
+
+> **SetOwner**(`e`): `void`
+
+Defined in: [helper/EntityHelper.ts:170](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L170)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `e` | `Entity` |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`BaseModelEntity`](#basemodelentity).[`SetOwner`](#setowner)
+
+##### SetParent()
+
+> **SetParent**(`e`): `void`
+
+Defined in: [helper/EntityHelper.ts:178](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L178)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `e` | `Entity` |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`BaseModelEntity`](#basemodelentity).[`SetParent`](#setparent)
+
+##### SetSpeed()
+
+> **SetSpeed**(`value`, `opts?`): `void`
+
+Defined in: [helper/FuncTrackTrain.ts:51](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/FuncTrackTrain.ts#L51)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `value` | `number` |
+| `opts` | \{ \} |
+
+###### Returns
+
+`void`
+
+##### SetSpeedDir()
+
+> **SetSpeedDir**(`value`, `opts?`): `void`
+
+Defined in: [helper/FuncTrackTrain.ts:63](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/FuncTrackTrain.ts#L63)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `value` | `number` |
+| `opts` | \{ \} |
+
+###### Returns
+
+`void`
+
+##### StartBackward()
+
+> **StartBackward**(`opts?`): `void`
+
+Defined in: [helper/FuncTrackTrain.ts:75](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/FuncTrackTrain.ts#L75)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `opts` | \{ \} |
+
+###### Returns
+
+`void`
+
+##### StartForward()
+
+> **StartForward**(`opts?`): `void`
+
+Defined in: [helper/FuncTrackTrain.ts:71](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/FuncTrackTrain.ts#L71)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `opts` | \{ \} |
+
+###### Returns
+
+`void`
+
+##### Stop()
+
+> **Stop**(`opts?`): `void`
+
+Defined in: [helper/FuncTrackTrain.ts:67](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/FuncTrackTrain.ts#L67)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `opts` | \{ \} |
+
+###### Returns
+
+`void`
+
+##### TakeDamage()
+
+> **TakeDamage**(`__namedParameters`): `number`
+
+Defined in: [helper/EntityHelper.ts:222](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L222)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `__namedParameters` | \{ `attacker`: `any`; `damage`: `any`; `inflictor`: `any`; `weapon`: `any`; \} |
+| `__namedParameters.attacker` | `any` |
+| `__namedParameters.damage` | `any` |
+| `__namedParameters.inflictor` | `any` |
+| `__namedParameters.weapon` | `any` |
+
+###### Returns
+
+`number`
+
+###### Inherited from
+
+[`BaseModelEntity`](#basemodelentity).[`TakeDamage`](#takedamage)
+
+##### Teleport()
+
+> **Teleport**(`__namedParameters`): `void`
+
+Defined in: [helper/EntityHelper.ts:150](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L150)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `__namedParameters` | \{ `position`: `any`; `rotation`: `any`; `velocity`: `any`; \} |
+| `__namedParameters.position` | `any` |
+| `__namedParameters.rotation` | `any` |
+| `__namedParameters.velocity` | `any` |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`BaseModelEntity`](#basemodelentity).[`Teleport`](#teleport)
+
+##### TeleportToPathNode()
+
+> **TeleportToPathNode**(`value`, `opts?`): `void`
+
+Defined in: [helper/FuncTrackTrain.ts:95](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/FuncTrackTrain.ts#L95)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `value` | `string` |
+| `opts` | \{ \} |
+
+###### Returns
+
+`void`
+
+##### Toggle()
+
+> **Toggle**(`opts?`): `void`
+
+Defined in: [helper/FuncTrackTrain.ts:87](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/FuncTrackTrain.ts#L87)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `opts` | \{ \} |
+
+###### Returns
+
+`void`
+
+##### Unglow()
+
+> **Unglow**(): `void`
+
+Defined in: [helper/BaseModelEntity.ts:67](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L67)
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`BaseModelEntity`](#basemodelentity).[`Unglow`](#unglow)
+
+##### UnlockOrientation()
+
+> **UnlockOrientation**(`opts?`): `void`
+
+Defined in: [helper/FuncTrackTrain.ts:103](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/FuncTrackTrain.ts#L103)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `opts` | \{ \} |
+
+###### Returns
+
+`void`
+
+##### Find()
+
+> `static` **Find**(`r`): [`FuncTrackTrain`](#functracktrain)
+
+Defined in: [helper/FuncTrackTrain.ts:31](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/FuncTrackTrain.ts#L31)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `r` | `string` \| `RegExp` |
+
+###### Returns
+
+[`FuncTrackTrain`](#functracktrain)
+
+###### Overrides
+
+[`BaseModelEntity`](#basemodelentity).[`Find`](#find)
+
+##### FindAll()
+
+> `static` **FindAll**(`r`): [`FuncTrackTrain`](#functracktrain)[]
+
+Defined in: [helper/FuncTrackTrain.ts:36](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/FuncTrackTrain.ts#L36)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `r` | `string` \| `RegExp` |
+
+###### Returns
+
+[`FuncTrackTrain`](#functracktrain)[]
+
+###### Overrides
+
+[`BaseModelEntity`](#basemodelentity).[`FindAll`](#findall)
+
+##### FindAllByClass()
+
+> `static` **FindAllByClass**(`classname`, `r`): [`EntityHelper`](#abstract-entityhelper)[]
+
+Defined in: [helper/EntityHelper.ts:52](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L52)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `classname` | `string` |
+| `r` | `string` \| `RegExp` |
+
+###### Returns
+
+[`EntityHelper`](#abstract-entityhelper)[]
+
+###### Inherited from
+
+[`BaseModelEntity`](#basemodelentity).[`FindAllByClass`](#findallbyclass)
+
+##### FindByClass()
+
+> `static` **FindByClass**(`classname`, `r`, `error?`): [`EntityHelper`](#abstract-entityhelper) \| `null`
+
+Defined in: [helper/EntityHelper.ts:44](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L44)
+
+###### Parameters
+
+| Parameter | Type | Default value |
+| ------ | ------ | ------ |
+| `classname` | `string` | `undefined` |
+| `r` | `string` \| `RegExp` | `undefined` |
+| `error` | `boolean` | `false` |
+
+###### Returns
+
+[`EntityHelper`](#abstract-entityhelper) \| `null`
+
+###### Inherited from
+
+[`BaseModelEntity`](#basemodelentity).[`FindByClass`](#findbyclass)
+
+##### From()
+
+> `static` **From**(`e`): [`FuncTrackTrain`](#functracktrain)
+
+Defined in: [helper/FuncTrackTrain.ts:25](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/FuncTrackTrain.ts#L25)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `e` | `Entity` |
+
+###### Returns
+
+[`FuncTrackTrain`](#functracktrain)
+
+###### Overrides
+
+[`BaseModelEntity`](#basemodelentity).[`From`](#from)
+
+***
+
 ### GameMoney
 
 Defined in: [helper/GameMoney.ts:19](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/GameMoney.ts#L19)
 
 #### Extends
 
-- [`EntityHelper`](#entityhelper)
+- [`EntityHelper`](#abstract-entityhelper)
 
 #### Constructors
 
@@ -5700,7 +9328,7 @@ Defined in: [helper/GameMoney.ts:20](https://github.com/Orb-Workshop/scriptedeuc
 
 ###### Overrides
 
-[`EntityHelper`](#entityhelper).[`constructor`](#constructor-2)
+[`EntityHelper`](#abstract-entityhelper).[`constructor`](#constructor-2)
 
 #### Accessors
 
@@ -5718,13 +9346,13 @@ Defined in: [helper/EntityHelper.ts:57](https://github.com/Orb-Workshop/scripted
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`raw`](#raw-1)
+[`EntityHelper`](#abstract-entityhelper).[`raw`](#raw-1)
 
 #### Methods
 
 ##### AddMoneyPlayer()
 
-> **AddMoneyPlayer**(`opts`): `void`
+> **AddMoneyPlayer**(`opts?`): `void`
 
 Defined in: [helper/GameMoney.ts:60](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/GameMoney.ts#L60)
 
@@ -5740,7 +9368,7 @@ Defined in: [helper/GameMoney.ts:60](https://github.com/Orb-Workshop/scriptedeuc
 
 ##### AddTeamMoneyCT()
 
-> **AddTeamMoneyCT**(`opts`): `void`
+> **AddTeamMoneyCT**(`opts?`): `void`
 
 Defined in: [helper/GameMoney.ts:68](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/GameMoney.ts#L68)
 
@@ -5756,7 +9384,7 @@ Defined in: [helper/GameMoney.ts:68](https://github.com/Orb-Workshop/scriptedeuc
 
 ##### AddTeamMoneyTerrorist()
 
-> **AddTeamMoneyTerrorist**(`opts`): `void`
+> **AddTeamMoneyTerrorist**(`opts?`): `void`
 
 Defined in: [helper/GameMoney.ts:64](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/GameMoney.ts#L64)
 
@@ -5792,11 +9420,11 @@ TODO: Use Global Events to 'latch onto' the callbacks this method represents.
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`ConnectOutput`](#connectoutput-2)
+[`EntityHelper`](#abstract-entityhelper).[`ConnectOutput`](#connectoutput-1)
 
 ##### FireIO()
 
-> **FireIO**(`opts`): `void`
+> **FireIO**(`opts?`): `void`
 
 Defined in: [helper/EntityHelper.ts:59](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L59)
 
@@ -5812,11 +9440,11 @@ Defined in: [helper/EntityHelper.ts:59](https://github.com/Orb-Workshop/scripted
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`FireIO`](#fireio-2)
+[`EntityHelper`](#abstract-entityhelper).[`FireIO`](#fireio-1)
 
 ##### FireUser1()
 
-> **FireUser1**(`opts`): `void`
+> **FireUser1**(`opts?`): `void`
 
 Defined in: [helper/EntityHelper.ts:68](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L68)
 
@@ -5832,11 +9460,11 @@ Defined in: [helper/EntityHelper.ts:68](https://github.com/Orb-Workshop/scripted
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`FireUser1`](#fireuser1-2)
+[`EntityHelper`](#abstract-entityhelper).[`FireUser1`](#fireuser1-1)
 
 ##### FireUser2()
 
-> **FireUser2**(`opts`): `void`
+> **FireUser2**(`opts?`): `void`
 
 Defined in: [helper/EntityHelper.ts:72](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L72)
 
@@ -5852,11 +9480,11 @@ Defined in: [helper/EntityHelper.ts:72](https://github.com/Orb-Workshop/scripted
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`FireUser2`](#fireuser2-2)
+[`EntityHelper`](#abstract-entityhelper).[`FireUser2`](#fireuser2-1)
 
 ##### FireUser3()
 
-> **FireUser3**(`opts`): `void`
+> **FireUser3**(`opts?`): `void`
 
 Defined in: [helper/EntityHelper.ts:76](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L76)
 
@@ -5872,11 +9500,11 @@ Defined in: [helper/EntityHelper.ts:76](https://github.com/Orb-Workshop/scripted
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`FireUser3`](#fireuser3-2)
+[`EntityHelper`](#abstract-entityhelper).[`FireUser3`](#fireuser3-1)
 
 ##### FireUser4()
 
-> **FireUser4**(`opts`): `void`
+> **FireUser4**(`opts?`): `void`
 
 Defined in: [helper/EntityHelper.ts:80](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L80)
 
@@ -5892,7 +9520,7 @@ Defined in: [helper/EntityHelper.ts:80](https://github.com/Orb-Workshop/scripted
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`FireUser4`](#fireuser4-2)
+[`EntityHelper`](#abstract-entityhelper).[`FireUser4`](#fireuser4-1)
 
 ##### GetAbsAngles()
 
@@ -5906,7 +9534,7 @@ Defined in: [helper/EntityHelper.ts:126](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`GetAbsAngles`](#getabsangles-2)
+[`EntityHelper`](#abstract-entityhelper).[`GetAbsAngles`](#getabsangles-1)
 
 ##### GetAbsOrigin()
 
@@ -5920,7 +9548,7 @@ Defined in: [helper/EntityHelper.ts:118](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`GetAbsOrigin`](#getabsorigin-2)
+[`EntityHelper`](#abstract-entityhelper).[`GetAbsOrigin`](#getabsorigin-1)
 
 ##### GetAbsVelocity()
 
@@ -5934,7 +9562,7 @@ Defined in: [helper/EntityHelper.ts:134](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`GetAbsVelocity`](#getabsvelocity-2)
+[`EntityHelper`](#abstract-entityhelper).[`GetAbsVelocity`](#getabsvelocity-1)
 
 ##### GetClassName()
 
@@ -5948,7 +9576,7 @@ Defined in: [helper/EntityHelper.ts:154](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`GetClassName`](#getclassname-2)
+[`EntityHelper`](#abstract-entityhelper).[`GetClassName`](#getclassname-1)
 
 ##### GetEntityName()
 
@@ -5962,7 +9590,7 @@ Defined in: [helper/EntityHelper.ts:158](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`GetEntityName`](#getentityname-2)
+[`EntityHelper`](#abstract-entityhelper).[`GetEntityName`](#getentityname-1)
 
 ##### GetEyeAngles()
 
@@ -5976,7 +9604,7 @@ Defined in: [helper/EntityHelper.ts:142](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`GetEyeAngles`](#geteyeangles-2)
+[`EntityHelper`](#abstract-entityhelper).[`GetEyeAngles`](#geteyeangles-1)
 
 ##### GetEyePosition()
 
@@ -5990,7 +9618,7 @@ Defined in: [helper/EntityHelper.ts:146](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`GetEyePosition`](#geteyeposition-2)
+[`EntityHelper`](#abstract-entityhelper).[`GetEyePosition`](#geteyeposition-1)
 
 ##### GetGroundEntity()
 
@@ -6004,7 +9632,7 @@ Defined in: [helper/EntityHelper.ts:218](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`GetGroundEntity`](#getgroundentity-2)
+[`EntityHelper`](#abstract-entityhelper).[`GetGroundEntity`](#getgroundentity-1)
 
 ##### GetHealth()
 
@@ -6018,7 +9646,7 @@ Defined in: [helper/EntityHelper.ts:186](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`GetHealth`](#gethealth-2)
+[`EntityHelper`](#abstract-entityhelper).[`GetHealth`](#gethealth-1)
 
 ##### GetLocalAngles()
 
@@ -6032,7 +9660,7 @@ Defined in: [helper/EntityHelper.ts:130](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`GetLocalAngles`](#getlocalangles-2)
+[`EntityHelper`](#abstract-entityhelper).[`GetLocalAngles`](#getlocalangles-1)
 
 ##### GetLocalOrigin()
 
@@ -6046,7 +9674,7 @@ Defined in: [helper/EntityHelper.ts:122](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`GetLocalOrigin`](#getlocalorigin-2)
+[`EntityHelper`](#abstract-entityhelper).[`GetLocalOrigin`](#getlocalorigin-1)
 
 ##### GetLocalVelocity()
 
@@ -6060,7 +9688,7 @@ Defined in: [helper/EntityHelper.ts:138](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`GetLocalVelocity`](#getlocalvelocity-2)
+[`EntityHelper`](#abstract-entityhelper).[`GetLocalVelocity`](#getlocalvelocity-1)
 
 ##### GetMaxHealth()
 
@@ -6074,7 +9702,7 @@ Defined in: [helper/EntityHelper.ts:198](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`GetMaxHealth`](#getmaxhealth-2)
+[`EntityHelper`](#abstract-entityhelper).[`GetMaxHealth`](#getmaxhealth-1)
 
 ##### GetOwner()
 
@@ -6088,7 +9716,7 @@ Defined in: [helper/EntityHelper.ts:166](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`GetOwner`](#getowner-2)
+[`EntityHelper`](#abstract-entityhelper).[`GetOwner`](#getowner-1)
 
 ##### GetParent()
 
@@ -6102,7 +9730,7 @@ Defined in: [helper/EntityHelper.ts:174](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`GetParent`](#getparent-2)
+[`EntityHelper`](#abstract-entityhelper).[`GetParent`](#getparent-1)
 
 ##### GetTeamNumber()
 
@@ -6116,7 +9744,7 @@ Defined in: [helper/EntityHelper.ts:182](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`GetTeamNumber`](#getteamnumber-2)
+[`EntityHelper`](#abstract-entityhelper).[`GetTeamNumber`](#getteamnumber-1)
 
 ##### GiveMoney()
 
@@ -6179,7 +9807,7 @@ Defined in: [helper/EntityHelper.ts:210](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`IsAlive`](#isalive-2)
+[`EntityHelper`](#abstract-entityhelper).[`IsAlive`](#isalive-1)
 
 ##### IsValid()
 
@@ -6193,7 +9821,7 @@ Defined in: [helper/EntityHelper.ts:114](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`IsValid`](#isvalid-2)
+[`EntityHelper`](#abstract-entityhelper).[`IsValid`](#isvalid-1)
 
 ##### IsWorld()
 
@@ -6207,7 +9835,7 @@ Defined in: [helper/EntityHelper.ts:214](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`IsWorld`](#isworld-2)
+[`EntityHelper`](#abstract-entityhelper).[`IsWorld`](#isworld-1)
 
 ##### Kill()
 
@@ -6221,11 +9849,45 @@ Defined in: [helper/EntityHelper.ts:226](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`Kill`](#kill-2)
+[`EntityHelper`](#abstract-entityhelper).[`Kill`](#kill-1)
+
+##### KillAll()
+
+> **KillAll**(): `void`
+
+Defined in: [helper/EntityHelper.ts:234](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L234)
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`KillAll`](#killall-1)
+
+##### KillHierarchy()
+
+> **KillHierarchy**(`opts?`): `void`
+
+Defined in: [helper/EntityHelper.ts:230](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L230)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `opts` | \{ \} |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`KillHierarchy`](#killhierarchy-1)
 
 ##### On()
 
-> **On**(`event_name`, `callback`): [`EntityHelper`](#entityhelper)
+> **On**(`event_name`, `callback`): [`EntityHelper`](#abstract-entityhelper)
 
 Defined in: [helper/EntityHelper.ts:104](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L104)
 
@@ -6238,11 +9900,11 @@ Defined in: [helper/EntityHelper.ts:104](https://github.com/Orb-Workshop/scripte
 
 ###### Returns
 
-[`EntityHelper`](#entityhelper)
+[`EntityHelper`](#abstract-entityhelper)
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`On`](#on-2)
+[`EntityHelper`](#abstract-entityhelper).[`On`](#on-1)
 
 ##### OnMoneySpent()
 
@@ -6280,7 +9942,7 @@ Defined in: [helper/GameMoney.ts:82](https://github.com/Orb-Workshop/scriptedeuc
 
 > **Remove**(): `void`
 
-Defined in: [helper/EntityHelper.ts:230](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L230)
+Defined in: [helper/EntityHelper.ts:238](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L238)
 
 ###### Returns
 
@@ -6288,7 +9950,7 @@ Defined in: [helper/EntityHelper.ts:230](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`Remove`](#remove-2)
+[`EntityHelper`](#abstract-entityhelper).[`Remove`](#remove-1)
 
 ##### SetEntityName()
 
@@ -6308,7 +9970,7 @@ Defined in: [helper/EntityHelper.ts:162](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`SetEntityName`](#setentityname-2)
+[`EntityHelper`](#abstract-entityhelper).[`SetEntityName`](#setentityname-1)
 
 ##### SetHealth()
 
@@ -6328,7 +9990,7 @@ Defined in: [helper/EntityHelper.ts:190](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`SetHealth`](#sethealth-2)
+[`EntityHelper`](#abstract-entityhelper).[`SetHealth`](#sethealth-1)
 
 ##### SetMaxHealth()
 
@@ -6348,11 +10010,11 @@ Defined in: [helper/EntityHelper.ts:202](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`SetMaxHealth`](#setmaxhealth-2)
+[`EntityHelper`](#abstract-entityhelper).[`SetMaxHealth`](#setmaxhealth-1)
 
 ##### SetMoneyAmount()
 
-> **SetMoneyAmount**(`value`, `opts`): `void`
+> **SetMoneyAmount**(`value`, `opts?`): `void`
 
 Defined in: [helper/GameMoney.ts:56](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/GameMoney.ts#L56)
 
@@ -6385,7 +10047,7 @@ Defined in: [helper/EntityHelper.ts:170](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`SetOwner`](#setowner-2)
+[`EntityHelper`](#abstract-entityhelper).[`SetOwner`](#setowner-1)
 
 ##### SetParent()
 
@@ -6405,11 +10067,11 @@ Defined in: [helper/EntityHelper.ts:178](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`SetParent`](#setparent-2)
+[`EntityHelper`](#abstract-entityhelper).[`SetParent`](#setparent-1)
 
 ##### SpendMoneyFromPlayer()
 
-> **SpendMoneyFromPlayer**(`opts`): `void`
+> **SpendMoneyFromPlayer**(`opts?`): `void`
 
 Defined in: [helper/GameMoney.ts:72](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/GameMoney.ts#L72)
 
@@ -6445,7 +10107,7 @@ Defined in: [helper/EntityHelper.ts:222](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`TakeDamage`](#takedamage-2)
+[`EntityHelper`](#abstract-entityhelper).[`TakeDamage`](#takedamage-1)
 
 ##### Teleport()
 
@@ -6468,7 +10130,7 @@ Defined in: [helper/EntityHelper.ts:150](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`Teleport`](#teleport-2)
+[`EntityHelper`](#abstract-entityhelper).[`Teleport`](#teleport-1)
 
 ##### Find()
 
@@ -6488,7 +10150,7 @@ Defined in: [helper/GameMoney.ts:30](https://github.com/Orb-Workshop/scriptedeuc
 
 ###### Overrides
 
-[`EntityHelper`](#entityhelper).[`Find`](#find-2)
+[`EntityHelper`](#abstract-entityhelper).[`Find`](#find-1)
 
 ##### FindAll()
 
@@ -6508,11 +10170,11 @@ Defined in: [helper/GameMoney.ts:35](https://github.com/Orb-Workshop/scriptedeuc
 
 ###### Overrides
 
-[`EntityHelper`](#entityhelper).[`FindAll`](#findall-2)
+[`EntityHelper`](#abstract-entityhelper).[`FindAll`](#findall-1)
 
 ##### FindAllByClass()
 
-> `static` **FindAllByClass**(`classname`, `r`): [`EntityHelper`](#entityhelper)[]
+> `static` **FindAllByClass**(`classname`, `r`): [`EntityHelper`](#abstract-entityhelper)[]
 
 Defined in: [helper/EntityHelper.ts:52](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L52)
 
@@ -6525,15 +10187,15 @@ Defined in: [helper/EntityHelper.ts:52](https://github.com/Orb-Workshop/scripted
 
 ###### Returns
 
-[`EntityHelper`](#entityhelper)[]
+[`EntityHelper`](#abstract-entityhelper)[]
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`FindAllByClass`](#findallbyclass-2)
+[`EntityHelper`](#abstract-entityhelper).[`FindAllByClass`](#findallbyclass-1)
 
 ##### FindByClass()
 
-> `static` **FindByClass**(`classname`, `r`, `error`): [`EntityHelper`](#entityhelper) \| `null`
+> `static` **FindByClass**(`classname`, `r`, `error?`): [`EntityHelper`](#abstract-entityhelper) \| `null`
 
 Defined in: [helper/EntityHelper.ts:44](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L44)
 
@@ -6547,11 +10209,11 @@ Defined in: [helper/EntityHelper.ts:44](https://github.com/Orb-Workshop/scripted
 
 ###### Returns
 
-[`EntityHelper`](#entityhelper) \| `null`
+[`EntityHelper`](#abstract-entityhelper) \| `null`
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`FindByClass`](#findbyclass-2)
+[`EntityHelper`](#abstract-entityhelper).[`FindByClass`](#findbyclass-1)
 
 ##### From()
 
@@ -6577,7 +10239,7 @@ Defined in: [helper/InfoMapParameters.ts:17](https://github.com/Orb-Workshop/scr
 
 #### Extends
 
-- [`EntityHelper`](#entityhelper)
+- [`EntityHelper`](#abstract-entityhelper)
 
 #### Constructors
 
@@ -6599,7 +10261,7 @@ Defined in: [helper/InfoMapParameters.ts:18](https://github.com/Orb-Workshop/scr
 
 ###### Overrides
 
-[`EntityHelper`](#entityhelper).[`constructor`](#constructor-2)
+[`EntityHelper`](#abstract-entityhelper).[`constructor`](#constructor-2)
 
 #### Accessors
 
@@ -6617,7 +10279,7 @@ Defined in: [helper/EntityHelper.ts:57](https://github.com/Orb-Workshop/scripted
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`raw`](#raw-1)
+[`EntityHelper`](#abstract-entityhelper).[`raw`](#raw-1)
 
 #### Methods
 
@@ -6643,11 +10305,11 @@ TODO: Use Global Events to 'latch onto' the callbacks this method represents.
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`ConnectOutput`](#connectoutput-2)
+[`EntityHelper`](#abstract-entityhelper).[`ConnectOutput`](#connectoutput-1)
 
 ##### FireIO()
 
-> **FireIO**(`opts`): `void`
+> **FireIO**(`opts?`): `void`
 
 Defined in: [helper/EntityHelper.ts:59](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L59)
 
@@ -6663,11 +10325,11 @@ Defined in: [helper/EntityHelper.ts:59](https://github.com/Orb-Workshop/scripted
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`FireIO`](#fireio-2)
+[`EntityHelper`](#abstract-entityhelper).[`FireIO`](#fireio-1)
 
 ##### FireUser1()
 
-> **FireUser1**(`opts`): `void`
+> **FireUser1**(`opts?`): `void`
 
 Defined in: [helper/EntityHelper.ts:68](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L68)
 
@@ -6683,11 +10345,11 @@ Defined in: [helper/EntityHelper.ts:68](https://github.com/Orb-Workshop/scripted
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`FireUser1`](#fireuser1-2)
+[`EntityHelper`](#abstract-entityhelper).[`FireUser1`](#fireuser1-1)
 
 ##### FireUser2()
 
-> **FireUser2**(`opts`): `void`
+> **FireUser2**(`opts?`): `void`
 
 Defined in: [helper/EntityHelper.ts:72](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L72)
 
@@ -6703,11 +10365,11 @@ Defined in: [helper/EntityHelper.ts:72](https://github.com/Orb-Workshop/scripted
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`FireUser2`](#fireuser2-2)
+[`EntityHelper`](#abstract-entityhelper).[`FireUser2`](#fireuser2-1)
 
 ##### FireUser3()
 
-> **FireUser3**(`opts`): `void`
+> **FireUser3**(`opts?`): `void`
 
 Defined in: [helper/EntityHelper.ts:76](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L76)
 
@@ -6723,11 +10385,11 @@ Defined in: [helper/EntityHelper.ts:76](https://github.com/Orb-Workshop/scripted
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`FireUser3`](#fireuser3-2)
+[`EntityHelper`](#abstract-entityhelper).[`FireUser3`](#fireuser3-1)
 
 ##### FireUser4()
 
-> **FireUser4**(`opts`): `void`
+> **FireUser4**(`opts?`): `void`
 
 Defined in: [helper/EntityHelper.ts:80](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L80)
 
@@ -6743,11 +10405,11 @@ Defined in: [helper/EntityHelper.ts:80](https://github.com/Orb-Workshop/scripted
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`FireUser4`](#fireuser4-2)
+[`EntityHelper`](#abstract-entityhelper).[`FireUser4`](#fireuser4-1)
 
 ##### FireWinCondition()
 
-> **FireWinCondition**(`value`, `opts`): `void`
+> **FireWinCondition**(`value`, `opts?`): `void`
 
 Defined in: [helper/InfoMapParameters.ts:42](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/InfoMapParameters.ts#L42)
 
@@ -6774,7 +10436,7 @@ Defined in: [helper/EntityHelper.ts:126](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`GetAbsAngles`](#getabsangles-2)
+[`EntityHelper`](#abstract-entityhelper).[`GetAbsAngles`](#getabsangles-1)
 
 ##### GetAbsOrigin()
 
@@ -6788,7 +10450,7 @@ Defined in: [helper/EntityHelper.ts:118](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`GetAbsOrigin`](#getabsorigin-2)
+[`EntityHelper`](#abstract-entityhelper).[`GetAbsOrigin`](#getabsorigin-1)
 
 ##### GetAbsVelocity()
 
@@ -6802,7 +10464,7 @@ Defined in: [helper/EntityHelper.ts:134](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`GetAbsVelocity`](#getabsvelocity-2)
+[`EntityHelper`](#abstract-entityhelper).[`GetAbsVelocity`](#getabsvelocity-1)
 
 ##### GetClassName()
 
@@ -6816,7 +10478,7 @@ Defined in: [helper/EntityHelper.ts:154](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`GetClassName`](#getclassname-2)
+[`EntityHelper`](#abstract-entityhelper).[`GetClassName`](#getclassname-1)
 
 ##### GetEntityName()
 
@@ -6830,7 +10492,7 @@ Defined in: [helper/EntityHelper.ts:158](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`GetEntityName`](#getentityname-2)
+[`EntityHelper`](#abstract-entityhelper).[`GetEntityName`](#getentityname-1)
 
 ##### GetEyeAngles()
 
@@ -6844,7 +10506,7 @@ Defined in: [helper/EntityHelper.ts:142](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`GetEyeAngles`](#geteyeangles-2)
+[`EntityHelper`](#abstract-entityhelper).[`GetEyeAngles`](#geteyeangles-1)
 
 ##### GetEyePosition()
 
@@ -6858,7 +10520,7 @@ Defined in: [helper/EntityHelper.ts:146](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`GetEyePosition`](#geteyeposition-2)
+[`EntityHelper`](#abstract-entityhelper).[`GetEyePosition`](#geteyeposition-1)
 
 ##### GetGroundEntity()
 
@@ -6872,7 +10534,7 @@ Defined in: [helper/EntityHelper.ts:218](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`GetGroundEntity`](#getgroundentity-2)
+[`EntityHelper`](#abstract-entityhelper).[`GetGroundEntity`](#getgroundentity-1)
 
 ##### GetHealth()
 
@@ -6886,7 +10548,7 @@ Defined in: [helper/EntityHelper.ts:186](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`GetHealth`](#gethealth-2)
+[`EntityHelper`](#abstract-entityhelper).[`GetHealth`](#gethealth-1)
 
 ##### GetLocalAngles()
 
@@ -6900,7 +10562,7 @@ Defined in: [helper/EntityHelper.ts:130](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`GetLocalAngles`](#getlocalangles-2)
+[`EntityHelper`](#abstract-entityhelper).[`GetLocalAngles`](#getlocalangles-1)
 
 ##### GetLocalOrigin()
 
@@ -6914,7 +10576,7 @@ Defined in: [helper/EntityHelper.ts:122](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`GetLocalOrigin`](#getlocalorigin-2)
+[`EntityHelper`](#abstract-entityhelper).[`GetLocalOrigin`](#getlocalorigin-1)
 
 ##### GetLocalVelocity()
 
@@ -6928,7 +10590,7 @@ Defined in: [helper/EntityHelper.ts:138](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`GetLocalVelocity`](#getlocalvelocity-2)
+[`EntityHelper`](#abstract-entityhelper).[`GetLocalVelocity`](#getlocalvelocity-1)
 
 ##### GetMaxHealth()
 
@@ -6942,7 +10604,7 @@ Defined in: [helper/EntityHelper.ts:198](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`GetMaxHealth`](#getmaxhealth-2)
+[`EntityHelper`](#abstract-entityhelper).[`GetMaxHealth`](#getmaxhealth-1)
 
 ##### GetOwner()
 
@@ -6956,7 +10618,7 @@ Defined in: [helper/EntityHelper.ts:166](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`GetOwner`](#getowner-2)
+[`EntityHelper`](#abstract-entityhelper).[`GetOwner`](#getowner-1)
 
 ##### GetParent()
 
@@ -6970,7 +10632,7 @@ Defined in: [helper/EntityHelper.ts:174](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`GetParent`](#getparent-2)
+[`EntityHelper`](#abstract-entityhelper).[`GetParent`](#getparent-1)
 
 ##### GetTeamNumber()
 
@@ -6984,7 +10646,7 @@ Defined in: [helper/EntityHelper.ts:182](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`GetTeamNumber`](#getteamnumber-2)
+[`EntityHelper`](#abstract-entityhelper).[`GetTeamNumber`](#getteamnumber-1)
 
 ##### IsAlive()
 
@@ -6998,7 +10660,7 @@ Defined in: [helper/EntityHelper.ts:210](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`IsAlive`](#isalive-2)
+[`EntityHelper`](#abstract-entityhelper).[`IsAlive`](#isalive-1)
 
 ##### IsValid()
 
@@ -7012,7 +10674,7 @@ Defined in: [helper/EntityHelper.ts:114](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`IsValid`](#isvalid-2)
+[`EntityHelper`](#abstract-entityhelper).[`IsValid`](#isvalid-1)
 
 ##### IsWorld()
 
@@ -7026,7 +10688,7 @@ Defined in: [helper/EntityHelper.ts:214](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`IsWorld`](#isworld-2)
+[`EntityHelper`](#abstract-entityhelper).[`IsWorld`](#isworld-1)
 
 ##### Kill()
 
@@ -7040,11 +10702,45 @@ Defined in: [helper/EntityHelper.ts:226](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`Kill`](#kill-2)
+[`EntityHelper`](#abstract-entityhelper).[`Kill`](#kill-1)
+
+##### KillAll()
+
+> **KillAll**(): `void`
+
+Defined in: [helper/EntityHelper.ts:234](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L234)
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`KillAll`](#killall-1)
+
+##### KillHierarchy()
+
+> **KillHierarchy**(`opts?`): `void`
+
+Defined in: [helper/EntityHelper.ts:230](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L230)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `opts` | \{ \} |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`KillHierarchy`](#killhierarchy-1)
 
 ##### On()
 
-> **On**(`event_name`, `callback`): [`EntityHelper`](#entityhelper)
+> **On**(`event_name`, `callback`): [`EntityHelper`](#abstract-entityhelper)
 
 Defined in: [helper/EntityHelper.ts:104](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L104)
 
@@ -7057,17 +10753,17 @@ Defined in: [helper/EntityHelper.ts:104](https://github.com/Orb-Workshop/scripte
 
 ###### Returns
 
-[`EntityHelper`](#entityhelper)
+[`EntityHelper`](#abstract-entityhelper)
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`On`](#on-2)
+[`EntityHelper`](#abstract-entityhelper).[`On`](#on-1)
 
 ##### Remove()
 
 > **Remove**(): `void`
 
-Defined in: [helper/EntityHelper.ts:230](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L230)
+Defined in: [helper/EntityHelper.ts:238](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L238)
 
 ###### Returns
 
@@ -7075,7 +10771,7 @@ Defined in: [helper/EntityHelper.ts:230](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`Remove`](#remove-2)
+[`EntityHelper`](#abstract-entityhelper).[`Remove`](#remove-1)
 
 ##### SetEntityName()
 
@@ -7095,7 +10791,7 @@ Defined in: [helper/EntityHelper.ts:162](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`SetEntityName`](#setentityname-2)
+[`EntityHelper`](#abstract-entityhelper).[`SetEntityName`](#setentityname-1)
 
 ##### SetHealth()
 
@@ -7115,7 +10811,7 @@ Defined in: [helper/EntityHelper.ts:190](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`SetHealth`](#sethealth-2)
+[`EntityHelper`](#abstract-entityhelper).[`SetHealth`](#sethealth-1)
 
 ##### SetMaxHealth()
 
@@ -7135,7 +10831,7 @@ Defined in: [helper/EntityHelper.ts:202](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`SetMaxHealth`](#setmaxhealth-2)
+[`EntityHelper`](#abstract-entityhelper).[`SetMaxHealth`](#setmaxhealth-1)
 
 ##### SetOwner()
 
@@ -7155,7 +10851,7 @@ Defined in: [helper/EntityHelper.ts:170](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`SetOwner`](#setowner-2)
+[`EntityHelper`](#abstract-entityhelper).[`SetOwner`](#setowner-1)
 
 ##### SetParent()
 
@@ -7175,7 +10871,7 @@ Defined in: [helper/EntityHelper.ts:178](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`SetParent`](#setparent-2)
+[`EntityHelper`](#abstract-entityhelper).[`SetParent`](#setparent-1)
 
 ##### TakeDamage()
 
@@ -7199,7 +10895,7 @@ Defined in: [helper/EntityHelper.ts:222](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`TakeDamage`](#takedamage-2)
+[`EntityHelper`](#abstract-entityhelper).[`TakeDamage`](#takedamage-1)
 
 ##### Teleport()
 
@@ -7222,7 +10918,7 @@ Defined in: [helper/EntityHelper.ts:150](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`Teleport`](#teleport-2)
+[`EntityHelper`](#abstract-entityhelper).[`Teleport`](#teleport-1)
 
 ##### Find()
 
@@ -7242,7 +10938,7 @@ Defined in: [helper/InfoMapParameters.ts:29](https://github.com/Orb-Workshop/scr
 
 ###### Overrides
 
-[`EntityHelper`](#entityhelper).[`Find`](#find-2)
+[`EntityHelper`](#abstract-entityhelper).[`Find`](#find-1)
 
 ##### FindAll()
 
@@ -7262,11 +10958,11 @@ Defined in: [helper/InfoMapParameters.ts:35](https://github.com/Orb-Workshop/scr
 
 ###### Overrides
 
-[`EntityHelper`](#entityhelper).[`FindAll`](#findall-2)
+[`EntityHelper`](#abstract-entityhelper).[`FindAll`](#findall-1)
 
 ##### FindAllByClass()
 
-> `static` **FindAllByClass**(`classname`, `r`): [`EntityHelper`](#entityhelper)[]
+> `static` **FindAllByClass**(`classname`, `r`): [`EntityHelper`](#abstract-entityhelper)[]
 
 Defined in: [helper/EntityHelper.ts:52](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L52)
 
@@ -7279,15 +10975,15 @@ Defined in: [helper/EntityHelper.ts:52](https://github.com/Orb-Workshop/scripted
 
 ###### Returns
 
-[`EntityHelper`](#entityhelper)[]
+[`EntityHelper`](#abstract-entityhelper)[]
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`FindAllByClass`](#findallbyclass-2)
+[`EntityHelper`](#abstract-entityhelper).[`FindAllByClass`](#findallbyclass-1)
 
 ##### FindByClass()
 
-> `static` **FindByClass**(`classname`, `r`, `error`): [`EntityHelper`](#entityhelper) \| `null`
+> `static` **FindByClass**(`classname`, `r`, `error?`): [`EntityHelper`](#abstract-entityhelper) \| `null`
 
 Defined in: [helper/EntityHelper.ts:44](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L44)
 
@@ -7301,11 +10997,11 @@ Defined in: [helper/EntityHelper.ts:44](https://github.com/Orb-Workshop/scripted
 
 ###### Returns
 
-[`EntityHelper`](#entityhelper) \| `null`
+[`EntityHelper`](#abstract-entityhelper) \| `null`
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`FindByClass`](#findbyclass-2)
+[`EntityHelper`](#abstract-entityhelper).[`FindByClass`](#findbyclass-1)
 
 ##### From()
 
@@ -7325,21 +11021,21 @@ Defined in: [helper/InfoMapParameters.ts:23](https://github.com/Orb-Workshop/scr
 
 ***
 
-### InfoTarget
+### InfoParticleSystem
 
-Defined in: [helper/InfoTarget.ts:15](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/InfoTarget.ts#L15)
+Defined in: [helper/InfoParticleSystem.ts:17](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/InfoParticleSystem.ts#L17)
 
 #### Extends
 
-- [`EntityHelper`](#entityhelper)
+- [`EntityHelper`](#abstract-entityhelper)
 
 #### Constructors
 
 ##### Constructor
 
-> **new InfoTarget**(`entity`): [`InfoTarget`](#infotarget)
+> **new InfoParticleSystem**(`entity`): [`InfoParticleSystem`](#infoparticlesystem)
 
-Defined in: [helper/InfoTarget.ts:16](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/InfoTarget.ts#L16)
+Defined in: [helper/InfoParticleSystem.ts:18](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/InfoParticleSystem.ts#L18)
 
 ###### Parameters
 
@@ -7349,11 +11045,11 @@ Defined in: [helper/InfoTarget.ts:16](https://github.com/Orb-Workshop/scriptedeu
 
 ###### Returns
 
-[`InfoTarget`](#infotarget)
+[`InfoParticleSystem`](#infoparticlesystem)
 
 ###### Overrides
 
-[`EntityHelper`](#entityhelper).[`constructor`](#constructor-2)
+[`EntityHelper`](#abstract-entityhelper).[`constructor`](#constructor-2)
 
 #### Accessors
 
@@ -7371,7 +11067,7 @@ Defined in: [helper/EntityHelper.ts:57](https://github.com/Orb-Workshop/scripted
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`raw`](#raw-1)
+[`EntityHelper`](#abstract-entityhelper).[`raw`](#raw-1)
 
 #### Methods
 
@@ -7397,11 +11093,27 @@ TODO: Use Global Events to 'latch onto' the callbacks this method represents.
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`ConnectOutput`](#connectoutput-2)
+[`EntityHelper`](#abstract-entityhelper).[`ConnectOutput`](#connectoutput-1)
+
+##### DestroyImmediately()
+
+> **DestroyImmediately**(`opts?`): `void`
+
+Defined in: [helper/InfoParticleSystem.ts:62](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/InfoParticleSystem.ts#L62)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `opts` | \{ \} |
+
+###### Returns
+
+`void`
 
 ##### FireIO()
 
-> **FireIO**(`opts`): `void`
+> **FireIO**(`opts?`): `void`
 
 Defined in: [helper/EntityHelper.ts:59](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L59)
 
@@ -7417,11 +11129,11 @@ Defined in: [helper/EntityHelper.ts:59](https://github.com/Orb-Workshop/scripted
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`FireIO`](#fireio-2)
+[`EntityHelper`](#abstract-entityhelper).[`FireIO`](#fireio-1)
 
 ##### FireUser1()
 
-> **FireUser1**(`opts`): `void`
+> **FireUser1**(`opts?`): `void`
 
 Defined in: [helper/EntityHelper.ts:68](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L68)
 
@@ -7437,11 +11149,11 @@ Defined in: [helper/EntityHelper.ts:68](https://github.com/Orb-Workshop/scripted
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`FireUser1`](#fireuser1-2)
+[`EntityHelper`](#abstract-entityhelper).[`FireUser1`](#fireuser1-1)
 
 ##### FireUser2()
 
-> **FireUser2**(`opts`): `void`
+> **FireUser2**(`opts?`): `void`
 
 Defined in: [helper/EntityHelper.ts:72](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L72)
 
@@ -7457,11 +11169,11 @@ Defined in: [helper/EntityHelper.ts:72](https://github.com/Orb-Workshop/scripted
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`FireUser2`](#fireuser2-2)
+[`EntityHelper`](#abstract-entityhelper).[`FireUser2`](#fireuser2-1)
 
 ##### FireUser3()
 
-> **FireUser3**(`opts`): `void`
+> **FireUser3**(`opts?`): `void`
 
 Defined in: [helper/EntityHelper.ts:76](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L76)
 
@@ -7477,11 +11189,11 @@ Defined in: [helper/EntityHelper.ts:76](https://github.com/Orb-Workshop/scripted
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`FireUser3`](#fireuser3-2)
+[`EntityHelper`](#abstract-entityhelper).[`FireUser3`](#fireuser3-1)
 
 ##### FireUser4()
 
-> **FireUser4**(`opts`): `void`
+> **FireUser4**(`opts?`): `void`
 
 Defined in: [helper/EntityHelper.ts:80](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L80)
 
@@ -7497,7 +11209,23 @@ Defined in: [helper/EntityHelper.ts:80](https://github.com/Orb-Workshop/scripted
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`FireUser4`](#fireuser4-2)
+[`EntityHelper`](#abstract-entityhelper).[`FireUser4`](#fireuser4-1)
+
+##### Freeze()
+
+> **Freeze**(`opts?`): `void`
+
+Defined in: [helper/InfoParticleSystem.ts:50](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/InfoParticleSystem.ts#L50)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `opts` | \{ \} |
+
+###### Returns
+
+`void`
 
 ##### GetAbsAngles()
 
@@ -7511,7 +11239,7 @@ Defined in: [helper/EntityHelper.ts:126](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`GetAbsAngles`](#getabsangles-2)
+[`EntityHelper`](#abstract-entityhelper).[`GetAbsAngles`](#getabsangles-1)
 
 ##### GetAbsOrigin()
 
@@ -7525,7 +11253,7 @@ Defined in: [helper/EntityHelper.ts:118](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`GetAbsOrigin`](#getabsorigin-2)
+[`EntityHelper`](#abstract-entityhelper).[`GetAbsOrigin`](#getabsorigin-1)
 
 ##### GetAbsVelocity()
 
@@ -7539,7 +11267,7 @@ Defined in: [helper/EntityHelper.ts:134](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`GetAbsVelocity`](#getabsvelocity-2)
+[`EntityHelper`](#abstract-entityhelper).[`GetAbsVelocity`](#getabsvelocity-1)
 
 ##### GetClassName()
 
@@ -7553,7 +11281,7 @@ Defined in: [helper/EntityHelper.ts:154](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`GetClassName`](#getclassname-2)
+[`EntityHelper`](#abstract-entityhelper).[`GetClassName`](#getclassname-1)
 
 ##### GetEntityName()
 
@@ -7567,7 +11295,7 @@ Defined in: [helper/EntityHelper.ts:158](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`GetEntityName`](#getentityname-2)
+[`EntityHelper`](#abstract-entityhelper).[`GetEntityName`](#getentityname-1)
 
 ##### GetEyeAngles()
 
@@ -7581,7 +11309,7 @@ Defined in: [helper/EntityHelper.ts:142](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`GetEyeAngles`](#geteyeangles-2)
+[`EntityHelper`](#abstract-entityhelper).[`GetEyeAngles`](#geteyeangles-1)
 
 ##### GetEyePosition()
 
@@ -7595,7 +11323,7 @@ Defined in: [helper/EntityHelper.ts:146](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`GetEyePosition`](#geteyeposition-2)
+[`EntityHelper`](#abstract-entityhelper).[`GetEyePosition`](#geteyeposition-1)
 
 ##### GetGroundEntity()
 
@@ -7609,7 +11337,7 @@ Defined in: [helper/EntityHelper.ts:218](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`GetGroundEntity`](#getgroundentity-2)
+[`EntityHelper`](#abstract-entityhelper).[`GetGroundEntity`](#getgroundentity-1)
 
 ##### GetHealth()
 
@@ -7623,7 +11351,7 @@ Defined in: [helper/EntityHelper.ts:186](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`GetHealth`](#gethealth-2)
+[`EntityHelper`](#abstract-entityhelper).[`GetHealth`](#gethealth-1)
 
 ##### GetLocalAngles()
 
@@ -7637,7 +11365,7 @@ Defined in: [helper/EntityHelper.ts:130](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`GetLocalAngles`](#getlocalangles-2)
+[`EntityHelper`](#abstract-entityhelper).[`GetLocalAngles`](#getlocalangles-1)
 
 ##### GetLocalOrigin()
 
@@ -7651,7 +11379,7 @@ Defined in: [helper/EntityHelper.ts:122](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`GetLocalOrigin`](#getlocalorigin-2)
+[`EntityHelper`](#abstract-entityhelper).[`GetLocalOrigin`](#getlocalorigin-1)
 
 ##### GetLocalVelocity()
 
@@ -7665,7 +11393,7 @@ Defined in: [helper/EntityHelper.ts:138](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`GetLocalVelocity`](#getlocalvelocity-2)
+[`EntityHelper`](#abstract-entityhelper).[`GetLocalVelocity`](#getlocalvelocity-1)
 
 ##### GetMaxHealth()
 
@@ -7679,7 +11407,7 @@ Defined in: [helper/EntityHelper.ts:198](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`GetMaxHealth`](#getmaxhealth-2)
+[`EntityHelper`](#abstract-entityhelper).[`GetMaxHealth`](#getmaxhealth-1)
 
 ##### GetOwner()
 
@@ -7693,7 +11421,7 @@ Defined in: [helper/EntityHelper.ts:166](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`GetOwner`](#getowner-2)
+[`EntityHelper`](#abstract-entityhelper).[`GetOwner`](#getowner-1)
 
 ##### GetParent()
 
@@ -7707,7 +11435,7 @@ Defined in: [helper/EntityHelper.ts:174](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`GetParent`](#getparent-2)
+[`EntityHelper`](#abstract-entityhelper).[`GetParent`](#getparent-1)
 
 ##### GetTeamNumber()
 
@@ -7721,7 +11449,7 @@ Defined in: [helper/EntityHelper.ts:182](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`GetTeamNumber`](#getteamnumber-2)
+[`EntityHelper`](#abstract-entityhelper).[`GetTeamNumber`](#getteamnumber-1)
 
 ##### IsAlive()
 
@@ -7735,7 +11463,7 @@ Defined in: [helper/EntityHelper.ts:210](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`IsAlive`](#isalive-2)
+[`EntityHelper`](#abstract-entityhelper).[`IsAlive`](#isalive-1)
 
 ##### IsValid()
 
@@ -7749,7 +11477,7 @@ Defined in: [helper/EntityHelper.ts:114](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`IsValid`](#isvalid-2)
+[`EntityHelper`](#abstract-entityhelper).[`IsValid`](#isvalid-1)
 
 ##### IsWorld()
 
@@ -7763,7 +11491,7 @@ Defined in: [helper/EntityHelper.ts:214](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`IsWorld`](#isworld-2)
+[`EntityHelper`](#abstract-entityhelper).[`IsWorld`](#isworld-1)
 
 ##### Kill()
 
@@ -7777,11 +11505,45 @@ Defined in: [helper/EntityHelper.ts:226](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`Kill`](#kill-2)
+[`EntityHelper`](#abstract-entityhelper).[`Kill`](#kill-1)
+
+##### KillAll()
+
+> **KillAll**(): `void`
+
+Defined in: [helper/EntityHelper.ts:234](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L234)
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`KillAll`](#killall-1)
+
+##### KillHierarchy()
+
+> **KillHierarchy**(`opts?`): `void`
+
+Defined in: [helper/EntityHelper.ts:230](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L230)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `opts` | \{ \} |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`KillHierarchy`](#killhierarchy-1)
 
 ##### On()
 
-> **On**(`event_name`, `callback`): [`EntityHelper`](#entityhelper)
+> **On**(`event_name`, `callback`): [`EntityHelper`](#abstract-entityhelper)
 
 Defined in: [helper/EntityHelper.ts:104](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L104)
 
@@ -7794,17 +11556,17 @@ Defined in: [helper/EntityHelper.ts:104](https://github.com/Orb-Workshop/scripte
 
 ###### Returns
 
-[`EntityHelper`](#entityhelper)
+[`EntityHelper`](#abstract-entityhelper)
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`On`](#on-2)
+[`EntityHelper`](#abstract-entityhelper).[`On`](#on-1)
 
 ##### Remove()
 
 > **Remove**(): `void`
 
-Defined in: [helper/EntityHelper.ts:230](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L230)
+Defined in: [helper/EntityHelper.ts:238](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L238)
 
 ###### Returns
 
@@ -7812,7 +11574,77 @@ Defined in: [helper/EntityHelper.ts:230](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`Remove`](#remove-2)
+[`EntityHelper`](#abstract-entityhelper).[`Remove`](#remove-1)
+
+##### SetControlPoint()
+
+> **SetControlPoint**(`x?`, `y?`, `z?`, `opts?`): `void`
+
+Defined in: [helper/InfoParticleSystem.ts:66](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/InfoParticleSystem.ts#L66)
+
+###### Parameters
+
+| Parameter | Type | Default value |
+| ------ | ------ | ------ |
+| `x` | `number` | `0` |
+| `y` | `number` | `0` |
+| `z` | `number` | `0` |
+| `opts` | \{ \} | `{}` |
+
+###### Returns
+
+`void`
+
+##### SetDataControlPointX()
+
+> **SetDataControlPointX**(`value?`, `opts?`): `void`
+
+Defined in: [helper/InfoParticleSystem.ts:70](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/InfoParticleSystem.ts#L70)
+
+###### Parameters
+
+| Parameter | Type | Default value |
+| ------ | ------ | ------ |
+| `value` | `number` | `0` |
+| `opts` | \{ \} | `{}` |
+
+###### Returns
+
+`void`
+
+##### SetDataControlPointY()
+
+> **SetDataControlPointY**(`value?`, `opts?`): `void`
+
+Defined in: [helper/InfoParticleSystem.ts:74](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/InfoParticleSystem.ts#L74)
+
+###### Parameters
+
+| Parameter | Type | Default value |
+| ------ | ------ | ------ |
+| `value` | `number` | `0` |
+| `opts` | \{ \} | `{}` |
+
+###### Returns
+
+`void`
+
+##### SetDataControlPointZ()
+
+> **SetDataControlPointZ**(`value?`, `opts?`): `void`
+
+Defined in: [helper/InfoParticleSystem.ts:78](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/InfoParticleSystem.ts#L78)
+
+###### Parameters
+
+| Parameter | Type | Default value |
+| ------ | ------ | ------ |
+| `value` | `number` | `0` |
+| `opts` | \{ \} | `{}` |
+
+###### Returns
+
+`void`
 
 ##### SetEntityName()
 
@@ -7832,7 +11664,7 @@ Defined in: [helper/EntityHelper.ts:162](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`SetEntityName`](#setentityname-2)
+[`EntityHelper`](#abstract-entityhelper).[`SetEntityName`](#setentityname-1)
 
 ##### SetHealth()
 
@@ -7852,7 +11684,7 @@ Defined in: [helper/EntityHelper.ts:190](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`SetHealth`](#sethealth-2)
+[`EntityHelper`](#abstract-entityhelper).[`SetHealth`](#sethealth-1)
 
 ##### SetMaxHealth()
 
@@ -7872,7 +11704,7 @@ Defined in: [helper/EntityHelper.ts:202](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`SetMaxHealth`](#setmaxhealth-2)
+[`EntityHelper`](#abstract-entityhelper).[`SetMaxHealth`](#setmaxhealth-1)
 
 ##### SetOwner()
 
@@ -7892,7 +11724,7 @@ Defined in: [helper/EntityHelper.ts:170](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`SetOwner`](#setowner-2)
+[`EntityHelper`](#abstract-entityhelper).[`SetOwner`](#setowner-1)
 
 ##### SetParent()
 
@@ -7912,7 +11744,55 @@ Defined in: [helper/EntityHelper.ts:178](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`SetParent`](#setparent-2)
+[`EntityHelper`](#abstract-entityhelper).[`SetParent`](#setparent-1)
+
+##### Start()
+
+> **Start**(`opts?`): `void`
+
+Defined in: [helper/InfoParticleSystem.ts:42](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/InfoParticleSystem.ts#L42)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `opts` | \{ \} |
+
+###### Returns
+
+`void`
+
+##### Stop()
+
+> **Stop**(`opts?`): `void`
+
+Defined in: [helper/InfoParticleSystem.ts:46](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/InfoParticleSystem.ts#L46)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `opts` | \{ \} |
+
+###### Returns
+
+`void`
+
+##### StopPlayEndCap()
+
+> **StopPlayEndCap**(`opts?`): `void`
+
+Defined in: [helper/InfoParticleSystem.ts:58](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/InfoParticleSystem.ts#L58)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `opts` | \{ \} |
+
+###### Returns
+
+`void`
 
 ##### TakeDamage()
 
@@ -7936,7 +11816,7 @@ Defined in: [helper/EntityHelper.ts:222](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`TakeDamage`](#takedamage-2)
+[`EntityHelper`](#abstract-entityhelper).[`TakeDamage`](#takedamage-1)
 
 ##### Teleport()
 
@@ -7959,7 +11839,1565 @@ Defined in: [helper/EntityHelper.ts:150](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`Teleport`](#teleport-2)
+[`EntityHelper`](#abstract-entityhelper).[`Teleport`](#teleport-1)
+
+##### Thaw()
+
+> **Thaw**(`opts?`): `void`
+
+Defined in: [helper/InfoParticleSystem.ts:54](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/InfoParticleSystem.ts#L54)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `opts` | \{ \} |
+
+###### Returns
+
+`void`
+
+##### Find()
+
+> `static` **Find**(`r`): [`InfoParticleSystem`](#infoparticlesystem)
+
+Defined in: [helper/InfoParticleSystem.ts:29](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/InfoParticleSystem.ts#L29)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `r` | `string` \| `RegExp` |
+
+###### Returns
+
+[`InfoParticleSystem`](#infoparticlesystem)
+
+###### Overrides
+
+[`EntityHelper`](#abstract-entityhelper).[`Find`](#find-1)
+
+##### FindAll()
+
+> `static` **FindAll**(`r`): [`InfoParticleSystem`](#infoparticlesystem)[]
+
+Defined in: [helper/InfoParticleSystem.ts:35](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/InfoParticleSystem.ts#L35)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `r` | `string` \| `RegExp` |
+
+###### Returns
+
+[`InfoParticleSystem`](#infoparticlesystem)[]
+
+###### Overrides
+
+[`EntityHelper`](#abstract-entityhelper).[`FindAll`](#findall-1)
+
+##### FindAllByClass()
+
+> `static` **FindAllByClass**(`classname`, `r`): [`EntityHelper`](#abstract-entityhelper)[]
+
+Defined in: [helper/EntityHelper.ts:52](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L52)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `classname` | `string` |
+| `r` | `string` \| `RegExp` |
+
+###### Returns
+
+[`EntityHelper`](#abstract-entityhelper)[]
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`FindAllByClass`](#findallbyclass-1)
+
+##### FindByClass()
+
+> `static` **FindByClass**(`classname`, `r`, `error?`): [`EntityHelper`](#abstract-entityhelper) \| `null`
+
+Defined in: [helper/EntityHelper.ts:44](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L44)
+
+###### Parameters
+
+| Parameter | Type | Default value |
+| ------ | ------ | ------ |
+| `classname` | `string` | `undefined` |
+| `r` | `string` \| `RegExp` | `undefined` |
+| `error` | `boolean` | `false` |
+
+###### Returns
+
+[`EntityHelper`](#abstract-entityhelper) \| `null`
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`FindByClass`](#findbyclass-1)
+
+##### From()
+
+> `static` **From**(`e`): [`InfoParticleSystem`](#infoparticlesystem)
+
+Defined in: [helper/InfoParticleSystem.ts:23](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/InfoParticleSystem.ts#L23)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `e` | `Entity` |
+
+###### Returns
+
+[`InfoParticleSystem`](#infoparticlesystem)
+
+***
+
+### InfoParticleTarget
+
+Defined in: [helper/InfoParticleTarget.ts:15](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/InfoParticleTarget.ts#L15)
+
+#### Extends
+
+- [`EntityHelper`](#abstract-entityhelper)
+
+#### Constructors
+
+##### Constructor
+
+> **new InfoParticleTarget**(`entity`): [`InfoParticleTarget`](#infoparticletarget)
+
+Defined in: [helper/InfoParticleTarget.ts:16](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/InfoParticleTarget.ts#L16)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `entity` | `Entity` |
+
+###### Returns
+
+[`InfoParticleTarget`](#infoparticletarget)
+
+###### Overrides
+
+[`EntityHelper`](#abstract-entityhelper).[`constructor`](#constructor-2)
+
+#### Accessors
+
+##### raw
+
+###### Get Signature
+
+> **get** **raw**(): `Entity`
+
+Defined in: [helper/EntityHelper.ts:57](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L57)
+
+###### Returns
+
+`Entity`
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`raw`](#raw-1)
+
+#### Methods
+
+##### ConnectOutput()
+
+> **ConnectOutput**(`event_name`, `callback`): `void`
+
+Defined in: [helper/EntityHelper.ts:95](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L95)
+
+Represents EventListening of IO entities with `this.ConnectOutput`
+TODO: Use Global Events to 'latch onto' the callbacks this method represents.
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `event_name` | `string` |
+| `callback` | `ConnectOutputCallback` |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`ConnectOutput`](#connectoutput-1)
+
+##### FireIO()
+
+> **FireIO**(`opts?`): `void`
+
+Defined in: [helper/EntityHelper.ts:59](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L59)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `opts` | \{ \} |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`FireIO`](#fireio-1)
+
+##### FireUser1()
+
+> **FireUser1**(`opts?`): `void`
+
+Defined in: [helper/EntityHelper.ts:68](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L68)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `opts` | \{ \} |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`FireUser1`](#fireuser1-1)
+
+##### FireUser2()
+
+> **FireUser2**(`opts?`): `void`
+
+Defined in: [helper/EntityHelper.ts:72](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L72)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `opts` | \{ \} |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`FireUser2`](#fireuser2-1)
+
+##### FireUser3()
+
+> **FireUser3**(`opts?`): `void`
+
+Defined in: [helper/EntityHelper.ts:76](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L76)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `opts` | \{ \} |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`FireUser3`](#fireuser3-1)
+
+##### FireUser4()
+
+> **FireUser4**(`opts?`): `void`
+
+Defined in: [helper/EntityHelper.ts:80](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L80)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `opts` | \{ \} |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`FireUser4`](#fireuser4-1)
+
+##### GetAbsAngles()
+
+> **GetAbsAngles**(): [`QAngle`](Math.md#qangle)
+
+Defined in: [helper/EntityHelper.ts:126](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L126)
+
+###### Returns
+
+[`QAngle`](Math.md#qangle)
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`GetAbsAngles`](#getabsangles-1)
+
+##### GetAbsOrigin()
+
+> **GetAbsOrigin**(): [`Vector3`](Math.md#vector3)
+
+Defined in: [helper/EntityHelper.ts:118](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L118)
+
+###### Returns
+
+[`Vector3`](Math.md#vector3)
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`GetAbsOrigin`](#getabsorigin-1)
+
+##### GetAbsVelocity()
+
+> **GetAbsVelocity**(): [`Vector3`](Math.md#vector3)
+
+Defined in: [helper/EntityHelper.ts:134](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L134)
+
+###### Returns
+
+[`Vector3`](Math.md#vector3)
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`GetAbsVelocity`](#getabsvelocity-1)
+
+##### GetClassName()
+
+> **GetClassName**(): `string`
+
+Defined in: [helper/EntityHelper.ts:154](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L154)
+
+###### Returns
+
+`string`
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`GetClassName`](#getclassname-1)
+
+##### GetEntityName()
+
+> **GetEntityName**(): `string`
+
+Defined in: [helper/EntityHelper.ts:158](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L158)
+
+###### Returns
+
+`string`
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`GetEntityName`](#getentityname-1)
+
+##### GetEyeAngles()
+
+> **GetEyeAngles**(): [`QAngle`](Math.md#qangle)
+
+Defined in: [helper/EntityHelper.ts:142](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L142)
+
+###### Returns
+
+[`QAngle`](Math.md#qangle)
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`GetEyeAngles`](#geteyeangles-1)
+
+##### GetEyePosition()
+
+> **GetEyePosition**(): [`Vector3`](Math.md#vector3)
+
+Defined in: [helper/EntityHelper.ts:146](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L146)
+
+###### Returns
+
+[`Vector3`](Math.md#vector3)
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`GetEyePosition`](#geteyeposition-1)
+
+##### GetGroundEntity()
+
+> **GetGroundEntity**(): `any`
+
+Defined in: [helper/EntityHelper.ts:218](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L218)
+
+###### Returns
+
+`any`
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`GetGroundEntity`](#getgroundentity-1)
+
+##### GetHealth()
+
+> **GetHealth**(): `number`
+
+Defined in: [helper/EntityHelper.ts:186](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L186)
+
+###### Returns
+
+`number`
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`GetHealth`](#gethealth-1)
+
+##### GetLocalAngles()
+
+> **GetLocalAngles**(): [`QAngle`](Math.md#qangle)
+
+Defined in: [helper/EntityHelper.ts:130](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L130)
+
+###### Returns
+
+[`QAngle`](Math.md#qangle)
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`GetLocalAngles`](#getlocalangles-1)
+
+##### GetLocalOrigin()
+
+> **GetLocalOrigin**(): [`Vector3`](Math.md#vector3)
+
+Defined in: [helper/EntityHelper.ts:122](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L122)
+
+###### Returns
+
+[`Vector3`](Math.md#vector3)
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`GetLocalOrigin`](#getlocalorigin-1)
+
+##### GetLocalVelocity()
+
+> **GetLocalVelocity**(): [`Vector3`](Math.md#vector3)
+
+Defined in: [helper/EntityHelper.ts:138](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L138)
+
+###### Returns
+
+[`Vector3`](Math.md#vector3)
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`GetLocalVelocity`](#getlocalvelocity-1)
+
+##### GetMaxHealth()
+
+> **GetMaxHealth**(): `number`
+
+Defined in: [helper/EntityHelper.ts:198](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L198)
+
+###### Returns
+
+`number`
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`GetMaxHealth`](#getmaxhealth-1)
+
+##### GetOwner()
+
+> **GetOwner**(): `any`
+
+Defined in: [helper/EntityHelper.ts:166](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L166)
+
+###### Returns
+
+`any`
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`GetOwner`](#getowner-1)
+
+##### GetParent()
+
+> **GetParent**(): `any`
+
+Defined in: [helper/EntityHelper.ts:174](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L174)
+
+###### Returns
+
+`any`
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`GetParent`](#getparent-1)
+
+##### GetTeamNumber()
+
+> **GetTeamNumber**(): `number`
+
+Defined in: [helper/EntityHelper.ts:182](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L182)
+
+###### Returns
+
+`number`
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`GetTeamNumber`](#getteamnumber-1)
+
+##### IsAlive()
+
+> **IsAlive**(): `boolean`
+
+Defined in: [helper/EntityHelper.ts:210](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L210)
+
+###### Returns
+
+`boolean`
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`IsAlive`](#isalive-1)
+
+##### IsValid()
+
+> **IsValid**(): `boolean`
+
+Defined in: [helper/EntityHelper.ts:114](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L114)
+
+###### Returns
+
+`boolean`
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`IsValid`](#isvalid-1)
+
+##### IsWorld()
+
+> **IsWorld**(): `boolean`
+
+Defined in: [helper/EntityHelper.ts:214](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L214)
+
+###### Returns
+
+`boolean`
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`IsWorld`](#isworld-1)
+
+##### Kill()
+
+> **Kill**(): `void`
+
+Defined in: [helper/EntityHelper.ts:226](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L226)
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`Kill`](#kill-1)
+
+##### KillAll()
+
+> **KillAll**(): `void`
+
+Defined in: [helper/EntityHelper.ts:234](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L234)
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`KillAll`](#killall-1)
+
+##### KillHierarchy()
+
+> **KillHierarchy**(`opts?`): `void`
+
+Defined in: [helper/EntityHelper.ts:230](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L230)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `opts` | \{ \} |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`KillHierarchy`](#killhierarchy-1)
+
+##### On()
+
+> **On**(`event_name`, `callback`): [`EntityHelper`](#abstract-entityhelper)
+
+Defined in: [helper/EntityHelper.ts:104](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L104)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `event_name` | `string` |
+| `callback` | `ConnectOutputCallback` |
+
+###### Returns
+
+[`EntityHelper`](#abstract-entityhelper)
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`On`](#on-1)
+
+##### Remove()
+
+> **Remove**(): `void`
+
+Defined in: [helper/EntityHelper.ts:238](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L238)
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`Remove`](#remove-1)
+
+##### SetEntityName()
+
+> **SetEntityName**(`s`): `void`
+
+Defined in: [helper/EntityHelper.ts:162](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L162)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `s` | `string` |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`SetEntityName`](#setentityname-1)
+
+##### SetHealth()
+
+> **SetHealth**(`hp`): `void`
+
+Defined in: [helper/EntityHelper.ts:190](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L190)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `hp` | `number` |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`SetHealth`](#sethealth-1)
+
+##### SetMaxHealth()
+
+> **SetMaxHealth**(`hp`): `void`
+
+Defined in: [helper/EntityHelper.ts:202](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L202)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `hp` | `number` |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`SetMaxHealth`](#setmaxhealth-1)
+
+##### SetOwner()
+
+> **SetOwner**(`e`): `void`
+
+Defined in: [helper/EntityHelper.ts:170](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L170)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `e` | `Entity` |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`SetOwner`](#setowner-1)
+
+##### SetParent()
+
+> **SetParent**(`e`): `void`
+
+Defined in: [helper/EntityHelper.ts:178](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L178)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `e` | `Entity` |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`SetParent`](#setparent-1)
+
+##### TakeDamage()
+
+> **TakeDamage**(`__namedParameters`): `number`
+
+Defined in: [helper/EntityHelper.ts:222](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L222)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `__namedParameters` | \{ `attacker`: `any`; `damage`: `any`; `inflictor`: `any`; `weapon`: `any`; \} |
+| `__namedParameters.attacker` | `any` |
+| `__namedParameters.damage` | `any` |
+| `__namedParameters.inflictor` | `any` |
+| `__namedParameters.weapon` | `any` |
+
+###### Returns
+
+`number`
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`TakeDamage`](#takedamage-1)
+
+##### Teleport()
+
+> **Teleport**(`__namedParameters`): `void`
+
+Defined in: [helper/EntityHelper.ts:150](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L150)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `__namedParameters` | \{ `position`: `any`; `rotation`: `any`; `velocity`: `any`; \} |
+| `__namedParameters.position` | `any` |
+| `__namedParameters.rotation` | `any` |
+| `__namedParameters.velocity` | `any` |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`Teleport`](#teleport-1)
+
+##### Find()
+
+> `static` **Find**(`r`): [`InfoParticleTarget`](#infoparticletarget)
+
+Defined in: [helper/InfoParticleTarget.ts:26](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/InfoParticleTarget.ts#L26)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `r` | `string` \| `RegExp` |
+
+###### Returns
+
+[`InfoParticleTarget`](#infoparticletarget)
+
+###### Overrides
+
+[`EntityHelper`](#abstract-entityhelper).[`Find`](#find-1)
+
+##### FindAll()
+
+> `static` **FindAll**(`r`): [`InfoParticleTarget`](#infoparticletarget)[]
+
+Defined in: [helper/InfoParticleTarget.ts:31](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/InfoParticleTarget.ts#L31)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `r` | `string` \| `RegExp` |
+
+###### Returns
+
+[`InfoParticleTarget`](#infoparticletarget)[]
+
+###### Overrides
+
+[`EntityHelper`](#abstract-entityhelper).[`FindAll`](#findall-1)
+
+##### FindAllByClass()
+
+> `static` **FindAllByClass**(`classname`, `r`): [`EntityHelper`](#abstract-entityhelper)[]
+
+Defined in: [helper/EntityHelper.ts:52](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L52)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `classname` | `string` |
+| `r` | `string` \| `RegExp` |
+
+###### Returns
+
+[`EntityHelper`](#abstract-entityhelper)[]
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`FindAllByClass`](#findallbyclass-1)
+
+##### FindByClass()
+
+> `static` **FindByClass**(`classname`, `r`, `error?`): [`EntityHelper`](#abstract-entityhelper) \| `null`
+
+Defined in: [helper/EntityHelper.ts:44](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L44)
+
+###### Parameters
+
+| Parameter | Type | Default value |
+| ------ | ------ | ------ |
+| `classname` | `string` | `undefined` |
+| `r` | `string` \| `RegExp` | `undefined` |
+| `error` | `boolean` | `false` |
+
+###### Returns
+
+[`EntityHelper`](#abstract-entityhelper) \| `null`
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`FindByClass`](#findbyclass-1)
+
+##### From()
+
+> `static` **From**(`e`): [`InfoParticleTarget`](#infoparticletarget)
+
+Defined in: [helper/InfoParticleTarget.ts:20](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/InfoParticleTarget.ts#L20)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `e` | `Entity` |
+
+###### Returns
+
+[`InfoParticleTarget`](#infoparticletarget)
+
+***
+
+### InfoTarget
+
+Defined in: [helper/InfoTarget.ts:15](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/InfoTarget.ts#L15)
+
+#### Extends
+
+- [`EntityHelper`](#abstract-entityhelper)
+
+#### Constructors
+
+##### Constructor
+
+> **new InfoTarget**(`entity`): [`InfoTarget`](#infotarget)
+
+Defined in: [helper/InfoTarget.ts:16](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/InfoTarget.ts#L16)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `entity` | `Entity` |
+
+###### Returns
+
+[`InfoTarget`](#infotarget)
+
+###### Overrides
+
+[`EntityHelper`](#abstract-entityhelper).[`constructor`](#constructor-2)
+
+#### Accessors
+
+##### raw
+
+###### Get Signature
+
+> **get** **raw**(): `Entity`
+
+Defined in: [helper/EntityHelper.ts:57](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L57)
+
+###### Returns
+
+`Entity`
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`raw`](#raw-1)
+
+#### Methods
+
+##### ConnectOutput()
+
+> **ConnectOutput**(`event_name`, `callback`): `void`
+
+Defined in: [helper/EntityHelper.ts:95](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L95)
+
+Represents EventListening of IO entities with `this.ConnectOutput`
+TODO: Use Global Events to 'latch onto' the callbacks this method represents.
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `event_name` | `string` |
+| `callback` | `ConnectOutputCallback` |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`ConnectOutput`](#connectoutput-1)
+
+##### FireIO()
+
+> **FireIO**(`opts?`): `void`
+
+Defined in: [helper/EntityHelper.ts:59](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L59)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `opts` | \{ \} |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`FireIO`](#fireio-1)
+
+##### FireUser1()
+
+> **FireUser1**(`opts?`): `void`
+
+Defined in: [helper/EntityHelper.ts:68](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L68)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `opts` | \{ \} |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`FireUser1`](#fireuser1-1)
+
+##### FireUser2()
+
+> **FireUser2**(`opts?`): `void`
+
+Defined in: [helper/EntityHelper.ts:72](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L72)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `opts` | \{ \} |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`FireUser2`](#fireuser2-1)
+
+##### FireUser3()
+
+> **FireUser3**(`opts?`): `void`
+
+Defined in: [helper/EntityHelper.ts:76](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L76)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `opts` | \{ \} |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`FireUser3`](#fireuser3-1)
+
+##### FireUser4()
+
+> **FireUser4**(`opts?`): `void`
+
+Defined in: [helper/EntityHelper.ts:80](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L80)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `opts` | \{ \} |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`FireUser4`](#fireuser4-1)
+
+##### GetAbsAngles()
+
+> **GetAbsAngles**(): [`QAngle`](Math.md#qangle)
+
+Defined in: [helper/EntityHelper.ts:126](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L126)
+
+###### Returns
+
+[`QAngle`](Math.md#qangle)
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`GetAbsAngles`](#getabsangles-1)
+
+##### GetAbsOrigin()
+
+> **GetAbsOrigin**(): [`Vector3`](Math.md#vector3)
+
+Defined in: [helper/EntityHelper.ts:118](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L118)
+
+###### Returns
+
+[`Vector3`](Math.md#vector3)
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`GetAbsOrigin`](#getabsorigin-1)
+
+##### GetAbsVelocity()
+
+> **GetAbsVelocity**(): [`Vector3`](Math.md#vector3)
+
+Defined in: [helper/EntityHelper.ts:134](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L134)
+
+###### Returns
+
+[`Vector3`](Math.md#vector3)
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`GetAbsVelocity`](#getabsvelocity-1)
+
+##### GetClassName()
+
+> **GetClassName**(): `string`
+
+Defined in: [helper/EntityHelper.ts:154](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L154)
+
+###### Returns
+
+`string`
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`GetClassName`](#getclassname-1)
+
+##### GetEntityName()
+
+> **GetEntityName**(): `string`
+
+Defined in: [helper/EntityHelper.ts:158](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L158)
+
+###### Returns
+
+`string`
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`GetEntityName`](#getentityname-1)
+
+##### GetEyeAngles()
+
+> **GetEyeAngles**(): [`QAngle`](Math.md#qangle)
+
+Defined in: [helper/EntityHelper.ts:142](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L142)
+
+###### Returns
+
+[`QAngle`](Math.md#qangle)
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`GetEyeAngles`](#geteyeangles-1)
+
+##### GetEyePosition()
+
+> **GetEyePosition**(): [`Vector3`](Math.md#vector3)
+
+Defined in: [helper/EntityHelper.ts:146](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L146)
+
+###### Returns
+
+[`Vector3`](Math.md#vector3)
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`GetEyePosition`](#geteyeposition-1)
+
+##### GetGroundEntity()
+
+> **GetGroundEntity**(): `any`
+
+Defined in: [helper/EntityHelper.ts:218](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L218)
+
+###### Returns
+
+`any`
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`GetGroundEntity`](#getgroundentity-1)
+
+##### GetHealth()
+
+> **GetHealth**(): `number`
+
+Defined in: [helper/EntityHelper.ts:186](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L186)
+
+###### Returns
+
+`number`
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`GetHealth`](#gethealth-1)
+
+##### GetLocalAngles()
+
+> **GetLocalAngles**(): [`QAngle`](Math.md#qangle)
+
+Defined in: [helper/EntityHelper.ts:130](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L130)
+
+###### Returns
+
+[`QAngle`](Math.md#qangle)
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`GetLocalAngles`](#getlocalangles-1)
+
+##### GetLocalOrigin()
+
+> **GetLocalOrigin**(): [`Vector3`](Math.md#vector3)
+
+Defined in: [helper/EntityHelper.ts:122](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L122)
+
+###### Returns
+
+[`Vector3`](Math.md#vector3)
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`GetLocalOrigin`](#getlocalorigin-1)
+
+##### GetLocalVelocity()
+
+> **GetLocalVelocity**(): [`Vector3`](Math.md#vector3)
+
+Defined in: [helper/EntityHelper.ts:138](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L138)
+
+###### Returns
+
+[`Vector3`](Math.md#vector3)
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`GetLocalVelocity`](#getlocalvelocity-1)
+
+##### GetMaxHealth()
+
+> **GetMaxHealth**(): `number`
+
+Defined in: [helper/EntityHelper.ts:198](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L198)
+
+###### Returns
+
+`number`
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`GetMaxHealth`](#getmaxhealth-1)
+
+##### GetOwner()
+
+> **GetOwner**(): `any`
+
+Defined in: [helper/EntityHelper.ts:166](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L166)
+
+###### Returns
+
+`any`
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`GetOwner`](#getowner-1)
+
+##### GetParent()
+
+> **GetParent**(): `any`
+
+Defined in: [helper/EntityHelper.ts:174](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L174)
+
+###### Returns
+
+`any`
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`GetParent`](#getparent-1)
+
+##### GetTeamNumber()
+
+> **GetTeamNumber**(): `number`
+
+Defined in: [helper/EntityHelper.ts:182](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L182)
+
+###### Returns
+
+`number`
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`GetTeamNumber`](#getteamnumber-1)
+
+##### IsAlive()
+
+> **IsAlive**(): `boolean`
+
+Defined in: [helper/EntityHelper.ts:210](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L210)
+
+###### Returns
+
+`boolean`
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`IsAlive`](#isalive-1)
+
+##### IsValid()
+
+> **IsValid**(): `boolean`
+
+Defined in: [helper/EntityHelper.ts:114](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L114)
+
+###### Returns
+
+`boolean`
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`IsValid`](#isvalid-1)
+
+##### IsWorld()
+
+> **IsWorld**(): `boolean`
+
+Defined in: [helper/EntityHelper.ts:214](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L214)
+
+###### Returns
+
+`boolean`
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`IsWorld`](#isworld-1)
+
+##### Kill()
+
+> **Kill**(): `void`
+
+Defined in: [helper/EntityHelper.ts:226](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L226)
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`Kill`](#kill-1)
+
+##### KillAll()
+
+> **KillAll**(): `void`
+
+Defined in: [helper/EntityHelper.ts:234](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L234)
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`KillAll`](#killall-1)
+
+##### KillHierarchy()
+
+> **KillHierarchy**(`opts?`): `void`
+
+Defined in: [helper/EntityHelper.ts:230](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L230)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `opts` | \{ \} |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`KillHierarchy`](#killhierarchy-1)
+
+##### On()
+
+> **On**(`event_name`, `callback`): [`EntityHelper`](#abstract-entityhelper)
+
+Defined in: [helper/EntityHelper.ts:104](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L104)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `event_name` | `string` |
+| `callback` | `ConnectOutputCallback` |
+
+###### Returns
+
+[`EntityHelper`](#abstract-entityhelper)
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`On`](#on-1)
+
+##### Remove()
+
+> **Remove**(): `void`
+
+Defined in: [helper/EntityHelper.ts:238](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L238)
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`Remove`](#remove-1)
+
+##### SetEntityName()
+
+> **SetEntityName**(`s`): `void`
+
+Defined in: [helper/EntityHelper.ts:162](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L162)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `s` | `string` |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`SetEntityName`](#setentityname-1)
+
+##### SetHealth()
+
+> **SetHealth**(`hp`): `void`
+
+Defined in: [helper/EntityHelper.ts:190](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L190)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `hp` | `number` |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`SetHealth`](#sethealth-1)
+
+##### SetMaxHealth()
+
+> **SetMaxHealth**(`hp`): `void`
+
+Defined in: [helper/EntityHelper.ts:202](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L202)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `hp` | `number` |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`SetMaxHealth`](#setmaxhealth-1)
+
+##### SetOwner()
+
+> **SetOwner**(`e`): `void`
+
+Defined in: [helper/EntityHelper.ts:170](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L170)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `e` | `Entity` |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`SetOwner`](#setowner-1)
+
+##### SetParent()
+
+> **SetParent**(`e`): `void`
+
+Defined in: [helper/EntityHelper.ts:178](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L178)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `e` | `Entity` |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`SetParent`](#setparent-1)
+
+##### TakeDamage()
+
+> **TakeDamage**(`__namedParameters`): `number`
+
+Defined in: [helper/EntityHelper.ts:222](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L222)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `__namedParameters` | \{ `attacker`: `any`; `damage`: `any`; `inflictor`: `any`; `weapon`: `any`; \} |
+| `__namedParameters.attacker` | `any` |
+| `__namedParameters.damage` | `any` |
+| `__namedParameters.inflictor` | `any` |
+| `__namedParameters.weapon` | `any` |
+
+###### Returns
+
+`number`
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`TakeDamage`](#takedamage-1)
+
+##### Teleport()
+
+> **Teleport**(`__namedParameters`): `void`
+
+Defined in: [helper/EntityHelper.ts:150](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L150)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `__namedParameters` | \{ `position`: `any`; `rotation`: `any`; `velocity`: `any`; \} |
+| `__namedParameters.position` | `any` |
+| `__namedParameters.rotation` | `any` |
+| `__namedParameters.velocity` | `any` |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`Teleport`](#teleport-1)
 
 ##### Find()
 
@@ -7979,7 +13417,7 @@ Defined in: [helper/InfoTarget.ts:26](https://github.com/Orb-Workshop/scriptedeu
 
 ###### Overrides
 
-[`EntityHelper`](#entityhelper).[`Find`](#find-2)
+[`EntityHelper`](#abstract-entityhelper).[`Find`](#find-1)
 
 ##### FindAll()
 
@@ -7999,11 +13437,11 @@ Defined in: [helper/InfoTarget.ts:31](https://github.com/Orb-Workshop/scriptedeu
 
 ###### Overrides
 
-[`EntityHelper`](#entityhelper).[`FindAll`](#findall-2)
+[`EntityHelper`](#abstract-entityhelper).[`FindAll`](#findall-1)
 
 ##### FindAllByClass()
 
-> `static` **FindAllByClass**(`classname`, `r`): [`EntityHelper`](#entityhelper)[]
+> `static` **FindAllByClass**(`classname`, `r`): [`EntityHelper`](#abstract-entityhelper)[]
 
 Defined in: [helper/EntityHelper.ts:52](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L52)
 
@@ -8016,15 +13454,15 @@ Defined in: [helper/EntityHelper.ts:52](https://github.com/Orb-Workshop/scripted
 
 ###### Returns
 
-[`EntityHelper`](#entityhelper)[]
+[`EntityHelper`](#abstract-entityhelper)[]
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`FindAllByClass`](#findallbyclass-2)
+[`EntityHelper`](#abstract-entityhelper).[`FindAllByClass`](#findallbyclass-1)
 
 ##### FindByClass()
 
-> `static` **FindByClass**(`classname`, `r`, `error`): [`EntityHelper`](#entityhelper) \| `null`
+> `static` **FindByClass**(`classname`, `r`, `error?`): [`EntityHelper`](#abstract-entityhelper) \| `null`
 
 Defined in: [helper/EntityHelper.ts:44](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L44)
 
@@ -8038,11 +13476,11 @@ Defined in: [helper/EntityHelper.ts:44](https://github.com/Orb-Workshop/scripted
 
 ###### Returns
 
-[`EntityHelper`](#entityhelper) \| `null`
+[`EntityHelper`](#abstract-entityhelper) \| `null`
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`FindByClass`](#findbyclass-2)
+[`EntityHelper`](#abstract-entityhelper).[`FindByClass`](#findbyclass-1)
 
 ##### From()
 
@@ -8068,7 +13506,7 @@ Defined in: [helper/InfoTeleportDestination.ts:15](https://github.com/Orb-Worksh
 
 #### Extends
 
-- [`EntityHelper`](#entityhelper)
+- [`EntityHelper`](#abstract-entityhelper)
 
 #### Constructors
 
@@ -8090,7 +13528,7 @@ Defined in: [helper/InfoTeleportDestination.ts:16](https://github.com/Orb-Worksh
 
 ###### Overrides
 
-[`EntityHelper`](#entityhelper).[`constructor`](#constructor-2)
+[`EntityHelper`](#abstract-entityhelper).[`constructor`](#constructor-2)
 
 #### Accessors
 
@@ -8108,7 +13546,7 @@ Defined in: [helper/EntityHelper.ts:57](https://github.com/Orb-Workshop/scripted
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`raw`](#raw-1)
+[`EntityHelper`](#abstract-entityhelper).[`raw`](#raw-1)
 
 #### Methods
 
@@ -8134,11 +13572,11 @@ TODO: Use Global Events to 'latch onto' the callbacks this method represents.
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`ConnectOutput`](#connectoutput-2)
+[`EntityHelper`](#abstract-entityhelper).[`ConnectOutput`](#connectoutput-1)
 
 ##### FireIO()
 
-> **FireIO**(`opts`): `void`
+> **FireIO**(`opts?`): `void`
 
 Defined in: [helper/EntityHelper.ts:59](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L59)
 
@@ -8154,11 +13592,11 @@ Defined in: [helper/EntityHelper.ts:59](https://github.com/Orb-Workshop/scripted
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`FireIO`](#fireio-2)
+[`EntityHelper`](#abstract-entityhelper).[`FireIO`](#fireio-1)
 
 ##### FireUser1()
 
-> **FireUser1**(`opts`): `void`
+> **FireUser1**(`opts?`): `void`
 
 Defined in: [helper/EntityHelper.ts:68](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L68)
 
@@ -8174,11 +13612,11 @@ Defined in: [helper/EntityHelper.ts:68](https://github.com/Orb-Workshop/scripted
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`FireUser1`](#fireuser1-2)
+[`EntityHelper`](#abstract-entityhelper).[`FireUser1`](#fireuser1-1)
 
 ##### FireUser2()
 
-> **FireUser2**(`opts`): `void`
+> **FireUser2**(`opts?`): `void`
 
 Defined in: [helper/EntityHelper.ts:72](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L72)
 
@@ -8194,11 +13632,11 @@ Defined in: [helper/EntityHelper.ts:72](https://github.com/Orb-Workshop/scripted
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`FireUser2`](#fireuser2-2)
+[`EntityHelper`](#abstract-entityhelper).[`FireUser2`](#fireuser2-1)
 
 ##### FireUser3()
 
-> **FireUser3**(`opts`): `void`
+> **FireUser3**(`opts?`): `void`
 
 Defined in: [helper/EntityHelper.ts:76](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L76)
 
@@ -8214,11 +13652,11 @@ Defined in: [helper/EntityHelper.ts:76](https://github.com/Orb-Workshop/scripted
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`FireUser3`](#fireuser3-2)
+[`EntityHelper`](#abstract-entityhelper).[`FireUser3`](#fireuser3-1)
 
 ##### FireUser4()
 
-> **FireUser4**(`opts`): `void`
+> **FireUser4**(`opts?`): `void`
 
 Defined in: [helper/EntityHelper.ts:80](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L80)
 
@@ -8234,7 +13672,7 @@ Defined in: [helper/EntityHelper.ts:80](https://github.com/Orb-Workshop/scripted
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`FireUser4`](#fireuser4-2)
+[`EntityHelper`](#abstract-entityhelper).[`FireUser4`](#fireuser4-1)
 
 ##### GetAbsAngles()
 
@@ -8248,7 +13686,7 @@ Defined in: [helper/EntityHelper.ts:126](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`GetAbsAngles`](#getabsangles-2)
+[`EntityHelper`](#abstract-entityhelper).[`GetAbsAngles`](#getabsangles-1)
 
 ##### GetAbsOrigin()
 
@@ -8262,7 +13700,7 @@ Defined in: [helper/EntityHelper.ts:118](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`GetAbsOrigin`](#getabsorigin-2)
+[`EntityHelper`](#abstract-entityhelper).[`GetAbsOrigin`](#getabsorigin-1)
 
 ##### GetAbsVelocity()
 
@@ -8276,7 +13714,7 @@ Defined in: [helper/EntityHelper.ts:134](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`GetAbsVelocity`](#getabsvelocity-2)
+[`EntityHelper`](#abstract-entityhelper).[`GetAbsVelocity`](#getabsvelocity-1)
 
 ##### GetClassName()
 
@@ -8290,7 +13728,7 @@ Defined in: [helper/EntityHelper.ts:154](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`GetClassName`](#getclassname-2)
+[`EntityHelper`](#abstract-entityhelper).[`GetClassName`](#getclassname-1)
 
 ##### GetEntityName()
 
@@ -8304,7 +13742,7 @@ Defined in: [helper/EntityHelper.ts:158](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`GetEntityName`](#getentityname-2)
+[`EntityHelper`](#abstract-entityhelper).[`GetEntityName`](#getentityname-1)
 
 ##### GetEyeAngles()
 
@@ -8318,7 +13756,7 @@ Defined in: [helper/EntityHelper.ts:142](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`GetEyeAngles`](#geteyeangles-2)
+[`EntityHelper`](#abstract-entityhelper).[`GetEyeAngles`](#geteyeangles-1)
 
 ##### GetEyePosition()
 
@@ -8332,7 +13770,7 @@ Defined in: [helper/EntityHelper.ts:146](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`GetEyePosition`](#geteyeposition-2)
+[`EntityHelper`](#abstract-entityhelper).[`GetEyePosition`](#geteyeposition-1)
 
 ##### GetGroundEntity()
 
@@ -8346,7 +13784,7 @@ Defined in: [helper/EntityHelper.ts:218](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`GetGroundEntity`](#getgroundentity-2)
+[`EntityHelper`](#abstract-entityhelper).[`GetGroundEntity`](#getgroundentity-1)
 
 ##### GetHealth()
 
@@ -8360,7 +13798,7 @@ Defined in: [helper/EntityHelper.ts:186](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`GetHealth`](#gethealth-2)
+[`EntityHelper`](#abstract-entityhelper).[`GetHealth`](#gethealth-1)
 
 ##### GetLocalAngles()
 
@@ -8374,7 +13812,7 @@ Defined in: [helper/EntityHelper.ts:130](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`GetLocalAngles`](#getlocalangles-2)
+[`EntityHelper`](#abstract-entityhelper).[`GetLocalAngles`](#getlocalangles-1)
 
 ##### GetLocalOrigin()
 
@@ -8388,7 +13826,7 @@ Defined in: [helper/EntityHelper.ts:122](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`GetLocalOrigin`](#getlocalorigin-2)
+[`EntityHelper`](#abstract-entityhelper).[`GetLocalOrigin`](#getlocalorigin-1)
 
 ##### GetLocalVelocity()
 
@@ -8402,7 +13840,7 @@ Defined in: [helper/EntityHelper.ts:138](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`GetLocalVelocity`](#getlocalvelocity-2)
+[`EntityHelper`](#abstract-entityhelper).[`GetLocalVelocity`](#getlocalvelocity-1)
 
 ##### GetMaxHealth()
 
@@ -8416,7 +13854,7 @@ Defined in: [helper/EntityHelper.ts:198](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`GetMaxHealth`](#getmaxhealth-2)
+[`EntityHelper`](#abstract-entityhelper).[`GetMaxHealth`](#getmaxhealth-1)
 
 ##### GetOwner()
 
@@ -8430,7 +13868,7 @@ Defined in: [helper/EntityHelper.ts:166](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`GetOwner`](#getowner-2)
+[`EntityHelper`](#abstract-entityhelper).[`GetOwner`](#getowner-1)
 
 ##### GetParent()
 
@@ -8444,7 +13882,7 @@ Defined in: [helper/EntityHelper.ts:174](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`GetParent`](#getparent-2)
+[`EntityHelper`](#abstract-entityhelper).[`GetParent`](#getparent-1)
 
 ##### GetTeamNumber()
 
@@ -8458,7 +13896,7 @@ Defined in: [helper/EntityHelper.ts:182](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`GetTeamNumber`](#getteamnumber-2)
+[`EntityHelper`](#abstract-entityhelper).[`GetTeamNumber`](#getteamnumber-1)
 
 ##### IsAlive()
 
@@ -8472,7 +13910,7 @@ Defined in: [helper/EntityHelper.ts:210](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`IsAlive`](#isalive-2)
+[`EntityHelper`](#abstract-entityhelper).[`IsAlive`](#isalive-1)
 
 ##### IsValid()
 
@@ -8486,7 +13924,7 @@ Defined in: [helper/EntityHelper.ts:114](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`IsValid`](#isvalid-2)
+[`EntityHelper`](#abstract-entityhelper).[`IsValid`](#isvalid-1)
 
 ##### IsWorld()
 
@@ -8500,7 +13938,7 @@ Defined in: [helper/EntityHelper.ts:214](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`IsWorld`](#isworld-2)
+[`EntityHelper`](#abstract-entityhelper).[`IsWorld`](#isworld-1)
 
 ##### Kill()
 
@@ -8514,11 +13952,45 @@ Defined in: [helper/EntityHelper.ts:226](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`Kill`](#kill-2)
+[`EntityHelper`](#abstract-entityhelper).[`Kill`](#kill-1)
+
+##### KillAll()
+
+> **KillAll**(): `void`
+
+Defined in: [helper/EntityHelper.ts:234](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L234)
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`KillAll`](#killall-1)
+
+##### KillHierarchy()
+
+> **KillHierarchy**(`opts?`): `void`
+
+Defined in: [helper/EntityHelper.ts:230](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L230)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `opts` | \{ \} |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`KillHierarchy`](#killhierarchy-1)
 
 ##### On()
 
-> **On**(`event_name`, `callback`): [`EntityHelper`](#entityhelper)
+> **On**(`event_name`, `callback`): [`EntityHelper`](#abstract-entityhelper)
 
 Defined in: [helper/EntityHelper.ts:104](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L104)
 
@@ -8531,17 +14003,17 @@ Defined in: [helper/EntityHelper.ts:104](https://github.com/Orb-Workshop/scripte
 
 ###### Returns
 
-[`EntityHelper`](#entityhelper)
+[`EntityHelper`](#abstract-entityhelper)
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`On`](#on-2)
+[`EntityHelper`](#abstract-entityhelper).[`On`](#on-1)
 
 ##### Remove()
 
 > **Remove**(): `void`
 
-Defined in: [helper/EntityHelper.ts:230](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L230)
+Defined in: [helper/EntityHelper.ts:238](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L238)
 
 ###### Returns
 
@@ -8549,7 +14021,7 @@ Defined in: [helper/EntityHelper.ts:230](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`Remove`](#remove-2)
+[`EntityHelper`](#abstract-entityhelper).[`Remove`](#remove-1)
 
 ##### SetEntityName()
 
@@ -8569,7 +14041,7 @@ Defined in: [helper/EntityHelper.ts:162](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`SetEntityName`](#setentityname-2)
+[`EntityHelper`](#abstract-entityhelper).[`SetEntityName`](#setentityname-1)
 
 ##### SetHealth()
 
@@ -8589,7 +14061,7 @@ Defined in: [helper/EntityHelper.ts:190](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`SetHealth`](#sethealth-2)
+[`EntityHelper`](#abstract-entityhelper).[`SetHealth`](#sethealth-1)
 
 ##### SetMaxHealth()
 
@@ -8609,7 +14081,7 @@ Defined in: [helper/EntityHelper.ts:202](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`SetMaxHealth`](#setmaxhealth-2)
+[`EntityHelper`](#abstract-entityhelper).[`SetMaxHealth`](#setmaxhealth-1)
 
 ##### SetOwner()
 
@@ -8629,7 +14101,7 @@ Defined in: [helper/EntityHelper.ts:170](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`SetOwner`](#setowner-2)
+[`EntityHelper`](#abstract-entityhelper).[`SetOwner`](#setowner-1)
 
 ##### SetParent()
 
@@ -8649,7 +14121,7 @@ Defined in: [helper/EntityHelper.ts:178](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`SetParent`](#setparent-2)
+[`EntityHelper`](#abstract-entityhelper).[`SetParent`](#setparent-1)
 
 ##### TakeDamage()
 
@@ -8673,7 +14145,7 @@ Defined in: [helper/EntityHelper.ts:222](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`TakeDamage`](#takedamage-2)
+[`EntityHelper`](#abstract-entityhelper).[`TakeDamage`](#takedamage-1)
 
 ##### Teleport()
 
@@ -8696,7 +14168,7 @@ Defined in: [helper/EntityHelper.ts:150](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`Teleport`](#teleport-2)
+[`EntityHelper`](#abstract-entityhelper).[`Teleport`](#teleport-1)
 
 ##### Find()
 
@@ -8716,7 +14188,7 @@ Defined in: [helper/InfoTeleportDestination.ts:26](https://github.com/Orb-Worksh
 
 ###### Overrides
 
-[`EntityHelper`](#entityhelper).[`Find`](#find-2)
+[`EntityHelper`](#abstract-entityhelper).[`Find`](#find-1)
 
 ##### FindAll()
 
@@ -8736,11 +14208,11 @@ Defined in: [helper/InfoTeleportDestination.ts:31](https://github.com/Orb-Worksh
 
 ###### Overrides
 
-[`EntityHelper`](#entityhelper).[`FindAll`](#findall-2)
+[`EntityHelper`](#abstract-entityhelper).[`FindAll`](#findall-1)
 
 ##### FindAllByClass()
 
-> `static` **FindAllByClass**(`classname`, `r`): [`EntityHelper`](#entityhelper)[]
+> `static` **FindAllByClass**(`classname`, `r`): [`EntityHelper`](#abstract-entityhelper)[]
 
 Defined in: [helper/EntityHelper.ts:52](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L52)
 
@@ -8753,15 +14225,15 @@ Defined in: [helper/EntityHelper.ts:52](https://github.com/Orb-Workshop/scripted
 
 ###### Returns
 
-[`EntityHelper`](#entityhelper)[]
+[`EntityHelper`](#abstract-entityhelper)[]
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`FindAllByClass`](#findallbyclass-2)
+[`EntityHelper`](#abstract-entityhelper).[`FindAllByClass`](#findallbyclass-1)
 
 ##### FindByClass()
 
-> `static` **FindByClass**(`classname`, `r`, `error`): [`EntityHelper`](#entityhelper) \| `null`
+> `static` **FindByClass**(`classname`, `r`, `error?`): [`EntityHelper`](#abstract-entityhelper) \| `null`
 
 Defined in: [helper/EntityHelper.ts:44](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L44)
 
@@ -8775,11 +14247,11 @@ Defined in: [helper/EntityHelper.ts:44](https://github.com/Orb-Workshop/scripted
 
 ###### Returns
 
-[`EntityHelper`](#entityhelper) \| `null`
+[`EntityHelper`](#abstract-entityhelper) \| `null`
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`FindByClass`](#findbyclass-2)
+[`EntityHelper`](#abstract-entityhelper).[`FindByClass`](#findbyclass-1)
 
 ##### From()
 
@@ -8805,7 +14277,7 @@ Defined in: [helper/LogicRelay.ts:17](https://github.com/Orb-Workshop/scriptedeu
 
 #### Extends
 
-- [`EntityHelper`](#entityhelper)
+- [`EntityHelper`](#abstract-entityhelper)
 
 #### Constructors
 
@@ -8827,7 +14299,7 @@ Defined in: [helper/LogicRelay.ts:18](https://github.com/Orb-Workshop/scriptedeu
 
 ###### Overrides
 
-[`EntityHelper`](#entityhelper).[`constructor`](#constructor-2)
+[`EntityHelper`](#abstract-entityhelper).[`constructor`](#constructor-2)
 
 #### Accessors
 
@@ -8845,13 +14317,13 @@ Defined in: [helper/EntityHelper.ts:57](https://github.com/Orb-Workshop/scripted
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`raw`](#raw-1)
+[`EntityHelper`](#abstract-entityhelper).[`raw`](#raw-1)
 
 #### Methods
 
 ##### CancelPending()
 
-> **CancelPending**(`opts`): `void`
+> **CancelPending**(`opts?`): `void`
 
 Defined in: [helper/LogicRelay.ts:56](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/LogicRelay.ts#L56)
 
@@ -8887,11 +14359,11 @@ TODO: Use Global Events to 'latch onto' the callbacks this method represents.
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`ConnectOutput`](#connectoutput-2)
+[`EntityHelper`](#abstract-entityhelper).[`ConnectOutput`](#connectoutput-1)
 
 ##### Disable()
 
-> **Disable**(`opts`): `void`
+> **Disable**(`opts?`): `void`
 
 Defined in: [helper/LogicRelay.ts:44](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/LogicRelay.ts#L44)
 
@@ -8907,7 +14379,7 @@ Defined in: [helper/LogicRelay.ts:44](https://github.com/Orb-Workshop/scriptedeu
 
 ##### Enable()
 
-> **Enable**(`opts`): `void`
+> **Enable**(`opts?`): `void`
 
 Defined in: [helper/LogicRelay.ts:40](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/LogicRelay.ts#L40)
 
@@ -8923,7 +14395,7 @@ Defined in: [helper/LogicRelay.ts:40](https://github.com/Orb-Workshop/scriptedeu
 
 ##### FireIO()
 
-> **FireIO**(`opts`): `void`
+> **FireIO**(`opts?`): `void`
 
 Defined in: [helper/EntityHelper.ts:59](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L59)
 
@@ -8939,11 +14411,11 @@ Defined in: [helper/EntityHelper.ts:59](https://github.com/Orb-Workshop/scripted
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`FireIO`](#fireio-2)
+[`EntityHelper`](#abstract-entityhelper).[`FireIO`](#fireio-1)
 
 ##### FireUser1()
 
-> **FireUser1**(`opts`): `void`
+> **FireUser1**(`opts?`): `void`
 
 Defined in: [helper/EntityHelper.ts:68](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L68)
 
@@ -8959,11 +14431,11 @@ Defined in: [helper/EntityHelper.ts:68](https://github.com/Orb-Workshop/scripted
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`FireUser1`](#fireuser1-2)
+[`EntityHelper`](#abstract-entityhelper).[`FireUser1`](#fireuser1-1)
 
 ##### FireUser2()
 
-> **FireUser2**(`opts`): `void`
+> **FireUser2**(`opts?`): `void`
 
 Defined in: [helper/EntityHelper.ts:72](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L72)
 
@@ -8979,11 +14451,11 @@ Defined in: [helper/EntityHelper.ts:72](https://github.com/Orb-Workshop/scripted
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`FireUser2`](#fireuser2-2)
+[`EntityHelper`](#abstract-entityhelper).[`FireUser2`](#fireuser2-1)
 
 ##### FireUser3()
 
-> **FireUser3**(`opts`): `void`
+> **FireUser3**(`opts?`): `void`
 
 Defined in: [helper/EntityHelper.ts:76](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L76)
 
@@ -8999,11 +14471,11 @@ Defined in: [helper/EntityHelper.ts:76](https://github.com/Orb-Workshop/scripted
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`FireUser3`](#fireuser3-2)
+[`EntityHelper`](#abstract-entityhelper).[`FireUser3`](#fireuser3-1)
 
 ##### FireUser4()
 
-> **FireUser4**(`opts`): `void`
+> **FireUser4**(`opts?`): `void`
 
 Defined in: [helper/EntityHelper.ts:80](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L80)
 
@@ -9019,7 +14491,7 @@ Defined in: [helper/EntityHelper.ts:80](https://github.com/Orb-Workshop/scripted
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`FireUser4`](#fireuser4-2)
+[`EntityHelper`](#abstract-entityhelper).[`FireUser4`](#fireuser4-1)
 
 ##### GetAbsAngles()
 
@@ -9033,7 +14505,7 @@ Defined in: [helper/EntityHelper.ts:126](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`GetAbsAngles`](#getabsangles-2)
+[`EntityHelper`](#abstract-entityhelper).[`GetAbsAngles`](#getabsangles-1)
 
 ##### GetAbsOrigin()
 
@@ -9047,7 +14519,7 @@ Defined in: [helper/EntityHelper.ts:118](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`GetAbsOrigin`](#getabsorigin-2)
+[`EntityHelper`](#abstract-entityhelper).[`GetAbsOrigin`](#getabsorigin-1)
 
 ##### GetAbsVelocity()
 
@@ -9061,7 +14533,7 @@ Defined in: [helper/EntityHelper.ts:134](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`GetAbsVelocity`](#getabsvelocity-2)
+[`EntityHelper`](#abstract-entityhelper).[`GetAbsVelocity`](#getabsvelocity-1)
 
 ##### GetClassName()
 
@@ -9075,7 +14547,7 @@ Defined in: [helper/EntityHelper.ts:154](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`GetClassName`](#getclassname-2)
+[`EntityHelper`](#abstract-entityhelper).[`GetClassName`](#getclassname-1)
 
 ##### GetEntityName()
 
@@ -9089,7 +14561,7 @@ Defined in: [helper/EntityHelper.ts:158](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`GetEntityName`](#getentityname-2)
+[`EntityHelper`](#abstract-entityhelper).[`GetEntityName`](#getentityname-1)
 
 ##### GetEyeAngles()
 
@@ -9103,7 +14575,7 @@ Defined in: [helper/EntityHelper.ts:142](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`GetEyeAngles`](#geteyeangles-2)
+[`EntityHelper`](#abstract-entityhelper).[`GetEyeAngles`](#geteyeangles-1)
 
 ##### GetEyePosition()
 
@@ -9117,7 +14589,7 @@ Defined in: [helper/EntityHelper.ts:146](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`GetEyePosition`](#geteyeposition-2)
+[`EntityHelper`](#abstract-entityhelper).[`GetEyePosition`](#geteyeposition-1)
 
 ##### GetGroundEntity()
 
@@ -9131,7 +14603,7 @@ Defined in: [helper/EntityHelper.ts:218](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`GetGroundEntity`](#getgroundentity-2)
+[`EntityHelper`](#abstract-entityhelper).[`GetGroundEntity`](#getgroundentity-1)
 
 ##### GetHealth()
 
@@ -9145,7 +14617,7 @@ Defined in: [helper/EntityHelper.ts:186](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`GetHealth`](#gethealth-2)
+[`EntityHelper`](#abstract-entityhelper).[`GetHealth`](#gethealth-1)
 
 ##### GetLocalAngles()
 
@@ -9159,7 +14631,7 @@ Defined in: [helper/EntityHelper.ts:130](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`GetLocalAngles`](#getlocalangles-2)
+[`EntityHelper`](#abstract-entityhelper).[`GetLocalAngles`](#getlocalangles-1)
 
 ##### GetLocalOrigin()
 
@@ -9173,7 +14645,7 @@ Defined in: [helper/EntityHelper.ts:122](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`GetLocalOrigin`](#getlocalorigin-2)
+[`EntityHelper`](#abstract-entityhelper).[`GetLocalOrigin`](#getlocalorigin-1)
 
 ##### GetLocalVelocity()
 
@@ -9187,7 +14659,7 @@ Defined in: [helper/EntityHelper.ts:138](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`GetLocalVelocity`](#getlocalvelocity-2)
+[`EntityHelper`](#abstract-entityhelper).[`GetLocalVelocity`](#getlocalvelocity-1)
 
 ##### GetMaxHealth()
 
@@ -9201,7 +14673,7 @@ Defined in: [helper/EntityHelper.ts:198](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`GetMaxHealth`](#getmaxhealth-2)
+[`EntityHelper`](#abstract-entityhelper).[`GetMaxHealth`](#getmaxhealth-1)
 
 ##### GetOwner()
 
@@ -9215,7 +14687,7 @@ Defined in: [helper/EntityHelper.ts:166](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`GetOwner`](#getowner-2)
+[`EntityHelper`](#abstract-entityhelper).[`GetOwner`](#getowner-1)
 
 ##### GetParent()
 
@@ -9229,7 +14701,7 @@ Defined in: [helper/EntityHelper.ts:174](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`GetParent`](#getparent-2)
+[`EntityHelper`](#abstract-entityhelper).[`GetParent`](#getparent-1)
 
 ##### GetTeamNumber()
 
@@ -9243,7 +14715,7 @@ Defined in: [helper/EntityHelper.ts:182](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`GetTeamNumber`](#getteamnumber-2)
+[`EntityHelper`](#abstract-entityhelper).[`GetTeamNumber`](#getteamnumber-1)
 
 ##### IsAlive()
 
@@ -9257,7 +14729,7 @@ Defined in: [helper/EntityHelper.ts:210](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`IsAlive`](#isalive-2)
+[`EntityHelper`](#abstract-entityhelper).[`IsAlive`](#isalive-1)
 
 ##### IsValid()
 
@@ -9271,7 +14743,7 @@ Defined in: [helper/EntityHelper.ts:114](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`IsValid`](#isvalid-2)
+[`EntityHelper`](#abstract-entityhelper).[`IsValid`](#isvalid-1)
 
 ##### IsWorld()
 
@@ -9285,7 +14757,7 @@ Defined in: [helper/EntityHelper.ts:214](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`IsWorld`](#isworld-2)
+[`EntityHelper`](#abstract-entityhelper).[`IsWorld`](#isworld-1)
 
 ##### Kill()
 
@@ -9299,11 +14771,45 @@ Defined in: [helper/EntityHelper.ts:226](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`Kill`](#kill-2)
+[`EntityHelper`](#abstract-entityhelper).[`Kill`](#kill-1)
+
+##### KillAll()
+
+> **KillAll**(): `void`
+
+Defined in: [helper/EntityHelper.ts:234](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L234)
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`KillAll`](#killall-1)
+
+##### KillHierarchy()
+
+> **KillHierarchy**(`opts?`): `void`
+
+Defined in: [helper/EntityHelper.ts:230](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L230)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `opts` | \{ \} |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`KillHierarchy`](#killhierarchy-1)
 
 ##### On()
 
-> **On**(`event_name`, `callback`): [`EntityHelper`](#entityhelper)
+> **On**(`event_name`, `callback`): [`EntityHelper`](#abstract-entityhelper)
 
 Defined in: [helper/EntityHelper.ts:104](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L104)
 
@@ -9316,11 +14822,11 @@ Defined in: [helper/EntityHelper.ts:104](https://github.com/Orb-Workshop/scripte
 
 ###### Returns
 
-[`EntityHelper`](#entityhelper)
+[`EntityHelper`](#abstract-entityhelper)
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`On`](#on-2)
+[`EntityHelper`](#abstract-entityhelper).[`On`](#on-1)
 
 ##### OnTrigger()
 
@@ -9342,7 +14848,7 @@ Defined in: [helper/LogicRelay.ts:61](https://github.com/Orb-Workshop/scriptedeu
 
 > **Remove**(): `void`
 
-Defined in: [helper/EntityHelper.ts:230](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L230)
+Defined in: [helper/EntityHelper.ts:238](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L238)
 
 ###### Returns
 
@@ -9350,7 +14856,7 @@ Defined in: [helper/EntityHelper.ts:230](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`Remove`](#remove-2)
+[`EntityHelper`](#abstract-entityhelper).[`Remove`](#remove-1)
 
 ##### SetEntityName()
 
@@ -9370,7 +14876,7 @@ Defined in: [helper/EntityHelper.ts:162](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`SetEntityName`](#setentityname-2)
+[`EntityHelper`](#abstract-entityhelper).[`SetEntityName`](#setentityname-1)
 
 ##### SetHealth()
 
@@ -9390,7 +14896,7 @@ Defined in: [helper/EntityHelper.ts:190](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`SetHealth`](#sethealth-2)
+[`EntityHelper`](#abstract-entityhelper).[`SetHealth`](#sethealth-1)
 
 ##### SetMaxHealth()
 
@@ -9410,7 +14916,7 @@ Defined in: [helper/EntityHelper.ts:202](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`SetMaxHealth`](#setmaxhealth-2)
+[`EntityHelper`](#abstract-entityhelper).[`SetMaxHealth`](#setmaxhealth-1)
 
 ##### SetOwner()
 
@@ -9430,7 +14936,7 @@ Defined in: [helper/EntityHelper.ts:170](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`SetOwner`](#setowner-2)
+[`EntityHelper`](#abstract-entityhelper).[`SetOwner`](#setowner-1)
 
 ##### SetParent()
 
@@ -9450,7 +14956,7 @@ Defined in: [helper/EntityHelper.ts:178](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`SetParent`](#setparent-2)
+[`EntityHelper`](#abstract-entityhelper).[`SetParent`](#setparent-1)
 
 ##### TakeDamage()
 
@@ -9474,7 +14980,7 @@ Defined in: [helper/EntityHelper.ts:222](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`TakeDamage`](#takedamage-2)
+[`EntityHelper`](#abstract-entityhelper).[`TakeDamage`](#takedamage-1)
 
 ##### Teleport()
 
@@ -9497,11 +15003,11 @@ Defined in: [helper/EntityHelper.ts:150](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`Teleport`](#teleport-2)
+[`EntityHelper`](#abstract-entityhelper).[`Teleport`](#teleport-1)
 
 ##### Toggle()
 
-> **Toggle**(`opts`): `void`
+> **Toggle**(`opts?`): `void`
 
 Defined in: [helper/LogicRelay.ts:48](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/LogicRelay.ts#L48)
 
@@ -9517,7 +15023,7 @@ Defined in: [helper/LogicRelay.ts:48](https://github.com/Orb-Workshop/scriptedeu
 
 ##### Trigger()
 
-> **Trigger**(`opts`): `void`
+> **Trigger**(`opts?`): `void`
 
 Defined in: [helper/LogicRelay.ts:52](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/LogicRelay.ts#L52)
 
@@ -9549,7 +15055,7 @@ Defined in: [helper/LogicRelay.ts:28](https://github.com/Orb-Workshop/scriptedeu
 
 ###### Overrides
 
-[`EntityHelper`](#entityhelper).[`Find`](#find-2)
+[`EntityHelper`](#abstract-entityhelper).[`Find`](#find-1)
 
 ##### FindAll()
 
@@ -9569,11 +15075,11 @@ Defined in: [helper/LogicRelay.ts:33](https://github.com/Orb-Workshop/scriptedeu
 
 ###### Overrides
 
-[`EntityHelper`](#entityhelper).[`FindAll`](#findall-2)
+[`EntityHelper`](#abstract-entityhelper).[`FindAll`](#findall-1)
 
 ##### FindAllByClass()
 
-> `static` **FindAllByClass**(`classname`, `r`): [`EntityHelper`](#entityhelper)[]
+> `static` **FindAllByClass**(`classname`, `r`): [`EntityHelper`](#abstract-entityhelper)[]
 
 Defined in: [helper/EntityHelper.ts:52](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L52)
 
@@ -9586,15 +15092,15 @@ Defined in: [helper/EntityHelper.ts:52](https://github.com/Orb-Workshop/scripted
 
 ###### Returns
 
-[`EntityHelper`](#entityhelper)[]
+[`EntityHelper`](#abstract-entityhelper)[]
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`FindAllByClass`](#findallbyclass-2)
+[`EntityHelper`](#abstract-entityhelper).[`FindAllByClass`](#findallbyclass-1)
 
 ##### FindByClass()
 
-> `static` **FindByClass**(`classname`, `r`, `error`): [`EntityHelper`](#entityhelper) \| `null`
+> `static` **FindByClass**(`classname`, `r`, `error?`): [`EntityHelper`](#abstract-entityhelper) \| `null`
 
 Defined in: [helper/EntityHelper.ts:44](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L44)
 
@@ -9608,11 +15114,11 @@ Defined in: [helper/EntityHelper.ts:44](https://github.com/Orb-Workshop/scripted
 
 ###### Returns
 
-[`EntityHelper`](#entityhelper) \| `null`
+[`EntityHelper`](#abstract-entityhelper) \| `null`
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`FindByClass`](#findbyclass-2)
+[`EntityHelper`](#abstract-entityhelper).[`FindByClass`](#findbyclass-1)
 
 ##### From()
 
@@ -9640,7 +15146,7 @@ Wraps the sound event template.
 
 #### Extends
 
-- [`EntityHelper`](#entityhelper)
+- [`EntityHelper`](#abstract-entityhelper)
 
 #### Constructors
 
@@ -9663,7 +15169,7 @@ Defined in: [helper/MoveableSoundEvent.ts:10](https://github.com/Orb-Workshop/sc
 
 ###### Overrides
 
-[`EntityHelper`](#entityhelper).[`constructor`](#constructor-2)
+[`EntityHelper`](#abstract-entityhelper).[`constructor`](#constructor-2)
 
 #### Accessors
 
@@ -9681,7 +15187,7 @@ Defined in: [helper/EntityHelper.ts:57](https://github.com/Orb-Workshop/scripted
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`raw`](#raw-1)
+[`EntityHelper`](#abstract-entityhelper).[`raw`](#raw-1)
 
 #### Methods
 
@@ -9707,11 +15213,11 @@ TODO: Use Global Events to 'latch onto' the callbacks this method represents.
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`ConnectOutput`](#connectoutput-2)
+[`EntityHelper`](#abstract-entityhelper).[`ConnectOutput`](#connectoutput-1)
 
 ##### FireIO()
 
-> **FireIO**(`opts`): `void`
+> **FireIO**(`opts?`): `void`
 
 Defined in: [helper/EntityHelper.ts:59](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L59)
 
@@ -9727,11 +15233,11 @@ Defined in: [helper/EntityHelper.ts:59](https://github.com/Orb-Workshop/scripted
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`FireIO`](#fireio-2)
+[`EntityHelper`](#abstract-entityhelper).[`FireIO`](#fireio-1)
 
 ##### FireUser1()
 
-> **FireUser1**(`opts`): `void`
+> **FireUser1**(`opts?`): `void`
 
 Defined in: [helper/EntityHelper.ts:68](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L68)
 
@@ -9747,11 +15253,11 @@ Defined in: [helper/EntityHelper.ts:68](https://github.com/Orb-Workshop/scripted
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`FireUser1`](#fireuser1-2)
+[`EntityHelper`](#abstract-entityhelper).[`FireUser1`](#fireuser1-1)
 
 ##### FireUser2()
 
-> **FireUser2**(`opts`): `void`
+> **FireUser2**(`opts?`): `void`
 
 Defined in: [helper/EntityHelper.ts:72](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L72)
 
@@ -9767,11 +15273,11 @@ Defined in: [helper/EntityHelper.ts:72](https://github.com/Orb-Workshop/scripted
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`FireUser2`](#fireuser2-2)
+[`EntityHelper`](#abstract-entityhelper).[`FireUser2`](#fireuser2-1)
 
 ##### FireUser3()
 
-> **FireUser3**(`opts`): `void`
+> **FireUser3**(`opts?`): `void`
 
 Defined in: [helper/EntityHelper.ts:76](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L76)
 
@@ -9787,11 +15293,11 @@ Defined in: [helper/EntityHelper.ts:76](https://github.com/Orb-Workshop/scripted
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`FireUser3`](#fireuser3-2)
+[`EntityHelper`](#abstract-entityhelper).[`FireUser3`](#fireuser3-1)
 
 ##### FireUser4()
 
-> **FireUser4**(`opts`): `void`
+> **FireUser4**(`opts?`): `void`
 
 Defined in: [helper/EntityHelper.ts:80](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L80)
 
@@ -9807,7 +15313,7 @@ Defined in: [helper/EntityHelper.ts:80](https://github.com/Orb-Workshop/scripted
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`FireUser4`](#fireuser4-2)
+[`EntityHelper`](#abstract-entityhelper).[`FireUser4`](#fireuser4-1)
 
 ##### GetAbsAngles()
 
@@ -9821,7 +15327,7 @@ Defined in: [helper/EntityHelper.ts:126](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`GetAbsAngles`](#getabsangles-2)
+[`EntityHelper`](#abstract-entityhelper).[`GetAbsAngles`](#getabsangles-1)
 
 ##### GetAbsOrigin()
 
@@ -9835,7 +15341,7 @@ Defined in: [helper/EntityHelper.ts:118](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`GetAbsOrigin`](#getabsorigin-2)
+[`EntityHelper`](#abstract-entityhelper).[`GetAbsOrigin`](#getabsorigin-1)
 
 ##### GetAbsVelocity()
 
@@ -9849,7 +15355,7 @@ Defined in: [helper/EntityHelper.ts:134](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`GetAbsVelocity`](#getabsvelocity-2)
+[`EntityHelper`](#abstract-entityhelper).[`GetAbsVelocity`](#getabsvelocity-1)
 
 ##### GetClassName()
 
@@ -9863,7 +15369,7 @@ Defined in: [helper/EntityHelper.ts:154](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`GetClassName`](#getclassname-2)
+[`EntityHelper`](#abstract-entityhelper).[`GetClassName`](#getclassname-1)
 
 ##### GetEntityName()
 
@@ -9877,7 +15383,7 @@ Defined in: [helper/EntityHelper.ts:158](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`GetEntityName`](#getentityname-2)
+[`EntityHelper`](#abstract-entityhelper).[`GetEntityName`](#getentityname-1)
 
 ##### GetEyeAngles()
 
@@ -9891,7 +15397,7 @@ Defined in: [helper/EntityHelper.ts:142](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`GetEyeAngles`](#geteyeangles-2)
+[`EntityHelper`](#abstract-entityhelper).[`GetEyeAngles`](#geteyeangles-1)
 
 ##### GetEyePosition()
 
@@ -9905,7 +15411,7 @@ Defined in: [helper/EntityHelper.ts:146](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`GetEyePosition`](#geteyeposition-2)
+[`EntityHelper`](#abstract-entityhelper).[`GetEyePosition`](#geteyeposition-1)
 
 ##### GetGroundEntity()
 
@@ -9919,7 +15425,7 @@ Defined in: [helper/EntityHelper.ts:218](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`GetGroundEntity`](#getgroundentity-2)
+[`EntityHelper`](#abstract-entityhelper).[`GetGroundEntity`](#getgroundentity-1)
 
 ##### GetHealth()
 
@@ -9933,7 +15439,7 @@ Defined in: [helper/EntityHelper.ts:186](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`GetHealth`](#gethealth-2)
+[`EntityHelper`](#abstract-entityhelper).[`GetHealth`](#gethealth-1)
 
 ##### GetLocalAngles()
 
@@ -9947,7 +15453,7 @@ Defined in: [helper/EntityHelper.ts:130](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`GetLocalAngles`](#getlocalangles-2)
+[`EntityHelper`](#abstract-entityhelper).[`GetLocalAngles`](#getlocalangles-1)
 
 ##### GetLocalOrigin()
 
@@ -9961,7 +15467,7 @@ Defined in: [helper/EntityHelper.ts:122](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`GetLocalOrigin`](#getlocalorigin-2)
+[`EntityHelper`](#abstract-entityhelper).[`GetLocalOrigin`](#getlocalorigin-1)
 
 ##### GetLocalVelocity()
 
@@ -9975,7 +15481,7 @@ Defined in: [helper/EntityHelper.ts:138](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`GetLocalVelocity`](#getlocalvelocity-2)
+[`EntityHelper`](#abstract-entityhelper).[`GetLocalVelocity`](#getlocalvelocity-1)
 
 ##### GetMaxHealth()
 
@@ -9989,7 +15495,7 @@ Defined in: [helper/EntityHelper.ts:198](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`GetMaxHealth`](#getmaxhealth-2)
+[`EntityHelper`](#abstract-entityhelper).[`GetMaxHealth`](#getmaxhealth-1)
 
 ##### GetOwner()
 
@@ -10003,7 +15509,7 @@ Defined in: [helper/EntityHelper.ts:166](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`GetOwner`](#getowner-2)
+[`EntityHelper`](#abstract-entityhelper).[`GetOwner`](#getowner-1)
 
 ##### GetParent()
 
@@ -10017,7 +15523,7 @@ Defined in: [helper/EntityHelper.ts:174](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`GetParent`](#getparent-2)
+[`EntityHelper`](#abstract-entityhelper).[`GetParent`](#getparent-1)
 
 ##### GetTeamNumber()
 
@@ -10031,7 +15537,7 @@ Defined in: [helper/EntityHelper.ts:182](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`GetTeamNumber`](#getteamnumber-2)
+[`EntityHelper`](#abstract-entityhelper).[`GetTeamNumber`](#getteamnumber-1)
 
 ##### IsAlive()
 
@@ -10045,7 +15551,7 @@ Defined in: [helper/EntityHelper.ts:210](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`IsAlive`](#isalive-2)
+[`EntityHelper`](#abstract-entityhelper).[`IsAlive`](#isalive-1)
 
 ##### IsValid()
 
@@ -10059,7 +15565,7 @@ Defined in: [helper/EntityHelper.ts:114](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`IsValid`](#isvalid-2)
+[`EntityHelper`](#abstract-entityhelper).[`IsValid`](#isvalid-1)
 
 ##### IsWorld()
 
@@ -10073,7 +15579,7 @@ Defined in: [helper/EntityHelper.ts:214](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`IsWorld`](#isworld-2)
+[`EntityHelper`](#abstract-entityhelper).[`IsWorld`](#isworld-1)
 
 ##### Kill()
 
@@ -10087,11 +15593,45 @@ Defined in: [helper/EntityHelper.ts:226](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`Kill`](#kill-2)
+[`EntityHelper`](#abstract-entityhelper).[`Kill`](#kill-1)
+
+##### KillAll()
+
+> **KillAll**(): `void`
+
+Defined in: [helper/EntityHelper.ts:234](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L234)
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`KillAll`](#killall-1)
+
+##### KillHierarchy()
+
+> **KillHierarchy**(`opts?`): `void`
+
+Defined in: [helper/EntityHelper.ts:230](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L230)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `opts` | \{ \} |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`KillHierarchy`](#killhierarchy-1)
 
 ##### On()
 
-> **On**(`event_name`, `callback`): [`EntityHelper`](#entityhelper)
+> **On**(`event_name`, `callback`): [`EntityHelper`](#abstract-entityhelper)
 
 Defined in: [helper/EntityHelper.ts:104](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L104)
 
@@ -10104,17 +15644,17 @@ Defined in: [helper/EntityHelper.ts:104](https://github.com/Orb-Workshop/scripte
 
 ###### Returns
 
-[`EntityHelper`](#entityhelper)
+[`EntityHelper`](#abstract-entityhelper)
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`On`](#on-2)
+[`EntityHelper`](#abstract-entityhelper).[`On`](#on-1)
 
 ##### Remove()
 
 > **Remove**(): `void`
 
-Defined in: [helper/EntityHelper.ts:230](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L230)
+Defined in: [helper/EntityHelper.ts:238](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L238)
 
 ###### Returns
 
@@ -10122,7 +15662,7 @@ Defined in: [helper/EntityHelper.ts:230](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`Remove`](#remove-2)
+[`EntityHelper`](#abstract-entityhelper).[`Remove`](#remove-1)
 
 ##### SetEntityName()
 
@@ -10142,7 +15682,7 @@ Defined in: [helper/EntityHelper.ts:162](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`SetEntityName`](#setentityname-2)
+[`EntityHelper`](#abstract-entityhelper).[`SetEntityName`](#setentityname-1)
 
 ##### SetHealth()
 
@@ -10162,7 +15702,7 @@ Defined in: [helper/EntityHelper.ts:190](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`SetHealth`](#sethealth-2)
+[`EntityHelper`](#abstract-entityhelper).[`SetHealth`](#sethealth-1)
 
 ##### SetMaxHealth()
 
@@ -10182,7 +15722,7 @@ Defined in: [helper/EntityHelper.ts:202](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`SetMaxHealth`](#setmaxhealth-2)
+[`EntityHelper`](#abstract-entityhelper).[`SetMaxHealth`](#setmaxhealth-1)
 
 ##### SetOwner()
 
@@ -10202,7 +15742,7 @@ Defined in: [helper/EntityHelper.ts:170](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`SetOwner`](#setowner-2)
+[`EntityHelper`](#abstract-entityhelper).[`SetOwner`](#setowner-1)
 
 ##### SetParent()
 
@@ -10222,7 +15762,7 @@ Defined in: [helper/EntityHelper.ts:178](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`SetParent`](#setparent-2)
+[`EntityHelper`](#abstract-entityhelper).[`SetParent`](#setparent-1)
 
 ##### SetSoundEventName()
 
@@ -10295,7 +15835,7 @@ Defined in: [helper/EntityHelper.ts:222](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`TakeDamage`](#takedamage-2)
+[`EntityHelper`](#abstract-entityhelper).[`TakeDamage`](#takedamage-1)
 
 ##### Teleport()
 
@@ -10318,7 +15858,7 @@ Defined in: [helper/EntityHelper.ts:150](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`Teleport`](#teleport-2)
+[`EntityHelper`](#abstract-entityhelper).[`Teleport`](#teleport-1)
 
 ##### Find()
 
@@ -10330,7 +15870,7 @@ Defined in: [helper/EntityHelper.ts:34](https://github.com/Orb-Workshop/scripted
 
 | Type Parameter | Default type |
 | ------ | ------ |
-| `T` | [`EntityHelper`](#entityhelper) |
+| `T` | [`EntityHelper`](#abstract-entityhelper) |
 
 ###### Parameters
 
@@ -10344,7 +15884,7 @@ Defined in: [helper/EntityHelper.ts:34](https://github.com/Orb-Workshop/scripted
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`Find`](#find-2)
+[`EntityHelper`](#abstract-entityhelper).[`Find`](#find-1)
 
 ##### FindAll()
 
@@ -10356,7 +15896,7 @@ Defined in: [helper/EntityHelper.ts:39](https://github.com/Orb-Workshop/scripted
 
 | Type Parameter | Default type |
 | ------ | ------ |
-| `T` | [`EntityHelper`](#entityhelper) |
+| `T` | [`EntityHelper`](#abstract-entityhelper) |
 
 ###### Parameters
 
@@ -10370,11 +15910,11 @@ Defined in: [helper/EntityHelper.ts:39](https://github.com/Orb-Workshop/scripted
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`FindAll`](#findall-2)
+[`EntityHelper`](#abstract-entityhelper).[`FindAll`](#findall-1)
 
 ##### FindAllByClass()
 
-> `static` **FindAllByClass**(`classname`, `r`): [`EntityHelper`](#entityhelper)[]
+> `static` **FindAllByClass**(`classname`, `r`): [`EntityHelper`](#abstract-entityhelper)[]
 
 Defined in: [helper/EntityHelper.ts:52](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L52)
 
@@ -10387,15 +15927,15 @@ Defined in: [helper/EntityHelper.ts:52](https://github.com/Orb-Workshop/scripted
 
 ###### Returns
 
-[`EntityHelper`](#entityhelper)[]
+[`EntityHelper`](#abstract-entityhelper)[]
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`FindAllByClass`](#findallbyclass-2)
+[`EntityHelper`](#abstract-entityhelper).[`FindAllByClass`](#findallbyclass-1)
 
 ##### FindByClass()
 
-> `static` **FindByClass**(`classname`, `r`, `error`): [`EntityHelper`](#entityhelper) \| `null`
+> `static` **FindByClass**(`classname`, `r`, `error?`): [`EntityHelper`](#abstract-entityhelper) \| `null`
 
 Defined in: [helper/EntityHelper.ts:44](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L44)
 
@@ -10409,15 +15949,15 @@ Defined in: [helper/EntityHelper.ts:44](https://github.com/Orb-Workshop/scripted
 
 ###### Returns
 
-[`EntityHelper`](#entityhelper) \| `null`
+[`EntityHelper`](#abstract-entityhelper) \| `null`
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`FindByClass`](#findbyclass-2)
+[`EntityHelper`](#abstract-entityhelper).[`FindByClass`](#findbyclass-1)
 
 ##### Spawn()
 
-> `static` **Spawn**(`soundevent_name`, `position`): [`MoveableSoundEvent`](#moveablesoundevent)
+> `static` **Spawn**(`soundevent_name`, `position?`): [`MoveableSoundEvent`](#moveablesoundevent)
 
 Defined in: [helper/MoveableSoundEvent.ts:15](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/MoveableSoundEvent.ts#L15)
 
@@ -10434,21 +15974,21 @@ Defined in: [helper/MoveableSoundEvent.ts:15](https://github.com/Orb-Workshop/sc
 
 ***
 
-### PointSoundEvent
+### PathTrack
 
-Defined in: [helper/PointSoundEvent.ts:17](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PointSoundEvent.ts#L17)
+Defined in: [helper/PathTrack.ts:20](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PathTrack.ts#L20)
 
 #### Extends
 
-- [`EntityHelper`](#entityhelper)
+- [`BaseModelEntity`](#basemodelentity)
 
 #### Constructors
 
 ##### Constructor
 
-> **new PointSoundEvent**(`entity`): [`PointSoundEvent`](#pointsoundevent)
+> **new PathTrack**(`entity`): [`PathTrack`](#pathtrack)
 
-Defined in: [helper/PointSoundEvent.ts:18](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PointSoundEvent.ts#L18)
+Defined in: [helper/PathTrack.ts:21](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PathTrack.ts#L21)
 
 ###### Parameters
 
@@ -10458,11 +15998,11 @@ Defined in: [helper/PointSoundEvent.ts:18](https://github.com/Orb-Workshop/scrip
 
 ###### Returns
 
-[`PointSoundEvent`](#pointsoundevent)
+[`PathTrack`](#pathtrack)
 
 ###### Overrides
 
-[`EntityHelper`](#entityhelper).[`constructor`](#constructor-2)
+[`BaseModelEntity`](#basemodelentity).[`constructor`](#constructor)
 
 #### Accessors
 
@@ -10480,7 +16020,7 @@ Defined in: [helper/EntityHelper.ts:57](https://github.com/Orb-Workshop/scripted
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`raw`](#raw-1)
+[`BaseModelEntity`](#basemodelentity).[`raw`](#raw)
 
 #### Methods
 
@@ -10506,11 +16046,75 @@ TODO: Use Global Events to 'latch onto' the callbacks this method represents.
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`ConnectOutput`](#connectoutput-2)
+[`BaseModelEntity`](#basemodelentity).[`ConnectOutput`](#connectoutput)
+
+##### DisableAlternatePath()
+
+> **DisableAlternatePath**(`opts?`): `void`
+
+Defined in: [helper/PathTrack.ts:63](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PathTrack.ts#L63)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `opts` | \{ \} |
+
+###### Returns
+
+`void`
+
+##### DisablePath()
+
+> **DisablePath**(`opts?`): `void`
+
+Defined in: [helper/PathTrack.ts:51](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PathTrack.ts#L51)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `opts` | \{ \} |
+
+###### Returns
+
+`void`
+
+##### EnableAlternatePath()
+
+> **EnableAlternatePath**(`opts?`): `void`
+
+Defined in: [helper/PathTrack.ts:59](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PathTrack.ts#L59)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `opts` | \{ \} |
+
+###### Returns
+
+`void`
+
+##### EnablePath()
+
+> **EnablePath**(`opts?`): `void`
+
+Defined in: [helper/PathTrack.ts:47](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PathTrack.ts#L47)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `opts` | \{ \} |
+
+###### Returns
+
+`void`
 
 ##### FireIO()
 
-> **FireIO**(`opts`): `void`
+> **FireIO**(`opts?`): `void`
 
 Defined in: [helper/EntityHelper.ts:59](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L59)
 
@@ -10526,11 +16130,11 @@ Defined in: [helper/EntityHelper.ts:59](https://github.com/Orb-Workshop/scripted
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`FireIO`](#fireio-2)
+[`BaseModelEntity`](#basemodelentity).[`FireIO`](#fireio)
 
 ##### FireUser1()
 
-> **FireUser1**(`opts`): `void`
+> **FireUser1**(`opts?`): `void`
 
 Defined in: [helper/EntityHelper.ts:68](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L68)
 
@@ -10546,11 +16150,11 @@ Defined in: [helper/EntityHelper.ts:68](https://github.com/Orb-Workshop/scripted
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`FireUser1`](#fireuser1-2)
+[`BaseModelEntity`](#basemodelentity).[`FireUser1`](#fireuser1)
 
 ##### FireUser2()
 
-> **FireUser2**(`opts`): `void`
+> **FireUser2**(`opts?`): `void`
 
 Defined in: [helper/EntityHelper.ts:72](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L72)
 
@@ -10566,11 +16170,11 @@ Defined in: [helper/EntityHelper.ts:72](https://github.com/Orb-Workshop/scripted
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`FireUser2`](#fireuser2-2)
+[`BaseModelEntity`](#basemodelentity).[`FireUser2`](#fireuser2)
 
 ##### FireUser3()
 
-> **FireUser3**(`opts`): `void`
+> **FireUser3**(`opts?`): `void`
 
 Defined in: [helper/EntityHelper.ts:76](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L76)
 
@@ -10586,11 +16190,11 @@ Defined in: [helper/EntityHelper.ts:76](https://github.com/Orb-Workshop/scripted
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`FireUser3`](#fireuser3-2)
+[`BaseModelEntity`](#basemodelentity).[`FireUser3`](#fireuser3)
 
 ##### FireUser4()
 
-> **FireUser4**(`opts`): `void`
+> **FireUser4**(`opts?`): `void`
 
 Defined in: [helper/EntityHelper.ts:80](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L80)
 
@@ -10606,7 +16210,7 @@ Defined in: [helper/EntityHelper.ts:80](https://github.com/Orb-Workshop/scripted
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`FireUser4`](#fireuser4-2)
+[`BaseModelEntity`](#basemodelentity).[`FireUser4`](#fireuser4)
 
 ##### GetAbsAngles()
 
@@ -10620,7 +16224,7 @@ Defined in: [helper/EntityHelper.ts:126](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`GetAbsAngles`](#getabsangles-2)
+[`BaseModelEntity`](#basemodelentity).[`GetAbsAngles`](#getabsangles)
 
 ##### GetAbsOrigin()
 
@@ -10634,7 +16238,7 @@ Defined in: [helper/EntityHelper.ts:118](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`GetAbsOrigin`](#getabsorigin-2)
+[`BaseModelEntity`](#basemodelentity).[`GetAbsOrigin`](#getabsorigin)
 
 ##### GetAbsVelocity()
 
@@ -10648,7 +16252,7 @@ Defined in: [helper/EntityHelper.ts:134](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`GetAbsVelocity`](#getabsvelocity-2)
+[`BaseModelEntity`](#basemodelentity).[`GetAbsVelocity`](#getabsvelocity)
 
 ##### GetClassName()
 
@@ -10662,7 +16266,21 @@ Defined in: [helper/EntityHelper.ts:154](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`GetClassName`](#getclassname-2)
+[`BaseModelEntity`](#basemodelentity).[`GetClassName`](#getclassname)
+
+##### GetColor()
+
+> **GetColor**(): `ColorType`
+
+Defined in: [helper/BaseModelEntity.ts:59](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L59)
+
+###### Returns
+
+`ColorType`
+
+###### Inherited from
+
+[`BaseModelEntity`](#basemodelentity).[`GetColor`](#getcolor)
 
 ##### GetEntityName()
 
@@ -10676,7 +16294,7 @@ Defined in: [helper/EntityHelper.ts:158](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`GetEntityName`](#getentityname-2)
+[`BaseModelEntity`](#basemodelentity).[`GetEntityName`](#getentityname)
 
 ##### GetEyeAngles()
 
@@ -10690,7 +16308,7 @@ Defined in: [helper/EntityHelper.ts:142](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`GetEyeAngles`](#geteyeangles-2)
+[`BaseModelEntity`](#basemodelentity).[`GetEyeAngles`](#geteyeangles)
 
 ##### GetEyePosition()
 
@@ -10704,7 +16322,7 @@ Defined in: [helper/EntityHelper.ts:146](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`GetEyePosition`](#geteyeposition-2)
+[`BaseModelEntity`](#basemodelentity).[`GetEyePosition`](#geteyeposition)
 
 ##### GetGroundEntity()
 
@@ -10718,7 +16336,7 @@ Defined in: [helper/EntityHelper.ts:218](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`GetGroundEntity`](#getgroundentity-2)
+[`BaseModelEntity`](#basemodelentity).[`GetGroundEntity`](#getgroundentity)
 
 ##### GetHealth()
 
@@ -10732,7 +16350,7 @@ Defined in: [helper/EntityHelper.ts:186](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`GetHealth`](#gethealth-2)
+[`BaseModelEntity`](#basemodelentity).[`GetHealth`](#gethealth)
 
 ##### GetLocalAngles()
 
@@ -10746,7 +16364,7 @@ Defined in: [helper/EntityHelper.ts:130](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`GetLocalAngles`](#getlocalangles-2)
+[`BaseModelEntity`](#basemodelentity).[`GetLocalAngles`](#getlocalangles)
 
 ##### GetLocalOrigin()
 
@@ -10760,7 +16378,7 @@ Defined in: [helper/EntityHelper.ts:122](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`GetLocalOrigin`](#getlocalorigin-2)
+[`BaseModelEntity`](#basemodelentity).[`GetLocalOrigin`](#getlocalorigin)
 
 ##### GetLocalVelocity()
 
@@ -10774,7 +16392,7 @@ Defined in: [helper/EntityHelper.ts:138](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`GetLocalVelocity`](#getlocalvelocity-2)
+[`BaseModelEntity`](#basemodelentity).[`GetLocalVelocity`](#getlocalvelocity)
 
 ##### GetMaxHealth()
 
@@ -10788,7 +16406,35 @@ Defined in: [helper/EntityHelper.ts:198](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`GetMaxHealth`](#getmaxhealth-2)
+[`BaseModelEntity`](#basemodelentity).[`GetMaxHealth`](#getmaxhealth)
+
+##### GetModelName()
+
+> **GetModelName**(): `string`
+
+Defined in: [helper/BaseModelEntity.ts:43](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L43)
+
+###### Returns
+
+`string`
+
+###### Inherited from
+
+[`BaseModelEntity`](#basemodelentity).[`GetModelName`](#getmodelname)
+
+##### GetModelScale()
+
+> **GetModelScale**(): `string`
+
+Defined in: [helper/BaseModelEntity.ts:51](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L51)
+
+###### Returns
+
+`string`
+
+###### Inherited from
+
+[`BaseModelEntity`](#basemodelentity).[`GetModelScale`](#getmodelscale)
 
 ##### GetOwner()
 
@@ -10802,7 +16448,7 @@ Defined in: [helper/EntityHelper.ts:166](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`GetOwner`](#getowner-2)
+[`BaseModelEntity`](#basemodelentity).[`GetOwner`](#getowner)
 
 ##### GetParent()
 
@@ -10816,7 +16462,7 @@ Defined in: [helper/EntityHelper.ts:174](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`GetParent`](#getparent-2)
+[`BaseModelEntity`](#basemodelentity).[`GetParent`](#getparent)
 
 ##### GetTeamNumber()
 
@@ -10830,7 +16476,27 @@ Defined in: [helper/EntityHelper.ts:182](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`GetTeamNumber`](#getteamnumber-2)
+[`BaseModelEntity`](#basemodelentity).[`GetTeamNumber`](#getteamnumber)
+
+##### Glow()
+
+> **Glow**(`color?`): `void`
+
+Defined in: [helper/BaseModelEntity.ts:63](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L63)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `color?` | `any` |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`BaseModelEntity`](#basemodelentity).[`Glow`](#glow)
 
 ##### IsAlive()
 
@@ -10844,7 +16510,21 @@ Defined in: [helper/EntityHelper.ts:210](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`IsAlive`](#isalive-2)
+[`BaseModelEntity`](#basemodelentity).[`IsAlive`](#isalive)
+
+##### IsGlowing()
+
+> **IsGlowing**(): `boolean`
+
+Defined in: [helper/BaseModelEntity.ts:71](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L71)
+
+###### Returns
+
+`boolean`
+
+###### Inherited from
+
+[`BaseModelEntity`](#basemodelentity).[`IsGlowing`](#isglowing)
 
 ##### IsValid()
 
@@ -10858,7 +16538,7 @@ Defined in: [helper/EntityHelper.ts:114](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`IsValid`](#isvalid-2)
+[`BaseModelEntity`](#basemodelentity).[`IsValid`](#isvalid)
 
 ##### IsWorld()
 
@@ -10872,7 +16552,7 @@ Defined in: [helper/EntityHelper.ts:214](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`IsWorld`](#isworld-2)
+[`BaseModelEntity`](#basemodelentity).[`IsWorld`](#isworld)
 
 ##### Kill()
 
@@ -10886,11 +16566,45 @@ Defined in: [helper/EntityHelper.ts:226](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`Kill`](#kill-2)
+[`BaseModelEntity`](#basemodelentity).[`Kill`](#kill)
+
+##### KillAll()
+
+> **KillAll**(): `void`
+
+Defined in: [helper/EntityHelper.ts:234](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L234)
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`BaseModelEntity`](#basemodelentity).[`KillAll`](#killall)
+
+##### KillHierarchy()
+
+> **KillHierarchy**(`opts?`): `void`
+
+Defined in: [helper/EntityHelper.ts:230](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L230)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `opts` | \{ \} |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`BaseModelEntity`](#basemodelentity).[`KillHierarchy`](#killhierarchy)
 
 ##### On()
 
-> **On**(`event_name`, `callback`): [`EntityHelper`](#entityhelper)
+> **On**(`event_name`, `callback`): [`EntityHelper`](#abstract-entityhelper)
 
 Defined in: [helper/EntityHelper.ts:104](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L104)
 
@@ -10903,11 +16617,908 @@ Defined in: [helper/EntityHelper.ts:104](https://github.com/Orb-Workshop/scripte
 
 ###### Returns
 
-[`EntityHelper`](#entityhelper)
+[`EntityHelper`](#abstract-entityhelper)
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`On`](#on-2)
+[`BaseModelEntity`](#basemodelentity).[`On`](#on)
+
+##### OnPass()
+
+> **OnPass**(`callback`): [`PathTrack`](#pathtrack)
+
+Defined in: [helper/PathTrack.ts:69](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PathTrack.ts#L69)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `callback` | `ConnectOutputCallback` |
+
+###### Returns
+
+[`PathTrack`](#pathtrack)
+
+##### Remove()
+
+> **Remove**(): `void`
+
+Defined in: [helper/EntityHelper.ts:238](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L238)
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`BaseModelEntity`](#basemodelentity).[`Remove`](#remove)
+
+##### SetColor()
+
+> **SetColor**(`c`): `void`
+
+Defined in: [helper/BaseModelEntity.ts:55](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L55)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `c` | `ColorType` |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`BaseModelEntity`](#basemodelentity).[`SetColor`](#setcolor)
+
+##### SetEntityName()
+
+> **SetEntityName**(`s`): `void`
+
+Defined in: [helper/EntityHelper.ts:162](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L162)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `s` | `string` |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`BaseModelEntity`](#basemodelentity).[`SetEntityName`](#setentityname)
+
+##### SetHealth()
+
+> **SetHealth**(`hp`): `void`
+
+Defined in: [helper/EntityHelper.ts:190](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L190)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `hp` | `number` |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`BaseModelEntity`](#basemodelentity).[`SetHealth`](#sethealth)
+
+##### SetMaxHealth()
+
+> **SetMaxHealth**(`hp`): `void`
+
+Defined in: [helper/EntityHelper.ts:202](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L202)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `hp` | `number` |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`BaseModelEntity`](#basemodelentity).[`SetMaxHealth`](#setmaxhealth)
+
+##### SetModel()
+
+> **SetModel**(`s`): `void`
+
+Defined in: [helper/BaseModelEntity.ts:39](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L39)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `s` | `string` |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`BaseModelEntity`](#basemodelentity).[`SetModel`](#setmodel)
+
+##### SetModelScale()
+
+> **SetModelScale**(`s`): `void`
+
+Defined in: [helper/BaseModelEntity.ts:47](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L47)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `s` | `number` |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`BaseModelEntity`](#basemodelentity).[`SetModelScale`](#setmodelscale)
+
+##### SetOwner()
+
+> **SetOwner**(`e`): `void`
+
+Defined in: [helper/EntityHelper.ts:170](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L170)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `e` | `Entity` |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`BaseModelEntity`](#basemodelentity).[`SetOwner`](#setowner)
+
+##### SetParent()
+
+> **SetParent**(`e`): `void`
+
+Defined in: [helper/EntityHelper.ts:178](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L178)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `e` | `Entity` |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`BaseModelEntity`](#basemodelentity).[`SetParent`](#setparent)
+
+##### TakeDamage()
+
+> **TakeDamage**(`__namedParameters`): `number`
+
+Defined in: [helper/EntityHelper.ts:222](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L222)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `__namedParameters` | \{ `attacker`: `any`; `damage`: `any`; `inflictor`: `any`; `weapon`: `any`; \} |
+| `__namedParameters.attacker` | `any` |
+| `__namedParameters.damage` | `any` |
+| `__namedParameters.inflictor` | `any` |
+| `__namedParameters.weapon` | `any` |
+
+###### Returns
+
+`number`
+
+###### Inherited from
+
+[`BaseModelEntity`](#basemodelentity).[`TakeDamage`](#takedamage)
+
+##### Teleport()
+
+> **Teleport**(`__namedParameters`): `void`
+
+Defined in: [helper/EntityHelper.ts:150](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L150)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `__namedParameters` | \{ `position`: `any`; `rotation`: `any`; `velocity`: `any`; \} |
+| `__namedParameters.position` | `any` |
+| `__namedParameters.rotation` | `any` |
+| `__namedParameters.velocity` | `any` |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`BaseModelEntity`](#basemodelentity).[`Teleport`](#teleport)
+
+##### ToggleAlternatePath()
+
+> **ToggleAlternatePath**(`opts?`): `void`
+
+Defined in: [helper/PathTrack.ts:55](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PathTrack.ts#L55)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `opts` | \{ \} |
+
+###### Returns
+
+`void`
+
+##### TogglePath()
+
+> **TogglePath**(`opts?`): `void`
+
+Defined in: [helper/PathTrack.ts:43](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PathTrack.ts#L43)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `opts` | \{ \} |
+
+###### Returns
+
+`void`
+
+##### Unglow()
+
+> **Unglow**(): `void`
+
+Defined in: [helper/BaseModelEntity.ts:67](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L67)
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`BaseModelEntity`](#basemodelentity).[`Unglow`](#unglow)
+
+##### Find()
+
+> `static` **Find**(`r`): [`PathTrack`](#pathtrack)
+
+Defined in: [helper/PathTrack.ts:31](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PathTrack.ts#L31)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `r` | `string` \| `RegExp` |
+
+###### Returns
+
+[`PathTrack`](#pathtrack)
+
+###### Overrides
+
+[`BaseModelEntity`](#basemodelentity).[`Find`](#find)
+
+##### FindAll()
+
+> `static` **FindAll**(`r`): [`PathTrack`](#pathtrack)[]
+
+Defined in: [helper/PathTrack.ts:36](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PathTrack.ts#L36)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `r` | `string` \| `RegExp` |
+
+###### Returns
+
+[`PathTrack`](#pathtrack)[]
+
+###### Overrides
+
+[`BaseModelEntity`](#basemodelentity).[`FindAll`](#findall)
+
+##### FindAllByClass()
+
+> `static` **FindAllByClass**(`classname`, `r`): [`EntityHelper`](#abstract-entityhelper)[]
+
+Defined in: [helper/EntityHelper.ts:52](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L52)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `classname` | `string` |
+| `r` | `string` \| `RegExp` |
+
+###### Returns
+
+[`EntityHelper`](#abstract-entityhelper)[]
+
+###### Inherited from
+
+[`BaseModelEntity`](#basemodelentity).[`FindAllByClass`](#findallbyclass)
+
+##### FindByClass()
+
+> `static` **FindByClass**(`classname`, `r`, `error?`): [`EntityHelper`](#abstract-entityhelper) \| `null`
+
+Defined in: [helper/EntityHelper.ts:44](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L44)
+
+###### Parameters
+
+| Parameter | Type | Default value |
+| ------ | ------ | ------ |
+| `classname` | `string` | `undefined` |
+| `r` | `string` \| `RegExp` | `undefined` |
+| `error` | `boolean` | `false` |
+
+###### Returns
+
+[`EntityHelper`](#abstract-entityhelper) \| `null`
+
+###### Inherited from
+
+[`BaseModelEntity`](#basemodelentity).[`FindByClass`](#findbyclass)
+
+##### From()
+
+> `static` **From**(`e`): [`PathTrack`](#pathtrack)
+
+Defined in: [helper/PathTrack.ts:25](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PathTrack.ts#L25)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `e` | `Entity` |
+
+###### Returns
+
+[`PathTrack`](#pathtrack)
+
+###### Overrides
+
+[`BaseModelEntity`](#basemodelentity).[`From`](#from)
+
+***
+
+### PointSoundEvent
+
+Defined in: [helper/PointSoundEvent.ts:17](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PointSoundEvent.ts#L17)
+
+#### Extends
+
+- [`EntityHelper`](#abstract-entityhelper)
+
+#### Constructors
+
+##### Constructor
+
+> **new PointSoundEvent**(`entity`): [`PointSoundEvent`](#pointsoundevent)
+
+Defined in: [helper/PointSoundEvent.ts:18](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PointSoundEvent.ts#L18)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `entity` | `Entity` |
+
+###### Returns
+
+[`PointSoundEvent`](#pointsoundevent)
+
+###### Overrides
+
+[`EntityHelper`](#abstract-entityhelper).[`constructor`](#constructor-2)
+
+#### Accessors
+
+##### raw
+
+###### Get Signature
+
+> **get** **raw**(): `Entity`
+
+Defined in: [helper/EntityHelper.ts:57](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L57)
+
+###### Returns
+
+`Entity`
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`raw`](#raw-1)
+
+#### Methods
+
+##### ConnectOutput()
+
+> **ConnectOutput**(`event_name`, `callback`): `void`
+
+Defined in: [helper/EntityHelper.ts:95](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L95)
+
+Represents EventListening of IO entities with `this.ConnectOutput`
+TODO: Use Global Events to 'latch onto' the callbacks this method represents.
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `event_name` | `string` |
+| `callback` | `ConnectOutputCallback` |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`ConnectOutput`](#connectoutput-1)
+
+##### FireIO()
+
+> **FireIO**(`opts?`): `void`
+
+Defined in: [helper/EntityHelper.ts:59](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L59)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `opts` | \{ \} |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`FireIO`](#fireio-1)
+
+##### FireUser1()
+
+> **FireUser1**(`opts?`): `void`
+
+Defined in: [helper/EntityHelper.ts:68](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L68)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `opts` | \{ \} |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`FireUser1`](#fireuser1-1)
+
+##### FireUser2()
+
+> **FireUser2**(`opts?`): `void`
+
+Defined in: [helper/EntityHelper.ts:72](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L72)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `opts` | \{ \} |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`FireUser2`](#fireuser2-1)
+
+##### FireUser3()
+
+> **FireUser3**(`opts?`): `void`
+
+Defined in: [helper/EntityHelper.ts:76](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L76)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `opts` | \{ \} |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`FireUser3`](#fireuser3-1)
+
+##### FireUser4()
+
+> **FireUser4**(`opts?`): `void`
+
+Defined in: [helper/EntityHelper.ts:80](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L80)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `opts` | \{ \} |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`FireUser4`](#fireuser4-1)
+
+##### GetAbsAngles()
+
+> **GetAbsAngles**(): [`QAngle`](Math.md#qangle)
+
+Defined in: [helper/EntityHelper.ts:126](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L126)
+
+###### Returns
+
+[`QAngle`](Math.md#qangle)
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`GetAbsAngles`](#getabsangles-1)
+
+##### GetAbsOrigin()
+
+> **GetAbsOrigin**(): [`Vector3`](Math.md#vector3)
+
+Defined in: [helper/EntityHelper.ts:118](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L118)
+
+###### Returns
+
+[`Vector3`](Math.md#vector3)
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`GetAbsOrigin`](#getabsorigin-1)
+
+##### GetAbsVelocity()
+
+> **GetAbsVelocity**(): [`Vector3`](Math.md#vector3)
+
+Defined in: [helper/EntityHelper.ts:134](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L134)
+
+###### Returns
+
+[`Vector3`](Math.md#vector3)
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`GetAbsVelocity`](#getabsvelocity-1)
+
+##### GetClassName()
+
+> **GetClassName**(): `string`
+
+Defined in: [helper/EntityHelper.ts:154](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L154)
+
+###### Returns
+
+`string`
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`GetClassName`](#getclassname-1)
+
+##### GetEntityName()
+
+> **GetEntityName**(): `string`
+
+Defined in: [helper/EntityHelper.ts:158](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L158)
+
+###### Returns
+
+`string`
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`GetEntityName`](#getentityname-1)
+
+##### GetEyeAngles()
+
+> **GetEyeAngles**(): [`QAngle`](Math.md#qangle)
+
+Defined in: [helper/EntityHelper.ts:142](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L142)
+
+###### Returns
+
+[`QAngle`](Math.md#qangle)
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`GetEyeAngles`](#geteyeangles-1)
+
+##### GetEyePosition()
+
+> **GetEyePosition**(): [`Vector3`](Math.md#vector3)
+
+Defined in: [helper/EntityHelper.ts:146](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L146)
+
+###### Returns
+
+[`Vector3`](Math.md#vector3)
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`GetEyePosition`](#geteyeposition-1)
+
+##### GetGroundEntity()
+
+> **GetGroundEntity**(): `any`
+
+Defined in: [helper/EntityHelper.ts:218](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L218)
+
+###### Returns
+
+`any`
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`GetGroundEntity`](#getgroundentity-1)
+
+##### GetHealth()
+
+> **GetHealth**(): `number`
+
+Defined in: [helper/EntityHelper.ts:186](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L186)
+
+###### Returns
+
+`number`
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`GetHealth`](#gethealth-1)
+
+##### GetLocalAngles()
+
+> **GetLocalAngles**(): [`QAngle`](Math.md#qangle)
+
+Defined in: [helper/EntityHelper.ts:130](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L130)
+
+###### Returns
+
+[`QAngle`](Math.md#qangle)
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`GetLocalAngles`](#getlocalangles-1)
+
+##### GetLocalOrigin()
+
+> **GetLocalOrigin**(): [`Vector3`](Math.md#vector3)
+
+Defined in: [helper/EntityHelper.ts:122](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L122)
+
+###### Returns
+
+[`Vector3`](Math.md#vector3)
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`GetLocalOrigin`](#getlocalorigin-1)
+
+##### GetLocalVelocity()
+
+> **GetLocalVelocity**(): [`Vector3`](Math.md#vector3)
+
+Defined in: [helper/EntityHelper.ts:138](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L138)
+
+###### Returns
+
+[`Vector3`](Math.md#vector3)
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`GetLocalVelocity`](#getlocalvelocity-1)
+
+##### GetMaxHealth()
+
+> **GetMaxHealth**(): `number`
+
+Defined in: [helper/EntityHelper.ts:198](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L198)
+
+###### Returns
+
+`number`
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`GetMaxHealth`](#getmaxhealth-1)
+
+##### GetOwner()
+
+> **GetOwner**(): `any`
+
+Defined in: [helper/EntityHelper.ts:166](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L166)
+
+###### Returns
+
+`any`
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`GetOwner`](#getowner-1)
+
+##### GetParent()
+
+> **GetParent**(): `any`
+
+Defined in: [helper/EntityHelper.ts:174](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L174)
+
+###### Returns
+
+`any`
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`GetParent`](#getparent-1)
+
+##### GetTeamNumber()
+
+> **GetTeamNumber**(): `number`
+
+Defined in: [helper/EntityHelper.ts:182](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L182)
+
+###### Returns
+
+`number`
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`GetTeamNumber`](#getteamnumber-1)
+
+##### IsAlive()
+
+> **IsAlive**(): `boolean`
+
+Defined in: [helper/EntityHelper.ts:210](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L210)
+
+###### Returns
+
+`boolean`
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`IsAlive`](#isalive-1)
+
+##### IsValid()
+
+> **IsValid**(): `boolean`
+
+Defined in: [helper/EntityHelper.ts:114](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L114)
+
+###### Returns
+
+`boolean`
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`IsValid`](#isvalid-1)
+
+##### IsWorld()
+
+> **IsWorld**(): `boolean`
+
+Defined in: [helper/EntityHelper.ts:214](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L214)
+
+###### Returns
+
+`boolean`
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`IsWorld`](#isworld-1)
+
+##### Kill()
+
+> **Kill**(): `void`
+
+Defined in: [helper/EntityHelper.ts:226](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L226)
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`Kill`](#kill-1)
+
+##### KillAll()
+
+> **KillAll**(): `void`
+
+Defined in: [helper/EntityHelper.ts:234](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L234)
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`KillAll`](#killall-1)
+
+##### KillHierarchy()
+
+> **KillHierarchy**(`opts?`): `void`
+
+Defined in: [helper/EntityHelper.ts:230](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L230)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `opts` | \{ \} |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`KillHierarchy`](#killhierarchy-1)
+
+##### On()
+
+> **On**(`event_name`, `callback`): [`EntityHelper`](#abstract-entityhelper)
+
+Defined in: [helper/EntityHelper.ts:104](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L104)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `event_name` | `string` |
+| `callback` | `ConnectOutputCallback` |
+
+###### Returns
+
+[`EntityHelper`](#abstract-entityhelper)
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`On`](#on-1)
 
 ##### OnSoundFinished()
 
@@ -10929,7 +17540,7 @@ Defined in: [helper/PointSoundEvent.ts:55](https://github.com/Orb-Workshop/scrip
 
 > **Remove**(): `void`
 
-Defined in: [helper/EntityHelper.ts:230](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L230)
+Defined in: [helper/EntityHelper.ts:238](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L238)
 
 ###### Returns
 
@@ -10937,7 +17548,7 @@ Defined in: [helper/EntityHelper.ts:230](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`Remove`](#remove-2)
+[`EntityHelper`](#abstract-entityhelper).[`Remove`](#remove-1)
 
 ##### SetEntityName()
 
@@ -10957,7 +17568,7 @@ Defined in: [helper/EntityHelper.ts:162](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`SetEntityName`](#setentityname-2)
+[`EntityHelper`](#abstract-entityhelper).[`SetEntityName`](#setentityname-1)
 
 ##### SetHealth()
 
@@ -10977,7 +17588,7 @@ Defined in: [helper/EntityHelper.ts:190](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`SetHealth`](#sethealth-2)
+[`EntityHelper`](#abstract-entityhelper).[`SetHealth`](#sethealth-1)
 
 ##### SetMaxHealth()
 
@@ -10997,7 +17608,7 @@ Defined in: [helper/EntityHelper.ts:202](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`SetMaxHealth`](#setmaxhealth-2)
+[`EntityHelper`](#abstract-entityhelper).[`SetMaxHealth`](#setmaxhealth-1)
 
 ##### SetOwner()
 
@@ -11017,7 +17628,7 @@ Defined in: [helper/EntityHelper.ts:170](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`SetOwner`](#setowner-2)
+[`EntityHelper`](#abstract-entityhelper).[`SetOwner`](#setowner-1)
 
 ##### SetParent()
 
@@ -11037,11 +17648,11 @@ Defined in: [helper/EntityHelper.ts:178](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`SetParent`](#setparent-2)
+[`EntityHelper`](#abstract-entityhelper).[`SetParent`](#setparent-1)
 
 ##### SetSoundEventName()
 
-> **SetSoundEventName**(`soundevent_name`, `opts`): `void`
+> **SetSoundEventName**(`soundevent_name`, `opts?`): `void`
 
 Defined in: [helper/PointSoundEvent.ts:41](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PointSoundEvent.ts#L41)
 
@@ -11058,7 +17669,7 @@ Defined in: [helper/PointSoundEvent.ts:41](https://github.com/Orb-Workshop/scrip
 
 ##### StartSound()
 
-> **StartSound**(`opts`): `void`
+> **StartSound**(`opts?`): `void`
 
 Defined in: [helper/PointSoundEvent.ts:45](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PointSoundEvent.ts#L45)
 
@@ -11074,7 +17685,7 @@ Defined in: [helper/PointSoundEvent.ts:45](https://github.com/Orb-Workshop/scrip
 
 ##### StopSound()
 
-> **StopSound**(`opts`): `void`
+> **StopSound**(`opts?`): `void`
 
 Defined in: [helper/PointSoundEvent.ts:49](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PointSoundEvent.ts#L49)
 
@@ -11110,7 +17721,7 @@ Defined in: [helper/EntityHelper.ts:222](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`TakeDamage`](#takedamage-2)
+[`EntityHelper`](#abstract-entityhelper).[`TakeDamage`](#takedamage-1)
 
 ##### Teleport()
 
@@ -11133,7 +17744,7 @@ Defined in: [helper/EntityHelper.ts:150](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`Teleport`](#teleport-2)
+[`EntityHelper`](#abstract-entityhelper).[`Teleport`](#teleport-1)
 
 ##### Find()
 
@@ -11153,7 +17764,7 @@ Defined in: [helper/PointSoundEvent.ts:29](https://github.com/Orb-Workshop/scrip
 
 ###### Overrides
 
-[`EntityHelper`](#entityhelper).[`Find`](#find-2)
+[`EntityHelper`](#abstract-entityhelper).[`Find`](#find-1)
 
 ##### FindAll()
 
@@ -11173,11 +17784,11 @@ Defined in: [helper/PointSoundEvent.ts:34](https://github.com/Orb-Workshop/scrip
 
 ###### Overrides
 
-[`EntityHelper`](#entityhelper).[`FindAll`](#findall-2)
+[`EntityHelper`](#abstract-entityhelper).[`FindAll`](#findall-1)
 
 ##### FindAllByClass()
 
-> `static` **FindAllByClass**(`classname`, `r`): [`EntityHelper`](#entityhelper)[]
+> `static` **FindAllByClass**(`classname`, `r`): [`EntityHelper`](#abstract-entityhelper)[]
 
 Defined in: [helper/EntityHelper.ts:52](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L52)
 
@@ -11190,15 +17801,15 @@ Defined in: [helper/EntityHelper.ts:52](https://github.com/Orb-Workshop/scripted
 
 ###### Returns
 
-[`EntityHelper`](#entityhelper)[]
+[`EntityHelper`](#abstract-entityhelper)[]
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`FindAllByClass`](#findallbyclass-2)
+[`EntityHelper`](#abstract-entityhelper).[`FindAllByClass`](#findallbyclass-1)
 
 ##### FindByClass()
 
-> `static` **FindByClass**(`classname`, `r`, `error`): [`EntityHelper`](#entityhelper) \| `null`
+> `static` **FindByClass**(`classname`, `r`, `error?`): [`EntityHelper`](#abstract-entityhelper) \| `null`
 
 Defined in: [helper/EntityHelper.ts:44](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L44)
 
@@ -11212,11 +17823,11 @@ Defined in: [helper/EntityHelper.ts:44](https://github.com/Orb-Workshop/scripted
 
 ###### Returns
 
-[`EntityHelper`](#entityhelper) \| `null`
+[`EntityHelper`](#abstract-entityhelper) \| `null`
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`FindByClass`](#findbyclass-2)
+[`EntityHelper`](#abstract-entityhelper).[`FindByClass`](#findbyclass-1)
 
 ##### From()
 
@@ -11242,7 +17853,7 @@ Defined in: [helper/PointTemplate.ts:15](https://github.com/Orb-Workshop/scripte
 
 #### Extends
 
-- [`EntityHelper`](#entityhelper)
+- [`EntityHelper`](#abstract-entityhelper)
 
 #### Constructors
 
@@ -11264,7 +17875,7 @@ Defined in: [helper/PointTemplate.ts:16](https://github.com/Orb-Workshop/scripte
 
 ###### Overrides
 
-[`EntityHelper`](#entityhelper).[`constructor`](#constructor-2)
+[`EntityHelper`](#abstract-entityhelper).[`constructor`](#constructor-2)
 
 #### Accessors
 
@@ -11282,7 +17893,7 @@ Defined in: [helper/EntityHelper.ts:57](https://github.com/Orb-Workshop/scripted
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`raw`](#raw-1)
+[`EntityHelper`](#abstract-entityhelper).[`raw`](#raw-1)
 
 #### Methods
 
@@ -11308,11 +17919,11 @@ TODO: Use Global Events to 'latch onto' the callbacks this method represents.
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`ConnectOutput`](#connectoutput-2)
+[`EntityHelper`](#abstract-entityhelper).[`ConnectOutput`](#connectoutput-1)
 
 ##### FireIO()
 
-> **FireIO**(`opts`): `void`
+> **FireIO**(`opts?`): `void`
 
 Defined in: [helper/EntityHelper.ts:59](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L59)
 
@@ -11328,11 +17939,11 @@ Defined in: [helper/EntityHelper.ts:59](https://github.com/Orb-Workshop/scripted
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`FireIO`](#fireio-2)
+[`EntityHelper`](#abstract-entityhelper).[`FireIO`](#fireio-1)
 
 ##### FireUser1()
 
-> **FireUser1**(`opts`): `void`
+> **FireUser1**(`opts?`): `void`
 
 Defined in: [helper/EntityHelper.ts:68](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L68)
 
@@ -11348,11 +17959,11 @@ Defined in: [helper/EntityHelper.ts:68](https://github.com/Orb-Workshop/scripted
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`FireUser1`](#fireuser1-2)
+[`EntityHelper`](#abstract-entityhelper).[`FireUser1`](#fireuser1-1)
 
 ##### FireUser2()
 
-> **FireUser2**(`opts`): `void`
+> **FireUser2**(`opts?`): `void`
 
 Defined in: [helper/EntityHelper.ts:72](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L72)
 
@@ -11368,11 +17979,11 @@ Defined in: [helper/EntityHelper.ts:72](https://github.com/Orb-Workshop/scripted
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`FireUser2`](#fireuser2-2)
+[`EntityHelper`](#abstract-entityhelper).[`FireUser2`](#fireuser2-1)
 
 ##### FireUser3()
 
-> **FireUser3**(`opts`): `void`
+> **FireUser3**(`opts?`): `void`
 
 Defined in: [helper/EntityHelper.ts:76](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L76)
 
@@ -11388,11 +17999,11 @@ Defined in: [helper/EntityHelper.ts:76](https://github.com/Orb-Workshop/scripted
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`FireUser3`](#fireuser3-2)
+[`EntityHelper`](#abstract-entityhelper).[`FireUser3`](#fireuser3-1)
 
 ##### FireUser4()
 
-> **FireUser4**(`opts`): `void`
+> **FireUser4**(`opts?`): `void`
 
 Defined in: [helper/EntityHelper.ts:80](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L80)
 
@@ -11408,11 +18019,11 @@ Defined in: [helper/EntityHelper.ts:80](https://github.com/Orb-Workshop/scripted
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`FireUser4`](#fireuser4-2)
+[`EntityHelper`](#abstract-entityhelper).[`FireUser4`](#fireuser4-1)
 
 ##### ForceSpawn()
 
-> **ForceSpawn**(`origin?`, `rotation?`): [`EntityHelper`](#entityhelper)[]
+> **ForceSpawn**(`origin?`, `rotation?`): [`EntityHelper`](#abstract-entityhelper)[]
 
 Defined in: [helper/PointTemplate.ts:40](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PointTemplate.ts#L40)
 
@@ -11425,7 +18036,7 @@ Defined in: [helper/PointTemplate.ts:40](https://github.com/Orb-Workshop/scripte
 
 ###### Returns
 
-[`EntityHelper`](#entityhelper)[]
+[`EntityHelper`](#abstract-entityhelper)[]
 
 ##### GetAbsAngles()
 
@@ -11439,7 +18050,7 @@ Defined in: [helper/EntityHelper.ts:126](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`GetAbsAngles`](#getabsangles-2)
+[`EntityHelper`](#abstract-entityhelper).[`GetAbsAngles`](#getabsangles-1)
 
 ##### GetAbsOrigin()
 
@@ -11453,7 +18064,7 @@ Defined in: [helper/EntityHelper.ts:118](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`GetAbsOrigin`](#getabsorigin-2)
+[`EntityHelper`](#abstract-entityhelper).[`GetAbsOrigin`](#getabsorigin-1)
 
 ##### GetAbsVelocity()
 
@@ -11467,7 +18078,7 @@ Defined in: [helper/EntityHelper.ts:134](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`GetAbsVelocity`](#getabsvelocity-2)
+[`EntityHelper`](#abstract-entityhelper).[`GetAbsVelocity`](#getabsvelocity-1)
 
 ##### GetClassName()
 
@@ -11481,7 +18092,7 @@ Defined in: [helper/EntityHelper.ts:154](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`GetClassName`](#getclassname-2)
+[`EntityHelper`](#abstract-entityhelper).[`GetClassName`](#getclassname-1)
 
 ##### GetEntityName()
 
@@ -11495,7 +18106,7 @@ Defined in: [helper/EntityHelper.ts:158](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`GetEntityName`](#getentityname-2)
+[`EntityHelper`](#abstract-entityhelper).[`GetEntityName`](#getentityname-1)
 
 ##### GetEyeAngles()
 
@@ -11509,7 +18120,7 @@ Defined in: [helper/EntityHelper.ts:142](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`GetEyeAngles`](#geteyeangles-2)
+[`EntityHelper`](#abstract-entityhelper).[`GetEyeAngles`](#geteyeangles-1)
 
 ##### GetEyePosition()
 
@@ -11523,7 +18134,7 @@ Defined in: [helper/EntityHelper.ts:146](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`GetEyePosition`](#geteyeposition-2)
+[`EntityHelper`](#abstract-entityhelper).[`GetEyePosition`](#geteyeposition-1)
 
 ##### GetGroundEntity()
 
@@ -11537,7 +18148,7 @@ Defined in: [helper/EntityHelper.ts:218](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`GetGroundEntity`](#getgroundentity-2)
+[`EntityHelper`](#abstract-entityhelper).[`GetGroundEntity`](#getgroundentity-1)
 
 ##### GetHealth()
 
@@ -11551,7 +18162,7 @@ Defined in: [helper/EntityHelper.ts:186](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`GetHealth`](#gethealth-2)
+[`EntityHelper`](#abstract-entityhelper).[`GetHealth`](#gethealth-1)
 
 ##### GetLocalAngles()
 
@@ -11565,7 +18176,7 @@ Defined in: [helper/EntityHelper.ts:130](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`GetLocalAngles`](#getlocalangles-2)
+[`EntityHelper`](#abstract-entityhelper).[`GetLocalAngles`](#getlocalangles-1)
 
 ##### GetLocalOrigin()
 
@@ -11579,7 +18190,7 @@ Defined in: [helper/EntityHelper.ts:122](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`GetLocalOrigin`](#getlocalorigin-2)
+[`EntityHelper`](#abstract-entityhelper).[`GetLocalOrigin`](#getlocalorigin-1)
 
 ##### GetLocalVelocity()
 
@@ -11593,7 +18204,7 @@ Defined in: [helper/EntityHelper.ts:138](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`GetLocalVelocity`](#getlocalvelocity-2)
+[`EntityHelper`](#abstract-entityhelper).[`GetLocalVelocity`](#getlocalvelocity-1)
 
 ##### GetMaxHealth()
 
@@ -11607,7 +18218,7 @@ Defined in: [helper/EntityHelper.ts:198](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`GetMaxHealth`](#getmaxhealth-2)
+[`EntityHelper`](#abstract-entityhelper).[`GetMaxHealth`](#getmaxhealth-1)
 
 ##### GetOwner()
 
@@ -11621,7 +18232,7 @@ Defined in: [helper/EntityHelper.ts:166](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`GetOwner`](#getowner-2)
+[`EntityHelper`](#abstract-entityhelper).[`GetOwner`](#getowner-1)
 
 ##### GetParent()
 
@@ -11635,7 +18246,7 @@ Defined in: [helper/EntityHelper.ts:174](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`GetParent`](#getparent-2)
+[`EntityHelper`](#abstract-entityhelper).[`GetParent`](#getparent-1)
 
 ##### GetTeamNumber()
 
@@ -11649,7 +18260,7 @@ Defined in: [helper/EntityHelper.ts:182](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`GetTeamNumber`](#getteamnumber-2)
+[`EntityHelper`](#abstract-entityhelper).[`GetTeamNumber`](#getteamnumber-1)
 
 ##### IsAlive()
 
@@ -11663,7 +18274,7 @@ Defined in: [helper/EntityHelper.ts:210](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`IsAlive`](#isalive-2)
+[`EntityHelper`](#abstract-entityhelper).[`IsAlive`](#isalive-1)
 
 ##### IsValid()
 
@@ -11677,7 +18288,7 @@ Defined in: [helper/EntityHelper.ts:114](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`IsValid`](#isvalid-2)
+[`EntityHelper`](#abstract-entityhelper).[`IsValid`](#isvalid-1)
 
 ##### IsWorld()
 
@@ -11691,7 +18302,7 @@ Defined in: [helper/EntityHelper.ts:214](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`IsWorld`](#isworld-2)
+[`EntityHelper`](#abstract-entityhelper).[`IsWorld`](#isworld-1)
 
 ##### Kill()
 
@@ -11705,11 +18316,45 @@ Defined in: [helper/EntityHelper.ts:226](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`Kill`](#kill-2)
+[`EntityHelper`](#abstract-entityhelper).[`Kill`](#kill-1)
+
+##### KillAll()
+
+> **KillAll**(): `void`
+
+Defined in: [helper/EntityHelper.ts:234](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L234)
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`KillAll`](#killall-1)
+
+##### KillHierarchy()
+
+> **KillHierarchy**(`opts?`): `void`
+
+Defined in: [helper/EntityHelper.ts:230](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L230)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `opts` | \{ \} |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`KillHierarchy`](#killhierarchy-1)
 
 ##### On()
 
-> **On**(`event_name`, `callback`): [`EntityHelper`](#entityhelper)
+> **On**(`event_name`, `callback`): [`EntityHelper`](#abstract-entityhelper)
 
 Defined in: [helper/EntityHelper.ts:104](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L104)
 
@@ -11722,17 +18367,17 @@ Defined in: [helper/EntityHelper.ts:104](https://github.com/Orb-Workshop/scripte
 
 ###### Returns
 
-[`EntityHelper`](#entityhelper)
+[`EntityHelper`](#abstract-entityhelper)
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`On`](#on-2)
+[`EntityHelper`](#abstract-entityhelper).[`On`](#on-1)
 
 ##### Remove()
 
 > **Remove**(): `void`
 
-Defined in: [helper/EntityHelper.ts:230](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L230)
+Defined in: [helper/EntityHelper.ts:238](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L238)
 
 ###### Returns
 
@@ -11740,7 +18385,7 @@ Defined in: [helper/EntityHelper.ts:230](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`Remove`](#remove-2)
+[`EntityHelper`](#abstract-entityhelper).[`Remove`](#remove-1)
 
 ##### SetEntityName()
 
@@ -11760,7 +18405,7 @@ Defined in: [helper/EntityHelper.ts:162](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`SetEntityName`](#setentityname-2)
+[`EntityHelper`](#abstract-entityhelper).[`SetEntityName`](#setentityname-1)
 
 ##### SetHealth()
 
@@ -11780,7 +18425,7 @@ Defined in: [helper/EntityHelper.ts:190](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`SetHealth`](#sethealth-2)
+[`EntityHelper`](#abstract-entityhelper).[`SetHealth`](#sethealth-1)
 
 ##### SetMaxHealth()
 
@@ -11800,7 +18445,7 @@ Defined in: [helper/EntityHelper.ts:202](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`SetMaxHealth`](#setmaxhealth-2)
+[`EntityHelper`](#abstract-entityhelper).[`SetMaxHealth`](#setmaxhealth-1)
 
 ##### SetOwner()
 
@@ -11820,7 +18465,7 @@ Defined in: [helper/EntityHelper.ts:170](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`SetOwner`](#setowner-2)
+[`EntityHelper`](#abstract-entityhelper).[`SetOwner`](#setowner-1)
 
 ##### SetParent()
 
@@ -11840,7 +18485,7 @@ Defined in: [helper/EntityHelper.ts:178](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`SetParent`](#setparent-2)
+[`EntityHelper`](#abstract-entityhelper).[`SetParent`](#setparent-1)
 
 ##### TakeDamage()
 
@@ -11864,7 +18509,7 @@ Defined in: [helper/EntityHelper.ts:222](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`TakeDamage`](#takedamage-2)
+[`EntityHelper`](#abstract-entityhelper).[`TakeDamage`](#takedamage-1)
 
 ##### Teleport()
 
@@ -11887,7 +18532,7 @@ Defined in: [helper/EntityHelper.ts:150](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`Teleport`](#teleport-2)
+[`EntityHelper`](#abstract-entityhelper).[`Teleport`](#teleport-1)
 
 ##### Find()
 
@@ -11907,7 +18552,7 @@ Defined in: [helper/PointTemplate.ts:26](https://github.com/Orb-Workshop/scripte
 
 ###### Overrides
 
-[`EntityHelper`](#entityhelper).[`Find`](#find-2)
+[`EntityHelper`](#abstract-entityhelper).[`Find`](#find-1)
 
 ##### FindAll()
 
@@ -11927,11 +18572,11 @@ Defined in: [helper/PointTemplate.ts:31](https://github.com/Orb-Workshop/scripte
 
 ###### Overrides
 
-[`EntityHelper`](#entityhelper).[`FindAll`](#findall-2)
+[`EntityHelper`](#abstract-entityhelper).[`FindAll`](#findall-1)
 
 ##### FindAllByClass()
 
-> `static` **FindAllByClass**(`classname`, `r`): [`EntityHelper`](#entityhelper)[]
+> `static` **FindAllByClass**(`classname`, `r`): [`EntityHelper`](#abstract-entityhelper)[]
 
 Defined in: [helper/EntityHelper.ts:52](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L52)
 
@@ -11944,15 +18589,15 @@ Defined in: [helper/EntityHelper.ts:52](https://github.com/Orb-Workshop/scripted
 
 ###### Returns
 
-[`EntityHelper`](#entityhelper)[]
+[`EntityHelper`](#abstract-entityhelper)[]
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`FindAllByClass`](#findallbyclass-2)
+[`EntityHelper`](#abstract-entityhelper).[`FindAllByClass`](#findallbyclass-1)
 
 ##### FindByClass()
 
-> `static` **FindByClass**(`classname`, `r`, `error`): [`EntityHelper`](#entityhelper) \| `null`
+> `static` **FindByClass**(`classname`, `r`, `error?`): [`EntityHelper`](#abstract-entityhelper) \| `null`
 
 Defined in: [helper/EntityHelper.ts:44](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L44)
 
@@ -11966,11 +18611,11 @@ Defined in: [helper/EntityHelper.ts:44](https://github.com/Orb-Workshop/scripted
 
 ###### Returns
 
-[`EntityHelper`](#entityhelper) \| `null`
+[`EntityHelper`](#abstract-entityhelper) \| `null`
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`FindByClass`](#findbyclass-2)
+[`EntityHelper`](#abstract-entityhelper).[`FindByClass`](#findbyclass-1)
 
 ##### From()
 
@@ -11998,6 +18643,10 @@ Defined in: [helper/PropDynamic.ts:18](https://github.com/Orb-Workshop/scriptede
 
 - [`FuncBreakable`](#funcbreakable)
 
+#### Extended by
+
+- [`PropDynamicOrnament`](#propdynamicornament)
+
 #### Constructors
 
 ##### Constructor
@@ -12018,7 +18667,7 @@ Defined in: [helper/PropDynamic.ts:19](https://github.com/Orb-Workshop/scriptede
 
 ###### Overrides
 
-[`FuncBreakable`](#funcbreakable).[`constructor`](#constructor-6)
+[`FuncBreakable`](#funcbreakable).[`constructor`](#constructor-7)
 
 #### Accessors
 
@@ -12036,13 +18685,13 @@ Defined in: [helper/EntityHelper.ts:57](https://github.com/Orb-Workshop/scripted
 
 ###### Inherited from
 
-[`FuncBreakable`](#funcbreakable).[`raw`](#raw-5)
+[`FuncBreakable`](#funcbreakable).[`raw`](#raw-6)
 
 #### Methods
 
 ##### AddHealth()
 
-> **AddHealth**(`value`, `opts`): `void`
+> **AddHealth**(`value`, `opts?`): `void`
 
 Defined in: [helper/FuncBreakable.ts:49](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/FuncBreakable.ts#L49)
 
@@ -12063,7 +18712,7 @@ Defined in: [helper/FuncBreakable.ts:49](https://github.com/Orb-Workshop/scripte
 
 ##### Break()
 
-> **Break**(`opts`): `void`
+> **Break**(`opts?`): `void`
 
 Defined in: [helper/FuncBreakable.ts:41](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/FuncBreakable.ts#L41)
 
@@ -12083,7 +18732,7 @@ Defined in: [helper/FuncBreakable.ts:41](https://github.com/Orb-Workshop/scripte
 
 ##### ClearRenderAttribute()
 
-> **ClearRenderAttribute**(`opts`): `void`
+> **ClearRenderAttribute**(`opts?`): `void`
 
 Defined in: [helper/PropDynamic.ts:54](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropDynamic.ts#L54)
 
@@ -12119,11 +18768,11 @@ TODO: Use Global Events to 'latch onto' the callbacks this method represents.
 
 ###### Inherited from
 
-[`FuncBreakable`](#funcbreakable).[`ConnectOutput`](#connectoutput-10)
+[`FuncBreakable`](#funcbreakable).[`ConnectOutput`](#connectoutput-6)
 
 ##### Disable()
 
-> **Disable**(`opts`): `void`
+> **Disable**(`opts?`): `void`
 
 Defined in: [helper/PropDynamic.ts:99](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropDynamic.ts#L99)
 
@@ -12139,7 +18788,7 @@ Defined in: [helper/PropDynamic.ts:99](https://github.com/Orb-Workshop/scriptede
 
 ##### DisableCollision()
 
-> **DisableCollision**(`opts`): `void`
+> **DisableCollision**(`opts?`): `void`
 
 Defined in: [helper/PropDynamic.ts:70](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropDynamic.ts#L70)
 
@@ -12155,7 +18804,7 @@ Defined in: [helper/PropDynamic.ts:70](https://github.com/Orb-Workshop/scriptede
 
 ##### DisableShadow()
 
-> **DisableShadow**(`opts`): `void`
+> **DisableShadow**(`opts?`): `void`
 
 Defined in: [helper/PropDynamic.ts:62](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropDynamic.ts#L62)
 
@@ -12171,7 +18820,7 @@ Defined in: [helper/PropDynamic.ts:62](https://github.com/Orb-Workshop/scriptede
 
 ##### Enable()
 
-> **Enable**(`opts`): `void`
+> **Enable**(`opts?`): `void`
 
 Defined in: [helper/PropDynamic.ts:95](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropDynamic.ts#L95)
 
@@ -12187,7 +18836,7 @@ Defined in: [helper/PropDynamic.ts:95](https://github.com/Orb-Workshop/scriptede
 
 ##### EnableCollision()
 
-> **EnableCollision**(`opts`): `void`
+> **EnableCollision**(`opts?`): `void`
 
 Defined in: [helper/PropDynamic.ts:66](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropDynamic.ts#L66)
 
@@ -12203,7 +18852,7 @@ Defined in: [helper/PropDynamic.ts:66](https://github.com/Orb-Workshop/scriptede
 
 ##### EnableShadow()
 
-> **EnableShadow**(`opts`): `void`
+> **EnableShadow**(`opts?`): `void`
 
 Defined in: [helper/PropDynamic.ts:58](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropDynamic.ts#L58)
 
@@ -12219,7 +18868,7 @@ Defined in: [helper/PropDynamic.ts:58](https://github.com/Orb-Workshop/scriptede
 
 ##### FireIO()
 
-> **FireIO**(`opts`): `void`
+> **FireIO**(`opts?`): `void`
 
 Defined in: [helper/EntityHelper.ts:59](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L59)
 
@@ -12235,11 +18884,11 @@ Defined in: [helper/EntityHelper.ts:59](https://github.com/Orb-Workshop/scripted
 
 ###### Inherited from
 
-[`FuncBreakable`](#funcbreakable).[`FireIO`](#fireio-10)
+[`FuncBreakable`](#funcbreakable).[`FireIO`](#fireio-6)
 
 ##### FireUser1()
 
-> **FireUser1**(`opts`): `void`
+> **FireUser1**(`opts?`): `void`
 
 Defined in: [helper/EntityHelper.ts:68](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L68)
 
@@ -12255,11 +18904,11 @@ Defined in: [helper/EntityHelper.ts:68](https://github.com/Orb-Workshop/scripted
 
 ###### Inherited from
 
-[`FuncBreakable`](#funcbreakable).[`FireUser1`](#fireuser1-10)
+[`FuncBreakable`](#funcbreakable).[`FireUser1`](#fireuser1-6)
 
 ##### FireUser2()
 
-> **FireUser2**(`opts`): `void`
+> **FireUser2**(`opts?`): `void`
 
 Defined in: [helper/EntityHelper.ts:72](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L72)
 
@@ -12275,11 +18924,11 @@ Defined in: [helper/EntityHelper.ts:72](https://github.com/Orb-Workshop/scripted
 
 ###### Inherited from
 
-[`FuncBreakable`](#funcbreakable).[`FireUser2`](#fireuser2-10)
+[`FuncBreakable`](#funcbreakable).[`FireUser2`](#fireuser2-6)
 
 ##### FireUser3()
 
-> **FireUser3**(`opts`): `void`
+> **FireUser3**(`opts?`): `void`
 
 Defined in: [helper/EntityHelper.ts:76](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L76)
 
@@ -12295,11 +18944,11 @@ Defined in: [helper/EntityHelper.ts:76](https://github.com/Orb-Workshop/scripted
 
 ###### Inherited from
 
-[`FuncBreakable`](#funcbreakable).[`FireUser3`](#fireuser3-10)
+[`FuncBreakable`](#funcbreakable).[`FireUser3`](#fireuser3-6)
 
 ##### FireUser4()
 
-> **FireUser4**(`opts`): `void`
+> **FireUser4**(`opts?`): `void`
 
 Defined in: [helper/EntityHelper.ts:80](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L80)
 
@@ -12315,11 +18964,11 @@ Defined in: [helper/EntityHelper.ts:80](https://github.com/Orb-Workshop/scripted
 
 ###### Inherited from
 
-[`FuncBreakable`](#funcbreakable).[`FireUser4`](#fireuser4-10)
+[`FuncBreakable`](#funcbreakable).[`FireUser4`](#fireuser4-6)
 
 ##### FollowEntity()
 
-> **FollowEntity**(`opts`): `void`
+> **FollowEntity**(`opts?`): `void`
 
 Defined in: [helper/PropDynamic.ts:42](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropDynamic.ts#L42)
 
@@ -12345,7 +18994,7 @@ Defined in: [helper/EntityHelper.ts:126](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`FuncBreakable`](#funcbreakable).[`GetAbsAngles`](#getabsangles-10)
+[`FuncBreakable`](#funcbreakable).[`GetAbsAngles`](#getabsangles-6)
 
 ##### GetAbsOrigin()
 
@@ -12359,7 +19008,7 @@ Defined in: [helper/EntityHelper.ts:118](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`FuncBreakable`](#funcbreakable).[`GetAbsOrigin`](#getabsorigin-10)
+[`FuncBreakable`](#funcbreakable).[`GetAbsOrigin`](#getabsorigin-6)
 
 ##### GetAbsVelocity()
 
@@ -12373,7 +19022,7 @@ Defined in: [helper/EntityHelper.ts:134](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`FuncBreakable`](#funcbreakable).[`GetAbsVelocity`](#getabsvelocity-10)
+[`FuncBreakable`](#funcbreakable).[`GetAbsVelocity`](#getabsvelocity-6)
 
 ##### GetClassName()
 
@@ -12387,7 +19036,21 @@ Defined in: [helper/EntityHelper.ts:154](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`FuncBreakable`](#funcbreakable).[`GetClassName`](#getclassname-10)
+[`FuncBreakable`](#funcbreakable).[`GetClassName`](#getclassname-6)
+
+##### GetColor()
+
+> **GetColor**(): `ColorType`
+
+Defined in: [helper/BaseModelEntity.ts:59](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L59)
+
+###### Returns
+
+`ColorType`
+
+###### Inherited from
+
+[`FuncBreakable`](#funcbreakable).[`GetColor`](#getcolor-1)
 
 ##### GetEntityName()
 
@@ -12401,7 +19064,7 @@ Defined in: [helper/EntityHelper.ts:158](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`FuncBreakable`](#funcbreakable).[`GetEntityName`](#getentityname-10)
+[`FuncBreakable`](#funcbreakable).[`GetEntityName`](#getentityname-6)
 
 ##### GetEyeAngles()
 
@@ -12415,7 +19078,7 @@ Defined in: [helper/EntityHelper.ts:142](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`FuncBreakable`](#funcbreakable).[`GetEyeAngles`](#geteyeangles-10)
+[`FuncBreakable`](#funcbreakable).[`GetEyeAngles`](#geteyeangles-6)
 
 ##### GetEyePosition()
 
@@ -12429,7 +19092,7 @@ Defined in: [helper/EntityHelper.ts:146](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`FuncBreakable`](#funcbreakable).[`GetEyePosition`](#geteyeposition-10)
+[`FuncBreakable`](#funcbreakable).[`GetEyePosition`](#geteyeposition-6)
 
 ##### GetGroundEntity()
 
@@ -12443,7 +19106,7 @@ Defined in: [helper/EntityHelper.ts:218](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`FuncBreakable`](#funcbreakable).[`GetGroundEntity`](#getgroundentity-10)
+[`FuncBreakable`](#funcbreakable).[`GetGroundEntity`](#getgroundentity-6)
 
 ##### GetHealth()
 
@@ -12457,7 +19120,7 @@ Defined in: [helper/EntityHelper.ts:186](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`FuncBreakable`](#funcbreakable).[`GetHealth`](#gethealth-10)
+[`FuncBreakable`](#funcbreakable).[`GetHealth`](#gethealth-6)
 
 ##### GetLocalAngles()
 
@@ -12471,7 +19134,7 @@ Defined in: [helper/EntityHelper.ts:130](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`FuncBreakable`](#funcbreakable).[`GetLocalAngles`](#getlocalangles-10)
+[`FuncBreakable`](#funcbreakable).[`GetLocalAngles`](#getlocalangles-6)
 
 ##### GetLocalOrigin()
 
@@ -12485,7 +19148,7 @@ Defined in: [helper/EntityHelper.ts:122](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`FuncBreakable`](#funcbreakable).[`GetLocalOrigin`](#getlocalorigin-10)
+[`FuncBreakable`](#funcbreakable).[`GetLocalOrigin`](#getlocalorigin-6)
 
 ##### GetLocalVelocity()
 
@@ -12499,7 +19162,7 @@ Defined in: [helper/EntityHelper.ts:138](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`FuncBreakable`](#funcbreakable).[`GetLocalVelocity`](#getlocalvelocity-10)
+[`FuncBreakable`](#funcbreakable).[`GetLocalVelocity`](#getlocalvelocity-6)
 
 ##### GetMaxHealth()
 
@@ -12513,7 +19176,35 @@ Defined in: [helper/EntityHelper.ts:198](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`FuncBreakable`](#funcbreakable).[`GetMaxHealth`](#getmaxhealth-10)
+[`FuncBreakable`](#funcbreakable).[`GetMaxHealth`](#getmaxhealth-6)
+
+##### GetModelName()
+
+> **GetModelName**(): `string`
+
+Defined in: [helper/BaseModelEntity.ts:43](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L43)
+
+###### Returns
+
+`string`
+
+###### Inherited from
+
+[`FuncBreakable`](#funcbreakable).[`GetModelName`](#getmodelname-1)
+
+##### GetModelScale()
+
+> **GetModelScale**(): `string`
+
+Defined in: [helper/BaseModelEntity.ts:51](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L51)
+
+###### Returns
+
+`string`
+
+###### Inherited from
+
+[`FuncBreakable`](#funcbreakable).[`GetModelScale`](#getmodelscale-1)
 
 ##### GetOwner()
 
@@ -12527,7 +19218,7 @@ Defined in: [helper/EntityHelper.ts:166](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`FuncBreakable`](#funcbreakable).[`GetOwner`](#getowner-10)
+[`FuncBreakable`](#funcbreakable).[`GetOwner`](#getowner-6)
 
 ##### GetParent()
 
@@ -12541,7 +19232,7 @@ Defined in: [helper/EntityHelper.ts:174](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`FuncBreakable`](#funcbreakable).[`GetParent`](#getparent-10)
+[`FuncBreakable`](#funcbreakable).[`GetParent`](#getparent-6)
 
 ##### GetTeamNumber()
 
@@ -12555,13 +19246,13 @@ Defined in: [helper/EntityHelper.ts:182](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`FuncBreakable`](#funcbreakable).[`GetTeamNumber`](#getteamnumber-10)
+[`FuncBreakable`](#funcbreakable).[`GetTeamNumber`](#getteamnumber-6)
 
 ##### Glow()
 
 > **Glow**(`color?`): `void`
 
-Defined in: [helper/BaseModelEntity.ts:52](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L52)
+Defined in: [helper/BaseModelEntity.ts:63](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L63)
 
 ###### Parameters
 
@@ -12575,7 +19266,7 @@ Defined in: [helper/BaseModelEntity.ts:52](https://github.com/Orb-Workshop/scrip
 
 ###### Inherited from
 
-[`FuncBreakable`](#funcbreakable).[`Glow`](#glow-2)
+[`FuncBreakable`](#funcbreakable).[`Glow`](#glow-1)
 
 ##### IsAlive()
 
@@ -12589,7 +19280,21 @@ Defined in: [helper/EntityHelper.ts:210](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`FuncBreakable`](#funcbreakable).[`IsAlive`](#isalive-10)
+[`FuncBreakable`](#funcbreakable).[`IsAlive`](#isalive-6)
+
+##### IsGlowing()
+
+> **IsGlowing**(): `boolean`
+
+Defined in: [helper/BaseModelEntity.ts:71](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L71)
+
+###### Returns
+
+`boolean`
+
+###### Inherited from
+
+[`FuncBreakable`](#funcbreakable).[`IsGlowing`](#isglowing-1)
 
 ##### IsValid()
 
@@ -12603,7 +19308,7 @@ Defined in: [helper/EntityHelper.ts:114](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`FuncBreakable`](#funcbreakable).[`IsValid`](#isvalid-10)
+[`FuncBreakable`](#funcbreakable).[`IsValid`](#isvalid-6)
 
 ##### IsWorld()
 
@@ -12617,7 +19322,7 @@ Defined in: [helper/EntityHelper.ts:214](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`FuncBreakable`](#funcbreakable).[`IsWorld`](#isworld-10)
+[`FuncBreakable`](#funcbreakable).[`IsWorld`](#isworld-6)
 
 ##### Kill()
 
@@ -12631,11 +19336,45 @@ Defined in: [helper/EntityHelper.ts:226](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`FuncBreakable`](#funcbreakable).[`Kill`](#kill-10)
+[`FuncBreakable`](#funcbreakable).[`Kill`](#kill-6)
+
+##### KillAll()
+
+> **KillAll**(): `void`
+
+Defined in: [helper/EntityHelper.ts:234](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L234)
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`FuncBreakable`](#funcbreakable).[`KillAll`](#killall-6)
+
+##### KillHierarchy()
+
+> **KillHierarchy**(`opts?`): `void`
+
+Defined in: [helper/EntityHelper.ts:230](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L230)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `opts` | \{ \} |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`FuncBreakable`](#funcbreakable).[`KillHierarchy`](#killhierarchy-6)
 
 ##### On()
 
-> **On**(`event_name`, `callback`): [`EntityHelper`](#entityhelper)
+> **On**(`event_name`, `callback`): [`EntityHelper`](#abstract-entityhelper)
 
 Defined in: [helper/EntityHelper.ts:104](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L104)
 
@@ -12648,11 +19387,11 @@ Defined in: [helper/EntityHelper.ts:104](https://github.com/Orb-Workshop/scripte
 
 ###### Returns
 
-[`EntityHelper`](#entityhelper)
+[`EntityHelper`](#abstract-entityhelper)
 
 ###### Inherited from
 
-[`FuncBreakable`](#funcbreakable).[`On`](#on-10)
+[`FuncBreakable`](#funcbreakable).[`On`](#on-6)
 
 ##### OnAnimationBegun()
 
@@ -12810,7 +19549,7 @@ Defined in: [helper/PropDynamic.ts:137](https://github.com/Orb-Workshop/scripted
 
 > **Remove**(): `void`
 
-Defined in: [helper/EntityHelper.ts:230](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L230)
+Defined in: [helper/EntityHelper.ts:238](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L238)
 
 ###### Returns
 
@@ -12818,11 +19557,11 @@ Defined in: [helper/EntityHelper.ts:230](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`FuncBreakable`](#funcbreakable).[`Remove`](#remove-10)
+[`FuncBreakable`](#funcbreakable).[`Remove`](#remove-6)
 
 ##### RemoveHealth()
 
-> **RemoveHealth**(`value`, `opts`): `void`
+> **RemoveHealth**(`value`, `opts?`): `void`
 
 Defined in: [helper/FuncBreakable.ts:53](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/FuncBreakable.ts#L53)
 
@@ -12843,7 +19582,7 @@ Defined in: [helper/FuncBreakable.ts:53](https://github.com/Orb-Workshop/scripte
 
 ##### SetAnimationLooping()
 
-> **SetAnimationLooping**(`value`, `opts`): `void`
+> **SetAnimationLooping**(`value`, `opts?`): `void`
 
 Defined in: [helper/PropDynamic.ts:107](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropDynamic.ts#L107)
 
@@ -12860,7 +19599,7 @@ Defined in: [helper/PropDynamic.ts:107](https://github.com/Orb-Workshop/scripted
 
 ##### SetAnimationNoResetLooping()
 
-> **SetAnimationNoResetLooping**(`value`, `opts`): `void`
+> **SetAnimationNoResetLooping**(`value`, `opts?`): `void`
 
 Defined in: [helper/PropDynamic.ts:111](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropDynamic.ts#L111)
 
@@ -12877,7 +19616,7 @@ Defined in: [helper/PropDynamic.ts:111](https://github.com/Orb-Workshop/scripted
 
 ##### SetAnimationNoResetNotLooping()
 
-> **SetAnimationNoResetNotLooping**(`value`, `opts`): `void`
+> **SetAnimationNoResetNotLooping**(`value`, `opts?`): `void`
 
 Defined in: [helper/PropDynamic.ts:123](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropDynamic.ts#L123)
 
@@ -12894,7 +19633,7 @@ Defined in: [helper/PropDynamic.ts:123](https://github.com/Orb-Workshop/scripted
 
 ##### SetAnimationNotLooping()
 
-> **SetAnimationNotLooping**(`value`, `opts`): `void`
+> **SetAnimationNotLooping**(`value`, `opts?`): `void`
 
 Defined in: [helper/PropDynamic.ts:119](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropDynamic.ts#L119)
 
@@ -12911,7 +19650,7 @@ Defined in: [helper/PropDynamic.ts:119](https://github.com/Orb-Workshop/scripted
 
 ##### SetAnimGraphParameter()
 
-> **SetAnimGraphParameter**(`name`, `value`, `opts`): `void`
+> **SetAnimGraphParameter**(`name`, `value`, `opts?`): `void`
 
 Defined in: [helper/PropDynamic.ts:78](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropDynamic.ts#L78)
 
@@ -12929,7 +19668,7 @@ Defined in: [helper/PropDynamic.ts:78](https://github.com/Orb-Workshop/scriptede
 
 ##### SetBodyGroup()
 
-> **SetBodyGroup**(`value`, `opts`): `void`
+> **SetBodyGroup**(`value`, `opts?`): `void`
 
 Defined in: [helper/PropDynamic.ts:103](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropDynamic.ts#L103)
 
@@ -12948,7 +19687,7 @@ Defined in: [helper/PropDynamic.ts:103](https://github.com/Orb-Workshop/scripted
 
 > **SetColor**(`c`): `void`
 
-Defined in: [helper/BaseModelEntity.ts:48](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L48)
+Defined in: [helper/BaseModelEntity.ts:55](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L55)
 
 ###### Parameters
 
@@ -12962,7 +19701,7 @@ Defined in: [helper/BaseModelEntity.ts:48](https://github.com/Orb-Workshop/scrip
 
 ###### Inherited from
 
-[`FuncBreakable`](#funcbreakable).[`SetColor`](#setcolor-2)
+[`FuncBreakable`](#funcbreakable).[`SetColor`](#setcolor-1)
 
 ##### SetEntityName()
 
@@ -12982,11 +19721,11 @@ Defined in: [helper/EntityHelper.ts:162](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`FuncBreakable`](#funcbreakable).[`SetEntityName`](#setentityname-10)
+[`FuncBreakable`](#funcbreakable).[`SetEntityName`](#setentityname-6)
 
 ##### SetHealth()
 
-> **SetHealth**(`value`, `opts`): `void`
+> **SetHealth**(`value`, `opts?`): `void`
 
 Defined in: [helper/FuncBreakable.ts:45](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/FuncBreakable.ts#L45)
 
@@ -13003,11 +19742,11 @@ Defined in: [helper/FuncBreakable.ts:45](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`FuncBreakable`](#funcbreakable).[`SetHealth`](#sethealth-10)
+[`FuncBreakable`](#funcbreakable).[`SetHealth`](#sethealth-6)
 
 ##### SetIdleAnimationLooping()
 
-> **SetIdleAnimationLooping**(`value`, `opts`): `void`
+> **SetIdleAnimationLooping**(`value`, `opts?`): `void`
 
 Defined in: [helper/PropDynamic.ts:115](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropDynamic.ts#L115)
 
@@ -13024,7 +19763,7 @@ Defined in: [helper/PropDynamic.ts:115](https://github.com/Orb-Workshop/scripted
 
 ##### SetIdleAnimationNotLooping()
 
-> **SetIdleAnimationNotLooping**(`value`, `opts`): `void`
+> **SetIdleAnimationNotLooping**(`value`, `opts?`): `void`
 
 Defined in: [helper/PropDynamic.ts:127](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropDynamic.ts#L127)
 
@@ -13041,7 +19780,7 @@ Defined in: [helper/PropDynamic.ts:127](https://github.com/Orb-Workshop/scripted
 
 ##### SetMass()
 
-> **SetMass**(`value`, `opts`): `void`
+> **SetMass**(`value`, `opts?`): `void`
 
 Defined in: [helper/FuncBreakable.ts:57](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/FuncBreakable.ts#L57)
 
@@ -13078,13 +19817,13 @@ Defined in: [helper/EntityHelper.ts:202](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`FuncBreakable`](#funcbreakable).[`SetMaxHealth`](#setmaxhealth-10)
+[`FuncBreakable`](#funcbreakable).[`SetMaxHealth`](#setmaxhealth-6)
 
 ##### SetModel()
 
 > **SetModel**(`s`): `void`
 
-Defined in: [helper/BaseModelEntity.ts:40](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L40)
+Defined in: [helper/BaseModelEntity.ts:39](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L39)
 
 ###### Parameters
 
@@ -13098,13 +19837,13 @@ Defined in: [helper/BaseModelEntity.ts:40](https://github.com/Orb-Workshop/scrip
 
 ###### Inherited from
 
-[`FuncBreakable`](#funcbreakable).[`SetModel`](#setmodel-2)
+[`FuncBreakable`](#funcbreakable).[`SetModel`](#setmodel-1)
 
 ##### SetModelScale()
 
 > **SetModelScale**(`s`): `void`
 
-Defined in: [helper/BaseModelEntity.ts:44](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L44)
+Defined in: [helper/BaseModelEntity.ts:47](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L47)
 
 ###### Parameters
 
@@ -13118,11 +19857,11 @@ Defined in: [helper/BaseModelEntity.ts:44](https://github.com/Orb-Workshop/scrip
 
 ###### Inherited from
 
-[`FuncBreakable`](#funcbreakable).[`SetModelScale`](#setmodelscale-2)
+[`FuncBreakable`](#funcbreakable).[`SetModelScale`](#setmodelscale-1)
 
 ##### SetNavIgnore()
 
-> **SetNavIgnore**(`opts`): `void`
+> **SetNavIgnore**(`opts?`): `void`
 
 Defined in: [helper/PropDynamic.ts:74](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropDynamic.ts#L74)
 
@@ -13154,7 +19893,7 @@ Defined in: [helper/EntityHelper.ts:170](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`FuncBreakable`](#funcbreakable).[`SetOwner`](#setowner-10)
+[`FuncBreakable`](#funcbreakable).[`SetOwner`](#setowner-6)
 
 ##### SetParent()
 
@@ -13174,11 +19913,11 @@ Defined in: [helper/EntityHelper.ts:178](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`FuncBreakable`](#funcbreakable).[`SetParent`](#setparent-10)
+[`FuncBreakable`](#funcbreakable).[`SetParent`](#setparent-6)
 
 ##### SetPlaybackRate()
 
-> **SetPlaybackRate**(`value`, `opts`): `void`
+> **SetPlaybackRate**(`value`, `opts?`): `void`
 
 Defined in: [helper/PropDynamic.ts:131](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropDynamic.ts#L131)
 
@@ -13195,7 +19934,7 @@ Defined in: [helper/PropDynamic.ts:131](https://github.com/Orb-Workshop/scripted
 
 ##### SetRagdollProfile()
 
-> **SetRagdollProfile**(`value`, `opts`): `void`
+> **SetRagdollProfile**(`value`, `opts?`): `void`
 
 Defined in: [helper/PropDynamic.ts:83](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropDynamic.ts#L83)
 
@@ -13212,7 +19951,7 @@ Defined in: [helper/PropDynamic.ts:83](https://github.com/Orb-Workshop/scriptede
 
 ##### SetRenderAttribute()
 
-> **SetRenderAttribute**(`value`, `opts`): `void`
+> **SetRenderAttribute**(`value`, `opts?`): `void`
 
 Defined in: [helper/PropDynamic.ts:50](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropDynamic.ts#L50)
 
@@ -13229,7 +19968,7 @@ Defined in: [helper/PropDynamic.ts:50](https://github.com/Orb-Workshop/scriptede
 
 ##### Skin()
 
-> **Skin**(`value`, `opts`): `void`
+> **Skin**(`value`, `opts?`): `void`
 
 Defined in: [helper/PropDynamic.ts:46](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropDynamic.ts#L46)
 
@@ -13266,7 +20005,7 @@ Defined in: [helper/EntityHelper.ts:222](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`FuncBreakable`](#funcbreakable).[`TakeDamage`](#takedamage-10)
+[`FuncBreakable`](#funcbreakable).[`TakeDamage`](#takedamage-6)
 
 ##### Teleport()
 
@@ -13289,11 +20028,11 @@ Defined in: [helper/EntityHelper.ts:150](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`FuncBreakable`](#funcbreakable).[`Teleport`](#teleport-10)
+[`FuncBreakable`](#funcbreakable).[`Teleport`](#teleport-6)
 
 ##### TurnOff()
 
-> **TurnOff**(`opts`): `void`
+> **TurnOff**(`opts?`): `void`
 
 Defined in: [helper/PropDynamic.ts:91](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropDynamic.ts#L91)
 
@@ -13309,7 +20048,7 @@ Defined in: [helper/PropDynamic.ts:91](https://github.com/Orb-Workshop/scriptede
 
 ##### TurnOn()
 
-> **TurnOn**(`opts`): `void`
+> **TurnOn**(`opts?`): `void`
 
 Defined in: [helper/PropDynamic.ts:87](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropDynamic.ts#L87)
 
@@ -13327,7 +20066,7 @@ Defined in: [helper/PropDynamic.ts:87](https://github.com/Orb-Workshop/scriptede
 
 > **Unglow**(): `void`
 
-Defined in: [helper/BaseModelEntity.ts:56](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L56)
+Defined in: [helper/BaseModelEntity.ts:67](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L67)
 
 ###### Returns
 
@@ -13335,7 +20074,7 @@ Defined in: [helper/BaseModelEntity.ts:56](https://github.com/Orb-Workshop/scrip
 
 ###### Inherited from
 
-[`FuncBreakable`](#funcbreakable).[`Unglow`](#unglow-2)
+[`FuncBreakable`](#funcbreakable).[`Unglow`](#unglow-1)
 
 ##### Find()
 
@@ -13355,7 +20094,7 @@ Defined in: [helper/PropDynamic.ts:29](https://github.com/Orb-Workshop/scriptede
 
 ###### Overrides
 
-[`FuncBreakable`](#funcbreakable).[`Find`](#find-10)
+[`FuncBreakable`](#funcbreakable).[`Find`](#find-6)
 
 ##### FindAll()
 
@@ -13375,11 +20114,11 @@ Defined in: [helper/PropDynamic.ts:34](https://github.com/Orb-Workshop/scriptede
 
 ###### Overrides
 
-[`FuncBreakable`](#funcbreakable).[`FindAll`](#findall-10)
+[`FuncBreakable`](#funcbreakable).[`FindAll`](#findall-6)
 
 ##### FindAllByClass()
 
-> `static` **FindAllByClass**(`classname`, `r`): [`EntityHelper`](#entityhelper)[]
+> `static` **FindAllByClass**(`classname`, `r`): [`EntityHelper`](#abstract-entityhelper)[]
 
 Defined in: [helper/EntityHelper.ts:52](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L52)
 
@@ -13392,15 +20131,15 @@ Defined in: [helper/EntityHelper.ts:52](https://github.com/Orb-Workshop/scripted
 
 ###### Returns
 
-[`EntityHelper`](#entityhelper)[]
+[`EntityHelper`](#abstract-entityhelper)[]
 
 ###### Inherited from
 
-[`FuncBreakable`](#funcbreakable).[`FindAllByClass`](#findallbyclass-10)
+[`FuncBreakable`](#funcbreakable).[`FindAllByClass`](#findallbyclass-6)
 
 ##### FindByClass()
 
-> `static` **FindByClass**(`classname`, `r`, `error`): [`EntityHelper`](#entityhelper) \| `null`
+> `static` **FindByClass**(`classname`, `r`, `error?`): [`EntityHelper`](#abstract-entityhelper) \| `null`
 
 Defined in: [helper/EntityHelper.ts:44](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L44)
 
@@ -13414,11 +20153,11 @@ Defined in: [helper/EntityHelper.ts:44](https://github.com/Orb-Workshop/scripted
 
 ###### Returns
 
-[`EntityHelper`](#entityhelper) \| `null`
+[`EntityHelper`](#abstract-entityhelper) \| `null`
 
 ###### Inherited from
 
-[`FuncBreakable`](#funcbreakable).[`FindByClass`](#findbyclass-10)
+[`FuncBreakable`](#funcbreakable).[`FindByClass`](#findbyclass-6)
 
 ##### From()
 
@@ -13438,7 +20177,1701 @@ Defined in: [helper/PropDynamic.ts:23](https://github.com/Orb-Workshop/scriptede
 
 ###### Overrides
 
-[`FuncBreakable`](#funcbreakable).[`From`](#from-10)
+[`FuncBreakable`](#funcbreakable).[`From`](#from-6)
+
+***
+
+### PropDynamicOrnament
+
+Defined in: [helper/PropDynamicOrnament.ts:17](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropDynamicOrnament.ts#L17)
+
+#### Extends
+
+- [`PropDynamic`](#propdynamic)
+
+#### Constructors
+
+##### Constructor
+
+> **new PropDynamicOrnament**(`entity`): [`PropDynamicOrnament`](#propdynamicornament)
+
+Defined in: [helper/PropDynamicOrnament.ts:18](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropDynamicOrnament.ts#L18)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `entity` | `Entity` |
+
+###### Returns
+
+[`PropDynamicOrnament`](#propdynamicornament)
+
+###### Overrides
+
+[`PropDynamic`](#propdynamic).[`constructor`](#constructor-22)
+
+#### Accessors
+
+##### raw
+
+###### Get Signature
+
+> **get** **raw**(): `Entity`
+
+Defined in: [helper/EntityHelper.ts:57](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L57)
+
+###### Returns
+
+`Entity`
+
+###### Inherited from
+
+[`PropDynamic`](#propdynamic).[`raw`](#raw-21)
+
+#### Methods
+
+##### AddHealth()
+
+> **AddHealth**(`value`, `opts?`): `void`
+
+Defined in: [helper/FuncBreakable.ts:49](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/FuncBreakable.ts#L49)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `value` | `number` |
+| `opts` | \{ \} |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`PropDynamic`](#propdynamic).[`AddHealth`](#addhealth-1)
+
+##### Break()
+
+> **Break**(`opts?`): `void`
+
+Defined in: [helper/FuncBreakable.ts:41](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/FuncBreakable.ts#L41)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `opts` | \{ \} |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`PropDynamic`](#propdynamic).[`Break`](#break-1)
+
+##### ClearRenderAttribute()
+
+> **ClearRenderAttribute**(`opts?`): `void`
+
+Defined in: [helper/PropDynamic.ts:54](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropDynamic.ts#L54)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `opts` | \{ \} |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`PropDynamic`](#propdynamic).[`ClearRenderAttribute`](#clearrenderattribute)
+
+##### ConnectOutput()
+
+> **ConnectOutput**(`event_name`, `callback`): `void`
+
+Defined in: [helper/EntityHelper.ts:95](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L95)
+
+Represents EventListening of IO entities with `this.ConnectOutput`
+TODO: Use Global Events to 'latch onto' the callbacks this method represents.
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `event_name` | `string` |
+| `callback` | `ConnectOutputCallback` |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`PropDynamic`](#propdynamic).[`ConnectOutput`](#connectoutput-21)
+
+##### Detached()
+
+> **Detached**(`opts?`): `void`
+
+Defined in: [helper/PropDynamicOrnament.ts:45](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropDynamicOrnament.ts#L45)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `opts` | \{ \} |
+
+###### Returns
+
+`void`
+
+##### Disable()
+
+> **Disable**(`opts?`): `void`
+
+Defined in: [helper/PropDynamic.ts:99](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropDynamic.ts#L99)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `opts` | \{ \} |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`PropDynamic`](#propdynamic).[`Disable`](#disable-1)
+
+##### DisableCollision()
+
+> **DisableCollision**(`opts?`): `void`
+
+Defined in: [helper/PropDynamic.ts:70](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropDynamic.ts#L70)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `opts` | \{ \} |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`PropDynamic`](#propdynamic).[`DisableCollision`](#disablecollision)
+
+##### DisableShadow()
+
+> **DisableShadow**(`opts?`): `void`
+
+Defined in: [helper/PropDynamic.ts:62](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropDynamic.ts#L62)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `opts` | \{ \} |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`PropDynamic`](#propdynamic).[`DisableShadow`](#disableshadow)
+
+##### Enable()
+
+> **Enable**(`opts?`): `void`
+
+Defined in: [helper/PropDynamic.ts:95](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropDynamic.ts#L95)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `opts` | \{ \} |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`PropDynamic`](#propdynamic).[`Enable`](#enable-1)
+
+##### EnableCollision()
+
+> **EnableCollision**(`opts?`): `void`
+
+Defined in: [helper/PropDynamic.ts:66](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropDynamic.ts#L66)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `opts` | \{ \} |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`PropDynamic`](#propdynamic).[`EnableCollision`](#enablecollision)
+
+##### EnableShadow()
+
+> **EnableShadow**(`opts?`): `void`
+
+Defined in: [helper/PropDynamic.ts:58](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropDynamic.ts#L58)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `opts` | \{ \} |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`PropDynamic`](#propdynamic).[`EnableShadow`](#enableshadow)
+
+##### FireIO()
+
+> **FireIO**(`opts?`): `void`
+
+Defined in: [helper/EntityHelper.ts:59](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L59)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `opts` | \{ \} |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`PropDynamic`](#propdynamic).[`FireIO`](#fireio-21)
+
+##### FireUser1()
+
+> **FireUser1**(`opts?`): `void`
+
+Defined in: [helper/EntityHelper.ts:68](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L68)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `opts` | \{ \} |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`PropDynamic`](#propdynamic).[`FireUser1`](#fireuser1-21)
+
+##### FireUser2()
+
+> **FireUser2**(`opts?`): `void`
+
+Defined in: [helper/EntityHelper.ts:72](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L72)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `opts` | \{ \} |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`PropDynamic`](#propdynamic).[`FireUser2`](#fireuser2-21)
+
+##### FireUser3()
+
+> **FireUser3**(`opts?`): `void`
+
+Defined in: [helper/EntityHelper.ts:76](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L76)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `opts` | \{ \} |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`PropDynamic`](#propdynamic).[`FireUser3`](#fireuser3-21)
+
+##### FireUser4()
+
+> **FireUser4**(`opts?`): `void`
+
+Defined in: [helper/EntityHelper.ts:80](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L80)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `opts` | \{ \} |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`PropDynamic`](#propdynamic).[`FireUser4`](#fireuser4-21)
+
+##### FollowEntity()
+
+> **FollowEntity**(`opts?`): `void`
+
+Defined in: [helper/PropDynamic.ts:42](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropDynamic.ts#L42)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `opts` | \{ \} |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`PropDynamic`](#propdynamic).[`FollowEntity`](#followentity)
+
+##### GetAbsAngles()
+
+> **GetAbsAngles**(): [`QAngle`](Math.md#qangle)
+
+Defined in: [helper/EntityHelper.ts:126](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L126)
+
+###### Returns
+
+[`QAngle`](Math.md#qangle)
+
+###### Inherited from
+
+[`PropDynamic`](#propdynamic).[`GetAbsAngles`](#getabsangles-21)
+
+##### GetAbsOrigin()
+
+> **GetAbsOrigin**(): [`Vector3`](Math.md#vector3)
+
+Defined in: [helper/EntityHelper.ts:118](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L118)
+
+###### Returns
+
+[`Vector3`](Math.md#vector3)
+
+###### Inherited from
+
+[`PropDynamic`](#propdynamic).[`GetAbsOrigin`](#getabsorigin-21)
+
+##### GetAbsVelocity()
+
+> **GetAbsVelocity**(): [`Vector3`](Math.md#vector3)
+
+Defined in: [helper/EntityHelper.ts:134](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L134)
+
+###### Returns
+
+[`Vector3`](Math.md#vector3)
+
+###### Inherited from
+
+[`PropDynamic`](#propdynamic).[`GetAbsVelocity`](#getabsvelocity-21)
+
+##### GetClassName()
+
+> **GetClassName**(): `string`
+
+Defined in: [helper/EntityHelper.ts:154](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L154)
+
+###### Returns
+
+`string`
+
+###### Inherited from
+
+[`PropDynamic`](#propdynamic).[`GetClassName`](#getclassname-21)
+
+##### GetColor()
+
+> **GetColor**(): `ColorType`
+
+Defined in: [helper/BaseModelEntity.ts:59](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L59)
+
+###### Returns
+
+`ColorType`
+
+###### Inherited from
+
+[`PropDynamic`](#propdynamic).[`GetColor`](#getcolor-6)
+
+##### GetEntityName()
+
+> **GetEntityName**(): `string`
+
+Defined in: [helper/EntityHelper.ts:158](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L158)
+
+###### Returns
+
+`string`
+
+###### Inherited from
+
+[`PropDynamic`](#propdynamic).[`GetEntityName`](#getentityname-21)
+
+##### GetEyeAngles()
+
+> **GetEyeAngles**(): [`QAngle`](Math.md#qangle)
+
+Defined in: [helper/EntityHelper.ts:142](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L142)
+
+###### Returns
+
+[`QAngle`](Math.md#qangle)
+
+###### Inherited from
+
+[`PropDynamic`](#propdynamic).[`GetEyeAngles`](#geteyeangles-21)
+
+##### GetEyePosition()
+
+> **GetEyePosition**(): [`Vector3`](Math.md#vector3)
+
+Defined in: [helper/EntityHelper.ts:146](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L146)
+
+###### Returns
+
+[`Vector3`](Math.md#vector3)
+
+###### Inherited from
+
+[`PropDynamic`](#propdynamic).[`GetEyePosition`](#geteyeposition-21)
+
+##### GetGroundEntity()
+
+> **GetGroundEntity**(): `any`
+
+Defined in: [helper/EntityHelper.ts:218](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L218)
+
+###### Returns
+
+`any`
+
+###### Inherited from
+
+[`PropDynamic`](#propdynamic).[`GetGroundEntity`](#getgroundentity-21)
+
+##### GetHealth()
+
+> **GetHealth**(): `number`
+
+Defined in: [helper/EntityHelper.ts:186](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L186)
+
+###### Returns
+
+`number`
+
+###### Inherited from
+
+[`PropDynamic`](#propdynamic).[`GetHealth`](#gethealth-21)
+
+##### GetLocalAngles()
+
+> **GetLocalAngles**(): [`QAngle`](Math.md#qangle)
+
+Defined in: [helper/EntityHelper.ts:130](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L130)
+
+###### Returns
+
+[`QAngle`](Math.md#qangle)
+
+###### Inherited from
+
+[`PropDynamic`](#propdynamic).[`GetLocalAngles`](#getlocalangles-21)
+
+##### GetLocalOrigin()
+
+> **GetLocalOrigin**(): [`Vector3`](Math.md#vector3)
+
+Defined in: [helper/EntityHelper.ts:122](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L122)
+
+###### Returns
+
+[`Vector3`](Math.md#vector3)
+
+###### Inherited from
+
+[`PropDynamic`](#propdynamic).[`GetLocalOrigin`](#getlocalorigin-21)
+
+##### GetLocalVelocity()
+
+> **GetLocalVelocity**(): [`Vector3`](Math.md#vector3)
+
+Defined in: [helper/EntityHelper.ts:138](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L138)
+
+###### Returns
+
+[`Vector3`](Math.md#vector3)
+
+###### Inherited from
+
+[`PropDynamic`](#propdynamic).[`GetLocalVelocity`](#getlocalvelocity-21)
+
+##### GetMaxHealth()
+
+> **GetMaxHealth**(): `number`
+
+Defined in: [helper/EntityHelper.ts:198](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L198)
+
+###### Returns
+
+`number`
+
+###### Inherited from
+
+[`PropDynamic`](#propdynamic).[`GetMaxHealth`](#getmaxhealth-21)
+
+##### GetModelName()
+
+> **GetModelName**(): `string`
+
+Defined in: [helper/BaseModelEntity.ts:43](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L43)
+
+###### Returns
+
+`string`
+
+###### Inherited from
+
+[`PropDynamic`](#propdynamic).[`GetModelName`](#getmodelname-6)
+
+##### GetModelScale()
+
+> **GetModelScale**(): `string`
+
+Defined in: [helper/BaseModelEntity.ts:51](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L51)
+
+###### Returns
+
+`string`
+
+###### Inherited from
+
+[`PropDynamic`](#propdynamic).[`GetModelScale`](#getmodelscale-6)
+
+##### GetOwner()
+
+> **GetOwner**(): `any`
+
+Defined in: [helper/EntityHelper.ts:166](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L166)
+
+###### Returns
+
+`any`
+
+###### Inherited from
+
+[`PropDynamic`](#propdynamic).[`GetOwner`](#getowner-21)
+
+##### GetParent()
+
+> **GetParent**(): `any`
+
+Defined in: [helper/EntityHelper.ts:174](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L174)
+
+###### Returns
+
+`any`
+
+###### Inherited from
+
+[`PropDynamic`](#propdynamic).[`GetParent`](#getparent-21)
+
+##### GetTeamNumber()
+
+> **GetTeamNumber**(): `number`
+
+Defined in: [helper/EntityHelper.ts:182](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L182)
+
+###### Returns
+
+`number`
+
+###### Inherited from
+
+[`PropDynamic`](#propdynamic).[`GetTeamNumber`](#getteamnumber-21)
+
+##### Glow()
+
+> **Glow**(`color?`): `void`
+
+Defined in: [helper/BaseModelEntity.ts:63](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L63)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `color?` | `any` |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`PropDynamic`](#propdynamic).[`Glow`](#glow-6)
+
+##### IsAlive()
+
+> **IsAlive**(): `boolean`
+
+Defined in: [helper/EntityHelper.ts:210](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L210)
+
+###### Returns
+
+`boolean`
+
+###### Inherited from
+
+[`PropDynamic`](#propdynamic).[`IsAlive`](#isalive-21)
+
+##### IsGlowing()
+
+> **IsGlowing**(): `boolean`
+
+Defined in: [helper/BaseModelEntity.ts:71](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L71)
+
+###### Returns
+
+`boolean`
+
+###### Inherited from
+
+[`PropDynamic`](#propdynamic).[`IsGlowing`](#isglowing-6)
+
+##### IsValid()
+
+> **IsValid**(): `boolean`
+
+Defined in: [helper/EntityHelper.ts:114](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L114)
+
+###### Returns
+
+`boolean`
+
+###### Inherited from
+
+[`PropDynamic`](#propdynamic).[`IsValid`](#isvalid-21)
+
+##### IsWorld()
+
+> **IsWorld**(): `boolean`
+
+Defined in: [helper/EntityHelper.ts:214](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L214)
+
+###### Returns
+
+`boolean`
+
+###### Inherited from
+
+[`PropDynamic`](#propdynamic).[`IsWorld`](#isworld-21)
+
+##### Kill()
+
+> **Kill**(): `void`
+
+Defined in: [helper/EntityHelper.ts:226](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L226)
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`PropDynamic`](#propdynamic).[`Kill`](#kill-21)
+
+##### KillAll()
+
+> **KillAll**(): `void`
+
+Defined in: [helper/EntityHelper.ts:234](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L234)
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`PropDynamic`](#propdynamic).[`KillAll`](#killall-21)
+
+##### KillHierarchy()
+
+> **KillHierarchy**(`opts?`): `void`
+
+Defined in: [helper/EntityHelper.ts:230](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L230)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `opts` | \{ \} |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`PropDynamic`](#propdynamic).[`KillHierarchy`](#killhierarchy-21)
+
+##### On()
+
+> **On**(`event_name`, `callback`): [`EntityHelper`](#abstract-entityhelper)
+
+Defined in: [helper/EntityHelper.ts:104](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L104)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `event_name` | `string` |
+| `callback` | `ConnectOutputCallback` |
+
+###### Returns
+
+[`EntityHelper`](#abstract-entityhelper)
+
+###### Inherited from
+
+[`PropDynamic`](#propdynamic).[`On`](#on-21)
+
+##### OnAnimationBegun()
+
+> **OnAnimationBegun**(`callback`): [`PropDynamic`](#propdynamic)
+
+Defined in: [helper/PropDynamic.ts:145](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropDynamic.ts#L145)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `callback` | `ConnectOutputCallback` |
+
+###### Returns
+
+[`PropDynamic`](#propdynamic)
+
+###### Inherited from
+
+[`PropDynamic`](#propdynamic).[`OnAnimationBegun`](#onanimationbegun)
+
+##### OnAnimationDone()
+
+> **OnAnimationDone**(`callback`): [`PropDynamic`](#propdynamic)
+
+Defined in: [helper/PropDynamic.ts:149](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropDynamic.ts#L149)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `callback` | `ConnectOutputCallback` |
+
+###### Returns
+
+[`PropDynamic`](#propdynamic)
+
+###### Inherited from
+
+[`PropDynamic`](#propdynamic).[`OnAnimationDone`](#onanimationdone)
+
+##### OnAnimationLoopCycleDone()
+
+> **OnAnimationLoopCycleDone**(`callback`): [`PropDynamic`](#propdynamic)
+
+Defined in: [helper/PropDynamic.ts:161](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropDynamic.ts#L161)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `callback` | `ConnectOutputCallback` |
+
+###### Returns
+
+[`PropDynamic`](#propdynamic)
+
+###### Inherited from
+
+[`PropDynamic`](#propdynamic).[`OnAnimationLoopCycleDone`](#onanimationloopcycledone)
+
+##### OnAnimationReachedEnd()
+
+> **OnAnimationReachedEnd**(`callback`): [`PropDynamic`](#propdynamic)
+
+Defined in: [helper/PropDynamic.ts:153](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropDynamic.ts#L153)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `callback` | `ConnectOutputCallback` |
+
+###### Returns
+
+[`PropDynamic`](#propdynamic)
+
+###### Inherited from
+
+[`PropDynamic`](#propdynamic).[`OnAnimationReachedEnd`](#onanimationreachedend)
+
+##### OnAnimationReachedStart()
+
+> **OnAnimationReachedStart**(`callback`): [`PropDynamic`](#propdynamic)
+
+Defined in: [helper/PropDynamic.ts:157](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropDynamic.ts#L157)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `callback` | `ConnectOutputCallback` |
+
+###### Returns
+
+[`PropDynamic`](#propdynamic)
+
+###### Inherited from
+
+[`PropDynamic`](#propdynamic).[`OnAnimationReachedStart`](#onanimationreachedstart)
+
+##### OnBreak()
+
+> **OnBreak**(`callback`): [`FuncBreakable`](#funcbreakable)
+
+Defined in: [helper/FuncBreakable.ts:62](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/FuncBreakable.ts#L62)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `callback` | `ConnectOutputCallback` |
+
+###### Returns
+
+[`FuncBreakable`](#funcbreakable)
+
+###### Inherited from
+
+[`PropDynamic`](#propdynamic).[`OnBreak`](#onbreak-1)
+
+##### OnDestructibleHitGroupDamageLevelChanged()
+
+> **OnDestructibleHitGroupDamageLevelChanged**(`callback`): [`PropDynamic`](#propdynamic)
+
+Defined in: [helper/PropDynamic.ts:165](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropDynamic.ts#L165)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `callback` | `ConnectOutputCallback` |
+
+###### Returns
+
+[`PropDynamic`](#propdynamic)
+
+###### Inherited from
+
+[`PropDynamic`](#propdynamic).[`OnDestructibleHitGroupDamageLevelChanged`](#ondestructiblehitgroupdamagelevelchanged)
+
+##### OnHealthChanged()
+
+> **OnHealthChanged**(`callback`): [`PropDynamic`](#propdynamic)
+
+Defined in: [helper/PropDynamic.ts:141](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropDynamic.ts#L141)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `callback` | `ConnectOutputCallback` |
+
+###### Returns
+
+[`PropDynamic`](#propdynamic)
+
+###### Inherited from
+
+[`PropDynamic`](#propdynamic).[`OnHealthChanged`](#onhealthchanged-1)
+
+##### OnTakeDamage()
+
+> **OnTakeDamage**(`callback`): [`PropDynamic`](#propdynamic)
+
+Defined in: [helper/PropDynamic.ts:137](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropDynamic.ts#L137)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `callback` | `ConnectOutputCallback` |
+
+###### Returns
+
+[`PropDynamic`](#propdynamic)
+
+###### Inherited from
+
+[`PropDynamic`](#propdynamic).[`OnTakeDamage`](#ontakedamage)
+
+##### Remove()
+
+> **Remove**(): `void`
+
+Defined in: [helper/EntityHelper.ts:238](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L238)
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`PropDynamic`](#propdynamic).[`Remove`](#remove-21)
+
+##### RemoveHealth()
+
+> **RemoveHealth**(`value`, `opts?`): `void`
+
+Defined in: [helper/FuncBreakable.ts:53](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/FuncBreakable.ts#L53)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `value` | `number` |
+| `opts` | \{ \} |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`PropDynamic`](#propdynamic).[`RemoveHealth`](#removehealth-1)
+
+##### SetAnimationLooping()
+
+> **SetAnimationLooping**(`value`, `opts?`): `void`
+
+Defined in: [helper/PropDynamic.ts:107](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropDynamic.ts#L107)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `value` | `string` |
+| `opts` | \{ \} |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`PropDynamic`](#propdynamic).[`SetAnimationLooping`](#setanimationlooping)
+
+##### SetAnimationNoResetLooping()
+
+> **SetAnimationNoResetLooping**(`value`, `opts?`): `void`
+
+Defined in: [helper/PropDynamic.ts:111](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropDynamic.ts#L111)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `value` | `string` |
+| `opts` | \{ \} |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`PropDynamic`](#propdynamic).[`SetAnimationNoResetLooping`](#setanimationnoresetlooping)
+
+##### SetAnimationNoResetNotLooping()
+
+> **SetAnimationNoResetNotLooping**(`value`, `opts?`): `void`
+
+Defined in: [helper/PropDynamic.ts:123](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropDynamic.ts#L123)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `value` | `string` |
+| `opts` | \{ \} |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`PropDynamic`](#propdynamic).[`SetAnimationNoResetNotLooping`](#setanimationnoresetnotlooping)
+
+##### SetAnimationNotLooping()
+
+> **SetAnimationNotLooping**(`value`, `opts?`): `void`
+
+Defined in: [helper/PropDynamic.ts:119](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropDynamic.ts#L119)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `value` | `string` |
+| `opts` | \{ \} |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`PropDynamic`](#propdynamic).[`SetAnimationNotLooping`](#setanimationnotlooping)
+
+##### SetAnimGraphParameter()
+
+> **SetAnimGraphParameter**(`name`, `value`, `opts?`): `void`
+
+Defined in: [helper/PropDynamic.ts:78](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropDynamic.ts#L78)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `name` | `string` |
+| `value` | `any` |
+| `opts` | \{ \} |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`PropDynamic`](#propdynamic).[`SetAnimGraphParameter`](#setanimgraphparameter)
+
+##### SetAttached()
+
+> **SetAttached**(`opts?`): `void`
+
+Defined in: [helper/PropDynamicOrnament.ts:41](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropDynamicOrnament.ts#L41)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `opts` | \{ \} |
+
+###### Returns
+
+`void`
+
+##### SetBodyGroup()
+
+> **SetBodyGroup**(`value`, `opts?`): `void`
+
+Defined in: [helper/PropDynamic.ts:103](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropDynamic.ts#L103)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `value` | `number` |
+| `opts` | \{ \} |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`PropDynamic`](#propdynamic).[`SetBodyGroup`](#setbodygroup)
+
+##### SetColor()
+
+> **SetColor**(`c`): `void`
+
+Defined in: [helper/BaseModelEntity.ts:55](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L55)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `c` | `ColorType` |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`PropDynamic`](#propdynamic).[`SetColor`](#setcolor-6)
+
+##### SetEntityName()
+
+> **SetEntityName**(`s`): `void`
+
+Defined in: [helper/EntityHelper.ts:162](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L162)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `s` | `string` |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`PropDynamic`](#propdynamic).[`SetEntityName`](#setentityname-21)
+
+##### SetHealth()
+
+> **SetHealth**(`value`, `opts?`): `void`
+
+Defined in: [helper/FuncBreakable.ts:45](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/FuncBreakable.ts#L45)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `value` | `number` |
+| `opts` | \{ \} |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`PropDynamic`](#propdynamic).[`SetHealth`](#sethealth-21)
+
+##### SetIdleAnimationLooping()
+
+> **SetIdleAnimationLooping**(`value`, `opts?`): `void`
+
+Defined in: [helper/PropDynamic.ts:115](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropDynamic.ts#L115)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `value` | `string` |
+| `opts` | \{ \} |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`PropDynamic`](#propdynamic).[`SetIdleAnimationLooping`](#setidleanimationlooping)
+
+##### SetIdleAnimationNotLooping()
+
+> **SetIdleAnimationNotLooping**(`value`, `opts?`): `void`
+
+Defined in: [helper/PropDynamic.ts:127](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropDynamic.ts#L127)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `value` | `string` |
+| `opts` | \{ \} |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`PropDynamic`](#propdynamic).[`SetIdleAnimationNotLooping`](#setidleanimationnotlooping)
+
+##### SetMass()
+
+> **SetMass**(`value`, `opts?`): `void`
+
+Defined in: [helper/FuncBreakable.ts:57](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/FuncBreakable.ts#L57)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `value` | `number` |
+| `opts` | \{ \} |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`PropDynamic`](#propdynamic).[`SetMass`](#setmass-1)
+
+##### SetMaxHealth()
+
+> **SetMaxHealth**(`hp`): `void`
+
+Defined in: [helper/EntityHelper.ts:202](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L202)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `hp` | `number` |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`PropDynamic`](#propdynamic).[`SetMaxHealth`](#setmaxhealth-21)
+
+##### SetModel()
+
+> **SetModel**(`s`): `void`
+
+Defined in: [helper/BaseModelEntity.ts:39](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L39)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `s` | `string` |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`PropDynamic`](#propdynamic).[`SetModel`](#setmodel-6)
+
+##### SetModelScale()
+
+> **SetModelScale**(`s`): `void`
+
+Defined in: [helper/BaseModelEntity.ts:47](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L47)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `s` | `number` |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`PropDynamic`](#propdynamic).[`SetModelScale`](#setmodelscale-6)
+
+##### SetNavIgnore()
+
+> **SetNavIgnore**(`opts?`): `void`
+
+Defined in: [helper/PropDynamic.ts:74](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropDynamic.ts#L74)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `opts` | \{ \} |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`PropDynamic`](#propdynamic).[`SetNavIgnore`](#setnavignore)
+
+##### SetOwner()
+
+> **SetOwner**(`e`): `void`
+
+Defined in: [helper/EntityHelper.ts:170](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L170)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `e` | `Entity` |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`PropDynamic`](#propdynamic).[`SetOwner`](#setowner-21)
+
+##### SetParent()
+
+> **SetParent**(`e`): `void`
+
+Defined in: [helper/EntityHelper.ts:178](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L178)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `e` | `Entity` |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`PropDynamic`](#propdynamic).[`SetParent`](#setparent-21)
+
+##### SetPlaybackRate()
+
+> **SetPlaybackRate**(`value`, `opts?`): `void`
+
+Defined in: [helper/PropDynamic.ts:131](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropDynamic.ts#L131)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `value` | `number` |
+| `opts` | \{ \} |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`PropDynamic`](#propdynamic).[`SetPlaybackRate`](#setplaybackrate)
+
+##### SetRagdollProfile()
+
+> **SetRagdollProfile**(`value`, `opts?`): `void`
+
+Defined in: [helper/PropDynamic.ts:83](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropDynamic.ts#L83)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `value` | `string` |
+| `opts` | \{ \} |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`PropDynamic`](#propdynamic).[`SetRagdollProfile`](#setragdollprofile)
+
+##### SetRenderAttribute()
+
+> **SetRenderAttribute**(`value`, `opts?`): `void`
+
+Defined in: [helper/PropDynamic.ts:50](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropDynamic.ts#L50)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `value` | `string` |
+| `opts` | \{ \} |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`PropDynamic`](#propdynamic).[`SetRenderAttribute`](#setrenderattribute)
+
+##### Skin()
+
+> **Skin**(`value`, `opts?`): `void`
+
+Defined in: [helper/PropDynamic.ts:46](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropDynamic.ts#L46)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `value` | `number` |
+| `opts` | \{ \} |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`PropDynamic`](#propdynamic).[`Skin`](#skin)
+
+##### TakeDamage()
+
+> **TakeDamage**(`__namedParameters`): `number`
+
+Defined in: [helper/EntityHelper.ts:222](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L222)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `__namedParameters` | \{ `attacker`: `any`; `damage`: `any`; `inflictor`: `any`; `weapon`: `any`; \} |
+| `__namedParameters.attacker` | `any` |
+| `__namedParameters.damage` | `any` |
+| `__namedParameters.inflictor` | `any` |
+| `__namedParameters.weapon` | `any` |
+
+###### Returns
+
+`number`
+
+###### Inherited from
+
+[`PropDynamic`](#propdynamic).[`TakeDamage`](#takedamage-21)
+
+##### Teleport()
+
+> **Teleport**(`__namedParameters`): `void`
+
+Defined in: [helper/EntityHelper.ts:150](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L150)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `__namedParameters` | \{ `position`: `any`; `rotation`: `any`; `velocity`: `any`; \} |
+| `__namedParameters.position` | `any` |
+| `__namedParameters.rotation` | `any` |
+| `__namedParameters.velocity` | `any` |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`PropDynamic`](#propdynamic).[`Teleport`](#teleport-21)
+
+##### TurnOff()
+
+> **TurnOff**(`opts?`): `void`
+
+Defined in: [helper/PropDynamic.ts:91](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropDynamic.ts#L91)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `opts` | \{ \} |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`PropDynamic`](#propdynamic).[`TurnOff`](#turnoff)
+
+##### TurnOn()
+
+> **TurnOn**(`opts?`): `void`
+
+Defined in: [helper/PropDynamic.ts:87](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropDynamic.ts#L87)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `opts` | \{ \} |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`PropDynamic`](#propdynamic).[`TurnOn`](#turnon)
+
+##### Unglow()
+
+> **Unglow**(): `void`
+
+Defined in: [helper/BaseModelEntity.ts:67](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L67)
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`PropDynamic`](#propdynamic).[`Unglow`](#unglow-6)
+
+##### Find()
+
+> `static` **Find**(`r`): [`PropDynamicOrnament`](#propdynamicornament)
+
+Defined in: [helper/PropDynamicOrnament.ts:28](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropDynamicOrnament.ts#L28)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `r` | `string` \| `RegExp` |
+
+###### Returns
+
+[`PropDynamicOrnament`](#propdynamicornament)
+
+###### Overrides
+
+[`PropDynamic`](#propdynamic).[`Find`](#find-21)
+
+##### FindAll()
+
+> `static` **FindAll**(`r`): [`PropDynamicOrnament`](#propdynamicornament)[]
+
+Defined in: [helper/PropDynamicOrnament.ts:33](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropDynamicOrnament.ts#L33)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `r` | `string` \| `RegExp` |
+
+###### Returns
+
+[`PropDynamicOrnament`](#propdynamicornament)[]
+
+###### Overrides
+
+[`PropDynamic`](#propdynamic).[`FindAll`](#findall-21)
+
+##### FindAllByClass()
+
+> `static` **FindAllByClass**(`classname`, `r`): [`EntityHelper`](#abstract-entityhelper)[]
+
+Defined in: [helper/EntityHelper.ts:52](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L52)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `classname` | `string` |
+| `r` | `string` \| `RegExp` |
+
+###### Returns
+
+[`EntityHelper`](#abstract-entityhelper)[]
+
+###### Inherited from
+
+[`PropDynamic`](#propdynamic).[`FindAllByClass`](#findallbyclass-21)
+
+##### FindByClass()
+
+> `static` **FindByClass**(`classname`, `r`, `error?`): [`EntityHelper`](#abstract-entityhelper) \| `null`
+
+Defined in: [helper/EntityHelper.ts:44](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L44)
+
+###### Parameters
+
+| Parameter | Type | Default value |
+| ------ | ------ | ------ |
+| `classname` | `string` | `undefined` |
+| `r` | `string` \| `RegExp` | `undefined` |
+| `error` | `boolean` | `false` |
+
+###### Returns
+
+[`EntityHelper`](#abstract-entityhelper) \| `null`
+
+###### Inherited from
+
+[`PropDynamic`](#propdynamic).[`FindByClass`](#findbyclass-21)
+
+##### From()
+
+> `static` **From**(`e`): [`PropDynamicOrnament`](#propdynamicornament)
+
+Defined in: [helper/PropDynamicOrnament.ts:22](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropDynamicOrnament.ts#L22)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `e` | `Entity` |
+
+###### Returns
+
+[`PropDynamicOrnament`](#propdynamicornament)
+
+###### Overrides
+
+[`PropDynamic`](#propdynamic).[`From`](#from-20)
 
 ***
 
@@ -13470,7 +21903,7 @@ Defined in: [helper/PropPhysicsMultiplayer.ts:19](https://github.com/Orb-Worksho
 
 ###### Overrides
 
-[`FuncBreakable`](#funcbreakable).[`constructor`](#constructor-6)
+[`FuncBreakable`](#funcbreakable).[`constructor`](#constructor-7)
 
 #### Accessors
 
@@ -13488,13 +21921,13 @@ Defined in: [helper/EntityHelper.ts:57](https://github.com/Orb-Workshop/scripted
 
 ###### Inherited from
 
-[`FuncBreakable`](#funcbreakable).[`raw`](#raw-5)
+[`FuncBreakable`](#funcbreakable).[`raw`](#raw-6)
 
 #### Methods
 
 ##### AddHealth()
 
-> **AddHealth**(`value`, `opts`): `void`
+> **AddHealth**(`value`, `opts?`): `void`
 
 Defined in: [helper/FuncBreakable.ts:49](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/FuncBreakable.ts#L49)
 
@@ -13515,7 +21948,7 @@ Defined in: [helper/FuncBreakable.ts:49](https://github.com/Orb-Workshop/scripte
 
 ##### Break()
 
-> **Break**(`opts`): `void`
+> **Break**(`opts?`): `void`
 
 Defined in: [helper/FuncBreakable.ts:41](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/FuncBreakable.ts#L41)
 
@@ -13535,7 +21968,7 @@ Defined in: [helper/FuncBreakable.ts:41](https://github.com/Orb-Workshop/scripte
 
 ##### ClearRenderAttribute()
 
-> **ClearRenderAttribute**(`opts`): `void`
+> **ClearRenderAttribute**(`opts?`): `void`
 
 Defined in: [helper/PropPhysicsMultiplayer.ts:102](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropPhysicsMultiplayer.ts#L102)
 
@@ -13571,11 +22004,11 @@ TODO: Use Global Events to 'latch onto' the callbacks this method represents.
 
 ###### Inherited from
 
-[`FuncBreakable`](#funcbreakable).[`ConnectOutput`](#connectoutput-10)
+[`FuncBreakable`](#funcbreakable).[`ConnectOutput`](#connectoutput-6)
 
 ##### DisableDamageForces()
 
-> **DisableDamageForces**(`opts`): `void`
+> **DisableDamageForces**(`opts?`): `void`
 
 Defined in: [helper/PropPhysicsMultiplayer.ts:78](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropPhysicsMultiplayer.ts#L78)
 
@@ -13591,7 +22024,7 @@ Defined in: [helper/PropPhysicsMultiplayer.ts:78](https://github.com/Orb-Worksho
 
 ##### DisableGravity()
 
-> **DisableGravity**(`opts`): `void`
+> **DisableGravity**(`opts?`): `void`
 
 Defined in: [helper/PropPhysicsMultiplayer.ts:70](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropPhysicsMultiplayer.ts#L70)
 
@@ -13607,7 +22040,7 @@ Defined in: [helper/PropPhysicsMultiplayer.ts:70](https://github.com/Orb-Worksho
 
 ##### DisableMotion()
 
-> **DisableMotion**(`opts`): `void`
+> **DisableMotion**(`opts?`): `void`
 
 Defined in: [helper/PropPhysicsMultiplayer.ts:62](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropPhysicsMultiplayer.ts#L62)
 
@@ -13623,7 +22056,7 @@ Defined in: [helper/PropPhysicsMultiplayer.ts:62](https://github.com/Orb-Worksho
 
 ##### DisableShadow()
 
-> **DisableShadow**(`opts`): `void`
+> **DisableShadow**(`opts?`): `void`
 
 Defined in: [helper/PropPhysicsMultiplayer.ts:86](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropPhysicsMultiplayer.ts#L86)
 
@@ -13639,7 +22072,7 @@ Defined in: [helper/PropPhysicsMultiplayer.ts:86](https://github.com/Orb-Worksho
 
 ##### EnableDamageForces()
 
-> **EnableDamageForces**(`opts`): `void`
+> **EnableDamageForces**(`opts?`): `void`
 
 Defined in: [helper/PropPhysicsMultiplayer.ts:74](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropPhysicsMultiplayer.ts#L74)
 
@@ -13655,7 +22088,7 @@ Defined in: [helper/PropPhysicsMultiplayer.ts:74](https://github.com/Orb-Worksho
 
 ##### EnableGravity()
 
-> **EnableGravity**(`opts`): `void`
+> **EnableGravity**(`opts?`): `void`
 
 Defined in: [helper/PropPhysicsMultiplayer.ts:66](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropPhysicsMultiplayer.ts#L66)
 
@@ -13671,7 +22104,7 @@ Defined in: [helper/PropPhysicsMultiplayer.ts:66](https://github.com/Orb-Worksho
 
 ##### EnableMotion()
 
-> **EnableMotion**(`opts`): `void`
+> **EnableMotion**(`opts?`): `void`
 
 Defined in: [helper/PropPhysicsMultiplayer.ts:58](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropPhysicsMultiplayer.ts#L58)
 
@@ -13687,7 +22120,7 @@ Defined in: [helper/PropPhysicsMultiplayer.ts:58](https://github.com/Orb-Worksho
 
 ##### EnableShadow()
 
-> **EnableShadow**(`opts`): `void`
+> **EnableShadow**(`opts?`): `void`
 
 Defined in: [helper/PropPhysicsMultiplayer.ts:82](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropPhysicsMultiplayer.ts#L82)
 
@@ -13703,7 +22136,7 @@ Defined in: [helper/PropPhysicsMultiplayer.ts:82](https://github.com/Orb-Worksho
 
 ##### FireIO()
 
-> **FireIO**(`opts`): `void`
+> **FireIO**(`opts?`): `void`
 
 Defined in: [helper/EntityHelper.ts:59](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L59)
 
@@ -13719,11 +22152,11 @@ Defined in: [helper/EntityHelper.ts:59](https://github.com/Orb-Workshop/scripted
 
 ###### Inherited from
 
-[`FuncBreakable`](#funcbreakable).[`FireIO`](#fireio-10)
+[`FuncBreakable`](#funcbreakable).[`FireIO`](#fireio-6)
 
 ##### FireUser1()
 
-> **FireUser1**(`opts`): `void`
+> **FireUser1**(`opts?`): `void`
 
 Defined in: [helper/EntityHelper.ts:68](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L68)
 
@@ -13739,11 +22172,11 @@ Defined in: [helper/EntityHelper.ts:68](https://github.com/Orb-Workshop/scripted
 
 ###### Inherited from
 
-[`FuncBreakable`](#funcbreakable).[`FireUser1`](#fireuser1-10)
+[`FuncBreakable`](#funcbreakable).[`FireUser1`](#fireuser1-6)
 
 ##### FireUser2()
 
-> **FireUser2**(`opts`): `void`
+> **FireUser2**(`opts?`): `void`
 
 Defined in: [helper/EntityHelper.ts:72](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L72)
 
@@ -13759,11 +22192,11 @@ Defined in: [helper/EntityHelper.ts:72](https://github.com/Orb-Workshop/scripted
 
 ###### Inherited from
 
-[`FuncBreakable`](#funcbreakable).[`FireUser2`](#fireuser2-10)
+[`FuncBreakable`](#funcbreakable).[`FireUser2`](#fireuser2-6)
 
 ##### FireUser3()
 
-> **FireUser3**(`opts`): `void`
+> **FireUser3**(`opts?`): `void`
 
 Defined in: [helper/EntityHelper.ts:76](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L76)
 
@@ -13779,11 +22212,11 @@ Defined in: [helper/EntityHelper.ts:76](https://github.com/Orb-Workshop/scripted
 
 ###### Inherited from
 
-[`FuncBreakable`](#funcbreakable).[`FireUser3`](#fireuser3-10)
+[`FuncBreakable`](#funcbreakable).[`FireUser3`](#fireuser3-6)
 
 ##### FireUser4()
 
-> **FireUser4**(`opts`): `void`
+> **FireUser4**(`opts?`): `void`
 
 Defined in: [helper/EntityHelper.ts:80](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L80)
 
@@ -13799,11 +22232,11 @@ Defined in: [helper/EntityHelper.ts:80](https://github.com/Orb-Workshop/scripted
 
 ###### Inherited from
 
-[`FuncBreakable`](#funcbreakable).[`FireUser4`](#fireuser4-10)
+[`FuncBreakable`](#funcbreakable).[`FireUser4`](#fireuser4-6)
 
 ##### FollowEntity()
 
-> **FollowEntity**(`opts`): `void`
+> **FollowEntity**(`opts?`): `void`
 
 Defined in: [helper/PropPhysicsMultiplayer.ts:42](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropPhysicsMultiplayer.ts#L42)
 
@@ -13829,7 +22262,7 @@ Defined in: [helper/EntityHelper.ts:126](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`FuncBreakable`](#funcbreakable).[`GetAbsAngles`](#getabsangles-10)
+[`FuncBreakable`](#funcbreakable).[`GetAbsAngles`](#getabsangles-6)
 
 ##### GetAbsOrigin()
 
@@ -13843,7 +22276,7 @@ Defined in: [helper/EntityHelper.ts:118](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`FuncBreakable`](#funcbreakable).[`GetAbsOrigin`](#getabsorigin-10)
+[`FuncBreakable`](#funcbreakable).[`GetAbsOrigin`](#getabsorigin-6)
 
 ##### GetAbsVelocity()
 
@@ -13857,7 +22290,7 @@ Defined in: [helper/EntityHelper.ts:134](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`FuncBreakable`](#funcbreakable).[`GetAbsVelocity`](#getabsvelocity-10)
+[`FuncBreakable`](#funcbreakable).[`GetAbsVelocity`](#getabsvelocity-6)
 
 ##### GetClassName()
 
@@ -13871,7 +22304,21 @@ Defined in: [helper/EntityHelper.ts:154](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`FuncBreakable`](#funcbreakable).[`GetClassName`](#getclassname-10)
+[`FuncBreakable`](#funcbreakable).[`GetClassName`](#getclassname-6)
+
+##### GetColor()
+
+> **GetColor**(): `ColorType`
+
+Defined in: [helper/BaseModelEntity.ts:59](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L59)
+
+###### Returns
+
+`ColorType`
+
+###### Inherited from
+
+[`FuncBreakable`](#funcbreakable).[`GetColor`](#getcolor-1)
 
 ##### GetEntityName()
 
@@ -13885,7 +22332,7 @@ Defined in: [helper/EntityHelper.ts:158](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`FuncBreakable`](#funcbreakable).[`GetEntityName`](#getentityname-10)
+[`FuncBreakable`](#funcbreakable).[`GetEntityName`](#getentityname-6)
 
 ##### GetEyeAngles()
 
@@ -13899,7 +22346,7 @@ Defined in: [helper/EntityHelper.ts:142](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`FuncBreakable`](#funcbreakable).[`GetEyeAngles`](#geteyeangles-10)
+[`FuncBreakable`](#funcbreakable).[`GetEyeAngles`](#geteyeangles-6)
 
 ##### GetEyePosition()
 
@@ -13913,7 +22360,7 @@ Defined in: [helper/EntityHelper.ts:146](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`FuncBreakable`](#funcbreakable).[`GetEyePosition`](#geteyeposition-10)
+[`FuncBreakable`](#funcbreakable).[`GetEyePosition`](#geteyeposition-6)
 
 ##### GetGroundEntity()
 
@@ -13927,7 +22374,7 @@ Defined in: [helper/EntityHelper.ts:218](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`FuncBreakable`](#funcbreakable).[`GetGroundEntity`](#getgroundentity-10)
+[`FuncBreakable`](#funcbreakable).[`GetGroundEntity`](#getgroundentity-6)
 
 ##### GetHealth()
 
@@ -13941,7 +22388,7 @@ Defined in: [helper/EntityHelper.ts:186](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`FuncBreakable`](#funcbreakable).[`GetHealth`](#gethealth-10)
+[`FuncBreakable`](#funcbreakable).[`GetHealth`](#gethealth-6)
 
 ##### GetLocalAngles()
 
@@ -13955,7 +22402,7 @@ Defined in: [helper/EntityHelper.ts:130](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`FuncBreakable`](#funcbreakable).[`GetLocalAngles`](#getlocalangles-10)
+[`FuncBreakable`](#funcbreakable).[`GetLocalAngles`](#getlocalangles-6)
 
 ##### GetLocalOrigin()
 
@@ -13969,7 +22416,7 @@ Defined in: [helper/EntityHelper.ts:122](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`FuncBreakable`](#funcbreakable).[`GetLocalOrigin`](#getlocalorigin-10)
+[`FuncBreakable`](#funcbreakable).[`GetLocalOrigin`](#getlocalorigin-6)
 
 ##### GetLocalVelocity()
 
@@ -13983,7 +22430,7 @@ Defined in: [helper/EntityHelper.ts:138](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`FuncBreakable`](#funcbreakable).[`GetLocalVelocity`](#getlocalvelocity-10)
+[`FuncBreakable`](#funcbreakable).[`GetLocalVelocity`](#getlocalvelocity-6)
 
 ##### GetMaxHealth()
 
@@ -13997,7 +22444,35 @@ Defined in: [helper/EntityHelper.ts:198](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`FuncBreakable`](#funcbreakable).[`GetMaxHealth`](#getmaxhealth-10)
+[`FuncBreakable`](#funcbreakable).[`GetMaxHealth`](#getmaxhealth-6)
+
+##### GetModelName()
+
+> **GetModelName**(): `string`
+
+Defined in: [helper/BaseModelEntity.ts:43](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L43)
+
+###### Returns
+
+`string`
+
+###### Inherited from
+
+[`FuncBreakable`](#funcbreakable).[`GetModelName`](#getmodelname-1)
+
+##### GetModelScale()
+
+> **GetModelScale**(): `string`
+
+Defined in: [helper/BaseModelEntity.ts:51](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L51)
+
+###### Returns
+
+`string`
+
+###### Inherited from
+
+[`FuncBreakable`](#funcbreakable).[`GetModelScale`](#getmodelscale-1)
 
 ##### GetOwner()
 
@@ -14011,7 +22486,7 @@ Defined in: [helper/EntityHelper.ts:166](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`FuncBreakable`](#funcbreakable).[`GetOwner`](#getowner-10)
+[`FuncBreakable`](#funcbreakable).[`GetOwner`](#getowner-6)
 
 ##### GetParent()
 
@@ -14025,7 +22500,7 @@ Defined in: [helper/EntityHelper.ts:174](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`FuncBreakable`](#funcbreakable).[`GetParent`](#getparent-10)
+[`FuncBreakable`](#funcbreakable).[`GetParent`](#getparent-6)
 
 ##### GetTeamNumber()
 
@@ -14039,13 +22514,13 @@ Defined in: [helper/EntityHelper.ts:182](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`FuncBreakable`](#funcbreakable).[`GetTeamNumber`](#getteamnumber-10)
+[`FuncBreakable`](#funcbreakable).[`GetTeamNumber`](#getteamnumber-6)
 
 ##### Glow()
 
 > **Glow**(`color?`): `void`
 
-Defined in: [helper/BaseModelEntity.ts:52](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L52)
+Defined in: [helper/BaseModelEntity.ts:63](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L63)
 
 ###### Parameters
 
@@ -14059,7 +22534,7 @@ Defined in: [helper/BaseModelEntity.ts:52](https://github.com/Orb-Workshop/scrip
 
 ###### Inherited from
 
-[`FuncBreakable`](#funcbreakable).[`Glow`](#glow-2)
+[`FuncBreakable`](#funcbreakable).[`Glow`](#glow-1)
 
 ##### IsAlive()
 
@@ -14073,7 +22548,21 @@ Defined in: [helper/EntityHelper.ts:210](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`FuncBreakable`](#funcbreakable).[`IsAlive`](#isalive-10)
+[`FuncBreakable`](#funcbreakable).[`IsAlive`](#isalive-6)
+
+##### IsGlowing()
+
+> **IsGlowing**(): `boolean`
+
+Defined in: [helper/BaseModelEntity.ts:71](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L71)
+
+###### Returns
+
+`boolean`
+
+###### Inherited from
+
+[`FuncBreakable`](#funcbreakable).[`IsGlowing`](#isglowing-1)
 
 ##### IsValid()
 
@@ -14087,7 +22576,7 @@ Defined in: [helper/EntityHelper.ts:114](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`FuncBreakable`](#funcbreakable).[`IsValid`](#isvalid-10)
+[`FuncBreakable`](#funcbreakable).[`IsValid`](#isvalid-6)
 
 ##### IsWorld()
 
@@ -14101,7 +22590,7 @@ Defined in: [helper/EntityHelper.ts:214](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`FuncBreakable`](#funcbreakable).[`IsWorld`](#isworld-10)
+[`FuncBreakable`](#funcbreakable).[`IsWorld`](#isworld-6)
 
 ##### Kill()
 
@@ -14115,11 +22604,45 @@ Defined in: [helper/EntityHelper.ts:226](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`FuncBreakable`](#funcbreakable).[`Kill`](#kill-10)
+[`FuncBreakable`](#funcbreakable).[`Kill`](#kill-6)
+
+##### KillAll()
+
+> **KillAll**(): `void`
+
+Defined in: [helper/EntityHelper.ts:234](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L234)
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`FuncBreakable`](#funcbreakable).[`KillAll`](#killall-6)
+
+##### KillHierarchy()
+
+> **KillHierarchy**(`opts?`): `void`
+
+Defined in: [helper/EntityHelper.ts:230](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L230)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `opts` | \{ \} |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`FuncBreakable`](#funcbreakable).[`KillHierarchy`](#killhierarchy-6)
 
 ##### On()
 
-> **On**(`event_name`, `callback`): [`EntityHelper`](#entityhelper)
+> **On**(`event_name`, `callback`): [`EntityHelper`](#abstract-entityhelper)
 
 Defined in: [helper/EntityHelper.ts:104](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L104)
 
@@ -14132,11 +22655,11 @@ Defined in: [helper/EntityHelper.ts:104](https://github.com/Orb-Workshop/scripte
 
 ###### Returns
 
-[`EntityHelper`](#entityhelper)
+[`EntityHelper`](#abstract-entityhelper)
 
 ###### Inherited from
 
-[`FuncBreakable`](#funcbreakable).[`On`](#on-10)
+[`FuncBreakable`](#funcbreakable).[`On`](#on-6)
 
 ##### OnAwakened()
 
@@ -14260,7 +22783,7 @@ Defined in: [helper/PropPhysicsMultiplayer.ts:112](https://github.com/Orb-Worksh
 
 ##### physdamagescale()
 
-> **physdamagescale**(`value`, `opts`): `void`
+> **physdamagescale**(`value`, `opts?`): `void`
 
 Defined in: [helper/PropPhysicsMultiplayer.ts:94](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropPhysicsMultiplayer.ts#L94)
 
@@ -14279,7 +22802,7 @@ Defined in: [helper/PropPhysicsMultiplayer.ts:94](https://github.com/Orb-Worksho
 
 > **Remove**(): `void`
 
-Defined in: [helper/EntityHelper.ts:230](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L230)
+Defined in: [helper/EntityHelper.ts:238](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L238)
 
 ###### Returns
 
@@ -14287,11 +22810,11 @@ Defined in: [helper/EntityHelper.ts:230](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`FuncBreakable`](#funcbreakable).[`Remove`](#remove-10)
+[`FuncBreakable`](#funcbreakable).[`Remove`](#remove-6)
 
 ##### RemoveHealth()
 
-> **RemoveHealth**(`value`, `opts`): `void`
+> **RemoveHealth**(`value`, `opts?`): `void`
 
 Defined in: [helper/FuncBreakable.ts:53](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/FuncBreakable.ts#L53)
 
@@ -14312,7 +22835,7 @@ Defined in: [helper/FuncBreakable.ts:53](https://github.com/Orb-Workshop/scripte
 
 ##### SetBodyGroup()
 
-> **SetBodyGroup**(`value`, `opts`): `void`
+> **SetBodyGroup**(`value`, `opts?`): `void`
 
 Defined in: [helper/PropPhysicsMultiplayer.ts:90](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropPhysicsMultiplayer.ts#L90)
 
@@ -14331,7 +22854,7 @@ Defined in: [helper/PropPhysicsMultiplayer.ts:90](https://github.com/Orb-Worksho
 
 > **SetColor**(`c`): `void`
 
-Defined in: [helper/BaseModelEntity.ts:48](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L48)
+Defined in: [helper/BaseModelEntity.ts:55](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L55)
 
 ###### Parameters
 
@@ -14345,7 +22868,7 @@ Defined in: [helper/BaseModelEntity.ts:48](https://github.com/Orb-Workshop/scrip
 
 ###### Inherited from
 
-[`FuncBreakable`](#funcbreakable).[`SetColor`](#setcolor-2)
+[`FuncBreakable`](#funcbreakable).[`SetColor`](#setcolor-1)
 
 ##### SetEntityName()
 
@@ -14365,11 +22888,11 @@ Defined in: [helper/EntityHelper.ts:162](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`FuncBreakable`](#funcbreakable).[`SetEntityName`](#setentityname-10)
+[`FuncBreakable`](#funcbreakable).[`SetEntityName`](#setentityname-6)
 
 ##### SetHealth()
 
-> **SetHealth**(`value`, `opts`): `void`
+> **SetHealth**(`value`, `opts?`): `void`
 
 Defined in: [helper/FuncBreakable.ts:45](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/FuncBreakable.ts#L45)
 
@@ -14386,11 +22909,11 @@ Defined in: [helper/FuncBreakable.ts:45](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`FuncBreakable`](#funcbreakable).[`SetHealth`](#sethealth-10)
+[`FuncBreakable`](#funcbreakable).[`SetHealth`](#sethealth-6)
 
 ##### SetMass()
 
-> **SetMass**(`value`, `opts`): `void`
+> **SetMass**(`value`, `opts?`): `void`
 
 Defined in: [helper/FuncBreakable.ts:57](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/FuncBreakable.ts#L57)
 
@@ -14427,13 +22950,13 @@ Defined in: [helper/EntityHelper.ts:202](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`FuncBreakable`](#funcbreakable).[`SetMaxHealth`](#setmaxhealth-10)
+[`FuncBreakable`](#funcbreakable).[`SetMaxHealth`](#setmaxhealth-6)
 
 ##### SetModel()
 
 > **SetModel**(`s`): `void`
 
-Defined in: [helper/BaseModelEntity.ts:40](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L40)
+Defined in: [helper/BaseModelEntity.ts:39](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L39)
 
 ###### Parameters
 
@@ -14447,13 +22970,13 @@ Defined in: [helper/BaseModelEntity.ts:40](https://github.com/Orb-Workshop/scrip
 
 ###### Inherited from
 
-[`FuncBreakable`](#funcbreakable).[`SetModel`](#setmodel-2)
+[`FuncBreakable`](#funcbreakable).[`SetModel`](#setmodel-1)
 
 ##### SetModelScale()
 
 > **SetModelScale**(`s`): `void`
 
-Defined in: [helper/BaseModelEntity.ts:44](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L44)
+Defined in: [helper/BaseModelEntity.ts:47](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L47)
 
 ###### Parameters
 
@@ -14467,7 +22990,7 @@ Defined in: [helper/BaseModelEntity.ts:44](https://github.com/Orb-Workshop/scrip
 
 ###### Inherited from
 
-[`FuncBreakable`](#funcbreakable).[`SetModelScale`](#setmodelscale-2)
+[`FuncBreakable`](#funcbreakable).[`SetModelScale`](#setmodelscale-1)
 
 ##### SetOwner()
 
@@ -14487,7 +23010,7 @@ Defined in: [helper/EntityHelper.ts:170](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`FuncBreakable`](#funcbreakable).[`SetOwner`](#setowner-10)
+[`FuncBreakable`](#funcbreakable).[`SetOwner`](#setowner-6)
 
 ##### SetParent()
 
@@ -14507,11 +23030,11 @@ Defined in: [helper/EntityHelper.ts:178](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`FuncBreakable`](#funcbreakable).[`SetParent`](#setparent-10)
+[`FuncBreakable`](#funcbreakable).[`SetParent`](#setparent-6)
 
 ##### SetRenderAttribute()
 
-> **SetRenderAttribute**(`value`, `opts`): `void`
+> **SetRenderAttribute**(`value`, `opts?`): `void`
 
 Defined in: [helper/PropPhysicsMultiplayer.ts:98](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropPhysicsMultiplayer.ts#L98)
 
@@ -14528,7 +23051,7 @@ Defined in: [helper/PropPhysicsMultiplayer.ts:98](https://github.com/Orb-Worksho
 
 ##### Skin()
 
-> **Skin**(`value`, `opts`): `void`
+> **Skin**(`value`, `opts?`): `void`
 
 Defined in: [helper/PropPhysicsMultiplayer.ts:46](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropPhysicsMultiplayer.ts#L46)
 
@@ -14545,7 +23068,7 @@ Defined in: [helper/PropPhysicsMultiplayer.ts:46](https://github.com/Orb-Worksho
 
 ##### Sleep()
 
-> **Sleep**(`opts`): `void`
+> **Sleep**(`opts?`): `void`
 
 Defined in: [helper/PropPhysicsMultiplayer.ts:50](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropPhysicsMultiplayer.ts#L50)
 
@@ -14581,7 +23104,7 @@ Defined in: [helper/EntityHelper.ts:222](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`FuncBreakable`](#funcbreakable).[`TakeDamage`](#takedamage-10)
+[`FuncBreakable`](#funcbreakable).[`TakeDamage`](#takedamage-6)
 
 ##### Teleport()
 
@@ -14604,13 +23127,13 @@ Defined in: [helper/EntityHelper.ts:150](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`FuncBreakable`](#funcbreakable).[`Teleport`](#teleport-10)
+[`FuncBreakable`](#funcbreakable).[`Teleport`](#teleport-6)
 
 ##### Unglow()
 
 > **Unglow**(): `void`
 
-Defined in: [helper/BaseModelEntity.ts:56](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L56)
+Defined in: [helper/BaseModelEntity.ts:67](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L67)
 
 ###### Returns
 
@@ -14618,11 +23141,11 @@ Defined in: [helper/BaseModelEntity.ts:56](https://github.com/Orb-Workshop/scrip
 
 ###### Inherited from
 
-[`FuncBreakable`](#funcbreakable).[`Unglow`](#unglow-2)
+[`FuncBreakable`](#funcbreakable).[`Unglow`](#unglow-1)
 
 ##### Wake()
 
-> **Wake**(`opts`): `void`
+> **Wake**(`opts?`): `void`
 
 Defined in: [helper/PropPhysicsMultiplayer.ts:54](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropPhysicsMultiplayer.ts#L54)
 
@@ -14654,7 +23177,7 @@ Defined in: [helper/PropPhysicsMultiplayer.ts:29](https://github.com/Orb-Worksho
 
 ###### Overrides
 
-[`FuncBreakable`](#funcbreakable).[`Find`](#find-10)
+[`FuncBreakable`](#funcbreakable).[`Find`](#find-6)
 
 ##### FindAll()
 
@@ -14674,11 +23197,11 @@ Defined in: [helper/PropPhysicsMultiplayer.ts:34](https://github.com/Orb-Worksho
 
 ###### Overrides
 
-[`FuncBreakable`](#funcbreakable).[`FindAll`](#findall-10)
+[`FuncBreakable`](#funcbreakable).[`FindAll`](#findall-6)
 
 ##### FindAllByClass()
 
-> `static` **FindAllByClass**(`classname`, `r`): [`EntityHelper`](#entityhelper)[]
+> `static` **FindAllByClass**(`classname`, `r`): [`EntityHelper`](#abstract-entityhelper)[]
 
 Defined in: [helper/EntityHelper.ts:52](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L52)
 
@@ -14691,15 +23214,15 @@ Defined in: [helper/EntityHelper.ts:52](https://github.com/Orb-Workshop/scripted
 
 ###### Returns
 
-[`EntityHelper`](#entityhelper)[]
+[`EntityHelper`](#abstract-entityhelper)[]
 
 ###### Inherited from
 
-[`FuncBreakable`](#funcbreakable).[`FindAllByClass`](#findallbyclass-10)
+[`FuncBreakable`](#funcbreakable).[`FindAllByClass`](#findallbyclass-6)
 
 ##### FindByClass()
 
-> `static` **FindByClass**(`classname`, `r`, `error`): [`EntityHelper`](#entityhelper) \| `null`
+> `static` **FindByClass**(`classname`, `r`, `error?`): [`EntityHelper`](#abstract-entityhelper) \| `null`
 
 Defined in: [helper/EntityHelper.ts:44](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L44)
 
@@ -14713,11 +23236,11 @@ Defined in: [helper/EntityHelper.ts:44](https://github.com/Orb-Workshop/scripted
 
 ###### Returns
 
-[`EntityHelper`](#entityhelper) \| `null`
+[`EntityHelper`](#abstract-entityhelper) \| `null`
 
 ###### Inherited from
 
-[`FuncBreakable`](#funcbreakable).[`FindByClass`](#findbyclass-10)
+[`FuncBreakable`](#funcbreakable).[`FindByClass`](#findbyclass-6)
 
 ##### From()
 
@@ -14737,7 +23260,7 @@ Defined in: [helper/PropPhysicsMultiplayer.ts:23](https://github.com/Orb-Worksho
 
 ###### Overrides
 
-[`FuncBreakable`](#funcbreakable).[`From`](#from-10)
+[`FuncBreakable`](#funcbreakable).[`From`](#from-6)
 
 ***
 
@@ -14747,7 +23270,7 @@ Defined in: [helper/TriggerMultiple.ts:16](https://github.com/Orb-Workshop/scrip
 
 #### Extends
 
-- [`EntityHelper`](#entityhelper)
+- [`EntityHelper`](#abstract-entityhelper)
 
 #### Constructors
 
@@ -14769,7 +23292,7 @@ Defined in: [helper/TriggerMultiple.ts:17](https://github.com/Orb-Workshop/scrip
 
 ###### Overrides
 
-[`EntityHelper`](#entityhelper).[`constructor`](#constructor-2)
+[`EntityHelper`](#abstract-entityhelper).[`constructor`](#constructor-2)
 
 #### Accessors
 
@@ -14787,7 +23310,7 @@ Defined in: [helper/EntityHelper.ts:57](https://github.com/Orb-Workshop/scripted
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`raw`](#raw-1)
+[`EntityHelper`](#abstract-entityhelper).[`raw`](#raw-1)
 
 #### Methods
 
@@ -14813,11 +23336,11 @@ TODO: Use Global Events to 'latch onto' the callbacks this method represents.
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`ConnectOutput`](#connectoutput-2)
+[`EntityHelper`](#abstract-entityhelper).[`ConnectOutput`](#connectoutput-1)
 
 ##### FireIO()
 
-> **FireIO**(`opts`): `void`
+> **FireIO**(`opts?`): `void`
 
 Defined in: [helper/EntityHelper.ts:59](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L59)
 
@@ -14833,11 +23356,11 @@ Defined in: [helper/EntityHelper.ts:59](https://github.com/Orb-Workshop/scripted
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`FireIO`](#fireio-2)
+[`EntityHelper`](#abstract-entityhelper).[`FireIO`](#fireio-1)
 
 ##### FireUser1()
 
-> **FireUser1**(`opts`): `void`
+> **FireUser1**(`opts?`): `void`
 
 Defined in: [helper/EntityHelper.ts:68](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L68)
 
@@ -14853,11 +23376,11 @@ Defined in: [helper/EntityHelper.ts:68](https://github.com/Orb-Workshop/scripted
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`FireUser1`](#fireuser1-2)
+[`EntityHelper`](#abstract-entityhelper).[`FireUser1`](#fireuser1-1)
 
 ##### FireUser2()
 
-> **FireUser2**(`opts`): `void`
+> **FireUser2**(`opts?`): `void`
 
 Defined in: [helper/EntityHelper.ts:72](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L72)
 
@@ -14873,11 +23396,11 @@ Defined in: [helper/EntityHelper.ts:72](https://github.com/Orb-Workshop/scripted
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`FireUser2`](#fireuser2-2)
+[`EntityHelper`](#abstract-entityhelper).[`FireUser2`](#fireuser2-1)
 
 ##### FireUser3()
 
-> **FireUser3**(`opts`): `void`
+> **FireUser3**(`opts?`): `void`
 
 Defined in: [helper/EntityHelper.ts:76](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L76)
 
@@ -14893,11 +23416,11 @@ Defined in: [helper/EntityHelper.ts:76](https://github.com/Orb-Workshop/scripted
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`FireUser3`](#fireuser3-2)
+[`EntityHelper`](#abstract-entityhelper).[`FireUser3`](#fireuser3-1)
 
 ##### FireUser4()
 
-> **FireUser4**(`opts`): `void`
+> **FireUser4**(`opts?`): `void`
 
 Defined in: [helper/EntityHelper.ts:80](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L80)
 
@@ -14913,7 +23436,7 @@ Defined in: [helper/EntityHelper.ts:80](https://github.com/Orb-Workshop/scripted
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`FireUser4`](#fireuser4-2)
+[`EntityHelper`](#abstract-entityhelper).[`FireUser4`](#fireuser4-1)
 
 ##### GetAbsAngles()
 
@@ -14927,7 +23450,7 @@ Defined in: [helper/EntityHelper.ts:126](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`GetAbsAngles`](#getabsangles-2)
+[`EntityHelper`](#abstract-entityhelper).[`GetAbsAngles`](#getabsangles-1)
 
 ##### GetAbsOrigin()
 
@@ -14941,7 +23464,7 @@ Defined in: [helper/EntityHelper.ts:118](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`GetAbsOrigin`](#getabsorigin-2)
+[`EntityHelper`](#abstract-entityhelper).[`GetAbsOrigin`](#getabsorigin-1)
 
 ##### GetAbsVelocity()
 
@@ -14955,7 +23478,7 @@ Defined in: [helper/EntityHelper.ts:134](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`GetAbsVelocity`](#getabsvelocity-2)
+[`EntityHelper`](#abstract-entityhelper).[`GetAbsVelocity`](#getabsvelocity-1)
 
 ##### GetClassName()
 
@@ -14969,7 +23492,7 @@ Defined in: [helper/EntityHelper.ts:154](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`GetClassName`](#getclassname-2)
+[`EntityHelper`](#abstract-entityhelper).[`GetClassName`](#getclassname-1)
 
 ##### GetEntityName()
 
@@ -14983,7 +23506,7 @@ Defined in: [helper/EntityHelper.ts:158](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`GetEntityName`](#getentityname-2)
+[`EntityHelper`](#abstract-entityhelper).[`GetEntityName`](#getentityname-1)
 
 ##### GetEyeAngles()
 
@@ -14997,7 +23520,7 @@ Defined in: [helper/EntityHelper.ts:142](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`GetEyeAngles`](#geteyeangles-2)
+[`EntityHelper`](#abstract-entityhelper).[`GetEyeAngles`](#geteyeangles-1)
 
 ##### GetEyePosition()
 
@@ -15011,7 +23534,7 @@ Defined in: [helper/EntityHelper.ts:146](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`GetEyePosition`](#geteyeposition-2)
+[`EntityHelper`](#abstract-entityhelper).[`GetEyePosition`](#geteyeposition-1)
 
 ##### GetGroundEntity()
 
@@ -15025,7 +23548,7 @@ Defined in: [helper/EntityHelper.ts:218](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`GetGroundEntity`](#getgroundentity-2)
+[`EntityHelper`](#abstract-entityhelper).[`GetGroundEntity`](#getgroundentity-1)
 
 ##### GetHealth()
 
@@ -15039,7 +23562,7 @@ Defined in: [helper/EntityHelper.ts:186](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`GetHealth`](#gethealth-2)
+[`EntityHelper`](#abstract-entityhelper).[`GetHealth`](#gethealth-1)
 
 ##### GetLocalAngles()
 
@@ -15053,7 +23576,7 @@ Defined in: [helper/EntityHelper.ts:130](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`GetLocalAngles`](#getlocalangles-2)
+[`EntityHelper`](#abstract-entityhelper).[`GetLocalAngles`](#getlocalangles-1)
 
 ##### GetLocalOrigin()
 
@@ -15067,7 +23590,7 @@ Defined in: [helper/EntityHelper.ts:122](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`GetLocalOrigin`](#getlocalorigin-2)
+[`EntityHelper`](#abstract-entityhelper).[`GetLocalOrigin`](#getlocalorigin-1)
 
 ##### GetLocalVelocity()
 
@@ -15081,7 +23604,7 @@ Defined in: [helper/EntityHelper.ts:138](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`GetLocalVelocity`](#getlocalvelocity-2)
+[`EntityHelper`](#abstract-entityhelper).[`GetLocalVelocity`](#getlocalvelocity-1)
 
 ##### GetMaxHealth()
 
@@ -15095,7 +23618,7 @@ Defined in: [helper/EntityHelper.ts:198](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`GetMaxHealth`](#getmaxhealth-2)
+[`EntityHelper`](#abstract-entityhelper).[`GetMaxHealth`](#getmaxhealth-1)
 
 ##### GetOwner()
 
@@ -15109,7 +23632,7 @@ Defined in: [helper/EntityHelper.ts:166](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`GetOwner`](#getowner-2)
+[`EntityHelper`](#abstract-entityhelper).[`GetOwner`](#getowner-1)
 
 ##### GetParent()
 
@@ -15123,7 +23646,7 @@ Defined in: [helper/EntityHelper.ts:174](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`GetParent`](#getparent-2)
+[`EntityHelper`](#abstract-entityhelper).[`GetParent`](#getparent-1)
 
 ##### GetTeamNumber()
 
@@ -15137,7 +23660,7 @@ Defined in: [helper/EntityHelper.ts:182](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`GetTeamNumber`](#getteamnumber-2)
+[`EntityHelper`](#abstract-entityhelper).[`GetTeamNumber`](#getteamnumber-1)
 
 ##### IsAlive()
 
@@ -15151,7 +23674,7 @@ Defined in: [helper/EntityHelper.ts:210](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`IsAlive`](#isalive-2)
+[`EntityHelper`](#abstract-entityhelper).[`IsAlive`](#isalive-1)
 
 ##### IsValid()
 
@@ -15165,7 +23688,7 @@ Defined in: [helper/EntityHelper.ts:114](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`IsValid`](#isvalid-2)
+[`EntityHelper`](#abstract-entityhelper).[`IsValid`](#isvalid-1)
 
 ##### IsWorld()
 
@@ -15179,7 +23702,7 @@ Defined in: [helper/EntityHelper.ts:214](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`IsWorld`](#isworld-2)
+[`EntityHelper`](#abstract-entityhelper).[`IsWorld`](#isworld-1)
 
 ##### Kill()
 
@@ -15193,11 +23716,45 @@ Defined in: [helper/EntityHelper.ts:226](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`Kill`](#kill-2)
+[`EntityHelper`](#abstract-entityhelper).[`Kill`](#kill-1)
+
+##### KillAll()
+
+> **KillAll**(): `void`
+
+Defined in: [helper/EntityHelper.ts:234](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L234)
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`KillAll`](#killall-1)
+
+##### KillHierarchy()
+
+> **KillHierarchy**(`opts?`): `void`
+
+Defined in: [helper/EntityHelper.ts:230](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L230)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `opts` | \{ \} |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`KillHierarchy`](#killhierarchy-1)
 
 ##### On()
 
-> **On**(`event_name`, `callback`): [`EntityHelper`](#entityhelper)
+> **On**(`event_name`, `callback`): [`EntityHelper`](#abstract-entityhelper)
 
 Defined in: [helper/EntityHelper.ts:104](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L104)
 
@@ -15210,11 +23767,11 @@ Defined in: [helper/EntityHelper.ts:104](https://github.com/Orb-Workshop/scripte
 
 ###### Returns
 
-[`EntityHelper`](#entityhelper)
+[`EntityHelper`](#abstract-entityhelper)
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`On`](#on-2)
+[`EntityHelper`](#abstract-entityhelper).[`On`](#on-1)
 
 ##### OnEndTouch()
 
@@ -15284,7 +23841,7 @@ Defined in: [helper/TriggerMultiple.ts:41](https://github.com/Orb-Workshop/scrip
 
 > **Remove**(): `void`
 
-Defined in: [helper/EntityHelper.ts:230](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L230)
+Defined in: [helper/EntityHelper.ts:238](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L238)
 
 ###### Returns
 
@@ -15292,7 +23849,7 @@ Defined in: [helper/EntityHelper.ts:230](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`Remove`](#remove-2)
+[`EntityHelper`](#abstract-entityhelper).[`Remove`](#remove-1)
 
 ##### SetEntityName()
 
@@ -15312,7 +23869,7 @@ Defined in: [helper/EntityHelper.ts:162](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`SetEntityName`](#setentityname-2)
+[`EntityHelper`](#abstract-entityhelper).[`SetEntityName`](#setentityname-1)
 
 ##### SetHealth()
 
@@ -15332,7 +23889,7 @@ Defined in: [helper/EntityHelper.ts:190](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`SetHealth`](#sethealth-2)
+[`EntityHelper`](#abstract-entityhelper).[`SetHealth`](#sethealth-1)
 
 ##### SetMaxHealth()
 
@@ -15352,7 +23909,7 @@ Defined in: [helper/EntityHelper.ts:202](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`SetMaxHealth`](#setmaxhealth-2)
+[`EntityHelper`](#abstract-entityhelper).[`SetMaxHealth`](#setmaxhealth-1)
 
 ##### SetOwner()
 
@@ -15372,7 +23929,7 @@ Defined in: [helper/EntityHelper.ts:170](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`SetOwner`](#setowner-2)
+[`EntityHelper`](#abstract-entityhelper).[`SetOwner`](#setowner-1)
 
 ##### SetParent()
 
@@ -15392,7 +23949,7 @@ Defined in: [helper/EntityHelper.ts:178](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`SetParent`](#setparent-2)
+[`EntityHelper`](#abstract-entityhelper).[`SetParent`](#setparent-1)
 
 ##### TakeDamage()
 
@@ -15416,7 +23973,7 @@ Defined in: [helper/EntityHelper.ts:222](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`TakeDamage`](#takedamage-2)
+[`EntityHelper`](#abstract-entityhelper).[`TakeDamage`](#takedamage-1)
 
 ##### Teleport()
 
@@ -15439,7 +23996,7 @@ Defined in: [helper/EntityHelper.ts:150](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`Teleport`](#teleport-2)
+[`EntityHelper`](#abstract-entityhelper).[`Teleport`](#teleport-1)
 
 ##### Find()
 
@@ -15459,7 +24016,7 @@ Defined in: [helper/TriggerMultiple.ts:27](https://github.com/Orb-Workshop/scrip
 
 ###### Overrides
 
-[`EntityHelper`](#entityhelper).[`Find`](#find-2)
+[`EntityHelper`](#abstract-entityhelper).[`Find`](#find-1)
 
 ##### FindAll()
 
@@ -15479,11 +24036,11 @@ Defined in: [helper/TriggerMultiple.ts:32](https://github.com/Orb-Workshop/scrip
 
 ###### Overrides
 
-[`EntityHelper`](#entityhelper).[`FindAll`](#findall-2)
+[`EntityHelper`](#abstract-entityhelper).[`FindAll`](#findall-1)
 
 ##### FindAllByClass()
 
-> `static` **FindAllByClass**(`classname`, `r`): [`EntityHelper`](#entityhelper)[]
+> `static` **FindAllByClass**(`classname`, `r`): [`EntityHelper`](#abstract-entityhelper)[]
 
 Defined in: [helper/EntityHelper.ts:52](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L52)
 
@@ -15496,15 +24053,15 @@ Defined in: [helper/EntityHelper.ts:52](https://github.com/Orb-Workshop/scripted
 
 ###### Returns
 
-[`EntityHelper`](#entityhelper)[]
+[`EntityHelper`](#abstract-entityhelper)[]
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`FindAllByClass`](#findallbyclass-2)
+[`EntityHelper`](#abstract-entityhelper).[`FindAllByClass`](#findallbyclass-1)
 
 ##### FindByClass()
 
-> `static` **FindByClass**(`classname`, `r`, `error`): [`EntityHelper`](#entityhelper) \| `null`
+> `static` **FindByClass**(`classname`, `r`, `error?`): [`EntityHelper`](#abstract-entityhelper) \| `null`
 
 Defined in: [helper/EntityHelper.ts:44](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L44)
 
@@ -15518,11 +24075,11 @@ Defined in: [helper/EntityHelper.ts:44](https://github.com/Orb-Workshop/scripted
 
 ###### Returns
 
-[`EntityHelper`](#entityhelper) \| `null`
+[`EntityHelper`](#abstract-entityhelper) \| `null`
 
 ###### Inherited from
 
-[`EntityHelper`](#entityhelper).[`FindByClass`](#findbyclass-2)
+[`EntityHelper`](#abstract-entityhelper).[`FindByClass`](#findbyclass-1)
 
 ##### From()
 

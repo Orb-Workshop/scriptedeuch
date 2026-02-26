@@ -25,7 +25,7 @@ Notes:
 
 #### Extends
 
-- [`Actor`](Base/README.md#actor)
+- [`Actor`](Base/README.md#abstract-actor)
 
 #### Constructors
 
@@ -47,7 +47,7 @@ Defined in: [event/Listener.ts:25](https://github.com/Orb-Workshop/scriptedeuch/
 
 ###### Overrides
 
-[`Actor`](Base/README.md#actor).[`constructor`](Base/README.md#constructor)
+[`Actor`](Base/README.md#abstract-actor).[`constructor`](Base/README.md#constructor)
 
 #### Methods
 
@@ -66,7 +66,7 @@ and has been removed from the actor pool
 
 ###### Inherited from
 
-[`Actor`](Base/README.md#actor).[`Dispose`](Base/README.md#dispose)
+[`Actor`](Base/README.md#abstract-actor).[`Dispose`](Base/README.md#dispose)
 
 ##### GetDelta()
 
@@ -82,7 +82,7 @@ Delta Since last think time.
 
 ###### Inherited from
 
-[`Actor`](Base/README.md#actor).[`GetDelta`](Base/README.md#getdelta)
+[`Actor`](Base/README.md#abstract-actor).[`GetDelta`](Base/README.md#getdelta)
 
 ##### GetLifetime()
 
@@ -98,7 +98,7 @@ How long the actor has been alive in seconds.
 
 ###### Inherited from
 
-[`Actor`](Base/README.md#actor).[`GetLifetime`](Base/README.md#getlifetime)
+[`Actor`](Base/README.md#abstract-actor).[`GetLifetime`](Base/README.md#getlifetime)
 
 ##### IsDirty()
 
@@ -114,7 +114,7 @@ Determine if the Actor is marked for removal.
 
 ###### Inherited from
 
-[`Actor`](Base/README.md#actor).[`IsDirty`](Base/README.md#isdirty)
+[`Actor`](Base/README.md#abstract-actor).[`IsDirty`](Base/README.md#isdirty)
 
 ##### MakeDirty()
 
@@ -130,7 +130,7 @@ Mark the Actor for removal from the actor pool.
 
 ###### Inherited from
 
-[`Actor`](Base/README.md#actor).[`MakeDirty`](Base/README.md#makedirty)
+[`Actor`](Base/README.md#abstract-actor).[`MakeDirty`](Base/README.md#makedirty)
 
 ##### MaybeThink()
 
@@ -146,7 +146,7 @@ Performs `this.Think()` if it past a certain interval
 
 ###### Inherited from
 
-[`Actor`](Base/README.md#actor).[`MaybeThink`](Base/README.md#maybethink)
+[`Actor`](Base/README.md#abstract-actor).[`MaybeThink`](Base/README.md#maybethink)
 
 ##### On()
 
@@ -190,7 +190,7 @@ preferred over this method.
 
 ###### Overrides
 
-[`Actor`](Base/README.md#actor).[`ReceiveMessage`](Base/README.md#receivemessage)
+[`Actor`](Base/README.md#abstract-actor).[`ReceiveMessage`](Base/README.md#receivemessage)
 
 ##### Remove()
 
@@ -206,7 +206,7 @@ Same as `this.MakeDirty()`.
 
 ###### Inherited from
 
-[`Actor`](Base/README.md#actor).[`Remove`](Base/README.md#remove)
+[`Actor`](Base/README.md#abstract-actor).[`Remove`](Base/README.md#remove)
 
 ##### SetTick()
 
@@ -228,7 +228,7 @@ Set the Tick Interval of the system in terms of *tick rate*.
 
 ###### Inherited from
 
-[`Actor`](Base/README.md#actor).[`SetTick`](Base/README.md#settick)
+[`Actor`](Base/README.md#abstract-actor).[`SetTick`](Base/README.md#settick)
 
 ##### SetTickInterval()
 
@@ -250,7 +250,7 @@ Set the Tick Interval of the system. Expressed in Seconds.
 
 ###### Inherited from
 
-[`Actor`](Base/README.md#actor).[`SetTickInterval`](Base/README.md#settickinterval)
+[`Actor`](Base/README.md#abstract-actor).[`SetTickInterval`](Base/README.md#settickinterval)
 
 ##### Think()
 
@@ -266,11 +266,11 @@ Override Method. Is called at the `think_interval`.
 
 ###### Inherited from
 
-[`Actor`](Base/README.md#actor).[`Think`](Base/README.md#think)
+[`Actor`](Base/README.md#abstract-actor).[`Think`](Base/README.md#think)
 
 ##### SendMessage()
 
-> `static` **SendMessage**(`tag`, `data`, `actor_pool_name`): `void`
+> `static` **SendMessage**(`tag`, `data?`, `actor_pool_name?`): `void`
 
 Defined in: [base/Actor.ts:41](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/Actor.ts#L41)
 
@@ -290,7 +290,7 @@ Send messages to other actors in the actor pool.
 
 ###### Inherited from
 
-[`Actor`](Base/README.md#actor).[`SendMessage`](Base/README.md#sendmessage)
+[`Actor`](Base/README.md#abstract-actor).[`SendMessage`](Base/README.md#sendmessage)
 
 ***
 
@@ -341,7 +341,7 @@ Defined in: [event/Sender.ts:14](https://github.com/Orb-Workshop/scriptedeuch/bl
 
 > **GetGlobalListener**(): [`Listener`](#listener)
 
-Defined in: [event/Global.ts:48](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/event/Global.ts#L48)
+Defined in: [event/Global.ts:52](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/event/Global.ts#L52)
 
 Returns an `Event.Listener` using the global `Tag`.
 
@@ -355,9 +355,29 @@ Returns an `Event.Listener` using the global `Tag`.
 
 > **OnActivate**(`callback`): [`Listener`](#listener)
 
-Defined in: [event/Global.ts:58](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/event/Global.ts#L58)
+Defined in: [event/Global.ts:62](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/event/Global.ts#L62)
 
 Instance.OnActivate()
+
+#### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `callback` | `Callback` |
+
+#### Returns
+
+[`Listener`](#listener)
+
+***
+
+### OnPlayerJump()
+
+> **OnPlayerJump**(`callback`): [`Listener`](#listener)
+
+Defined in: [event/Global.ts:77](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/event/Global.ts#L77)
+
+Instance.OnPlayerJump()
 
 #### Parameters
 
@@ -375,7 +395,7 @@ Instance.OnActivate()
 
 > **OnRoundEnd**(`callback`): [`Listener`](#listener)
 
-Defined in: [event/Global.ts:68](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/event/Global.ts#L68)
+Defined in: [event/Global.ts:72](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/event/Global.ts#L72)
 
 Instance.OnRoundEnd()
 
@@ -395,7 +415,7 @@ Instance.OnRoundEnd()
 
 > **OnRoundStart**(`callback`): [`Listener`](#listener)
 
-Defined in: [event/Global.ts:63](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/event/Global.ts#L63)
+Defined in: [event/Global.ts:67](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/event/Global.ts#L67)
 
 Instance.OnRoundStart()
 

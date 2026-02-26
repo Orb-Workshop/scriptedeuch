@@ -19,7 +19,7 @@ Allows you to perform an 'explosion effect' at the given
 
 #### Extends
 
-- [`Actor`](Base/README.md#actor)
+- [`Actor`](Base/README.md#abstract-actor)
 
 #### Constructors
 
@@ -48,7 +48,7 @@ Defined in: [actor/Explosion.ts:29](https://github.com/Orb-Workshop/scriptedeuch
 
 ###### Overrides
 
-[`Actor`](Base/README.md#actor).[`constructor`](Base/README.md#constructor)
+[`Actor`](Base/README.md#abstract-actor).[`constructor`](Base/README.md#constructor)
 
 #### Properties
 
@@ -73,11 +73,11 @@ and has been removed from the actor pool
 
 ###### Inherited from
 
-[`Actor`](Base/README.md#actor).[`Dispose`](Base/README.md#dispose)
+[`Actor`](Base/README.md#abstract-actor).[`Dispose`](Base/README.md#dispose)
 
 ##### Explode()
 
-> **Explode**(`inflictor`): `void` \| [`Explosion`](#explosion)
+> **Explode**(`inflictor?`): `void` \| [`Explosion`](#explosion)
 
 Defined in: [actor/Explosion.ts:119](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/actor/Explosion.ts#L119)
 
@@ -105,7 +105,7 @@ Delta Since last think time.
 
 ###### Inherited from
 
-[`Actor`](Base/README.md#actor).[`GetDelta`](Base/README.md#getdelta)
+[`Actor`](Base/README.md#abstract-actor).[`GetDelta`](Base/README.md#getdelta)
 
 ##### GetLifetime()
 
@@ -121,7 +121,7 @@ How long the actor has been alive in seconds.
 
 ###### Inherited from
 
-[`Actor`](Base/README.md#actor).[`GetLifetime`](Base/README.md#getlifetime)
+[`Actor`](Base/README.md#abstract-actor).[`GetLifetime`](Base/README.md#getlifetime)
 
 ##### IsDirty()
 
@@ -137,7 +137,7 @@ Determine if the Actor is marked for removal.
 
 ###### Inherited from
 
-[`Actor`](Base/README.md#actor).[`IsDirty`](Base/README.md#isdirty)
+[`Actor`](Base/README.md#abstract-actor).[`IsDirty`](Base/README.md#isdirty)
 
 ##### MakeDirty()
 
@@ -153,7 +153,7 @@ Mark the Actor for removal from the actor pool.
 
 ###### Inherited from
 
-[`Actor`](Base/README.md#actor).[`MakeDirty`](Base/README.md#makedirty)
+[`Actor`](Base/README.md#abstract-actor).[`MakeDirty`](Base/README.md#makedirty)
 
 ##### MaybeThink()
 
@@ -169,7 +169,7 @@ Performs `this.Think()` if it past a certain interval
 
 ###### Inherited from
 
-[`Actor`](Base/README.md#actor).[`MaybeThink`](Base/README.md#maybethink)
+[`Actor`](Base/README.md#abstract-actor).[`MaybeThink`](Base/README.md#maybethink)
 
 ##### ReceiveMessage()
 
@@ -196,7 +196,7 @@ preferred over this method.
 
 ###### Inherited from
 
-[`Actor`](Base/README.md#actor).[`ReceiveMessage`](Base/README.md#receivemessage)
+[`Actor`](Base/README.md#abstract-actor).[`ReceiveMessage`](Base/README.md#receivemessage)
 
 ##### Remove()
 
@@ -212,7 +212,7 @@ Same as `this.MakeDirty()`.
 
 ###### Inherited from
 
-[`Actor`](Base/README.md#actor).[`Remove`](Base/README.md#remove)
+[`Actor`](Base/README.md#abstract-actor).[`Remove`](Base/README.md#remove)
 
 ##### SetTick()
 
@@ -234,7 +234,7 @@ Set the Tick Interval of the system in terms of *tick rate*.
 
 ###### Inherited from
 
-[`Actor`](Base/README.md#actor).[`SetTick`](Base/README.md#settick)
+[`Actor`](Base/README.md#abstract-actor).[`SetTick`](Base/README.md#settick)
 
 ##### SetTickInterval()
 
@@ -256,7 +256,7 @@ Set the Tick Interval of the system. Expressed in Seconds.
 
 ###### Inherited from
 
-[`Actor`](Base/README.md#actor).[`SetTickInterval`](Base/README.md#settickinterval)
+[`Actor`](Base/README.md#abstract-actor).[`SetTickInterval`](Base/README.md#settickinterval)
 
 ##### Think()
 
@@ -272,7 +272,7 @@ Override Method. Is called at the `think_interval`.
 
 ###### Inherited from
 
-[`Actor`](Base/README.md#actor).[`Think`](Base/README.md#think)
+[`Actor`](Base/README.md#abstract-actor).[`Think`](Base/README.md#think)
 
 ##### GetAlivePlayers()
 
@@ -296,7 +296,7 @@ Defined in: [actor/Explosion.ts:52](https://github.com/Orb-Workshop/scriptedeuch
 
 ##### SendMessage()
 
-> `static` **SendMessage**(`tag`, `data`, `actor_pool_name`): `void`
+> `static` **SendMessage**(`tag`, `data?`, `actor_pool_name?`): `void`
 
 Defined in: [base/Actor.ts:41](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/Actor.ts#L41)
 
@@ -316,7 +316,7 @@ Send messages to other actors in the actor pool.
 
 ###### Inherited from
 
-[`Actor`](Base/README.md#actor).[`SendMessage`](Base/README.md#sendmessage)
+[`Actor`](Base/README.md#abstract-actor).[`SendMessage`](Base/README.md#sendmessage)
 
 ***
 
@@ -329,12 +329,12 @@ The `player_pawn` receives `duration` seconds of invincibility
 #### Example
 
 ```typescript
-new PlayerInvincibility(player_pawn, {duration: 5.0});
+new PlayerInvincibility(player_pawn, {duration: 5.0}); // 5 Seconds
 ```
 
 #### Extends
 
-- [`Actor`](Base/README.md#actor)
+- [`Actor`](Base/README.md#abstract-actor)
 
 #### Constructors
 
@@ -358,7 +358,7 @@ Defined in: [actor/PlayerInvincibility.ts:21](https://github.com/Orb-Workshop/sc
 
 ###### Overrides
 
-[`Actor`](Base/README.md#actor).[`constructor`](Base/README.md#constructor)
+[`Actor`](Base/README.md#abstract-actor).[`constructor`](Base/README.md#constructor)
 
 #### Properties
 
@@ -383,7 +383,7 @@ and has been removed from the actor pool
 
 ###### Overrides
 
-[`Actor`](Base/README.md#actor).[`Dispose`](Base/README.md#dispose)
+[`Actor`](Base/README.md#abstract-actor).[`Dispose`](Base/README.md#dispose)
 
 ##### GetDelta()
 
@@ -399,7 +399,7 @@ Delta Since last think time.
 
 ###### Inherited from
 
-[`Actor`](Base/README.md#actor).[`GetDelta`](Base/README.md#getdelta)
+[`Actor`](Base/README.md#abstract-actor).[`GetDelta`](Base/README.md#getdelta)
 
 ##### GetLifetime()
 
@@ -415,7 +415,7 @@ How long the actor has been alive in seconds.
 
 ###### Inherited from
 
-[`Actor`](Base/README.md#actor).[`GetLifetime`](Base/README.md#getlifetime)
+[`Actor`](Base/README.md#abstract-actor).[`GetLifetime`](Base/README.md#getlifetime)
 
 ##### IsDirty()
 
@@ -431,7 +431,7 @@ Determine if the Actor is marked for removal.
 
 ###### Inherited from
 
-[`Actor`](Base/README.md#actor).[`IsDirty`](Base/README.md#isdirty)
+[`Actor`](Base/README.md#abstract-actor).[`IsDirty`](Base/README.md#isdirty)
 
 ##### MakeDirty()
 
@@ -447,7 +447,7 @@ Mark the Actor for removal from the actor pool.
 
 ###### Inherited from
 
-[`Actor`](Base/README.md#actor).[`MakeDirty`](Base/README.md#makedirty)
+[`Actor`](Base/README.md#abstract-actor).[`MakeDirty`](Base/README.md#makedirty)
 
 ##### MaybeThink()
 
@@ -463,7 +463,7 @@ Performs `this.Think()` if it past a certain interval
 
 ###### Inherited from
 
-[`Actor`](Base/README.md#actor).[`MaybeThink`](Base/README.md#maybethink)
+[`Actor`](Base/README.md#abstract-actor).[`MaybeThink`](Base/README.md#maybethink)
 
 ##### ReceiveMessage()
 
@@ -490,7 +490,7 @@ preferred over this method.
 
 ###### Inherited from
 
-[`Actor`](Base/README.md#actor).[`ReceiveMessage`](Base/README.md#receivemessage)
+[`Actor`](Base/README.md#abstract-actor).[`ReceiveMessage`](Base/README.md#receivemessage)
 
 ##### Remove()
 
@@ -506,7 +506,7 @@ Same as `this.MakeDirty()`.
 
 ###### Inherited from
 
-[`Actor`](Base/README.md#actor).[`Remove`](Base/README.md#remove)
+[`Actor`](Base/README.md#abstract-actor).[`Remove`](Base/README.md#remove)
 
 ##### SendMessage()
 
@@ -545,7 +545,7 @@ Set the Tick Interval of the system in terms of *tick rate*.
 
 ###### Inherited from
 
-[`Actor`](Base/README.md#actor).[`SetTick`](Base/README.md#settick)
+[`Actor`](Base/README.md#abstract-actor).[`SetTick`](Base/README.md#settick)
 
 ##### SetTickInterval()
 
@@ -567,7 +567,7 @@ Set the Tick Interval of the system. Expressed in Seconds.
 
 ###### Inherited from
 
-[`Actor`](Base/README.md#actor).[`SetTickInterval`](Base/README.md#settickinterval)
+[`Actor`](Base/README.md#abstract-actor).[`SetTickInterval`](Base/README.md#settickinterval)
 
 ##### Think()
 
@@ -583,11 +583,11 @@ Override Method. Is called at the `think_interval`.
 
 ###### Overrides
 
-[`Actor`](Base/README.md#actor).[`Think`](Base/README.md#think)
+[`Actor`](Base/README.md#abstract-actor).[`Think`](Base/README.md#think)
 
 ##### SendMessage()
 
-> `static` **SendMessage**(`tag`, `data`, `actor_pool_name`): `void`
+> `static` **SendMessage**(`tag`, `data?`, `actor_pool_name?`): `void`
 
 Defined in: [base/Actor.ts:41](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/Actor.ts#L41)
 
@@ -607,7 +607,317 @@ Send messages to other actors in the actor pool.
 
 ###### Inherited from
 
-[`Actor`](Base/README.md#actor).[`SendMessage`](Base/README.md#sendmessage)
+[`Actor`](Base/README.md#abstract-actor).[`SendMessage`](Base/README.md#sendmessage)
+
+***
+
+### PlayerMount
+
+Defined in: [actor/PlayerMount.ts:16](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/actor/PlayerMount.ts#L16)
+
+Actor Component to mount a player to a prop_dynamic, or similar moveable entity.
+
+#### Extends
+
+- [`Actor`](Base/README.md#abstract-actor)
+
+#### Constructors
+
+##### Constructor
+
+> **new PlayerMount**(`player_pawn`, `__namedParameters`): [`PlayerMount`](#playermount)
+
+Defined in: [actor/PlayerMount.ts:23](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/actor/PlayerMount.ts#L23)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `player_pawn` | `any` |
+| `__namedParameters` | \{ `mount_entity`: `any`; `mount_offset`: `any`; \} |
+| `__namedParameters.mount_entity` | `any` |
+| `__namedParameters.mount_offset` | `any` |
+
+###### Returns
+
+[`PlayerMount`](#playermount)
+
+###### Overrides
+
+[`Actor`](Base/README.md#abstract-actor).[`constructor`](Base/README.md#constructor)
+
+#### Properties
+
+| Property | Modifier | Type | Default value | Defined in |
+| ------ | ------ | ------ | ------ | ------ |
+| <a id="global_listener"></a> `global_listener` | `public` | [`Listener`](Event.md#listener) | `undefined` | [actor/PlayerMount.ts:22](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/actor/PlayerMount.ts#L22) |
+| <a id="listener"></a> `listener` | `public` | [`Listener`](Event.md#listener) | `undefined` | [actor/PlayerMount.ts:21](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/actor/PlayerMount.ts#L21) |
+| <a id="mount_entity"></a> `mount_entity` | `public` | `Entity` | `undefined` | [actor/PlayerMount.ts:19](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/actor/PlayerMount.ts#L19) |
+| <a id="mount_offset"></a> `mount_offset` | `public` | [`Vector3`](Math.md#vector3) | `undefined` | [actor/PlayerMount.ts:20](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/actor/PlayerMount.ts#L20) |
+| <a id="player_pawn"></a> `player_pawn` | `public` | `CSPlayerPawn` | `undefined` | [actor/PlayerMount.ts:18](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/actor/PlayerMount.ts#L18) |
+| <a id="tag-2"></a> `Tag` | `static` | `string` | `"PlayerMountTag"` | [actor/PlayerMount.ts:17](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/actor/PlayerMount.ts#L17) |
+
+#### Methods
+
+##### Dispose()
+
+> **Dispose**(): `void`
+
+Defined in: [actor/PlayerMount.ts:76](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/actor/PlayerMount.ts#L76)
+
+Override Interface Method. Called after an actor has been made dirty,
+and has been removed from the actor pool
+
+###### Returns
+
+`void`
+
+###### Overrides
+
+[`Actor`](Base/README.md#abstract-actor).[`Dispose`](Base/README.md#dispose)
+
+##### GetDelta()
+
+> **GetDelta**(): `number`
+
+Defined in: [base/Actor.ts:60](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/Actor.ts#L60)
+
+Delta Since last think time.
+
+###### Returns
+
+`number`
+
+###### Inherited from
+
+[`Actor`](Base/README.md#abstract-actor).[`GetDelta`](Base/README.md#getdelta)
+
+##### GetLifetime()
+
+> **GetLifetime**(): `number`
+
+Defined in: [base/Actor.ts:58](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/Actor.ts#L58)
+
+How long the actor has been alive in seconds.
+
+###### Returns
+
+`number`
+
+###### Inherited from
+
+[`Actor`](Base/README.md#abstract-actor).[`GetLifetime`](Base/README.md#getlifetime)
+
+##### InitEventListeners()
+
+> **InitEventListeners**(): `void`
+
+Defined in: [actor/PlayerMount.ts:32](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/actor/PlayerMount.ts#L32)
+
+###### Returns
+
+`void`
+
+##### IsDirty()
+
+> **IsDirty**(): `boolean`
+
+Defined in: [base/Actor.ts:70](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/Actor.ts#L70)
+
+Determine if the Actor is marked for removal.
+
+###### Returns
+
+`boolean`
+
+###### Inherited from
+
+[`Actor`](Base/README.md#abstract-actor).[`IsDirty`](Base/README.md#isdirty)
+
+##### MakeDirty()
+
+> **MakeDirty**(): `void`
+
+Defined in: [base/Actor.ts:62](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/Actor.ts#L62)
+
+Mark the Actor for removal from the actor pool.
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`Actor`](Base/README.md#abstract-actor).[`MakeDirty`](Base/README.md#makedirty)
+
+##### MaybeThink()
+
+> **MaybeThink**(): `void`
+
+Defined in: [base/Actor.ts:73](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/Actor.ts#L73)
+
+Performs `this.Think()` if it past a certain interval
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`Actor`](Base/README.md#abstract-actor).[`MaybeThink`](Base/README.md#maybethink)
+
+##### ReceiveMessage()
+
+> **ReceiveMessage**(`tag`, `data`): `void`
+
+Defined in: [base/Actor.ts:105](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/Actor.ts#L105)
+
+Override Interface Method. React to messages sent by other
+actors in the actor pool.
+
+Note: `Event.Listener` and `Event.Sender` with tags are
+preferred over this method.
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `tag` | `string` |
+| `data` | `any` |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`Actor`](Base/README.md#abstract-actor).[`ReceiveMessage`](Base/README.md#receivemessage)
+
+##### Remove()
+
+> **Remove**(): `void`
+
+Defined in: [base/Actor.ts:64](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/Actor.ts#L64)
+
+Same as `this.MakeDirty()`.
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`Actor`](Base/README.md#abstract-actor).[`Remove`](Base/README.md#remove)
+
+##### SetTick()
+
+> **SetTick**(`i`): `void`
+
+Defined in: [base/Actor.ts:56](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/Actor.ts#L56)
+
+Set the Tick Interval of the system in terms of *tick rate*.
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `i` | `number` |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`Actor`](Base/README.md#abstract-actor).[`SetTick`](Base/README.md#settick)
+
+##### SetTickInterval()
+
+> **SetTickInterval**(`i`): `void`
+
+Defined in: [base/Actor.ts:54](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/Actor.ts#L54)
+
+Set the Tick Interval of the system. Expressed in Seconds.
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `i` | `number` |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`Actor`](Base/README.md#abstract-actor).[`SetTickInterval`](Base/README.md#settickinterval)
+
+##### Think()
+
+> **Think**(): `void`
+
+Defined in: [actor/PlayerMount.ts:81](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/actor/PlayerMount.ts#L81)
+
+Override Method. Is called at the `think_interval`.
+
+###### Returns
+
+`void`
+
+###### Overrides
+
+[`Actor`](Base/README.md#abstract-actor).[`Think`](Base/README.md#think)
+
+##### UnMountPlayer()
+
+> **UnMountPlayer**(): `void`
+
+Defined in: [actor/PlayerMount.ts:62](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/actor/PlayerMount.ts#L62)
+
+###### Returns
+
+`void`
+
+##### IsMounted()
+
+> `static` **IsMounted**(`player`): `boolean`
+
+Defined in: [actor/PlayerMount.ts:44](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/actor/PlayerMount.ts#L44)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `player` | `CSPlayerPawn` |
+
+###### Returns
+
+`boolean`
+
+##### SendMessage()
+
+> `static` **SendMessage**(`tag`, `data?`, `actor_pool_name?`): `void`
+
+Defined in: [base/Actor.ts:41](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/Actor.ts#L41)
+
+Send messages to other actors in the actor pool.
+
+###### Parameters
+
+| Parameter | Type | Default value |
+| ------ | ------ | ------ |
+| `tag` | `string` | `undefined` |
+| `data` | `any` | `null` |
+| `actor_pool_name` | `string` | `DEFAULT_ACTOR_POOL_NAME` |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`Actor`](Base/README.md#abstract-actor).[`SendMessage`](Base/README.md#sendmessage)
 
 ***
 
@@ -644,13 +954,13 @@ Base.Mount.Register("GlockShot", new GlockShot());
 
 #### Extends
 
-- [`Actor`](Base/README.md#actor)
+- [`Actor`](Base/README.md#abstract-actor)
 
 #### Constructors
 
 ##### Constructor
 
-> **new Projectile**(`__namedParameters`): [`Projectile`](#projectile)
+> **new Projectile**(`__namedParameters?`): [`Projectile`](#projectile)
 
 Defined in: [actor/Projectile.ts:103](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/actor/Projectile.ts#L103)
 
@@ -679,7 +989,7 @@ Defined in: [actor/Projectile.ts:103](https://github.com/Orb-Workshop/scriptedeu
 
 ###### Overrides
 
-[`Actor`](Base/README.md#actor).[`constructor`](Base/README.md#constructor)
+[`Actor`](Base/README.md#abstract-actor).[`constructor`](Base/README.md#constructor)
 
 #### Properties
 
@@ -733,7 +1043,7 @@ and has been removed from the actor pool
 
 ###### Overrides
 
-[`Actor`](Base/README.md#actor).[`Dispose`](Base/README.md#dispose)
+[`Actor`](Base/README.md#abstract-actor).[`Dispose`](Base/README.md#dispose)
 
 ##### Fire()
 
@@ -763,7 +1073,7 @@ Delta Since last think time.
 
 ###### Inherited from
 
-[`Actor`](Base/README.md#actor).[`GetDelta`](Base/README.md#getdelta)
+[`Actor`](Base/README.md#abstract-actor).[`GetDelta`](Base/README.md#getdelta)
 
 ##### GetLifetime()
 
@@ -779,7 +1089,7 @@ How long the actor has been alive in seconds.
 
 ###### Inherited from
 
-[`Actor`](Base/README.md#actor).[`GetLifetime`](Base/README.md#getlifetime)
+[`Actor`](Base/README.md#abstract-actor).[`GetLifetime`](Base/README.md#getlifetime)
 
 ##### HandleCollision()
 
@@ -813,7 +1123,7 @@ Determine if the Actor is marked for removal.
 
 ###### Inherited from
 
-[`Actor`](Base/README.md#actor).[`IsDirty`](Base/README.md#isdirty)
+[`Actor`](Base/README.md#abstract-actor).[`IsDirty`](Base/README.md#isdirty)
 
 ##### MakeDirty()
 
@@ -829,7 +1139,7 @@ Mark the Actor for removal from the actor pool.
 
 ###### Inherited from
 
-[`Actor`](Base/README.md#actor).[`MakeDirty`](Base/README.md#makedirty)
+[`Actor`](Base/README.md#abstract-actor).[`MakeDirty`](Base/README.md#makedirty)
 
 ##### MaybeThink()
 
@@ -845,7 +1155,7 @@ Performs `this.Think()` if it past a certain interval
 
 ###### Inherited from
 
-[`Actor`](Base/README.md#actor).[`MaybeThink`](Base/README.md#maybethink)
+[`Actor`](Base/README.md#abstract-actor).[`MaybeThink`](Base/README.md#maybethink)
 
 ##### ReceiveMessage()
 
@@ -872,7 +1182,7 @@ preferred over this method.
 
 ###### Overrides
 
-[`Actor`](Base/README.md#actor).[`ReceiveMessage`](Base/README.md#receivemessage)
+[`Actor`](Base/README.md#abstract-actor).[`ReceiveMessage`](Base/README.md#receivemessage)
 
 ##### Remove()
 
@@ -888,7 +1198,7 @@ Same as `this.MakeDirty()`.
 
 ###### Overrides
 
-[`Actor`](Base/README.md#actor).[`Remove`](Base/README.md#remove)
+[`Actor`](Base/README.md#abstract-actor).[`Remove`](Base/README.md#remove)
 
 ##### SetTick()
 
@@ -910,7 +1220,7 @@ Set the Tick Interval of the system in terms of *tick rate*.
 
 ###### Inherited from
 
-[`Actor`](Base/README.md#actor).[`SetTick`](Base/README.md#settick)
+[`Actor`](Base/README.md#abstract-actor).[`SetTick`](Base/README.md#settick)
 
 ##### SetTickInterval()
 
@@ -932,7 +1242,7 @@ Set the Tick Interval of the system. Expressed in Seconds.
 
 ###### Inherited from
 
-[`Actor`](Base/README.md#actor).[`SetTickInterval`](Base/README.md#settickinterval)
+[`Actor`](Base/README.md#abstract-actor).[`SetTickInterval`](Base/README.md#settickinterval)
 
 ##### Think()
 
@@ -948,7 +1258,7 @@ Override Method. Is called at the `think_interval`.
 
 ###### Overrides
 
-[`Actor`](Base/README.md#actor).[`Think`](Base/README.md#think)
+[`Actor`](Base/README.md#abstract-actor).[`Think`](Base/README.md#think)
 
 ##### FromWeapon()
 
@@ -979,7 +1289,7 @@ Note:
 
 ##### SendMessage()
 
-> `static` **SendMessage**(`tag`, `data`, `actor_pool_name`): `void`
+> `static` **SendMessage**(`tag`, `data?`, `actor_pool_name?`): `void`
 
 Defined in: [base/Actor.ts:41](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/Actor.ts#L41)
 
@@ -999,4 +1309,4 @@ Send messages to other actors in the actor pool.
 
 ###### Inherited from
 
-[`Actor`](Base/README.md#actor).[`SendMessage`](Base/README.md#sendmessage)
+[`Actor`](Base/README.md#abstract-actor).[`SendMessage`](Base/README.md#sendmessage)

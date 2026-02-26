@@ -20,7 +20,7 @@ Generate predictable randomness with a provided `seed` string.
 
 ##### Constructor
 
-> **new SeededRandomNumberGenerator**(`seed`, `options`): [`SeededRandomNumberGenerator`](#seededrandomnumbergenerator)
+> **new SeededRandomNumberGenerator**(`seed?`, `options?`): [`SeededRandomNumberGenerator`](#seededrandomnumbergenerator)
 
 Defined in: [random/SeededRandomNumberGenerator.ts:56](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/random/SeededRandomNumberGenerator.ts#L56)
 
@@ -84,7 +84,7 @@ let deca = () => { return srng.randomChance(0.1); };
 
 ##### randomChoice()
 
-> **randomChoice**\<`T`\>(`array`, `bDelete`): `T` \| `null`
+> **randomChoice**\<`T`\>(`array`, `bDelete?`): `T` \| `null`
 
 Defined in: [random/SeededRandomNumberGenerator.ts:153](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/random/SeededRandomNumberGenerator.ts#L153)
 
@@ -110,7 +110,7 @@ if `bDelete`, remove the element from the array.
 
 ##### randomCombination()
 
-> **randomCombination**\<`T`\>(`array`, `count`, `bDelete`): `T`[]
+> **randomCombination**\<`T`\>(`array`, `count?`, `bDelete?`): `T`[]
 
 Defined in: [random/SeededRandomNumberGenerator.ts:165](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/random/SeededRandomNumberGenerator.ts#L165)
 
@@ -208,7 +208,7 @@ Defined in: [random/SeededRandomNumberGenerator.ts:145](https://github.com/Orb-W
 
 ##### randomShuffle()
 
-> **randomShuffle**\<`T`\>(`array`, `bCopy`): `T`[]
+> **randomShuffle**\<`T`\>(`array`, `bCopy?`): `T`[]
 
 Defined in: [random/SeededRandomNumberGenerator.ts:185](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/random/SeededRandomNumberGenerator.ts#L185)
 

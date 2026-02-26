@@ -18,7 +18,7 @@ Defined in: [math/BBox2.ts:4](https://github.com/Orb-Workshop/scriptedeuch/blob/
 
 ##### Constructor
 
-> **new BBox2**(`x`, `y`, `w`, `h`): [`BBox2`](#bbox2)
+> **new BBox2**(`x?`, `y?`, `w?`, `h?`): [`BBox2`](#bbox2)
 
 Defined in: [math/BBox2.ts:10](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/math/BBox2.ts#L10)
 
@@ -213,7 +213,7 @@ Defined in: [math/BBox3.ts:4](https://github.com/Orb-Workshop/scriptedeuch/blob/
 
 ##### Constructor
 
-> **new BBox3**(`x`, `y`, `z`, `w`, `h`, `d`): [`BBox3`](#bbox3)
+> **new BBox3**(`x?`, `y?`, `z?`, `w?`, `h?`, `d?`): [`BBox3`](#bbox3)
 
 Defined in: [math/BBox3.ts:13](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/math/BBox3.ts#L13)
 
@@ -439,11 +439,181 @@ Defined in: [math/BBox3.ts:97](https://github.com/Orb-Workshop/scriptedeuch/blob
 
 ***
 
+### InOutSineEasing
+
+Defined in: [math/EasingFunctions.ts:21](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/math/EasingFunctions.ts#L21)
+
+#### Extends
+
+- `default`
+
+#### Constructors
+
+##### Constructor
+
+> **new InOutSineEasing**(`start`, `end`): [`InOutSineEasing`](#inoutsineeasing)
+
+Defined in: [math/EasingFunctions.ts:22](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/math/EasingFunctions.ts#L22)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `start` | `any` |
+| `end` | `any` |
+
+###### Returns
+
+[`InOutSineEasing`](#inoutsineeasing)
+
+###### Overrides
+
+`Easing.constructor`
+
+#### Methods
+
+##### At()
+
+> **At**(`value`): `number`
+
+Defined in: [math/Easing.ts:30](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/math/Easing.ts#L30)
+
+Calculate the easing at `value`.
+
+###### Parameters
+
+| Parameter | Type | Description |
+| ------ | ------ | ------ |
+| `value` | `number` | A value between `this.start` and `this.end`. |
+
+###### Returns
+
+`number`
+
+A value between 0.0 and 1.0 over the `this.start` and `this.end` domain.
+
+###### Inherited from
+
+`Easing.At`
+
+##### Calculate()
+
+> `protected` **Calculate**(`x`): `number`
+
+Defined in: [math/EasingFunctions.ts:23](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/math/EasingFunctions.ts#L23)
+
+Calculate the easing within the `this.start` and `this.end`
+window. This method is extended to provide different easing
+characteristics.
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `x` | `number` |
+
+###### Returns
+
+`number`
+
+A constant of `1`. Useless abstract easing!
+
+###### Overrides
+
+`Easing.Calculate`
+
+***
+
+### InSineEasing
+
+Defined in: [math/EasingFunctions.ts:7](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/math/EasingFunctions.ts#L7)
+
+#### Extends
+
+- `default`
+
+#### Constructors
+
+##### Constructor
+
+> **new InSineEasing**(`start`, `end`): [`InSineEasing`](#insineeasing)
+
+Defined in: [math/EasingFunctions.ts:8](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/math/EasingFunctions.ts#L8)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `start` | `any` |
+| `end` | `any` |
+
+###### Returns
+
+[`InSineEasing`](#insineeasing)
+
+###### Overrides
+
+`Easing.constructor`
+
+#### Methods
+
+##### At()
+
+> **At**(`value`): `number`
+
+Defined in: [math/Easing.ts:30](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/math/Easing.ts#L30)
+
+Calculate the easing at `value`.
+
+###### Parameters
+
+| Parameter | Type | Description |
+| ------ | ------ | ------ |
+| `value` | `number` | A value between `this.start` and `this.end`. |
+
+###### Returns
+
+`number`
+
+A value between 0.0 and 1.0 over the `this.start` and `this.end` domain.
+
+###### Inherited from
+
+`Easing.At`
+
+##### Calculate()
+
+> `protected` **Calculate**(`x`): `number`
+
+Defined in: [math/EasingFunctions.ts:9](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/math/EasingFunctions.ts#L9)
+
+Calculate the easing within the `this.start` and `this.end`
+window. This method is extended to provide different easing
+characteristics.
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `x` | `number` |
+
+###### Returns
+
+`number`
+
+A constant of `1`. Useless abstract easing!
+
+###### Overrides
+
+`Easing.Calculate`
+
+***
+
 ### LinearEasing
 
 Defined in: [math/LinearEasing.ts:4](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/math/LinearEasing.ts#L4)
 
-Returns a value between 0.0 and 1.0 within
+Returns a value between 0.0 and 1.0. lerp.
 
 #### Extends
 
@@ -698,6 +868,91 @@ Defined in: [math/LineSegment3.ts:13](https://github.com/Orb-Workshop/scriptedeu
 
 ***
 
+### OutSineEasing
+
+Defined in: [math/EasingFunctions.ts:14](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/math/EasingFunctions.ts#L14)
+
+#### Extends
+
+- `default`
+
+#### Constructors
+
+##### Constructor
+
+> **new OutSineEasing**(`start`, `end`): [`OutSineEasing`](#outsineeasing)
+
+Defined in: [math/EasingFunctions.ts:15](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/math/EasingFunctions.ts#L15)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `start` | `any` |
+| `end` | `any` |
+
+###### Returns
+
+[`OutSineEasing`](#outsineeasing)
+
+###### Overrides
+
+`Easing.constructor`
+
+#### Methods
+
+##### At()
+
+> **At**(`value`): `number`
+
+Defined in: [math/Easing.ts:30](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/math/Easing.ts#L30)
+
+Calculate the easing at `value`.
+
+###### Parameters
+
+| Parameter | Type | Description |
+| ------ | ------ | ------ |
+| `value` | `number` | A value between `this.start` and `this.end`. |
+
+###### Returns
+
+`number`
+
+A value between 0.0 and 1.0 over the `this.start` and `this.end` domain.
+
+###### Inherited from
+
+`Easing.At`
+
+##### Calculate()
+
+> `protected` **Calculate**(`x`): `number`
+
+Defined in: [math/EasingFunctions.ts:16](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/math/EasingFunctions.ts#L16)
+
+Calculate the easing within the `this.start` and `this.end`
+window. This method is extended to provide different easing
+characteristics.
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `x` | `number` |
+
+###### Returns
+
+`number`
+
+A constant of `1`. Useless abstract easing!
+
+###### Overrides
+
+`Easing.Calculate`
+
+***
+
 ### Point2
 
 Defined in: [math/Point2.ts:1](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/math/Point2.ts#L1)
@@ -706,7 +961,7 @@ Defined in: [math/Point2.ts:1](https://github.com/Orb-Workshop/scriptedeuch/blob
 
 ##### Constructor
 
-> **new Point2**(`x`, `y`): [`Point2`](#point2)
+> **new Point2**(`x?`, `y?`): [`Point2`](#point2)
 
 Defined in: [math/Point2.ts:5](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/math/Point2.ts#L5)
 
@@ -750,7 +1005,7 @@ Defined in: [math/Point3.ts:1](https://github.com/Orb-Workshop/scriptedeuch/blob
 
 ##### Constructor
 
-> **new Point3**(`x`, `y`, `z`): [`Point3`](#point3)
+> **new Point3**(`x?`, `y?`, `z?`): [`Point3`](#point3)
 
 Defined in: [math/Point3.ts:6](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/math/Point3.ts#L6)
 
@@ -792,11 +1047,15 @@ Defined in: [math/Point3.ts:12](https://github.com/Orb-Workshop/scriptedeuch/blo
 
 Defined in: [math/QAngle.ts:4](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/math/QAngle.ts#L4)
 
+#### Implements
+
+- `unknown`
+
 #### Constructors
 
 ##### Constructor
 
-> **new QAngle**(`pitch`, `yaw`, `roll`): [`QAngle`](#qangle)
+> **new QAngle**(`pitch?`, `yaw?`, `roll?`): [`QAngle`](#qangle)
 
 Defined in: [math/QAngle.ts:15](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/math/QAngle.ts#L15)
 
@@ -919,7 +1178,7 @@ Defined in: [math/QAngle.ts:39](https://github.com/Orb-Workshop/scriptedeuch/blo
 
 ##### Create()
 
-> `static` **Create**(`pitch`, `yaw`, `roll`): [`QAngle`](#qangle)
+> `static` **Create**(`pitch?`, `yaw?`, `roll?`): [`QAngle`](#qangle)
 
 Defined in: [math/QAngle.ts:21](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/math/QAngle.ts#L21)
 
@@ -1137,9 +1396,19 @@ Defined in: [math/Vector2.ts:23](https://github.com/Orb-Workshop/scriptedeuch/bl
 
 [`Vector2`](#vector2)
 
+##### toString()
+
+> **toString**(): `string`
+
+Defined in: [math/Vector2.ts:60](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/math/Vector2.ts#L60)
+
+###### Returns
+
+`string`
+
 ##### Create()
 
-> `static` **Create**(`x`, `y`): [`Vector2`](#vector2)
+> `static` **Create**(`x?`, `y?`): [`Vector2`](#vector2)
 
 Defined in: [math/Vector2.ts:13](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/math/Vector2.ts#L13)
 
@@ -1158,7 +1427,7 @@ Defined in: [math/Vector2.ts:13](https://github.com/Orb-Workshop/scriptedeuch/bl
 
 ### Vector3
 
-Defined in: [math/Vector3.ts:3](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/math/Vector3.ts#L3)
+Defined in: [math/Vector3.ts:4](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/math/Vector3.ts#L4)
 
 #### Implements
 
@@ -1170,7 +1439,7 @@ Defined in: [math/Vector3.ts:3](https://github.com/Orb-Workshop/scriptedeuch/blo
 
 > **new Vector3**(`x`, `y`, `z`): [`Vector3`](#vector3)
 
-Defined in: [math/Vector3.ts:8](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/math/Vector3.ts#L8)
+Defined in: [math/Vector3.ts:9](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/math/Vector3.ts#L9)
 
 ###### Parameters
 
@@ -1188,11 +1457,14 @@ Defined in: [math/Vector3.ts:8](https://github.com/Orb-Workshop/scriptedeuch/blo
 
 | Property | Modifier | Type | Defined in |
 | ------ | ------ | ------ | ------ |
-| <a id="x-5"></a> `x` | `public` | `number` | [math/Vector3.ts:4](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/math/Vector3.ts#L4) |
-| <a id="y-5"></a> `y` | `public` | `number` | [math/Vector3.ts:5](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/math/Vector3.ts#L5) |
-| <a id="z-2"></a> `z` | `public` | `number` | [math/Vector3.ts:6](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/math/Vector3.ts#L6) |
-| <a id="null-1"></a> `Null` | `static` | [`Vector3`](#vector3) | [math/Vector3.ts:14](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/math/Vector3.ts#L14) |
-| <a id="zero-2"></a> `Zero` | `static` | [`Vector3`](#vector3) | [math/Vector3.ts:15](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/math/Vector3.ts#L15) |
+| <a id="x-5"></a> `x` | `public` | `number` | [math/Vector3.ts:5](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/math/Vector3.ts#L5) |
+| <a id="y-5"></a> `y` | `public` | `number` | [math/Vector3.ts:6](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/math/Vector3.ts#L6) |
+| <a id="z-2"></a> `z` | `public` | `number` | [math/Vector3.ts:7](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/math/Vector3.ts#L7) |
+| <a id="null-1"></a> `Null` | `static` | [`Vector3`](#vector3) | [math/Vector3.ts:15](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/math/Vector3.ts#L15) |
+| <a id="x_axis"></a> `X_AXIS` | `static` | [`Vector3`](#vector3) | [math/Vector3.ts:17](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/math/Vector3.ts#L17) |
+| <a id="y_axis"></a> `Y_AXIS` | `static` | [`Vector3`](#vector3) | [math/Vector3.ts:18](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/math/Vector3.ts#L18) |
+| <a id="z_axis"></a> `Z_AXIS` | `static` | [`Vector3`](#vector3) | [math/Vector3.ts:19](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/math/Vector3.ts#L19) |
+| <a id="zero-2"></a> `Zero` | `static` | [`Vector3`](#vector3) | [math/Vector3.ts:16](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/math/Vector3.ts#L16) |
 
 #### Methods
 
@@ -1200,7 +1472,7 @@ Defined in: [math/Vector3.ts:8](https://github.com/Orb-Workshop/scriptedeuch/blo
 
 > **add**(`v`): [`Vector3`](#vector3)
 
-Defined in: [math/Vector3.ts:28](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/math/Vector3.ts#L28)
+Defined in: [math/Vector3.ts:33](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/math/Vector3.ts#L33)
 
 Add two vectors and return a new `Vector3`
 
@@ -1214,11 +1486,27 @@ Add two vectors and return a new `Vector3`
 
 [`Vector3`](#vector3)
 
+##### clamp()
+
+> **clamp**(`v`): [`Vector3`](#vector3)
+
+Defined in: [math/Vector3.ts:87](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/math/Vector3.ts#L87)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `v` | `number` |
+
+###### Returns
+
+[`Vector3`](#vector3)
+
 ##### cross()
 
 > **cross**(`v`): [`Vector3`](#vector3)
 
-Defined in: [math/Vector3.ts:53](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/math/Vector3.ts#L53)
+Defined in: [math/Vector3.ts:58](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/math/Vector3.ts#L58)
 
 ###### Parameters
 
@@ -1234,7 +1522,7 @@ Defined in: [math/Vector3.ts:53](https://github.com/Orb-Workshop/scriptedeuch/bl
 
 > **distance**(`v`): `number`
 
-Defined in: [math/Vector3.ts:70](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/math/Vector3.ts#L70)
+Defined in: [math/Vector3.ts:75](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/math/Vector3.ts#L75)
 
 ###### Parameters
 
@@ -1250,7 +1538,7 @@ Defined in: [math/Vector3.ts:70](https://github.com/Orb-Workshop/scriptedeuch/bl
 
 > **dot**(`v`): `number`
 
-Defined in: [math/Vector3.ts:49](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/math/Vector3.ts#L49)
+Defined in: [math/Vector3.ts:54](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/math/Vector3.ts#L54)
 
 Return dot product of this vector with `v`
 
@@ -1268,7 +1556,7 @@ Return dot product of this vector with `v`
 
 > **equals**(`v`): `boolean`
 
-Defined in: [math/Vector3.ts:74](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/math/Vector3.ts#L74)
+Defined in: [math/Vector3.ts:79](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/math/Vector3.ts#L79)
 
 ###### Parameters
 
@@ -1284,7 +1572,7 @@ Defined in: [math/Vector3.ts:74](https://github.com/Orb-Workshop/scriptedeuch/bl
 
 > **magnitude**(): `number`
 
-Defined in: [math/Vector3.ts:60](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/math/Vector3.ts#L60)
+Defined in: [math/Vector3.ts:65](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/math/Vector3.ts#L65)
 
 ###### Returns
 
@@ -1294,7 +1582,7 @@ Defined in: [math/Vector3.ts:60](https://github.com/Orb-Workshop/scriptedeuch/bl
 
 > **normalize**(): [`Vector3`](#vector3)
 
-Defined in: [math/Vector3.ts:65](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/math/Vector3.ts#L65)
+Defined in: [math/Vector3.ts:70](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/math/Vector3.ts#L70)
 
 Normalize and return a direction vector.
 
@@ -1306,7 +1594,7 @@ Normalize and return a direction vector.
 
 > **scale**(`s`): [`Vector3`](#vector3)
 
-Defined in: [math/Vector3.ts:42](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/math/Vector3.ts#L42)
+Defined in: [math/Vector3.ts:47](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/math/Vector3.ts#L47)
 
 Return a scaled `Vector3`, scaled by `s`.
 
@@ -1324,7 +1612,7 @@ Return a scaled `Vector3`, scaled by `s`.
 
 > **sub**(`v`): [`Vector3`](#vector3)
 
-Defined in: [math/Vector3.ts:35](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/math/Vector3.ts#L35)
+Defined in: [math/Vector3.ts:40](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/math/Vector3.ts#L40)
 
 Subtract two vectors and return a new `Vector3`
 
@@ -1338,11 +1626,21 @@ Subtract two vectors and return a new `Vector3`
 
 [`Vector3`](#vector3)
 
+##### toString()
+
+> **toString**(): `string`
+
+Defined in: [math/Vector3.ts:83](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/math/Vector3.ts#L83)
+
+###### Returns
+
+`string`
+
 ##### Create()
 
-> `static` **Create**(`x`, `y`, `z`): [`Vector3`](#vector3)
+> `static` **Create**(`x?`, `y?`, `z?`): [`Vector3`](#vector3)
 
-Defined in: [math/Vector3.ts:18](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/math/Vector3.ts#L18)
+Defined in: [math/Vector3.ts:23](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/math/Vector3.ts#L23)
 
 Same as constructor
 
@@ -1362,7 +1660,7 @@ Same as constructor
 
 > `static` **From**(`__namedParameters`): [`Vector3`](#vector3)
 
-Defined in: [math/Vector3.ts:23](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/math/Vector3.ts#L23)
+Defined in: [math/Vector3.ts:28](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/math/Vector3.ts#L28)
 
 Create Vector from CS Vector Interface
 
@@ -1396,7 +1694,7 @@ v.compute([new Point2(24, 24),
 
 ##### Constructor
 
-> **new Voronoi**(`options`): [`Voronoi`](#voronoi)
+> **new Voronoi**(`options?`): [`Voronoi`](#voronoi)
 
 Defined in: math/Voronoi.ts:47
 
