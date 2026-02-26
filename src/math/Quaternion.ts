@@ -12,10 +12,10 @@ export interface QuaternionType {
 }
 
 export default class Quaternion implements QuaternionType {
-    w: number;
-    x: number;
-    y: number;
-    z: number;
+    public w: number;
+    public x: number;
+    public y: number;
+    public z: number;
     constructor(w = 1, x = 0, y = 0, z = 0) {
         this.w = w;
         this.x = x;
@@ -31,7 +31,7 @@ export default class Quaternion implements QuaternionType {
         return new Quaternion(q.w, q.x, q.y, q.z);
     }
 
-    static FromAxisAngle(v: Vector, angle: number = 0): {
+    static FromAxisAngle(v: Vector, angle: number = 0): Quaternion {
         v = v.normalize();
         const half_angle = angle / 2;
         return new Quaternion(
