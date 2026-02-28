@@ -121,8 +121,8 @@ export default class Mount {
             this.forEachEnabledSystem((system) => system.OnActivate());
         });
 
-        CSS.OnBeforePlayerDamage((event) => HandleModifyPlayerDamage(event));
-        CSS.OnModifyPlayerDamage((event) => HandleModifyPlayerDamage(event));
+        CSS.OnBeforePlayerDamage((event) => this.HandleModifyPlayerDamage(event));
+        CSS.OnModifyPlayerDamage((event) => this.HandleModifyPlayerDamage(event));
         CSS.OnBombDefuse((event) => {
             this.forEachEnabledSystem((system) => system.OnBombDefuse(event));
         });
