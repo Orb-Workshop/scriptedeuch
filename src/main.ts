@@ -224,8 +224,9 @@ new Base.ThinkTask(() => {
 }, 1/128);
 
 Mount.Register("KnifeDash", new System.KnifeDashSystem());
-//Mount.Register("PlayerSliding", new System.PlayerSlidingSystem());
+Mount.Register("DoubleJump", new System.DoubleJumpSystem());
 
 // Listing off what's running
 CSS.Msg("Systems: " + Mount.List().join(", "))
 Mount.Start(); // go
+

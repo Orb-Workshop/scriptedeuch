@@ -68,3 +68,11 @@ export function UniqueGen(s: string = "ScriptedEuch-"): () => string {
 export function CheckClass(e: Entity, classname: string): boolean {
     return (e?.GetClassName() == classname);
 }
+
+
+/** Return all active players */
+export function AllPlayers(): Array<CSPlayerPawn> {
+    return CSS.FindEntitiesByClass("player")
+        .filter(p => p.IsValid())
+    ;
+}
