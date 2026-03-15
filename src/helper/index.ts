@@ -19,7 +19,9 @@ export { default as InfoParticleSystem } from "./InfoParticleSystem";
 export { default as InfoParticleTarget } from "./InfoParticleTarget";
 export { default as InfoTarget } from "./InfoTarget";
 export { default as InfoTeleportDestination } from "./InfoTeleportDestination";
+export { default as LogicCase } from "./LogicCase";
 export { default as LogicRelay } from "./LogicRelay";
+export { default as MathCounter } from "./MathCounter";
 export { default as PathTrack } from "./PathTrack";
 export { default as PointSoundEvent } from "./PointSoundEvent";
 export { default as PointTemplate } from "./PointTemplate";
@@ -27,6 +29,7 @@ export { default as PropDynamic } from "./PropDynamic";
 export { default as PropDynamicOrnament } from "./PropDynamicOrnament";
 export { default as PropPhysicsMultiplayer } from "./PropPhysicsMultiplayer";
 export { default as TriggerMultiple } from "./TriggerMultiple";
+export { default as TriggerTeleport } from "./TriggerTeleport";
 
 // Extensions to cs2 entities. Often make up multiple entities
 export { default as MoveableSoundEvent } from "./MoveableSoundEvent";

@@ -61,4 +61,13 @@ export default class LogicRelay extends EntityHelper {
     public OnTrigger(callback: ConnectOutputCallback): LogicRelay {
         return this.On("OnTrigger", callback) as LogicRelay;
     }
+
+    public OnKilled(callback: ConnectOutputCallback): LogicRelay {
+        return this.On("OnKilled", callback) as LogicRelay;
+    }
+
+    public OnSpawn(callback: ConnectOutputCallback): LogicRelay {
+        return this.On("OnSpawn", callback) as LogicRelay;
+    }
+    
 }

@@ -33,6 +33,26 @@ export default class TriggerMultiple extends EntityHelper {
         const es = EntityHelper.FindAllByClass(CLASSNAME, r);
         return es.map(e => new TriggerMultiple(e));
     }
+
+    // Input IO
+    
+    Enable(opts = {}): void {
+        this.FireIO({ input: "Enable", ...opts });
+    }
+
+    Disable(opts = {}): void {
+        this.FireIO({ input: "Disable", ...opts });
+    }
+
+    Toggle(opts = {}): void {
+        this.FireIO({ input: "Toggle", ...opts });
+    }
+
+    TouchTest(opts = {}): void {
+        this.FireIO({ input: "TouchTest", ...opts });
+    }
+    
+    // Output IO
     
     OnStartTouch(callback: ConnectOutputCallback): TriggerMultiple {
         return this.On("OnStartTouch", callback) as TriggerMultiple;
@@ -48,5 +68,21 @@ export default class TriggerMultiple extends EntityHelper {
     
     OnEndTouchAll(callback: ConnectOutputCallback): TriggerMultiple {
         return this.On("OnEndTouchAll", callback) as TriggerMultiple;
+    }
+
+    OnTrigger(callback: ConnectOutputCallback): TriggerMultiple {
+        return this.On("OnTrigger", callback) as TriggerMultiple;
+    }
+
+    OnTouching(callback: ConnectOutputCallback): TriggerMultiple {
+        return this.On("OnTouching", callback) as TriggerMultiple;
+    }
+    
+    OnTouchingEachEntity(callback: ConnectOutputCallback): TriggerMultiple {
+        return this.On("OnTouchingEachEntity", callback) as TriggerMultiple;
+    }
+
+    OnNotTouching(callback: ConnectOutputCallback): TriggerMultiple {
+        return this.On("OnNotTouching", callback) as TriggerMultiple;
     }
 }

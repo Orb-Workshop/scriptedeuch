@@ -39,24 +39,59 @@ export default class FuncButton extends BaseModelEntity {
         return es.map(e => new FuncButton(e.raw));
     }
 
-    public Lock(opts = {}): void {
+    // Input IO
+
+    Enable(opts = {}): void {
+        this.FireIO({ input: "Enable", ...opts });
+    }
+
+    Disable(opts = {}): void {
+        this.FireIO({ input: "Disable", ...opts });
+    }
+    
+    Lock(opts = {}): void {
         this.FireIO({ input: "Lock", ...opts });
     }
 
-    public Unlock(opts = {}): void {
+    Unlock(opts = {}): void {
         this.FireIO({ input: "Unlock", ...opts });
     }
     
-    public Press(opts = {}): void {
+    Press(opts = {}): void {
         this.FireIO({ input: "Press", ...opts });
     }
 
-    public OnPressed(callback: ConnectOutputCallback): FuncButton {
+    PressIn(opts = {}): void {
+        this.FireIO({ input: "PressIn", ...opts });
+    }
+
+    PressOut(opts = {}): void {
+        this.FireIO({ input: "PressOut", ...opts });
+    }
+    
+    // Output IO
+    
+    OnPressed(callback: ConnectOutputCallback): FuncButton {
         return this.On("OnPressed", callback) as FuncButton;
     }
     
-    public OnUseLocked(callback: ConnectOutputCallback): FuncButton {
+    OnUseLocked(callback: ConnectOutputCallback): FuncButton {
         return this.On("OnUseLocked", callback) as FuncButton;
     }
-    
+
+    OnDamaged(callback: ConnectOutputCallback): FuncButton {
+        return this.On("OnDamaged", callback) as FuncButton;
+    }
+
+    OnIn(callback: ConnectOutputCallback): FuncButton {
+        return this.On("OnIn", callback) as FuncButton;
+    }
+
+    OnOut(callback: ConnectOutputCallback): FuncButton {
+        return this.On("OnOut", callback) as FuncButton;
+    }
+
+    OnTouching(callback: ConnectOutputCallback): FuncButton {
+        return this.On("OnTouching", callback) as FuncButton;
+    }
 }
