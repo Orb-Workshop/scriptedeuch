@@ -22,3 +22,5 @@ export {
     EaseInOutSine as InOutSineEasing,
 } from "./EasingFunctions";
 
+// Grid Maths
+export { default as Grid3D } from "./grid/Grid3D";
