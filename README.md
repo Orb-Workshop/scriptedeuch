@@ -16,7 +16,7 @@ API Documentation: [here](docs/README.md)
 ```typescript
 import { Base, System } from "scriptedeuch";
 
-Base.Mount.Register("HealthRegen", new PlayerHealthRegenerationSystem({
+Base.Mount.Register("HealthRegen", new System.PlayerHealthRegenerationSystem({
   regeneration_rate: 10.0,    // Health Per Second
   regeneration_delay: 5.0,    // Seconds
   max_health_recovery: 100.0, // 0-100
@@ -65,7 +65,7 @@ Base.Mount.Register("GameAnnouncer", new System.GameAnnouncerSystem({
 
     CSS.Msg("Player Name: " + Util.GetPlayerName(player_pawn));
     CSS.Msg("Player Stats: " + JSON.stringify(player_stats));
-    
+
     // Kill Ping
     soundEventSystem.PlaySoundToPlayer(player_pawn, "Vote.Passed", true);
 }});
@@ -131,7 +131,7 @@ class DoSomething extends Base.System {
   constructor() {
     super();
   }
-  
+
   override OnActivate() {
     // DoSomethingOnActivate()
   }
@@ -183,7 +183,7 @@ import { Base } from "scriptedeuch";
 class RepeatingMsgs extends Base.System {
   private num: number = 0;
   private msgs: Array<string>;
-  
+
   constructor(msgs: Array<string>) {
     super();
     // this.SetTick(128); // Default (pegged at 64-Tick)
@@ -211,7 +211,7 @@ import { Base } from "scriptedeuch";
 class RepeatingMsgs extends Base.Actor {
   private num: number = 0;
   private msgs: Array<string>;
-  
+
   constructor(msgs: Array<string>) {
     super();
     // this.SetTick(128); // Default (pegged at 64-Tick)
@@ -241,7 +241,7 @@ Note the key differences between Actors and Systems:
 - Actors do not explicitly register with the mounting system. They
   will automatically mount an internal `ActorSystem` system registered
   with the mounter as `"DefaultActorPool"` upon construction.
-  
+
 - Actors maintain their own lifetime, and are removed with
   `Base.Actor.Remove()`. Upon removal within the internal
   `ActorSystem`, the overridable `Base.Actor.Dispose()` method is
