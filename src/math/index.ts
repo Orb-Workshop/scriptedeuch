@@ -22,5 +22,6 @@ export {
     EaseInOutSine as InOutSineEasing,
 } from "./EasingFunctions";
 
-// Grid Maths
-export { default as Grid3D } from "./grid/Grid3D";
+// Grid Functionality
+export { default as Grid3D, SubGrid } from "./grid/Grid3D";
+export { default as PathFinding } from "./grid/PathFinding";

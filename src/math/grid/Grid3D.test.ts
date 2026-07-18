@@ -23,4 +23,9 @@ test("Grid3D Init 2", () => {
     expect(g.depth).toEqual(10);
     expect(g.data.length).toEqual(g.size());
     expect(g.getAt(0,0,0)).toEqual(0);
+    expect(g.getAt(9,9,9)).toEqual(0);
+});
+
+test("Grid3D Init 3", () => {
+
 });
