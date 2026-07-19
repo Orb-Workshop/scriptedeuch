@@ -164,7 +164,7 @@ export default class Grid3D<T = number> {
        - SubGrids can also be converted into a BBox3, to check
          intersections, between grids.
      */
-    subGrid(opts): SubGrid {
+    subGrid(opts): SubGrid<T> {
         const {
             x,
             y,
@@ -187,13 +187,34 @@ export default class Grid3D<T = number> {
 	if (z + depth > this.depth)
 	    throw new GridError("SubGrid 'depth' dimension is out of bounds.");
 
-        return new SubGrid({
+        return new SubGrid<T>({
             parent: this,
             x, y, z,
             width,
             height,
             depth,
         });
+    }
+
+    /*
+       BBox3 Functionality
+    */
+    toBBox3(): BBox3 {
+	return new BBox3(this.x, this.y, this.z,
+			 this.width, this.height, this.depth);
+    }
+
+    /*
+      Returns a 'GridLens' instance. Useful for crawling/navigating the Grid3D space.
+     */
+    lens(x: number, y: number, z: number = 0): GridLens<T> {
+	if (x < 0) throw new GridError("GridLens 'x' value is out of bounds.");
+	if (x > this.width-1) throw new GridError("GridLens 'x' value is out of bounds.");
+	if (y < 0) throw new GridError("GridLens 'y' value is out of bounds.");
+	if (y > this.height-1) throw new GridError("GridLens 'y' value is out of bounds.");
+	if (z < 0) throw new GridError("GridLens 'z' value is out of bounds.");
+	if (z > this.depth-1) throw new GridError("GridLens 'z' value is out of bounds.");
+	return new GridLens<T>(this, x, y, z);
     }
 }
 
@@ -292,6 +313,20 @@ export class SubGrid<T = number> {
 	return new BBox3(this.x, this.y, this.z,
 			 this.width, this.height, this.depth);
     }
+
+    /*
+      Returns a 'GridLens' instance. Useful for crawling/navigating the SubGrid space.
+     */
+    lens(x: number, y: number, z: number = 0): GridLens<T> {
+	if (x < 0) throw new GridError("GridLens 'x' value is out of bounds.");
+	if (x > this.width-1) throw new GridError("GridLens 'x' value is out of bounds.");
+	if (y < 0) throw new GridError("GridLens 'y' value is out of bounds.");
+	if (y > this.height-1) throw new GridError("GridLens 'y' value is out of bounds.");
+	if (z < 0) throw new GridError("GridLens 'z' value is out of bounds.");
+	if (z > this.depth-1) throw new GridError("GridLens 'z' value is out of bounds.");
+	return new GridLens<T>(this, x, y, z);
+    }
+
 }
 
 /**
@@ -304,16 +339,24 @@ export class GridLens<T> {
     y: number;
     z: number;
 
+    constructor(parent, x, y, z) {
+	this.parent = parent;
+
+	this.x = x;
+	this.y = y;
+	this.z = z;
+    }
+
     get(): T {
-	return this.parent.getAt(x, y, z);
+	return this.parent.getAt(this.x, this.y, this.z);
     }
 
     set(v: T): void {
-	this.parent.setAt(x, y, z, v);
+	this.parent.setAt(this.x, this.y, this.z, v);
     }
 
     top(): T|null {
-	if (this.z > this.parent.depth-1) return null;
+	if (this.z >= this.parent.depth-1) return null;
 	return this.parent.getAt(this.x, this.y, this.z+1);
     }
 
