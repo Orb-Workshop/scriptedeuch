@@ -9,7 +9,7 @@ export default class BBox3 {
     w: number; // Width  (x)
     h: number; // Height (y)
     d: number; // Depth  (z)
-    
+
     constructor(x: number = 0, y: number = 0, z: number = 0,
                 w: number = 0, h: number = 0, d: number = 0,) {
         this.x = x;
@@ -20,10 +20,27 @@ export default class BBox3 {
         this.d = d;
     }
 
+    static From(obj = {}): BBox3 {
+	return new BBox3(obj.x, obj.y, obj.z,
+			 obj.w, obj.h, obj.d);
+    }
+
     center(): Point3 {
         return new Point3(this.x+this.h/2.,
 		          this.y+this.w/2.,
                           this.z+this.d/2.);
+    }
+
+    /**
+       Scale the BBox3 to `x`, `y`, `z`.
+     */
+    scale(x: number, y?: number, z?: number = 1): BBox3 {
+	y = y ?? x;
+        z = z ?? x;
+	return new BBox3(
+	    this.x, this.y, this.z,
+	    this.w * x, this.h * y, this.d * z,
+	);
     }
 
     checkIntersection(bbox: BBox3): boolean {
@@ -34,7 +51,7 @@ export default class BBox3 {
         let a_max_y = this.y + this.h;
         let a_min_z = this.z;
         let a_max_z = this.z + this.d;
-        
+
         // Box B
         let b_min_x = bbox.x;
         let b_max_x = bbox.x + bbox.w;
@@ -42,7 +59,7 @@ export default class BBox3 {
         let b_max_y = bbox.y + bbox.h;
         let b_min_z = bbox.z;
         let b_max_z = bbox.z + bbox.d;
-        
+
         return !(a_max_x <= b_min_x ||
             a_min_x >= b_max_x ||
             a_max_y <= b_min_y ||
@@ -93,7 +110,7 @@ export default class BBox3 {
         return new BBox3(x, y, z, w, h, d);
     }
 
-    // Return new BBox3 translated by (x, y) units.
+    // Return new BBox3 translated by (x, y, z) units.
     translate(x: number, y: number, z: number): BBox3 {
         x = this.x + x;
         y = this.y + y;
@@ -103,8 +120,13 @@ export default class BBox3 {
         let d = this.d;
         return new BBox3(x, y, z, w, h, d);
     }
-    
-    // Extend the top, right, bottom, left of the BBox3
+
+    /*
+      x -+ [Left / Right]
+      y -+ [Down / Up]
+      z -+ [Bottom / Top]
+     */
+
     extendLeft(amt: number): BBox3 {
         let x = this.x - amt;
         let y = this.y;
@@ -127,7 +149,7 @@ export default class BBox3 {
 
     extendUp(amt: number): BBox3 {
         let x = this.x;
-        let y = this.y - amt;
+        let y = this.y;
         let z = this.z;
         let w = this.w;
         let h = this.h + amt;
@@ -137,7 +159,7 @@ export default class BBox3 {
 
     extendDown(amt: number): BBox3 {
         let x = this.x;
-        let y = this.y;
+        let y = this.y - amt;
         let z = this.z;
         let w = this.w;
         let h = this.h + amt;
@@ -158,10 +180,10 @@ export default class BBox3 {
     extendBottom(amt: number): BBox3 {
         let x = this.x;
         let y = this.y;
-        let z = this.z;
+        let z = this.z - amt;
         let w = this.w;
         let h = this.h;
-        let d = this.d - amt;
+        let d = this.d + amt;
         return new BBox3(x, y, z, w, h, d);
     }
 }

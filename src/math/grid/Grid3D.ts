@@ -10,6 +10,16 @@
    g.setAt(0, 0, "O");
    g.setAt(1, 0, "R");
    g.setAt(2, 0, "B");
+
+   // Display in Console
+   for (let j = g.height-1; j >= 0; j--) {
+     let line = "";
+     for (let i = 0; i < g.width; i++) {
+       line += " ";
+       line += g.getAt(i, j);
+     }
+     console.log(line);
+   }
    ```
 
    Notes:
@@ -17,6 +27,7 @@
    - Supports 1D/2D Functionality. Omitting the width and depth values
    upon construction are '1' by default.
 */
+import BBox3 from "../BBox3";
 
 class GridError extends Error {
     constructor(message: string) {
@@ -29,9 +40,9 @@ class GridError extends Error {
 export default class Grid3D<T = number> {
     private data: Array<T> = [];
 
-    private width: number;
-    private height: number;
-    private depth: number;
+    width: number;
+    height: number;
+    depth: number;
 
     constructor(obj = {}) {
         this.width = obj.width ?? 1;
@@ -108,25 +119,52 @@ export default class Grid3D<T = number> {
 	return true;
     }
 
-    locateElement(x: number, y: number, z: number): T {
+    /**
+       Will return an element of the Grid approximately within bounds
+       of the provided `x`, `y`, and/or `z`.
+
+       Note:
+
+       - Sanitizes the input for out-of-bounds number values to the
+         closest coordinates.
+
+       - Errors for non-number values
+     */
+    locateElement(x: number, y: number, z: number = 0): T {
+	if (typeof x !== "number") throw new GridError("Locate Element 'x' value is not a number");
+	if (typeof y !== "number") throw new GridError("Locate Element 'y' value is not a number");
+	if (typeof z !== "number") throw new GridError("Locate Element 'z' value is not a number");
+
         x = (x >= 0) ? x : 0;
-        x = (x <= this.width()-1) ? x : this.width()-1;
+        x = (x <= this.width-1) ? x : this.width-1;
         x = Math.floor(x);
 
         y = (y >= 0) ? y : 0;
-        y = (y <= this.height()-1) ? y : this.height()-1;
+        y = (y <= this.height-1) ? y : this.height-1;
         y = Math.floor(y);
 
         z = (z !== undefined) ? z : 0;
         z = (z >= 0) ? z : 0;
-        z = (z <= this.depth()-1) ? z : this.depth()-1;
+        z = (z <= this.depth-1) ? z : this.depth-1;
         z = Math.floor(z);
 
         let element = this.getAt(x, y, z);
         return element;
     }
 
-    subGrid(obj): SubGrid {
+    /**
+       Returns a 'SubGrid' of the current Grid3D. Representing a
+       fraction of the original Grid3D.
+
+       Notes:
+
+       - Can be used with PathFinding and Procgen as a traditional
+       Grid3D.
+
+       - SubGrids can also be converted into a BBox3, to check
+         intersections, between grids.
+     */
+    subGrid(opts): SubGrid {
         const {
             x,
             y,
@@ -134,7 +172,21 @@ export default class Grid3D<T = number> {
             width = 1,
             height = 1,
             depth = 1,
-        } = obj;
+        } = opts;
+	if (x < 0) throw new GridError("SubGrid 'x' offset is out of bounds.");
+	if (x > this.width-1) throw new GridError("SubGrid 'x' offset is out of bounds.");
+	if (y < 0) throw new GridError("SubGrid 'y' offset is out of bounds.");
+	if (y > this.height-1) throw new GridError("SubGrid 'y' offset is out of bounds.");
+	if (z < 0) throw new GridError("SubGrid 'z' offset is out of bounds.");
+	if (z > this.depth-1) throw new GridError("SubGrid 'z' offset is out of bounds.");
+
+	if (x + width > this.width)
+	    throw new GridError("SubGrid 'width' dimension is out of bounds.");
+	if (y + height > this.height)
+	    throw new GridError("SubGrid 'height' dimension is out of bounds.");
+	if (z + depth > this.depth)
+	    throw new GridError("SubGrid 'depth' dimension is out of bounds.");
+
         return new SubGrid({
             parent: this,
             x, y, z,
@@ -146,18 +198,19 @@ export default class Grid3D<T = number> {
 }
 
 /**
-   Resembles a BBox3, but shares information with the original Grid3D.
+   Resembles a soft reference to a section of a Grid3D. Includes
+   methods to easily navigate and compare between SubGrids.
  */
 export class SubGrid<T = number> {
-    private parent: Grid3D;
+    parent: Grid3D;
 
-    private x: number;
-    private y: number;
-    private z: number;
+    x: number;
+    y: number;
+    z: number;
 
-    private width: number;
-    private height: number;
-    private depth: number;
+    width: number;
+    height: number;
+    depth: number;
 
     constructor(obj = {}) {
         this.parent = obj.parent;
@@ -175,6 +228,11 @@ export class SubGrid<T = number> {
                                  k + this.z);
     }
 
+    //TODO: use local index and convert to global index?
+    getAtIndex(idx: number): T {
+        return this.parent.getAtIndex(idx);
+    }
+
     setAt(i, j, k, value): void {
         this.parent.setAt(i + this.x,
                           j + this.y,
@@ -185,6 +243,12 @@ export class SubGrid<T = number> {
 	return this.parent.hasAt(i + this.x,
 				 j + this.y,
 				 k + this.z);
+    }
+
+    locateElement(i, j, k): T {
+	return this.parent.locateElement(i + this.x,
+					 j + this.y,
+					 k + this.z);
     }
 
     size(): number {
@@ -221,14 +285,60 @@ export class SubGrid<T = number> {
         });
     }
 
-    /**
-       SubGrid Lens Functions (1x1 Grid)
-     */
+    /*
+       BBox3 Functionality between SubGrids.
+    */
+    toBBox3(): BBox3 {
+	return new BBox3(this.x, this.y, this.z,
+			 this.width, this.height, this.depth);
+    }
+}
+
+/**
+   Used to crawl over a Grid3D or SubGrid.
+ */
+export class GridLens<T> {
+    parent: Grid3D<T>|SubGrid<T>;
+
+    x: number;
+    y: number;
+    z: number;
+
     get(): T {
-        return this.getAt(0, 0, 0);
+	return this.parent.getAt(x, y, z);
     }
 
-    set(v = null): void {
-        this.setAt(0, 0, 0, v);
+    set(v: T): void {
+	this.parent.setAt(x, y, z, v);
+    }
+
+    top(): T|null {
+	if (this.z > this.parent.depth-1) return null;
+	return this.parent.getAt(this.x, this.y, this.z+1);
+    }
+
+    bottom(): T|null {
+	if (this.z <= 1) return null;
+	return this.parent.getAt(this.x, this.y. this.z-1);
+    }
+
+    up(): T|null {
+        if (this.y >= this.parent.height-1) return null;
+        return this.parent.getAt(this.x, this.y+1, this.z);
+    }
+
+    right(): T|null {
+        if (this.x >= this.parent.width-1) return null;
+        return this.parent.getAt(this.x+1, this.y, this.z);
+    }
+
+    down(): T|null {
+        if (this.y <= 1) return null;
+        return this.parent.getAt(this.x, this.y-1, this.z);
+    }
+
+    left(): T|null {
+        if (this.x <= 1) return null;
+        return this.parent.getAt(this.x-1, this.y, this.z);
     }
 }
