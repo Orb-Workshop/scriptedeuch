@@ -19,7 +19,7 @@ export default class PathFinding<T> {
 	let path_grid = this.generatePathGrid();
 	let starting_node = path_grid.getAt(x, y, z);
         starting_node.sentinel = 0;
-        this.calculateCost(path_grid, x, y, z)
+        this.calculateCost(path_grid, x, y, z, costFunction);
         let unvisited_nodes = [];
         do {
             unvisited_nodes = path_grid.data.filter((element) => {
@@ -101,32 +101,32 @@ class PathElement {
     }
 
     top(): PathElement|null {
-        if (this.z >= this.path_grid.depth) return null;
+        if (this.z >= this.path_grid.depth-1) return null;
         return this.path_grid.getAt(this.x, this.y, this.z+1);
     }
 
     bottom(): PathElement|null {
-        if (this.z <= 0) return null;
+        if (this.z <= 1) return null;
         return this.path_grid.getAt(this.x, this.y, this.z-1);
     }
 
     up(): PathElement|null {
-        if (this.y >= this.path_grid.height) return null;
+        if (this.y >= this.path_grid.height-1) return null;
         return this.path_grid.getAt(this.x, this.y+1, this.z);
     }
 
     right(): PathElement|null {
-        if (this.x >= this.path_grid.width) return null;
+        if (this.x >= this.path_grid.width-1) return null;
         return this.path_grid.getAt(this.x+1, this.y, this.z);
     }
 
     down(): PathElement|null {
-        if (this.y <= 0) return null;
+        if (this.y <= 1) return null;
         return this.path_grid.getAt(this.x, this.y-1, this.z);
     }
 
     left(): PathElement|null {
-        if (this.x <= 0) return null;
+        if (this.x <= 1) return null;
         return this.path_grid.getAt(this.x-1, this.y, this.z);
     }
 }
