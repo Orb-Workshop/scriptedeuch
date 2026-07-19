@@ -5,13 +5,13 @@
 import { default as Grid3D, SubGrid } from "./Grid3D";
 
 export default class PathFinding<T> {
-    private base_grid: Grid3D<T>|SubGrid;
+    base_grid: Grid3D<T>|SubGrid;
 
     constructor(base_grid) {
 	this.base_grid = base_grid;
     }
 
-    getShortestPath(obj): Grid3D<PathElement> {
+    getShortestPaths(obj): Grid3D<PathElement> {
 	const {
 	    x, y, z = 0,
 	    costFunction = defaultCostFunction,
@@ -28,7 +28,11 @@ export default class PathFinding<T> {
             unvisited_nodes.forEach((element) => this.calculateCost(
                 path_grid, element.x, element.y, element.z, costFunction));
         } while (unvisited_nodes.length > 0);
-        return path_grid;
+
+	return new PathResult({
+	    path_grid,
+	    starting_point: [x, y, z],
+	});
     }
 
     private generatePathGrid(): Grid3D<PathElement> {
@@ -61,7 +65,7 @@ export default class PathFinding<T> {
         const compFunction = (e1: PathElement, e2: PathElement) => {
             if (e2.visited) return;
             let traversal_cost = (e1.sentinel ?? 0) + costFunction(this, e1, e2);
-            if (traversal_cost <= (e2.sentinel ?? 0)) {
+            if (e2.sentinel === null || traversal_cost <= e2.sentinel) {
                 e2.sentinel = traversal_cost;
                 e2.parent = e1;
             }
@@ -128,6 +132,32 @@ class PathElement {
     left(): PathElement|null {
         if (this.x <= 1) return null;
         return this.path_grid.getAt(this.x-1, this.y, this.z);
+    }
+}
+
+class PathResult {
+    path_grid: Grid3D<PathElement>;
+    starting_point: [number, number, number];
+
+    constructor(obj = {}) {
+	this.path_grid = obj.path_grid;
+	this.starting_point = obj.starting_point;
+    }
+
+    getPathTo(x: number, y: number, z: number = 0): Array<PathElement> {
+	const [px, py, pz] = this.starting_point;
+	const starting_point = this.path_grid.getAt(px, py, pz);
+	const ending_point = this.path_grid.getAt(x, y, z);
+	let current_point = ending_point;
+	let path_listing = [];
+	while(true) {
+	    path_listing.push(current_point);
+	    if (current_point === starting_point) break;
+	    if (current_point.parent === null) break;
+	    current_point = current_point.parent;
+	}
+	path_listing.reverse();
+	return path_listing;
     }
 }
 

@@ -98,6 +98,16 @@ export default class Grid3D<T = number> {
         this.data[this.index(i, j, k)] = value;
     }
 
+    hasAt(i: number, j: number, k: number): bool {
+	if (i < 0) return false;
+        if (i >= this.width) return false;
+        if (j < 0) return false;
+        if (j >= this.height) return false;
+        if (k < 0) return false;
+        if (k >= this.depth) return false;
+	return true;
+    }
+
     locateElement(x: number, y: number, z: number): T {
         x = (x >= 0) ? x : 0;
         x = (x <= this.width()-1) ? x : this.width()-1;
@@ -169,6 +179,12 @@ export class SubGrid<T = number> {
         this.parent.setAt(i + this.x,
                           j + this.y,
                           k + this.z);
+    }
+
+    hasAt(i, j, k): bool {
+	return this.parent.hasAt(i + this.x,
+				 j + this.y,
+				 k + this.z);
     }
 
     size(): number {
