@@ -10,4 +10,8 @@ export default class DiffusionLimitedAggregation {
 	this.srng = srng;
 	this.opts = opts;
     }
+
+    process({cycles: number = 50_000}): void {
+
+    }
 }

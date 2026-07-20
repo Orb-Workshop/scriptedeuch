@@ -3,4 +3,3 @@ export { default as SubGrid } from "./SubGrid";
 export { default as GridLens } from "./GridLens";
 export { default as PathFinding } from "./PathFinding";
 export { default as GridError } from "./GridError";
-export { default as GridType } from "./GridType";

@@ -1,8 +1,7 @@
 /**
    Interface used by Grid3D and SubGrid.
 */
-
-export default interface GridType<T> {
+export interface GridType<T> {
     width: number;
     height: number;
     depth: number;

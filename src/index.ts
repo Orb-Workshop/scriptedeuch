@@ -19,7 +19,7 @@ export * as Util from "./util";
 export * as Math from "./math";
 
 /** Grid Library */
-//export * as Grid from "./grid";
+export * as Grid from "./grid";
 
 /** Randomness Library */
 export * as Random from "./random";

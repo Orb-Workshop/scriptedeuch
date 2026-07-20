@@ -2,7 +2,7 @@
    PathFinding on Grid3D or SubGrid
 */
 import Grid3D from "./Grid3D";
-import GridType from "./GridType";
+import type GridType from "./GridType";
 
 export default class PathFinding<T> {
     base_grid: GridType;
