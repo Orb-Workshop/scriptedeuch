@@ -1,4 +1,4 @@
 /**
-
+   Procedural Generation Library
  */
-//export { default as DiffusionLimitedAggregation } from "./DiffusionLimitedAggregation";
+export { default as DiffusionLimitedAggregation } from "./DiffusionLimitedAggregation";

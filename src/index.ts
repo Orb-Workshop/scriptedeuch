@@ -28,4 +28,4 @@ export * as Noise from "./noise";
 export * as Helper from "./helper";
 
 /** Procedural Generation Library */
-export * as Procgen from "./procgen";
+//export * as Procgen from "./procgen";

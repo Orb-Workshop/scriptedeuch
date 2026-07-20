@@ -31,7 +31,7 @@ import BBox3 from "../BBox3";
 import SubGrid from "./SubGrid";
 import GridLens from "./GridLens";
 import GridError from "./GridError";
-import GridType from "./GridType";
+import type GridType from "./GridType";
 
 export default class Grid3D<T = number> implements GridType {
     private data: Array<T> = [];
@@ -77,7 +77,7 @@ export default class Grid3D<T = number> implements GridType {
         return array_index;
     }
 
-    forEachIndex(f): void {
+    forEachIndex(f: (i, j, k) => void): void {
         for (let k = 0; k < this.depth; k++) {
             for (let j = 0; j < this.height; j++) {
                 for (let i = 0; i < this.width; i++) {

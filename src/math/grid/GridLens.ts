@@ -1,7 +1,7 @@
 /**
    Used to crawl over a Grid3D or SubGrid.
 */
-import GridType from "./GridType";
+import type GridType from "./GridType";
 
 export default class GridLens<T> {
     parent: GridType;

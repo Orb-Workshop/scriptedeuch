@@ -3,10 +3,10 @@
    methods to easily navigate and compare between SubGrids.
 */
 import GridLens from "./GridLens";
-import Grid3D from "./Grid3D";
 import BBox3 from "../BBox3";
 import GridError from "./GridError";
-import GridType from "./GridType";
+import type GridType from "./GridType";
+import type Grid3D from "./Grid3D";
 
 export default class SubGrid<T = number> implements GridType {
     parent: Grid3D;

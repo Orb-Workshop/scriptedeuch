@@ -1,11 +1,11 @@
 /**
    PathFinding on Grid3D or SubGrid
 */
-
-import { default as Grid3D, SubGrid } from "./Grid3D";
+import Grid3D from "./Grid3D";
+import GridType from "./GridType";
 
 export default class PathFinding<T> {
-    base_grid: Grid3D<T>|SubGrid<T>;
+    base_grid: GridType;
 
     constructor(base_grid) {
 	this.base_grid = base_grid;
@@ -86,7 +86,7 @@ export default class PathFinding<T> {
     }
 }
 
-class PathElement {
+export class PathElement {
     // path
     parent?: PathElement = null; // Path Lowest Cost Parent
     sentinel?: number = null;
@@ -140,7 +140,7 @@ class PathElement {
    starting point, which is generated with
    `PathFinding.getShortestPath`.
  */
-class PathResult {
+export class PathResult {
     path_grid: Grid3D<PathElement>;
     starting_point: [number, number, number];
 
@@ -175,7 +175,7 @@ class PathResult {
 
    - Meant to be used for value grids, where the value is the cost.
  */
-function defaultCostFunction(ctx: PathFinding, e1: PathElement, e2: PathElement): number {
+export function defaultCostFunction(ctx: PathFinding, e1: PathElement, e2: PathElement): number {
     const path_grid = e1.path_grid;
     const base_grid = ctx.base_grid;
 
