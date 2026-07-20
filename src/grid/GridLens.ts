@@ -18,6 +18,10 @@ export default class GridLens<T> {
 	this.z = z;
     }
 
+    clone(): GridLens<T> {
+	return new GridLens<T>(this.parent, this.x, this.y, this.z);
+    }
+
     get(): T {
 	return this.parent.getAt(this.x, this.y, this.z);
     }
@@ -28,31 +32,31 @@ export default class GridLens<T> {
 
     top(): T|null {
 	if (this.z >= this.parent.depth-1) return null;
-	return this.parent.getAt(this.x, this.y, this.z+1);
+	return new GridLens<T>(this.parent, this.x, this.y, this.z+1);
     }
 
     bottom(): T|null {
 	if (this.z <= 1) return null;
-	return this.parent.getAt(this.x, this.y. this.z-1);
+	return new GridLens<T>(this.parent, this.x, this.y. this.z-1);
     }
 
     up(): T|null {
         if (this.y >= this.parent.height-1) return null;
-        return this.parent.getAt(this.x, this.y+1, this.z);
+        return new GridLens<T>(this.parent, this.x, this.y+1, this.z);
     }
 
     right(): T|null {
         if (this.x >= this.parent.width-1) return null;
-        return this.parent.getAt(this.x+1, this.y, this.z);
+        return new GridLens<T>(this.parent, this.x+1, this.y, this.z);
     }
 
     down(): T|null {
         if (this.y <= 1) return null;
-        return this.parent.getAt(this.x, this.y-1, this.z);
+        return new GridLens<T>(this.parent, this.x, this.y-1, this.z);
     }
 
     left(): T|null {
         if (this.x <= 1) return null;
-        return this.parent.getAt(this.x-1, this.y, this.z);
+        return new GridLens<T>(this.parent, this.x-1, this.y, this.z);
     }
 }

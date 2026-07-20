@@ -1,17 +1,112 @@
-import { GridLens } from "../grid";
+import type { GridLens } from "../grid";
 import type { GridType } from "../grid";
 import { SeededRandomNumberGenerator } from "../random";
 
-export default class DiffusionLimitedAggregation {
-    grid: GridType;
+const DEFAULT_CYCLES: number = 50_000;
+const DEFAULT_MAX_AGGREGATE: number = 6;
+
+export default class DiffusionLimitedAggregation<T = number> {
+    grid: GridType<T>;
     srng: SeededRandomNumberGenerator;
-    constructor(grid, srng, opts = {}) {
+
+    // Options
+    cycles: number = DEFAULT_CYCLES;
+    max_aggregate: number = DEFAULT_MAX_AGGREGATE;
+    fill_value: T = null;
+    filter_whitelist: Array<T> = [ 0 ];
+    seed_point: GridLens<T> = null;
+    //
+
+    current_aggregates: Array<GridLens<T>> = [];
+    particle: GridLens<T> = null;
+
+    constructor(grid: GridType, srng: SeededRandomNumberGenerator) {
 	this.grid = grid;
 	this.srng = srng;
-	this.opts = opts;
     }
 
-    process({cycles: number = 50_000}): void {
+    process(opts): void {
+	let {
+	    cycles = DEFAULT_CYCLES,
+	    max_aggregate = DEFAULT_MAX_AGGREGATE,
+	    fill_value = null,
+	    filter_whitelist = [ 0 ],
+	    seed_point = null,
+	} = opts;
+	this.cycles = cycles;
+	this.max_aggregate = max_aggregate;
+	this.fill_value = fill_value;
+	this.filter_whitelist = filter_whitelist;
 
+	this.seed_point = seed_point ?? this.generateParticle();
+	this.current_aggregates = [ this.seed_point ];
+	let bMaxAggregates = false;
+	for (let i = 0; i < this.cycles; i++) {
+	    bMaxAggregates = this.iterateCycle();
+	    if (bMaxAggregates) break;
+	}
+
+	this.current_aggregates.forEach((a) => a.set(fill_value));
     }
+
+    private generateParticle(opts): GridLens<T> {
+	while(true) {
+	    const x = this.srng.randomInteger(0, this.grid.width-1);
+	    const y = this.srng.randomInteger(0, this.grid.height-1);
+	    const z = this.srng.randomInteger(0, this.grid.depth-1);
+	    const l = this.grid.lens(x, y, z);
+	    if (this.filter_whitelist.includes(l.get())) {
+		return l;
+            }
+	}
+    }
+
+    private iterateCycle(): bool {
+	if (this.particle === null)
+	    this.particle = this.generateParticle();
+
+        // Check if we reached the maximum number of aggregates.
+        if (this.current_aggregates.length >= this.max_aggregate) return true;
+
+        // Check if the particle is near any aggregates
+	const checkAggregates = (p) => this.current_aggregates.includes(p?.get());
+
+        if (checkAggregates(this.particle.up()) ||
+            checkAggregates(this.particle.right()) ||
+            checkAggregates(this.particle.down()) ||
+            checkAggregates(this.particle.left()) ||
+	    checkAggregates(this.particle.top()) ||
+	    checkAggregates(this.particle.bottom())) {
+
+            // Check if I can place an aggregate here, otherwise fire a new particle.
+            if (this.filter_whitelist.includes(this.particle.get())) {
+                this.current_aggregates.push(this.particle.clone());
+                this.particle = null;
+                return false;
+            }
+            else {
+                this.particle = null;
+                return false;
+            }
+        }
+
+        let distribution = {
+            up: 1,
+            right: 1,
+            down: 1,
+            left: 1,
+	    top: 1,
+	    bottom: 1,
+        };
+
+        switch(this.srng.randomDistribution(distribution)) {
+            case "up": this.particle = this.particle.up(); break;
+            case "right": this.particle = this.particle.right(); break;
+            case "down": this.particle = this.particle.down(); break;
+            case "left": this.particle = this.particle.left(); break;
+	    case "top": this.particle = this.particle.top(); break;
+	    case "bottom": this.particle = this.particle.bottom(); break;
+        }
+        return false;
+    };
 }

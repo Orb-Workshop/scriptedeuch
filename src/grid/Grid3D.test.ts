@@ -105,8 +105,8 @@ test("Grid3D Lens", () => {
     expect(l.top()).toEqual(null);
     expect(l.bottom()).toEqual(null);
     expect(l.down()).toEqual(null);
-    expect(l.up()).toEqual(g.index(0, 1));
-    expect(l.right()).toEqual(g.index(1, 0));
+    expect(l.up()?.get()).toEqual(g.index(0, 1));
+    expect(l.right()?.get()).toEqual(g.index(1, 0));
 
     let sg = g.subGrid({
 	x: 5, y: 5, z: 0,
@@ -119,6 +119,6 @@ test("Grid3D Lens", () => {
     expect(l2.top()).toEqual(null);
     expect(l2.bottom()).toEqual(null);
     expect(l2.down()).toEqual(null);
-    expect(l2.up()).toEqual(g.index(5, 6));
-    expect(l2.right()).toEqual(g.index(6, 5));
+    expect(l2.up()?.get()).toEqual(g.index(5, 6));
+    expect(l2.right()?.get()).toEqual(g.index(6, 5));
 });
