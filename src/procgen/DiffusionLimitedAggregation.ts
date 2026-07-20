@@ -3,7 +3,7 @@ import type { GridType } from "../grid";
 import { SeededRandomNumberGenerator } from "../random";
 
 const DEFAULT_CYCLES: number = 50_000;
-const DEFAULT_MAX_AGGREGATE: number = 6;
+const DEFAULT_MAX_AGGREGATES: number = 6;
 
 export default class DiffusionLimitedAggregation<T = number> {
     grid: GridType<T>;
@@ -11,7 +11,7 @@ export default class DiffusionLimitedAggregation<T = number> {
 
     // Options
     cycles: number = DEFAULT_CYCLES;
-    max_aggregate: number = DEFAULT_MAX_AGGREGATE;
+    max_aggregates: number = DEFAULT_MAX_AGGREGATES;
     fill_value: T = null;
     filter_whitelist: Array<T> = [ 0 ];
     seed_point: GridLens<T> = null;
@@ -28,13 +28,13 @@ export default class DiffusionLimitedAggregation<T = number> {
     process(opts): void {
 	let {
 	    cycles = DEFAULT_CYCLES,
-	    max_aggregate = DEFAULT_MAX_AGGREGATE,
+	    max_aggregates = DEFAULT_MAX_AGGREGATES,
 	    fill_value = null,
 	    filter_whitelist = [ 0 ],
 	    seed_point = null,
 	} = opts;
 	this.cycles = cycles;
-	this.max_aggregate = max_aggregate;
+	this.max_aggregates = max_aggregates;
 	this.fill_value = fill_value;
 	this.filter_whitelist = filter_whitelist;
 
@@ -43,7 +43,10 @@ export default class DiffusionLimitedAggregation<T = number> {
 	let bMaxAggregates = false;
 	for (let i = 0; i < this.cycles; i++) {
 	    bMaxAggregates = this.iterateCycle();
-	    if (bMaxAggregates) break;
+	    if (bMaxAggregates) {
+		console.log("Max");
+		break;
+	    }
 	}
 
 	this.current_aggregates.forEach((a) => a.set(fill_value));
@@ -66,7 +69,7 @@ export default class DiffusionLimitedAggregation<T = number> {
 	    this.particle = this.generateParticle();
 
         // Check if we reached the maximum number of aggregates.
-        if (this.current_aggregates.length >= this.max_aggregate) return true;
+        if (this.current_aggregates.length >= this.max_aggregates) return true;
 
         // Check if the particle is near any aggregates
 	const checkAggregates = (p) => this.current_aggregates.find((a) => {
