@@ -31,9 +31,9 @@ import BBox3 from "../BBox3";
 import SubGrid from "./SubGrid";
 import GridLens from "./GridLens";
 import GridError from "./GridError";
+import GridType from "./GridType";
 
-
-export default class Grid3D<T = number> {
+export default class Grid3D<T = number> implements GridType {
     private data: Array<T> = [];
 
     width: number;

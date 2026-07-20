@@ -1,7 +1,4 @@
 /**
 
  */
-
-export class DiffusionLimitedAggregation {
-
-}
+//export { default as DiffusionLimitedAggregation } from "./DiffusionLimitedAggregation";

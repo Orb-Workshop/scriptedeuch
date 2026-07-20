@@ -23,4 +23,4 @@ export {
 } from "./EasingFunctions";
 
 // Grid Functionality
-export { Grid3D, SubGrid, GridLens, PathFinding, GridError } from "./grid";
+export { Grid3D, SubGrid, GridLens, PathFinding, GridError, GridType } from "./grid";

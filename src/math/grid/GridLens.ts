@@ -1,8 +1,10 @@
 /**
    Used to crawl over a Grid3D or SubGrid.
- */
+*/
+import GridType from "./GridType";
+
 export default class GridLens<T> {
-    parent: Grid3D<T>|SubGrid<T>;
+    parent: GridType;
 
     x: number;
     y: number;

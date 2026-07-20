@@ -1,6 +1,6 @@
 import { Instance as CSS } from "cs_script/point_script";
 import {
-    
+
     // Base of the Library Framework
     Base,
 
@@ -9,13 +9,13 @@ import {
 
     // Spawnable Actors in Framework, which extend Base.Actor
     Actor,
-    
+
     // Events Handling Library built on top of `Base.Actor` actor pool.
     Event,
 
     // Helper classes for wrapping and adapting to source2 entities.
     Helper,
-    
+
     // Math data types that extend the cs2 Vector and QAngle data interface.
     Math,
 
@@ -25,9 +25,12 @@ import {
     // Noise library
     Noise,
 
+    // Procedural Generation
+    Procgen,
+
     // Utility Functions
     Util,
-    
+
 } from "./index";
 
 const {
@@ -175,7 +178,7 @@ function Init() {
 const PlayerMountEventSender = new Event.Sender(Actor.PlayerMount.Tag);
 function InitPlayerMount(): void {
     CSS.FindEntitiesByClass("player").forEach(p => { p.mounted = false });
-    
+
     const button = Helper.FuncButton.Find("scriptedeuch.mount_button_use");
     button.OnPressed(({ activator }) => {
         const player = activator;
@@ -202,7 +205,7 @@ function InitPlayerMount(): void {
             particle_system_enabled = true;
         }
     });
-    
+
 }
 
 try {
@@ -229,4 +232,3 @@ Mount.Register("DoubleJump", new System.DoubleJumpSystem());
 // Listing off what's running
 CSS.Msg("Systems: " + Mount.List().join(", "))
 Mount.Start(); // go
-

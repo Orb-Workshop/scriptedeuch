@@ -15,14 +15,17 @@ export * as Event from "./event";
 /** Utility Library */
 export * as Util from "./util";
 
-/** Math Utility Library */
+/** Math Library */
 export * as Math from "./math";
 
-/** Random Utility Library */
+/** Randomness Library */
 export * as Random from "./random";
 
-/** Noise Utility Library */
+/** Noisy Library */
 export * as Noise from "./noise";
 
 /** Entity Helper Library */
 export * as Helper from "./helper";
+
+/** Procedural Generation Library */
+export * as Procgen from "./procgen";
