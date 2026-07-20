@@ -30,6 +30,14 @@ export default class GridLens<T> {
 	this.parent.setAt(this.x, this.y, this.z, v);
     }
 
+    isEqual(o: GridLens<T>): bool {
+	return (
+	    this.parent === o?.parent &&
+		this.x === o?.x &&
+		this.y === o?.y &&
+		this.z === o?.z);
+    }
+
     top(): T|null {
 	if (this.z >= this.parent.depth-1) return null;
 	return new GridLens<T>(this.parent, this.x, this.y, this.z+1);

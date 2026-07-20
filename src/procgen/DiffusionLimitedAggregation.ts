@@ -69,7 +69,9 @@ export default class DiffusionLimitedAggregation<T = number> {
         if (this.current_aggregates.length >= this.max_aggregate) return true;
 
         // Check if the particle is near any aggregates
-	const checkAggregates = (p) => this.current_aggregates.includes(p?.get());
+	const checkAggregates = (p) => this.current_aggregates.find((a) => {
+	    return a.isEqual(p);
+	});
 
         if (checkAggregates(this.particle.up()) ||
             checkAggregates(this.particle.right()) ||
@@ -91,12 +93,12 @@ export default class DiffusionLimitedAggregation<T = number> {
         }
 
         let distribution = {
-            up: 1,
-            right: 1,
-            down: 1,
-            left: 1,
-	    top: 1,
-	    bottom: 1,
+            up: (this.grid.height > 1) ? 1 : 0,
+            down: (this.grid.height > 1) ? 1 : 0,
+            right: (this.grid.width > 1) ? 1 : 0,
+            left: (this.grid.width > 1) ? 1 : 0,
+	    top: (this.grid.depth > 1) ? 1 : 0,
+	    bottom: (this.grid.depth > 1) ? 1 : 0,
         };
 
         switch(this.srng.randomDistribution(distribution)) {
