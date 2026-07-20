@@ -23,5 +23,4 @@ export {
 } from "./EasingFunctions";
 
 // Grid Functionality
-export { default as Grid3D, SubGrid } from "./grid/Grid3D";
-export { default as PathFinding } from "./grid/PathFinding";
+export { Grid3D, SubGrid, GridLens, PathFinding, GridError } from "./grid";

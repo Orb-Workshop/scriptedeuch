@@ -1,0 +1,56 @@
+/**
+   Used to crawl over a Grid3D or SubGrid.
+ */
+export default class GridLens<T> {
+    parent: Grid3D<T>|SubGrid<T>;
+
+    x: number;
+    y: number;
+    z: number;
+
+    constructor(parent, x, y, z) {
+	this.parent = parent;
+
+	this.x = x;
+	this.y = y;
+	this.z = z;
+    }
+
+    get(): T {
+	return this.parent.getAt(this.x, this.y, this.z);
+    }
+
+    set(v: T): void {
+	this.parent.setAt(this.x, this.y, this.z, v);
+    }
+
+    top(): T|null {
+	if (this.z >= this.parent.depth-1) return null;
+	return this.parent.getAt(this.x, this.y, this.z+1);
+    }
+
+    bottom(): T|null {
+	if (this.z <= 1) return null;
+	return this.parent.getAt(this.x, this.y. this.z-1);
+    }
+
+    up(): T|null {
+        if (this.y >= this.parent.height-1) return null;
+        return this.parent.getAt(this.x, this.y+1, this.z);
+    }
+
+    right(): T|null {
+        if (this.x >= this.parent.width-1) return null;
+        return this.parent.getAt(this.x+1, this.y, this.z);
+    }
+
+    down(): T|null {
+        if (this.y <= 1) return null;
+        return this.parent.getAt(this.x, this.y-1, this.z);
+    }
+
+    left(): T|null {
+        if (this.x <= 1) return null;
+        return this.parent.getAt(this.x-1, this.y, this.z);
+    }
+}
