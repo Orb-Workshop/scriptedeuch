@@ -32,3 +32,6 @@ export * as Helper from "./helper";
 
 /** Procedural Generation Library */
 export * as Procgen from "./procgen";
+
+/** Color Library */
+export { Color } from "./color";

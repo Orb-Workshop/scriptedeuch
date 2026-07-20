@@ -33,6 +33,3 @@ export { default as TriggerTeleport } from "./TriggerTeleport";
 
 // Extensions to cs2 entities. Often make up multiple entities
 export { default as MoveableSoundEvent } from "./MoveableSoundEvent";
-
-// Color class, implements point_script `Color` interface.
-export { default as Color } from "./Color";
