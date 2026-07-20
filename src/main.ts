@@ -19,6 +19,9 @@ import {
     // Math data types that extend the cs2 Vector and QAngle data interface.
     Math,
 
+    // Grid
+    Grid,
+
     // Randomness, seeded and unseeded.
     Random,
 

@@ -86,7 +86,7 @@ export default class PathFinding<T> {
     }
 }
 
-export class PathElement {
+class PathElement {
     // path
     parent?: PathElement = null; // Path Lowest Cost Parent
     sentinel?: number = null;
@@ -140,7 +140,7 @@ export class PathElement {
    starting point, which is generated with
    `PathFinding.getShortestPath`.
  */
-export class PathResult {
+class PathResult {
     path_grid: Grid3D<PathElement>;
     starting_point: [number, number, number];
 
@@ -175,7 +175,7 @@ export class PathResult {
 
    - Meant to be used for value grids, where the value is the cost.
  */
-export function defaultCostFunction(ctx: PathFinding, e1: PathElement, e2: PathElement): number {
+function defaultCostFunction(ctx: PathFinding, e1: PathElement, e2: PathElement): number {
     const path_grid = e1.path_grid;
     const base_grid = ctx.base_grid;
 

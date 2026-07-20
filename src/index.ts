@@ -18,6 +18,9 @@ export * as Util from "./util";
 /** Math Library */
 export * as Math from "./math";
 
+/** Grid Library */
+//export * as Grid from "./grid";
+
 /** Randomness Library */
 export * as Random from "./random";
 
@@ -28,4 +31,4 @@ export * as Noise from "./noise";
 export * as Helper from "./helper";
 
 /** Procedural Generation Library */
-//export * as Procgen from "./procgen";
+export * as Procgen from "./procgen";

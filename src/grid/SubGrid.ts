@@ -2,8 +2,8 @@
    Resembles a soft reference to a section of a Grid3D. Includes
    methods to easily navigate and compare between SubGrids.
 */
+import { BBox3 } from "../math";
 import GridLens from "./GridLens";
-import BBox3 from "../BBox3";
 import GridError from "./GridError";
 import type GridType from "./GridType";
 import type Grid3D from "./Grid3D";

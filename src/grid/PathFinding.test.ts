@@ -32,7 +32,7 @@ test("PathFinding Shortest Path 2", () => {
     expect(path[l_idx].z).toEqual(0);
 });
 
-import SeededRandomNumberGenerator from "../../random/Seededrandomnumbergenerator";
+import { SeededRandomNumberGenerator } from "../random";
 test("PathFinding Shortest Path w Custom Cost Function", () => {
     const srng = new SeededRandomNumberGenerator("test");
     const costFunction = (p, e1, e2) => {
@@ -50,7 +50,9 @@ test("PathFinding Shortest Path w Custom Cost Function", () => {
 	}
     };
 
-    let g = new Grid3D<string>({width: 10, height: 10, sentinel: "R"});
+    // 10 x 10 x 1 of 'Rock' strings
+    let g = new Grid3D<string>({width: 10, height: 10, sentinel: "Rock"});
+    // Generate random grid set of rocks, foliage, and ground.
     g.forEachIndex((i, j, k) => {
 	const v = srng.randomDistribution({
 	    Rock: 10,

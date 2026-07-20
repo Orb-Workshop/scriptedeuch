@@ -27,7 +27,7 @@
    - Supports 1D/2D Functionality. Omitting the height and depth values
    upon construction are '1' by default.
 */
-import BBox3 from "../BBox3";
+import { BBox3 } from "../math";
 import SubGrid from "./SubGrid";
 import GridLens from "./GridLens";
 import GridError from "./GridError";

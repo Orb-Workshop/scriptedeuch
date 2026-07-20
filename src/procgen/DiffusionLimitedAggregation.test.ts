@@ -1,4 +1,4 @@
-//mport { expect, test } from "bun:test";
+//import { expect, test } from "bun:test";
 //import { Grid3D } from "../math";
 //import { SeededRandomNumberGenerator } from "../random";
 //import { DiffusionLimitedAggregation } from "./index";

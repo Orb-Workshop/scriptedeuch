@@ -1,15 +1,8 @@
-import { GridType, GridLens } from "../math/grid";
+import { GridLens } from "../grid";
+import type { GridType } from "../grid";
 import { SeededRandomNumberGenerator } from "../random";
 
-interface Options {
-    cycles: number;
-    max_aggregate: number;
-    fill_type: any;
-    filter_whitelist: Array<any>;
-    seed_point: GridLens;
-}
-
-export class DiffusionLimitedAggregation {
+export default class DiffusionLimitedAggregation {
     grid: GridType;
     srng: SeededRandomNumberGenerator;
     constructor(grid, srng, opts = {}) {
