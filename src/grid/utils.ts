@@ -11,10 +11,10 @@ export function Display2D(g: Grid3D, z: number = 0): void {
 	for (let i = 0; i < g.width; i++) {
 	    line += " ";
 	    let v = g.getAt(i, j, z);
-	    if (typeof v == "string")
+	    if (typeof v === "string")
 		v = (v.length > 0) ? v[0] : "!";
-	    else if (typeof v == "number")
-		v = v.toString()[0];
+	    else if (typeof v === "number")
+		v = v % 10;
 	    else {
 		v = "X";
 	    }

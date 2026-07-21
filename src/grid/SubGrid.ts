@@ -43,7 +43,8 @@ export default class SubGrid<T = number> implements GridType {
     setAt(i, j, k, value): void {
         this.parent.setAt(i + this.x,
                           j + this.y,
-                          k + this.z);
+                          k + this.z,
+			  value);
     }
 
     hasAt(i, j, k): bool {
@@ -81,14 +82,28 @@ export default class SubGrid<T = number> implements GridType {
         }
     }
 
-    //
-    // SubGrid Specific
-    //
+    subGrid(opts): SubGrid<T> {
+	const {
+	    x,
+	    y,
+	    z = 0,
+	    width = 1,
+	    height = 1,
+	    depth = 1,
+	} = opts;
+
+	return this.parent.subGrid({
+	    x: this.x + x,
+	    y: this.y + y,
+	    z: this.z + z,
+	    width, height, depth,
+	});
+    }
 
     // Represents the Grid3D Global Index
     forEachGlobalIndex(f): void {
         this.forEachIndex((i, j, k) => {
-            f.bind(this)(i+this.i, j+this.j, k+this.k);
+            f.bind(this)(i+this.x, j+this.y, k+this.z);
         });
     }
 
@@ -104,12 +119,18 @@ export default class SubGrid<T = number> implements GridType {
       Returns a 'GridLens' instance. Useful for crawling/navigating the SubGrid space.
      */
     lens(x: number, y: number, z: number = 0): GridLens<T> {
-	if (x < 0) throw new GridError("GridLens 'x' value is out of bounds.");
-	if (x > this.width-1) throw new GridError("GridLens 'x' value is out of bounds.");
-	if (y < 0) throw new GridError("GridLens 'y' value is out of bounds.");
-	if (y > this.height-1) throw new GridError("GridLens 'y' value is out of bounds.");
-	if (z < 0) throw new GridError("GridLens 'z' value is out of bounds.");
-	if (z > this.depth-1) throw new GridError("GridLens 'z' value is out of bounds.");
+	if (x < 0)
+	    throw new GridError("GridLens 'x' value is out of bounds.");
+	if (x > this.width-1)
+	    throw new GridError("GridLens 'x' value is out of bounds.");
+	if (y < 0)
+	    throw new GridError("GridLens 'y' value is out of bounds.");
+	if (y > this.height-1)
+	    throw new GridError("GridLens 'y' value is out of bounds.");
+	if (z < 0)
+	    throw new GridError("GridLens 'z' value is out of bounds.");
+	if (z > this.depth-1)
+	    throw new GridError("GridLens 'z' value is out of bounds.");
 	return new GridLens<T>(this, x, y, z);
     }
 

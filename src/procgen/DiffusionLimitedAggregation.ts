@@ -44,7 +44,6 @@ export default class DiffusionLimitedAggregation<T = number> {
 	for (let i = 0; i < this.cycles; i++) {
 	    bMaxAggregates = this.iterateCycle();
 	    if (bMaxAggregates) {
-		console.log("Max");
 		break;
 	    }
 	}
@@ -69,7 +68,8 @@ export default class DiffusionLimitedAggregation<T = number> {
 	    this.particle = this.generateParticle();
 
         // Check if we reached the maximum number of aggregates.
-        if (this.current_aggregates.length >= this.max_aggregates) return true;
+        if (this.current_aggregates.length >= this.max_aggregates)
+	    return true;
 
         // Check if the particle is near any aggregates
 	const checkAggregates = (p) => this.current_aggregates.find((a) => {
