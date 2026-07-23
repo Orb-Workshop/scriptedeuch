@@ -34,3 +34,24 @@ test("Room Generation Init 2", () => {
     }
     Display2D(g);
 });
+
+
+test("Room Generation Init 3", () => {
+    let g = new Grid3D({ width: 24, height: 24, sentinel: 0 });
+    let srng = new SeededRandomNumberGenerator("test6");
+    let rg = new RoomGeneration(g, srng);
+
+    for (let ii = 1; ii <= 9; ii++) {
+	const room = rg.generateRoom({
+	    width: srng.randomInteger(2, 10),
+	    height: srng.randomInteger(2, 10),
+	});
+	if (room !== null)
+	    room.forEachGlobalIndex((i, j, k) => {
+		g.setAt(i, j, k, ii);
+	    });
+	else
+	    console.log("Failed to find room, skipped...");
+    }
+    Display2D(g);
+});
