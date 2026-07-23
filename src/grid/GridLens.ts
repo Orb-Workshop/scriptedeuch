@@ -44,7 +44,7 @@ export default class GridLens<T> {
     }
 
     bottom(): T|null {
-	if (this.z <= 1) return null;
+	if (this.z <= 0) return null;
 	return new GridLens<T>(this.parent, this.x, this.y. this.z-1);
     }
 
@@ -59,12 +59,12 @@ export default class GridLens<T> {
     }
 
     down(): T|null {
-        if (this.y <= 1) return null;
+        if (this.y <= 0) return null;
         return new GridLens<T>(this.parent, this.x, this.y-1, this.z);
     }
 
     left(): T|null {
-        if (this.x <= 1) return null;
+        if (this.x <= 0) return null;
         return new GridLens<T>(this.parent, this.x-1, this.y, this.z);
     }
 }
