@@ -46,8 +46,6 @@ export default class PathCrawler<T> {
 	let crawl_path = [ this.starting_point ];
 	let crawler = this.starting_point;
 	for (let s = 0; s < this.steps; s++) {
-	    console.log("Step: ", s);
-	    console.log("Crawler ", crawler.x, crawler.y, crawler.z);
 	    const l_distribution = {
 		left: (crawler.x <= 0) ? 0 : distribution.left,
 		right: (crawler.x >= this.grid.width-1) ? 0 : distribution.right,
@@ -56,7 +54,6 @@ export default class PathCrawler<T> {
 		top: (crawler.z >= this.grid.depth-1) ? 0 : distribution.top,
 		bottom: (crawler.z <= 0) ? 0 : distribution.bottom,
 	    };
-	    console.log(l_distribution);
 	    switch(this.srng.randomDistribution(l_distribution)) {
 		case "left": crawler = crawler.left(); break;
 		case "right": crawler = crawler.right(); break;
