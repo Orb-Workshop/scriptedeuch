@@ -12,7 +12,7 @@ Entity Helper Library
 
 ### WinCondition
 
-Defined in: [helper/InfoMapParameters.ts:48](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/InfoMapParameters.ts#L48)
+Defined in: [src/helper/InfoMapParameters.ts:48](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/InfoMapParameters.ts#L48)
 
 @see: https://developer.valvesoftware.com/wiki/Info_map_parameters_(Counter-Strike_series)
 
@@ -20,28 +20,28 @@ Defined in: [helper/InfoMapParameters.ts:48](https://github.com/Orb-Workshop/scr
 
 | Enumeration Member | Value | Defined in |
 | ------ | ------ | ------ |
-| <a id="enumeration-member-all_hostages_rescued"></a> `ALL_HOSTAGES_RESCUED` | `10` | [helper/InfoMapParameters.ts:59](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/InfoMapParameters.ts#L59) |
-| <a id="enumeration-member-bomb_defused"></a> `BOMB_DEFUSED` | `6` | [helper/InfoMapParameters.ts:55](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/InfoMapParameters.ts#L55) |
-| <a id="enumeration-member-cts_prevent_escape"></a> `CTS_PREVENT_ESCAPE` | `4` | [helper/InfoMapParameters.ts:53](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/InfoMapParameters.ts#L53) |
-| <a id="enumeration-member-cts_win"></a> `CTS_WIN` | `7` | [helper/InfoMapParameters.ts:56](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/InfoMapParameters.ts#L56) |
-| <a id="enumeration-member-draw"></a> `DRAW` | `9` | [helper/InfoMapParameters.ts:58](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/InfoMapParameters.ts#L58) |
-| <a id="enumeration-member-escaping_terrorists_neutralized"></a> `ESCAPING_TERRORISTS_NEUTRALIZED` | `5` | [helper/InfoMapParameters.ts:54](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/InfoMapParameters.ts#L54) |
-| <a id="enumeration-member-game_commencing"></a> `GAME_COMMENCING` | `15` | [helper/InfoMapParameters.ts:64](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/InfoMapParameters.ts#L64) |
-| <a id="enumeration-member-hostages_not_rescued"></a> `HOSTAGES_NOT_RESCUED` | `12` | [helper/InfoMapParameters.ts:61](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/InfoMapParameters.ts#L61) |
-| <a id="enumeration-member-target_bombed"></a> `TARGET_BOMBED` | `0` | [helper/InfoMapParameters.ts:49](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/InfoMapParameters.ts#L49) |
-| <a id="enumeration-member-target_saved"></a> `TARGET_SAVED` | `11` | [helper/InfoMapParameters.ts:60](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/InfoMapParameters.ts#L60) |
-| <a id="enumeration-member-terrorists_escaped"></a> `TERRORISTS_ESCAPED` | `3` | [helper/InfoMapParameters.ts:52](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/InfoMapParameters.ts#L52) |
-| <a id="enumeration-member-terrorists_not_escaped"></a> `TERRORISTS_NOT_ESCAPED` | `13` | [helper/InfoMapParameters.ts:62](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/InfoMapParameters.ts#L62) |
-| <a id="enumeration-member-terrorists_win"></a> `TERRORISTS_WIN` | `8` | [helper/InfoMapParameters.ts:57](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/InfoMapParameters.ts#L57) |
-| <a id="enumeration-member-vip_assassinated"></a> `VIP_ASSASSINATED` | `2` | [helper/InfoMapParameters.ts:51](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/InfoMapParameters.ts#L51) |
-| <a id="enumeration-member-vip_escaped"></a> `VIP_ESCAPED` | `1` | [helper/InfoMapParameters.ts:50](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/InfoMapParameters.ts#L50) |
-| <a id="enumeration-member-vip_not_escaped"></a> `VIP_NOT_ESCAPED` | `14` | [helper/InfoMapParameters.ts:63](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/InfoMapParameters.ts#L63) |
+| <a id="enumeration-member-all_hostages_rescued"></a> `ALL_HOSTAGES_RESCUED` | `10` | [src/helper/InfoMapParameters.ts:59](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/InfoMapParameters.ts#L59) |
+| <a id="enumeration-member-bomb_defused"></a> `BOMB_DEFUSED` | `6` | [src/helper/InfoMapParameters.ts:55](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/InfoMapParameters.ts#L55) |
+| <a id="enumeration-member-cts_prevent_escape"></a> `CTS_PREVENT_ESCAPE` | `4` | [src/helper/InfoMapParameters.ts:53](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/InfoMapParameters.ts#L53) |
+| <a id="enumeration-member-cts_win"></a> `CTS_WIN` | `7` | [src/helper/InfoMapParameters.ts:56](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/InfoMapParameters.ts#L56) |
+| <a id="enumeration-member-draw"></a> `DRAW` | `9` | [src/helper/InfoMapParameters.ts:58](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/InfoMapParameters.ts#L58) |
+| <a id="enumeration-member-escaping_terrorists_neutralized"></a> `ESCAPING_TERRORISTS_NEUTRALIZED` | `5` | [src/helper/InfoMapParameters.ts:54](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/InfoMapParameters.ts#L54) |
+| <a id="enumeration-member-game_commencing"></a> `GAME_COMMENCING` | `15` | [src/helper/InfoMapParameters.ts:64](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/InfoMapParameters.ts#L64) |
+| <a id="enumeration-member-hostages_not_rescued"></a> `HOSTAGES_NOT_RESCUED` | `12` | [src/helper/InfoMapParameters.ts:61](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/InfoMapParameters.ts#L61) |
+| <a id="enumeration-member-target_bombed"></a> `TARGET_BOMBED` | `0` | [src/helper/InfoMapParameters.ts:49](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/InfoMapParameters.ts#L49) |
+| <a id="enumeration-member-target_saved"></a> `TARGET_SAVED` | `11` | [src/helper/InfoMapParameters.ts:60](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/InfoMapParameters.ts#L60) |
+| <a id="enumeration-member-terrorists_escaped"></a> `TERRORISTS_ESCAPED` | `3` | [src/helper/InfoMapParameters.ts:52](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/InfoMapParameters.ts#L52) |
+| <a id="enumeration-member-terrorists_not_escaped"></a> `TERRORISTS_NOT_ESCAPED` | `13` | [src/helper/InfoMapParameters.ts:62](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/InfoMapParameters.ts#L62) |
+| <a id="enumeration-member-terrorists_win"></a> `TERRORISTS_WIN` | `8` | [src/helper/InfoMapParameters.ts:57](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/InfoMapParameters.ts#L57) |
+| <a id="enumeration-member-vip_assassinated"></a> `VIP_ASSASSINATED` | `2` | [src/helper/InfoMapParameters.ts:51](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/InfoMapParameters.ts#L51) |
+| <a id="enumeration-member-vip_escaped"></a> `VIP_ESCAPED` | `1` | [src/helper/InfoMapParameters.ts:50](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/InfoMapParameters.ts#L50) |
+| <a id="enumeration-member-vip_not_escaped"></a> `VIP_NOT_ESCAPED` | `14` | [src/helper/InfoMapParameters.ts:63](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/InfoMapParameters.ts#L63) |
 
 ## Classes
 
 ### BaseModelEntity
 
-Defined in: [helper/BaseModelEntity.ts:14](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L14)
+Defined in: [src/helper/BaseModelEntity.ts:14](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L14)
 
 #### Extends
 
@@ -61,7 +61,7 @@ Defined in: [helper/BaseModelEntity.ts:14](https://github.com/Orb-Workshop/scrip
 
 > **new BaseModelEntity**(`entity`): [`BaseModelEntity`](#basemodelentity)
 
-Defined in: [helper/BaseModelEntity.ts:15](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L15)
+Defined in: [src/helper/BaseModelEntity.ts:15](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L15)
 
 ###### Parameters
 
@@ -75,7 +75,7 @@ Defined in: [helper/BaseModelEntity.ts:15](https://github.com/Orb-Workshop/scrip
 
 ###### Overrides
 
-[`EntityHelper`](#abstract-entityhelper).[`constructor`](#constructor-2)
+[`EntityHelper`](#abstract-entityhelper).[`constructor`](#constructor-1)
 
 #### Accessors
 
@@ -85,7 +85,7 @@ Defined in: [helper/BaseModelEntity.ts:15](https://github.com/Orb-Workshop/scrip
 
 > **get** **raw**(): `Entity`
 
-Defined in: [helper/EntityHelper.ts:57](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L57)
+Defined in: [src/helper/EntityHelper.ts:57](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L57)
 
 ###### Returns
 
@@ -101,7 +101,7 @@ Defined in: [helper/EntityHelper.ts:57](https://github.com/Orb-Workshop/scripted
 
 > **ConnectOutput**(`event_name`, `callback`): `void`
 
-Defined in: [helper/EntityHelper.ts:95](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L95)
+Defined in: [src/helper/EntityHelper.ts:95](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L95)
 
 Represents EventListening of IO entities with `this.ConnectOutput`
 TODO: Use Global Events to 'latch onto' the callbacks this method represents.
@@ -125,7 +125,7 @@ TODO: Use Global Events to 'latch onto' the callbacks this method represents.
 
 > **FireIO**(`opts?`): `void`
 
-Defined in: [helper/EntityHelper.ts:59](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L59)
+Defined in: [src/helper/EntityHelper.ts:59](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L59)
 
 ###### Parameters
 
@@ -145,7 +145,7 @@ Defined in: [helper/EntityHelper.ts:59](https://github.com/Orb-Workshop/scripted
 
 > **FireUser1**(`opts?`): `void`
 
-Defined in: [helper/EntityHelper.ts:68](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L68)
+Defined in: [src/helper/EntityHelper.ts:68](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L68)
 
 ###### Parameters
 
@@ -165,7 +165,7 @@ Defined in: [helper/EntityHelper.ts:68](https://github.com/Orb-Workshop/scripted
 
 > **FireUser2**(`opts?`): `void`
 
-Defined in: [helper/EntityHelper.ts:72](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L72)
+Defined in: [src/helper/EntityHelper.ts:72](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L72)
 
 ###### Parameters
 
@@ -185,7 +185,7 @@ Defined in: [helper/EntityHelper.ts:72](https://github.com/Orb-Workshop/scripted
 
 > **FireUser3**(`opts?`): `void`
 
-Defined in: [helper/EntityHelper.ts:76](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L76)
+Defined in: [src/helper/EntityHelper.ts:76](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L76)
 
 ###### Parameters
 
@@ -205,7 +205,7 @@ Defined in: [helper/EntityHelper.ts:76](https://github.com/Orb-Workshop/scripted
 
 > **FireUser4**(`opts?`): `void`
 
-Defined in: [helper/EntityHelper.ts:80](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L80)
+Defined in: [src/helper/EntityHelper.ts:80](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L80)
 
 ###### Parameters
 
@@ -225,7 +225,7 @@ Defined in: [helper/EntityHelper.ts:80](https://github.com/Orb-Workshop/scripted
 
 > **GetAbsAngles**(): [`QAngle`](Math.md#qangle)
 
-Defined in: [helper/EntityHelper.ts:126](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L126)
+Defined in: [src/helper/EntityHelper.ts:126](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L126)
 
 ###### Returns
 
@@ -239,7 +239,7 @@ Defined in: [helper/EntityHelper.ts:126](https://github.com/Orb-Workshop/scripte
 
 > **GetAbsOrigin**(): [`Vector3`](Math.md#vector3)
 
-Defined in: [helper/EntityHelper.ts:118](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L118)
+Defined in: [src/helper/EntityHelper.ts:118](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L118)
 
 ###### Returns
 
@@ -253,7 +253,7 @@ Defined in: [helper/EntityHelper.ts:118](https://github.com/Orb-Workshop/scripte
 
 > **GetAbsVelocity**(): [`Vector3`](Math.md#vector3)
 
-Defined in: [helper/EntityHelper.ts:134](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L134)
+Defined in: [src/helper/EntityHelper.ts:134](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L134)
 
 ###### Returns
 
@@ -267,7 +267,7 @@ Defined in: [helper/EntityHelper.ts:134](https://github.com/Orb-Workshop/scripte
 
 > **GetClassName**(): `string`
 
-Defined in: [helper/EntityHelper.ts:154](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L154)
+Defined in: [src/helper/EntityHelper.ts:154](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L154)
 
 ###### Returns
 
@@ -281,7 +281,7 @@ Defined in: [helper/EntityHelper.ts:154](https://github.com/Orb-Workshop/scripte
 
 > **GetColor**(): `ColorType`
 
-Defined in: [helper/BaseModelEntity.ts:59](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L59)
+Defined in: [src/helper/BaseModelEntity.ts:59](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L59)
 
 ###### Returns
 
@@ -291,7 +291,7 @@ Defined in: [helper/BaseModelEntity.ts:59](https://github.com/Orb-Workshop/scrip
 
 > **GetEntityName**(): `string`
 
-Defined in: [helper/EntityHelper.ts:158](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L158)
+Defined in: [src/helper/EntityHelper.ts:158](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L158)
 
 ###### Returns
 
@@ -305,7 +305,7 @@ Defined in: [helper/EntityHelper.ts:158](https://github.com/Orb-Workshop/scripte
 
 > **GetEyeAngles**(): [`QAngle`](Math.md#qangle)
 
-Defined in: [helper/EntityHelper.ts:142](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L142)
+Defined in: [src/helper/EntityHelper.ts:142](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L142)
 
 ###### Returns
 
@@ -319,7 +319,7 @@ Defined in: [helper/EntityHelper.ts:142](https://github.com/Orb-Workshop/scripte
 
 > **GetEyePosition**(): [`Vector3`](Math.md#vector3)
 
-Defined in: [helper/EntityHelper.ts:146](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L146)
+Defined in: [src/helper/EntityHelper.ts:146](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L146)
 
 ###### Returns
 
@@ -333,7 +333,7 @@ Defined in: [helper/EntityHelper.ts:146](https://github.com/Orb-Workshop/scripte
 
 > **GetGroundEntity**(): `any`
 
-Defined in: [helper/EntityHelper.ts:218](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L218)
+Defined in: [src/helper/EntityHelper.ts:218](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L218)
 
 ###### Returns
 
@@ -347,7 +347,7 @@ Defined in: [helper/EntityHelper.ts:218](https://github.com/Orb-Workshop/scripte
 
 > **GetHealth**(): `number`
 
-Defined in: [helper/EntityHelper.ts:186](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L186)
+Defined in: [src/helper/EntityHelper.ts:186](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L186)
 
 ###### Returns
 
@@ -361,7 +361,7 @@ Defined in: [helper/EntityHelper.ts:186](https://github.com/Orb-Workshop/scripte
 
 > **GetLocalAngles**(): [`QAngle`](Math.md#qangle)
 
-Defined in: [helper/EntityHelper.ts:130](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L130)
+Defined in: [src/helper/EntityHelper.ts:130](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L130)
 
 ###### Returns
 
@@ -375,7 +375,7 @@ Defined in: [helper/EntityHelper.ts:130](https://github.com/Orb-Workshop/scripte
 
 > **GetLocalOrigin**(): [`Vector3`](Math.md#vector3)
 
-Defined in: [helper/EntityHelper.ts:122](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L122)
+Defined in: [src/helper/EntityHelper.ts:122](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L122)
 
 ###### Returns
 
@@ -389,7 +389,7 @@ Defined in: [helper/EntityHelper.ts:122](https://github.com/Orb-Workshop/scripte
 
 > **GetLocalVelocity**(): [`Vector3`](Math.md#vector3)
 
-Defined in: [helper/EntityHelper.ts:138](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L138)
+Defined in: [src/helper/EntityHelper.ts:138](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L138)
 
 ###### Returns
 
@@ -403,7 +403,7 @@ Defined in: [helper/EntityHelper.ts:138](https://github.com/Orb-Workshop/scripte
 
 > **GetMaxHealth**(): `number`
 
-Defined in: [helper/EntityHelper.ts:198](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L198)
+Defined in: [src/helper/EntityHelper.ts:198](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L198)
 
 ###### Returns
 
@@ -417,7 +417,7 @@ Defined in: [helper/EntityHelper.ts:198](https://github.com/Orb-Workshop/scripte
 
 > **GetModelName**(): `string`
 
-Defined in: [helper/BaseModelEntity.ts:43](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L43)
+Defined in: [src/helper/BaseModelEntity.ts:43](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L43)
 
 ###### Returns
 
@@ -427,7 +427,7 @@ Defined in: [helper/BaseModelEntity.ts:43](https://github.com/Orb-Workshop/scrip
 
 > **GetModelScale**(): `string`
 
-Defined in: [helper/BaseModelEntity.ts:51](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L51)
+Defined in: [src/helper/BaseModelEntity.ts:51](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L51)
 
 ###### Returns
 
@@ -437,7 +437,7 @@ Defined in: [helper/BaseModelEntity.ts:51](https://github.com/Orb-Workshop/scrip
 
 > **GetOwner**(): `any`
 
-Defined in: [helper/EntityHelper.ts:166](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L166)
+Defined in: [src/helper/EntityHelper.ts:166](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L166)
 
 ###### Returns
 
@@ -451,7 +451,7 @@ Defined in: [helper/EntityHelper.ts:166](https://github.com/Orb-Workshop/scripte
 
 > **GetParent**(): `any`
 
-Defined in: [helper/EntityHelper.ts:174](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L174)
+Defined in: [src/helper/EntityHelper.ts:174](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L174)
 
 ###### Returns
 
@@ -465,7 +465,7 @@ Defined in: [helper/EntityHelper.ts:174](https://github.com/Orb-Workshop/scripte
 
 > **GetTeamNumber**(): `number`
 
-Defined in: [helper/EntityHelper.ts:182](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L182)
+Defined in: [src/helper/EntityHelper.ts:182](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L182)
 
 ###### Returns
 
@@ -479,7 +479,7 @@ Defined in: [helper/EntityHelper.ts:182](https://github.com/Orb-Workshop/scripte
 
 > **Glow**(`color?`): `void`
 
-Defined in: [helper/BaseModelEntity.ts:63](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L63)
+Defined in: [src/helper/BaseModelEntity.ts:63](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L63)
 
 ###### Parameters
 
@@ -495,7 +495,7 @@ Defined in: [helper/BaseModelEntity.ts:63](https://github.com/Orb-Workshop/scrip
 
 > **IsAlive**(): `boolean`
 
-Defined in: [helper/EntityHelper.ts:210](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L210)
+Defined in: [src/helper/EntityHelper.ts:210](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L210)
 
 ###### Returns
 
@@ -509,7 +509,7 @@ Defined in: [helper/EntityHelper.ts:210](https://github.com/Orb-Workshop/scripte
 
 > **IsGlowing**(): `boolean`
 
-Defined in: [helper/BaseModelEntity.ts:71](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L71)
+Defined in: [src/helper/BaseModelEntity.ts:71](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L71)
 
 ###### Returns
 
@@ -519,7 +519,7 @@ Defined in: [helper/BaseModelEntity.ts:71](https://github.com/Orb-Workshop/scrip
 
 > **IsValid**(): `boolean`
 
-Defined in: [helper/EntityHelper.ts:114](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L114)
+Defined in: [src/helper/EntityHelper.ts:114](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L114)
 
 ###### Returns
 
@@ -533,7 +533,7 @@ Defined in: [helper/EntityHelper.ts:114](https://github.com/Orb-Workshop/scripte
 
 > **IsWorld**(): `boolean`
 
-Defined in: [helper/EntityHelper.ts:214](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L214)
+Defined in: [src/helper/EntityHelper.ts:214](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L214)
 
 ###### Returns
 
@@ -547,7 +547,7 @@ Defined in: [helper/EntityHelper.ts:214](https://github.com/Orb-Workshop/scripte
 
 > **Kill**(): `void`
 
-Defined in: [helper/EntityHelper.ts:226](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L226)
+Defined in: [src/helper/EntityHelper.ts:226](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L226)
 
 ###### Returns
 
@@ -561,7 +561,7 @@ Defined in: [helper/EntityHelper.ts:226](https://github.com/Orb-Workshop/scripte
 
 > **KillAll**(): `void`
 
-Defined in: [helper/EntityHelper.ts:234](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L234)
+Defined in: [src/helper/EntityHelper.ts:234](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L234)
 
 ###### Returns
 
@@ -575,7 +575,7 @@ Defined in: [helper/EntityHelper.ts:234](https://github.com/Orb-Workshop/scripte
 
 > **KillHierarchy**(`opts?`): `void`
 
-Defined in: [helper/EntityHelper.ts:230](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L230)
+Defined in: [src/helper/EntityHelper.ts:230](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L230)
 
 ###### Parameters
 
@@ -595,7 +595,7 @@ Defined in: [helper/EntityHelper.ts:230](https://github.com/Orb-Workshop/scripte
 
 > **On**(`event_name`, `callback`): [`EntityHelper`](#abstract-entityhelper)
 
-Defined in: [helper/EntityHelper.ts:104](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L104)
+Defined in: [src/helper/EntityHelper.ts:104](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L104)
 
 ###### Parameters
 
@@ -616,7 +616,7 @@ Defined in: [helper/EntityHelper.ts:104](https://github.com/Orb-Workshop/scripte
 
 > **Remove**(): `void`
 
-Defined in: [helper/EntityHelper.ts:238](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L238)
+Defined in: [src/helper/EntityHelper.ts:238](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L238)
 
 ###### Returns
 
@@ -630,7 +630,7 @@ Defined in: [helper/EntityHelper.ts:238](https://github.com/Orb-Workshop/scripte
 
 > **SetColor**(`c`): `void`
 
-Defined in: [helper/BaseModelEntity.ts:55](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L55)
+Defined in: [src/helper/BaseModelEntity.ts:55](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L55)
 
 ###### Parameters
 
@@ -646,7 +646,7 @@ Defined in: [helper/BaseModelEntity.ts:55](https://github.com/Orb-Workshop/scrip
 
 > **SetEntityName**(`s`): `void`
 
-Defined in: [helper/EntityHelper.ts:162](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L162)
+Defined in: [src/helper/EntityHelper.ts:162](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L162)
 
 ###### Parameters
 
@@ -666,7 +666,7 @@ Defined in: [helper/EntityHelper.ts:162](https://github.com/Orb-Workshop/scripte
 
 > **SetHealth**(`hp`): `void`
 
-Defined in: [helper/EntityHelper.ts:190](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L190)
+Defined in: [src/helper/EntityHelper.ts:190](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L190)
 
 ###### Parameters
 
@@ -686,7 +686,7 @@ Defined in: [helper/EntityHelper.ts:190](https://github.com/Orb-Workshop/scripte
 
 > **SetMaxHealth**(`hp`): `void`
 
-Defined in: [helper/EntityHelper.ts:202](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L202)
+Defined in: [src/helper/EntityHelper.ts:202](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L202)
 
 ###### Parameters
 
@@ -706,7 +706,7 @@ Defined in: [helper/EntityHelper.ts:202](https://github.com/Orb-Workshop/scripte
 
 > **SetModel**(`s`): `void`
 
-Defined in: [helper/BaseModelEntity.ts:39](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L39)
+Defined in: [src/helper/BaseModelEntity.ts:39](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L39)
 
 ###### Parameters
 
@@ -722,7 +722,7 @@ Defined in: [helper/BaseModelEntity.ts:39](https://github.com/Orb-Workshop/scrip
 
 > **SetModelScale**(`s`): `void`
 
-Defined in: [helper/BaseModelEntity.ts:47](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L47)
+Defined in: [src/helper/BaseModelEntity.ts:47](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L47)
 
 ###### Parameters
 
@@ -738,7 +738,7 @@ Defined in: [helper/BaseModelEntity.ts:47](https://github.com/Orb-Workshop/scrip
 
 > **SetOwner**(`e`): `void`
 
-Defined in: [helper/EntityHelper.ts:170](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L170)
+Defined in: [src/helper/EntityHelper.ts:170](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L170)
 
 ###### Parameters
 
@@ -758,7 +758,7 @@ Defined in: [helper/EntityHelper.ts:170](https://github.com/Orb-Workshop/scripte
 
 > **SetParent**(`e`): `void`
 
-Defined in: [helper/EntityHelper.ts:178](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L178)
+Defined in: [src/helper/EntityHelper.ts:178](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L178)
 
 ###### Parameters
 
@@ -778,7 +778,7 @@ Defined in: [helper/EntityHelper.ts:178](https://github.com/Orb-Workshop/scripte
 
 > **TakeDamage**(`__namedParameters`): `number`
 
-Defined in: [helper/EntityHelper.ts:222](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L222)
+Defined in: [src/helper/EntityHelper.ts:222](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L222)
 
 ###### Parameters
 
@@ -802,7 +802,7 @@ Defined in: [helper/EntityHelper.ts:222](https://github.com/Orb-Workshop/scripte
 
 > **Teleport**(`__namedParameters`): `void`
 
-Defined in: [helper/EntityHelper.ts:150](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L150)
+Defined in: [src/helper/EntityHelper.ts:150](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L150)
 
 ###### Parameters
 
@@ -825,7 +825,7 @@ Defined in: [helper/EntityHelper.ts:150](https://github.com/Orb-Workshop/scripte
 
 > **Unglow**(): `void`
 
-Defined in: [helper/BaseModelEntity.ts:67](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L67)
+Defined in: [src/helper/BaseModelEntity.ts:67](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L67)
 
 ###### Returns
 
@@ -835,7 +835,7 @@ Defined in: [helper/BaseModelEntity.ts:67](https://github.com/Orb-Workshop/scrip
 
 > `static` **Find**(`r`): [`BaseModelEntity`](#basemodelentity)
 
-Defined in: [helper/BaseModelEntity.ts:25](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L25)
+Defined in: [src/helper/BaseModelEntity.ts:25](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L25)
 
 ###### Parameters
 
@@ -855,7 +855,7 @@ Defined in: [helper/BaseModelEntity.ts:25](https://github.com/Orb-Workshop/scrip
 
 > `static` **FindAll**(`r`): [`BaseModelEntity`](#basemodelentity)[]
 
-Defined in: [helper/BaseModelEntity.ts:30](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L30)
+Defined in: [src/helper/BaseModelEntity.ts:30](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L30)
 
 ###### Parameters
 
@@ -875,7 +875,7 @@ Defined in: [helper/BaseModelEntity.ts:30](https://github.com/Orb-Workshop/scrip
 
 > `static` **FindAllByClass**(`classname`, `r`): [`EntityHelper`](#abstract-entityhelper)[]
 
-Defined in: [helper/EntityHelper.ts:52](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L52)
+Defined in: [src/helper/EntityHelper.ts:52](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L52)
 
 ###### Parameters
 
@@ -896,7 +896,7 @@ Defined in: [helper/EntityHelper.ts:52](https://github.com/Orb-Workshop/scripted
 
 > `static` **FindByClass**(`classname`, `r`, `error?`): [`EntityHelper`](#abstract-entityhelper) \| `null`
 
-Defined in: [helper/EntityHelper.ts:44](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L44)
+Defined in: [src/helper/EntityHelper.ts:44](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L44)
 
 ###### Parameters
 
@@ -918,7 +918,7 @@ Defined in: [helper/EntityHelper.ts:44](https://github.com/Orb-Workshop/scripted
 
 > `static` **From**(`e`): [`BaseModelEntity`](#basemodelentity)
 
-Defined in: [helper/BaseModelEntity.ts:19](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L19)
+Defined in: [src/helper/BaseModelEntity.ts:19](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L19)
 
 ###### Parameters
 
@@ -932,67 +932,9 @@ Defined in: [helper/BaseModelEntity.ts:19](https://github.com/Orb-Workshop/scrip
 
 ***
 
-### Color
-
-Defined in: [helper/Color.ts:10](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/Color.ts#L10)
-
-#### Implements
-
-- `unknown`
-
-#### Constructors
-
-##### Constructor
-
-> **new Color**(`r`, `g`, `b`, `a?`): [`Color`](#color)
-
-Defined in: [helper/Color.ts:15](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/Color.ts#L15)
-
-###### Parameters
-
-| Parameter | Type | Default value |
-| ------ | ------ | ------ |
-| `r` | `number` | `undefined` |
-| `g` | `number` | `undefined` |
-| `b` | `number` | `undefined` |
-| `a` | `number` | `MAX_VALUE` |
-
-###### Returns
-
-[`Color`](#color)
-
-#### Properties
-
-| Property | Modifier | Type | Defined in |
-| ------ | ------ | ------ | ------ |
-| <a id="a"></a> `a` | `public` | `number` | [helper/Color.ts:14](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/Color.ts#L14) |
-| <a id="b"></a> `b` | `public` | `number` | [helper/Color.ts:13](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/Color.ts#L13) |
-| <a id="g"></a> `g` | `public` | `number` | [helper/Color.ts:12](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/Color.ts#L12) |
-| <a id="r"></a> `r` | `public` | `number` | [helper/Color.ts:11](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/Color.ts#L11) |
-
-#### Methods
-
-##### From()
-
-> `static` **From**(`__namedParameters`): [`Color`](#color)
-
-Defined in: [helper/Color.ts:22](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/Color.ts#L22)
-
-###### Parameters
-
-| Parameter | Type |
-| ------ | ------ |
-| `__namedParameters` | `ColorType` |
-
-###### Returns
-
-[`Color`](#color)
-
-***
-
 ### `abstract` EntityHelper
 
-Defined in: [helper/EntityHelper.ts:27](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L27)
+Defined in: [src/helper/EntityHelper.ts:27](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L27)
 
 #### Extended by
 
@@ -1007,10 +949,13 @@ Defined in: [helper/EntityHelper.ts:27](https://github.com/Orb-Workshop/scripted
 - [`InfoParticleTarget`](#infoparticletarget)
 - [`InfoTarget`](#infotarget)
 - [`InfoTeleportDestination`](#infoteleportdestination)
+- [`LogicCase`](#logiccase)
 - [`LogicRelay`](#logicrelay)
+- [`MathCounter`](#mathcounter)
 - [`PointSoundEvent`](#pointsoundevent)
 - [`PointTemplate`](#pointtemplate)
 - [`TriggerMultiple`](#triggermultiple)
+- [`TriggerTeleport`](#triggerteleport)
 - [`MoveableSoundEvent`](#moveablesoundevent)
 
 #### Constructors
@@ -1019,7 +964,7 @@ Defined in: [helper/EntityHelper.ts:27](https://github.com/Orb-Workshop/scripted
 
 > **new EntityHelper**(`entity`): [`EntityHelper`](#abstract-entityhelper)
 
-Defined in: [helper/EntityHelper.ts:30](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L30)
+Defined in: [src/helper/EntityHelper.ts:30](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L30)
 
 ###### Parameters
 
@@ -1039,7 +984,7 @@ Defined in: [helper/EntityHelper.ts:30](https://github.com/Orb-Workshop/scripted
 
 > **get** **raw**(): `Entity`
 
-Defined in: [helper/EntityHelper.ts:57](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L57)
+Defined in: [src/helper/EntityHelper.ts:57](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L57)
 
 ###### Returns
 
@@ -1051,7 +996,7 @@ Defined in: [helper/EntityHelper.ts:57](https://github.com/Orb-Workshop/scripted
 
 > **ConnectOutput**(`event_name`, `callback`): `void`
 
-Defined in: [helper/EntityHelper.ts:95](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L95)
+Defined in: [src/helper/EntityHelper.ts:95](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L95)
 
 Represents EventListening of IO entities with `this.ConnectOutput`
 TODO: Use Global Events to 'latch onto' the callbacks this method represents.
@@ -1071,7 +1016,7 @@ TODO: Use Global Events to 'latch onto' the callbacks this method represents.
 
 > **FireIO**(`opts?`): `void`
 
-Defined in: [helper/EntityHelper.ts:59](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L59)
+Defined in: [src/helper/EntityHelper.ts:59](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L59)
 
 ###### Parameters
 
@@ -1087,7 +1032,7 @@ Defined in: [helper/EntityHelper.ts:59](https://github.com/Orb-Workshop/scripted
 
 > **FireUser1**(`opts?`): `void`
 
-Defined in: [helper/EntityHelper.ts:68](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L68)
+Defined in: [src/helper/EntityHelper.ts:68](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L68)
 
 ###### Parameters
 
@@ -1103,7 +1048,7 @@ Defined in: [helper/EntityHelper.ts:68](https://github.com/Orb-Workshop/scripted
 
 > **FireUser2**(`opts?`): `void`
 
-Defined in: [helper/EntityHelper.ts:72](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L72)
+Defined in: [src/helper/EntityHelper.ts:72](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L72)
 
 ###### Parameters
 
@@ -1119,7 +1064,7 @@ Defined in: [helper/EntityHelper.ts:72](https://github.com/Orb-Workshop/scripted
 
 > **FireUser3**(`opts?`): `void`
 
-Defined in: [helper/EntityHelper.ts:76](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L76)
+Defined in: [src/helper/EntityHelper.ts:76](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L76)
 
 ###### Parameters
 
@@ -1135,7 +1080,7 @@ Defined in: [helper/EntityHelper.ts:76](https://github.com/Orb-Workshop/scripted
 
 > **FireUser4**(`opts?`): `void`
 
-Defined in: [helper/EntityHelper.ts:80](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L80)
+Defined in: [src/helper/EntityHelper.ts:80](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L80)
 
 ###### Parameters
 
@@ -1151,7 +1096,7 @@ Defined in: [helper/EntityHelper.ts:80](https://github.com/Orb-Workshop/scripted
 
 > **GetAbsAngles**(): [`QAngle`](Math.md#qangle)
 
-Defined in: [helper/EntityHelper.ts:126](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L126)
+Defined in: [src/helper/EntityHelper.ts:126](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L126)
 
 ###### Returns
 
@@ -1161,7 +1106,7 @@ Defined in: [helper/EntityHelper.ts:126](https://github.com/Orb-Workshop/scripte
 
 > **GetAbsOrigin**(): [`Vector3`](Math.md#vector3)
 
-Defined in: [helper/EntityHelper.ts:118](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L118)
+Defined in: [src/helper/EntityHelper.ts:118](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L118)
 
 ###### Returns
 
@@ -1171,7 +1116,7 @@ Defined in: [helper/EntityHelper.ts:118](https://github.com/Orb-Workshop/scripte
 
 > **GetAbsVelocity**(): [`Vector3`](Math.md#vector3)
 
-Defined in: [helper/EntityHelper.ts:134](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L134)
+Defined in: [src/helper/EntityHelper.ts:134](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L134)
 
 ###### Returns
 
@@ -1181,7 +1126,7 @@ Defined in: [helper/EntityHelper.ts:134](https://github.com/Orb-Workshop/scripte
 
 > **GetClassName**(): `string`
 
-Defined in: [helper/EntityHelper.ts:154](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L154)
+Defined in: [src/helper/EntityHelper.ts:154](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L154)
 
 ###### Returns
 
@@ -1191,7 +1136,7 @@ Defined in: [helper/EntityHelper.ts:154](https://github.com/Orb-Workshop/scripte
 
 > **GetEntityName**(): `string`
 
-Defined in: [helper/EntityHelper.ts:158](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L158)
+Defined in: [src/helper/EntityHelper.ts:158](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L158)
 
 ###### Returns
 
@@ -1201,7 +1146,7 @@ Defined in: [helper/EntityHelper.ts:158](https://github.com/Orb-Workshop/scripte
 
 > **GetEyeAngles**(): [`QAngle`](Math.md#qangle)
 
-Defined in: [helper/EntityHelper.ts:142](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L142)
+Defined in: [src/helper/EntityHelper.ts:142](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L142)
 
 ###### Returns
 
@@ -1211,7 +1156,7 @@ Defined in: [helper/EntityHelper.ts:142](https://github.com/Orb-Workshop/scripte
 
 > **GetEyePosition**(): [`Vector3`](Math.md#vector3)
 
-Defined in: [helper/EntityHelper.ts:146](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L146)
+Defined in: [src/helper/EntityHelper.ts:146](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L146)
 
 ###### Returns
 
@@ -1221,7 +1166,7 @@ Defined in: [helper/EntityHelper.ts:146](https://github.com/Orb-Workshop/scripte
 
 > **GetGroundEntity**(): `any`
 
-Defined in: [helper/EntityHelper.ts:218](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L218)
+Defined in: [src/helper/EntityHelper.ts:218](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L218)
 
 ###### Returns
 
@@ -1231,7 +1176,7 @@ Defined in: [helper/EntityHelper.ts:218](https://github.com/Orb-Workshop/scripte
 
 > **GetHealth**(): `number`
 
-Defined in: [helper/EntityHelper.ts:186](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L186)
+Defined in: [src/helper/EntityHelper.ts:186](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L186)
 
 ###### Returns
 
@@ -1241,7 +1186,7 @@ Defined in: [helper/EntityHelper.ts:186](https://github.com/Orb-Workshop/scripte
 
 > **GetLocalAngles**(): [`QAngle`](Math.md#qangle)
 
-Defined in: [helper/EntityHelper.ts:130](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L130)
+Defined in: [src/helper/EntityHelper.ts:130](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L130)
 
 ###### Returns
 
@@ -1251,7 +1196,7 @@ Defined in: [helper/EntityHelper.ts:130](https://github.com/Orb-Workshop/scripte
 
 > **GetLocalOrigin**(): [`Vector3`](Math.md#vector3)
 
-Defined in: [helper/EntityHelper.ts:122](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L122)
+Defined in: [src/helper/EntityHelper.ts:122](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L122)
 
 ###### Returns
 
@@ -1261,7 +1206,7 @@ Defined in: [helper/EntityHelper.ts:122](https://github.com/Orb-Workshop/scripte
 
 > **GetLocalVelocity**(): [`Vector3`](Math.md#vector3)
 
-Defined in: [helper/EntityHelper.ts:138](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L138)
+Defined in: [src/helper/EntityHelper.ts:138](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L138)
 
 ###### Returns
 
@@ -1271,7 +1216,7 @@ Defined in: [helper/EntityHelper.ts:138](https://github.com/Orb-Workshop/scripte
 
 > **GetMaxHealth**(): `number`
 
-Defined in: [helper/EntityHelper.ts:198](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L198)
+Defined in: [src/helper/EntityHelper.ts:198](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L198)
 
 ###### Returns
 
@@ -1281,7 +1226,7 @@ Defined in: [helper/EntityHelper.ts:198](https://github.com/Orb-Workshop/scripte
 
 > **GetOwner**(): `any`
 
-Defined in: [helper/EntityHelper.ts:166](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L166)
+Defined in: [src/helper/EntityHelper.ts:166](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L166)
 
 ###### Returns
 
@@ -1291,7 +1236,7 @@ Defined in: [helper/EntityHelper.ts:166](https://github.com/Orb-Workshop/scripte
 
 > **GetParent**(): `any`
 
-Defined in: [helper/EntityHelper.ts:174](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L174)
+Defined in: [src/helper/EntityHelper.ts:174](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L174)
 
 ###### Returns
 
@@ -1301,7 +1246,7 @@ Defined in: [helper/EntityHelper.ts:174](https://github.com/Orb-Workshop/scripte
 
 > **GetTeamNumber**(): `number`
 
-Defined in: [helper/EntityHelper.ts:182](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L182)
+Defined in: [src/helper/EntityHelper.ts:182](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L182)
 
 ###### Returns
 
@@ -1311,7 +1256,7 @@ Defined in: [helper/EntityHelper.ts:182](https://github.com/Orb-Workshop/scripte
 
 > **IsAlive**(): `boolean`
 
-Defined in: [helper/EntityHelper.ts:210](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L210)
+Defined in: [src/helper/EntityHelper.ts:210](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L210)
 
 ###### Returns
 
@@ -1321,7 +1266,7 @@ Defined in: [helper/EntityHelper.ts:210](https://github.com/Orb-Workshop/scripte
 
 > **IsValid**(): `boolean`
 
-Defined in: [helper/EntityHelper.ts:114](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L114)
+Defined in: [src/helper/EntityHelper.ts:114](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L114)
 
 ###### Returns
 
@@ -1331,7 +1276,7 @@ Defined in: [helper/EntityHelper.ts:114](https://github.com/Orb-Workshop/scripte
 
 > **IsWorld**(): `boolean`
 
-Defined in: [helper/EntityHelper.ts:214](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L214)
+Defined in: [src/helper/EntityHelper.ts:214](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L214)
 
 ###### Returns
 
@@ -1341,7 +1286,7 @@ Defined in: [helper/EntityHelper.ts:214](https://github.com/Orb-Workshop/scripte
 
 > **Kill**(): `void`
 
-Defined in: [helper/EntityHelper.ts:226](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L226)
+Defined in: [src/helper/EntityHelper.ts:226](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L226)
 
 ###### Returns
 
@@ -1351,7 +1296,7 @@ Defined in: [helper/EntityHelper.ts:226](https://github.com/Orb-Workshop/scripte
 
 > **KillAll**(): `void`
 
-Defined in: [helper/EntityHelper.ts:234](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L234)
+Defined in: [src/helper/EntityHelper.ts:234](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L234)
 
 ###### Returns
 
@@ -1361,7 +1306,7 @@ Defined in: [helper/EntityHelper.ts:234](https://github.com/Orb-Workshop/scripte
 
 > **KillHierarchy**(`opts?`): `void`
 
-Defined in: [helper/EntityHelper.ts:230](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L230)
+Defined in: [src/helper/EntityHelper.ts:230](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L230)
 
 ###### Parameters
 
@@ -1377,7 +1322,7 @@ Defined in: [helper/EntityHelper.ts:230](https://github.com/Orb-Workshop/scripte
 
 > **On**(`event_name`, `callback`): [`EntityHelper`](#abstract-entityhelper)
 
-Defined in: [helper/EntityHelper.ts:104](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L104)
+Defined in: [src/helper/EntityHelper.ts:104](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L104)
 
 ###### Parameters
 
@@ -1394,7 +1339,7 @@ Defined in: [helper/EntityHelper.ts:104](https://github.com/Orb-Workshop/scripte
 
 > **Remove**(): `void`
 
-Defined in: [helper/EntityHelper.ts:238](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L238)
+Defined in: [src/helper/EntityHelper.ts:238](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L238)
 
 ###### Returns
 
@@ -1404,7 +1349,7 @@ Defined in: [helper/EntityHelper.ts:238](https://github.com/Orb-Workshop/scripte
 
 > **SetEntityName**(`s`): `void`
 
-Defined in: [helper/EntityHelper.ts:162](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L162)
+Defined in: [src/helper/EntityHelper.ts:162](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L162)
 
 ###### Parameters
 
@@ -1420,7 +1365,7 @@ Defined in: [helper/EntityHelper.ts:162](https://github.com/Orb-Workshop/scripte
 
 > **SetHealth**(`hp`): `void`
 
-Defined in: [helper/EntityHelper.ts:190](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L190)
+Defined in: [src/helper/EntityHelper.ts:190](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L190)
 
 ###### Parameters
 
@@ -1436,7 +1381,7 @@ Defined in: [helper/EntityHelper.ts:190](https://github.com/Orb-Workshop/scripte
 
 > **SetMaxHealth**(`hp`): `void`
 
-Defined in: [helper/EntityHelper.ts:202](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L202)
+Defined in: [src/helper/EntityHelper.ts:202](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L202)
 
 ###### Parameters
 
@@ -1452,7 +1397,7 @@ Defined in: [helper/EntityHelper.ts:202](https://github.com/Orb-Workshop/scripte
 
 > **SetOwner**(`e`): `void`
 
-Defined in: [helper/EntityHelper.ts:170](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L170)
+Defined in: [src/helper/EntityHelper.ts:170](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L170)
 
 ###### Parameters
 
@@ -1468,7 +1413,7 @@ Defined in: [helper/EntityHelper.ts:170](https://github.com/Orb-Workshop/scripte
 
 > **SetParent**(`e`): `void`
 
-Defined in: [helper/EntityHelper.ts:178](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L178)
+Defined in: [src/helper/EntityHelper.ts:178](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L178)
 
 ###### Parameters
 
@@ -1484,7 +1429,7 @@ Defined in: [helper/EntityHelper.ts:178](https://github.com/Orb-Workshop/scripte
 
 > **TakeDamage**(`__namedParameters`): `number`
 
-Defined in: [helper/EntityHelper.ts:222](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L222)
+Defined in: [src/helper/EntityHelper.ts:222](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L222)
 
 ###### Parameters
 
@@ -1504,7 +1449,7 @@ Defined in: [helper/EntityHelper.ts:222](https://github.com/Orb-Workshop/scripte
 
 > **Teleport**(`__namedParameters`): `void`
 
-Defined in: [helper/EntityHelper.ts:150](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L150)
+Defined in: [src/helper/EntityHelper.ts:150](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L150)
 
 ###### Parameters
 
@@ -1523,7 +1468,7 @@ Defined in: [helper/EntityHelper.ts:150](https://github.com/Orb-Workshop/scripte
 
 > `abstract` `static` **Find**\<`T`\>(`r`): `T`
 
-Defined in: [helper/EntityHelper.ts:34](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L34)
+Defined in: [src/helper/EntityHelper.ts:34](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L34)
 
 ###### Type Parameters
 
@@ -1545,7 +1490,7 @@ Defined in: [helper/EntityHelper.ts:34](https://github.com/Orb-Workshop/scripted
 
 > `abstract` `static` **FindAll**\<`T`\>(`r`): `T`[]
 
-Defined in: [helper/EntityHelper.ts:39](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L39)
+Defined in: [src/helper/EntityHelper.ts:39](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L39)
 
 ###### Type Parameters
 
@@ -1567,7 +1512,7 @@ Defined in: [helper/EntityHelper.ts:39](https://github.com/Orb-Workshop/scripted
 
 > `static` **FindAllByClass**(`classname`, `r`): [`EntityHelper`](#abstract-entityhelper)[]
 
-Defined in: [helper/EntityHelper.ts:52](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L52)
+Defined in: [src/helper/EntityHelper.ts:52](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L52)
 
 ###### Parameters
 
@@ -1584,7 +1529,7 @@ Defined in: [helper/EntityHelper.ts:52](https://github.com/Orb-Workshop/scripted
 
 > `static` **FindByClass**(`classname`, `r`, `error?`): [`EntityHelper`](#abstract-entityhelper) \| `null`
 
-Defined in: [helper/EntityHelper.ts:44](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L44)
+Defined in: [src/helper/EntityHelper.ts:44](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L44)
 
 ###### Parameters
 
@@ -1602,7 +1547,7 @@ Defined in: [helper/EntityHelper.ts:44](https://github.com/Orb-Workshop/scripted
 
 ### EnvironmentFade
 
-Defined in: [helper/EnvironmentFade.ts:17](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EnvironmentFade.ts#L17)
+Defined in: [src/helper/EnvironmentFade.ts:17](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EnvironmentFade.ts#L17)
 
 #### Extends
 
@@ -1614,7 +1559,7 @@ Defined in: [helper/EnvironmentFade.ts:17](https://github.com/Orb-Workshop/scrip
 
 > **new EnvironmentFade**(`entity`): [`EnvironmentFade`](#environmentfade)
 
-Defined in: [helper/EnvironmentFade.ts:18](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EnvironmentFade.ts#L18)
+Defined in: [src/helper/EnvironmentFade.ts:18](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EnvironmentFade.ts#L18)
 
 ###### Parameters
 
@@ -1628,7 +1573,7 @@ Defined in: [helper/EnvironmentFade.ts:18](https://github.com/Orb-Workshop/scrip
 
 ###### Overrides
 
-[`EntityHelper`](#abstract-entityhelper).[`constructor`](#constructor-2)
+[`EntityHelper`](#abstract-entityhelper).[`constructor`](#constructor-1)
 
 #### Accessors
 
@@ -1638,7 +1583,7 @@ Defined in: [helper/EnvironmentFade.ts:18](https://github.com/Orb-Workshop/scrip
 
 > **get** **raw**(): `Entity`
 
-Defined in: [helper/EntityHelper.ts:57](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L57)
+Defined in: [src/helper/EntityHelper.ts:57](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L57)
 
 ###### Returns
 
@@ -1654,7 +1599,7 @@ Defined in: [helper/EntityHelper.ts:57](https://github.com/Orb-Workshop/scripted
 
 > **ConnectOutput**(`event_name`, `callback`): `void`
 
-Defined in: [helper/EntityHelper.ts:95](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L95)
+Defined in: [src/helper/EntityHelper.ts:95](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L95)
 
 Represents EventListening of IO entities with `this.ConnectOutput`
 TODO: Use Global Events to 'latch onto' the callbacks this method represents.
@@ -1678,7 +1623,7 @@ TODO: Use Global Events to 'latch onto' the callbacks this method represents.
 
 > **Fade**(`opts?`): `void`
 
-Defined in: [helper/EnvironmentFade.ts:42](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EnvironmentFade.ts#L42)
+Defined in: [src/helper/EnvironmentFade.ts:42](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EnvironmentFade.ts#L42)
 
 ###### Parameters
 
@@ -1694,7 +1639,7 @@ Defined in: [helper/EnvironmentFade.ts:42](https://github.com/Orb-Workshop/scrip
 
 > **FireIO**(`opts?`): `void`
 
-Defined in: [helper/EntityHelper.ts:59](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L59)
+Defined in: [src/helper/EntityHelper.ts:59](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L59)
 
 ###### Parameters
 
@@ -1714,7 +1659,7 @@ Defined in: [helper/EntityHelper.ts:59](https://github.com/Orb-Workshop/scripted
 
 > **FireUser1**(`opts?`): `void`
 
-Defined in: [helper/EntityHelper.ts:68](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L68)
+Defined in: [src/helper/EntityHelper.ts:68](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L68)
 
 ###### Parameters
 
@@ -1734,7 +1679,7 @@ Defined in: [helper/EntityHelper.ts:68](https://github.com/Orb-Workshop/scripted
 
 > **FireUser2**(`opts?`): `void`
 
-Defined in: [helper/EntityHelper.ts:72](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L72)
+Defined in: [src/helper/EntityHelper.ts:72](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L72)
 
 ###### Parameters
 
@@ -1754,7 +1699,7 @@ Defined in: [helper/EntityHelper.ts:72](https://github.com/Orb-Workshop/scripted
 
 > **FireUser3**(`opts?`): `void`
 
-Defined in: [helper/EntityHelper.ts:76](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L76)
+Defined in: [src/helper/EntityHelper.ts:76](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L76)
 
 ###### Parameters
 
@@ -1774,7 +1719,7 @@ Defined in: [helper/EntityHelper.ts:76](https://github.com/Orb-Workshop/scripted
 
 > **FireUser4**(`opts?`): `void`
 
-Defined in: [helper/EntityHelper.ts:80](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L80)
+Defined in: [src/helper/EntityHelper.ts:80](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L80)
 
 ###### Parameters
 
@@ -1794,7 +1739,7 @@ Defined in: [helper/EntityHelper.ts:80](https://github.com/Orb-Workshop/scripted
 
 > **GetAbsAngles**(): [`QAngle`](Math.md#qangle)
 
-Defined in: [helper/EntityHelper.ts:126](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L126)
+Defined in: [src/helper/EntityHelper.ts:126](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L126)
 
 ###### Returns
 
@@ -1808,7 +1753,7 @@ Defined in: [helper/EntityHelper.ts:126](https://github.com/Orb-Workshop/scripte
 
 > **GetAbsOrigin**(): [`Vector3`](Math.md#vector3)
 
-Defined in: [helper/EntityHelper.ts:118](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L118)
+Defined in: [src/helper/EntityHelper.ts:118](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L118)
 
 ###### Returns
 
@@ -1822,7 +1767,7 @@ Defined in: [helper/EntityHelper.ts:118](https://github.com/Orb-Workshop/scripte
 
 > **GetAbsVelocity**(): [`Vector3`](Math.md#vector3)
 
-Defined in: [helper/EntityHelper.ts:134](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L134)
+Defined in: [src/helper/EntityHelper.ts:134](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L134)
 
 ###### Returns
 
@@ -1836,7 +1781,7 @@ Defined in: [helper/EntityHelper.ts:134](https://github.com/Orb-Workshop/scripte
 
 > **GetClassName**(): `string`
 
-Defined in: [helper/EntityHelper.ts:154](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L154)
+Defined in: [src/helper/EntityHelper.ts:154](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L154)
 
 ###### Returns
 
@@ -1850,7 +1795,7 @@ Defined in: [helper/EntityHelper.ts:154](https://github.com/Orb-Workshop/scripte
 
 > **GetEntityName**(): `string`
 
-Defined in: [helper/EntityHelper.ts:158](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L158)
+Defined in: [src/helper/EntityHelper.ts:158](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L158)
 
 ###### Returns
 
@@ -1864,7 +1809,7 @@ Defined in: [helper/EntityHelper.ts:158](https://github.com/Orb-Workshop/scripte
 
 > **GetEyeAngles**(): [`QAngle`](Math.md#qangle)
 
-Defined in: [helper/EntityHelper.ts:142](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L142)
+Defined in: [src/helper/EntityHelper.ts:142](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L142)
 
 ###### Returns
 
@@ -1878,7 +1823,7 @@ Defined in: [helper/EntityHelper.ts:142](https://github.com/Orb-Workshop/scripte
 
 > **GetEyePosition**(): [`Vector3`](Math.md#vector3)
 
-Defined in: [helper/EntityHelper.ts:146](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L146)
+Defined in: [src/helper/EntityHelper.ts:146](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L146)
 
 ###### Returns
 
@@ -1892,7 +1837,7 @@ Defined in: [helper/EntityHelper.ts:146](https://github.com/Orb-Workshop/scripte
 
 > **GetGroundEntity**(): `any`
 
-Defined in: [helper/EntityHelper.ts:218](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L218)
+Defined in: [src/helper/EntityHelper.ts:218](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L218)
 
 ###### Returns
 
@@ -1906,7 +1851,7 @@ Defined in: [helper/EntityHelper.ts:218](https://github.com/Orb-Workshop/scripte
 
 > **GetHealth**(): `number`
 
-Defined in: [helper/EntityHelper.ts:186](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L186)
+Defined in: [src/helper/EntityHelper.ts:186](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L186)
 
 ###### Returns
 
@@ -1920,7 +1865,7 @@ Defined in: [helper/EntityHelper.ts:186](https://github.com/Orb-Workshop/scripte
 
 > **GetLocalAngles**(): [`QAngle`](Math.md#qangle)
 
-Defined in: [helper/EntityHelper.ts:130](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L130)
+Defined in: [src/helper/EntityHelper.ts:130](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L130)
 
 ###### Returns
 
@@ -1934,7 +1879,7 @@ Defined in: [helper/EntityHelper.ts:130](https://github.com/Orb-Workshop/scripte
 
 > **GetLocalOrigin**(): [`Vector3`](Math.md#vector3)
 
-Defined in: [helper/EntityHelper.ts:122](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L122)
+Defined in: [src/helper/EntityHelper.ts:122](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L122)
 
 ###### Returns
 
@@ -1948,7 +1893,7 @@ Defined in: [helper/EntityHelper.ts:122](https://github.com/Orb-Workshop/scripte
 
 > **GetLocalVelocity**(): [`Vector3`](Math.md#vector3)
 
-Defined in: [helper/EntityHelper.ts:138](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L138)
+Defined in: [src/helper/EntityHelper.ts:138](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L138)
 
 ###### Returns
 
@@ -1962,7 +1907,7 @@ Defined in: [helper/EntityHelper.ts:138](https://github.com/Orb-Workshop/scripte
 
 > **GetMaxHealth**(): `number`
 
-Defined in: [helper/EntityHelper.ts:198](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L198)
+Defined in: [src/helper/EntityHelper.ts:198](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L198)
 
 ###### Returns
 
@@ -1976,7 +1921,7 @@ Defined in: [helper/EntityHelper.ts:198](https://github.com/Orb-Workshop/scripte
 
 > **GetOwner**(): `any`
 
-Defined in: [helper/EntityHelper.ts:166](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L166)
+Defined in: [src/helper/EntityHelper.ts:166](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L166)
 
 ###### Returns
 
@@ -1990,7 +1935,7 @@ Defined in: [helper/EntityHelper.ts:166](https://github.com/Orb-Workshop/scripte
 
 > **GetParent**(): `any`
 
-Defined in: [helper/EntityHelper.ts:174](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L174)
+Defined in: [src/helper/EntityHelper.ts:174](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L174)
 
 ###### Returns
 
@@ -2004,7 +1949,7 @@ Defined in: [helper/EntityHelper.ts:174](https://github.com/Orb-Workshop/scripte
 
 > **GetTeamNumber**(): `number`
 
-Defined in: [helper/EntityHelper.ts:182](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L182)
+Defined in: [src/helper/EntityHelper.ts:182](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L182)
 
 ###### Returns
 
@@ -2018,7 +1963,7 @@ Defined in: [helper/EntityHelper.ts:182](https://github.com/Orb-Workshop/scripte
 
 > **IsAlive**(): `boolean`
 
-Defined in: [helper/EntityHelper.ts:210](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L210)
+Defined in: [src/helper/EntityHelper.ts:210](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L210)
 
 ###### Returns
 
@@ -2032,7 +1977,7 @@ Defined in: [helper/EntityHelper.ts:210](https://github.com/Orb-Workshop/scripte
 
 > **IsValid**(): `boolean`
 
-Defined in: [helper/EntityHelper.ts:114](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L114)
+Defined in: [src/helper/EntityHelper.ts:114](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L114)
 
 ###### Returns
 
@@ -2046,7 +1991,7 @@ Defined in: [helper/EntityHelper.ts:114](https://github.com/Orb-Workshop/scripte
 
 > **IsWorld**(): `boolean`
 
-Defined in: [helper/EntityHelper.ts:214](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L214)
+Defined in: [src/helper/EntityHelper.ts:214](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L214)
 
 ###### Returns
 
@@ -2060,7 +2005,7 @@ Defined in: [helper/EntityHelper.ts:214](https://github.com/Orb-Workshop/scripte
 
 > **Kill**(): `void`
 
-Defined in: [helper/EntityHelper.ts:226](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L226)
+Defined in: [src/helper/EntityHelper.ts:226](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L226)
 
 ###### Returns
 
@@ -2074,7 +2019,7 @@ Defined in: [helper/EntityHelper.ts:226](https://github.com/Orb-Workshop/scripte
 
 > **KillAll**(): `void`
 
-Defined in: [helper/EntityHelper.ts:234](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L234)
+Defined in: [src/helper/EntityHelper.ts:234](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L234)
 
 ###### Returns
 
@@ -2088,7 +2033,7 @@ Defined in: [helper/EntityHelper.ts:234](https://github.com/Orb-Workshop/scripte
 
 > **KillHierarchy**(`opts?`): `void`
 
-Defined in: [helper/EntityHelper.ts:230](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L230)
+Defined in: [src/helper/EntityHelper.ts:230](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L230)
 
 ###### Parameters
 
@@ -2108,7 +2053,7 @@ Defined in: [helper/EntityHelper.ts:230](https://github.com/Orb-Workshop/scripte
 
 > **On**(`event_name`, `callback`): [`EntityHelper`](#abstract-entityhelper)
 
-Defined in: [helper/EntityHelper.ts:104](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L104)
+Defined in: [src/helper/EntityHelper.ts:104](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L104)
 
 ###### Parameters
 
@@ -2129,7 +2074,7 @@ Defined in: [helper/EntityHelper.ts:104](https://github.com/Orb-Workshop/scripte
 
 > **Remove**(): `void`
 
-Defined in: [helper/EntityHelper.ts:238](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L238)
+Defined in: [src/helper/EntityHelper.ts:238](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L238)
 
 ###### Returns
 
@@ -2143,7 +2088,7 @@ Defined in: [helper/EntityHelper.ts:238](https://github.com/Orb-Workshop/scripte
 
 > **SetEntityName**(`s`): `void`
 
-Defined in: [helper/EntityHelper.ts:162](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L162)
+Defined in: [src/helper/EntityHelper.ts:162](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L162)
 
 ###### Parameters
 
@@ -2163,7 +2108,7 @@ Defined in: [helper/EntityHelper.ts:162](https://github.com/Orb-Workshop/scripte
 
 > **SetHealth**(`hp`): `void`
 
-Defined in: [helper/EntityHelper.ts:190](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L190)
+Defined in: [src/helper/EntityHelper.ts:190](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L190)
 
 ###### Parameters
 
@@ -2183,7 +2128,7 @@ Defined in: [helper/EntityHelper.ts:190](https://github.com/Orb-Workshop/scripte
 
 > **SetMaxHealth**(`hp`): `void`
 
-Defined in: [helper/EntityHelper.ts:202](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L202)
+Defined in: [src/helper/EntityHelper.ts:202](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L202)
 
 ###### Parameters
 
@@ -2203,7 +2148,7 @@ Defined in: [helper/EntityHelper.ts:202](https://github.com/Orb-Workshop/scripte
 
 > **SetOwner**(`e`): `void`
 
-Defined in: [helper/EntityHelper.ts:170](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L170)
+Defined in: [src/helper/EntityHelper.ts:170](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L170)
 
 ###### Parameters
 
@@ -2223,7 +2168,7 @@ Defined in: [helper/EntityHelper.ts:170](https://github.com/Orb-Workshop/scripte
 
 > **SetParent**(`e`): `void`
 
-Defined in: [helper/EntityHelper.ts:178](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L178)
+Defined in: [src/helper/EntityHelper.ts:178](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L178)
 
 ###### Parameters
 
@@ -2243,7 +2188,7 @@ Defined in: [helper/EntityHelper.ts:178](https://github.com/Orb-Workshop/scripte
 
 > **TakeDamage**(`__namedParameters`): `number`
 
-Defined in: [helper/EntityHelper.ts:222](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L222)
+Defined in: [src/helper/EntityHelper.ts:222](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L222)
 
 ###### Parameters
 
@@ -2267,7 +2212,7 @@ Defined in: [helper/EntityHelper.ts:222](https://github.com/Orb-Workshop/scripte
 
 > **Teleport**(`__namedParameters`): `void`
 
-Defined in: [helper/EntityHelper.ts:150](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L150)
+Defined in: [src/helper/EntityHelper.ts:150](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L150)
 
 ###### Parameters
 
@@ -2290,7 +2235,7 @@ Defined in: [helper/EntityHelper.ts:150](https://github.com/Orb-Workshop/scripte
 
 > `static` **Find**(`r`): [`EnvironmentFade`](#environmentfade)
 
-Defined in: [helper/EnvironmentFade.ts:29](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EnvironmentFade.ts#L29)
+Defined in: [src/helper/EnvironmentFade.ts:29](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EnvironmentFade.ts#L29)
 
 ###### Parameters
 
@@ -2310,7 +2255,7 @@ Defined in: [helper/EnvironmentFade.ts:29](https://github.com/Orb-Workshop/scrip
 
 > `static` **FindAll**(`r`): [`EnvironmentFade`](#environmentfade)[]
 
-Defined in: [helper/EnvironmentFade.ts:35](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EnvironmentFade.ts#L35)
+Defined in: [src/helper/EnvironmentFade.ts:35](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EnvironmentFade.ts#L35)
 
 ###### Parameters
 
@@ -2330,7 +2275,7 @@ Defined in: [helper/EnvironmentFade.ts:35](https://github.com/Orb-Workshop/scrip
 
 > `static` **FindAllByClass**(`classname`, `r`): [`EntityHelper`](#abstract-entityhelper)[]
 
-Defined in: [helper/EntityHelper.ts:52](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L52)
+Defined in: [src/helper/EntityHelper.ts:52](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L52)
 
 ###### Parameters
 
@@ -2351,7 +2296,7 @@ Defined in: [helper/EntityHelper.ts:52](https://github.com/Orb-Workshop/scripted
 
 > `static` **FindByClass**(`classname`, `r`, `error?`): [`EntityHelper`](#abstract-entityhelper) \| `null`
 
-Defined in: [helper/EntityHelper.ts:44](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L44)
+Defined in: [src/helper/EntityHelper.ts:44](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L44)
 
 ###### Parameters
 
@@ -2373,7 +2318,7 @@ Defined in: [helper/EntityHelper.ts:44](https://github.com/Orb-Workshop/scripted
 
 > `static` **From**(`e`): [`EnvironmentFade`](#environmentfade)
 
-Defined in: [helper/EnvironmentFade.ts:23](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EnvironmentFade.ts#L23)
+Defined in: [src/helper/EnvironmentFade.ts:23](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EnvironmentFade.ts#L23)
 
 ###### Parameters
 
@@ -2389,7 +2334,7 @@ Defined in: [helper/EnvironmentFade.ts:23](https://github.com/Orb-Workshop/scrip
 
 ### EnvironmentHudHint
 
-Defined in: [helper/EnvironmentHudHint.ts:17](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EnvironmentHudHint.ts#L17)
+Defined in: [src/helper/EnvironmentHudHint.ts:17](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EnvironmentHudHint.ts#L17)
 
 #### Extends
 
@@ -2401,7 +2346,7 @@ Defined in: [helper/EnvironmentHudHint.ts:17](https://github.com/Orb-Workshop/sc
 
 > **new EnvironmentHudHint**(`entity`): [`EnvironmentHudHint`](#environmenthudhint)
 
-Defined in: [helper/EnvironmentHudHint.ts:18](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EnvironmentHudHint.ts#L18)
+Defined in: [src/helper/EnvironmentHudHint.ts:18](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EnvironmentHudHint.ts#L18)
 
 ###### Parameters
 
@@ -2415,7 +2360,7 @@ Defined in: [helper/EnvironmentHudHint.ts:18](https://github.com/Orb-Workshop/sc
 
 ###### Overrides
 
-[`EntityHelper`](#abstract-entityhelper).[`constructor`](#constructor-2)
+[`EntityHelper`](#abstract-entityhelper).[`constructor`](#constructor-1)
 
 #### Accessors
 
@@ -2425,7 +2370,7 @@ Defined in: [helper/EnvironmentHudHint.ts:18](https://github.com/Orb-Workshop/sc
 
 > **get** **raw**(): `Entity`
 
-Defined in: [helper/EntityHelper.ts:57](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L57)
+Defined in: [src/helper/EntityHelper.ts:57](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L57)
 
 ###### Returns
 
@@ -2441,7 +2386,7 @@ Defined in: [helper/EntityHelper.ts:57](https://github.com/Orb-Workshop/scripted
 
 > **ConnectOutput**(`event_name`, `callback`): `void`
 
-Defined in: [helper/EntityHelper.ts:95](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L95)
+Defined in: [src/helper/EntityHelper.ts:95](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L95)
 
 Represents EventListening of IO entities with `this.ConnectOutput`
 TODO: Use Global Events to 'latch onto' the callbacks this method represents.
@@ -2465,7 +2410,7 @@ TODO: Use Global Events to 'latch onto' the callbacks this method represents.
 
 > **FireIO**(`opts?`): `void`
 
-Defined in: [helper/EntityHelper.ts:59](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L59)
+Defined in: [src/helper/EntityHelper.ts:59](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L59)
 
 ###### Parameters
 
@@ -2485,7 +2430,7 @@ Defined in: [helper/EntityHelper.ts:59](https://github.com/Orb-Workshop/scripted
 
 > **FireUser1**(`opts?`): `void`
 
-Defined in: [helper/EntityHelper.ts:68](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L68)
+Defined in: [src/helper/EntityHelper.ts:68](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L68)
 
 ###### Parameters
 
@@ -2505,7 +2450,7 @@ Defined in: [helper/EntityHelper.ts:68](https://github.com/Orb-Workshop/scripted
 
 > **FireUser2**(`opts?`): `void`
 
-Defined in: [helper/EntityHelper.ts:72](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L72)
+Defined in: [src/helper/EntityHelper.ts:72](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L72)
 
 ###### Parameters
 
@@ -2525,7 +2470,7 @@ Defined in: [helper/EntityHelper.ts:72](https://github.com/Orb-Workshop/scripted
 
 > **FireUser3**(`opts?`): `void`
 
-Defined in: [helper/EntityHelper.ts:76](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L76)
+Defined in: [src/helper/EntityHelper.ts:76](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L76)
 
 ###### Parameters
 
@@ -2545,7 +2490,7 @@ Defined in: [helper/EntityHelper.ts:76](https://github.com/Orb-Workshop/scripted
 
 > **FireUser4**(`opts?`): `void`
 
-Defined in: [helper/EntityHelper.ts:80](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L80)
+Defined in: [src/helper/EntityHelper.ts:80](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L80)
 
 ###### Parameters
 
@@ -2565,7 +2510,7 @@ Defined in: [helper/EntityHelper.ts:80](https://github.com/Orb-Workshop/scripted
 
 > **GetAbsAngles**(): [`QAngle`](Math.md#qangle)
 
-Defined in: [helper/EntityHelper.ts:126](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L126)
+Defined in: [src/helper/EntityHelper.ts:126](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L126)
 
 ###### Returns
 
@@ -2579,7 +2524,7 @@ Defined in: [helper/EntityHelper.ts:126](https://github.com/Orb-Workshop/scripte
 
 > **GetAbsOrigin**(): [`Vector3`](Math.md#vector3)
 
-Defined in: [helper/EntityHelper.ts:118](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L118)
+Defined in: [src/helper/EntityHelper.ts:118](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L118)
 
 ###### Returns
 
@@ -2593,7 +2538,7 @@ Defined in: [helper/EntityHelper.ts:118](https://github.com/Orb-Workshop/scripte
 
 > **GetAbsVelocity**(): [`Vector3`](Math.md#vector3)
 
-Defined in: [helper/EntityHelper.ts:134](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L134)
+Defined in: [src/helper/EntityHelper.ts:134](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L134)
 
 ###### Returns
 
@@ -2607,7 +2552,7 @@ Defined in: [helper/EntityHelper.ts:134](https://github.com/Orb-Workshop/scripte
 
 > **GetClassName**(): `string`
 
-Defined in: [helper/EntityHelper.ts:154](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L154)
+Defined in: [src/helper/EntityHelper.ts:154](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L154)
 
 ###### Returns
 
@@ -2621,7 +2566,7 @@ Defined in: [helper/EntityHelper.ts:154](https://github.com/Orb-Workshop/scripte
 
 > **GetEntityName**(): `string`
 
-Defined in: [helper/EntityHelper.ts:158](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L158)
+Defined in: [src/helper/EntityHelper.ts:158](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L158)
 
 ###### Returns
 
@@ -2635,7 +2580,7 @@ Defined in: [helper/EntityHelper.ts:158](https://github.com/Orb-Workshop/scripte
 
 > **GetEyeAngles**(): [`QAngle`](Math.md#qangle)
 
-Defined in: [helper/EntityHelper.ts:142](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L142)
+Defined in: [src/helper/EntityHelper.ts:142](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L142)
 
 ###### Returns
 
@@ -2649,7 +2594,7 @@ Defined in: [helper/EntityHelper.ts:142](https://github.com/Orb-Workshop/scripte
 
 > **GetEyePosition**(): [`Vector3`](Math.md#vector3)
 
-Defined in: [helper/EntityHelper.ts:146](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L146)
+Defined in: [src/helper/EntityHelper.ts:146](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L146)
 
 ###### Returns
 
@@ -2663,7 +2608,7 @@ Defined in: [helper/EntityHelper.ts:146](https://github.com/Orb-Workshop/scripte
 
 > **GetGroundEntity**(): `any`
 
-Defined in: [helper/EntityHelper.ts:218](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L218)
+Defined in: [src/helper/EntityHelper.ts:218](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L218)
 
 ###### Returns
 
@@ -2677,7 +2622,7 @@ Defined in: [helper/EntityHelper.ts:218](https://github.com/Orb-Workshop/scripte
 
 > **GetHealth**(): `number`
 
-Defined in: [helper/EntityHelper.ts:186](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L186)
+Defined in: [src/helper/EntityHelper.ts:186](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L186)
 
 ###### Returns
 
@@ -2691,7 +2636,7 @@ Defined in: [helper/EntityHelper.ts:186](https://github.com/Orb-Workshop/scripte
 
 > **GetLocalAngles**(): [`QAngle`](Math.md#qangle)
 
-Defined in: [helper/EntityHelper.ts:130](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L130)
+Defined in: [src/helper/EntityHelper.ts:130](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L130)
 
 ###### Returns
 
@@ -2705,7 +2650,7 @@ Defined in: [helper/EntityHelper.ts:130](https://github.com/Orb-Workshop/scripte
 
 > **GetLocalOrigin**(): [`Vector3`](Math.md#vector3)
 
-Defined in: [helper/EntityHelper.ts:122](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L122)
+Defined in: [src/helper/EntityHelper.ts:122](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L122)
 
 ###### Returns
 
@@ -2719,7 +2664,7 @@ Defined in: [helper/EntityHelper.ts:122](https://github.com/Orb-Workshop/scripte
 
 > **GetLocalVelocity**(): [`Vector3`](Math.md#vector3)
 
-Defined in: [helper/EntityHelper.ts:138](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L138)
+Defined in: [src/helper/EntityHelper.ts:138](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L138)
 
 ###### Returns
 
@@ -2733,7 +2678,7 @@ Defined in: [helper/EntityHelper.ts:138](https://github.com/Orb-Workshop/scripte
 
 > **GetMaxHealth**(): `number`
 
-Defined in: [helper/EntityHelper.ts:198](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L198)
+Defined in: [src/helper/EntityHelper.ts:198](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L198)
 
 ###### Returns
 
@@ -2747,7 +2692,7 @@ Defined in: [helper/EntityHelper.ts:198](https://github.com/Orb-Workshop/scripte
 
 > **GetOwner**(): `any`
 
-Defined in: [helper/EntityHelper.ts:166](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L166)
+Defined in: [src/helper/EntityHelper.ts:166](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L166)
 
 ###### Returns
 
@@ -2761,7 +2706,7 @@ Defined in: [helper/EntityHelper.ts:166](https://github.com/Orb-Workshop/scripte
 
 > **GetParent**(): `any`
 
-Defined in: [helper/EntityHelper.ts:174](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L174)
+Defined in: [src/helper/EntityHelper.ts:174](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L174)
 
 ###### Returns
 
@@ -2775,7 +2720,7 @@ Defined in: [helper/EntityHelper.ts:174](https://github.com/Orb-Workshop/scripte
 
 > **GetTeamNumber**(): `number`
 
-Defined in: [helper/EntityHelper.ts:182](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L182)
+Defined in: [src/helper/EntityHelper.ts:182](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L182)
 
 ###### Returns
 
@@ -2789,7 +2734,7 @@ Defined in: [helper/EntityHelper.ts:182](https://github.com/Orb-Workshop/scripte
 
 > **HideHudHint**(`opts?`): `void`
 
-Defined in: [helper/EnvironmentHudHint.ts:47](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EnvironmentHudHint.ts#L47)
+Defined in: [src/helper/EnvironmentHudHint.ts:47](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EnvironmentHudHint.ts#L47)
 
 ###### Parameters
 
@@ -2805,7 +2750,7 @@ Defined in: [helper/EnvironmentHudHint.ts:47](https://github.com/Orb-Workshop/sc
 
 > **IsAlive**(): `boolean`
 
-Defined in: [helper/EntityHelper.ts:210](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L210)
+Defined in: [src/helper/EntityHelper.ts:210](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L210)
 
 ###### Returns
 
@@ -2819,7 +2764,7 @@ Defined in: [helper/EntityHelper.ts:210](https://github.com/Orb-Workshop/scripte
 
 > **IsValid**(): `boolean`
 
-Defined in: [helper/EntityHelper.ts:114](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L114)
+Defined in: [src/helper/EntityHelper.ts:114](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L114)
 
 ###### Returns
 
@@ -2833,7 +2778,7 @@ Defined in: [helper/EntityHelper.ts:114](https://github.com/Orb-Workshop/scripte
 
 > **IsWorld**(): `boolean`
 
-Defined in: [helper/EntityHelper.ts:214](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L214)
+Defined in: [src/helper/EntityHelper.ts:214](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L214)
 
 ###### Returns
 
@@ -2847,7 +2792,7 @@ Defined in: [helper/EntityHelper.ts:214](https://github.com/Orb-Workshop/scripte
 
 > **Kill**(): `void`
 
-Defined in: [helper/EntityHelper.ts:226](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L226)
+Defined in: [src/helper/EntityHelper.ts:226](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L226)
 
 ###### Returns
 
@@ -2861,7 +2806,7 @@ Defined in: [helper/EntityHelper.ts:226](https://github.com/Orb-Workshop/scripte
 
 > **KillAll**(): `void`
 
-Defined in: [helper/EntityHelper.ts:234](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L234)
+Defined in: [src/helper/EntityHelper.ts:234](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L234)
 
 ###### Returns
 
@@ -2875,7 +2820,7 @@ Defined in: [helper/EntityHelper.ts:234](https://github.com/Orb-Workshop/scripte
 
 > **KillHierarchy**(`opts?`): `void`
 
-Defined in: [helper/EntityHelper.ts:230](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L230)
+Defined in: [src/helper/EntityHelper.ts:230](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L230)
 
 ###### Parameters
 
@@ -2895,7 +2840,7 @@ Defined in: [helper/EntityHelper.ts:230](https://github.com/Orb-Workshop/scripte
 
 > **On**(`event_name`, `callback`): [`EntityHelper`](#abstract-entityhelper)
 
-Defined in: [helper/EntityHelper.ts:104](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L104)
+Defined in: [src/helper/EntityHelper.ts:104](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L104)
 
 ###### Parameters
 
@@ -2916,7 +2861,7 @@ Defined in: [helper/EntityHelper.ts:104](https://github.com/Orb-Workshop/scripte
 
 > **Remove**(): `void`
 
-Defined in: [helper/EntityHelper.ts:238](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L238)
+Defined in: [src/helper/EntityHelper.ts:238](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L238)
 
 ###### Returns
 
@@ -2930,7 +2875,7 @@ Defined in: [helper/EntityHelper.ts:238](https://github.com/Orb-Workshop/scripte
 
 > **SetEntityName**(`s`): `void`
 
-Defined in: [helper/EntityHelper.ts:162](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L162)
+Defined in: [src/helper/EntityHelper.ts:162](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L162)
 
 ###### Parameters
 
@@ -2950,7 +2895,7 @@ Defined in: [helper/EntityHelper.ts:162](https://github.com/Orb-Workshop/scripte
 
 > **SetHealth**(`hp`): `void`
 
-Defined in: [helper/EntityHelper.ts:190](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L190)
+Defined in: [src/helper/EntityHelper.ts:190](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L190)
 
 ###### Parameters
 
@@ -2970,7 +2915,7 @@ Defined in: [helper/EntityHelper.ts:190](https://github.com/Orb-Workshop/scripte
 
 > **SetMaxHealth**(`hp`): `void`
 
-Defined in: [helper/EntityHelper.ts:202](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L202)
+Defined in: [src/helper/EntityHelper.ts:202](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L202)
 
 ###### Parameters
 
@@ -2990,7 +2935,7 @@ Defined in: [helper/EntityHelper.ts:202](https://github.com/Orb-Workshop/scripte
 
 > **SetOwner**(`e`): `void`
 
-Defined in: [helper/EntityHelper.ts:170](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L170)
+Defined in: [src/helper/EntityHelper.ts:170](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L170)
 
 ###### Parameters
 
@@ -3010,7 +2955,7 @@ Defined in: [helper/EntityHelper.ts:170](https://github.com/Orb-Workshop/scripte
 
 > **SetParent**(`e`): `void`
 
-Defined in: [helper/EntityHelper.ts:178](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L178)
+Defined in: [src/helper/EntityHelper.ts:178](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L178)
 
 ###### Parameters
 
@@ -3030,7 +2975,7 @@ Defined in: [helper/EntityHelper.ts:178](https://github.com/Orb-Workshop/scripte
 
 > **ShowHudHint**(`opts?`): `void`
 
-Defined in: [helper/EnvironmentHudHint.ts:42](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EnvironmentHudHint.ts#L42)
+Defined in: [src/helper/EnvironmentHudHint.ts:42](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EnvironmentHudHint.ts#L42)
 
 ###### Parameters
 
@@ -3046,7 +2991,7 @@ Defined in: [helper/EnvironmentHudHint.ts:42](https://github.com/Orb-Workshop/sc
 
 > **TakeDamage**(`__namedParameters`): `number`
 
-Defined in: [helper/EntityHelper.ts:222](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L222)
+Defined in: [src/helper/EntityHelper.ts:222](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L222)
 
 ###### Parameters
 
@@ -3070,7 +3015,7 @@ Defined in: [helper/EntityHelper.ts:222](https://github.com/Orb-Workshop/scripte
 
 > **Teleport**(`__namedParameters`): `void`
 
-Defined in: [helper/EntityHelper.ts:150](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L150)
+Defined in: [src/helper/EntityHelper.ts:150](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L150)
 
 ###### Parameters
 
@@ -3093,7 +3038,7 @@ Defined in: [helper/EntityHelper.ts:150](https://github.com/Orb-Workshop/scripte
 
 > `static` **Find**(`r`): [`EnvironmentHudHint`](#environmenthudhint)
 
-Defined in: [helper/EnvironmentHudHint.ts:29](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EnvironmentHudHint.ts#L29)
+Defined in: [src/helper/EnvironmentHudHint.ts:29](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EnvironmentHudHint.ts#L29)
 
 ###### Parameters
 
@@ -3113,7 +3058,7 @@ Defined in: [helper/EnvironmentHudHint.ts:29](https://github.com/Orb-Workshop/sc
 
 > `static` **FindAll**(`r`): [`EnvironmentHudHint`](#environmenthudhint)[]
 
-Defined in: [helper/EnvironmentHudHint.ts:35](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EnvironmentHudHint.ts#L35)
+Defined in: [src/helper/EnvironmentHudHint.ts:35](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EnvironmentHudHint.ts#L35)
 
 ###### Parameters
 
@@ -3133,7 +3078,7 @@ Defined in: [helper/EnvironmentHudHint.ts:35](https://github.com/Orb-Workshop/sc
 
 > `static` **FindAllByClass**(`classname`, `r`): [`EntityHelper`](#abstract-entityhelper)[]
 
-Defined in: [helper/EntityHelper.ts:52](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L52)
+Defined in: [src/helper/EntityHelper.ts:52](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L52)
 
 ###### Parameters
 
@@ -3154,7 +3099,7 @@ Defined in: [helper/EntityHelper.ts:52](https://github.com/Orb-Workshop/scripted
 
 > `static` **FindByClass**(`classname`, `r`, `error?`): [`EntityHelper`](#abstract-entityhelper) \| `null`
 
-Defined in: [helper/EntityHelper.ts:44](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L44)
+Defined in: [src/helper/EntityHelper.ts:44](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L44)
 
 ###### Parameters
 
@@ -3176,7 +3121,7 @@ Defined in: [helper/EntityHelper.ts:44](https://github.com/Orb-Workshop/scripted
 
 > `static` **From**(`e`): [`EnvironmentHudHint`](#environmenthudhint)
 
-Defined in: [helper/EnvironmentHudHint.ts:23](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EnvironmentHudHint.ts#L23)
+Defined in: [src/helper/EnvironmentHudHint.ts:23](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EnvironmentHudHint.ts#L23)
 
 ###### Parameters
 
@@ -3192,7 +3137,7 @@ Defined in: [helper/EnvironmentHudHint.ts:23](https://github.com/Orb-Workshop/sc
 
 ### EnvironmentParticleGlow
 
-Defined in: [helper/EnvironmentParticleGlow.ts:17](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EnvironmentParticleGlow.ts#L17)
+Defined in: [src/helper/EnvironmentParticleGlow.ts:17](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EnvironmentParticleGlow.ts#L17)
 
 #### Extends
 
@@ -3204,7 +3149,7 @@ Defined in: [helper/EnvironmentParticleGlow.ts:17](https://github.com/Orb-Worksh
 
 > **new EnvironmentParticleGlow**(`entity`): [`EnvironmentParticleGlow`](#environmentparticleglow)
 
-Defined in: [helper/EnvironmentParticleGlow.ts:18](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EnvironmentParticleGlow.ts#L18)
+Defined in: [src/helper/EnvironmentParticleGlow.ts:18](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EnvironmentParticleGlow.ts#L18)
 
 ###### Parameters
 
@@ -3218,7 +3163,7 @@ Defined in: [helper/EnvironmentParticleGlow.ts:18](https://github.com/Orb-Worksh
 
 ###### Overrides
 
-[`EntityHelper`](#abstract-entityhelper).[`constructor`](#constructor-2)
+[`EntityHelper`](#abstract-entityhelper).[`constructor`](#constructor-1)
 
 #### Accessors
 
@@ -3228,7 +3173,7 @@ Defined in: [helper/EnvironmentParticleGlow.ts:18](https://github.com/Orb-Worksh
 
 > **get** **raw**(): `Entity`
 
-Defined in: [helper/EntityHelper.ts:57](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L57)
+Defined in: [src/helper/EntityHelper.ts:57](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L57)
 
 ###### Returns
 
@@ -3244,7 +3189,7 @@ Defined in: [helper/EntityHelper.ts:57](https://github.com/Orb-Workshop/scripted
 
 > **ConnectOutput**(`event_name`, `callback`): `void`
 
-Defined in: [helper/EntityHelper.ts:95](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L95)
+Defined in: [src/helper/EntityHelper.ts:95](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L95)
 
 Represents EventListening of IO entities with `this.ConnectOutput`
 TODO: Use Global Events to 'latch onto' the callbacks this method represents.
@@ -3268,7 +3213,7 @@ TODO: Use Global Events to 'latch onto' the callbacks this method represents.
 
 > **DestroyImmediately**(`opts?`): `void`
 
-Defined in: [helper/EnvironmentParticleGlow.ts:66](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EnvironmentParticleGlow.ts#L66)
+Defined in: [src/helper/EnvironmentParticleGlow.ts:66](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EnvironmentParticleGlow.ts#L66)
 
 ###### Parameters
 
@@ -3284,7 +3229,7 @@ Defined in: [helper/EnvironmentParticleGlow.ts:66](https://github.com/Orb-Worksh
 
 > **FireIO**(`opts?`): `void`
 
-Defined in: [helper/EntityHelper.ts:59](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L59)
+Defined in: [src/helper/EntityHelper.ts:59](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L59)
 
 ###### Parameters
 
@@ -3304,7 +3249,7 @@ Defined in: [helper/EntityHelper.ts:59](https://github.com/Orb-Workshop/scripted
 
 > **FireUser1**(`opts?`): `void`
 
-Defined in: [helper/EntityHelper.ts:68](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L68)
+Defined in: [src/helper/EntityHelper.ts:68](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L68)
 
 ###### Parameters
 
@@ -3324,7 +3269,7 @@ Defined in: [helper/EntityHelper.ts:68](https://github.com/Orb-Workshop/scripted
 
 > **FireUser2**(`opts?`): `void`
 
-Defined in: [helper/EntityHelper.ts:72](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L72)
+Defined in: [src/helper/EntityHelper.ts:72](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L72)
 
 ###### Parameters
 
@@ -3344,7 +3289,7 @@ Defined in: [helper/EntityHelper.ts:72](https://github.com/Orb-Workshop/scripted
 
 > **FireUser3**(`opts?`): `void`
 
-Defined in: [helper/EntityHelper.ts:76](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L76)
+Defined in: [src/helper/EntityHelper.ts:76](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L76)
 
 ###### Parameters
 
@@ -3364,7 +3309,7 @@ Defined in: [helper/EntityHelper.ts:76](https://github.com/Orb-Workshop/scripted
 
 > **FireUser4**(`opts?`): `void`
 
-Defined in: [helper/EntityHelper.ts:80](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L80)
+Defined in: [src/helper/EntityHelper.ts:80](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L80)
 
 ###### Parameters
 
@@ -3384,7 +3329,7 @@ Defined in: [helper/EntityHelper.ts:80](https://github.com/Orb-Workshop/scripted
 
 > **GetAbsAngles**(): [`QAngle`](Math.md#qangle)
 
-Defined in: [helper/EntityHelper.ts:126](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L126)
+Defined in: [src/helper/EntityHelper.ts:126](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L126)
 
 ###### Returns
 
@@ -3398,7 +3343,7 @@ Defined in: [helper/EntityHelper.ts:126](https://github.com/Orb-Workshop/scripte
 
 > **GetAbsOrigin**(): [`Vector3`](Math.md#vector3)
 
-Defined in: [helper/EntityHelper.ts:118](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L118)
+Defined in: [src/helper/EntityHelper.ts:118](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L118)
 
 ###### Returns
 
@@ -3412,7 +3357,7 @@ Defined in: [helper/EntityHelper.ts:118](https://github.com/Orb-Workshop/scripte
 
 > **GetAbsVelocity**(): [`Vector3`](Math.md#vector3)
 
-Defined in: [helper/EntityHelper.ts:134](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L134)
+Defined in: [src/helper/EntityHelper.ts:134](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L134)
 
 ###### Returns
 
@@ -3426,7 +3371,7 @@ Defined in: [helper/EntityHelper.ts:134](https://github.com/Orb-Workshop/scripte
 
 > **GetClassName**(): `string`
 
-Defined in: [helper/EntityHelper.ts:154](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L154)
+Defined in: [src/helper/EntityHelper.ts:154](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L154)
 
 ###### Returns
 
@@ -3440,7 +3385,7 @@ Defined in: [helper/EntityHelper.ts:154](https://github.com/Orb-Workshop/scripte
 
 > **GetEntityName**(): `string`
 
-Defined in: [helper/EntityHelper.ts:158](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L158)
+Defined in: [src/helper/EntityHelper.ts:158](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L158)
 
 ###### Returns
 
@@ -3454,7 +3399,7 @@ Defined in: [helper/EntityHelper.ts:158](https://github.com/Orb-Workshop/scripte
 
 > **GetEyeAngles**(): [`QAngle`](Math.md#qangle)
 
-Defined in: [helper/EntityHelper.ts:142](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L142)
+Defined in: [src/helper/EntityHelper.ts:142](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L142)
 
 ###### Returns
 
@@ -3468,7 +3413,7 @@ Defined in: [helper/EntityHelper.ts:142](https://github.com/Orb-Workshop/scripte
 
 > **GetEyePosition**(): [`Vector3`](Math.md#vector3)
 
-Defined in: [helper/EntityHelper.ts:146](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L146)
+Defined in: [src/helper/EntityHelper.ts:146](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L146)
 
 ###### Returns
 
@@ -3482,7 +3427,7 @@ Defined in: [helper/EntityHelper.ts:146](https://github.com/Orb-Workshop/scripte
 
 > **GetGroundEntity**(): `any`
 
-Defined in: [helper/EntityHelper.ts:218](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L218)
+Defined in: [src/helper/EntityHelper.ts:218](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L218)
 
 ###### Returns
 
@@ -3496,7 +3441,7 @@ Defined in: [helper/EntityHelper.ts:218](https://github.com/Orb-Workshop/scripte
 
 > **GetHealth**(): `number`
 
-Defined in: [helper/EntityHelper.ts:186](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L186)
+Defined in: [src/helper/EntityHelper.ts:186](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L186)
 
 ###### Returns
 
@@ -3510,7 +3455,7 @@ Defined in: [helper/EntityHelper.ts:186](https://github.com/Orb-Workshop/scripte
 
 > **GetLocalAngles**(): [`QAngle`](Math.md#qangle)
 
-Defined in: [helper/EntityHelper.ts:130](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L130)
+Defined in: [src/helper/EntityHelper.ts:130](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L130)
 
 ###### Returns
 
@@ -3524,7 +3469,7 @@ Defined in: [helper/EntityHelper.ts:130](https://github.com/Orb-Workshop/scripte
 
 > **GetLocalOrigin**(): [`Vector3`](Math.md#vector3)
 
-Defined in: [helper/EntityHelper.ts:122](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L122)
+Defined in: [src/helper/EntityHelper.ts:122](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L122)
 
 ###### Returns
 
@@ -3538,7 +3483,7 @@ Defined in: [helper/EntityHelper.ts:122](https://github.com/Orb-Workshop/scripte
 
 > **GetLocalVelocity**(): [`Vector3`](Math.md#vector3)
 
-Defined in: [helper/EntityHelper.ts:138](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L138)
+Defined in: [src/helper/EntityHelper.ts:138](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L138)
 
 ###### Returns
 
@@ -3552,7 +3497,7 @@ Defined in: [helper/EntityHelper.ts:138](https://github.com/Orb-Workshop/scripte
 
 > **GetMaxHealth**(): `number`
 
-Defined in: [helper/EntityHelper.ts:198](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L198)
+Defined in: [src/helper/EntityHelper.ts:198](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L198)
 
 ###### Returns
 
@@ -3566,7 +3511,7 @@ Defined in: [helper/EntityHelper.ts:198](https://github.com/Orb-Workshop/scripte
 
 > **GetOwner**(): `any`
 
-Defined in: [helper/EntityHelper.ts:166](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L166)
+Defined in: [src/helper/EntityHelper.ts:166](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L166)
 
 ###### Returns
 
@@ -3580,7 +3525,7 @@ Defined in: [helper/EntityHelper.ts:166](https://github.com/Orb-Workshop/scripte
 
 > **GetParent**(): `any`
 
-Defined in: [helper/EntityHelper.ts:174](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L174)
+Defined in: [src/helper/EntityHelper.ts:174](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L174)
 
 ###### Returns
 
@@ -3594,7 +3539,7 @@ Defined in: [helper/EntityHelper.ts:174](https://github.com/Orb-Workshop/scripte
 
 > **GetTeamNumber**(): `number`
 
-Defined in: [helper/EntityHelper.ts:182](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L182)
+Defined in: [src/helper/EntityHelper.ts:182](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L182)
 
 ###### Returns
 
@@ -3608,7 +3553,7 @@ Defined in: [helper/EntityHelper.ts:182](https://github.com/Orb-Workshop/scripte
 
 > **IsAlive**(): `boolean`
 
-Defined in: [helper/EntityHelper.ts:210](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L210)
+Defined in: [src/helper/EntityHelper.ts:210](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L210)
 
 ###### Returns
 
@@ -3622,7 +3567,7 @@ Defined in: [helper/EntityHelper.ts:210](https://github.com/Orb-Workshop/scripte
 
 > **IsValid**(): `boolean`
 
-Defined in: [helper/EntityHelper.ts:114](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L114)
+Defined in: [src/helper/EntityHelper.ts:114](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L114)
 
 ###### Returns
 
@@ -3636,7 +3581,7 @@ Defined in: [helper/EntityHelper.ts:114](https://github.com/Orb-Workshop/scripte
 
 > **IsWorld**(): `boolean`
 
-Defined in: [helper/EntityHelper.ts:214](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L214)
+Defined in: [src/helper/EntityHelper.ts:214](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L214)
 
 ###### Returns
 
@@ -3650,7 +3595,7 @@ Defined in: [helper/EntityHelper.ts:214](https://github.com/Orb-Workshop/scripte
 
 > **Kill**(): `void`
 
-Defined in: [helper/EntityHelper.ts:226](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L226)
+Defined in: [src/helper/EntityHelper.ts:226](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L226)
 
 ###### Returns
 
@@ -3664,7 +3609,7 @@ Defined in: [helper/EntityHelper.ts:226](https://github.com/Orb-Workshop/scripte
 
 > **KillAll**(): `void`
 
-Defined in: [helper/EntityHelper.ts:234](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L234)
+Defined in: [src/helper/EntityHelper.ts:234](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L234)
 
 ###### Returns
 
@@ -3678,7 +3623,7 @@ Defined in: [helper/EntityHelper.ts:234](https://github.com/Orb-Workshop/scripte
 
 > **KillHierarchy**(`opts?`): `void`
 
-Defined in: [helper/EntityHelper.ts:230](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L230)
+Defined in: [src/helper/EntityHelper.ts:230](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L230)
 
 ###### Parameters
 
@@ -3698,7 +3643,7 @@ Defined in: [helper/EntityHelper.ts:230](https://github.com/Orb-Workshop/scripte
 
 > **On**(`event_name`, `callback`): [`EntityHelper`](#abstract-entityhelper)
 
-Defined in: [helper/EntityHelper.ts:104](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L104)
+Defined in: [src/helper/EntityHelper.ts:104](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L104)
 
 ###### Parameters
 
@@ -3719,7 +3664,7 @@ Defined in: [helper/EntityHelper.ts:104](https://github.com/Orb-Workshop/scripte
 
 > **Remove**(): `void`
 
-Defined in: [helper/EntityHelper.ts:238](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L238)
+Defined in: [src/helper/EntityHelper.ts:238](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L238)
 
 ###### Returns
 
@@ -3733,7 +3678,7 @@ Defined in: [helper/EntityHelper.ts:238](https://github.com/Orb-Workshop/scripte
 
 > **setalphascale**(`opts?`): `void`
 
-Defined in: [helper/EnvironmentParticleGlow.ts:50](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EnvironmentParticleGlow.ts#L50)
+Defined in: [src/helper/EnvironmentParticleGlow.ts:50](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EnvironmentParticleGlow.ts#L50)
 
 ###### Parameters
 
@@ -3749,7 +3694,7 @@ Defined in: [helper/EnvironmentParticleGlow.ts:50](https://github.com/Orb-Worksh
 
 > **setcolortint**(`opts?`): `void`
 
-Defined in: [helper/EnvironmentParticleGlow.ts:42](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EnvironmentParticleGlow.ts#L42)
+Defined in: [src/helper/EnvironmentParticleGlow.ts:42](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EnvironmentParticleGlow.ts#L42)
 
 ###### Parameters
 
@@ -3765,7 +3710,7 @@ Defined in: [helper/EnvironmentParticleGlow.ts:42](https://github.com/Orb-Worksh
 
 > **SetControlPoint**(`x`, `y`, `z`, `opts?`): `void`
 
-Defined in: [helper/EnvironmentParticleGlow.ts:70](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EnvironmentParticleGlow.ts#L70)
+Defined in: [src/helper/EnvironmentParticleGlow.ts:70](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EnvironmentParticleGlow.ts#L70)
 
 ###### Parameters
 
@@ -3784,7 +3729,7 @@ Defined in: [helper/EnvironmentParticleGlow.ts:70](https://github.com/Orb-Worksh
 
 > **SetEntityName**(`s`): `void`
 
-Defined in: [helper/EntityHelper.ts:162](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L162)
+Defined in: [src/helper/EntityHelper.ts:162](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L162)
 
 ###### Parameters
 
@@ -3804,7 +3749,7 @@ Defined in: [helper/EntityHelper.ts:162](https://github.com/Orb-Workshop/scripte
 
 > **SetHealth**(`hp`): `void`
 
-Defined in: [helper/EntityHelper.ts:190](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L190)
+Defined in: [src/helper/EntityHelper.ts:190](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L190)
 
 ###### Parameters
 
@@ -3824,7 +3769,7 @@ Defined in: [helper/EntityHelper.ts:190](https://github.com/Orb-Workshop/scripte
 
 > **SetMaxHealth**(`hp`): `void`
 
-Defined in: [helper/EntityHelper.ts:202](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L202)
+Defined in: [src/helper/EntityHelper.ts:202](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L202)
 
 ###### Parameters
 
@@ -3844,7 +3789,7 @@ Defined in: [helper/EntityHelper.ts:202](https://github.com/Orb-Workshop/scripte
 
 > **SetOwner**(`e`): `void`
 
-Defined in: [helper/EntityHelper.ts:170](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L170)
+Defined in: [src/helper/EntityHelper.ts:170](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L170)
 
 ###### Parameters
 
@@ -3864,7 +3809,7 @@ Defined in: [helper/EntityHelper.ts:170](https://github.com/Orb-Workshop/scripte
 
 > **SetParent**(`e`): `void`
 
-Defined in: [helper/EntityHelper.ts:178](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L178)
+Defined in: [src/helper/EntityHelper.ts:178](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L178)
 
 ###### Parameters
 
@@ -3884,7 +3829,7 @@ Defined in: [helper/EntityHelper.ts:178](https://github.com/Orb-Workshop/scripte
 
 > **setscale**(`opts?`): `void`
 
-Defined in: [helper/EnvironmentParticleGlow.ts:46](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EnvironmentParticleGlow.ts#L46)
+Defined in: [src/helper/EnvironmentParticleGlow.ts:46](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EnvironmentParticleGlow.ts#L46)
 
 ###### Parameters
 
@@ -3900,7 +3845,7 @@ Defined in: [helper/EnvironmentParticleGlow.ts:46](https://github.com/Orb-Worksh
 
 > **Start**(`opts?`): `void`
 
-Defined in: [helper/EnvironmentParticleGlow.ts:54](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EnvironmentParticleGlow.ts#L54)
+Defined in: [src/helper/EnvironmentParticleGlow.ts:54](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EnvironmentParticleGlow.ts#L54)
 
 ###### Parameters
 
@@ -3916,7 +3861,7 @@ Defined in: [helper/EnvironmentParticleGlow.ts:54](https://github.com/Orb-Worksh
 
 > **Stop**(`opts?`): `void`
 
-Defined in: [helper/EnvironmentParticleGlow.ts:58](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EnvironmentParticleGlow.ts#L58)
+Defined in: [src/helper/EnvironmentParticleGlow.ts:58](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EnvironmentParticleGlow.ts#L58)
 
 ###### Parameters
 
@@ -3932,7 +3877,7 @@ Defined in: [helper/EnvironmentParticleGlow.ts:58](https://github.com/Orb-Worksh
 
 > **StopPlayEndCap**(`opts?`): `void`
 
-Defined in: [helper/EnvironmentParticleGlow.ts:62](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EnvironmentParticleGlow.ts#L62)
+Defined in: [src/helper/EnvironmentParticleGlow.ts:62](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EnvironmentParticleGlow.ts#L62)
 
 ###### Parameters
 
@@ -3948,7 +3893,7 @@ Defined in: [helper/EnvironmentParticleGlow.ts:62](https://github.com/Orb-Worksh
 
 > **TakeDamage**(`__namedParameters`): `number`
 
-Defined in: [helper/EntityHelper.ts:222](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L222)
+Defined in: [src/helper/EntityHelper.ts:222](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L222)
 
 ###### Parameters
 
@@ -3972,7 +3917,7 @@ Defined in: [helper/EntityHelper.ts:222](https://github.com/Orb-Workshop/scripte
 
 > **Teleport**(`__namedParameters`): `void`
 
-Defined in: [helper/EntityHelper.ts:150](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L150)
+Defined in: [src/helper/EntityHelper.ts:150](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L150)
 
 ###### Parameters
 
@@ -3995,7 +3940,7 @@ Defined in: [helper/EntityHelper.ts:150](https://github.com/Orb-Workshop/scripte
 
 > `static` **Find**(`r`): [`EnvironmentParticleGlow`](#environmentparticleglow)
 
-Defined in: [helper/EnvironmentParticleGlow.ts:29](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EnvironmentParticleGlow.ts#L29)
+Defined in: [src/helper/EnvironmentParticleGlow.ts:29](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EnvironmentParticleGlow.ts#L29)
 
 ###### Parameters
 
@@ -4015,7 +3960,7 @@ Defined in: [helper/EnvironmentParticleGlow.ts:29](https://github.com/Orb-Worksh
 
 > `static` **FindAll**(`r`): [`EnvironmentParticleGlow`](#environmentparticleglow)[]
 
-Defined in: [helper/EnvironmentParticleGlow.ts:35](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EnvironmentParticleGlow.ts#L35)
+Defined in: [src/helper/EnvironmentParticleGlow.ts:35](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EnvironmentParticleGlow.ts#L35)
 
 ###### Parameters
 
@@ -4035,7 +3980,7 @@ Defined in: [helper/EnvironmentParticleGlow.ts:35](https://github.com/Orb-Worksh
 
 > `static` **FindAllByClass**(`classname`, `r`): [`EntityHelper`](#abstract-entityhelper)[]
 
-Defined in: [helper/EntityHelper.ts:52](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L52)
+Defined in: [src/helper/EntityHelper.ts:52](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L52)
 
 ###### Parameters
 
@@ -4056,7 +4001,7 @@ Defined in: [helper/EntityHelper.ts:52](https://github.com/Orb-Workshop/scripted
 
 > `static` **FindByClass**(`classname`, `r`, `error?`): [`EntityHelper`](#abstract-entityhelper) \| `null`
 
-Defined in: [helper/EntityHelper.ts:44](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L44)
+Defined in: [src/helper/EntityHelper.ts:44](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L44)
 
 ###### Parameters
 
@@ -4078,7 +4023,7 @@ Defined in: [helper/EntityHelper.ts:44](https://github.com/Orb-Workshop/scripted
 
 > `static` **From**(`e`): [`EnvironmentParticleGlow`](#environmentparticleglow)
 
-Defined in: [helper/EnvironmentParticleGlow.ts:23](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EnvironmentParticleGlow.ts#L23)
+Defined in: [src/helper/EnvironmentParticleGlow.ts:23](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EnvironmentParticleGlow.ts#L23)
 
 ###### Parameters
 
@@ -4094,7 +4039,7 @@ Defined in: [helper/EnvironmentParticleGlow.ts:23](https://github.com/Orb-Worksh
 
 ### EnvironmentShake
 
-Defined in: [helper/EnvironmentShake.ts:17](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EnvironmentShake.ts#L17)
+Defined in: [src/helper/EnvironmentShake.ts:17](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EnvironmentShake.ts#L17)
 
 #### Extends
 
@@ -4106,7 +4051,7 @@ Defined in: [helper/EnvironmentShake.ts:17](https://github.com/Orb-Workshop/scri
 
 > **new EnvironmentShake**(`entity`): [`EnvironmentShake`](#environmentshake)
 
-Defined in: [helper/EnvironmentShake.ts:18](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EnvironmentShake.ts#L18)
+Defined in: [src/helper/EnvironmentShake.ts:18](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EnvironmentShake.ts#L18)
 
 ###### Parameters
 
@@ -4120,7 +4065,7 @@ Defined in: [helper/EnvironmentShake.ts:18](https://github.com/Orb-Workshop/scri
 
 ###### Overrides
 
-[`EntityHelper`](#abstract-entityhelper).[`constructor`](#constructor-2)
+[`EntityHelper`](#abstract-entityhelper).[`constructor`](#constructor-1)
 
 #### Accessors
 
@@ -4130,7 +4075,7 @@ Defined in: [helper/EnvironmentShake.ts:18](https://github.com/Orb-Workshop/scri
 
 > **get** **raw**(): `Entity`
 
-Defined in: [helper/EntityHelper.ts:57](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L57)
+Defined in: [src/helper/EntityHelper.ts:57](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L57)
 
 ###### Returns
 
@@ -4146,7 +4091,7 @@ Defined in: [helper/EntityHelper.ts:57](https://github.com/Orb-Workshop/scripted
 
 > **Amplitude**(`opts?`): `void`
 
-Defined in: [helper/EnvironmentShake.ts:50](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EnvironmentShake.ts#L50)
+Defined in: [src/helper/EnvironmentShake.ts:50](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EnvironmentShake.ts#L50)
 
 ###### Parameters
 
@@ -4162,7 +4107,7 @@ Defined in: [helper/EnvironmentShake.ts:50](https://github.com/Orb-Workshop/scri
 
 > **ConnectOutput**(`event_name`, `callback`): `void`
 
-Defined in: [helper/EntityHelper.ts:95](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L95)
+Defined in: [src/helper/EntityHelper.ts:95](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L95)
 
 Represents EventListening of IO entities with `this.ConnectOutput`
 TODO: Use Global Events to 'latch onto' the callbacks this method represents.
@@ -4186,7 +4131,7 @@ TODO: Use Global Events to 'latch onto' the callbacks this method represents.
 
 > **FireIO**(`opts?`): `void`
 
-Defined in: [helper/EntityHelper.ts:59](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L59)
+Defined in: [src/helper/EntityHelper.ts:59](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L59)
 
 ###### Parameters
 
@@ -4206,7 +4151,7 @@ Defined in: [helper/EntityHelper.ts:59](https://github.com/Orb-Workshop/scripted
 
 > **FireUser1**(`opts?`): `void`
 
-Defined in: [helper/EntityHelper.ts:68](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L68)
+Defined in: [src/helper/EntityHelper.ts:68](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L68)
 
 ###### Parameters
 
@@ -4226,7 +4171,7 @@ Defined in: [helper/EntityHelper.ts:68](https://github.com/Orb-Workshop/scripted
 
 > **FireUser2**(`opts?`): `void`
 
-Defined in: [helper/EntityHelper.ts:72](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L72)
+Defined in: [src/helper/EntityHelper.ts:72](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L72)
 
 ###### Parameters
 
@@ -4246,7 +4191,7 @@ Defined in: [helper/EntityHelper.ts:72](https://github.com/Orb-Workshop/scripted
 
 > **FireUser3**(`opts?`): `void`
 
-Defined in: [helper/EntityHelper.ts:76](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L76)
+Defined in: [src/helper/EntityHelper.ts:76](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L76)
 
 ###### Parameters
 
@@ -4266,7 +4211,7 @@ Defined in: [helper/EntityHelper.ts:76](https://github.com/Orb-Workshop/scripted
 
 > **FireUser4**(`opts?`): `void`
 
-Defined in: [helper/EntityHelper.ts:80](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L80)
+Defined in: [src/helper/EntityHelper.ts:80](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L80)
 
 ###### Parameters
 
@@ -4286,7 +4231,7 @@ Defined in: [helper/EntityHelper.ts:80](https://github.com/Orb-Workshop/scripted
 
 > **Frequency**(`opts?`): `void`
 
-Defined in: [helper/EnvironmentShake.ts:54](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EnvironmentShake.ts#L54)
+Defined in: [src/helper/EnvironmentShake.ts:54](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EnvironmentShake.ts#L54)
 
 ###### Parameters
 
@@ -4302,7 +4247,7 @@ Defined in: [helper/EnvironmentShake.ts:54](https://github.com/Orb-Workshop/scri
 
 > **GetAbsAngles**(): [`QAngle`](Math.md#qangle)
 
-Defined in: [helper/EntityHelper.ts:126](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L126)
+Defined in: [src/helper/EntityHelper.ts:126](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L126)
 
 ###### Returns
 
@@ -4316,7 +4261,7 @@ Defined in: [helper/EntityHelper.ts:126](https://github.com/Orb-Workshop/scripte
 
 > **GetAbsOrigin**(): [`Vector3`](Math.md#vector3)
 
-Defined in: [helper/EntityHelper.ts:118](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L118)
+Defined in: [src/helper/EntityHelper.ts:118](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L118)
 
 ###### Returns
 
@@ -4330,7 +4275,7 @@ Defined in: [helper/EntityHelper.ts:118](https://github.com/Orb-Workshop/scripte
 
 > **GetAbsVelocity**(): [`Vector3`](Math.md#vector3)
 
-Defined in: [helper/EntityHelper.ts:134](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L134)
+Defined in: [src/helper/EntityHelper.ts:134](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L134)
 
 ###### Returns
 
@@ -4344,7 +4289,7 @@ Defined in: [helper/EntityHelper.ts:134](https://github.com/Orb-Workshop/scripte
 
 > **GetClassName**(): `string`
 
-Defined in: [helper/EntityHelper.ts:154](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L154)
+Defined in: [src/helper/EntityHelper.ts:154](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L154)
 
 ###### Returns
 
@@ -4358,7 +4303,7 @@ Defined in: [helper/EntityHelper.ts:154](https://github.com/Orb-Workshop/scripte
 
 > **GetEntityName**(): `string`
 
-Defined in: [helper/EntityHelper.ts:158](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L158)
+Defined in: [src/helper/EntityHelper.ts:158](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L158)
 
 ###### Returns
 
@@ -4372,7 +4317,7 @@ Defined in: [helper/EntityHelper.ts:158](https://github.com/Orb-Workshop/scripte
 
 > **GetEyeAngles**(): [`QAngle`](Math.md#qangle)
 
-Defined in: [helper/EntityHelper.ts:142](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L142)
+Defined in: [src/helper/EntityHelper.ts:142](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L142)
 
 ###### Returns
 
@@ -4386,7 +4331,7 @@ Defined in: [helper/EntityHelper.ts:142](https://github.com/Orb-Workshop/scripte
 
 > **GetEyePosition**(): [`Vector3`](Math.md#vector3)
 
-Defined in: [helper/EntityHelper.ts:146](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L146)
+Defined in: [src/helper/EntityHelper.ts:146](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L146)
 
 ###### Returns
 
@@ -4400,7 +4345,7 @@ Defined in: [helper/EntityHelper.ts:146](https://github.com/Orb-Workshop/scripte
 
 > **GetGroundEntity**(): `any`
 
-Defined in: [helper/EntityHelper.ts:218](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L218)
+Defined in: [src/helper/EntityHelper.ts:218](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L218)
 
 ###### Returns
 
@@ -4414,7 +4359,7 @@ Defined in: [helper/EntityHelper.ts:218](https://github.com/Orb-Workshop/scripte
 
 > **GetHealth**(): `number`
 
-Defined in: [helper/EntityHelper.ts:186](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L186)
+Defined in: [src/helper/EntityHelper.ts:186](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L186)
 
 ###### Returns
 
@@ -4428,7 +4373,7 @@ Defined in: [helper/EntityHelper.ts:186](https://github.com/Orb-Workshop/scripte
 
 > **GetLocalAngles**(): [`QAngle`](Math.md#qangle)
 
-Defined in: [helper/EntityHelper.ts:130](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L130)
+Defined in: [src/helper/EntityHelper.ts:130](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L130)
 
 ###### Returns
 
@@ -4442,7 +4387,7 @@ Defined in: [helper/EntityHelper.ts:130](https://github.com/Orb-Workshop/scripte
 
 > **GetLocalOrigin**(): [`Vector3`](Math.md#vector3)
 
-Defined in: [helper/EntityHelper.ts:122](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L122)
+Defined in: [src/helper/EntityHelper.ts:122](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L122)
 
 ###### Returns
 
@@ -4456,7 +4401,7 @@ Defined in: [helper/EntityHelper.ts:122](https://github.com/Orb-Workshop/scripte
 
 > **GetLocalVelocity**(): [`Vector3`](Math.md#vector3)
 
-Defined in: [helper/EntityHelper.ts:138](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L138)
+Defined in: [src/helper/EntityHelper.ts:138](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L138)
 
 ###### Returns
 
@@ -4470,7 +4415,7 @@ Defined in: [helper/EntityHelper.ts:138](https://github.com/Orb-Workshop/scripte
 
 > **GetMaxHealth**(): `number`
 
-Defined in: [helper/EntityHelper.ts:198](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L198)
+Defined in: [src/helper/EntityHelper.ts:198](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L198)
 
 ###### Returns
 
@@ -4484,7 +4429,7 @@ Defined in: [helper/EntityHelper.ts:198](https://github.com/Orb-Workshop/scripte
 
 > **GetOwner**(): `any`
 
-Defined in: [helper/EntityHelper.ts:166](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L166)
+Defined in: [src/helper/EntityHelper.ts:166](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L166)
 
 ###### Returns
 
@@ -4498,7 +4443,7 @@ Defined in: [helper/EntityHelper.ts:166](https://github.com/Orb-Workshop/scripte
 
 > **GetParent**(): `any`
 
-Defined in: [helper/EntityHelper.ts:174](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L174)
+Defined in: [src/helper/EntityHelper.ts:174](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L174)
 
 ###### Returns
 
@@ -4512,7 +4457,7 @@ Defined in: [helper/EntityHelper.ts:174](https://github.com/Orb-Workshop/scripte
 
 > **GetTeamNumber**(): `number`
 
-Defined in: [helper/EntityHelper.ts:182](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L182)
+Defined in: [src/helper/EntityHelper.ts:182](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L182)
 
 ###### Returns
 
@@ -4526,7 +4471,7 @@ Defined in: [helper/EntityHelper.ts:182](https://github.com/Orb-Workshop/scripte
 
 > **IsAlive**(): `boolean`
 
-Defined in: [helper/EntityHelper.ts:210](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L210)
+Defined in: [src/helper/EntityHelper.ts:210](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L210)
 
 ###### Returns
 
@@ -4540,7 +4485,7 @@ Defined in: [helper/EntityHelper.ts:210](https://github.com/Orb-Workshop/scripte
 
 > **IsValid**(): `boolean`
 
-Defined in: [helper/EntityHelper.ts:114](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L114)
+Defined in: [src/helper/EntityHelper.ts:114](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L114)
 
 ###### Returns
 
@@ -4554,7 +4499,7 @@ Defined in: [helper/EntityHelper.ts:114](https://github.com/Orb-Workshop/scripte
 
 > **IsWorld**(): `boolean`
 
-Defined in: [helper/EntityHelper.ts:214](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L214)
+Defined in: [src/helper/EntityHelper.ts:214](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L214)
 
 ###### Returns
 
@@ -4568,7 +4513,7 @@ Defined in: [helper/EntityHelper.ts:214](https://github.com/Orb-Workshop/scripte
 
 > **Kill**(): `void`
 
-Defined in: [helper/EntityHelper.ts:226](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L226)
+Defined in: [src/helper/EntityHelper.ts:226](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L226)
 
 ###### Returns
 
@@ -4582,7 +4527,7 @@ Defined in: [helper/EntityHelper.ts:226](https://github.com/Orb-Workshop/scripte
 
 > **KillAll**(): `void`
 
-Defined in: [helper/EntityHelper.ts:234](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L234)
+Defined in: [src/helper/EntityHelper.ts:234](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L234)
 
 ###### Returns
 
@@ -4596,7 +4541,7 @@ Defined in: [helper/EntityHelper.ts:234](https://github.com/Orb-Workshop/scripte
 
 > **KillHierarchy**(`opts?`): `void`
 
-Defined in: [helper/EntityHelper.ts:230](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L230)
+Defined in: [src/helper/EntityHelper.ts:230](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L230)
 
 ###### Parameters
 
@@ -4616,7 +4561,7 @@ Defined in: [helper/EntityHelper.ts:230](https://github.com/Orb-Workshop/scripte
 
 > **On**(`event_name`, `callback`): [`EntityHelper`](#abstract-entityhelper)
 
-Defined in: [helper/EntityHelper.ts:104](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L104)
+Defined in: [src/helper/EntityHelper.ts:104](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L104)
 
 ###### Parameters
 
@@ -4637,7 +4582,7 @@ Defined in: [helper/EntityHelper.ts:104](https://github.com/Orb-Workshop/scripte
 
 > **Remove**(): `void`
 
-Defined in: [helper/EntityHelper.ts:238](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L238)
+Defined in: [src/helper/EntityHelper.ts:238](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L238)
 
 ###### Returns
 
@@ -4651,7 +4596,7 @@ Defined in: [helper/EntityHelper.ts:238](https://github.com/Orb-Workshop/scripte
 
 > **SetEntityName**(`s`): `void`
 
-Defined in: [helper/EntityHelper.ts:162](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L162)
+Defined in: [src/helper/EntityHelper.ts:162](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L162)
 
 ###### Parameters
 
@@ -4671,7 +4616,7 @@ Defined in: [helper/EntityHelper.ts:162](https://github.com/Orb-Workshop/scripte
 
 > **SetHealth**(`hp`): `void`
 
-Defined in: [helper/EntityHelper.ts:190](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L190)
+Defined in: [src/helper/EntityHelper.ts:190](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L190)
 
 ###### Parameters
 
@@ -4691,7 +4636,7 @@ Defined in: [helper/EntityHelper.ts:190](https://github.com/Orb-Workshop/scripte
 
 > **SetMaxHealth**(`hp`): `void`
 
-Defined in: [helper/EntityHelper.ts:202](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L202)
+Defined in: [src/helper/EntityHelper.ts:202](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L202)
 
 ###### Parameters
 
@@ -4711,7 +4656,7 @@ Defined in: [helper/EntityHelper.ts:202](https://github.com/Orb-Workshop/scripte
 
 > **SetOwner**(`e`): `void`
 
-Defined in: [helper/EntityHelper.ts:170](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L170)
+Defined in: [src/helper/EntityHelper.ts:170](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L170)
 
 ###### Parameters
 
@@ -4731,7 +4676,7 @@ Defined in: [helper/EntityHelper.ts:170](https://github.com/Orb-Workshop/scripte
 
 > **SetParent**(`e`): `void`
 
-Defined in: [helper/EntityHelper.ts:178](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L178)
+Defined in: [src/helper/EntityHelper.ts:178](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L178)
 
 ###### Parameters
 
@@ -4751,7 +4696,7 @@ Defined in: [helper/EntityHelper.ts:178](https://github.com/Orb-Workshop/scripte
 
 > **StartShake**(`opts?`): `void`
 
-Defined in: [helper/EnvironmentShake.ts:42](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EnvironmentShake.ts#L42)
+Defined in: [src/helper/EnvironmentShake.ts:42](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EnvironmentShake.ts#L42)
 
 ###### Parameters
 
@@ -4767,7 +4712,7 @@ Defined in: [helper/EnvironmentShake.ts:42](https://github.com/Orb-Workshop/scri
 
 > **StopShake**(`opts?`): `void`
 
-Defined in: [helper/EnvironmentShake.ts:46](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EnvironmentShake.ts#L46)
+Defined in: [src/helper/EnvironmentShake.ts:46](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EnvironmentShake.ts#L46)
 
 ###### Parameters
 
@@ -4783,7 +4728,7 @@ Defined in: [helper/EnvironmentShake.ts:46](https://github.com/Orb-Workshop/scri
 
 > **TakeDamage**(`__namedParameters`): `number`
 
-Defined in: [helper/EntityHelper.ts:222](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L222)
+Defined in: [src/helper/EntityHelper.ts:222](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L222)
 
 ###### Parameters
 
@@ -4807,7 +4752,7 @@ Defined in: [helper/EntityHelper.ts:222](https://github.com/Orb-Workshop/scripte
 
 > **Teleport**(`__namedParameters`): `void`
 
-Defined in: [helper/EntityHelper.ts:150](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L150)
+Defined in: [src/helper/EntityHelper.ts:150](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L150)
 
 ###### Parameters
 
@@ -4830,7 +4775,7 @@ Defined in: [helper/EntityHelper.ts:150](https://github.com/Orb-Workshop/scripte
 
 > `static` **Find**(`r`): [`EnvironmentShake`](#environmentshake)
 
-Defined in: [helper/EnvironmentShake.ts:29](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EnvironmentShake.ts#L29)
+Defined in: [src/helper/EnvironmentShake.ts:29](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EnvironmentShake.ts#L29)
 
 ###### Parameters
 
@@ -4850,7 +4795,7 @@ Defined in: [helper/EnvironmentShake.ts:29](https://github.com/Orb-Workshop/scri
 
 > `static` **FindAll**(`r`): [`EnvironmentShake`](#environmentshake)[]
 
-Defined in: [helper/EnvironmentShake.ts:35](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EnvironmentShake.ts#L35)
+Defined in: [src/helper/EnvironmentShake.ts:35](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EnvironmentShake.ts#L35)
 
 ###### Parameters
 
@@ -4870,7 +4815,7 @@ Defined in: [helper/EnvironmentShake.ts:35](https://github.com/Orb-Workshop/scri
 
 > `static` **FindAllByClass**(`classname`, `r`): [`EntityHelper`](#abstract-entityhelper)[]
 
-Defined in: [helper/EntityHelper.ts:52](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L52)
+Defined in: [src/helper/EntityHelper.ts:52](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L52)
 
 ###### Parameters
 
@@ -4891,7 +4836,7 @@ Defined in: [helper/EntityHelper.ts:52](https://github.com/Orb-Workshop/scripted
 
 > `static` **FindByClass**(`classname`, `r`, `error?`): [`EntityHelper`](#abstract-entityhelper) \| `null`
 
-Defined in: [helper/EntityHelper.ts:44](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L44)
+Defined in: [src/helper/EntityHelper.ts:44](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L44)
 
 ###### Parameters
 
@@ -4913,7 +4858,7 @@ Defined in: [helper/EntityHelper.ts:44](https://github.com/Orb-Workshop/scripted
 
 > `static` **From**(`e`): [`EnvironmentShake`](#environmentshake)
 
-Defined in: [helper/EnvironmentShake.ts:23](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EnvironmentShake.ts#L23)
+Defined in: [src/helper/EnvironmentShake.ts:23](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EnvironmentShake.ts#L23)
 
 ###### Parameters
 
@@ -4929,7 +4874,7 @@ Defined in: [helper/EnvironmentShake.ts:23](https://github.com/Orb-Workshop/scri
 
 ### FuncBreakable
 
-Defined in: [helper/FuncBreakable.ts:18](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/FuncBreakable.ts#L18)
+Defined in: [src/helper/FuncBreakable.ts:18](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/FuncBreakable.ts#L18)
 
 #### Extends
 
@@ -4946,7 +4891,7 @@ Defined in: [helper/FuncBreakable.ts:18](https://github.com/Orb-Workshop/scripte
 
 > **new FuncBreakable**(`entity`): [`FuncBreakable`](#funcbreakable)
 
-Defined in: [helper/FuncBreakable.ts:19](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/FuncBreakable.ts#L19)
+Defined in: [src/helper/FuncBreakable.ts:19](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/FuncBreakable.ts#L19)
 
 ###### Parameters
 
@@ -4970,7 +4915,7 @@ Defined in: [helper/FuncBreakable.ts:19](https://github.com/Orb-Workshop/scripte
 
 > **get** **raw**(): `Entity`
 
-Defined in: [helper/EntityHelper.ts:57](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L57)
+Defined in: [src/helper/EntityHelper.ts:57](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L57)
 
 ###### Returns
 
@@ -4986,7 +4931,7 @@ Defined in: [helper/EntityHelper.ts:57](https://github.com/Orb-Workshop/scripted
 
 > **AddHealth**(`value`, `opts?`): `void`
 
-Defined in: [helper/FuncBreakable.ts:49](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/FuncBreakable.ts#L49)
+Defined in: [src/helper/FuncBreakable.ts:49](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/FuncBreakable.ts#L49)
 
 ###### Parameters
 
@@ -5003,7 +4948,7 @@ Defined in: [helper/FuncBreakable.ts:49](https://github.com/Orb-Workshop/scripte
 
 > **Break**(`opts?`): `void`
 
-Defined in: [helper/FuncBreakable.ts:41](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/FuncBreakable.ts#L41)
+Defined in: [src/helper/FuncBreakable.ts:41](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/FuncBreakable.ts#L41)
 
 ###### Parameters
 
@@ -5019,7 +4964,7 @@ Defined in: [helper/FuncBreakable.ts:41](https://github.com/Orb-Workshop/scripte
 
 > **ConnectOutput**(`event_name`, `callback`): `void`
 
-Defined in: [helper/EntityHelper.ts:95](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L95)
+Defined in: [src/helper/EntityHelper.ts:95](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L95)
 
 Represents EventListening of IO entities with `this.ConnectOutput`
 TODO: Use Global Events to 'latch onto' the callbacks this method represents.
@@ -5043,7 +4988,7 @@ TODO: Use Global Events to 'latch onto' the callbacks this method represents.
 
 > **FireIO**(`opts?`): `void`
 
-Defined in: [helper/EntityHelper.ts:59](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L59)
+Defined in: [src/helper/EntityHelper.ts:59](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L59)
 
 ###### Parameters
 
@@ -5063,7 +5008,7 @@ Defined in: [helper/EntityHelper.ts:59](https://github.com/Orb-Workshop/scripted
 
 > **FireUser1**(`opts?`): `void`
 
-Defined in: [helper/EntityHelper.ts:68](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L68)
+Defined in: [src/helper/EntityHelper.ts:68](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L68)
 
 ###### Parameters
 
@@ -5083,7 +5028,7 @@ Defined in: [helper/EntityHelper.ts:68](https://github.com/Orb-Workshop/scripted
 
 > **FireUser2**(`opts?`): `void`
 
-Defined in: [helper/EntityHelper.ts:72](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L72)
+Defined in: [src/helper/EntityHelper.ts:72](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L72)
 
 ###### Parameters
 
@@ -5103,7 +5048,7 @@ Defined in: [helper/EntityHelper.ts:72](https://github.com/Orb-Workshop/scripted
 
 > **FireUser3**(`opts?`): `void`
 
-Defined in: [helper/EntityHelper.ts:76](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L76)
+Defined in: [src/helper/EntityHelper.ts:76](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L76)
 
 ###### Parameters
 
@@ -5123,7 +5068,7 @@ Defined in: [helper/EntityHelper.ts:76](https://github.com/Orb-Workshop/scripted
 
 > **FireUser4**(`opts?`): `void`
 
-Defined in: [helper/EntityHelper.ts:80](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L80)
+Defined in: [src/helper/EntityHelper.ts:80](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L80)
 
 ###### Parameters
 
@@ -5143,7 +5088,7 @@ Defined in: [helper/EntityHelper.ts:80](https://github.com/Orb-Workshop/scripted
 
 > **GetAbsAngles**(): [`QAngle`](Math.md#qangle)
 
-Defined in: [helper/EntityHelper.ts:126](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L126)
+Defined in: [src/helper/EntityHelper.ts:126](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L126)
 
 ###### Returns
 
@@ -5157,7 +5102,7 @@ Defined in: [helper/EntityHelper.ts:126](https://github.com/Orb-Workshop/scripte
 
 > **GetAbsOrigin**(): [`Vector3`](Math.md#vector3)
 
-Defined in: [helper/EntityHelper.ts:118](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L118)
+Defined in: [src/helper/EntityHelper.ts:118](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L118)
 
 ###### Returns
 
@@ -5171,7 +5116,7 @@ Defined in: [helper/EntityHelper.ts:118](https://github.com/Orb-Workshop/scripte
 
 > **GetAbsVelocity**(): [`Vector3`](Math.md#vector3)
 
-Defined in: [helper/EntityHelper.ts:134](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L134)
+Defined in: [src/helper/EntityHelper.ts:134](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L134)
 
 ###### Returns
 
@@ -5185,7 +5130,7 @@ Defined in: [helper/EntityHelper.ts:134](https://github.com/Orb-Workshop/scripte
 
 > **GetClassName**(): `string`
 
-Defined in: [helper/EntityHelper.ts:154](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L154)
+Defined in: [src/helper/EntityHelper.ts:154](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L154)
 
 ###### Returns
 
@@ -5199,7 +5144,7 @@ Defined in: [helper/EntityHelper.ts:154](https://github.com/Orb-Workshop/scripte
 
 > **GetColor**(): `ColorType`
 
-Defined in: [helper/BaseModelEntity.ts:59](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L59)
+Defined in: [src/helper/BaseModelEntity.ts:59](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L59)
 
 ###### Returns
 
@@ -5213,7 +5158,7 @@ Defined in: [helper/BaseModelEntity.ts:59](https://github.com/Orb-Workshop/scrip
 
 > **GetEntityName**(): `string`
 
-Defined in: [helper/EntityHelper.ts:158](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L158)
+Defined in: [src/helper/EntityHelper.ts:158](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L158)
 
 ###### Returns
 
@@ -5227,7 +5172,7 @@ Defined in: [helper/EntityHelper.ts:158](https://github.com/Orb-Workshop/scripte
 
 > **GetEyeAngles**(): [`QAngle`](Math.md#qangle)
 
-Defined in: [helper/EntityHelper.ts:142](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L142)
+Defined in: [src/helper/EntityHelper.ts:142](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L142)
 
 ###### Returns
 
@@ -5241,7 +5186,7 @@ Defined in: [helper/EntityHelper.ts:142](https://github.com/Orb-Workshop/scripte
 
 > **GetEyePosition**(): [`Vector3`](Math.md#vector3)
 
-Defined in: [helper/EntityHelper.ts:146](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L146)
+Defined in: [src/helper/EntityHelper.ts:146](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L146)
 
 ###### Returns
 
@@ -5255,7 +5200,7 @@ Defined in: [helper/EntityHelper.ts:146](https://github.com/Orb-Workshop/scripte
 
 > **GetGroundEntity**(): `any`
 
-Defined in: [helper/EntityHelper.ts:218](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L218)
+Defined in: [src/helper/EntityHelper.ts:218](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L218)
 
 ###### Returns
 
@@ -5269,7 +5214,7 @@ Defined in: [helper/EntityHelper.ts:218](https://github.com/Orb-Workshop/scripte
 
 > **GetHealth**(): `number`
 
-Defined in: [helper/EntityHelper.ts:186](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L186)
+Defined in: [src/helper/EntityHelper.ts:186](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L186)
 
 ###### Returns
 
@@ -5283,7 +5228,7 @@ Defined in: [helper/EntityHelper.ts:186](https://github.com/Orb-Workshop/scripte
 
 > **GetLocalAngles**(): [`QAngle`](Math.md#qangle)
 
-Defined in: [helper/EntityHelper.ts:130](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L130)
+Defined in: [src/helper/EntityHelper.ts:130](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L130)
 
 ###### Returns
 
@@ -5297,7 +5242,7 @@ Defined in: [helper/EntityHelper.ts:130](https://github.com/Orb-Workshop/scripte
 
 > **GetLocalOrigin**(): [`Vector3`](Math.md#vector3)
 
-Defined in: [helper/EntityHelper.ts:122](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L122)
+Defined in: [src/helper/EntityHelper.ts:122](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L122)
 
 ###### Returns
 
@@ -5311,7 +5256,7 @@ Defined in: [helper/EntityHelper.ts:122](https://github.com/Orb-Workshop/scripte
 
 > **GetLocalVelocity**(): [`Vector3`](Math.md#vector3)
 
-Defined in: [helper/EntityHelper.ts:138](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L138)
+Defined in: [src/helper/EntityHelper.ts:138](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L138)
 
 ###### Returns
 
@@ -5325,7 +5270,7 @@ Defined in: [helper/EntityHelper.ts:138](https://github.com/Orb-Workshop/scripte
 
 > **GetMaxHealth**(): `number`
 
-Defined in: [helper/EntityHelper.ts:198](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L198)
+Defined in: [src/helper/EntityHelper.ts:198](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L198)
 
 ###### Returns
 
@@ -5339,7 +5284,7 @@ Defined in: [helper/EntityHelper.ts:198](https://github.com/Orb-Workshop/scripte
 
 > **GetModelName**(): `string`
 
-Defined in: [helper/BaseModelEntity.ts:43](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L43)
+Defined in: [src/helper/BaseModelEntity.ts:43](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L43)
 
 ###### Returns
 
@@ -5353,7 +5298,7 @@ Defined in: [helper/BaseModelEntity.ts:43](https://github.com/Orb-Workshop/scrip
 
 > **GetModelScale**(): `string`
 
-Defined in: [helper/BaseModelEntity.ts:51](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L51)
+Defined in: [src/helper/BaseModelEntity.ts:51](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L51)
 
 ###### Returns
 
@@ -5367,7 +5312,7 @@ Defined in: [helper/BaseModelEntity.ts:51](https://github.com/Orb-Workshop/scrip
 
 > **GetOwner**(): `any`
 
-Defined in: [helper/EntityHelper.ts:166](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L166)
+Defined in: [src/helper/EntityHelper.ts:166](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L166)
 
 ###### Returns
 
@@ -5381,7 +5326,7 @@ Defined in: [helper/EntityHelper.ts:166](https://github.com/Orb-Workshop/scripte
 
 > **GetParent**(): `any`
 
-Defined in: [helper/EntityHelper.ts:174](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L174)
+Defined in: [src/helper/EntityHelper.ts:174](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L174)
 
 ###### Returns
 
@@ -5395,7 +5340,7 @@ Defined in: [helper/EntityHelper.ts:174](https://github.com/Orb-Workshop/scripte
 
 > **GetTeamNumber**(): `number`
 
-Defined in: [helper/EntityHelper.ts:182](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L182)
+Defined in: [src/helper/EntityHelper.ts:182](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L182)
 
 ###### Returns
 
@@ -5409,7 +5354,7 @@ Defined in: [helper/EntityHelper.ts:182](https://github.com/Orb-Workshop/scripte
 
 > **Glow**(`color?`): `void`
 
-Defined in: [helper/BaseModelEntity.ts:63](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L63)
+Defined in: [src/helper/BaseModelEntity.ts:63](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L63)
 
 ###### Parameters
 
@@ -5429,7 +5374,7 @@ Defined in: [helper/BaseModelEntity.ts:63](https://github.com/Orb-Workshop/scrip
 
 > **IsAlive**(): `boolean`
 
-Defined in: [helper/EntityHelper.ts:210](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L210)
+Defined in: [src/helper/EntityHelper.ts:210](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L210)
 
 ###### Returns
 
@@ -5443,7 +5388,7 @@ Defined in: [helper/EntityHelper.ts:210](https://github.com/Orb-Workshop/scripte
 
 > **IsGlowing**(): `boolean`
 
-Defined in: [helper/BaseModelEntity.ts:71](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L71)
+Defined in: [src/helper/BaseModelEntity.ts:71](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L71)
 
 ###### Returns
 
@@ -5457,7 +5402,7 @@ Defined in: [helper/BaseModelEntity.ts:71](https://github.com/Orb-Workshop/scrip
 
 > **IsValid**(): `boolean`
 
-Defined in: [helper/EntityHelper.ts:114](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L114)
+Defined in: [src/helper/EntityHelper.ts:114](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L114)
 
 ###### Returns
 
@@ -5471,7 +5416,7 @@ Defined in: [helper/EntityHelper.ts:114](https://github.com/Orb-Workshop/scripte
 
 > **IsWorld**(): `boolean`
 
-Defined in: [helper/EntityHelper.ts:214](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L214)
+Defined in: [src/helper/EntityHelper.ts:214](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L214)
 
 ###### Returns
 
@@ -5485,7 +5430,7 @@ Defined in: [helper/EntityHelper.ts:214](https://github.com/Orb-Workshop/scripte
 
 > **Kill**(): `void`
 
-Defined in: [helper/EntityHelper.ts:226](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L226)
+Defined in: [src/helper/EntityHelper.ts:226](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L226)
 
 ###### Returns
 
@@ -5499,7 +5444,7 @@ Defined in: [helper/EntityHelper.ts:226](https://github.com/Orb-Workshop/scripte
 
 > **KillAll**(): `void`
 
-Defined in: [helper/EntityHelper.ts:234](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L234)
+Defined in: [src/helper/EntityHelper.ts:234](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L234)
 
 ###### Returns
 
@@ -5513,7 +5458,7 @@ Defined in: [helper/EntityHelper.ts:234](https://github.com/Orb-Workshop/scripte
 
 > **KillHierarchy**(`opts?`): `void`
 
-Defined in: [helper/EntityHelper.ts:230](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L230)
+Defined in: [src/helper/EntityHelper.ts:230](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L230)
 
 ###### Parameters
 
@@ -5533,7 +5478,7 @@ Defined in: [helper/EntityHelper.ts:230](https://github.com/Orb-Workshop/scripte
 
 > **On**(`event_name`, `callback`): [`EntityHelper`](#abstract-entityhelper)
 
-Defined in: [helper/EntityHelper.ts:104](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L104)
+Defined in: [src/helper/EntityHelper.ts:104](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L104)
 
 ###### Parameters
 
@@ -5554,7 +5499,7 @@ Defined in: [helper/EntityHelper.ts:104](https://github.com/Orb-Workshop/scripte
 
 > **OnBreak**(`callback`): [`FuncBreakable`](#funcbreakable)
 
-Defined in: [helper/FuncBreakable.ts:62](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/FuncBreakable.ts#L62)
+Defined in: [src/helper/FuncBreakable.ts:62](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/FuncBreakable.ts#L62)
 
 ###### Parameters
 
@@ -5570,7 +5515,7 @@ Defined in: [helper/FuncBreakable.ts:62](https://github.com/Orb-Workshop/scripte
 
 > **OnHealthChanged**(`callback`): [`FuncBreakable`](#funcbreakable)
 
-Defined in: [helper/FuncBreakable.ts:67](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/FuncBreakable.ts#L67)
+Defined in: [src/helper/FuncBreakable.ts:67](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/FuncBreakable.ts#L67)
 
 ###### Parameters
 
@@ -5586,7 +5531,7 @@ Defined in: [helper/FuncBreakable.ts:67](https://github.com/Orb-Workshop/scripte
 
 > **Remove**(): `void`
 
-Defined in: [helper/EntityHelper.ts:238](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L238)
+Defined in: [src/helper/EntityHelper.ts:238](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L238)
 
 ###### Returns
 
@@ -5600,7 +5545,7 @@ Defined in: [helper/EntityHelper.ts:238](https://github.com/Orb-Workshop/scripte
 
 > **RemoveHealth**(`value`, `opts?`): `void`
 
-Defined in: [helper/FuncBreakable.ts:53](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/FuncBreakable.ts#L53)
+Defined in: [src/helper/FuncBreakable.ts:53](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/FuncBreakable.ts#L53)
 
 ###### Parameters
 
@@ -5617,7 +5562,7 @@ Defined in: [helper/FuncBreakable.ts:53](https://github.com/Orb-Workshop/scripte
 
 > **SetColor**(`c`): `void`
 
-Defined in: [helper/BaseModelEntity.ts:55](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L55)
+Defined in: [src/helper/BaseModelEntity.ts:55](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L55)
 
 ###### Parameters
 
@@ -5637,7 +5582,7 @@ Defined in: [helper/BaseModelEntity.ts:55](https://github.com/Orb-Workshop/scrip
 
 > **SetEntityName**(`s`): `void`
 
-Defined in: [helper/EntityHelper.ts:162](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L162)
+Defined in: [src/helper/EntityHelper.ts:162](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L162)
 
 ###### Parameters
 
@@ -5657,7 +5602,7 @@ Defined in: [helper/EntityHelper.ts:162](https://github.com/Orb-Workshop/scripte
 
 > **SetHealth**(`value`, `opts?`): `void`
 
-Defined in: [helper/FuncBreakable.ts:45](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/FuncBreakable.ts#L45)
+Defined in: [src/helper/FuncBreakable.ts:45](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/FuncBreakable.ts#L45)
 
 ###### Parameters
 
@@ -5678,7 +5623,7 @@ Defined in: [helper/FuncBreakable.ts:45](https://github.com/Orb-Workshop/scripte
 
 > **SetMass**(`value`, `opts?`): `void`
 
-Defined in: [helper/FuncBreakable.ts:57](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/FuncBreakable.ts#L57)
+Defined in: [src/helper/FuncBreakable.ts:57](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/FuncBreakable.ts#L57)
 
 ###### Parameters
 
@@ -5695,7 +5640,7 @@ Defined in: [helper/FuncBreakable.ts:57](https://github.com/Orb-Workshop/scripte
 
 > **SetMaxHealth**(`hp`): `void`
 
-Defined in: [helper/EntityHelper.ts:202](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L202)
+Defined in: [src/helper/EntityHelper.ts:202](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L202)
 
 ###### Parameters
 
@@ -5715,7 +5660,7 @@ Defined in: [helper/EntityHelper.ts:202](https://github.com/Orb-Workshop/scripte
 
 > **SetModel**(`s`): `void`
 
-Defined in: [helper/BaseModelEntity.ts:39](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L39)
+Defined in: [src/helper/BaseModelEntity.ts:39](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L39)
 
 ###### Parameters
 
@@ -5735,7 +5680,7 @@ Defined in: [helper/BaseModelEntity.ts:39](https://github.com/Orb-Workshop/scrip
 
 > **SetModelScale**(`s`): `void`
 
-Defined in: [helper/BaseModelEntity.ts:47](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L47)
+Defined in: [src/helper/BaseModelEntity.ts:47](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L47)
 
 ###### Parameters
 
@@ -5755,7 +5700,7 @@ Defined in: [helper/BaseModelEntity.ts:47](https://github.com/Orb-Workshop/scrip
 
 > **SetOwner**(`e`): `void`
 
-Defined in: [helper/EntityHelper.ts:170](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L170)
+Defined in: [src/helper/EntityHelper.ts:170](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L170)
 
 ###### Parameters
 
@@ -5775,7 +5720,7 @@ Defined in: [helper/EntityHelper.ts:170](https://github.com/Orb-Workshop/scripte
 
 > **SetParent**(`e`): `void`
 
-Defined in: [helper/EntityHelper.ts:178](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L178)
+Defined in: [src/helper/EntityHelper.ts:178](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L178)
 
 ###### Parameters
 
@@ -5795,7 +5740,7 @@ Defined in: [helper/EntityHelper.ts:178](https://github.com/Orb-Workshop/scripte
 
 > **TakeDamage**(`__namedParameters`): `number`
 
-Defined in: [helper/EntityHelper.ts:222](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L222)
+Defined in: [src/helper/EntityHelper.ts:222](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L222)
 
 ###### Parameters
 
@@ -5819,7 +5764,7 @@ Defined in: [helper/EntityHelper.ts:222](https://github.com/Orb-Workshop/scripte
 
 > **Teleport**(`__namedParameters`): `void`
 
-Defined in: [helper/EntityHelper.ts:150](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L150)
+Defined in: [src/helper/EntityHelper.ts:150](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L150)
 
 ###### Parameters
 
@@ -5842,7 +5787,7 @@ Defined in: [helper/EntityHelper.ts:150](https://github.com/Orb-Workshop/scripte
 
 > **Unglow**(): `void`
 
-Defined in: [helper/BaseModelEntity.ts:67](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L67)
+Defined in: [src/helper/BaseModelEntity.ts:67](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L67)
 
 ###### Returns
 
@@ -5856,7 +5801,7 @@ Defined in: [helper/BaseModelEntity.ts:67](https://github.com/Orb-Workshop/scrip
 
 > `static` **Find**(`r`): [`FuncBreakable`](#funcbreakable)
 
-Defined in: [helper/FuncBreakable.ts:29](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/FuncBreakable.ts#L29)
+Defined in: [src/helper/FuncBreakable.ts:29](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/FuncBreakable.ts#L29)
 
 ###### Parameters
 
@@ -5876,7 +5821,7 @@ Defined in: [helper/FuncBreakable.ts:29](https://github.com/Orb-Workshop/scripte
 
 > `static` **FindAll**(`r`): [`FuncBreakable`](#funcbreakable)[]
 
-Defined in: [helper/FuncBreakable.ts:34](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/FuncBreakable.ts#L34)
+Defined in: [src/helper/FuncBreakable.ts:34](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/FuncBreakable.ts#L34)
 
 ###### Parameters
 
@@ -5896,7 +5841,7 @@ Defined in: [helper/FuncBreakable.ts:34](https://github.com/Orb-Workshop/scripte
 
 > `static` **FindAllByClass**(`classname`, `r`): [`EntityHelper`](#abstract-entityhelper)[]
 
-Defined in: [helper/EntityHelper.ts:52](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L52)
+Defined in: [src/helper/EntityHelper.ts:52](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L52)
 
 ###### Parameters
 
@@ -5917,7 +5862,7 @@ Defined in: [helper/EntityHelper.ts:52](https://github.com/Orb-Workshop/scripted
 
 > `static` **FindByClass**(`classname`, `r`, `error?`): [`EntityHelper`](#abstract-entityhelper) \| `null`
 
-Defined in: [helper/EntityHelper.ts:44](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L44)
+Defined in: [src/helper/EntityHelper.ts:44](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L44)
 
 ###### Parameters
 
@@ -5939,7 +5884,7 @@ Defined in: [helper/EntityHelper.ts:44](https://github.com/Orb-Workshop/scripted
 
 > `static` **From**(`e`): [`FuncBreakable`](#funcbreakable)
 
-Defined in: [helper/FuncBreakable.ts:23](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/FuncBreakable.ts#L23)
+Defined in: [src/helper/FuncBreakable.ts:23](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/FuncBreakable.ts#L23)
 
 ###### Parameters
 
@@ -5959,7 +5904,7 @@ Defined in: [helper/FuncBreakable.ts:23](https://github.com/Orb-Workshop/scripte
 
 ### FuncButton
 
-Defined in: [helper/FuncButton.ts:20](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/FuncButton.ts#L20)
+Defined in: [src/helper/FuncButton.ts:20](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/FuncButton.ts#L20)
 
 #### Extends
 
@@ -5971,7 +5916,7 @@ Defined in: [helper/FuncButton.ts:20](https://github.com/Orb-Workshop/scriptedeu
 
 > **new FuncButton**(`entity`): [`FuncButton`](#funcbutton)
 
-Defined in: [helper/FuncButton.ts:21](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/FuncButton.ts#L21)
+Defined in: [src/helper/FuncButton.ts:21](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/FuncButton.ts#L21)
 
 ###### Parameters
 
@@ -5995,7 +5940,7 @@ Defined in: [helper/FuncButton.ts:21](https://github.com/Orb-Workshop/scriptedeu
 
 > **get** **raw**(): `Entity`
 
-Defined in: [helper/EntityHelper.ts:57](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L57)
+Defined in: [src/helper/EntityHelper.ts:57](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L57)
 
 ###### Returns
 
@@ -6011,7 +5956,7 @@ Defined in: [helper/EntityHelper.ts:57](https://github.com/Orb-Workshop/scripted
 
 > **ConnectOutput**(`event_name`, `callback`): `void`
 
-Defined in: [helper/EntityHelper.ts:95](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L95)
+Defined in: [src/helper/EntityHelper.ts:95](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L95)
 
 Represents EventListening of IO entities with `this.ConnectOutput`
 TODO: Use Global Events to 'latch onto' the callbacks this method represents.
@@ -6031,11 +5976,43 @@ TODO: Use Global Events to 'latch onto' the callbacks this method represents.
 
 [`BaseModelEntity`](#basemodelentity).[`ConnectOutput`](#connectoutput)
 
+##### Disable()
+
+> **Disable**(`opts?`): `void`
+
+Defined in: [src/helper/FuncButton.ts:48](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/FuncButton.ts#L48)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `opts` | \{ \} |
+
+###### Returns
+
+`void`
+
+##### Enable()
+
+> **Enable**(`opts?`): `void`
+
+Defined in: [src/helper/FuncButton.ts:44](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/FuncButton.ts#L44)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `opts` | \{ \} |
+
+###### Returns
+
+`void`
+
 ##### FireIO()
 
 > **FireIO**(`opts?`): `void`
 
-Defined in: [helper/EntityHelper.ts:59](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L59)
+Defined in: [src/helper/EntityHelper.ts:59](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L59)
 
 ###### Parameters
 
@@ -6055,7 +6032,7 @@ Defined in: [helper/EntityHelper.ts:59](https://github.com/Orb-Workshop/scripted
 
 > **FireUser1**(`opts?`): `void`
 
-Defined in: [helper/EntityHelper.ts:68](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L68)
+Defined in: [src/helper/EntityHelper.ts:68](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L68)
 
 ###### Parameters
 
@@ -6075,7 +6052,7 @@ Defined in: [helper/EntityHelper.ts:68](https://github.com/Orb-Workshop/scripted
 
 > **FireUser2**(`opts?`): `void`
 
-Defined in: [helper/EntityHelper.ts:72](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L72)
+Defined in: [src/helper/EntityHelper.ts:72](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L72)
 
 ###### Parameters
 
@@ -6095,7 +6072,7 @@ Defined in: [helper/EntityHelper.ts:72](https://github.com/Orb-Workshop/scripted
 
 > **FireUser3**(`opts?`): `void`
 
-Defined in: [helper/EntityHelper.ts:76](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L76)
+Defined in: [src/helper/EntityHelper.ts:76](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L76)
 
 ###### Parameters
 
@@ -6115,7 +6092,7 @@ Defined in: [helper/EntityHelper.ts:76](https://github.com/Orb-Workshop/scripted
 
 > **FireUser4**(`opts?`): `void`
 
-Defined in: [helper/EntityHelper.ts:80](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L80)
+Defined in: [src/helper/EntityHelper.ts:80](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L80)
 
 ###### Parameters
 
@@ -6135,7 +6112,7 @@ Defined in: [helper/EntityHelper.ts:80](https://github.com/Orb-Workshop/scripted
 
 > **GetAbsAngles**(): [`QAngle`](Math.md#qangle)
 
-Defined in: [helper/EntityHelper.ts:126](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L126)
+Defined in: [src/helper/EntityHelper.ts:126](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L126)
 
 ###### Returns
 
@@ -6149,7 +6126,7 @@ Defined in: [helper/EntityHelper.ts:126](https://github.com/Orb-Workshop/scripte
 
 > **GetAbsOrigin**(): [`Vector3`](Math.md#vector3)
 
-Defined in: [helper/EntityHelper.ts:118](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L118)
+Defined in: [src/helper/EntityHelper.ts:118](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L118)
 
 ###### Returns
 
@@ -6163,7 +6140,7 @@ Defined in: [helper/EntityHelper.ts:118](https://github.com/Orb-Workshop/scripte
 
 > **GetAbsVelocity**(): [`Vector3`](Math.md#vector3)
 
-Defined in: [helper/EntityHelper.ts:134](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L134)
+Defined in: [src/helper/EntityHelper.ts:134](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L134)
 
 ###### Returns
 
@@ -6177,7 +6154,7 @@ Defined in: [helper/EntityHelper.ts:134](https://github.com/Orb-Workshop/scripte
 
 > **GetClassName**(): `string`
 
-Defined in: [helper/EntityHelper.ts:154](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L154)
+Defined in: [src/helper/EntityHelper.ts:154](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L154)
 
 ###### Returns
 
@@ -6191,7 +6168,7 @@ Defined in: [helper/EntityHelper.ts:154](https://github.com/Orb-Workshop/scripte
 
 > **GetColor**(): `ColorType`
 
-Defined in: [helper/BaseModelEntity.ts:59](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L59)
+Defined in: [src/helper/BaseModelEntity.ts:59](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L59)
 
 ###### Returns
 
@@ -6205,7 +6182,7 @@ Defined in: [helper/BaseModelEntity.ts:59](https://github.com/Orb-Workshop/scrip
 
 > **GetEntityName**(): `string`
 
-Defined in: [helper/EntityHelper.ts:158](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L158)
+Defined in: [src/helper/EntityHelper.ts:158](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L158)
 
 ###### Returns
 
@@ -6219,7 +6196,7 @@ Defined in: [helper/EntityHelper.ts:158](https://github.com/Orb-Workshop/scripte
 
 > **GetEyeAngles**(): [`QAngle`](Math.md#qangle)
 
-Defined in: [helper/EntityHelper.ts:142](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L142)
+Defined in: [src/helper/EntityHelper.ts:142](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L142)
 
 ###### Returns
 
@@ -6233,7 +6210,7 @@ Defined in: [helper/EntityHelper.ts:142](https://github.com/Orb-Workshop/scripte
 
 > **GetEyePosition**(): [`Vector3`](Math.md#vector3)
 
-Defined in: [helper/EntityHelper.ts:146](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L146)
+Defined in: [src/helper/EntityHelper.ts:146](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L146)
 
 ###### Returns
 
@@ -6247,7 +6224,7 @@ Defined in: [helper/EntityHelper.ts:146](https://github.com/Orb-Workshop/scripte
 
 > **GetGroundEntity**(): `any`
 
-Defined in: [helper/EntityHelper.ts:218](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L218)
+Defined in: [src/helper/EntityHelper.ts:218](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L218)
 
 ###### Returns
 
@@ -6261,7 +6238,7 @@ Defined in: [helper/EntityHelper.ts:218](https://github.com/Orb-Workshop/scripte
 
 > **GetHealth**(): `number`
 
-Defined in: [helper/EntityHelper.ts:186](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L186)
+Defined in: [src/helper/EntityHelper.ts:186](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L186)
 
 ###### Returns
 
@@ -6275,7 +6252,7 @@ Defined in: [helper/EntityHelper.ts:186](https://github.com/Orb-Workshop/scripte
 
 > **GetLocalAngles**(): [`QAngle`](Math.md#qangle)
 
-Defined in: [helper/EntityHelper.ts:130](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L130)
+Defined in: [src/helper/EntityHelper.ts:130](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L130)
 
 ###### Returns
 
@@ -6289,7 +6266,7 @@ Defined in: [helper/EntityHelper.ts:130](https://github.com/Orb-Workshop/scripte
 
 > **GetLocalOrigin**(): [`Vector3`](Math.md#vector3)
 
-Defined in: [helper/EntityHelper.ts:122](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L122)
+Defined in: [src/helper/EntityHelper.ts:122](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L122)
 
 ###### Returns
 
@@ -6303,7 +6280,7 @@ Defined in: [helper/EntityHelper.ts:122](https://github.com/Orb-Workshop/scripte
 
 > **GetLocalVelocity**(): [`Vector3`](Math.md#vector3)
 
-Defined in: [helper/EntityHelper.ts:138](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L138)
+Defined in: [src/helper/EntityHelper.ts:138](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L138)
 
 ###### Returns
 
@@ -6317,7 +6294,7 @@ Defined in: [helper/EntityHelper.ts:138](https://github.com/Orb-Workshop/scripte
 
 > **GetMaxHealth**(): `number`
 
-Defined in: [helper/EntityHelper.ts:198](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L198)
+Defined in: [src/helper/EntityHelper.ts:198](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L198)
 
 ###### Returns
 
@@ -6331,7 +6308,7 @@ Defined in: [helper/EntityHelper.ts:198](https://github.com/Orb-Workshop/scripte
 
 > **GetModelName**(): `string`
 
-Defined in: [helper/BaseModelEntity.ts:43](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L43)
+Defined in: [src/helper/BaseModelEntity.ts:43](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L43)
 
 ###### Returns
 
@@ -6345,7 +6322,7 @@ Defined in: [helper/BaseModelEntity.ts:43](https://github.com/Orb-Workshop/scrip
 
 > **GetModelScale**(): `string`
 
-Defined in: [helper/BaseModelEntity.ts:51](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L51)
+Defined in: [src/helper/BaseModelEntity.ts:51](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L51)
 
 ###### Returns
 
@@ -6359,7 +6336,7 @@ Defined in: [helper/BaseModelEntity.ts:51](https://github.com/Orb-Workshop/scrip
 
 > **GetOwner**(): `any`
 
-Defined in: [helper/EntityHelper.ts:166](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L166)
+Defined in: [src/helper/EntityHelper.ts:166](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L166)
 
 ###### Returns
 
@@ -6373,7 +6350,7 @@ Defined in: [helper/EntityHelper.ts:166](https://github.com/Orb-Workshop/scripte
 
 > **GetParent**(): `any`
 
-Defined in: [helper/EntityHelper.ts:174](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L174)
+Defined in: [src/helper/EntityHelper.ts:174](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L174)
 
 ###### Returns
 
@@ -6387,7 +6364,7 @@ Defined in: [helper/EntityHelper.ts:174](https://github.com/Orb-Workshop/scripte
 
 > **GetTeamNumber**(): `number`
 
-Defined in: [helper/EntityHelper.ts:182](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L182)
+Defined in: [src/helper/EntityHelper.ts:182](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L182)
 
 ###### Returns
 
@@ -6401,7 +6378,7 @@ Defined in: [helper/EntityHelper.ts:182](https://github.com/Orb-Workshop/scripte
 
 > **Glow**(`color?`): `void`
 
-Defined in: [helper/BaseModelEntity.ts:63](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L63)
+Defined in: [src/helper/BaseModelEntity.ts:63](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L63)
 
 ###### Parameters
 
@@ -6421,7 +6398,7 @@ Defined in: [helper/BaseModelEntity.ts:63](https://github.com/Orb-Workshop/scrip
 
 > **IsAlive**(): `boolean`
 
-Defined in: [helper/EntityHelper.ts:210](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L210)
+Defined in: [src/helper/EntityHelper.ts:210](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L210)
 
 ###### Returns
 
@@ -6435,7 +6412,7 @@ Defined in: [helper/EntityHelper.ts:210](https://github.com/Orb-Workshop/scripte
 
 > **IsGlowing**(): `boolean`
 
-Defined in: [helper/BaseModelEntity.ts:71](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L71)
+Defined in: [src/helper/BaseModelEntity.ts:71](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L71)
 
 ###### Returns
 
@@ -6449,7 +6426,7 @@ Defined in: [helper/BaseModelEntity.ts:71](https://github.com/Orb-Workshop/scrip
 
 > **IsValid**(): `boolean`
 
-Defined in: [helper/EntityHelper.ts:114](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L114)
+Defined in: [src/helper/EntityHelper.ts:114](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L114)
 
 ###### Returns
 
@@ -6463,7 +6440,7 @@ Defined in: [helper/EntityHelper.ts:114](https://github.com/Orb-Workshop/scripte
 
 > **IsWorld**(): `boolean`
 
-Defined in: [helper/EntityHelper.ts:214](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L214)
+Defined in: [src/helper/EntityHelper.ts:214](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L214)
 
 ###### Returns
 
@@ -6477,7 +6454,7 @@ Defined in: [helper/EntityHelper.ts:214](https://github.com/Orb-Workshop/scripte
 
 > **Kill**(): `void`
 
-Defined in: [helper/EntityHelper.ts:226](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L226)
+Defined in: [src/helper/EntityHelper.ts:226](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L226)
 
 ###### Returns
 
@@ -6491,7 +6468,7 @@ Defined in: [helper/EntityHelper.ts:226](https://github.com/Orb-Workshop/scripte
 
 > **KillAll**(): `void`
 
-Defined in: [helper/EntityHelper.ts:234](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L234)
+Defined in: [src/helper/EntityHelper.ts:234](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L234)
 
 ###### Returns
 
@@ -6505,7 +6482,7 @@ Defined in: [helper/EntityHelper.ts:234](https://github.com/Orb-Workshop/scripte
 
 > **KillHierarchy**(`opts?`): `void`
 
-Defined in: [helper/EntityHelper.ts:230](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L230)
+Defined in: [src/helper/EntityHelper.ts:230](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L230)
 
 ###### Parameters
 
@@ -6525,7 +6502,7 @@ Defined in: [helper/EntityHelper.ts:230](https://github.com/Orb-Workshop/scripte
 
 > **Lock**(`opts?`): `void`
 
-Defined in: [helper/FuncButton.ts:42](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/FuncButton.ts#L42)
+Defined in: [src/helper/FuncButton.ts:52](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/FuncButton.ts#L52)
 
 ###### Parameters
 
@@ -6541,7 +6518,7 @@ Defined in: [helper/FuncButton.ts:42](https://github.com/Orb-Workshop/scriptedeu
 
 > **On**(`event_name`, `callback`): [`EntityHelper`](#abstract-entityhelper)
 
-Defined in: [helper/EntityHelper.ts:104](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L104)
+Defined in: [src/helper/EntityHelper.ts:104](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L104)
 
 ###### Parameters
 
@@ -6558,11 +6535,75 @@ Defined in: [helper/EntityHelper.ts:104](https://github.com/Orb-Workshop/scripte
 
 [`BaseModelEntity`](#basemodelentity).[`On`](#on)
 
+##### OnDamaged()
+
+> **OnDamaged**(`callback`): [`FuncButton`](#funcbutton)
+
+Defined in: [src/helper/FuncButton.ts:82](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/FuncButton.ts#L82)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `callback` | `ConnectOutputCallback` |
+
+###### Returns
+
+[`FuncButton`](#funcbutton)
+
+##### OnIn()
+
+> **OnIn**(`callback`): [`FuncButton`](#funcbutton)
+
+Defined in: [src/helper/FuncButton.ts:86](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/FuncButton.ts#L86)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `callback` | `ConnectOutputCallback` |
+
+###### Returns
+
+[`FuncButton`](#funcbutton)
+
+##### OnOut()
+
+> **OnOut**(`callback`): [`FuncButton`](#funcbutton)
+
+Defined in: [src/helper/FuncButton.ts:90](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/FuncButton.ts#L90)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `callback` | `ConnectOutputCallback` |
+
+###### Returns
+
+[`FuncButton`](#funcbutton)
+
 ##### OnPressed()
 
 > **OnPressed**(`callback`): [`FuncButton`](#funcbutton)
 
-Defined in: [helper/FuncButton.ts:54](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/FuncButton.ts#L54)
+Defined in: [src/helper/FuncButton.ts:74](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/FuncButton.ts#L74)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `callback` | `ConnectOutputCallback` |
+
+###### Returns
+
+[`FuncButton`](#funcbutton)
+
+##### OnTouching()
+
+> **OnTouching**(`callback`): [`FuncButton`](#funcbutton)
+
+Defined in: [src/helper/FuncButton.ts:94](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/FuncButton.ts#L94)
 
 ###### Parameters
 
@@ -6578,7 +6619,7 @@ Defined in: [helper/FuncButton.ts:54](https://github.com/Orb-Workshop/scriptedeu
 
 > **OnUseLocked**(`callback`): [`FuncButton`](#funcbutton)
 
-Defined in: [helper/FuncButton.ts:58](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/FuncButton.ts#L58)
+Defined in: [src/helper/FuncButton.ts:78](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/FuncButton.ts#L78)
 
 ###### Parameters
 
@@ -6594,7 +6635,39 @@ Defined in: [helper/FuncButton.ts:58](https://github.com/Orb-Workshop/scriptedeu
 
 > **Press**(`opts?`): `void`
 
-Defined in: [helper/FuncButton.ts:50](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/FuncButton.ts#L50)
+Defined in: [src/helper/FuncButton.ts:60](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/FuncButton.ts#L60)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `opts` | \{ \} |
+
+###### Returns
+
+`void`
+
+##### PressIn()
+
+> **PressIn**(`opts?`): `void`
+
+Defined in: [src/helper/FuncButton.ts:64](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/FuncButton.ts#L64)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `opts` | \{ \} |
+
+###### Returns
+
+`void`
+
+##### PressOut()
+
+> **PressOut**(`opts?`): `void`
+
+Defined in: [src/helper/FuncButton.ts:68](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/FuncButton.ts#L68)
 
 ###### Parameters
 
@@ -6610,7 +6683,7 @@ Defined in: [helper/FuncButton.ts:50](https://github.com/Orb-Workshop/scriptedeu
 
 > **Remove**(): `void`
 
-Defined in: [helper/EntityHelper.ts:238](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L238)
+Defined in: [src/helper/EntityHelper.ts:238](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L238)
 
 ###### Returns
 
@@ -6624,7 +6697,7 @@ Defined in: [helper/EntityHelper.ts:238](https://github.com/Orb-Workshop/scripte
 
 > **SetColor**(`c`): `void`
 
-Defined in: [helper/BaseModelEntity.ts:55](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L55)
+Defined in: [src/helper/BaseModelEntity.ts:55](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L55)
 
 ###### Parameters
 
@@ -6644,7 +6717,7 @@ Defined in: [helper/BaseModelEntity.ts:55](https://github.com/Orb-Workshop/scrip
 
 > **SetEntityName**(`s`): `void`
 
-Defined in: [helper/EntityHelper.ts:162](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L162)
+Defined in: [src/helper/EntityHelper.ts:162](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L162)
 
 ###### Parameters
 
@@ -6664,7 +6737,7 @@ Defined in: [helper/EntityHelper.ts:162](https://github.com/Orb-Workshop/scripte
 
 > **SetHealth**(`hp`): `void`
 
-Defined in: [helper/EntityHelper.ts:190](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L190)
+Defined in: [src/helper/EntityHelper.ts:190](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L190)
 
 ###### Parameters
 
@@ -6684,7 +6757,7 @@ Defined in: [helper/EntityHelper.ts:190](https://github.com/Orb-Workshop/scripte
 
 > **SetMaxHealth**(`hp`): `void`
 
-Defined in: [helper/EntityHelper.ts:202](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L202)
+Defined in: [src/helper/EntityHelper.ts:202](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L202)
 
 ###### Parameters
 
@@ -6704,7 +6777,7 @@ Defined in: [helper/EntityHelper.ts:202](https://github.com/Orb-Workshop/scripte
 
 > **SetModel**(`s`): `void`
 
-Defined in: [helper/BaseModelEntity.ts:39](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L39)
+Defined in: [src/helper/BaseModelEntity.ts:39](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L39)
 
 ###### Parameters
 
@@ -6724,7 +6797,7 @@ Defined in: [helper/BaseModelEntity.ts:39](https://github.com/Orb-Workshop/scrip
 
 > **SetModelScale**(`s`): `void`
 
-Defined in: [helper/BaseModelEntity.ts:47](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L47)
+Defined in: [src/helper/BaseModelEntity.ts:47](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L47)
 
 ###### Parameters
 
@@ -6744,7 +6817,7 @@ Defined in: [helper/BaseModelEntity.ts:47](https://github.com/Orb-Workshop/scrip
 
 > **SetOwner**(`e`): `void`
 
-Defined in: [helper/EntityHelper.ts:170](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L170)
+Defined in: [src/helper/EntityHelper.ts:170](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L170)
 
 ###### Parameters
 
@@ -6764,7 +6837,7 @@ Defined in: [helper/EntityHelper.ts:170](https://github.com/Orb-Workshop/scripte
 
 > **SetParent**(`e`): `void`
 
-Defined in: [helper/EntityHelper.ts:178](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L178)
+Defined in: [src/helper/EntityHelper.ts:178](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L178)
 
 ###### Parameters
 
@@ -6784,7 +6857,7 @@ Defined in: [helper/EntityHelper.ts:178](https://github.com/Orb-Workshop/scripte
 
 > **TakeDamage**(`__namedParameters`): `number`
 
-Defined in: [helper/EntityHelper.ts:222](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L222)
+Defined in: [src/helper/EntityHelper.ts:222](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L222)
 
 ###### Parameters
 
@@ -6808,7 +6881,7 @@ Defined in: [helper/EntityHelper.ts:222](https://github.com/Orb-Workshop/scripte
 
 > **Teleport**(`__namedParameters`): `void`
 
-Defined in: [helper/EntityHelper.ts:150](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L150)
+Defined in: [src/helper/EntityHelper.ts:150](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L150)
 
 ###### Parameters
 
@@ -6831,7 +6904,7 @@ Defined in: [helper/EntityHelper.ts:150](https://github.com/Orb-Workshop/scripte
 
 > **Unglow**(): `void`
 
-Defined in: [helper/BaseModelEntity.ts:67](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L67)
+Defined in: [src/helper/BaseModelEntity.ts:67](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L67)
 
 ###### Returns
 
@@ -6845,7 +6918,7 @@ Defined in: [helper/BaseModelEntity.ts:67](https://github.com/Orb-Workshop/scrip
 
 > **Unlock**(`opts?`): `void`
 
-Defined in: [helper/FuncButton.ts:46](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/FuncButton.ts#L46)
+Defined in: [src/helper/FuncButton.ts:56](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/FuncButton.ts#L56)
 
 ###### Parameters
 
@@ -6861,7 +6934,7 @@ Defined in: [helper/FuncButton.ts:46](https://github.com/Orb-Workshop/scriptedeu
 
 > `static` **Find**(`r`): [`FuncButton`](#funcbutton)
 
-Defined in: [helper/FuncButton.ts:31](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/FuncButton.ts#L31)
+Defined in: [src/helper/FuncButton.ts:31](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/FuncButton.ts#L31)
 
 ###### Parameters
 
@@ -6881,7 +6954,7 @@ Defined in: [helper/FuncButton.ts:31](https://github.com/Orb-Workshop/scriptedeu
 
 > `static` **FindAll**(`r`): [`FuncButton`](#funcbutton)[]
 
-Defined in: [helper/FuncButton.ts:37](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/FuncButton.ts#L37)
+Defined in: [src/helper/FuncButton.ts:37](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/FuncButton.ts#L37)
 
 ###### Parameters
 
@@ -6901,7 +6974,7 @@ Defined in: [helper/FuncButton.ts:37](https://github.com/Orb-Workshop/scriptedeu
 
 > `static` **FindAllByClass**(`classname`, `r`): [`EntityHelper`](#abstract-entityhelper)[]
 
-Defined in: [helper/EntityHelper.ts:52](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L52)
+Defined in: [src/helper/EntityHelper.ts:52](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L52)
 
 ###### Parameters
 
@@ -6922,7 +6995,7 @@ Defined in: [helper/EntityHelper.ts:52](https://github.com/Orb-Workshop/scripted
 
 > `static` **FindByClass**(`classname`, `r`, `error?`): [`EntityHelper`](#abstract-entityhelper) \| `null`
 
-Defined in: [helper/EntityHelper.ts:44](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L44)
+Defined in: [src/helper/EntityHelper.ts:44](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L44)
 
 ###### Parameters
 
@@ -6944,7 +7017,7 @@ Defined in: [helper/EntityHelper.ts:44](https://github.com/Orb-Workshop/scripted
 
 > `static` **From**(`e`): [`FuncButton`](#funcbutton)
 
-Defined in: [helper/FuncButton.ts:25](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/FuncButton.ts#L25)
+Defined in: [src/helper/FuncButton.ts:25](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/FuncButton.ts#L25)
 
 ###### Parameters
 
@@ -6964,7 +7037,7 @@ Defined in: [helper/FuncButton.ts:25](https://github.com/Orb-Workshop/scriptedeu
 
 ### FuncMoveLinear
 
-Defined in: [helper/FuncMoveLinear.ts:20](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/FuncMoveLinear.ts#L20)
+Defined in: [src/helper/FuncMoveLinear.ts:20](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/FuncMoveLinear.ts#L20)
 
 #### Extends
 
@@ -6976,7 +7049,7 @@ Defined in: [helper/FuncMoveLinear.ts:20](https://github.com/Orb-Workshop/script
 
 > **new FuncMoveLinear**(`entity`): [`FuncMoveLinear`](#funcmovelinear)
 
-Defined in: [helper/FuncMoveLinear.ts:21](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/FuncMoveLinear.ts#L21)
+Defined in: [src/helper/FuncMoveLinear.ts:21](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/FuncMoveLinear.ts#L21)
 
 ###### Parameters
 
@@ -7000,7 +7073,7 @@ Defined in: [helper/FuncMoveLinear.ts:21](https://github.com/Orb-Workshop/script
 
 > **get** **raw**(): `Entity`
 
-Defined in: [helper/EntityHelper.ts:57](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L57)
+Defined in: [src/helper/EntityHelper.ts:57](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L57)
 
 ###### Returns
 
@@ -7016,7 +7089,7 @@ Defined in: [helper/EntityHelper.ts:57](https://github.com/Orb-Workshop/scripted
 
 > **Close**(`opts?`): `void`
 
-Defined in: [helper/FuncMoveLinear.ts:47](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/FuncMoveLinear.ts#L47)
+Defined in: [src/helper/FuncMoveLinear.ts:47](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/FuncMoveLinear.ts#L47)
 
 ###### Parameters
 
@@ -7032,7 +7105,7 @@ Defined in: [helper/FuncMoveLinear.ts:47](https://github.com/Orb-Workshop/script
 
 > **ConnectOutput**(`event_name`, `callback`): `void`
 
-Defined in: [helper/EntityHelper.ts:95](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L95)
+Defined in: [src/helper/EntityHelper.ts:95](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L95)
 
 Represents EventListening of IO entities with `this.ConnectOutput`
 TODO: Use Global Events to 'latch onto' the callbacks this method represents.
@@ -7056,7 +7129,7 @@ TODO: Use Global Events to 'latch onto' the callbacks this method represents.
 
 > **FireIO**(`opts?`): `void`
 
-Defined in: [helper/EntityHelper.ts:59](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L59)
+Defined in: [src/helper/EntityHelper.ts:59](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L59)
 
 ###### Parameters
 
@@ -7076,7 +7149,7 @@ Defined in: [helper/EntityHelper.ts:59](https://github.com/Orb-Workshop/scripted
 
 > **FireUser1**(`opts?`): `void`
 
-Defined in: [helper/EntityHelper.ts:68](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L68)
+Defined in: [src/helper/EntityHelper.ts:68](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L68)
 
 ###### Parameters
 
@@ -7096,7 +7169,7 @@ Defined in: [helper/EntityHelper.ts:68](https://github.com/Orb-Workshop/scripted
 
 > **FireUser2**(`opts?`): `void`
 
-Defined in: [helper/EntityHelper.ts:72](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L72)
+Defined in: [src/helper/EntityHelper.ts:72](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L72)
 
 ###### Parameters
 
@@ -7116,7 +7189,7 @@ Defined in: [helper/EntityHelper.ts:72](https://github.com/Orb-Workshop/scripted
 
 > **FireUser3**(`opts?`): `void`
 
-Defined in: [helper/EntityHelper.ts:76](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L76)
+Defined in: [src/helper/EntityHelper.ts:76](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L76)
 
 ###### Parameters
 
@@ -7136,7 +7209,7 @@ Defined in: [helper/EntityHelper.ts:76](https://github.com/Orb-Workshop/scripted
 
 > **FireUser4**(`opts?`): `void`
 
-Defined in: [helper/EntityHelper.ts:80](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L80)
+Defined in: [src/helper/EntityHelper.ts:80](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L80)
 
 ###### Parameters
 
@@ -7156,7 +7229,7 @@ Defined in: [helper/EntityHelper.ts:80](https://github.com/Orb-Workshop/scripted
 
 > **GetAbsAngles**(): [`QAngle`](Math.md#qangle)
 
-Defined in: [helper/EntityHelper.ts:126](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L126)
+Defined in: [src/helper/EntityHelper.ts:126](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L126)
 
 ###### Returns
 
@@ -7170,7 +7243,7 @@ Defined in: [helper/EntityHelper.ts:126](https://github.com/Orb-Workshop/scripte
 
 > **GetAbsOrigin**(): [`Vector3`](Math.md#vector3)
 
-Defined in: [helper/EntityHelper.ts:118](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L118)
+Defined in: [src/helper/EntityHelper.ts:118](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L118)
 
 ###### Returns
 
@@ -7184,7 +7257,7 @@ Defined in: [helper/EntityHelper.ts:118](https://github.com/Orb-Workshop/scripte
 
 > **GetAbsVelocity**(): [`Vector3`](Math.md#vector3)
 
-Defined in: [helper/EntityHelper.ts:134](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L134)
+Defined in: [src/helper/EntityHelper.ts:134](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L134)
 
 ###### Returns
 
@@ -7198,7 +7271,7 @@ Defined in: [helper/EntityHelper.ts:134](https://github.com/Orb-Workshop/scripte
 
 > **GetClassName**(): `string`
 
-Defined in: [helper/EntityHelper.ts:154](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L154)
+Defined in: [src/helper/EntityHelper.ts:154](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L154)
 
 ###### Returns
 
@@ -7212,7 +7285,7 @@ Defined in: [helper/EntityHelper.ts:154](https://github.com/Orb-Workshop/scripte
 
 > **GetColor**(): `ColorType`
 
-Defined in: [helper/BaseModelEntity.ts:59](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L59)
+Defined in: [src/helper/BaseModelEntity.ts:59](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L59)
 
 ###### Returns
 
@@ -7226,7 +7299,7 @@ Defined in: [helper/BaseModelEntity.ts:59](https://github.com/Orb-Workshop/scrip
 
 > **GetEntityName**(): `string`
 
-Defined in: [helper/EntityHelper.ts:158](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L158)
+Defined in: [src/helper/EntityHelper.ts:158](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L158)
 
 ###### Returns
 
@@ -7240,7 +7313,7 @@ Defined in: [helper/EntityHelper.ts:158](https://github.com/Orb-Workshop/scripte
 
 > **GetEyeAngles**(): [`QAngle`](Math.md#qangle)
 
-Defined in: [helper/EntityHelper.ts:142](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L142)
+Defined in: [src/helper/EntityHelper.ts:142](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L142)
 
 ###### Returns
 
@@ -7254,7 +7327,7 @@ Defined in: [helper/EntityHelper.ts:142](https://github.com/Orb-Workshop/scripte
 
 > **GetEyePosition**(): [`Vector3`](Math.md#vector3)
 
-Defined in: [helper/EntityHelper.ts:146](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L146)
+Defined in: [src/helper/EntityHelper.ts:146](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L146)
 
 ###### Returns
 
@@ -7268,7 +7341,7 @@ Defined in: [helper/EntityHelper.ts:146](https://github.com/Orb-Workshop/scripte
 
 > **GetGroundEntity**(): `any`
 
-Defined in: [helper/EntityHelper.ts:218](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L218)
+Defined in: [src/helper/EntityHelper.ts:218](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L218)
 
 ###### Returns
 
@@ -7282,7 +7355,7 @@ Defined in: [helper/EntityHelper.ts:218](https://github.com/Orb-Workshop/scripte
 
 > **GetHealth**(): `number`
 
-Defined in: [helper/EntityHelper.ts:186](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L186)
+Defined in: [src/helper/EntityHelper.ts:186](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L186)
 
 ###### Returns
 
@@ -7296,7 +7369,7 @@ Defined in: [helper/EntityHelper.ts:186](https://github.com/Orb-Workshop/scripte
 
 > **GetLocalAngles**(): [`QAngle`](Math.md#qangle)
 
-Defined in: [helper/EntityHelper.ts:130](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L130)
+Defined in: [src/helper/EntityHelper.ts:130](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L130)
 
 ###### Returns
 
@@ -7310,7 +7383,7 @@ Defined in: [helper/EntityHelper.ts:130](https://github.com/Orb-Workshop/scripte
 
 > **GetLocalOrigin**(): [`Vector3`](Math.md#vector3)
 
-Defined in: [helper/EntityHelper.ts:122](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L122)
+Defined in: [src/helper/EntityHelper.ts:122](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L122)
 
 ###### Returns
 
@@ -7324,7 +7397,7 @@ Defined in: [helper/EntityHelper.ts:122](https://github.com/Orb-Workshop/scripte
 
 > **GetLocalVelocity**(): [`Vector3`](Math.md#vector3)
 
-Defined in: [helper/EntityHelper.ts:138](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L138)
+Defined in: [src/helper/EntityHelper.ts:138](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L138)
 
 ###### Returns
 
@@ -7338,7 +7411,7 @@ Defined in: [helper/EntityHelper.ts:138](https://github.com/Orb-Workshop/scripte
 
 > **GetMaxHealth**(): `number`
 
-Defined in: [helper/EntityHelper.ts:198](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L198)
+Defined in: [src/helper/EntityHelper.ts:198](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L198)
 
 ###### Returns
 
@@ -7352,7 +7425,7 @@ Defined in: [helper/EntityHelper.ts:198](https://github.com/Orb-Workshop/scripte
 
 > **GetModelName**(): `string`
 
-Defined in: [helper/BaseModelEntity.ts:43](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L43)
+Defined in: [src/helper/BaseModelEntity.ts:43](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L43)
 
 ###### Returns
 
@@ -7366,7 +7439,7 @@ Defined in: [helper/BaseModelEntity.ts:43](https://github.com/Orb-Workshop/scrip
 
 > **GetModelScale**(): `string`
 
-Defined in: [helper/BaseModelEntity.ts:51](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L51)
+Defined in: [src/helper/BaseModelEntity.ts:51](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L51)
 
 ###### Returns
 
@@ -7380,7 +7453,7 @@ Defined in: [helper/BaseModelEntity.ts:51](https://github.com/Orb-Workshop/scrip
 
 > **GetOwner**(): `any`
 
-Defined in: [helper/EntityHelper.ts:166](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L166)
+Defined in: [src/helper/EntityHelper.ts:166](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L166)
 
 ###### Returns
 
@@ -7394,7 +7467,7 @@ Defined in: [helper/EntityHelper.ts:166](https://github.com/Orb-Workshop/scripte
 
 > **GetParent**(): `any`
 
-Defined in: [helper/EntityHelper.ts:174](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L174)
+Defined in: [src/helper/EntityHelper.ts:174](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L174)
 
 ###### Returns
 
@@ -7408,7 +7481,7 @@ Defined in: [helper/EntityHelper.ts:174](https://github.com/Orb-Workshop/scripte
 
 > **GetTeamNumber**(): `number`
 
-Defined in: [helper/EntityHelper.ts:182](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L182)
+Defined in: [src/helper/EntityHelper.ts:182](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L182)
 
 ###### Returns
 
@@ -7422,7 +7495,7 @@ Defined in: [helper/EntityHelper.ts:182](https://github.com/Orb-Workshop/scripte
 
 > **Glow**(`color?`): `void`
 
-Defined in: [helper/BaseModelEntity.ts:63](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L63)
+Defined in: [src/helper/BaseModelEntity.ts:63](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L63)
 
 ###### Parameters
 
@@ -7442,7 +7515,7 @@ Defined in: [helper/BaseModelEntity.ts:63](https://github.com/Orb-Workshop/scrip
 
 > **IsAlive**(): `boolean`
 
-Defined in: [helper/EntityHelper.ts:210](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L210)
+Defined in: [src/helper/EntityHelper.ts:210](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L210)
 
 ###### Returns
 
@@ -7456,7 +7529,7 @@ Defined in: [helper/EntityHelper.ts:210](https://github.com/Orb-Workshop/scripte
 
 > **IsGlowing**(): `boolean`
 
-Defined in: [helper/BaseModelEntity.ts:71](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L71)
+Defined in: [src/helper/BaseModelEntity.ts:71](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L71)
 
 ###### Returns
 
@@ -7470,7 +7543,7 @@ Defined in: [helper/BaseModelEntity.ts:71](https://github.com/Orb-Workshop/scrip
 
 > **IsValid**(): `boolean`
 
-Defined in: [helper/EntityHelper.ts:114](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L114)
+Defined in: [src/helper/EntityHelper.ts:114](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L114)
 
 ###### Returns
 
@@ -7484,7 +7557,7 @@ Defined in: [helper/EntityHelper.ts:114](https://github.com/Orb-Workshop/scripte
 
 > **IsWorld**(): `boolean`
 
-Defined in: [helper/EntityHelper.ts:214](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L214)
+Defined in: [src/helper/EntityHelper.ts:214](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L214)
 
 ###### Returns
 
@@ -7498,7 +7571,7 @@ Defined in: [helper/EntityHelper.ts:214](https://github.com/Orb-Workshop/scripte
 
 > **Kill**(): `void`
 
-Defined in: [helper/EntityHelper.ts:226](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L226)
+Defined in: [src/helper/EntityHelper.ts:226](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L226)
 
 ###### Returns
 
@@ -7512,7 +7585,7 @@ Defined in: [helper/EntityHelper.ts:226](https://github.com/Orb-Workshop/scripte
 
 > **KillAll**(): `void`
 
-Defined in: [helper/EntityHelper.ts:234](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L234)
+Defined in: [src/helper/EntityHelper.ts:234](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L234)
 
 ###### Returns
 
@@ -7526,7 +7599,7 @@ Defined in: [helper/EntityHelper.ts:234](https://github.com/Orb-Workshop/scripte
 
 > **KillHierarchy**(`opts?`): `void`
 
-Defined in: [helper/EntityHelper.ts:230](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L230)
+Defined in: [src/helper/EntityHelper.ts:230](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L230)
 
 ###### Parameters
 
@@ -7546,7 +7619,7 @@ Defined in: [helper/EntityHelper.ts:230](https://github.com/Orb-Workshop/scripte
 
 > **On**(`event_name`, `callback`): [`EntityHelper`](#abstract-entityhelper)
 
-Defined in: [helper/EntityHelper.ts:104](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L104)
+Defined in: [src/helper/EntityHelper.ts:104](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L104)
 
 ###### Parameters
 
@@ -7567,7 +7640,7 @@ Defined in: [helper/EntityHelper.ts:104](https://github.com/Orb-Workshop/scripte
 
 > **OnFullyClosed**(`callback`): [`FuncMoveLinear`](#funcmovelinear)
 
-Defined in: [helper/FuncMoveLinear.ts:81](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/FuncMoveLinear.ts#L81)
+Defined in: [src/helper/FuncMoveLinear.ts:81](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/FuncMoveLinear.ts#L81)
 
 ###### Parameters
 
@@ -7583,7 +7656,7 @@ Defined in: [helper/FuncMoveLinear.ts:81](https://github.com/Orb-Workshop/script
 
 > **OnFullyOpened**(`callback`): [`FuncMoveLinear`](#funcmovelinear)
 
-Defined in: [helper/FuncMoveLinear.ts:77](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/FuncMoveLinear.ts#L77)
+Defined in: [src/helper/FuncMoveLinear.ts:77](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/FuncMoveLinear.ts#L77)
 
 ###### Parameters
 
@@ -7599,7 +7672,7 @@ Defined in: [helper/FuncMoveLinear.ts:77](https://github.com/Orb-Workshop/script
 
 > **Open**(`opts?`): `void`
 
-Defined in: [helper/FuncMoveLinear.ts:43](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/FuncMoveLinear.ts#L43)
+Defined in: [src/helper/FuncMoveLinear.ts:43](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/FuncMoveLinear.ts#L43)
 
 ###### Parameters
 
@@ -7615,7 +7688,7 @@ Defined in: [helper/FuncMoveLinear.ts:43](https://github.com/Orb-Workshop/script
 
 > **Remove**(): `void`
 
-Defined in: [helper/EntityHelper.ts:238](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L238)
+Defined in: [src/helper/EntityHelper.ts:238](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L238)
 
 ###### Returns
 
@@ -7629,7 +7702,7 @@ Defined in: [helper/EntityHelper.ts:238](https://github.com/Orb-Workshop/scripte
 
 > **ResetPosition**(`opts?`): `void`
 
-Defined in: [helper/FuncMoveLinear.ts:55](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/FuncMoveLinear.ts#L55)
+Defined in: [src/helper/FuncMoveLinear.ts:55](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/FuncMoveLinear.ts#L55)
 
 ###### Parameters
 
@@ -7645,7 +7718,7 @@ Defined in: [helper/FuncMoveLinear.ts:55](https://github.com/Orb-Workshop/script
 
 > **SetColor**(`c`): `void`
 
-Defined in: [helper/BaseModelEntity.ts:55](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L55)
+Defined in: [src/helper/BaseModelEntity.ts:55](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L55)
 
 ###### Parameters
 
@@ -7665,7 +7738,7 @@ Defined in: [helper/BaseModelEntity.ts:55](https://github.com/Orb-Workshop/scrip
 
 > **SetEntityName**(`s`): `void`
 
-Defined in: [helper/EntityHelper.ts:162](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L162)
+Defined in: [src/helper/EntityHelper.ts:162](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L162)
 
 ###### Parameters
 
@@ -7685,7 +7758,7 @@ Defined in: [helper/EntityHelper.ts:162](https://github.com/Orb-Workshop/scripte
 
 > **SetHealth**(`hp`): `void`
 
-Defined in: [helper/EntityHelper.ts:190](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L190)
+Defined in: [src/helper/EntityHelper.ts:190](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L190)
 
 ###### Parameters
 
@@ -7705,7 +7778,7 @@ Defined in: [helper/EntityHelper.ts:190](https://github.com/Orb-Workshop/scripte
 
 > **SetMaxHealth**(`hp`): `void`
 
-Defined in: [helper/EntityHelper.ts:202](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L202)
+Defined in: [src/helper/EntityHelper.ts:202](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L202)
 
 ###### Parameters
 
@@ -7725,7 +7798,7 @@ Defined in: [helper/EntityHelper.ts:202](https://github.com/Orb-Workshop/scripte
 
 > **SetModel**(`s`): `void`
 
-Defined in: [helper/BaseModelEntity.ts:39](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L39)
+Defined in: [src/helper/BaseModelEntity.ts:39](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L39)
 
 ###### Parameters
 
@@ -7745,7 +7818,7 @@ Defined in: [helper/BaseModelEntity.ts:39](https://github.com/Orb-Workshop/scrip
 
 > **SetModelScale**(`s`): `void`
 
-Defined in: [helper/BaseModelEntity.ts:47](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L47)
+Defined in: [src/helper/BaseModelEntity.ts:47](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L47)
 
 ###### Parameters
 
@@ -7765,7 +7838,7 @@ Defined in: [helper/BaseModelEntity.ts:47](https://github.com/Orb-Workshop/scrip
 
 > **SetMoveDistanceFromEnd**(`opts?`): `void`
 
-Defined in: [helper/FuncMoveLinear.ts:71](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/FuncMoveLinear.ts#L71)
+Defined in: [src/helper/FuncMoveLinear.ts:71](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/FuncMoveLinear.ts#L71)
 
 ###### Parameters
 
@@ -7781,7 +7854,7 @@ Defined in: [helper/FuncMoveLinear.ts:71](https://github.com/Orb-Workshop/script
 
 > **SetMoveDistanceFromStart**(`opts?`): `void`
 
-Defined in: [helper/FuncMoveLinear.ts:67](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/FuncMoveLinear.ts#L67)
+Defined in: [src/helper/FuncMoveLinear.ts:67](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/FuncMoveLinear.ts#L67)
 
 ###### Parameters
 
@@ -7797,7 +7870,7 @@ Defined in: [helper/FuncMoveLinear.ts:67](https://github.com/Orb-Workshop/script
 
 > **SetOwner**(`e`): `void`
 
-Defined in: [helper/EntityHelper.ts:170](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L170)
+Defined in: [src/helper/EntityHelper.ts:170](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L170)
 
 ###### Parameters
 
@@ -7817,7 +7890,7 @@ Defined in: [helper/EntityHelper.ts:170](https://github.com/Orb-Workshop/scripte
 
 > **SetParent**(`e`): `void`
 
-Defined in: [helper/EntityHelper.ts:178](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L178)
+Defined in: [src/helper/EntityHelper.ts:178](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L178)
 
 ###### Parameters
 
@@ -7837,7 +7910,7 @@ Defined in: [helper/EntityHelper.ts:178](https://github.com/Orb-Workshop/scripte
 
 > **SetPosition**(`value`, `opts?`): `void`
 
-Defined in: [helper/FuncMoveLinear.ts:51](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/FuncMoveLinear.ts#L51)
+Defined in: [src/helper/FuncMoveLinear.ts:51](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/FuncMoveLinear.ts#L51)
 
 ###### Parameters
 
@@ -7854,7 +7927,7 @@ Defined in: [helper/FuncMoveLinear.ts:51](https://github.com/Orb-Workshop/script
 
 > **SetSpeed**(`value`, `opts?`): `void`
 
-Defined in: [helper/FuncMoveLinear.ts:59](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/FuncMoveLinear.ts#L59)
+Defined in: [src/helper/FuncMoveLinear.ts:59](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/FuncMoveLinear.ts#L59)
 
 ###### Parameters
 
@@ -7871,7 +7944,7 @@ Defined in: [helper/FuncMoveLinear.ts:59](https://github.com/Orb-Workshop/script
 
 > **TakeDamage**(`__namedParameters`): `number`
 
-Defined in: [helper/EntityHelper.ts:222](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L222)
+Defined in: [src/helper/EntityHelper.ts:222](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L222)
 
 ###### Parameters
 
@@ -7895,7 +7968,7 @@ Defined in: [helper/EntityHelper.ts:222](https://github.com/Orb-Workshop/scripte
 
 > **Teleport**(`__namedParameters`): `void`
 
-Defined in: [helper/EntityHelper.ts:150](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L150)
+Defined in: [src/helper/EntityHelper.ts:150](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L150)
 
 ###### Parameters
 
@@ -7918,7 +7991,7 @@ Defined in: [helper/EntityHelper.ts:150](https://github.com/Orb-Workshop/scripte
 
 > **TeleportToTarget**(`opts?`): `void`
 
-Defined in: [helper/FuncMoveLinear.ts:63](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/FuncMoveLinear.ts#L63)
+Defined in: [src/helper/FuncMoveLinear.ts:63](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/FuncMoveLinear.ts#L63)
 
 ###### Parameters
 
@@ -7934,7 +8007,7 @@ Defined in: [helper/FuncMoveLinear.ts:63](https://github.com/Orb-Workshop/script
 
 > **Unglow**(): `void`
 
-Defined in: [helper/BaseModelEntity.ts:67](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L67)
+Defined in: [src/helper/BaseModelEntity.ts:67](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L67)
 
 ###### Returns
 
@@ -7948,7 +8021,7 @@ Defined in: [helper/BaseModelEntity.ts:67](https://github.com/Orb-Workshop/scrip
 
 > `static` **Find**(`r`): [`FuncMoveLinear`](#funcmovelinear)
 
-Defined in: [helper/FuncMoveLinear.ts:31](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/FuncMoveLinear.ts#L31)
+Defined in: [src/helper/FuncMoveLinear.ts:31](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/FuncMoveLinear.ts#L31)
 
 ###### Parameters
 
@@ -7968,7 +8041,7 @@ Defined in: [helper/FuncMoveLinear.ts:31](https://github.com/Orb-Workshop/script
 
 > `static` **FindAll**(`r`): [`FuncMoveLinear`](#funcmovelinear)[]
 
-Defined in: [helper/FuncMoveLinear.ts:36](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/FuncMoveLinear.ts#L36)
+Defined in: [src/helper/FuncMoveLinear.ts:36](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/FuncMoveLinear.ts#L36)
 
 ###### Parameters
 
@@ -7988,7 +8061,7 @@ Defined in: [helper/FuncMoveLinear.ts:36](https://github.com/Orb-Workshop/script
 
 > `static` **FindAllByClass**(`classname`, `r`): [`EntityHelper`](#abstract-entityhelper)[]
 
-Defined in: [helper/EntityHelper.ts:52](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L52)
+Defined in: [src/helper/EntityHelper.ts:52](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L52)
 
 ###### Parameters
 
@@ -8009,7 +8082,7 @@ Defined in: [helper/EntityHelper.ts:52](https://github.com/Orb-Workshop/scripted
 
 > `static` **FindByClass**(`classname`, `r`, `error?`): [`EntityHelper`](#abstract-entityhelper) \| `null`
 
-Defined in: [helper/EntityHelper.ts:44](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L44)
+Defined in: [src/helper/EntityHelper.ts:44](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L44)
 
 ###### Parameters
 
@@ -8031,7 +8104,7 @@ Defined in: [helper/EntityHelper.ts:44](https://github.com/Orb-Workshop/scripted
 
 > `static` **From**(`e`): [`FuncMoveLinear`](#funcmovelinear)
 
-Defined in: [helper/FuncMoveLinear.ts:25](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/FuncMoveLinear.ts#L25)
+Defined in: [src/helper/FuncMoveLinear.ts:25](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/FuncMoveLinear.ts#L25)
 
 ###### Parameters
 
@@ -8051,7 +8124,7 @@ Defined in: [helper/FuncMoveLinear.ts:25](https://github.com/Orb-Workshop/script
 
 ### FuncTrackTrain
 
-Defined in: [helper/FuncTrackTrain.ts:20](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/FuncTrackTrain.ts#L20)
+Defined in: [src/helper/FuncTrackTrain.ts:20](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/FuncTrackTrain.ts#L20)
 
 #### Extends
 
@@ -8063,7 +8136,7 @@ Defined in: [helper/FuncTrackTrain.ts:20](https://github.com/Orb-Workshop/script
 
 > **new FuncTrackTrain**(`entity`): [`FuncTrackTrain`](#functracktrain)
 
-Defined in: [helper/FuncTrackTrain.ts:21](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/FuncTrackTrain.ts#L21)
+Defined in: [src/helper/FuncTrackTrain.ts:21](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/FuncTrackTrain.ts#L21)
 
 ###### Parameters
 
@@ -8087,7 +8160,7 @@ Defined in: [helper/FuncTrackTrain.ts:21](https://github.com/Orb-Workshop/script
 
 > **get** **raw**(): `Entity`
 
-Defined in: [helper/EntityHelper.ts:57](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L57)
+Defined in: [src/helper/EntityHelper.ts:57](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L57)
 
 ###### Returns
 
@@ -8103,7 +8176,7 @@ Defined in: [helper/EntityHelper.ts:57](https://github.com/Orb-Workshop/scripted
 
 > **ConnectOutput**(`event_name`, `callback`): `void`
 
-Defined in: [helper/EntityHelper.ts:95](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L95)
+Defined in: [src/helper/EntityHelper.ts:95](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L95)
 
 Represents EventListening of IO entities with `this.ConnectOutput`
 TODO: Use Global Events to 'latch onto' the callbacks this method represents.
@@ -8127,7 +8200,7 @@ TODO: Use Global Events to 'latch onto' the callbacks this method represents.
 
 > **DisableShadows**(`opts?`): `void`
 
-Defined in: [helper/FuncTrackTrain.ts:43](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/FuncTrackTrain.ts#L43)
+Defined in: [src/helper/FuncTrackTrain.ts:43](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/FuncTrackTrain.ts#L43)
 
 ###### Parameters
 
@@ -8143,7 +8216,7 @@ Defined in: [helper/FuncTrackTrain.ts:43](https://github.com/Orb-Workshop/script
 
 > **EnableShadows**(`opts?`): `void`
 
-Defined in: [helper/FuncTrackTrain.ts:47](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/FuncTrackTrain.ts#L47)
+Defined in: [src/helper/FuncTrackTrain.ts:47](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/FuncTrackTrain.ts#L47)
 
 ###### Parameters
 
@@ -8159,7 +8232,7 @@ Defined in: [helper/FuncTrackTrain.ts:47](https://github.com/Orb-Workshop/script
 
 > **FireIO**(`opts?`): `void`
 
-Defined in: [helper/EntityHelper.ts:59](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L59)
+Defined in: [src/helper/EntityHelper.ts:59](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L59)
 
 ###### Parameters
 
@@ -8179,7 +8252,7 @@ Defined in: [helper/EntityHelper.ts:59](https://github.com/Orb-Workshop/scripted
 
 > **FireUser1**(`opts?`): `void`
 
-Defined in: [helper/EntityHelper.ts:68](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L68)
+Defined in: [src/helper/EntityHelper.ts:68](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L68)
 
 ###### Parameters
 
@@ -8199,7 +8272,7 @@ Defined in: [helper/EntityHelper.ts:68](https://github.com/Orb-Workshop/scripted
 
 > **FireUser2**(`opts?`): `void`
 
-Defined in: [helper/EntityHelper.ts:72](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L72)
+Defined in: [src/helper/EntityHelper.ts:72](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L72)
 
 ###### Parameters
 
@@ -8219,7 +8292,7 @@ Defined in: [helper/EntityHelper.ts:72](https://github.com/Orb-Workshop/scripted
 
 > **FireUser3**(`opts?`): `void`
 
-Defined in: [helper/EntityHelper.ts:76](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L76)
+Defined in: [src/helper/EntityHelper.ts:76](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L76)
 
 ###### Parameters
 
@@ -8239,7 +8312,7 @@ Defined in: [helper/EntityHelper.ts:76](https://github.com/Orb-Workshop/scripted
 
 > **FireUser4**(`opts?`): `void`
 
-Defined in: [helper/EntityHelper.ts:80](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L80)
+Defined in: [src/helper/EntityHelper.ts:80](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L80)
 
 ###### Parameters
 
@@ -8259,7 +8332,7 @@ Defined in: [helper/EntityHelper.ts:80](https://github.com/Orb-Workshop/scripted
 
 > **GetAbsAngles**(): [`QAngle`](Math.md#qangle)
 
-Defined in: [helper/EntityHelper.ts:126](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L126)
+Defined in: [src/helper/EntityHelper.ts:126](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L126)
 
 ###### Returns
 
@@ -8273,7 +8346,7 @@ Defined in: [helper/EntityHelper.ts:126](https://github.com/Orb-Workshop/scripte
 
 > **GetAbsOrigin**(): [`Vector3`](Math.md#vector3)
 
-Defined in: [helper/EntityHelper.ts:118](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L118)
+Defined in: [src/helper/EntityHelper.ts:118](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L118)
 
 ###### Returns
 
@@ -8287,7 +8360,7 @@ Defined in: [helper/EntityHelper.ts:118](https://github.com/Orb-Workshop/scripte
 
 > **GetAbsVelocity**(): [`Vector3`](Math.md#vector3)
 
-Defined in: [helper/EntityHelper.ts:134](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L134)
+Defined in: [src/helper/EntityHelper.ts:134](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L134)
 
 ###### Returns
 
@@ -8301,7 +8374,7 @@ Defined in: [helper/EntityHelper.ts:134](https://github.com/Orb-Workshop/scripte
 
 > **GetClassName**(): `string`
 
-Defined in: [helper/EntityHelper.ts:154](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L154)
+Defined in: [src/helper/EntityHelper.ts:154](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L154)
 
 ###### Returns
 
@@ -8315,7 +8388,7 @@ Defined in: [helper/EntityHelper.ts:154](https://github.com/Orb-Workshop/scripte
 
 > **GetColor**(): `ColorType`
 
-Defined in: [helper/BaseModelEntity.ts:59](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L59)
+Defined in: [src/helper/BaseModelEntity.ts:59](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L59)
 
 ###### Returns
 
@@ -8329,7 +8402,7 @@ Defined in: [helper/BaseModelEntity.ts:59](https://github.com/Orb-Workshop/scrip
 
 > **GetEntityName**(): `string`
 
-Defined in: [helper/EntityHelper.ts:158](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L158)
+Defined in: [src/helper/EntityHelper.ts:158](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L158)
 
 ###### Returns
 
@@ -8343,7 +8416,7 @@ Defined in: [helper/EntityHelper.ts:158](https://github.com/Orb-Workshop/scripte
 
 > **GetEyeAngles**(): [`QAngle`](Math.md#qangle)
 
-Defined in: [helper/EntityHelper.ts:142](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L142)
+Defined in: [src/helper/EntityHelper.ts:142](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L142)
 
 ###### Returns
 
@@ -8357,7 +8430,7 @@ Defined in: [helper/EntityHelper.ts:142](https://github.com/Orb-Workshop/scripte
 
 > **GetEyePosition**(): [`Vector3`](Math.md#vector3)
 
-Defined in: [helper/EntityHelper.ts:146](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L146)
+Defined in: [src/helper/EntityHelper.ts:146](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L146)
 
 ###### Returns
 
@@ -8371,7 +8444,7 @@ Defined in: [helper/EntityHelper.ts:146](https://github.com/Orb-Workshop/scripte
 
 > **GetGroundEntity**(): `any`
 
-Defined in: [helper/EntityHelper.ts:218](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L218)
+Defined in: [src/helper/EntityHelper.ts:218](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L218)
 
 ###### Returns
 
@@ -8385,7 +8458,7 @@ Defined in: [helper/EntityHelper.ts:218](https://github.com/Orb-Workshop/scripte
 
 > **GetHealth**(): `number`
 
-Defined in: [helper/EntityHelper.ts:186](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L186)
+Defined in: [src/helper/EntityHelper.ts:186](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L186)
 
 ###### Returns
 
@@ -8399,7 +8472,7 @@ Defined in: [helper/EntityHelper.ts:186](https://github.com/Orb-Workshop/scripte
 
 > **GetLocalAngles**(): [`QAngle`](Math.md#qangle)
 
-Defined in: [helper/EntityHelper.ts:130](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L130)
+Defined in: [src/helper/EntityHelper.ts:130](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L130)
 
 ###### Returns
 
@@ -8413,7 +8486,7 @@ Defined in: [helper/EntityHelper.ts:130](https://github.com/Orb-Workshop/scripte
 
 > **GetLocalOrigin**(): [`Vector3`](Math.md#vector3)
 
-Defined in: [helper/EntityHelper.ts:122](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L122)
+Defined in: [src/helper/EntityHelper.ts:122](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L122)
 
 ###### Returns
 
@@ -8427,7 +8500,7 @@ Defined in: [helper/EntityHelper.ts:122](https://github.com/Orb-Workshop/scripte
 
 > **GetLocalVelocity**(): [`Vector3`](Math.md#vector3)
 
-Defined in: [helper/EntityHelper.ts:138](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L138)
+Defined in: [src/helper/EntityHelper.ts:138](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L138)
 
 ###### Returns
 
@@ -8441,7 +8514,7 @@ Defined in: [helper/EntityHelper.ts:138](https://github.com/Orb-Workshop/scripte
 
 > **GetMaxHealth**(): `number`
 
-Defined in: [helper/EntityHelper.ts:198](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L198)
+Defined in: [src/helper/EntityHelper.ts:198](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L198)
 
 ###### Returns
 
@@ -8455,7 +8528,7 @@ Defined in: [helper/EntityHelper.ts:198](https://github.com/Orb-Workshop/scripte
 
 > **GetModelName**(): `string`
 
-Defined in: [helper/BaseModelEntity.ts:43](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L43)
+Defined in: [src/helper/BaseModelEntity.ts:43](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L43)
 
 ###### Returns
 
@@ -8469,7 +8542,7 @@ Defined in: [helper/BaseModelEntity.ts:43](https://github.com/Orb-Workshop/scrip
 
 > **GetModelScale**(): `string`
 
-Defined in: [helper/BaseModelEntity.ts:51](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L51)
+Defined in: [src/helper/BaseModelEntity.ts:51](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L51)
 
 ###### Returns
 
@@ -8483,7 +8556,7 @@ Defined in: [helper/BaseModelEntity.ts:51](https://github.com/Orb-Workshop/scrip
 
 > **GetOwner**(): `any`
 
-Defined in: [helper/EntityHelper.ts:166](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L166)
+Defined in: [src/helper/EntityHelper.ts:166](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L166)
 
 ###### Returns
 
@@ -8497,7 +8570,7 @@ Defined in: [helper/EntityHelper.ts:166](https://github.com/Orb-Workshop/scripte
 
 > **GetParent**(): `any`
 
-Defined in: [helper/EntityHelper.ts:174](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L174)
+Defined in: [src/helper/EntityHelper.ts:174](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L174)
 
 ###### Returns
 
@@ -8511,7 +8584,7 @@ Defined in: [helper/EntityHelper.ts:174](https://github.com/Orb-Workshop/scripte
 
 > **GetTeamNumber**(): `number`
 
-Defined in: [helper/EntityHelper.ts:182](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L182)
+Defined in: [src/helper/EntityHelper.ts:182](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L182)
 
 ###### Returns
 
@@ -8525,7 +8598,7 @@ Defined in: [helper/EntityHelper.ts:182](https://github.com/Orb-Workshop/scripte
 
 > **Glow**(`color?`): `void`
 
-Defined in: [helper/BaseModelEntity.ts:63](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L63)
+Defined in: [src/helper/BaseModelEntity.ts:63](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L63)
 
 ###### Parameters
 
@@ -8545,7 +8618,7 @@ Defined in: [helper/BaseModelEntity.ts:63](https://github.com/Orb-Workshop/scrip
 
 > **IsAlive**(): `boolean`
 
-Defined in: [helper/EntityHelper.ts:210](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L210)
+Defined in: [src/helper/EntityHelper.ts:210](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L210)
 
 ###### Returns
 
@@ -8559,7 +8632,7 @@ Defined in: [helper/EntityHelper.ts:210](https://github.com/Orb-Workshop/scripte
 
 > **IsGlowing**(): `boolean`
 
-Defined in: [helper/BaseModelEntity.ts:71](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L71)
+Defined in: [src/helper/BaseModelEntity.ts:71](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L71)
 
 ###### Returns
 
@@ -8573,7 +8646,7 @@ Defined in: [helper/BaseModelEntity.ts:71](https://github.com/Orb-Workshop/scrip
 
 > **IsValid**(): `boolean`
 
-Defined in: [helper/EntityHelper.ts:114](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L114)
+Defined in: [src/helper/EntityHelper.ts:114](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L114)
 
 ###### Returns
 
@@ -8587,7 +8660,7 @@ Defined in: [helper/EntityHelper.ts:114](https://github.com/Orb-Workshop/scripte
 
 > **IsWorld**(): `boolean`
 
-Defined in: [helper/EntityHelper.ts:214](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L214)
+Defined in: [src/helper/EntityHelper.ts:214](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L214)
 
 ###### Returns
 
@@ -8601,7 +8674,7 @@ Defined in: [helper/EntityHelper.ts:214](https://github.com/Orb-Workshop/scripte
 
 > **Kill**(): `void`
 
-Defined in: [helper/EntityHelper.ts:226](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L226)
+Defined in: [src/helper/EntityHelper.ts:226](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L226)
 
 ###### Returns
 
@@ -8615,7 +8688,7 @@ Defined in: [helper/EntityHelper.ts:226](https://github.com/Orb-Workshop/scripte
 
 > **KillAll**(): `void`
 
-Defined in: [helper/EntityHelper.ts:234](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L234)
+Defined in: [src/helper/EntityHelper.ts:234](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L234)
 
 ###### Returns
 
@@ -8629,7 +8702,7 @@ Defined in: [helper/EntityHelper.ts:234](https://github.com/Orb-Workshop/scripte
 
 > **KillHierarchy**(`opts?`): `void`
 
-Defined in: [helper/EntityHelper.ts:230](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L230)
+Defined in: [src/helper/EntityHelper.ts:230](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L230)
 
 ###### Parameters
 
@@ -8649,7 +8722,7 @@ Defined in: [helper/EntityHelper.ts:230](https://github.com/Orb-Workshop/scripte
 
 > **LockOrientation**(`opts?`): `void`
 
-Defined in: [helper/FuncTrackTrain.ts:99](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/FuncTrackTrain.ts#L99)
+Defined in: [src/helper/FuncTrackTrain.ts:99](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/FuncTrackTrain.ts#L99)
 
 ###### Parameters
 
@@ -8665,7 +8738,7 @@ Defined in: [helper/FuncTrackTrain.ts:99](https://github.com/Orb-Workshop/script
 
 > **MoveToPathNode**(`value`, `opts?`): `void`
 
-Defined in: [helper/FuncTrackTrain.ts:91](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/FuncTrackTrain.ts#L91)
+Defined in: [src/helper/FuncTrackTrain.ts:91](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/FuncTrackTrain.ts#L91)
 
 ###### Parameters
 
@@ -8682,7 +8755,7 @@ Defined in: [helper/FuncTrackTrain.ts:91](https://github.com/Orb-Workshop/script
 
 > **On**(`event_name`, `callback`): [`EntityHelper`](#abstract-entityhelper)
 
-Defined in: [helper/EntityHelper.ts:104](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L104)
+Defined in: [src/helper/EntityHelper.ts:104](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L104)
 
 ###### Parameters
 
@@ -8703,7 +8776,7 @@ Defined in: [helper/EntityHelper.ts:104](https://github.com/Orb-Workshop/scripte
 
 > **OnArrivedAtDestinationNode**(`callback`): [`FuncTrackTrain`](#functracktrain)
 
-Defined in: [helper/FuncTrackTrain.ts:117](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/FuncTrackTrain.ts#L117)
+Defined in: [src/helper/FuncTrackTrain.ts:117](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/FuncTrackTrain.ts#L117)
 
 ###### Parameters
 
@@ -8719,7 +8792,7 @@ Defined in: [helper/FuncTrackTrain.ts:117](https://github.com/Orb-Workshop/scrip
 
 > **OnKilled**(`callback`): [`FuncTrackTrain`](#functracktrain)
 
-Defined in: [helper/FuncTrackTrain.ts:121](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/FuncTrackTrain.ts#L121)
+Defined in: [src/helper/FuncTrackTrain.ts:121](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/FuncTrackTrain.ts#L121)
 
 ###### Parameters
 
@@ -8735,7 +8808,7 @@ Defined in: [helper/FuncTrackTrain.ts:121](https://github.com/Orb-Workshop/scrip
 
 > **OnNext**(`callback`): [`FuncTrackTrain`](#functracktrain)
 
-Defined in: [helper/FuncTrackTrain.ts:113](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/FuncTrackTrain.ts#L113)
+Defined in: [src/helper/FuncTrackTrain.ts:113](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/FuncTrackTrain.ts#L113)
 
 ###### Parameters
 
@@ -8751,7 +8824,7 @@ Defined in: [helper/FuncTrackTrain.ts:113](https://github.com/Orb-Workshop/scrip
 
 > **OnStart**(`callback`): [`FuncTrackTrain`](#functracktrain)
 
-Defined in: [helper/FuncTrackTrain.ts:109](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/FuncTrackTrain.ts#L109)
+Defined in: [src/helper/FuncTrackTrain.ts:109](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/FuncTrackTrain.ts#L109)
 
 ###### Parameters
 
@@ -8767,7 +8840,7 @@ Defined in: [helper/FuncTrackTrain.ts:109](https://github.com/Orb-Workshop/scrip
 
 > **Remove**(): `void`
 
-Defined in: [helper/EntityHelper.ts:238](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L238)
+Defined in: [src/helper/EntityHelper.ts:238](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L238)
 
 ###### Returns
 
@@ -8781,7 +8854,7 @@ Defined in: [helper/EntityHelper.ts:238](https://github.com/Orb-Workshop/scripte
 
 > **Resume**(`opts?`): `void`
 
-Defined in: [helper/FuncTrackTrain.ts:79](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/FuncTrackTrain.ts#L79)
+Defined in: [src/helper/FuncTrackTrain.ts:79](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/FuncTrackTrain.ts#L79)
 
 ###### Parameters
 
@@ -8797,7 +8870,7 @@ Defined in: [helper/FuncTrackTrain.ts:79](https://github.com/Orb-Workshop/script
 
 > **Reverse**(`opts?`): `void`
 
-Defined in: [helper/FuncTrackTrain.ts:83](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/FuncTrackTrain.ts#L83)
+Defined in: [src/helper/FuncTrackTrain.ts:83](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/FuncTrackTrain.ts#L83)
 
 ###### Parameters
 
@@ -8813,7 +8886,7 @@ Defined in: [helper/FuncTrackTrain.ts:83](https://github.com/Orb-Workshop/script
 
 > **SetColor**(`c`): `void`
 
-Defined in: [helper/BaseModelEntity.ts:55](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L55)
+Defined in: [src/helper/BaseModelEntity.ts:55](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L55)
 
 ###### Parameters
 
@@ -8833,7 +8906,7 @@ Defined in: [helper/BaseModelEntity.ts:55](https://github.com/Orb-Workshop/scrip
 
 > **SetEntityName**(`s`): `void`
 
-Defined in: [helper/EntityHelper.ts:162](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L162)
+Defined in: [src/helper/EntityHelper.ts:162](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L162)
 
 ###### Parameters
 
@@ -8853,7 +8926,7 @@ Defined in: [helper/EntityHelper.ts:162](https://github.com/Orb-Workshop/scripte
 
 > **SetHealth**(`hp`): `void`
 
-Defined in: [helper/EntityHelper.ts:190](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L190)
+Defined in: [src/helper/EntityHelper.ts:190](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L190)
 
 ###### Parameters
 
@@ -8873,7 +8946,7 @@ Defined in: [helper/EntityHelper.ts:190](https://github.com/Orb-Workshop/scripte
 
 > **SetMaxHealth**(`hp`): `void`
 
-Defined in: [helper/EntityHelper.ts:202](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L202)
+Defined in: [src/helper/EntityHelper.ts:202](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L202)
 
 ###### Parameters
 
@@ -8893,7 +8966,7 @@ Defined in: [helper/EntityHelper.ts:202](https://github.com/Orb-Workshop/scripte
 
 > **SetMaxSpeed**(`value`, `opts?`): `void`
 
-Defined in: [helper/FuncTrackTrain.ts:55](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/FuncTrackTrain.ts#L55)
+Defined in: [src/helper/FuncTrackTrain.ts:55](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/FuncTrackTrain.ts#L55)
 
 ###### Parameters
 
@@ -8910,7 +8983,7 @@ Defined in: [helper/FuncTrackTrain.ts:55](https://github.com/Orb-Workshop/script
 
 > **SetModel**(`s`): `void`
 
-Defined in: [helper/BaseModelEntity.ts:39](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L39)
+Defined in: [src/helper/BaseModelEntity.ts:39](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L39)
 
 ###### Parameters
 
@@ -8930,7 +9003,7 @@ Defined in: [helper/BaseModelEntity.ts:39](https://github.com/Orb-Workshop/scrip
 
 > **SetModelScale**(`s`): `void`
 
-Defined in: [helper/BaseModelEntity.ts:47](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L47)
+Defined in: [src/helper/BaseModelEntity.ts:47](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L47)
 
 ###### Parameters
 
@@ -8950,7 +9023,7 @@ Defined in: [helper/BaseModelEntity.ts:47](https://github.com/Orb-Workshop/scrip
 
 > **SetMoveDistanceFromEnd**(`value`, `opts?`): `void`
 
-Defined in: [helper/FuncTrackTrain.ts:59](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/FuncTrackTrain.ts#L59)
+Defined in: [src/helper/FuncTrackTrain.ts:59](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/FuncTrackTrain.ts#L59)
 
 ###### Parameters
 
@@ -8967,7 +9040,7 @@ Defined in: [helper/FuncTrackTrain.ts:59](https://github.com/Orb-Workshop/script
 
 > **SetOwner**(`e`): `void`
 
-Defined in: [helper/EntityHelper.ts:170](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L170)
+Defined in: [src/helper/EntityHelper.ts:170](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L170)
 
 ###### Parameters
 
@@ -8987,7 +9060,7 @@ Defined in: [helper/EntityHelper.ts:170](https://github.com/Orb-Workshop/scripte
 
 > **SetParent**(`e`): `void`
 
-Defined in: [helper/EntityHelper.ts:178](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L178)
+Defined in: [src/helper/EntityHelper.ts:178](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L178)
 
 ###### Parameters
 
@@ -9007,7 +9080,7 @@ Defined in: [helper/EntityHelper.ts:178](https://github.com/Orb-Workshop/scripte
 
 > **SetSpeed**(`value`, `opts?`): `void`
 
-Defined in: [helper/FuncTrackTrain.ts:51](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/FuncTrackTrain.ts#L51)
+Defined in: [src/helper/FuncTrackTrain.ts:51](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/FuncTrackTrain.ts#L51)
 
 ###### Parameters
 
@@ -9024,7 +9097,7 @@ Defined in: [helper/FuncTrackTrain.ts:51](https://github.com/Orb-Workshop/script
 
 > **SetSpeedDir**(`value`, `opts?`): `void`
 
-Defined in: [helper/FuncTrackTrain.ts:63](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/FuncTrackTrain.ts#L63)
+Defined in: [src/helper/FuncTrackTrain.ts:63](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/FuncTrackTrain.ts#L63)
 
 ###### Parameters
 
@@ -9041,7 +9114,7 @@ Defined in: [helper/FuncTrackTrain.ts:63](https://github.com/Orb-Workshop/script
 
 > **StartBackward**(`opts?`): `void`
 
-Defined in: [helper/FuncTrackTrain.ts:75](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/FuncTrackTrain.ts#L75)
+Defined in: [src/helper/FuncTrackTrain.ts:75](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/FuncTrackTrain.ts#L75)
 
 ###### Parameters
 
@@ -9057,7 +9130,7 @@ Defined in: [helper/FuncTrackTrain.ts:75](https://github.com/Orb-Workshop/script
 
 > **StartForward**(`opts?`): `void`
 
-Defined in: [helper/FuncTrackTrain.ts:71](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/FuncTrackTrain.ts#L71)
+Defined in: [src/helper/FuncTrackTrain.ts:71](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/FuncTrackTrain.ts#L71)
 
 ###### Parameters
 
@@ -9073,7 +9146,7 @@ Defined in: [helper/FuncTrackTrain.ts:71](https://github.com/Orb-Workshop/script
 
 > **Stop**(`opts?`): `void`
 
-Defined in: [helper/FuncTrackTrain.ts:67](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/FuncTrackTrain.ts#L67)
+Defined in: [src/helper/FuncTrackTrain.ts:67](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/FuncTrackTrain.ts#L67)
 
 ###### Parameters
 
@@ -9089,7 +9162,7 @@ Defined in: [helper/FuncTrackTrain.ts:67](https://github.com/Orb-Workshop/script
 
 > **TakeDamage**(`__namedParameters`): `number`
 
-Defined in: [helper/EntityHelper.ts:222](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L222)
+Defined in: [src/helper/EntityHelper.ts:222](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L222)
 
 ###### Parameters
 
@@ -9113,7 +9186,7 @@ Defined in: [helper/EntityHelper.ts:222](https://github.com/Orb-Workshop/scripte
 
 > **Teleport**(`__namedParameters`): `void`
 
-Defined in: [helper/EntityHelper.ts:150](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L150)
+Defined in: [src/helper/EntityHelper.ts:150](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L150)
 
 ###### Parameters
 
@@ -9136,7 +9209,7 @@ Defined in: [helper/EntityHelper.ts:150](https://github.com/Orb-Workshop/scripte
 
 > **TeleportToPathNode**(`value`, `opts?`): `void`
 
-Defined in: [helper/FuncTrackTrain.ts:95](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/FuncTrackTrain.ts#L95)
+Defined in: [src/helper/FuncTrackTrain.ts:95](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/FuncTrackTrain.ts#L95)
 
 ###### Parameters
 
@@ -9153,7 +9226,7 @@ Defined in: [helper/FuncTrackTrain.ts:95](https://github.com/Orb-Workshop/script
 
 > **Toggle**(`opts?`): `void`
 
-Defined in: [helper/FuncTrackTrain.ts:87](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/FuncTrackTrain.ts#L87)
+Defined in: [src/helper/FuncTrackTrain.ts:87](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/FuncTrackTrain.ts#L87)
 
 ###### Parameters
 
@@ -9169,7 +9242,7 @@ Defined in: [helper/FuncTrackTrain.ts:87](https://github.com/Orb-Workshop/script
 
 > **Unglow**(): `void`
 
-Defined in: [helper/BaseModelEntity.ts:67](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L67)
+Defined in: [src/helper/BaseModelEntity.ts:67](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L67)
 
 ###### Returns
 
@@ -9183,7 +9256,7 @@ Defined in: [helper/BaseModelEntity.ts:67](https://github.com/Orb-Workshop/scrip
 
 > **UnlockOrientation**(`opts?`): `void`
 
-Defined in: [helper/FuncTrackTrain.ts:103](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/FuncTrackTrain.ts#L103)
+Defined in: [src/helper/FuncTrackTrain.ts:103](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/FuncTrackTrain.ts#L103)
 
 ###### Parameters
 
@@ -9199,7 +9272,7 @@ Defined in: [helper/FuncTrackTrain.ts:103](https://github.com/Orb-Workshop/scrip
 
 > `static` **Find**(`r`): [`FuncTrackTrain`](#functracktrain)
 
-Defined in: [helper/FuncTrackTrain.ts:31](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/FuncTrackTrain.ts#L31)
+Defined in: [src/helper/FuncTrackTrain.ts:31](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/FuncTrackTrain.ts#L31)
 
 ###### Parameters
 
@@ -9219,7 +9292,7 @@ Defined in: [helper/FuncTrackTrain.ts:31](https://github.com/Orb-Workshop/script
 
 > `static` **FindAll**(`r`): [`FuncTrackTrain`](#functracktrain)[]
 
-Defined in: [helper/FuncTrackTrain.ts:36](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/FuncTrackTrain.ts#L36)
+Defined in: [src/helper/FuncTrackTrain.ts:36](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/FuncTrackTrain.ts#L36)
 
 ###### Parameters
 
@@ -9239,7 +9312,7 @@ Defined in: [helper/FuncTrackTrain.ts:36](https://github.com/Orb-Workshop/script
 
 > `static` **FindAllByClass**(`classname`, `r`): [`EntityHelper`](#abstract-entityhelper)[]
 
-Defined in: [helper/EntityHelper.ts:52](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L52)
+Defined in: [src/helper/EntityHelper.ts:52](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L52)
 
 ###### Parameters
 
@@ -9260,7 +9333,7 @@ Defined in: [helper/EntityHelper.ts:52](https://github.com/Orb-Workshop/scripted
 
 > `static` **FindByClass**(`classname`, `r`, `error?`): [`EntityHelper`](#abstract-entityhelper) \| `null`
 
-Defined in: [helper/EntityHelper.ts:44](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L44)
+Defined in: [src/helper/EntityHelper.ts:44](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L44)
 
 ###### Parameters
 
@@ -9282,7 +9355,7 @@ Defined in: [helper/EntityHelper.ts:44](https://github.com/Orb-Workshop/scripted
 
 > `static` **From**(`e`): [`FuncTrackTrain`](#functracktrain)
 
-Defined in: [helper/FuncTrackTrain.ts:25](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/FuncTrackTrain.ts#L25)
+Defined in: [src/helper/FuncTrackTrain.ts:25](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/FuncTrackTrain.ts#L25)
 
 ###### Parameters
 
@@ -9302,7 +9375,7 @@ Defined in: [helper/FuncTrackTrain.ts:25](https://github.com/Orb-Workshop/script
 
 ### GameMoney
 
-Defined in: [helper/GameMoney.ts:19](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/GameMoney.ts#L19)
+Defined in: [src/helper/GameMoney.ts:19](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/GameMoney.ts#L19)
 
 #### Extends
 
@@ -9314,7 +9387,7 @@ Defined in: [helper/GameMoney.ts:19](https://github.com/Orb-Workshop/scriptedeuc
 
 > **new GameMoney**(`entity`): [`GameMoney`](#gamemoney)
 
-Defined in: [helper/GameMoney.ts:20](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/GameMoney.ts#L20)
+Defined in: [src/helper/GameMoney.ts:20](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/GameMoney.ts#L20)
 
 ###### Parameters
 
@@ -9328,7 +9401,7 @@ Defined in: [helper/GameMoney.ts:20](https://github.com/Orb-Workshop/scriptedeuc
 
 ###### Overrides
 
-[`EntityHelper`](#abstract-entityhelper).[`constructor`](#constructor-2)
+[`EntityHelper`](#abstract-entityhelper).[`constructor`](#constructor-1)
 
 #### Accessors
 
@@ -9338,7 +9411,7 @@ Defined in: [helper/GameMoney.ts:20](https://github.com/Orb-Workshop/scriptedeuc
 
 > **get** **raw**(): `Entity`
 
-Defined in: [helper/EntityHelper.ts:57](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L57)
+Defined in: [src/helper/EntityHelper.ts:57](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L57)
 
 ###### Returns
 
@@ -9354,7 +9427,7 @@ Defined in: [helper/EntityHelper.ts:57](https://github.com/Orb-Workshop/scripted
 
 > **AddMoneyPlayer**(`opts?`): `void`
 
-Defined in: [helper/GameMoney.ts:60](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/GameMoney.ts#L60)
+Defined in: [src/helper/GameMoney.ts:60](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/GameMoney.ts#L60)
 
 ###### Parameters
 
@@ -9370,7 +9443,7 @@ Defined in: [helper/GameMoney.ts:60](https://github.com/Orb-Workshop/scriptedeuc
 
 > **AddTeamMoneyCT**(`opts?`): `void`
 
-Defined in: [helper/GameMoney.ts:68](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/GameMoney.ts#L68)
+Defined in: [src/helper/GameMoney.ts:68](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/GameMoney.ts#L68)
 
 ###### Parameters
 
@@ -9386,7 +9459,7 @@ Defined in: [helper/GameMoney.ts:68](https://github.com/Orb-Workshop/scriptedeuc
 
 > **AddTeamMoneyTerrorist**(`opts?`): `void`
 
-Defined in: [helper/GameMoney.ts:64](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/GameMoney.ts#L64)
+Defined in: [src/helper/GameMoney.ts:64](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/GameMoney.ts#L64)
 
 ###### Parameters
 
@@ -9402,7 +9475,7 @@ Defined in: [helper/GameMoney.ts:64](https://github.com/Orb-Workshop/scriptedeuc
 
 > **ConnectOutput**(`event_name`, `callback`): `void`
 
-Defined in: [helper/EntityHelper.ts:95](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L95)
+Defined in: [src/helper/EntityHelper.ts:95](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L95)
 
 Represents EventListening of IO entities with `this.ConnectOutput`
 TODO: Use Global Events to 'latch onto' the callbacks this method represents.
@@ -9426,7 +9499,7 @@ TODO: Use Global Events to 'latch onto' the callbacks this method represents.
 
 > **FireIO**(`opts?`): `void`
 
-Defined in: [helper/EntityHelper.ts:59](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L59)
+Defined in: [src/helper/EntityHelper.ts:59](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L59)
 
 ###### Parameters
 
@@ -9446,7 +9519,7 @@ Defined in: [helper/EntityHelper.ts:59](https://github.com/Orb-Workshop/scripted
 
 > **FireUser1**(`opts?`): `void`
 
-Defined in: [helper/EntityHelper.ts:68](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L68)
+Defined in: [src/helper/EntityHelper.ts:68](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L68)
 
 ###### Parameters
 
@@ -9466,7 +9539,7 @@ Defined in: [helper/EntityHelper.ts:68](https://github.com/Orb-Workshop/scripted
 
 > **FireUser2**(`opts?`): `void`
 
-Defined in: [helper/EntityHelper.ts:72](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L72)
+Defined in: [src/helper/EntityHelper.ts:72](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L72)
 
 ###### Parameters
 
@@ -9486,7 +9559,7 @@ Defined in: [helper/EntityHelper.ts:72](https://github.com/Orb-Workshop/scripted
 
 > **FireUser3**(`opts?`): `void`
 
-Defined in: [helper/EntityHelper.ts:76](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L76)
+Defined in: [src/helper/EntityHelper.ts:76](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L76)
 
 ###### Parameters
 
@@ -9506,7 +9579,7 @@ Defined in: [helper/EntityHelper.ts:76](https://github.com/Orb-Workshop/scripted
 
 > **FireUser4**(`opts?`): `void`
 
-Defined in: [helper/EntityHelper.ts:80](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L80)
+Defined in: [src/helper/EntityHelper.ts:80](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L80)
 
 ###### Parameters
 
@@ -9526,7 +9599,7 @@ Defined in: [helper/EntityHelper.ts:80](https://github.com/Orb-Workshop/scripted
 
 > **GetAbsAngles**(): [`QAngle`](Math.md#qangle)
 
-Defined in: [helper/EntityHelper.ts:126](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L126)
+Defined in: [src/helper/EntityHelper.ts:126](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L126)
 
 ###### Returns
 
@@ -9540,7 +9613,7 @@ Defined in: [helper/EntityHelper.ts:126](https://github.com/Orb-Workshop/scripte
 
 > **GetAbsOrigin**(): [`Vector3`](Math.md#vector3)
 
-Defined in: [helper/EntityHelper.ts:118](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L118)
+Defined in: [src/helper/EntityHelper.ts:118](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L118)
 
 ###### Returns
 
@@ -9554,7 +9627,7 @@ Defined in: [helper/EntityHelper.ts:118](https://github.com/Orb-Workshop/scripte
 
 > **GetAbsVelocity**(): [`Vector3`](Math.md#vector3)
 
-Defined in: [helper/EntityHelper.ts:134](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L134)
+Defined in: [src/helper/EntityHelper.ts:134](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L134)
 
 ###### Returns
 
@@ -9568,7 +9641,7 @@ Defined in: [helper/EntityHelper.ts:134](https://github.com/Orb-Workshop/scripte
 
 > **GetClassName**(): `string`
 
-Defined in: [helper/EntityHelper.ts:154](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L154)
+Defined in: [src/helper/EntityHelper.ts:154](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L154)
 
 ###### Returns
 
@@ -9582,7 +9655,7 @@ Defined in: [helper/EntityHelper.ts:154](https://github.com/Orb-Workshop/scripte
 
 > **GetEntityName**(): `string`
 
-Defined in: [helper/EntityHelper.ts:158](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L158)
+Defined in: [src/helper/EntityHelper.ts:158](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L158)
 
 ###### Returns
 
@@ -9596,7 +9669,7 @@ Defined in: [helper/EntityHelper.ts:158](https://github.com/Orb-Workshop/scripte
 
 > **GetEyeAngles**(): [`QAngle`](Math.md#qangle)
 
-Defined in: [helper/EntityHelper.ts:142](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L142)
+Defined in: [src/helper/EntityHelper.ts:142](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L142)
 
 ###### Returns
 
@@ -9610,7 +9683,7 @@ Defined in: [helper/EntityHelper.ts:142](https://github.com/Orb-Workshop/scripte
 
 > **GetEyePosition**(): [`Vector3`](Math.md#vector3)
 
-Defined in: [helper/EntityHelper.ts:146](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L146)
+Defined in: [src/helper/EntityHelper.ts:146](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L146)
 
 ###### Returns
 
@@ -9624,7 +9697,7 @@ Defined in: [helper/EntityHelper.ts:146](https://github.com/Orb-Workshop/scripte
 
 > **GetGroundEntity**(): `any`
 
-Defined in: [helper/EntityHelper.ts:218](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L218)
+Defined in: [src/helper/EntityHelper.ts:218](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L218)
 
 ###### Returns
 
@@ -9638,7 +9711,7 @@ Defined in: [helper/EntityHelper.ts:218](https://github.com/Orb-Workshop/scripte
 
 > **GetHealth**(): `number`
 
-Defined in: [helper/EntityHelper.ts:186](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L186)
+Defined in: [src/helper/EntityHelper.ts:186](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L186)
 
 ###### Returns
 
@@ -9652,7 +9725,7 @@ Defined in: [helper/EntityHelper.ts:186](https://github.com/Orb-Workshop/scripte
 
 > **GetLocalAngles**(): [`QAngle`](Math.md#qangle)
 
-Defined in: [helper/EntityHelper.ts:130](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L130)
+Defined in: [src/helper/EntityHelper.ts:130](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L130)
 
 ###### Returns
 
@@ -9666,7 +9739,7 @@ Defined in: [helper/EntityHelper.ts:130](https://github.com/Orb-Workshop/scripte
 
 > **GetLocalOrigin**(): [`Vector3`](Math.md#vector3)
 
-Defined in: [helper/EntityHelper.ts:122](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L122)
+Defined in: [src/helper/EntityHelper.ts:122](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L122)
 
 ###### Returns
 
@@ -9680,7 +9753,7 @@ Defined in: [helper/EntityHelper.ts:122](https://github.com/Orb-Workshop/scripte
 
 > **GetLocalVelocity**(): [`Vector3`](Math.md#vector3)
 
-Defined in: [helper/EntityHelper.ts:138](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L138)
+Defined in: [src/helper/EntityHelper.ts:138](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L138)
 
 ###### Returns
 
@@ -9694,7 +9767,7 @@ Defined in: [helper/EntityHelper.ts:138](https://github.com/Orb-Workshop/scripte
 
 > **GetMaxHealth**(): `number`
 
-Defined in: [helper/EntityHelper.ts:198](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L198)
+Defined in: [src/helper/EntityHelper.ts:198](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L198)
 
 ###### Returns
 
@@ -9708,7 +9781,7 @@ Defined in: [helper/EntityHelper.ts:198](https://github.com/Orb-Workshop/scripte
 
 > **GetOwner**(): `any`
 
-Defined in: [helper/EntityHelper.ts:166](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L166)
+Defined in: [src/helper/EntityHelper.ts:166](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L166)
 
 ###### Returns
 
@@ -9722,7 +9795,7 @@ Defined in: [helper/EntityHelper.ts:166](https://github.com/Orb-Workshop/scripte
 
 > **GetParent**(): `any`
 
-Defined in: [helper/EntityHelper.ts:174](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L174)
+Defined in: [src/helper/EntityHelper.ts:174](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L174)
 
 ###### Returns
 
@@ -9736,7 +9809,7 @@ Defined in: [helper/EntityHelper.ts:174](https://github.com/Orb-Workshop/scripte
 
 > **GetTeamNumber**(): `number`
 
-Defined in: [helper/EntityHelper.ts:182](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L182)
+Defined in: [src/helper/EntityHelper.ts:182](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L182)
 
 ###### Returns
 
@@ -9750,7 +9823,7 @@ Defined in: [helper/EntityHelper.ts:182](https://github.com/Orb-Workshop/scripte
 
 > **GiveMoney**(`player`, `amount`): `void`
 
-Defined in: [helper/GameMoney.ts:40](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/GameMoney.ts#L40)
+Defined in: [src/helper/GameMoney.ts:40](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/GameMoney.ts#L40)
 
 ###### Parameters
 
@@ -9767,7 +9840,7 @@ Defined in: [helper/GameMoney.ts:40](https://github.com/Orb-Workshop/scriptedeuc
 
 > **GiveTeamMoney\_CT**(`amount`): `void`
 
-Defined in: [helper/GameMoney.ts:50](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/GameMoney.ts#L50)
+Defined in: [src/helper/GameMoney.ts:50](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/GameMoney.ts#L50)
 
 ###### Parameters
 
@@ -9783,7 +9856,7 @@ Defined in: [helper/GameMoney.ts:50](https://github.com/Orb-Workshop/scriptedeuc
 
 > **GiveTeamMoney\_T**(`amount`): `void`
 
-Defined in: [helper/GameMoney.ts:45](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/GameMoney.ts#L45)
+Defined in: [src/helper/GameMoney.ts:45](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/GameMoney.ts#L45)
 
 ###### Parameters
 
@@ -9799,7 +9872,7 @@ Defined in: [helper/GameMoney.ts:45](https://github.com/Orb-Workshop/scriptedeuc
 
 > **IsAlive**(): `boolean`
 
-Defined in: [helper/EntityHelper.ts:210](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L210)
+Defined in: [src/helper/EntityHelper.ts:210](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L210)
 
 ###### Returns
 
@@ -9813,7 +9886,7 @@ Defined in: [helper/EntityHelper.ts:210](https://github.com/Orb-Workshop/scripte
 
 > **IsValid**(): `boolean`
 
-Defined in: [helper/EntityHelper.ts:114](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L114)
+Defined in: [src/helper/EntityHelper.ts:114](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L114)
 
 ###### Returns
 
@@ -9827,7 +9900,7 @@ Defined in: [helper/EntityHelper.ts:114](https://github.com/Orb-Workshop/scripte
 
 > **IsWorld**(): `boolean`
 
-Defined in: [helper/EntityHelper.ts:214](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L214)
+Defined in: [src/helper/EntityHelper.ts:214](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L214)
 
 ###### Returns
 
@@ -9841,7 +9914,7 @@ Defined in: [helper/EntityHelper.ts:214](https://github.com/Orb-Workshop/scripte
 
 > **Kill**(): `void`
 
-Defined in: [helper/EntityHelper.ts:226](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L226)
+Defined in: [src/helper/EntityHelper.ts:226](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L226)
 
 ###### Returns
 
@@ -9855,7 +9928,7 @@ Defined in: [helper/EntityHelper.ts:226](https://github.com/Orb-Workshop/scripte
 
 > **KillAll**(): `void`
 
-Defined in: [helper/EntityHelper.ts:234](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L234)
+Defined in: [src/helper/EntityHelper.ts:234](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L234)
 
 ###### Returns
 
@@ -9869,7 +9942,7 @@ Defined in: [helper/EntityHelper.ts:234](https://github.com/Orb-Workshop/scripte
 
 > **KillHierarchy**(`opts?`): `void`
 
-Defined in: [helper/EntityHelper.ts:230](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L230)
+Defined in: [src/helper/EntityHelper.ts:230](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L230)
 
 ###### Parameters
 
@@ -9889,7 +9962,7 @@ Defined in: [helper/EntityHelper.ts:230](https://github.com/Orb-Workshop/scripte
 
 > **On**(`event_name`, `callback`): [`EntityHelper`](#abstract-entityhelper)
 
-Defined in: [helper/EntityHelper.ts:104](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L104)
+Defined in: [src/helper/EntityHelper.ts:104](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L104)
 
 ###### Parameters
 
@@ -9910,7 +9983,7 @@ Defined in: [helper/EntityHelper.ts:104](https://github.com/Orb-Workshop/scripte
 
 > **OnMoneySpent**(`callback`): [`GameMoney`](#gamemoney)
 
-Defined in: [helper/GameMoney.ts:78](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/GameMoney.ts#L78)
+Defined in: [src/helper/GameMoney.ts:78](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/GameMoney.ts#L78)
 
 ###### Parameters
 
@@ -9926,7 +9999,7 @@ Defined in: [helper/GameMoney.ts:78](https://github.com/Orb-Workshop/scriptedeuc
 
 > **OnMoneySpentFail**(`callback`): [`GameMoney`](#gamemoney)
 
-Defined in: [helper/GameMoney.ts:82](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/GameMoney.ts#L82)
+Defined in: [src/helper/GameMoney.ts:82](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/GameMoney.ts#L82)
 
 ###### Parameters
 
@@ -9942,7 +10015,7 @@ Defined in: [helper/GameMoney.ts:82](https://github.com/Orb-Workshop/scriptedeuc
 
 > **Remove**(): `void`
 
-Defined in: [helper/EntityHelper.ts:238](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L238)
+Defined in: [src/helper/EntityHelper.ts:238](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L238)
 
 ###### Returns
 
@@ -9956,7 +10029,7 @@ Defined in: [helper/EntityHelper.ts:238](https://github.com/Orb-Workshop/scripte
 
 > **SetEntityName**(`s`): `void`
 
-Defined in: [helper/EntityHelper.ts:162](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L162)
+Defined in: [src/helper/EntityHelper.ts:162](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L162)
 
 ###### Parameters
 
@@ -9976,7 +10049,7 @@ Defined in: [helper/EntityHelper.ts:162](https://github.com/Orb-Workshop/scripte
 
 > **SetHealth**(`hp`): `void`
 
-Defined in: [helper/EntityHelper.ts:190](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L190)
+Defined in: [src/helper/EntityHelper.ts:190](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L190)
 
 ###### Parameters
 
@@ -9996,7 +10069,7 @@ Defined in: [helper/EntityHelper.ts:190](https://github.com/Orb-Workshop/scripte
 
 > **SetMaxHealth**(`hp`): `void`
 
-Defined in: [helper/EntityHelper.ts:202](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L202)
+Defined in: [src/helper/EntityHelper.ts:202](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L202)
 
 ###### Parameters
 
@@ -10016,7 +10089,7 @@ Defined in: [helper/EntityHelper.ts:202](https://github.com/Orb-Workshop/scripte
 
 > **SetMoneyAmount**(`value`, `opts?`): `void`
 
-Defined in: [helper/GameMoney.ts:56](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/GameMoney.ts#L56)
+Defined in: [src/helper/GameMoney.ts:56](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/GameMoney.ts#L56)
 
 ###### Parameters
 
@@ -10033,7 +10106,7 @@ Defined in: [helper/GameMoney.ts:56](https://github.com/Orb-Workshop/scriptedeuc
 
 > **SetOwner**(`e`): `void`
 
-Defined in: [helper/EntityHelper.ts:170](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L170)
+Defined in: [src/helper/EntityHelper.ts:170](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L170)
 
 ###### Parameters
 
@@ -10053,7 +10126,7 @@ Defined in: [helper/EntityHelper.ts:170](https://github.com/Orb-Workshop/scripte
 
 > **SetParent**(`e`): `void`
 
-Defined in: [helper/EntityHelper.ts:178](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L178)
+Defined in: [src/helper/EntityHelper.ts:178](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L178)
 
 ###### Parameters
 
@@ -10073,7 +10146,7 @@ Defined in: [helper/EntityHelper.ts:178](https://github.com/Orb-Workshop/scripte
 
 > **SpendMoneyFromPlayer**(`opts?`): `void`
 
-Defined in: [helper/GameMoney.ts:72](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/GameMoney.ts#L72)
+Defined in: [src/helper/GameMoney.ts:72](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/GameMoney.ts#L72)
 
 ###### Parameters
 
@@ -10089,7 +10162,7 @@ Defined in: [helper/GameMoney.ts:72](https://github.com/Orb-Workshop/scriptedeuc
 
 > **TakeDamage**(`__namedParameters`): `number`
 
-Defined in: [helper/EntityHelper.ts:222](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L222)
+Defined in: [src/helper/EntityHelper.ts:222](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L222)
 
 ###### Parameters
 
@@ -10113,7 +10186,7 @@ Defined in: [helper/EntityHelper.ts:222](https://github.com/Orb-Workshop/scripte
 
 > **Teleport**(`__namedParameters`): `void`
 
-Defined in: [helper/EntityHelper.ts:150](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L150)
+Defined in: [src/helper/EntityHelper.ts:150](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L150)
 
 ###### Parameters
 
@@ -10136,7 +10209,7 @@ Defined in: [helper/EntityHelper.ts:150](https://github.com/Orb-Workshop/scripte
 
 > `static` **Find**(`r`): [`GameMoney`](#gamemoney)
 
-Defined in: [helper/GameMoney.ts:30](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/GameMoney.ts#L30)
+Defined in: [src/helper/GameMoney.ts:30](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/GameMoney.ts#L30)
 
 ###### Parameters
 
@@ -10156,7 +10229,7 @@ Defined in: [helper/GameMoney.ts:30](https://github.com/Orb-Workshop/scriptedeuc
 
 > `static` **FindAll**(`r`): [`GameMoney`](#gamemoney)[]
 
-Defined in: [helper/GameMoney.ts:35](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/GameMoney.ts#L35)
+Defined in: [src/helper/GameMoney.ts:35](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/GameMoney.ts#L35)
 
 ###### Parameters
 
@@ -10176,7 +10249,7 @@ Defined in: [helper/GameMoney.ts:35](https://github.com/Orb-Workshop/scriptedeuc
 
 > `static` **FindAllByClass**(`classname`, `r`): [`EntityHelper`](#abstract-entityhelper)[]
 
-Defined in: [helper/EntityHelper.ts:52](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L52)
+Defined in: [src/helper/EntityHelper.ts:52](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L52)
 
 ###### Parameters
 
@@ -10197,7 +10270,7 @@ Defined in: [helper/EntityHelper.ts:52](https://github.com/Orb-Workshop/scripted
 
 > `static` **FindByClass**(`classname`, `r`, `error?`): [`EntityHelper`](#abstract-entityhelper) \| `null`
 
-Defined in: [helper/EntityHelper.ts:44](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L44)
+Defined in: [src/helper/EntityHelper.ts:44](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L44)
 
 ###### Parameters
 
@@ -10219,7 +10292,7 @@ Defined in: [helper/EntityHelper.ts:44](https://github.com/Orb-Workshop/scripted
 
 > `static` **From**(`e`): [`GameMoney`](#gamemoney)
 
-Defined in: [helper/GameMoney.ts:24](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/GameMoney.ts#L24)
+Defined in: [src/helper/GameMoney.ts:24](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/GameMoney.ts#L24)
 
 ###### Parameters
 
@@ -10235,7 +10308,7 @@ Defined in: [helper/GameMoney.ts:24](https://github.com/Orb-Workshop/scriptedeuc
 
 ### InfoMapParameters
 
-Defined in: [helper/InfoMapParameters.ts:17](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/InfoMapParameters.ts#L17)
+Defined in: [src/helper/InfoMapParameters.ts:17](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/InfoMapParameters.ts#L17)
 
 #### Extends
 
@@ -10247,7 +10320,7 @@ Defined in: [helper/InfoMapParameters.ts:17](https://github.com/Orb-Workshop/scr
 
 > **new InfoMapParameters**(`entity`): [`InfoMapParameters`](#infomapparameters)
 
-Defined in: [helper/InfoMapParameters.ts:18](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/InfoMapParameters.ts#L18)
+Defined in: [src/helper/InfoMapParameters.ts:18](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/InfoMapParameters.ts#L18)
 
 ###### Parameters
 
@@ -10261,7 +10334,7 @@ Defined in: [helper/InfoMapParameters.ts:18](https://github.com/Orb-Workshop/scr
 
 ###### Overrides
 
-[`EntityHelper`](#abstract-entityhelper).[`constructor`](#constructor-2)
+[`EntityHelper`](#abstract-entityhelper).[`constructor`](#constructor-1)
 
 #### Accessors
 
@@ -10271,7 +10344,7 @@ Defined in: [helper/InfoMapParameters.ts:18](https://github.com/Orb-Workshop/scr
 
 > **get** **raw**(): `Entity`
 
-Defined in: [helper/EntityHelper.ts:57](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L57)
+Defined in: [src/helper/EntityHelper.ts:57](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L57)
 
 ###### Returns
 
@@ -10287,7 +10360,7 @@ Defined in: [helper/EntityHelper.ts:57](https://github.com/Orb-Workshop/scripted
 
 > **ConnectOutput**(`event_name`, `callback`): `void`
 
-Defined in: [helper/EntityHelper.ts:95](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L95)
+Defined in: [src/helper/EntityHelper.ts:95](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L95)
 
 Represents EventListening of IO entities with `this.ConnectOutput`
 TODO: Use Global Events to 'latch onto' the callbacks this method represents.
@@ -10311,7 +10384,7 @@ TODO: Use Global Events to 'latch onto' the callbacks this method represents.
 
 > **FireIO**(`opts?`): `void`
 
-Defined in: [helper/EntityHelper.ts:59](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L59)
+Defined in: [src/helper/EntityHelper.ts:59](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L59)
 
 ###### Parameters
 
@@ -10331,7 +10404,7 @@ Defined in: [helper/EntityHelper.ts:59](https://github.com/Orb-Workshop/scripted
 
 > **FireUser1**(`opts?`): `void`
 
-Defined in: [helper/EntityHelper.ts:68](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L68)
+Defined in: [src/helper/EntityHelper.ts:68](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L68)
 
 ###### Parameters
 
@@ -10351,7 +10424,7 @@ Defined in: [helper/EntityHelper.ts:68](https://github.com/Orb-Workshop/scripted
 
 > **FireUser2**(`opts?`): `void`
 
-Defined in: [helper/EntityHelper.ts:72](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L72)
+Defined in: [src/helper/EntityHelper.ts:72](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L72)
 
 ###### Parameters
 
@@ -10371,7 +10444,7 @@ Defined in: [helper/EntityHelper.ts:72](https://github.com/Orb-Workshop/scripted
 
 > **FireUser3**(`opts?`): `void`
 
-Defined in: [helper/EntityHelper.ts:76](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L76)
+Defined in: [src/helper/EntityHelper.ts:76](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L76)
 
 ###### Parameters
 
@@ -10391,7 +10464,7 @@ Defined in: [helper/EntityHelper.ts:76](https://github.com/Orb-Workshop/scripted
 
 > **FireUser4**(`opts?`): `void`
 
-Defined in: [helper/EntityHelper.ts:80](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L80)
+Defined in: [src/helper/EntityHelper.ts:80](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L80)
 
 ###### Parameters
 
@@ -10411,7 +10484,7 @@ Defined in: [helper/EntityHelper.ts:80](https://github.com/Orb-Workshop/scripted
 
 > **FireWinCondition**(`value`, `opts?`): `void`
 
-Defined in: [helper/InfoMapParameters.ts:42](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/InfoMapParameters.ts#L42)
+Defined in: [src/helper/InfoMapParameters.ts:42](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/InfoMapParameters.ts#L42)
 
 ###### Parameters
 
@@ -10428,7 +10501,7 @@ Defined in: [helper/InfoMapParameters.ts:42](https://github.com/Orb-Workshop/scr
 
 > **GetAbsAngles**(): [`QAngle`](Math.md#qangle)
 
-Defined in: [helper/EntityHelper.ts:126](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L126)
+Defined in: [src/helper/EntityHelper.ts:126](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L126)
 
 ###### Returns
 
@@ -10442,7 +10515,7 @@ Defined in: [helper/EntityHelper.ts:126](https://github.com/Orb-Workshop/scripte
 
 > **GetAbsOrigin**(): [`Vector3`](Math.md#vector3)
 
-Defined in: [helper/EntityHelper.ts:118](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L118)
+Defined in: [src/helper/EntityHelper.ts:118](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L118)
 
 ###### Returns
 
@@ -10456,7 +10529,7 @@ Defined in: [helper/EntityHelper.ts:118](https://github.com/Orb-Workshop/scripte
 
 > **GetAbsVelocity**(): [`Vector3`](Math.md#vector3)
 
-Defined in: [helper/EntityHelper.ts:134](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L134)
+Defined in: [src/helper/EntityHelper.ts:134](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L134)
 
 ###### Returns
 
@@ -10470,7 +10543,7 @@ Defined in: [helper/EntityHelper.ts:134](https://github.com/Orb-Workshop/scripte
 
 > **GetClassName**(): `string`
 
-Defined in: [helper/EntityHelper.ts:154](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L154)
+Defined in: [src/helper/EntityHelper.ts:154](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L154)
 
 ###### Returns
 
@@ -10484,7 +10557,7 @@ Defined in: [helper/EntityHelper.ts:154](https://github.com/Orb-Workshop/scripte
 
 > **GetEntityName**(): `string`
 
-Defined in: [helper/EntityHelper.ts:158](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L158)
+Defined in: [src/helper/EntityHelper.ts:158](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L158)
 
 ###### Returns
 
@@ -10498,7 +10571,7 @@ Defined in: [helper/EntityHelper.ts:158](https://github.com/Orb-Workshop/scripte
 
 > **GetEyeAngles**(): [`QAngle`](Math.md#qangle)
 
-Defined in: [helper/EntityHelper.ts:142](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L142)
+Defined in: [src/helper/EntityHelper.ts:142](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L142)
 
 ###### Returns
 
@@ -10512,7 +10585,7 @@ Defined in: [helper/EntityHelper.ts:142](https://github.com/Orb-Workshop/scripte
 
 > **GetEyePosition**(): [`Vector3`](Math.md#vector3)
 
-Defined in: [helper/EntityHelper.ts:146](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L146)
+Defined in: [src/helper/EntityHelper.ts:146](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L146)
 
 ###### Returns
 
@@ -10526,7 +10599,7 @@ Defined in: [helper/EntityHelper.ts:146](https://github.com/Orb-Workshop/scripte
 
 > **GetGroundEntity**(): `any`
 
-Defined in: [helper/EntityHelper.ts:218](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L218)
+Defined in: [src/helper/EntityHelper.ts:218](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L218)
 
 ###### Returns
 
@@ -10540,7 +10613,7 @@ Defined in: [helper/EntityHelper.ts:218](https://github.com/Orb-Workshop/scripte
 
 > **GetHealth**(): `number`
 
-Defined in: [helper/EntityHelper.ts:186](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L186)
+Defined in: [src/helper/EntityHelper.ts:186](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L186)
 
 ###### Returns
 
@@ -10554,7 +10627,7 @@ Defined in: [helper/EntityHelper.ts:186](https://github.com/Orb-Workshop/scripte
 
 > **GetLocalAngles**(): [`QAngle`](Math.md#qangle)
 
-Defined in: [helper/EntityHelper.ts:130](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L130)
+Defined in: [src/helper/EntityHelper.ts:130](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L130)
 
 ###### Returns
 
@@ -10568,7 +10641,7 @@ Defined in: [helper/EntityHelper.ts:130](https://github.com/Orb-Workshop/scripte
 
 > **GetLocalOrigin**(): [`Vector3`](Math.md#vector3)
 
-Defined in: [helper/EntityHelper.ts:122](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L122)
+Defined in: [src/helper/EntityHelper.ts:122](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L122)
 
 ###### Returns
 
@@ -10582,7 +10655,7 @@ Defined in: [helper/EntityHelper.ts:122](https://github.com/Orb-Workshop/scripte
 
 > **GetLocalVelocity**(): [`Vector3`](Math.md#vector3)
 
-Defined in: [helper/EntityHelper.ts:138](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L138)
+Defined in: [src/helper/EntityHelper.ts:138](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L138)
 
 ###### Returns
 
@@ -10596,7 +10669,7 @@ Defined in: [helper/EntityHelper.ts:138](https://github.com/Orb-Workshop/scripte
 
 > **GetMaxHealth**(): `number`
 
-Defined in: [helper/EntityHelper.ts:198](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L198)
+Defined in: [src/helper/EntityHelper.ts:198](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L198)
 
 ###### Returns
 
@@ -10610,7 +10683,7 @@ Defined in: [helper/EntityHelper.ts:198](https://github.com/Orb-Workshop/scripte
 
 > **GetOwner**(): `any`
 
-Defined in: [helper/EntityHelper.ts:166](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L166)
+Defined in: [src/helper/EntityHelper.ts:166](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L166)
 
 ###### Returns
 
@@ -10624,7 +10697,7 @@ Defined in: [helper/EntityHelper.ts:166](https://github.com/Orb-Workshop/scripte
 
 > **GetParent**(): `any`
 
-Defined in: [helper/EntityHelper.ts:174](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L174)
+Defined in: [src/helper/EntityHelper.ts:174](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L174)
 
 ###### Returns
 
@@ -10638,7 +10711,7 @@ Defined in: [helper/EntityHelper.ts:174](https://github.com/Orb-Workshop/scripte
 
 > **GetTeamNumber**(): `number`
 
-Defined in: [helper/EntityHelper.ts:182](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L182)
+Defined in: [src/helper/EntityHelper.ts:182](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L182)
 
 ###### Returns
 
@@ -10652,7 +10725,7 @@ Defined in: [helper/EntityHelper.ts:182](https://github.com/Orb-Workshop/scripte
 
 > **IsAlive**(): `boolean`
 
-Defined in: [helper/EntityHelper.ts:210](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L210)
+Defined in: [src/helper/EntityHelper.ts:210](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L210)
 
 ###### Returns
 
@@ -10666,7 +10739,7 @@ Defined in: [helper/EntityHelper.ts:210](https://github.com/Orb-Workshop/scripte
 
 > **IsValid**(): `boolean`
 
-Defined in: [helper/EntityHelper.ts:114](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L114)
+Defined in: [src/helper/EntityHelper.ts:114](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L114)
 
 ###### Returns
 
@@ -10680,7 +10753,7 @@ Defined in: [helper/EntityHelper.ts:114](https://github.com/Orb-Workshop/scripte
 
 > **IsWorld**(): `boolean`
 
-Defined in: [helper/EntityHelper.ts:214](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L214)
+Defined in: [src/helper/EntityHelper.ts:214](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L214)
 
 ###### Returns
 
@@ -10694,7 +10767,7 @@ Defined in: [helper/EntityHelper.ts:214](https://github.com/Orb-Workshop/scripte
 
 > **Kill**(): `void`
 
-Defined in: [helper/EntityHelper.ts:226](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L226)
+Defined in: [src/helper/EntityHelper.ts:226](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L226)
 
 ###### Returns
 
@@ -10708,7 +10781,7 @@ Defined in: [helper/EntityHelper.ts:226](https://github.com/Orb-Workshop/scripte
 
 > **KillAll**(): `void`
 
-Defined in: [helper/EntityHelper.ts:234](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L234)
+Defined in: [src/helper/EntityHelper.ts:234](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L234)
 
 ###### Returns
 
@@ -10722,7 +10795,7 @@ Defined in: [helper/EntityHelper.ts:234](https://github.com/Orb-Workshop/scripte
 
 > **KillHierarchy**(`opts?`): `void`
 
-Defined in: [helper/EntityHelper.ts:230](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L230)
+Defined in: [src/helper/EntityHelper.ts:230](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L230)
 
 ###### Parameters
 
@@ -10742,7 +10815,7 @@ Defined in: [helper/EntityHelper.ts:230](https://github.com/Orb-Workshop/scripte
 
 > **On**(`event_name`, `callback`): [`EntityHelper`](#abstract-entityhelper)
 
-Defined in: [helper/EntityHelper.ts:104](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L104)
+Defined in: [src/helper/EntityHelper.ts:104](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L104)
 
 ###### Parameters
 
@@ -10763,7 +10836,7 @@ Defined in: [helper/EntityHelper.ts:104](https://github.com/Orb-Workshop/scripte
 
 > **Remove**(): `void`
 
-Defined in: [helper/EntityHelper.ts:238](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L238)
+Defined in: [src/helper/EntityHelper.ts:238](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L238)
 
 ###### Returns
 
@@ -10777,7 +10850,7 @@ Defined in: [helper/EntityHelper.ts:238](https://github.com/Orb-Workshop/scripte
 
 > **SetEntityName**(`s`): `void`
 
-Defined in: [helper/EntityHelper.ts:162](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L162)
+Defined in: [src/helper/EntityHelper.ts:162](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L162)
 
 ###### Parameters
 
@@ -10797,7 +10870,7 @@ Defined in: [helper/EntityHelper.ts:162](https://github.com/Orb-Workshop/scripte
 
 > **SetHealth**(`hp`): `void`
 
-Defined in: [helper/EntityHelper.ts:190](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L190)
+Defined in: [src/helper/EntityHelper.ts:190](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L190)
 
 ###### Parameters
 
@@ -10817,7 +10890,7 @@ Defined in: [helper/EntityHelper.ts:190](https://github.com/Orb-Workshop/scripte
 
 > **SetMaxHealth**(`hp`): `void`
 
-Defined in: [helper/EntityHelper.ts:202](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L202)
+Defined in: [src/helper/EntityHelper.ts:202](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L202)
 
 ###### Parameters
 
@@ -10837,7 +10910,7 @@ Defined in: [helper/EntityHelper.ts:202](https://github.com/Orb-Workshop/scripte
 
 > **SetOwner**(`e`): `void`
 
-Defined in: [helper/EntityHelper.ts:170](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L170)
+Defined in: [src/helper/EntityHelper.ts:170](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L170)
 
 ###### Parameters
 
@@ -10857,7 +10930,7 @@ Defined in: [helper/EntityHelper.ts:170](https://github.com/Orb-Workshop/scripte
 
 > **SetParent**(`e`): `void`
 
-Defined in: [helper/EntityHelper.ts:178](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L178)
+Defined in: [src/helper/EntityHelper.ts:178](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L178)
 
 ###### Parameters
 
@@ -10877,7 +10950,7 @@ Defined in: [helper/EntityHelper.ts:178](https://github.com/Orb-Workshop/scripte
 
 > **TakeDamage**(`__namedParameters`): `number`
 
-Defined in: [helper/EntityHelper.ts:222](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L222)
+Defined in: [src/helper/EntityHelper.ts:222](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L222)
 
 ###### Parameters
 
@@ -10901,7 +10974,7 @@ Defined in: [helper/EntityHelper.ts:222](https://github.com/Orb-Workshop/scripte
 
 > **Teleport**(`__namedParameters`): `void`
 
-Defined in: [helper/EntityHelper.ts:150](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L150)
+Defined in: [src/helper/EntityHelper.ts:150](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L150)
 
 ###### Parameters
 
@@ -10924,7 +10997,7 @@ Defined in: [helper/EntityHelper.ts:150](https://github.com/Orb-Workshop/scripte
 
 > `static` **Find**(`r`): [`InfoMapParameters`](#infomapparameters)
 
-Defined in: [helper/InfoMapParameters.ts:29](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/InfoMapParameters.ts#L29)
+Defined in: [src/helper/InfoMapParameters.ts:29](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/InfoMapParameters.ts#L29)
 
 ###### Parameters
 
@@ -10944,7 +11017,7 @@ Defined in: [helper/InfoMapParameters.ts:29](https://github.com/Orb-Workshop/scr
 
 > `static` **FindAll**(`r`): [`InfoMapParameters`](#infomapparameters)[]
 
-Defined in: [helper/InfoMapParameters.ts:35](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/InfoMapParameters.ts#L35)
+Defined in: [src/helper/InfoMapParameters.ts:35](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/InfoMapParameters.ts#L35)
 
 ###### Parameters
 
@@ -10964,7 +11037,7 @@ Defined in: [helper/InfoMapParameters.ts:35](https://github.com/Orb-Workshop/scr
 
 > `static` **FindAllByClass**(`classname`, `r`): [`EntityHelper`](#abstract-entityhelper)[]
 
-Defined in: [helper/EntityHelper.ts:52](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L52)
+Defined in: [src/helper/EntityHelper.ts:52](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L52)
 
 ###### Parameters
 
@@ -10985,7 +11058,7 @@ Defined in: [helper/EntityHelper.ts:52](https://github.com/Orb-Workshop/scripted
 
 > `static` **FindByClass**(`classname`, `r`, `error?`): [`EntityHelper`](#abstract-entityhelper) \| `null`
 
-Defined in: [helper/EntityHelper.ts:44](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L44)
+Defined in: [src/helper/EntityHelper.ts:44](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L44)
 
 ###### Parameters
 
@@ -11007,7 +11080,7 @@ Defined in: [helper/EntityHelper.ts:44](https://github.com/Orb-Workshop/scripted
 
 > `static` **From**(`e`): [`InfoMapParameters`](#infomapparameters)
 
-Defined in: [helper/InfoMapParameters.ts:23](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/InfoMapParameters.ts#L23)
+Defined in: [src/helper/InfoMapParameters.ts:23](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/InfoMapParameters.ts#L23)
 
 ###### Parameters
 
@@ -11023,7 +11096,7 @@ Defined in: [helper/InfoMapParameters.ts:23](https://github.com/Orb-Workshop/scr
 
 ### InfoParticleSystem
 
-Defined in: [helper/InfoParticleSystem.ts:17](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/InfoParticleSystem.ts#L17)
+Defined in: [src/helper/InfoParticleSystem.ts:17](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/InfoParticleSystem.ts#L17)
 
 #### Extends
 
@@ -11035,7 +11108,7 @@ Defined in: [helper/InfoParticleSystem.ts:17](https://github.com/Orb-Workshop/sc
 
 > **new InfoParticleSystem**(`entity`): [`InfoParticleSystem`](#infoparticlesystem)
 
-Defined in: [helper/InfoParticleSystem.ts:18](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/InfoParticleSystem.ts#L18)
+Defined in: [src/helper/InfoParticleSystem.ts:18](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/InfoParticleSystem.ts#L18)
 
 ###### Parameters
 
@@ -11049,7 +11122,7 @@ Defined in: [helper/InfoParticleSystem.ts:18](https://github.com/Orb-Workshop/sc
 
 ###### Overrides
 
-[`EntityHelper`](#abstract-entityhelper).[`constructor`](#constructor-2)
+[`EntityHelper`](#abstract-entityhelper).[`constructor`](#constructor-1)
 
 #### Accessors
 
@@ -11059,7 +11132,7 @@ Defined in: [helper/InfoParticleSystem.ts:18](https://github.com/Orb-Workshop/sc
 
 > **get** **raw**(): `Entity`
 
-Defined in: [helper/EntityHelper.ts:57](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L57)
+Defined in: [src/helper/EntityHelper.ts:57](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L57)
 
 ###### Returns
 
@@ -11075,7 +11148,7 @@ Defined in: [helper/EntityHelper.ts:57](https://github.com/Orb-Workshop/scripted
 
 > **ConnectOutput**(`event_name`, `callback`): `void`
 
-Defined in: [helper/EntityHelper.ts:95](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L95)
+Defined in: [src/helper/EntityHelper.ts:95](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L95)
 
 Represents EventListening of IO entities with `this.ConnectOutput`
 TODO: Use Global Events to 'latch onto' the callbacks this method represents.
@@ -11099,7 +11172,7 @@ TODO: Use Global Events to 'latch onto' the callbacks this method represents.
 
 > **DestroyImmediately**(`opts?`): `void`
 
-Defined in: [helper/InfoParticleSystem.ts:62](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/InfoParticleSystem.ts#L62)
+Defined in: [src/helper/InfoParticleSystem.ts:62](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/InfoParticleSystem.ts#L62)
 
 ###### Parameters
 
@@ -11115,7 +11188,7 @@ Defined in: [helper/InfoParticleSystem.ts:62](https://github.com/Orb-Workshop/sc
 
 > **FireIO**(`opts?`): `void`
 
-Defined in: [helper/EntityHelper.ts:59](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L59)
+Defined in: [src/helper/EntityHelper.ts:59](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L59)
 
 ###### Parameters
 
@@ -11135,7 +11208,7 @@ Defined in: [helper/EntityHelper.ts:59](https://github.com/Orb-Workshop/scripted
 
 > **FireUser1**(`opts?`): `void`
 
-Defined in: [helper/EntityHelper.ts:68](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L68)
+Defined in: [src/helper/EntityHelper.ts:68](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L68)
 
 ###### Parameters
 
@@ -11155,7 +11228,7 @@ Defined in: [helper/EntityHelper.ts:68](https://github.com/Orb-Workshop/scripted
 
 > **FireUser2**(`opts?`): `void`
 
-Defined in: [helper/EntityHelper.ts:72](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L72)
+Defined in: [src/helper/EntityHelper.ts:72](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L72)
 
 ###### Parameters
 
@@ -11175,7 +11248,7 @@ Defined in: [helper/EntityHelper.ts:72](https://github.com/Orb-Workshop/scripted
 
 > **FireUser3**(`opts?`): `void`
 
-Defined in: [helper/EntityHelper.ts:76](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L76)
+Defined in: [src/helper/EntityHelper.ts:76](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L76)
 
 ###### Parameters
 
@@ -11195,7 +11268,7 @@ Defined in: [helper/EntityHelper.ts:76](https://github.com/Orb-Workshop/scripted
 
 > **FireUser4**(`opts?`): `void`
 
-Defined in: [helper/EntityHelper.ts:80](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L80)
+Defined in: [src/helper/EntityHelper.ts:80](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L80)
 
 ###### Parameters
 
@@ -11215,7 +11288,7 @@ Defined in: [helper/EntityHelper.ts:80](https://github.com/Orb-Workshop/scripted
 
 > **Freeze**(`opts?`): `void`
 
-Defined in: [helper/InfoParticleSystem.ts:50](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/InfoParticleSystem.ts#L50)
+Defined in: [src/helper/InfoParticleSystem.ts:50](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/InfoParticleSystem.ts#L50)
 
 ###### Parameters
 
@@ -11231,7 +11304,7 @@ Defined in: [helper/InfoParticleSystem.ts:50](https://github.com/Orb-Workshop/sc
 
 > **GetAbsAngles**(): [`QAngle`](Math.md#qangle)
 
-Defined in: [helper/EntityHelper.ts:126](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L126)
+Defined in: [src/helper/EntityHelper.ts:126](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L126)
 
 ###### Returns
 
@@ -11245,7 +11318,7 @@ Defined in: [helper/EntityHelper.ts:126](https://github.com/Orb-Workshop/scripte
 
 > **GetAbsOrigin**(): [`Vector3`](Math.md#vector3)
 
-Defined in: [helper/EntityHelper.ts:118](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L118)
+Defined in: [src/helper/EntityHelper.ts:118](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L118)
 
 ###### Returns
 
@@ -11259,7 +11332,7 @@ Defined in: [helper/EntityHelper.ts:118](https://github.com/Orb-Workshop/scripte
 
 > **GetAbsVelocity**(): [`Vector3`](Math.md#vector3)
 
-Defined in: [helper/EntityHelper.ts:134](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L134)
+Defined in: [src/helper/EntityHelper.ts:134](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L134)
 
 ###### Returns
 
@@ -11273,7 +11346,7 @@ Defined in: [helper/EntityHelper.ts:134](https://github.com/Orb-Workshop/scripte
 
 > **GetClassName**(): `string`
 
-Defined in: [helper/EntityHelper.ts:154](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L154)
+Defined in: [src/helper/EntityHelper.ts:154](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L154)
 
 ###### Returns
 
@@ -11287,7 +11360,7 @@ Defined in: [helper/EntityHelper.ts:154](https://github.com/Orb-Workshop/scripte
 
 > **GetEntityName**(): `string`
 
-Defined in: [helper/EntityHelper.ts:158](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L158)
+Defined in: [src/helper/EntityHelper.ts:158](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L158)
 
 ###### Returns
 
@@ -11301,7 +11374,7 @@ Defined in: [helper/EntityHelper.ts:158](https://github.com/Orb-Workshop/scripte
 
 > **GetEyeAngles**(): [`QAngle`](Math.md#qangle)
 
-Defined in: [helper/EntityHelper.ts:142](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L142)
+Defined in: [src/helper/EntityHelper.ts:142](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L142)
 
 ###### Returns
 
@@ -11315,7 +11388,7 @@ Defined in: [helper/EntityHelper.ts:142](https://github.com/Orb-Workshop/scripte
 
 > **GetEyePosition**(): [`Vector3`](Math.md#vector3)
 
-Defined in: [helper/EntityHelper.ts:146](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L146)
+Defined in: [src/helper/EntityHelper.ts:146](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L146)
 
 ###### Returns
 
@@ -11329,7 +11402,7 @@ Defined in: [helper/EntityHelper.ts:146](https://github.com/Orb-Workshop/scripte
 
 > **GetGroundEntity**(): `any`
 
-Defined in: [helper/EntityHelper.ts:218](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L218)
+Defined in: [src/helper/EntityHelper.ts:218](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L218)
 
 ###### Returns
 
@@ -11343,7 +11416,7 @@ Defined in: [helper/EntityHelper.ts:218](https://github.com/Orb-Workshop/scripte
 
 > **GetHealth**(): `number`
 
-Defined in: [helper/EntityHelper.ts:186](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L186)
+Defined in: [src/helper/EntityHelper.ts:186](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L186)
 
 ###### Returns
 
@@ -11357,7 +11430,7 @@ Defined in: [helper/EntityHelper.ts:186](https://github.com/Orb-Workshop/scripte
 
 > **GetLocalAngles**(): [`QAngle`](Math.md#qangle)
 
-Defined in: [helper/EntityHelper.ts:130](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L130)
+Defined in: [src/helper/EntityHelper.ts:130](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L130)
 
 ###### Returns
 
@@ -11371,7 +11444,7 @@ Defined in: [helper/EntityHelper.ts:130](https://github.com/Orb-Workshop/scripte
 
 > **GetLocalOrigin**(): [`Vector3`](Math.md#vector3)
 
-Defined in: [helper/EntityHelper.ts:122](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L122)
+Defined in: [src/helper/EntityHelper.ts:122](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L122)
 
 ###### Returns
 
@@ -11385,7 +11458,7 @@ Defined in: [helper/EntityHelper.ts:122](https://github.com/Orb-Workshop/scripte
 
 > **GetLocalVelocity**(): [`Vector3`](Math.md#vector3)
 
-Defined in: [helper/EntityHelper.ts:138](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L138)
+Defined in: [src/helper/EntityHelper.ts:138](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L138)
 
 ###### Returns
 
@@ -11399,7 +11472,7 @@ Defined in: [helper/EntityHelper.ts:138](https://github.com/Orb-Workshop/scripte
 
 > **GetMaxHealth**(): `number`
 
-Defined in: [helper/EntityHelper.ts:198](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L198)
+Defined in: [src/helper/EntityHelper.ts:198](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L198)
 
 ###### Returns
 
@@ -11413,7 +11486,7 @@ Defined in: [helper/EntityHelper.ts:198](https://github.com/Orb-Workshop/scripte
 
 > **GetOwner**(): `any`
 
-Defined in: [helper/EntityHelper.ts:166](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L166)
+Defined in: [src/helper/EntityHelper.ts:166](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L166)
 
 ###### Returns
 
@@ -11427,7 +11500,7 @@ Defined in: [helper/EntityHelper.ts:166](https://github.com/Orb-Workshop/scripte
 
 > **GetParent**(): `any`
 
-Defined in: [helper/EntityHelper.ts:174](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L174)
+Defined in: [src/helper/EntityHelper.ts:174](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L174)
 
 ###### Returns
 
@@ -11441,7 +11514,7 @@ Defined in: [helper/EntityHelper.ts:174](https://github.com/Orb-Workshop/scripte
 
 > **GetTeamNumber**(): `number`
 
-Defined in: [helper/EntityHelper.ts:182](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L182)
+Defined in: [src/helper/EntityHelper.ts:182](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L182)
 
 ###### Returns
 
@@ -11455,7 +11528,7 @@ Defined in: [helper/EntityHelper.ts:182](https://github.com/Orb-Workshop/scripte
 
 > **IsAlive**(): `boolean`
 
-Defined in: [helper/EntityHelper.ts:210](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L210)
+Defined in: [src/helper/EntityHelper.ts:210](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L210)
 
 ###### Returns
 
@@ -11469,7 +11542,7 @@ Defined in: [helper/EntityHelper.ts:210](https://github.com/Orb-Workshop/scripte
 
 > **IsValid**(): `boolean`
 
-Defined in: [helper/EntityHelper.ts:114](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L114)
+Defined in: [src/helper/EntityHelper.ts:114](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L114)
 
 ###### Returns
 
@@ -11483,7 +11556,7 @@ Defined in: [helper/EntityHelper.ts:114](https://github.com/Orb-Workshop/scripte
 
 > **IsWorld**(): `boolean`
 
-Defined in: [helper/EntityHelper.ts:214](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L214)
+Defined in: [src/helper/EntityHelper.ts:214](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L214)
 
 ###### Returns
 
@@ -11497,7 +11570,7 @@ Defined in: [helper/EntityHelper.ts:214](https://github.com/Orb-Workshop/scripte
 
 > **Kill**(): `void`
 
-Defined in: [helper/EntityHelper.ts:226](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L226)
+Defined in: [src/helper/EntityHelper.ts:226](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L226)
 
 ###### Returns
 
@@ -11511,7 +11584,7 @@ Defined in: [helper/EntityHelper.ts:226](https://github.com/Orb-Workshop/scripte
 
 > **KillAll**(): `void`
 
-Defined in: [helper/EntityHelper.ts:234](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L234)
+Defined in: [src/helper/EntityHelper.ts:234](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L234)
 
 ###### Returns
 
@@ -11525,7 +11598,7 @@ Defined in: [helper/EntityHelper.ts:234](https://github.com/Orb-Workshop/scripte
 
 > **KillHierarchy**(`opts?`): `void`
 
-Defined in: [helper/EntityHelper.ts:230](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L230)
+Defined in: [src/helper/EntityHelper.ts:230](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L230)
 
 ###### Parameters
 
@@ -11545,7 +11618,7 @@ Defined in: [helper/EntityHelper.ts:230](https://github.com/Orb-Workshop/scripte
 
 > **On**(`event_name`, `callback`): [`EntityHelper`](#abstract-entityhelper)
 
-Defined in: [helper/EntityHelper.ts:104](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L104)
+Defined in: [src/helper/EntityHelper.ts:104](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L104)
 
 ###### Parameters
 
@@ -11566,7 +11639,7 @@ Defined in: [helper/EntityHelper.ts:104](https://github.com/Orb-Workshop/scripte
 
 > **Remove**(): `void`
 
-Defined in: [helper/EntityHelper.ts:238](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L238)
+Defined in: [src/helper/EntityHelper.ts:238](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L238)
 
 ###### Returns
 
@@ -11580,7 +11653,7 @@ Defined in: [helper/EntityHelper.ts:238](https://github.com/Orb-Workshop/scripte
 
 > **SetControlPoint**(`x?`, `y?`, `z?`, `opts?`): `void`
 
-Defined in: [helper/InfoParticleSystem.ts:66](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/InfoParticleSystem.ts#L66)
+Defined in: [src/helper/InfoParticleSystem.ts:66](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/InfoParticleSystem.ts#L66)
 
 ###### Parameters
 
@@ -11599,7 +11672,7 @@ Defined in: [helper/InfoParticleSystem.ts:66](https://github.com/Orb-Workshop/sc
 
 > **SetDataControlPointX**(`value?`, `opts?`): `void`
 
-Defined in: [helper/InfoParticleSystem.ts:70](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/InfoParticleSystem.ts#L70)
+Defined in: [src/helper/InfoParticleSystem.ts:70](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/InfoParticleSystem.ts#L70)
 
 ###### Parameters
 
@@ -11616,7 +11689,7 @@ Defined in: [helper/InfoParticleSystem.ts:70](https://github.com/Orb-Workshop/sc
 
 > **SetDataControlPointY**(`value?`, `opts?`): `void`
 
-Defined in: [helper/InfoParticleSystem.ts:74](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/InfoParticleSystem.ts#L74)
+Defined in: [src/helper/InfoParticleSystem.ts:74](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/InfoParticleSystem.ts#L74)
 
 ###### Parameters
 
@@ -11633,7 +11706,7 @@ Defined in: [helper/InfoParticleSystem.ts:74](https://github.com/Orb-Workshop/sc
 
 > **SetDataControlPointZ**(`value?`, `opts?`): `void`
 
-Defined in: [helper/InfoParticleSystem.ts:78](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/InfoParticleSystem.ts#L78)
+Defined in: [src/helper/InfoParticleSystem.ts:78](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/InfoParticleSystem.ts#L78)
 
 ###### Parameters
 
@@ -11650,7 +11723,7 @@ Defined in: [helper/InfoParticleSystem.ts:78](https://github.com/Orb-Workshop/sc
 
 > **SetEntityName**(`s`): `void`
 
-Defined in: [helper/EntityHelper.ts:162](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L162)
+Defined in: [src/helper/EntityHelper.ts:162](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L162)
 
 ###### Parameters
 
@@ -11670,7 +11743,7 @@ Defined in: [helper/EntityHelper.ts:162](https://github.com/Orb-Workshop/scripte
 
 > **SetHealth**(`hp`): `void`
 
-Defined in: [helper/EntityHelper.ts:190](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L190)
+Defined in: [src/helper/EntityHelper.ts:190](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L190)
 
 ###### Parameters
 
@@ -11690,7 +11763,7 @@ Defined in: [helper/EntityHelper.ts:190](https://github.com/Orb-Workshop/scripte
 
 > **SetMaxHealth**(`hp`): `void`
 
-Defined in: [helper/EntityHelper.ts:202](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L202)
+Defined in: [src/helper/EntityHelper.ts:202](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L202)
 
 ###### Parameters
 
@@ -11710,7 +11783,7 @@ Defined in: [helper/EntityHelper.ts:202](https://github.com/Orb-Workshop/scripte
 
 > **SetOwner**(`e`): `void`
 
-Defined in: [helper/EntityHelper.ts:170](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L170)
+Defined in: [src/helper/EntityHelper.ts:170](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L170)
 
 ###### Parameters
 
@@ -11730,7 +11803,7 @@ Defined in: [helper/EntityHelper.ts:170](https://github.com/Orb-Workshop/scripte
 
 > **SetParent**(`e`): `void`
 
-Defined in: [helper/EntityHelper.ts:178](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L178)
+Defined in: [src/helper/EntityHelper.ts:178](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L178)
 
 ###### Parameters
 
@@ -11750,7 +11823,7 @@ Defined in: [helper/EntityHelper.ts:178](https://github.com/Orb-Workshop/scripte
 
 > **Start**(`opts?`): `void`
 
-Defined in: [helper/InfoParticleSystem.ts:42](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/InfoParticleSystem.ts#L42)
+Defined in: [src/helper/InfoParticleSystem.ts:42](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/InfoParticleSystem.ts#L42)
 
 ###### Parameters
 
@@ -11766,7 +11839,7 @@ Defined in: [helper/InfoParticleSystem.ts:42](https://github.com/Orb-Workshop/sc
 
 > **Stop**(`opts?`): `void`
 
-Defined in: [helper/InfoParticleSystem.ts:46](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/InfoParticleSystem.ts#L46)
+Defined in: [src/helper/InfoParticleSystem.ts:46](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/InfoParticleSystem.ts#L46)
 
 ###### Parameters
 
@@ -11782,7 +11855,7 @@ Defined in: [helper/InfoParticleSystem.ts:46](https://github.com/Orb-Workshop/sc
 
 > **StopPlayEndCap**(`opts?`): `void`
 
-Defined in: [helper/InfoParticleSystem.ts:58](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/InfoParticleSystem.ts#L58)
+Defined in: [src/helper/InfoParticleSystem.ts:58](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/InfoParticleSystem.ts#L58)
 
 ###### Parameters
 
@@ -11798,7 +11871,7 @@ Defined in: [helper/InfoParticleSystem.ts:58](https://github.com/Orb-Workshop/sc
 
 > **TakeDamage**(`__namedParameters`): `number`
 
-Defined in: [helper/EntityHelper.ts:222](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L222)
+Defined in: [src/helper/EntityHelper.ts:222](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L222)
 
 ###### Parameters
 
@@ -11822,7 +11895,7 @@ Defined in: [helper/EntityHelper.ts:222](https://github.com/Orb-Workshop/scripte
 
 > **Teleport**(`__namedParameters`): `void`
 
-Defined in: [helper/EntityHelper.ts:150](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L150)
+Defined in: [src/helper/EntityHelper.ts:150](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L150)
 
 ###### Parameters
 
@@ -11845,7 +11918,7 @@ Defined in: [helper/EntityHelper.ts:150](https://github.com/Orb-Workshop/scripte
 
 > **Thaw**(`opts?`): `void`
 
-Defined in: [helper/InfoParticleSystem.ts:54](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/InfoParticleSystem.ts#L54)
+Defined in: [src/helper/InfoParticleSystem.ts:54](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/InfoParticleSystem.ts#L54)
 
 ###### Parameters
 
@@ -11861,7 +11934,7 @@ Defined in: [helper/InfoParticleSystem.ts:54](https://github.com/Orb-Workshop/sc
 
 > `static` **Find**(`r`): [`InfoParticleSystem`](#infoparticlesystem)
 
-Defined in: [helper/InfoParticleSystem.ts:29](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/InfoParticleSystem.ts#L29)
+Defined in: [src/helper/InfoParticleSystem.ts:29](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/InfoParticleSystem.ts#L29)
 
 ###### Parameters
 
@@ -11881,7 +11954,7 @@ Defined in: [helper/InfoParticleSystem.ts:29](https://github.com/Orb-Workshop/sc
 
 > `static` **FindAll**(`r`): [`InfoParticleSystem`](#infoparticlesystem)[]
 
-Defined in: [helper/InfoParticleSystem.ts:35](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/InfoParticleSystem.ts#L35)
+Defined in: [src/helper/InfoParticleSystem.ts:35](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/InfoParticleSystem.ts#L35)
 
 ###### Parameters
 
@@ -11901,7 +11974,7 @@ Defined in: [helper/InfoParticleSystem.ts:35](https://github.com/Orb-Workshop/sc
 
 > `static` **FindAllByClass**(`classname`, `r`): [`EntityHelper`](#abstract-entityhelper)[]
 
-Defined in: [helper/EntityHelper.ts:52](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L52)
+Defined in: [src/helper/EntityHelper.ts:52](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L52)
 
 ###### Parameters
 
@@ -11922,7 +11995,7 @@ Defined in: [helper/EntityHelper.ts:52](https://github.com/Orb-Workshop/scripted
 
 > `static` **FindByClass**(`classname`, `r`, `error?`): [`EntityHelper`](#abstract-entityhelper) \| `null`
 
-Defined in: [helper/EntityHelper.ts:44](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L44)
+Defined in: [src/helper/EntityHelper.ts:44](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L44)
 
 ###### Parameters
 
@@ -11944,7 +12017,7 @@ Defined in: [helper/EntityHelper.ts:44](https://github.com/Orb-Workshop/scripted
 
 > `static` **From**(`e`): [`InfoParticleSystem`](#infoparticlesystem)
 
-Defined in: [helper/InfoParticleSystem.ts:23](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/InfoParticleSystem.ts#L23)
+Defined in: [src/helper/InfoParticleSystem.ts:23](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/InfoParticleSystem.ts#L23)
 
 ###### Parameters
 
@@ -11960,7 +12033,7 @@ Defined in: [helper/InfoParticleSystem.ts:23](https://github.com/Orb-Workshop/sc
 
 ### InfoParticleTarget
 
-Defined in: [helper/InfoParticleTarget.ts:15](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/InfoParticleTarget.ts#L15)
+Defined in: [src/helper/InfoParticleTarget.ts:15](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/InfoParticleTarget.ts#L15)
 
 #### Extends
 
@@ -11972,7 +12045,7 @@ Defined in: [helper/InfoParticleTarget.ts:15](https://github.com/Orb-Workshop/sc
 
 > **new InfoParticleTarget**(`entity`): [`InfoParticleTarget`](#infoparticletarget)
 
-Defined in: [helper/InfoParticleTarget.ts:16](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/InfoParticleTarget.ts#L16)
+Defined in: [src/helper/InfoParticleTarget.ts:16](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/InfoParticleTarget.ts#L16)
 
 ###### Parameters
 
@@ -11986,7 +12059,7 @@ Defined in: [helper/InfoParticleTarget.ts:16](https://github.com/Orb-Workshop/sc
 
 ###### Overrides
 
-[`EntityHelper`](#abstract-entityhelper).[`constructor`](#constructor-2)
+[`EntityHelper`](#abstract-entityhelper).[`constructor`](#constructor-1)
 
 #### Accessors
 
@@ -11996,7 +12069,7 @@ Defined in: [helper/InfoParticleTarget.ts:16](https://github.com/Orb-Workshop/sc
 
 > **get** **raw**(): `Entity`
 
-Defined in: [helper/EntityHelper.ts:57](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L57)
+Defined in: [src/helper/EntityHelper.ts:57](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L57)
 
 ###### Returns
 
@@ -12012,7 +12085,7 @@ Defined in: [helper/EntityHelper.ts:57](https://github.com/Orb-Workshop/scripted
 
 > **ConnectOutput**(`event_name`, `callback`): `void`
 
-Defined in: [helper/EntityHelper.ts:95](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L95)
+Defined in: [src/helper/EntityHelper.ts:95](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L95)
 
 Represents EventListening of IO entities with `this.ConnectOutput`
 TODO: Use Global Events to 'latch onto' the callbacks this method represents.
@@ -12036,7 +12109,7 @@ TODO: Use Global Events to 'latch onto' the callbacks this method represents.
 
 > **FireIO**(`opts?`): `void`
 
-Defined in: [helper/EntityHelper.ts:59](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L59)
+Defined in: [src/helper/EntityHelper.ts:59](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L59)
 
 ###### Parameters
 
@@ -12056,7 +12129,7 @@ Defined in: [helper/EntityHelper.ts:59](https://github.com/Orb-Workshop/scripted
 
 > **FireUser1**(`opts?`): `void`
 
-Defined in: [helper/EntityHelper.ts:68](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L68)
+Defined in: [src/helper/EntityHelper.ts:68](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L68)
 
 ###### Parameters
 
@@ -12076,7 +12149,7 @@ Defined in: [helper/EntityHelper.ts:68](https://github.com/Orb-Workshop/scripted
 
 > **FireUser2**(`opts?`): `void`
 
-Defined in: [helper/EntityHelper.ts:72](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L72)
+Defined in: [src/helper/EntityHelper.ts:72](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L72)
 
 ###### Parameters
 
@@ -12096,7 +12169,7 @@ Defined in: [helper/EntityHelper.ts:72](https://github.com/Orb-Workshop/scripted
 
 > **FireUser3**(`opts?`): `void`
 
-Defined in: [helper/EntityHelper.ts:76](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L76)
+Defined in: [src/helper/EntityHelper.ts:76](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L76)
 
 ###### Parameters
 
@@ -12116,7 +12189,7 @@ Defined in: [helper/EntityHelper.ts:76](https://github.com/Orb-Workshop/scripted
 
 > **FireUser4**(`opts?`): `void`
 
-Defined in: [helper/EntityHelper.ts:80](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L80)
+Defined in: [src/helper/EntityHelper.ts:80](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L80)
 
 ###### Parameters
 
@@ -12136,7 +12209,7 @@ Defined in: [helper/EntityHelper.ts:80](https://github.com/Orb-Workshop/scripted
 
 > **GetAbsAngles**(): [`QAngle`](Math.md#qangle)
 
-Defined in: [helper/EntityHelper.ts:126](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L126)
+Defined in: [src/helper/EntityHelper.ts:126](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L126)
 
 ###### Returns
 
@@ -12150,7 +12223,7 @@ Defined in: [helper/EntityHelper.ts:126](https://github.com/Orb-Workshop/scripte
 
 > **GetAbsOrigin**(): [`Vector3`](Math.md#vector3)
 
-Defined in: [helper/EntityHelper.ts:118](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L118)
+Defined in: [src/helper/EntityHelper.ts:118](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L118)
 
 ###### Returns
 
@@ -12164,7 +12237,7 @@ Defined in: [helper/EntityHelper.ts:118](https://github.com/Orb-Workshop/scripte
 
 > **GetAbsVelocity**(): [`Vector3`](Math.md#vector3)
 
-Defined in: [helper/EntityHelper.ts:134](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L134)
+Defined in: [src/helper/EntityHelper.ts:134](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L134)
 
 ###### Returns
 
@@ -12178,7 +12251,7 @@ Defined in: [helper/EntityHelper.ts:134](https://github.com/Orb-Workshop/scripte
 
 > **GetClassName**(): `string`
 
-Defined in: [helper/EntityHelper.ts:154](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L154)
+Defined in: [src/helper/EntityHelper.ts:154](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L154)
 
 ###### Returns
 
@@ -12192,7 +12265,7 @@ Defined in: [helper/EntityHelper.ts:154](https://github.com/Orb-Workshop/scripte
 
 > **GetEntityName**(): `string`
 
-Defined in: [helper/EntityHelper.ts:158](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L158)
+Defined in: [src/helper/EntityHelper.ts:158](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L158)
 
 ###### Returns
 
@@ -12206,7 +12279,7 @@ Defined in: [helper/EntityHelper.ts:158](https://github.com/Orb-Workshop/scripte
 
 > **GetEyeAngles**(): [`QAngle`](Math.md#qangle)
 
-Defined in: [helper/EntityHelper.ts:142](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L142)
+Defined in: [src/helper/EntityHelper.ts:142](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L142)
 
 ###### Returns
 
@@ -12220,7 +12293,7 @@ Defined in: [helper/EntityHelper.ts:142](https://github.com/Orb-Workshop/scripte
 
 > **GetEyePosition**(): [`Vector3`](Math.md#vector3)
 
-Defined in: [helper/EntityHelper.ts:146](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L146)
+Defined in: [src/helper/EntityHelper.ts:146](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L146)
 
 ###### Returns
 
@@ -12234,7 +12307,7 @@ Defined in: [helper/EntityHelper.ts:146](https://github.com/Orb-Workshop/scripte
 
 > **GetGroundEntity**(): `any`
 
-Defined in: [helper/EntityHelper.ts:218](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L218)
+Defined in: [src/helper/EntityHelper.ts:218](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L218)
 
 ###### Returns
 
@@ -12248,7 +12321,7 @@ Defined in: [helper/EntityHelper.ts:218](https://github.com/Orb-Workshop/scripte
 
 > **GetHealth**(): `number`
 
-Defined in: [helper/EntityHelper.ts:186](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L186)
+Defined in: [src/helper/EntityHelper.ts:186](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L186)
 
 ###### Returns
 
@@ -12262,7 +12335,7 @@ Defined in: [helper/EntityHelper.ts:186](https://github.com/Orb-Workshop/scripte
 
 > **GetLocalAngles**(): [`QAngle`](Math.md#qangle)
 
-Defined in: [helper/EntityHelper.ts:130](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L130)
+Defined in: [src/helper/EntityHelper.ts:130](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L130)
 
 ###### Returns
 
@@ -12276,7 +12349,7 @@ Defined in: [helper/EntityHelper.ts:130](https://github.com/Orb-Workshop/scripte
 
 > **GetLocalOrigin**(): [`Vector3`](Math.md#vector3)
 
-Defined in: [helper/EntityHelper.ts:122](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L122)
+Defined in: [src/helper/EntityHelper.ts:122](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L122)
 
 ###### Returns
 
@@ -12290,7 +12363,7 @@ Defined in: [helper/EntityHelper.ts:122](https://github.com/Orb-Workshop/scripte
 
 > **GetLocalVelocity**(): [`Vector3`](Math.md#vector3)
 
-Defined in: [helper/EntityHelper.ts:138](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L138)
+Defined in: [src/helper/EntityHelper.ts:138](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L138)
 
 ###### Returns
 
@@ -12304,7 +12377,7 @@ Defined in: [helper/EntityHelper.ts:138](https://github.com/Orb-Workshop/scripte
 
 > **GetMaxHealth**(): `number`
 
-Defined in: [helper/EntityHelper.ts:198](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L198)
+Defined in: [src/helper/EntityHelper.ts:198](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L198)
 
 ###### Returns
 
@@ -12318,7 +12391,7 @@ Defined in: [helper/EntityHelper.ts:198](https://github.com/Orb-Workshop/scripte
 
 > **GetOwner**(): `any`
 
-Defined in: [helper/EntityHelper.ts:166](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L166)
+Defined in: [src/helper/EntityHelper.ts:166](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L166)
 
 ###### Returns
 
@@ -12332,7 +12405,7 @@ Defined in: [helper/EntityHelper.ts:166](https://github.com/Orb-Workshop/scripte
 
 > **GetParent**(): `any`
 
-Defined in: [helper/EntityHelper.ts:174](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L174)
+Defined in: [src/helper/EntityHelper.ts:174](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L174)
 
 ###### Returns
 
@@ -12346,7 +12419,7 @@ Defined in: [helper/EntityHelper.ts:174](https://github.com/Orb-Workshop/scripte
 
 > **GetTeamNumber**(): `number`
 
-Defined in: [helper/EntityHelper.ts:182](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L182)
+Defined in: [src/helper/EntityHelper.ts:182](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L182)
 
 ###### Returns
 
@@ -12360,7 +12433,7 @@ Defined in: [helper/EntityHelper.ts:182](https://github.com/Orb-Workshop/scripte
 
 > **IsAlive**(): `boolean`
 
-Defined in: [helper/EntityHelper.ts:210](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L210)
+Defined in: [src/helper/EntityHelper.ts:210](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L210)
 
 ###### Returns
 
@@ -12374,7 +12447,7 @@ Defined in: [helper/EntityHelper.ts:210](https://github.com/Orb-Workshop/scripte
 
 > **IsValid**(): `boolean`
 
-Defined in: [helper/EntityHelper.ts:114](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L114)
+Defined in: [src/helper/EntityHelper.ts:114](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L114)
 
 ###### Returns
 
@@ -12388,7 +12461,7 @@ Defined in: [helper/EntityHelper.ts:114](https://github.com/Orb-Workshop/scripte
 
 > **IsWorld**(): `boolean`
 
-Defined in: [helper/EntityHelper.ts:214](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L214)
+Defined in: [src/helper/EntityHelper.ts:214](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L214)
 
 ###### Returns
 
@@ -12402,7 +12475,7 @@ Defined in: [helper/EntityHelper.ts:214](https://github.com/Orb-Workshop/scripte
 
 > **Kill**(): `void`
 
-Defined in: [helper/EntityHelper.ts:226](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L226)
+Defined in: [src/helper/EntityHelper.ts:226](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L226)
 
 ###### Returns
 
@@ -12416,7 +12489,7 @@ Defined in: [helper/EntityHelper.ts:226](https://github.com/Orb-Workshop/scripte
 
 > **KillAll**(): `void`
 
-Defined in: [helper/EntityHelper.ts:234](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L234)
+Defined in: [src/helper/EntityHelper.ts:234](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L234)
 
 ###### Returns
 
@@ -12430,7 +12503,7 @@ Defined in: [helper/EntityHelper.ts:234](https://github.com/Orb-Workshop/scripte
 
 > **KillHierarchy**(`opts?`): `void`
 
-Defined in: [helper/EntityHelper.ts:230](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L230)
+Defined in: [src/helper/EntityHelper.ts:230](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L230)
 
 ###### Parameters
 
@@ -12450,7 +12523,7 @@ Defined in: [helper/EntityHelper.ts:230](https://github.com/Orb-Workshop/scripte
 
 > **On**(`event_name`, `callback`): [`EntityHelper`](#abstract-entityhelper)
 
-Defined in: [helper/EntityHelper.ts:104](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L104)
+Defined in: [src/helper/EntityHelper.ts:104](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L104)
 
 ###### Parameters
 
@@ -12471,7 +12544,7 @@ Defined in: [helper/EntityHelper.ts:104](https://github.com/Orb-Workshop/scripte
 
 > **Remove**(): `void`
 
-Defined in: [helper/EntityHelper.ts:238](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L238)
+Defined in: [src/helper/EntityHelper.ts:238](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L238)
 
 ###### Returns
 
@@ -12485,7 +12558,7 @@ Defined in: [helper/EntityHelper.ts:238](https://github.com/Orb-Workshop/scripte
 
 > **SetEntityName**(`s`): `void`
 
-Defined in: [helper/EntityHelper.ts:162](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L162)
+Defined in: [src/helper/EntityHelper.ts:162](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L162)
 
 ###### Parameters
 
@@ -12505,7 +12578,7 @@ Defined in: [helper/EntityHelper.ts:162](https://github.com/Orb-Workshop/scripte
 
 > **SetHealth**(`hp`): `void`
 
-Defined in: [helper/EntityHelper.ts:190](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L190)
+Defined in: [src/helper/EntityHelper.ts:190](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L190)
 
 ###### Parameters
 
@@ -12525,7 +12598,7 @@ Defined in: [helper/EntityHelper.ts:190](https://github.com/Orb-Workshop/scripte
 
 > **SetMaxHealth**(`hp`): `void`
 
-Defined in: [helper/EntityHelper.ts:202](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L202)
+Defined in: [src/helper/EntityHelper.ts:202](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L202)
 
 ###### Parameters
 
@@ -12545,7 +12618,7 @@ Defined in: [helper/EntityHelper.ts:202](https://github.com/Orb-Workshop/scripte
 
 > **SetOwner**(`e`): `void`
 
-Defined in: [helper/EntityHelper.ts:170](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L170)
+Defined in: [src/helper/EntityHelper.ts:170](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L170)
 
 ###### Parameters
 
@@ -12565,7 +12638,7 @@ Defined in: [helper/EntityHelper.ts:170](https://github.com/Orb-Workshop/scripte
 
 > **SetParent**(`e`): `void`
 
-Defined in: [helper/EntityHelper.ts:178](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L178)
+Defined in: [src/helper/EntityHelper.ts:178](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L178)
 
 ###### Parameters
 
@@ -12585,7 +12658,7 @@ Defined in: [helper/EntityHelper.ts:178](https://github.com/Orb-Workshop/scripte
 
 > **TakeDamage**(`__namedParameters`): `number`
 
-Defined in: [helper/EntityHelper.ts:222](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L222)
+Defined in: [src/helper/EntityHelper.ts:222](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L222)
 
 ###### Parameters
 
@@ -12609,7 +12682,7 @@ Defined in: [helper/EntityHelper.ts:222](https://github.com/Orb-Workshop/scripte
 
 > **Teleport**(`__namedParameters`): `void`
 
-Defined in: [helper/EntityHelper.ts:150](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L150)
+Defined in: [src/helper/EntityHelper.ts:150](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L150)
 
 ###### Parameters
 
@@ -12632,7 +12705,7 @@ Defined in: [helper/EntityHelper.ts:150](https://github.com/Orb-Workshop/scripte
 
 > `static` **Find**(`r`): [`InfoParticleTarget`](#infoparticletarget)
 
-Defined in: [helper/InfoParticleTarget.ts:26](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/InfoParticleTarget.ts#L26)
+Defined in: [src/helper/InfoParticleTarget.ts:26](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/InfoParticleTarget.ts#L26)
 
 ###### Parameters
 
@@ -12652,7 +12725,7 @@ Defined in: [helper/InfoParticleTarget.ts:26](https://github.com/Orb-Workshop/sc
 
 > `static` **FindAll**(`r`): [`InfoParticleTarget`](#infoparticletarget)[]
 
-Defined in: [helper/InfoParticleTarget.ts:31](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/InfoParticleTarget.ts#L31)
+Defined in: [src/helper/InfoParticleTarget.ts:31](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/InfoParticleTarget.ts#L31)
 
 ###### Parameters
 
@@ -12672,7 +12745,7 @@ Defined in: [helper/InfoParticleTarget.ts:31](https://github.com/Orb-Workshop/sc
 
 > `static` **FindAllByClass**(`classname`, `r`): [`EntityHelper`](#abstract-entityhelper)[]
 
-Defined in: [helper/EntityHelper.ts:52](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L52)
+Defined in: [src/helper/EntityHelper.ts:52](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L52)
 
 ###### Parameters
 
@@ -12693,7 +12766,7 @@ Defined in: [helper/EntityHelper.ts:52](https://github.com/Orb-Workshop/scripted
 
 > `static` **FindByClass**(`classname`, `r`, `error?`): [`EntityHelper`](#abstract-entityhelper) \| `null`
 
-Defined in: [helper/EntityHelper.ts:44](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L44)
+Defined in: [src/helper/EntityHelper.ts:44](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L44)
 
 ###### Parameters
 
@@ -12715,7 +12788,7 @@ Defined in: [helper/EntityHelper.ts:44](https://github.com/Orb-Workshop/scripted
 
 > `static` **From**(`e`): [`InfoParticleTarget`](#infoparticletarget)
 
-Defined in: [helper/InfoParticleTarget.ts:20](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/InfoParticleTarget.ts#L20)
+Defined in: [src/helper/InfoParticleTarget.ts:20](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/InfoParticleTarget.ts#L20)
 
 ###### Parameters
 
@@ -12731,7 +12804,7 @@ Defined in: [helper/InfoParticleTarget.ts:20](https://github.com/Orb-Workshop/sc
 
 ### InfoTarget
 
-Defined in: [helper/InfoTarget.ts:15](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/InfoTarget.ts#L15)
+Defined in: [src/helper/InfoTarget.ts:15](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/InfoTarget.ts#L15)
 
 #### Extends
 
@@ -12743,7 +12816,7 @@ Defined in: [helper/InfoTarget.ts:15](https://github.com/Orb-Workshop/scriptedeu
 
 > **new InfoTarget**(`entity`): [`InfoTarget`](#infotarget)
 
-Defined in: [helper/InfoTarget.ts:16](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/InfoTarget.ts#L16)
+Defined in: [src/helper/InfoTarget.ts:16](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/InfoTarget.ts#L16)
 
 ###### Parameters
 
@@ -12757,7 +12830,7 @@ Defined in: [helper/InfoTarget.ts:16](https://github.com/Orb-Workshop/scriptedeu
 
 ###### Overrides
 
-[`EntityHelper`](#abstract-entityhelper).[`constructor`](#constructor-2)
+[`EntityHelper`](#abstract-entityhelper).[`constructor`](#constructor-1)
 
 #### Accessors
 
@@ -12767,7 +12840,7 @@ Defined in: [helper/InfoTarget.ts:16](https://github.com/Orb-Workshop/scriptedeu
 
 > **get** **raw**(): `Entity`
 
-Defined in: [helper/EntityHelper.ts:57](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L57)
+Defined in: [src/helper/EntityHelper.ts:57](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L57)
 
 ###### Returns
 
@@ -12783,7 +12856,7 @@ Defined in: [helper/EntityHelper.ts:57](https://github.com/Orb-Workshop/scripted
 
 > **ConnectOutput**(`event_name`, `callback`): `void`
 
-Defined in: [helper/EntityHelper.ts:95](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L95)
+Defined in: [src/helper/EntityHelper.ts:95](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L95)
 
 Represents EventListening of IO entities with `this.ConnectOutput`
 TODO: Use Global Events to 'latch onto' the callbacks this method represents.
@@ -12807,7 +12880,7 @@ TODO: Use Global Events to 'latch onto' the callbacks this method represents.
 
 > **FireIO**(`opts?`): `void`
 
-Defined in: [helper/EntityHelper.ts:59](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L59)
+Defined in: [src/helper/EntityHelper.ts:59](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L59)
 
 ###### Parameters
 
@@ -12827,7 +12900,7 @@ Defined in: [helper/EntityHelper.ts:59](https://github.com/Orb-Workshop/scripted
 
 > **FireUser1**(`opts?`): `void`
 
-Defined in: [helper/EntityHelper.ts:68](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L68)
+Defined in: [src/helper/EntityHelper.ts:68](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L68)
 
 ###### Parameters
 
@@ -12847,7 +12920,7 @@ Defined in: [helper/EntityHelper.ts:68](https://github.com/Orb-Workshop/scripted
 
 > **FireUser2**(`opts?`): `void`
 
-Defined in: [helper/EntityHelper.ts:72](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L72)
+Defined in: [src/helper/EntityHelper.ts:72](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L72)
 
 ###### Parameters
 
@@ -12867,7 +12940,7 @@ Defined in: [helper/EntityHelper.ts:72](https://github.com/Orb-Workshop/scripted
 
 > **FireUser3**(`opts?`): `void`
 
-Defined in: [helper/EntityHelper.ts:76](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L76)
+Defined in: [src/helper/EntityHelper.ts:76](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L76)
 
 ###### Parameters
 
@@ -12887,7 +12960,7 @@ Defined in: [helper/EntityHelper.ts:76](https://github.com/Orb-Workshop/scripted
 
 > **FireUser4**(`opts?`): `void`
 
-Defined in: [helper/EntityHelper.ts:80](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L80)
+Defined in: [src/helper/EntityHelper.ts:80](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L80)
 
 ###### Parameters
 
@@ -12907,7 +12980,7 @@ Defined in: [helper/EntityHelper.ts:80](https://github.com/Orb-Workshop/scripted
 
 > **GetAbsAngles**(): [`QAngle`](Math.md#qangle)
 
-Defined in: [helper/EntityHelper.ts:126](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L126)
+Defined in: [src/helper/EntityHelper.ts:126](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L126)
 
 ###### Returns
 
@@ -12921,7 +12994,7 @@ Defined in: [helper/EntityHelper.ts:126](https://github.com/Orb-Workshop/scripte
 
 > **GetAbsOrigin**(): [`Vector3`](Math.md#vector3)
 
-Defined in: [helper/EntityHelper.ts:118](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L118)
+Defined in: [src/helper/EntityHelper.ts:118](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L118)
 
 ###### Returns
 
@@ -12935,7 +13008,7 @@ Defined in: [helper/EntityHelper.ts:118](https://github.com/Orb-Workshop/scripte
 
 > **GetAbsVelocity**(): [`Vector3`](Math.md#vector3)
 
-Defined in: [helper/EntityHelper.ts:134](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L134)
+Defined in: [src/helper/EntityHelper.ts:134](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L134)
 
 ###### Returns
 
@@ -12949,7 +13022,7 @@ Defined in: [helper/EntityHelper.ts:134](https://github.com/Orb-Workshop/scripte
 
 > **GetClassName**(): `string`
 
-Defined in: [helper/EntityHelper.ts:154](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L154)
+Defined in: [src/helper/EntityHelper.ts:154](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L154)
 
 ###### Returns
 
@@ -12963,7 +13036,7 @@ Defined in: [helper/EntityHelper.ts:154](https://github.com/Orb-Workshop/scripte
 
 > **GetEntityName**(): `string`
 
-Defined in: [helper/EntityHelper.ts:158](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L158)
+Defined in: [src/helper/EntityHelper.ts:158](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L158)
 
 ###### Returns
 
@@ -12977,7 +13050,7 @@ Defined in: [helper/EntityHelper.ts:158](https://github.com/Orb-Workshop/scripte
 
 > **GetEyeAngles**(): [`QAngle`](Math.md#qangle)
 
-Defined in: [helper/EntityHelper.ts:142](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L142)
+Defined in: [src/helper/EntityHelper.ts:142](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L142)
 
 ###### Returns
 
@@ -12991,7 +13064,7 @@ Defined in: [helper/EntityHelper.ts:142](https://github.com/Orb-Workshop/scripte
 
 > **GetEyePosition**(): [`Vector3`](Math.md#vector3)
 
-Defined in: [helper/EntityHelper.ts:146](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L146)
+Defined in: [src/helper/EntityHelper.ts:146](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L146)
 
 ###### Returns
 
@@ -13005,7 +13078,7 @@ Defined in: [helper/EntityHelper.ts:146](https://github.com/Orb-Workshop/scripte
 
 > **GetGroundEntity**(): `any`
 
-Defined in: [helper/EntityHelper.ts:218](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L218)
+Defined in: [src/helper/EntityHelper.ts:218](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L218)
 
 ###### Returns
 
@@ -13019,7 +13092,7 @@ Defined in: [helper/EntityHelper.ts:218](https://github.com/Orb-Workshop/scripte
 
 > **GetHealth**(): `number`
 
-Defined in: [helper/EntityHelper.ts:186](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L186)
+Defined in: [src/helper/EntityHelper.ts:186](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L186)
 
 ###### Returns
 
@@ -13033,7 +13106,7 @@ Defined in: [helper/EntityHelper.ts:186](https://github.com/Orb-Workshop/scripte
 
 > **GetLocalAngles**(): [`QAngle`](Math.md#qangle)
 
-Defined in: [helper/EntityHelper.ts:130](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L130)
+Defined in: [src/helper/EntityHelper.ts:130](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L130)
 
 ###### Returns
 
@@ -13047,7 +13120,7 @@ Defined in: [helper/EntityHelper.ts:130](https://github.com/Orb-Workshop/scripte
 
 > **GetLocalOrigin**(): [`Vector3`](Math.md#vector3)
 
-Defined in: [helper/EntityHelper.ts:122](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L122)
+Defined in: [src/helper/EntityHelper.ts:122](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L122)
 
 ###### Returns
 
@@ -13061,7 +13134,7 @@ Defined in: [helper/EntityHelper.ts:122](https://github.com/Orb-Workshop/scripte
 
 > **GetLocalVelocity**(): [`Vector3`](Math.md#vector3)
 
-Defined in: [helper/EntityHelper.ts:138](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L138)
+Defined in: [src/helper/EntityHelper.ts:138](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L138)
 
 ###### Returns
 
@@ -13075,7 +13148,7 @@ Defined in: [helper/EntityHelper.ts:138](https://github.com/Orb-Workshop/scripte
 
 > **GetMaxHealth**(): `number`
 
-Defined in: [helper/EntityHelper.ts:198](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L198)
+Defined in: [src/helper/EntityHelper.ts:198](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L198)
 
 ###### Returns
 
@@ -13089,7 +13162,7 @@ Defined in: [helper/EntityHelper.ts:198](https://github.com/Orb-Workshop/scripte
 
 > **GetOwner**(): `any`
 
-Defined in: [helper/EntityHelper.ts:166](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L166)
+Defined in: [src/helper/EntityHelper.ts:166](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L166)
 
 ###### Returns
 
@@ -13103,7 +13176,7 @@ Defined in: [helper/EntityHelper.ts:166](https://github.com/Orb-Workshop/scripte
 
 > **GetParent**(): `any`
 
-Defined in: [helper/EntityHelper.ts:174](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L174)
+Defined in: [src/helper/EntityHelper.ts:174](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L174)
 
 ###### Returns
 
@@ -13117,7 +13190,7 @@ Defined in: [helper/EntityHelper.ts:174](https://github.com/Orb-Workshop/scripte
 
 > **GetTeamNumber**(): `number`
 
-Defined in: [helper/EntityHelper.ts:182](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L182)
+Defined in: [src/helper/EntityHelper.ts:182](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L182)
 
 ###### Returns
 
@@ -13131,7 +13204,7 @@ Defined in: [helper/EntityHelper.ts:182](https://github.com/Orb-Workshop/scripte
 
 > **IsAlive**(): `boolean`
 
-Defined in: [helper/EntityHelper.ts:210](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L210)
+Defined in: [src/helper/EntityHelper.ts:210](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L210)
 
 ###### Returns
 
@@ -13145,7 +13218,7 @@ Defined in: [helper/EntityHelper.ts:210](https://github.com/Orb-Workshop/scripte
 
 > **IsValid**(): `boolean`
 
-Defined in: [helper/EntityHelper.ts:114](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L114)
+Defined in: [src/helper/EntityHelper.ts:114](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L114)
 
 ###### Returns
 
@@ -13159,7 +13232,7 @@ Defined in: [helper/EntityHelper.ts:114](https://github.com/Orb-Workshop/scripte
 
 > **IsWorld**(): `boolean`
 
-Defined in: [helper/EntityHelper.ts:214](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L214)
+Defined in: [src/helper/EntityHelper.ts:214](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L214)
 
 ###### Returns
 
@@ -13173,7 +13246,7 @@ Defined in: [helper/EntityHelper.ts:214](https://github.com/Orb-Workshop/scripte
 
 > **Kill**(): `void`
 
-Defined in: [helper/EntityHelper.ts:226](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L226)
+Defined in: [src/helper/EntityHelper.ts:226](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L226)
 
 ###### Returns
 
@@ -13187,7 +13260,7 @@ Defined in: [helper/EntityHelper.ts:226](https://github.com/Orb-Workshop/scripte
 
 > **KillAll**(): `void`
 
-Defined in: [helper/EntityHelper.ts:234](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L234)
+Defined in: [src/helper/EntityHelper.ts:234](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L234)
 
 ###### Returns
 
@@ -13201,7 +13274,7 @@ Defined in: [helper/EntityHelper.ts:234](https://github.com/Orb-Workshop/scripte
 
 > **KillHierarchy**(`opts?`): `void`
 
-Defined in: [helper/EntityHelper.ts:230](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L230)
+Defined in: [src/helper/EntityHelper.ts:230](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L230)
 
 ###### Parameters
 
@@ -13221,7 +13294,7 @@ Defined in: [helper/EntityHelper.ts:230](https://github.com/Orb-Workshop/scripte
 
 > **On**(`event_name`, `callback`): [`EntityHelper`](#abstract-entityhelper)
 
-Defined in: [helper/EntityHelper.ts:104](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L104)
+Defined in: [src/helper/EntityHelper.ts:104](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L104)
 
 ###### Parameters
 
@@ -13242,7 +13315,7 @@ Defined in: [helper/EntityHelper.ts:104](https://github.com/Orb-Workshop/scripte
 
 > **Remove**(): `void`
 
-Defined in: [helper/EntityHelper.ts:238](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L238)
+Defined in: [src/helper/EntityHelper.ts:238](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L238)
 
 ###### Returns
 
@@ -13256,7 +13329,7 @@ Defined in: [helper/EntityHelper.ts:238](https://github.com/Orb-Workshop/scripte
 
 > **SetEntityName**(`s`): `void`
 
-Defined in: [helper/EntityHelper.ts:162](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L162)
+Defined in: [src/helper/EntityHelper.ts:162](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L162)
 
 ###### Parameters
 
@@ -13276,7 +13349,7 @@ Defined in: [helper/EntityHelper.ts:162](https://github.com/Orb-Workshop/scripte
 
 > **SetHealth**(`hp`): `void`
 
-Defined in: [helper/EntityHelper.ts:190](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L190)
+Defined in: [src/helper/EntityHelper.ts:190](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L190)
 
 ###### Parameters
 
@@ -13296,7 +13369,7 @@ Defined in: [helper/EntityHelper.ts:190](https://github.com/Orb-Workshop/scripte
 
 > **SetMaxHealth**(`hp`): `void`
 
-Defined in: [helper/EntityHelper.ts:202](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L202)
+Defined in: [src/helper/EntityHelper.ts:202](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L202)
 
 ###### Parameters
 
@@ -13316,7 +13389,7 @@ Defined in: [helper/EntityHelper.ts:202](https://github.com/Orb-Workshop/scripte
 
 > **SetOwner**(`e`): `void`
 
-Defined in: [helper/EntityHelper.ts:170](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L170)
+Defined in: [src/helper/EntityHelper.ts:170](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L170)
 
 ###### Parameters
 
@@ -13336,7 +13409,7 @@ Defined in: [helper/EntityHelper.ts:170](https://github.com/Orb-Workshop/scripte
 
 > **SetParent**(`e`): `void`
 
-Defined in: [helper/EntityHelper.ts:178](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L178)
+Defined in: [src/helper/EntityHelper.ts:178](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L178)
 
 ###### Parameters
 
@@ -13356,7 +13429,7 @@ Defined in: [helper/EntityHelper.ts:178](https://github.com/Orb-Workshop/scripte
 
 > **TakeDamage**(`__namedParameters`): `number`
 
-Defined in: [helper/EntityHelper.ts:222](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L222)
+Defined in: [src/helper/EntityHelper.ts:222](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L222)
 
 ###### Parameters
 
@@ -13380,7 +13453,7 @@ Defined in: [helper/EntityHelper.ts:222](https://github.com/Orb-Workshop/scripte
 
 > **Teleport**(`__namedParameters`): `void`
 
-Defined in: [helper/EntityHelper.ts:150](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L150)
+Defined in: [src/helper/EntityHelper.ts:150](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L150)
 
 ###### Parameters
 
@@ -13403,7 +13476,7 @@ Defined in: [helper/EntityHelper.ts:150](https://github.com/Orb-Workshop/scripte
 
 > `static` **Find**(`r`): [`InfoTarget`](#infotarget)
 
-Defined in: [helper/InfoTarget.ts:26](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/InfoTarget.ts#L26)
+Defined in: [src/helper/InfoTarget.ts:26](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/InfoTarget.ts#L26)
 
 ###### Parameters
 
@@ -13423,7 +13496,7 @@ Defined in: [helper/InfoTarget.ts:26](https://github.com/Orb-Workshop/scriptedeu
 
 > `static` **FindAll**(`r`): [`InfoTarget`](#infotarget)[]
 
-Defined in: [helper/InfoTarget.ts:31](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/InfoTarget.ts#L31)
+Defined in: [src/helper/InfoTarget.ts:31](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/InfoTarget.ts#L31)
 
 ###### Parameters
 
@@ -13443,7 +13516,7 @@ Defined in: [helper/InfoTarget.ts:31](https://github.com/Orb-Workshop/scriptedeu
 
 > `static` **FindAllByClass**(`classname`, `r`): [`EntityHelper`](#abstract-entityhelper)[]
 
-Defined in: [helper/EntityHelper.ts:52](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L52)
+Defined in: [src/helper/EntityHelper.ts:52](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L52)
 
 ###### Parameters
 
@@ -13464,7 +13537,7 @@ Defined in: [helper/EntityHelper.ts:52](https://github.com/Orb-Workshop/scripted
 
 > `static` **FindByClass**(`classname`, `r`, `error?`): [`EntityHelper`](#abstract-entityhelper) \| `null`
 
-Defined in: [helper/EntityHelper.ts:44](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L44)
+Defined in: [src/helper/EntityHelper.ts:44](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L44)
 
 ###### Parameters
 
@@ -13486,7 +13559,7 @@ Defined in: [helper/EntityHelper.ts:44](https://github.com/Orb-Workshop/scripted
 
 > `static` **From**(`e`): [`InfoTarget`](#infotarget)
 
-Defined in: [helper/InfoTarget.ts:20](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/InfoTarget.ts#L20)
+Defined in: [src/helper/InfoTarget.ts:20](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/InfoTarget.ts#L20)
 
 ###### Parameters
 
@@ -13502,7 +13575,7 @@ Defined in: [helper/InfoTarget.ts:20](https://github.com/Orb-Workshop/scriptedeu
 
 ### InfoTeleportDestination
 
-Defined in: [helper/InfoTeleportDestination.ts:15](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/InfoTeleportDestination.ts#L15)
+Defined in: [src/helper/InfoTeleportDestination.ts:15](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/InfoTeleportDestination.ts#L15)
 
 #### Extends
 
@@ -13514,7 +13587,7 @@ Defined in: [helper/InfoTeleportDestination.ts:15](https://github.com/Orb-Worksh
 
 > **new InfoTeleportDestination**(`entity`): [`InfoTeleportDestination`](#infoteleportdestination)
 
-Defined in: [helper/InfoTeleportDestination.ts:16](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/InfoTeleportDestination.ts#L16)
+Defined in: [src/helper/InfoTeleportDestination.ts:16](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/InfoTeleportDestination.ts#L16)
 
 ###### Parameters
 
@@ -13528,7 +13601,7 @@ Defined in: [helper/InfoTeleportDestination.ts:16](https://github.com/Orb-Worksh
 
 ###### Overrides
 
-[`EntityHelper`](#abstract-entityhelper).[`constructor`](#constructor-2)
+[`EntityHelper`](#abstract-entityhelper).[`constructor`](#constructor-1)
 
 #### Accessors
 
@@ -13538,7 +13611,7 @@ Defined in: [helper/InfoTeleportDestination.ts:16](https://github.com/Orb-Worksh
 
 > **get** **raw**(): `Entity`
 
-Defined in: [helper/EntityHelper.ts:57](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L57)
+Defined in: [src/helper/EntityHelper.ts:57](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L57)
 
 ###### Returns
 
@@ -13554,7 +13627,7 @@ Defined in: [helper/EntityHelper.ts:57](https://github.com/Orb-Workshop/scripted
 
 > **ConnectOutput**(`event_name`, `callback`): `void`
 
-Defined in: [helper/EntityHelper.ts:95](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L95)
+Defined in: [src/helper/EntityHelper.ts:95](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L95)
 
 Represents EventListening of IO entities with `this.ConnectOutput`
 TODO: Use Global Events to 'latch onto' the callbacks this method represents.
@@ -13578,7 +13651,7 @@ TODO: Use Global Events to 'latch onto' the callbacks this method represents.
 
 > **FireIO**(`opts?`): `void`
 
-Defined in: [helper/EntityHelper.ts:59](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L59)
+Defined in: [src/helper/EntityHelper.ts:59](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L59)
 
 ###### Parameters
 
@@ -13598,7 +13671,7 @@ Defined in: [helper/EntityHelper.ts:59](https://github.com/Orb-Workshop/scripted
 
 > **FireUser1**(`opts?`): `void`
 
-Defined in: [helper/EntityHelper.ts:68](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L68)
+Defined in: [src/helper/EntityHelper.ts:68](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L68)
 
 ###### Parameters
 
@@ -13618,7 +13691,7 @@ Defined in: [helper/EntityHelper.ts:68](https://github.com/Orb-Workshop/scripted
 
 > **FireUser2**(`opts?`): `void`
 
-Defined in: [helper/EntityHelper.ts:72](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L72)
+Defined in: [src/helper/EntityHelper.ts:72](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L72)
 
 ###### Parameters
 
@@ -13638,7 +13711,7 @@ Defined in: [helper/EntityHelper.ts:72](https://github.com/Orb-Workshop/scripted
 
 > **FireUser3**(`opts?`): `void`
 
-Defined in: [helper/EntityHelper.ts:76](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L76)
+Defined in: [src/helper/EntityHelper.ts:76](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L76)
 
 ###### Parameters
 
@@ -13658,7 +13731,7 @@ Defined in: [helper/EntityHelper.ts:76](https://github.com/Orb-Workshop/scripted
 
 > **FireUser4**(`opts?`): `void`
 
-Defined in: [helper/EntityHelper.ts:80](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L80)
+Defined in: [src/helper/EntityHelper.ts:80](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L80)
 
 ###### Parameters
 
@@ -13678,7 +13751,7 @@ Defined in: [helper/EntityHelper.ts:80](https://github.com/Orb-Workshop/scripted
 
 > **GetAbsAngles**(): [`QAngle`](Math.md#qangle)
 
-Defined in: [helper/EntityHelper.ts:126](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L126)
+Defined in: [src/helper/EntityHelper.ts:126](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L126)
 
 ###### Returns
 
@@ -13692,7 +13765,7 @@ Defined in: [helper/EntityHelper.ts:126](https://github.com/Orb-Workshop/scripte
 
 > **GetAbsOrigin**(): [`Vector3`](Math.md#vector3)
 
-Defined in: [helper/EntityHelper.ts:118](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L118)
+Defined in: [src/helper/EntityHelper.ts:118](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L118)
 
 ###### Returns
 
@@ -13706,7 +13779,7 @@ Defined in: [helper/EntityHelper.ts:118](https://github.com/Orb-Workshop/scripte
 
 > **GetAbsVelocity**(): [`Vector3`](Math.md#vector3)
 
-Defined in: [helper/EntityHelper.ts:134](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L134)
+Defined in: [src/helper/EntityHelper.ts:134](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L134)
 
 ###### Returns
 
@@ -13720,7 +13793,7 @@ Defined in: [helper/EntityHelper.ts:134](https://github.com/Orb-Workshop/scripte
 
 > **GetClassName**(): `string`
 
-Defined in: [helper/EntityHelper.ts:154](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L154)
+Defined in: [src/helper/EntityHelper.ts:154](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L154)
 
 ###### Returns
 
@@ -13734,7 +13807,7 @@ Defined in: [helper/EntityHelper.ts:154](https://github.com/Orb-Workshop/scripte
 
 > **GetEntityName**(): `string`
 
-Defined in: [helper/EntityHelper.ts:158](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L158)
+Defined in: [src/helper/EntityHelper.ts:158](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L158)
 
 ###### Returns
 
@@ -13748,7 +13821,7 @@ Defined in: [helper/EntityHelper.ts:158](https://github.com/Orb-Workshop/scripte
 
 > **GetEyeAngles**(): [`QAngle`](Math.md#qangle)
 
-Defined in: [helper/EntityHelper.ts:142](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L142)
+Defined in: [src/helper/EntityHelper.ts:142](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L142)
 
 ###### Returns
 
@@ -13762,7 +13835,7 @@ Defined in: [helper/EntityHelper.ts:142](https://github.com/Orb-Workshop/scripte
 
 > **GetEyePosition**(): [`Vector3`](Math.md#vector3)
 
-Defined in: [helper/EntityHelper.ts:146](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L146)
+Defined in: [src/helper/EntityHelper.ts:146](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L146)
 
 ###### Returns
 
@@ -13776,7 +13849,7 @@ Defined in: [helper/EntityHelper.ts:146](https://github.com/Orb-Workshop/scripte
 
 > **GetGroundEntity**(): `any`
 
-Defined in: [helper/EntityHelper.ts:218](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L218)
+Defined in: [src/helper/EntityHelper.ts:218](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L218)
 
 ###### Returns
 
@@ -13790,7 +13863,7 @@ Defined in: [helper/EntityHelper.ts:218](https://github.com/Orb-Workshop/scripte
 
 > **GetHealth**(): `number`
 
-Defined in: [helper/EntityHelper.ts:186](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L186)
+Defined in: [src/helper/EntityHelper.ts:186](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L186)
 
 ###### Returns
 
@@ -13804,7 +13877,7 @@ Defined in: [helper/EntityHelper.ts:186](https://github.com/Orb-Workshop/scripte
 
 > **GetLocalAngles**(): [`QAngle`](Math.md#qangle)
 
-Defined in: [helper/EntityHelper.ts:130](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L130)
+Defined in: [src/helper/EntityHelper.ts:130](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L130)
 
 ###### Returns
 
@@ -13818,7 +13891,7 @@ Defined in: [helper/EntityHelper.ts:130](https://github.com/Orb-Workshop/scripte
 
 > **GetLocalOrigin**(): [`Vector3`](Math.md#vector3)
 
-Defined in: [helper/EntityHelper.ts:122](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L122)
+Defined in: [src/helper/EntityHelper.ts:122](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L122)
 
 ###### Returns
 
@@ -13832,7 +13905,7 @@ Defined in: [helper/EntityHelper.ts:122](https://github.com/Orb-Workshop/scripte
 
 > **GetLocalVelocity**(): [`Vector3`](Math.md#vector3)
 
-Defined in: [helper/EntityHelper.ts:138](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L138)
+Defined in: [src/helper/EntityHelper.ts:138](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L138)
 
 ###### Returns
 
@@ -13846,7 +13919,7 @@ Defined in: [helper/EntityHelper.ts:138](https://github.com/Orb-Workshop/scripte
 
 > **GetMaxHealth**(): `number`
 
-Defined in: [helper/EntityHelper.ts:198](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L198)
+Defined in: [src/helper/EntityHelper.ts:198](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L198)
 
 ###### Returns
 
@@ -13860,7 +13933,7 @@ Defined in: [helper/EntityHelper.ts:198](https://github.com/Orb-Workshop/scripte
 
 > **GetOwner**(): `any`
 
-Defined in: [helper/EntityHelper.ts:166](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L166)
+Defined in: [src/helper/EntityHelper.ts:166](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L166)
 
 ###### Returns
 
@@ -13874,7 +13947,7 @@ Defined in: [helper/EntityHelper.ts:166](https://github.com/Orb-Workshop/scripte
 
 > **GetParent**(): `any`
 
-Defined in: [helper/EntityHelper.ts:174](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L174)
+Defined in: [src/helper/EntityHelper.ts:174](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L174)
 
 ###### Returns
 
@@ -13888,7 +13961,7 @@ Defined in: [helper/EntityHelper.ts:174](https://github.com/Orb-Workshop/scripte
 
 > **GetTeamNumber**(): `number`
 
-Defined in: [helper/EntityHelper.ts:182](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L182)
+Defined in: [src/helper/EntityHelper.ts:182](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L182)
 
 ###### Returns
 
@@ -13902,7 +13975,7 @@ Defined in: [helper/EntityHelper.ts:182](https://github.com/Orb-Workshop/scripte
 
 > **IsAlive**(): `boolean`
 
-Defined in: [helper/EntityHelper.ts:210](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L210)
+Defined in: [src/helper/EntityHelper.ts:210](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L210)
 
 ###### Returns
 
@@ -13916,7 +13989,7 @@ Defined in: [helper/EntityHelper.ts:210](https://github.com/Orb-Workshop/scripte
 
 > **IsValid**(): `boolean`
 
-Defined in: [helper/EntityHelper.ts:114](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L114)
+Defined in: [src/helper/EntityHelper.ts:114](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L114)
 
 ###### Returns
 
@@ -13930,7 +14003,7 @@ Defined in: [helper/EntityHelper.ts:114](https://github.com/Orb-Workshop/scripte
 
 > **IsWorld**(): `boolean`
 
-Defined in: [helper/EntityHelper.ts:214](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L214)
+Defined in: [src/helper/EntityHelper.ts:214](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L214)
 
 ###### Returns
 
@@ -13944,7 +14017,7 @@ Defined in: [helper/EntityHelper.ts:214](https://github.com/Orb-Workshop/scripte
 
 > **Kill**(): `void`
 
-Defined in: [helper/EntityHelper.ts:226](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L226)
+Defined in: [src/helper/EntityHelper.ts:226](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L226)
 
 ###### Returns
 
@@ -13958,7 +14031,7 @@ Defined in: [helper/EntityHelper.ts:226](https://github.com/Orb-Workshop/scripte
 
 > **KillAll**(): `void`
 
-Defined in: [helper/EntityHelper.ts:234](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L234)
+Defined in: [src/helper/EntityHelper.ts:234](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L234)
 
 ###### Returns
 
@@ -13972,7 +14045,7 @@ Defined in: [helper/EntityHelper.ts:234](https://github.com/Orb-Workshop/scripte
 
 > **KillHierarchy**(`opts?`): `void`
 
-Defined in: [helper/EntityHelper.ts:230](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L230)
+Defined in: [src/helper/EntityHelper.ts:230](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L230)
 
 ###### Parameters
 
@@ -13992,7 +14065,7 @@ Defined in: [helper/EntityHelper.ts:230](https://github.com/Orb-Workshop/scripte
 
 > **On**(`event_name`, `callback`): [`EntityHelper`](#abstract-entityhelper)
 
-Defined in: [helper/EntityHelper.ts:104](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L104)
+Defined in: [src/helper/EntityHelper.ts:104](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L104)
 
 ###### Parameters
 
@@ -14013,7 +14086,7 @@ Defined in: [helper/EntityHelper.ts:104](https://github.com/Orb-Workshop/scripte
 
 > **Remove**(): `void`
 
-Defined in: [helper/EntityHelper.ts:238](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L238)
+Defined in: [src/helper/EntityHelper.ts:238](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L238)
 
 ###### Returns
 
@@ -14027,7 +14100,7 @@ Defined in: [helper/EntityHelper.ts:238](https://github.com/Orb-Workshop/scripte
 
 > **SetEntityName**(`s`): `void`
 
-Defined in: [helper/EntityHelper.ts:162](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L162)
+Defined in: [src/helper/EntityHelper.ts:162](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L162)
 
 ###### Parameters
 
@@ -14047,7 +14120,7 @@ Defined in: [helper/EntityHelper.ts:162](https://github.com/Orb-Workshop/scripte
 
 > **SetHealth**(`hp`): `void`
 
-Defined in: [helper/EntityHelper.ts:190](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L190)
+Defined in: [src/helper/EntityHelper.ts:190](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L190)
 
 ###### Parameters
 
@@ -14067,7 +14140,7 @@ Defined in: [helper/EntityHelper.ts:190](https://github.com/Orb-Workshop/scripte
 
 > **SetMaxHealth**(`hp`): `void`
 
-Defined in: [helper/EntityHelper.ts:202](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L202)
+Defined in: [src/helper/EntityHelper.ts:202](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L202)
 
 ###### Parameters
 
@@ -14087,7 +14160,7 @@ Defined in: [helper/EntityHelper.ts:202](https://github.com/Orb-Workshop/scripte
 
 > **SetOwner**(`e`): `void`
 
-Defined in: [helper/EntityHelper.ts:170](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L170)
+Defined in: [src/helper/EntityHelper.ts:170](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L170)
 
 ###### Parameters
 
@@ -14107,7 +14180,7 @@ Defined in: [helper/EntityHelper.ts:170](https://github.com/Orb-Workshop/scripte
 
 > **SetParent**(`e`): `void`
 
-Defined in: [helper/EntityHelper.ts:178](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L178)
+Defined in: [src/helper/EntityHelper.ts:178](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L178)
 
 ###### Parameters
 
@@ -14127,7 +14200,7 @@ Defined in: [helper/EntityHelper.ts:178](https://github.com/Orb-Workshop/scripte
 
 > **TakeDamage**(`__namedParameters`): `number`
 
-Defined in: [helper/EntityHelper.ts:222](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L222)
+Defined in: [src/helper/EntityHelper.ts:222](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L222)
 
 ###### Parameters
 
@@ -14151,7 +14224,7 @@ Defined in: [helper/EntityHelper.ts:222](https://github.com/Orb-Workshop/scripte
 
 > **Teleport**(`__namedParameters`): `void`
 
-Defined in: [helper/EntityHelper.ts:150](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L150)
+Defined in: [src/helper/EntityHelper.ts:150](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L150)
 
 ###### Parameters
 
@@ -14174,7 +14247,7 @@ Defined in: [helper/EntityHelper.ts:150](https://github.com/Orb-Workshop/scripte
 
 > `static` **Find**(`r`): [`InfoTeleportDestination`](#infoteleportdestination)
 
-Defined in: [helper/InfoTeleportDestination.ts:26](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/InfoTeleportDestination.ts#L26)
+Defined in: [src/helper/InfoTeleportDestination.ts:26](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/InfoTeleportDestination.ts#L26)
 
 ###### Parameters
 
@@ -14194,7 +14267,7 @@ Defined in: [helper/InfoTeleportDestination.ts:26](https://github.com/Orb-Worksh
 
 > `static` **FindAll**(`r`): [`InfoTeleportDestination`](#infoteleportdestination)[]
 
-Defined in: [helper/InfoTeleportDestination.ts:31](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/InfoTeleportDestination.ts#L31)
+Defined in: [src/helper/InfoTeleportDestination.ts:31](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/InfoTeleportDestination.ts#L31)
 
 ###### Parameters
 
@@ -14214,7 +14287,7 @@ Defined in: [helper/InfoTeleportDestination.ts:31](https://github.com/Orb-Worksh
 
 > `static` **FindAllByClass**(`classname`, `r`): [`EntityHelper`](#abstract-entityhelper)[]
 
-Defined in: [helper/EntityHelper.ts:52](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L52)
+Defined in: [src/helper/EntityHelper.ts:52](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L52)
 
 ###### Parameters
 
@@ -14235,7 +14308,7 @@ Defined in: [helper/EntityHelper.ts:52](https://github.com/Orb-Workshop/scripted
 
 > `static` **FindByClass**(`classname`, `r`, `error?`): [`EntityHelper`](#abstract-entityhelper) \| `null`
 
-Defined in: [helper/EntityHelper.ts:44](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L44)
+Defined in: [src/helper/EntityHelper.ts:44](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L44)
 
 ###### Parameters
 
@@ -14257,7 +14330,7 @@ Defined in: [helper/EntityHelper.ts:44](https://github.com/Orb-Workshop/scripted
 
 > `static` **From**(`e`): [`InfoTeleportDestination`](#infoteleportdestination)
 
-Defined in: [helper/InfoTeleportDestination.ts:20](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/InfoTeleportDestination.ts#L20)
+Defined in: [src/helper/InfoTeleportDestination.ts:20](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/InfoTeleportDestination.ts#L20)
 
 ###### Parameters
 
@@ -14271,9 +14344,894 @@ Defined in: [helper/InfoTeleportDestination.ts:20](https://github.com/Orb-Worksh
 
 ***
 
+### LogicCase
+
+Defined in: [src/helper/LogicCase.ts:17](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/LogicCase.ts#L17)
+
+#### Extends
+
+- [`EntityHelper`](#abstract-entityhelper)
+
+#### Constructors
+
+##### Constructor
+
+> **new LogicCase**(`entity`): [`LogicCase`](#logiccase)
+
+Defined in: [src/helper/LogicCase.ts:18](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/LogicCase.ts#L18)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `entity` | `Entity` |
+
+###### Returns
+
+[`LogicCase`](#logiccase)
+
+###### Overrides
+
+[`EntityHelper`](#abstract-entityhelper).[`constructor`](#constructor-1)
+
+#### Accessors
+
+##### raw
+
+###### Get Signature
+
+> **get** **raw**(): `Entity`
+
+Defined in: [src/helper/EntityHelper.ts:57](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L57)
+
+###### Returns
+
+`Entity`
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`raw`](#raw-1)
+
+#### Methods
+
+##### ConnectOutput()
+
+> **ConnectOutput**(`event_name`, `callback`): `void`
+
+Defined in: [src/helper/EntityHelper.ts:95](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L95)
+
+Represents EventListening of IO entities with `this.ConnectOutput`
+TODO: Use Global Events to 'latch onto' the callbacks this method represents.
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `event_name` | `string` |
+| `callback` | `ConnectOutputCallback` |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`ConnectOutput`](#connectoutput-1)
+
+##### FireIO()
+
+> **FireIO**(`opts?`): `void`
+
+Defined in: [src/helper/EntityHelper.ts:59](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L59)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `opts` | \{ \} |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`FireIO`](#fireio-1)
+
+##### FireUser1()
+
+> **FireUser1**(`opts?`): `void`
+
+Defined in: [src/helper/EntityHelper.ts:68](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L68)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `opts` | \{ \} |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`FireUser1`](#fireuser1-1)
+
+##### FireUser2()
+
+> **FireUser2**(`opts?`): `void`
+
+Defined in: [src/helper/EntityHelper.ts:72](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L72)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `opts` | \{ \} |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`FireUser2`](#fireuser2-1)
+
+##### FireUser3()
+
+> **FireUser3**(`opts?`): `void`
+
+Defined in: [src/helper/EntityHelper.ts:76](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L76)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `opts` | \{ \} |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`FireUser3`](#fireuser3-1)
+
+##### FireUser4()
+
+> **FireUser4**(`opts?`): `void`
+
+Defined in: [src/helper/EntityHelper.ts:80](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L80)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `opts` | \{ \} |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`FireUser4`](#fireuser4-1)
+
+##### GetAbsAngles()
+
+> **GetAbsAngles**(): [`QAngle`](Math.md#qangle)
+
+Defined in: [src/helper/EntityHelper.ts:126](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L126)
+
+###### Returns
+
+[`QAngle`](Math.md#qangle)
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`GetAbsAngles`](#getabsangles-1)
+
+##### GetAbsOrigin()
+
+> **GetAbsOrigin**(): [`Vector3`](Math.md#vector3)
+
+Defined in: [src/helper/EntityHelper.ts:118](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L118)
+
+###### Returns
+
+[`Vector3`](Math.md#vector3)
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`GetAbsOrigin`](#getabsorigin-1)
+
+##### GetAbsVelocity()
+
+> **GetAbsVelocity**(): [`Vector3`](Math.md#vector3)
+
+Defined in: [src/helper/EntityHelper.ts:134](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L134)
+
+###### Returns
+
+[`Vector3`](Math.md#vector3)
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`GetAbsVelocity`](#getabsvelocity-1)
+
+##### GetClassName()
+
+> **GetClassName**(): `string`
+
+Defined in: [src/helper/EntityHelper.ts:154](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L154)
+
+###### Returns
+
+`string`
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`GetClassName`](#getclassname-1)
+
+##### GetEntityName()
+
+> **GetEntityName**(): `string`
+
+Defined in: [src/helper/EntityHelper.ts:158](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L158)
+
+###### Returns
+
+`string`
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`GetEntityName`](#getentityname-1)
+
+##### GetEyeAngles()
+
+> **GetEyeAngles**(): [`QAngle`](Math.md#qangle)
+
+Defined in: [src/helper/EntityHelper.ts:142](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L142)
+
+###### Returns
+
+[`QAngle`](Math.md#qangle)
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`GetEyeAngles`](#geteyeangles-1)
+
+##### GetEyePosition()
+
+> **GetEyePosition**(): [`Vector3`](Math.md#vector3)
+
+Defined in: [src/helper/EntityHelper.ts:146](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L146)
+
+###### Returns
+
+[`Vector3`](Math.md#vector3)
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`GetEyePosition`](#geteyeposition-1)
+
+##### GetGroundEntity()
+
+> **GetGroundEntity**(): `any`
+
+Defined in: [src/helper/EntityHelper.ts:218](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L218)
+
+###### Returns
+
+`any`
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`GetGroundEntity`](#getgroundentity-1)
+
+##### GetHealth()
+
+> **GetHealth**(): `number`
+
+Defined in: [src/helper/EntityHelper.ts:186](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L186)
+
+###### Returns
+
+`number`
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`GetHealth`](#gethealth-1)
+
+##### GetLocalAngles()
+
+> **GetLocalAngles**(): [`QAngle`](Math.md#qangle)
+
+Defined in: [src/helper/EntityHelper.ts:130](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L130)
+
+###### Returns
+
+[`QAngle`](Math.md#qangle)
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`GetLocalAngles`](#getlocalangles-1)
+
+##### GetLocalOrigin()
+
+> **GetLocalOrigin**(): [`Vector3`](Math.md#vector3)
+
+Defined in: [src/helper/EntityHelper.ts:122](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L122)
+
+###### Returns
+
+[`Vector3`](Math.md#vector3)
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`GetLocalOrigin`](#getlocalorigin-1)
+
+##### GetLocalVelocity()
+
+> **GetLocalVelocity**(): [`Vector3`](Math.md#vector3)
+
+Defined in: [src/helper/EntityHelper.ts:138](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L138)
+
+###### Returns
+
+[`Vector3`](Math.md#vector3)
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`GetLocalVelocity`](#getlocalvelocity-1)
+
+##### GetMaxHealth()
+
+> **GetMaxHealth**(): `number`
+
+Defined in: [src/helper/EntityHelper.ts:198](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L198)
+
+###### Returns
+
+`number`
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`GetMaxHealth`](#getmaxhealth-1)
+
+##### GetOwner()
+
+> **GetOwner**(): `any`
+
+Defined in: [src/helper/EntityHelper.ts:166](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L166)
+
+###### Returns
+
+`any`
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`GetOwner`](#getowner-1)
+
+##### GetParent()
+
+> **GetParent**(): `any`
+
+Defined in: [src/helper/EntityHelper.ts:174](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L174)
+
+###### Returns
+
+`any`
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`GetParent`](#getparent-1)
+
+##### GetTeamNumber()
+
+> **GetTeamNumber**(): `number`
+
+Defined in: [src/helper/EntityHelper.ts:182](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L182)
+
+###### Returns
+
+`number`
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`GetTeamNumber`](#getteamnumber-1)
+
+##### InValue()
+
+> **InValue**(`value`, `opts?`): `void`
+
+Defined in: [src/helper/LogicCase.ts:40](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/LogicCase.ts#L40)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `value` | `number` |
+| `opts` | \{ \} |
+
+###### Returns
+
+`void`
+
+##### IsAlive()
+
+> **IsAlive**(): `boolean`
+
+Defined in: [src/helper/EntityHelper.ts:210](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L210)
+
+###### Returns
+
+`boolean`
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`IsAlive`](#isalive-1)
+
+##### IsValid()
+
+> **IsValid**(): `boolean`
+
+Defined in: [src/helper/EntityHelper.ts:114](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L114)
+
+###### Returns
+
+`boolean`
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`IsValid`](#isvalid-1)
+
+##### IsWorld()
+
+> **IsWorld**(): `boolean`
+
+Defined in: [src/helper/EntityHelper.ts:214](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L214)
+
+###### Returns
+
+`boolean`
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`IsWorld`](#isworld-1)
+
+##### Kill()
+
+> **Kill**(): `void`
+
+Defined in: [src/helper/EntityHelper.ts:226](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L226)
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`Kill`](#kill-1)
+
+##### KillAll()
+
+> **KillAll**(): `void`
+
+Defined in: [src/helper/EntityHelper.ts:234](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L234)
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`KillAll`](#killall-1)
+
+##### KillHierarchy()
+
+> **KillHierarchy**(`opts?`): `void`
+
+Defined in: [src/helper/EntityHelper.ts:230](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L230)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `opts` | \{ \} |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`KillHierarchy`](#killhierarchy-1)
+
+##### On()
+
+> **On**(`event_name`, `callback`): [`EntityHelper`](#abstract-entityhelper)
+
+Defined in: [src/helper/EntityHelper.ts:104](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L104)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `event_name` | `string` |
+| `callback` | `ConnectOutputCallback` |
+
+###### Returns
+
+[`EntityHelper`](#abstract-entityhelper)
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`On`](#on-1)
+
+##### OnCase()
+
+> **OnCase**(`case_number`, `callback`): [`LogicCase`](#logiccase)
+
+Defined in: [src/helper/LogicCase.ts:65](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/LogicCase.ts#L65)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `case_number` | `number` |
+| `callback` | `ConnectOutputCallback` |
+
+###### Returns
+
+[`LogicCase`](#logiccase)
+
+##### OnDefault()
+
+> **OnDefault**(`callback`): [`LogicCase`](#logiccase)
+
+Defined in: [src/helper/LogicCase.ts:61](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/LogicCase.ts#L61)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `callback` | `ConnectOutputCallback` |
+
+###### Returns
+
+[`LogicCase`](#logiccase)
+
+##### OnKilled()
+
+> **OnKilled**(`callback`): [`LogicCase`](#logiccase)
+
+Defined in: [src/helper/LogicCase.ts:57](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/LogicCase.ts#L57)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `callback` | `ConnectOutputCallback` |
+
+###### Returns
+
+[`LogicCase`](#logiccase)
+
+##### PickRandom()
+
+> **PickRandom**(`opts?`): `void`
+
+Defined in: [src/helper/LogicCase.ts:44](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/LogicCase.ts#L44)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `opts` | \{ \} |
+
+###### Returns
+
+`void`
+
+##### PickRandomShuffle()
+
+> **PickRandomShuffle**(`opts?`): `void`
+
+Defined in: [src/helper/LogicCase.ts:48](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/LogicCase.ts#L48)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `opts` | \{ \} |
+
+###### Returns
+
+`void`
+
+##### Remove()
+
+> **Remove**(): `void`
+
+Defined in: [src/helper/EntityHelper.ts:238](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L238)
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`Remove`](#remove-1)
+
+##### ResetShuffle()
+
+> **ResetShuffle**(`opts?`): `void`
+
+Defined in: [src/helper/LogicCase.ts:52](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/LogicCase.ts#L52)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `opts` | \{ \} |
+
+###### Returns
+
+`void`
+
+##### SetEntityName()
+
+> **SetEntityName**(`s`): `void`
+
+Defined in: [src/helper/EntityHelper.ts:162](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L162)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `s` | `string` |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`SetEntityName`](#setentityname-1)
+
+##### SetHealth()
+
+> **SetHealth**(`hp`): `void`
+
+Defined in: [src/helper/EntityHelper.ts:190](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L190)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `hp` | `number` |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`SetHealth`](#sethealth-1)
+
+##### SetMaxHealth()
+
+> **SetMaxHealth**(`hp`): `void`
+
+Defined in: [src/helper/EntityHelper.ts:202](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L202)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `hp` | `number` |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`SetMaxHealth`](#setmaxhealth-1)
+
+##### SetOwner()
+
+> **SetOwner**(`e`): `void`
+
+Defined in: [src/helper/EntityHelper.ts:170](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L170)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `e` | `Entity` |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`SetOwner`](#setowner-1)
+
+##### SetParent()
+
+> **SetParent**(`e`): `void`
+
+Defined in: [src/helper/EntityHelper.ts:178](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L178)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `e` | `Entity` |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`SetParent`](#setparent-1)
+
+##### TakeDamage()
+
+> **TakeDamage**(`__namedParameters`): `number`
+
+Defined in: [src/helper/EntityHelper.ts:222](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L222)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `__namedParameters` | \{ `attacker`: `any`; `damage`: `any`; `inflictor`: `any`; `weapon`: `any`; \} |
+| `__namedParameters.attacker` | `any` |
+| `__namedParameters.damage` | `any` |
+| `__namedParameters.inflictor` | `any` |
+| `__namedParameters.weapon` | `any` |
+
+###### Returns
+
+`number`
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`TakeDamage`](#takedamage-1)
+
+##### Teleport()
+
+> **Teleport**(`__namedParameters`): `void`
+
+Defined in: [src/helper/EntityHelper.ts:150](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L150)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `__namedParameters` | \{ `position`: `any`; `rotation`: `any`; `velocity`: `any`; \} |
+| `__namedParameters.position` | `any` |
+| `__namedParameters.rotation` | `any` |
+| `__namedParameters.velocity` | `any` |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`Teleport`](#teleport-1)
+
+##### Find()
+
+> `static` **Find**(`r`): [`LogicCase`](#logiccase)
+
+Defined in: [src/helper/LogicCase.ts:28](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/LogicCase.ts#L28)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `r` | `string` \| `RegExp` |
+
+###### Returns
+
+[`LogicCase`](#logiccase)
+
+###### Overrides
+
+[`EntityHelper`](#abstract-entityhelper).[`Find`](#find-1)
+
+##### FindAll()
+
+> `static` **FindAll**(`r`): [`LogicCase`](#logiccase)[]
+
+Defined in: [src/helper/LogicCase.ts:33](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/LogicCase.ts#L33)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `r` | `string` \| `RegExp` |
+
+###### Returns
+
+[`LogicCase`](#logiccase)[]
+
+###### Overrides
+
+[`EntityHelper`](#abstract-entityhelper).[`FindAll`](#findall-1)
+
+##### FindAllByClass()
+
+> `static` **FindAllByClass**(`classname`, `r`): [`EntityHelper`](#abstract-entityhelper)[]
+
+Defined in: [src/helper/EntityHelper.ts:52](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L52)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `classname` | `string` |
+| `r` | `string` \| `RegExp` |
+
+###### Returns
+
+[`EntityHelper`](#abstract-entityhelper)[]
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`FindAllByClass`](#findallbyclass-1)
+
+##### FindByClass()
+
+> `static` **FindByClass**(`classname`, `r`, `error?`): [`EntityHelper`](#abstract-entityhelper) \| `null`
+
+Defined in: [src/helper/EntityHelper.ts:44](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L44)
+
+###### Parameters
+
+| Parameter | Type | Default value |
+| ------ | ------ | ------ |
+| `classname` | `string` | `undefined` |
+| `r` | `string` \| `RegExp` | `undefined` |
+| `error` | `boolean` | `false` |
+
+###### Returns
+
+[`EntityHelper`](#abstract-entityhelper) \| `null`
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`FindByClass`](#findbyclass-1)
+
+##### From()
+
+> `static` **From**(`e`): [`LogicCase`](#logiccase)
+
+Defined in: [src/helper/LogicCase.ts:22](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/LogicCase.ts#L22)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `e` | `Entity` |
+
+###### Returns
+
+[`LogicCase`](#logiccase)
+
+***
+
 ### LogicRelay
 
-Defined in: [helper/LogicRelay.ts:17](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/LogicRelay.ts#L17)
+Defined in: [src/helper/LogicRelay.ts:17](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/LogicRelay.ts#L17)
 
 #### Extends
 
@@ -14285,7 +15243,7 @@ Defined in: [helper/LogicRelay.ts:17](https://github.com/Orb-Workshop/scriptedeu
 
 > **new LogicRelay**(`entity`): [`LogicRelay`](#logicrelay)
 
-Defined in: [helper/LogicRelay.ts:18](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/LogicRelay.ts#L18)
+Defined in: [src/helper/LogicRelay.ts:18](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/LogicRelay.ts#L18)
 
 ###### Parameters
 
@@ -14299,7 +15257,7 @@ Defined in: [helper/LogicRelay.ts:18](https://github.com/Orb-Workshop/scriptedeu
 
 ###### Overrides
 
-[`EntityHelper`](#abstract-entityhelper).[`constructor`](#constructor-2)
+[`EntityHelper`](#abstract-entityhelper).[`constructor`](#constructor-1)
 
 #### Accessors
 
@@ -14309,7 +15267,7 @@ Defined in: [helper/LogicRelay.ts:18](https://github.com/Orb-Workshop/scriptedeu
 
 > **get** **raw**(): `Entity`
 
-Defined in: [helper/EntityHelper.ts:57](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L57)
+Defined in: [src/helper/EntityHelper.ts:57](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L57)
 
 ###### Returns
 
@@ -14325,7 +15283,7 @@ Defined in: [helper/EntityHelper.ts:57](https://github.com/Orb-Workshop/scripted
 
 > **CancelPending**(`opts?`): `void`
 
-Defined in: [helper/LogicRelay.ts:56](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/LogicRelay.ts#L56)
+Defined in: [src/helper/LogicRelay.ts:56](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/LogicRelay.ts#L56)
 
 ###### Parameters
 
@@ -14341,7 +15299,7 @@ Defined in: [helper/LogicRelay.ts:56](https://github.com/Orb-Workshop/scriptedeu
 
 > **ConnectOutput**(`event_name`, `callback`): `void`
 
-Defined in: [helper/EntityHelper.ts:95](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L95)
+Defined in: [src/helper/EntityHelper.ts:95](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L95)
 
 Represents EventListening of IO entities with `this.ConnectOutput`
 TODO: Use Global Events to 'latch onto' the callbacks this method represents.
@@ -14365,7 +15323,7 @@ TODO: Use Global Events to 'latch onto' the callbacks this method represents.
 
 > **Disable**(`opts?`): `void`
 
-Defined in: [helper/LogicRelay.ts:44](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/LogicRelay.ts#L44)
+Defined in: [src/helper/LogicRelay.ts:44](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/LogicRelay.ts#L44)
 
 ###### Parameters
 
@@ -14381,7 +15339,7 @@ Defined in: [helper/LogicRelay.ts:44](https://github.com/Orb-Workshop/scriptedeu
 
 > **Enable**(`opts?`): `void`
 
-Defined in: [helper/LogicRelay.ts:40](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/LogicRelay.ts#L40)
+Defined in: [src/helper/LogicRelay.ts:40](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/LogicRelay.ts#L40)
 
 ###### Parameters
 
@@ -14397,7 +15355,7 @@ Defined in: [helper/LogicRelay.ts:40](https://github.com/Orb-Workshop/scriptedeu
 
 > **FireIO**(`opts?`): `void`
 
-Defined in: [helper/EntityHelper.ts:59](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L59)
+Defined in: [src/helper/EntityHelper.ts:59](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L59)
 
 ###### Parameters
 
@@ -14417,7 +15375,7 @@ Defined in: [helper/EntityHelper.ts:59](https://github.com/Orb-Workshop/scripted
 
 > **FireUser1**(`opts?`): `void`
 
-Defined in: [helper/EntityHelper.ts:68](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L68)
+Defined in: [src/helper/EntityHelper.ts:68](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L68)
 
 ###### Parameters
 
@@ -14437,7 +15395,7 @@ Defined in: [helper/EntityHelper.ts:68](https://github.com/Orb-Workshop/scripted
 
 > **FireUser2**(`opts?`): `void`
 
-Defined in: [helper/EntityHelper.ts:72](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L72)
+Defined in: [src/helper/EntityHelper.ts:72](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L72)
 
 ###### Parameters
 
@@ -14457,7 +15415,7 @@ Defined in: [helper/EntityHelper.ts:72](https://github.com/Orb-Workshop/scripted
 
 > **FireUser3**(`opts?`): `void`
 
-Defined in: [helper/EntityHelper.ts:76](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L76)
+Defined in: [src/helper/EntityHelper.ts:76](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L76)
 
 ###### Parameters
 
@@ -14477,7 +15435,7 @@ Defined in: [helper/EntityHelper.ts:76](https://github.com/Orb-Workshop/scripted
 
 > **FireUser4**(`opts?`): `void`
 
-Defined in: [helper/EntityHelper.ts:80](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L80)
+Defined in: [src/helper/EntityHelper.ts:80](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L80)
 
 ###### Parameters
 
@@ -14497,7 +15455,7 @@ Defined in: [helper/EntityHelper.ts:80](https://github.com/Orb-Workshop/scripted
 
 > **GetAbsAngles**(): [`QAngle`](Math.md#qangle)
 
-Defined in: [helper/EntityHelper.ts:126](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L126)
+Defined in: [src/helper/EntityHelper.ts:126](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L126)
 
 ###### Returns
 
@@ -14511,7 +15469,7 @@ Defined in: [helper/EntityHelper.ts:126](https://github.com/Orb-Workshop/scripte
 
 > **GetAbsOrigin**(): [`Vector3`](Math.md#vector3)
 
-Defined in: [helper/EntityHelper.ts:118](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L118)
+Defined in: [src/helper/EntityHelper.ts:118](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L118)
 
 ###### Returns
 
@@ -14525,7 +15483,7 @@ Defined in: [helper/EntityHelper.ts:118](https://github.com/Orb-Workshop/scripte
 
 > **GetAbsVelocity**(): [`Vector3`](Math.md#vector3)
 
-Defined in: [helper/EntityHelper.ts:134](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L134)
+Defined in: [src/helper/EntityHelper.ts:134](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L134)
 
 ###### Returns
 
@@ -14539,7 +15497,7 @@ Defined in: [helper/EntityHelper.ts:134](https://github.com/Orb-Workshop/scripte
 
 > **GetClassName**(): `string`
 
-Defined in: [helper/EntityHelper.ts:154](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L154)
+Defined in: [src/helper/EntityHelper.ts:154](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L154)
 
 ###### Returns
 
@@ -14553,7 +15511,7 @@ Defined in: [helper/EntityHelper.ts:154](https://github.com/Orb-Workshop/scripte
 
 > **GetEntityName**(): `string`
 
-Defined in: [helper/EntityHelper.ts:158](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L158)
+Defined in: [src/helper/EntityHelper.ts:158](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L158)
 
 ###### Returns
 
@@ -14567,7 +15525,7 @@ Defined in: [helper/EntityHelper.ts:158](https://github.com/Orb-Workshop/scripte
 
 > **GetEyeAngles**(): [`QAngle`](Math.md#qangle)
 
-Defined in: [helper/EntityHelper.ts:142](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L142)
+Defined in: [src/helper/EntityHelper.ts:142](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L142)
 
 ###### Returns
 
@@ -14581,7 +15539,7 @@ Defined in: [helper/EntityHelper.ts:142](https://github.com/Orb-Workshop/scripte
 
 > **GetEyePosition**(): [`Vector3`](Math.md#vector3)
 
-Defined in: [helper/EntityHelper.ts:146](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L146)
+Defined in: [src/helper/EntityHelper.ts:146](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L146)
 
 ###### Returns
 
@@ -14595,7 +15553,7 @@ Defined in: [helper/EntityHelper.ts:146](https://github.com/Orb-Workshop/scripte
 
 > **GetGroundEntity**(): `any`
 
-Defined in: [helper/EntityHelper.ts:218](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L218)
+Defined in: [src/helper/EntityHelper.ts:218](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L218)
 
 ###### Returns
 
@@ -14609,7 +15567,7 @@ Defined in: [helper/EntityHelper.ts:218](https://github.com/Orb-Workshop/scripte
 
 > **GetHealth**(): `number`
 
-Defined in: [helper/EntityHelper.ts:186](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L186)
+Defined in: [src/helper/EntityHelper.ts:186](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L186)
 
 ###### Returns
 
@@ -14623,7 +15581,7 @@ Defined in: [helper/EntityHelper.ts:186](https://github.com/Orb-Workshop/scripte
 
 > **GetLocalAngles**(): [`QAngle`](Math.md#qangle)
 
-Defined in: [helper/EntityHelper.ts:130](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L130)
+Defined in: [src/helper/EntityHelper.ts:130](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L130)
 
 ###### Returns
 
@@ -14637,7 +15595,7 @@ Defined in: [helper/EntityHelper.ts:130](https://github.com/Orb-Workshop/scripte
 
 > **GetLocalOrigin**(): [`Vector3`](Math.md#vector3)
 
-Defined in: [helper/EntityHelper.ts:122](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L122)
+Defined in: [src/helper/EntityHelper.ts:122](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L122)
 
 ###### Returns
 
@@ -14651,7 +15609,7 @@ Defined in: [helper/EntityHelper.ts:122](https://github.com/Orb-Workshop/scripte
 
 > **GetLocalVelocity**(): [`Vector3`](Math.md#vector3)
 
-Defined in: [helper/EntityHelper.ts:138](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L138)
+Defined in: [src/helper/EntityHelper.ts:138](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L138)
 
 ###### Returns
 
@@ -14665,7 +15623,7 @@ Defined in: [helper/EntityHelper.ts:138](https://github.com/Orb-Workshop/scripte
 
 > **GetMaxHealth**(): `number`
 
-Defined in: [helper/EntityHelper.ts:198](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L198)
+Defined in: [src/helper/EntityHelper.ts:198](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L198)
 
 ###### Returns
 
@@ -14679,7 +15637,7 @@ Defined in: [helper/EntityHelper.ts:198](https://github.com/Orb-Workshop/scripte
 
 > **GetOwner**(): `any`
 
-Defined in: [helper/EntityHelper.ts:166](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L166)
+Defined in: [src/helper/EntityHelper.ts:166](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L166)
 
 ###### Returns
 
@@ -14693,7 +15651,7 @@ Defined in: [helper/EntityHelper.ts:166](https://github.com/Orb-Workshop/scripte
 
 > **GetParent**(): `any`
 
-Defined in: [helper/EntityHelper.ts:174](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L174)
+Defined in: [src/helper/EntityHelper.ts:174](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L174)
 
 ###### Returns
 
@@ -14707,7 +15665,7 @@ Defined in: [helper/EntityHelper.ts:174](https://github.com/Orb-Workshop/scripte
 
 > **GetTeamNumber**(): `number`
 
-Defined in: [helper/EntityHelper.ts:182](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L182)
+Defined in: [src/helper/EntityHelper.ts:182](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L182)
 
 ###### Returns
 
@@ -14721,7 +15679,7 @@ Defined in: [helper/EntityHelper.ts:182](https://github.com/Orb-Workshop/scripte
 
 > **IsAlive**(): `boolean`
 
-Defined in: [helper/EntityHelper.ts:210](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L210)
+Defined in: [src/helper/EntityHelper.ts:210](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L210)
 
 ###### Returns
 
@@ -14735,7 +15693,7 @@ Defined in: [helper/EntityHelper.ts:210](https://github.com/Orb-Workshop/scripte
 
 > **IsValid**(): `boolean`
 
-Defined in: [helper/EntityHelper.ts:114](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L114)
+Defined in: [src/helper/EntityHelper.ts:114](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L114)
 
 ###### Returns
 
@@ -14749,7 +15707,7 @@ Defined in: [helper/EntityHelper.ts:114](https://github.com/Orb-Workshop/scripte
 
 > **IsWorld**(): `boolean`
 
-Defined in: [helper/EntityHelper.ts:214](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L214)
+Defined in: [src/helper/EntityHelper.ts:214](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L214)
 
 ###### Returns
 
@@ -14763,7 +15721,7 @@ Defined in: [helper/EntityHelper.ts:214](https://github.com/Orb-Workshop/scripte
 
 > **Kill**(): `void`
 
-Defined in: [helper/EntityHelper.ts:226](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L226)
+Defined in: [src/helper/EntityHelper.ts:226](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L226)
 
 ###### Returns
 
@@ -14777,7 +15735,7 @@ Defined in: [helper/EntityHelper.ts:226](https://github.com/Orb-Workshop/scripte
 
 > **KillAll**(): `void`
 
-Defined in: [helper/EntityHelper.ts:234](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L234)
+Defined in: [src/helper/EntityHelper.ts:234](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L234)
 
 ###### Returns
 
@@ -14791,7 +15749,7 @@ Defined in: [helper/EntityHelper.ts:234](https://github.com/Orb-Workshop/scripte
 
 > **KillHierarchy**(`opts?`): `void`
 
-Defined in: [helper/EntityHelper.ts:230](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L230)
+Defined in: [src/helper/EntityHelper.ts:230](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L230)
 
 ###### Parameters
 
@@ -14811,7 +15769,7 @@ Defined in: [helper/EntityHelper.ts:230](https://github.com/Orb-Workshop/scripte
 
 > **On**(`event_name`, `callback`): [`EntityHelper`](#abstract-entityhelper)
 
-Defined in: [helper/EntityHelper.ts:104](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L104)
+Defined in: [src/helper/EntityHelper.ts:104](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L104)
 
 ###### Parameters
 
@@ -14828,11 +15786,43 @@ Defined in: [helper/EntityHelper.ts:104](https://github.com/Orb-Workshop/scripte
 
 [`EntityHelper`](#abstract-entityhelper).[`On`](#on-1)
 
+##### OnKilled()
+
+> **OnKilled**(`callback`): [`LogicRelay`](#logicrelay)
+
+Defined in: [src/helper/LogicRelay.ts:65](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/LogicRelay.ts#L65)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `callback` | `ConnectOutputCallback` |
+
+###### Returns
+
+[`LogicRelay`](#logicrelay)
+
+##### OnSpawn()
+
+> **OnSpawn**(`callback`): [`LogicRelay`](#logicrelay)
+
+Defined in: [src/helper/LogicRelay.ts:69](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/LogicRelay.ts#L69)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `callback` | `ConnectOutputCallback` |
+
+###### Returns
+
+[`LogicRelay`](#logicrelay)
+
 ##### OnTrigger()
 
 > **OnTrigger**(`callback`): [`LogicRelay`](#logicrelay)
 
-Defined in: [helper/LogicRelay.ts:61](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/LogicRelay.ts#L61)
+Defined in: [src/helper/LogicRelay.ts:61](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/LogicRelay.ts#L61)
 
 ###### Parameters
 
@@ -14848,7 +15838,7 @@ Defined in: [helper/LogicRelay.ts:61](https://github.com/Orb-Workshop/scriptedeu
 
 > **Remove**(): `void`
 
-Defined in: [helper/EntityHelper.ts:238](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L238)
+Defined in: [src/helper/EntityHelper.ts:238](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L238)
 
 ###### Returns
 
@@ -14862,7 +15852,7 @@ Defined in: [helper/EntityHelper.ts:238](https://github.com/Orb-Workshop/scripte
 
 > **SetEntityName**(`s`): `void`
 
-Defined in: [helper/EntityHelper.ts:162](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L162)
+Defined in: [src/helper/EntityHelper.ts:162](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L162)
 
 ###### Parameters
 
@@ -14882,7 +15872,7 @@ Defined in: [helper/EntityHelper.ts:162](https://github.com/Orb-Workshop/scripte
 
 > **SetHealth**(`hp`): `void`
 
-Defined in: [helper/EntityHelper.ts:190](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L190)
+Defined in: [src/helper/EntityHelper.ts:190](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L190)
 
 ###### Parameters
 
@@ -14902,7 +15892,7 @@ Defined in: [helper/EntityHelper.ts:190](https://github.com/Orb-Workshop/scripte
 
 > **SetMaxHealth**(`hp`): `void`
 
-Defined in: [helper/EntityHelper.ts:202](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L202)
+Defined in: [src/helper/EntityHelper.ts:202](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L202)
 
 ###### Parameters
 
@@ -14922,7 +15912,7 @@ Defined in: [helper/EntityHelper.ts:202](https://github.com/Orb-Workshop/scripte
 
 > **SetOwner**(`e`): `void`
 
-Defined in: [helper/EntityHelper.ts:170](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L170)
+Defined in: [src/helper/EntityHelper.ts:170](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L170)
 
 ###### Parameters
 
@@ -14942,7 +15932,7 @@ Defined in: [helper/EntityHelper.ts:170](https://github.com/Orb-Workshop/scripte
 
 > **SetParent**(`e`): `void`
 
-Defined in: [helper/EntityHelper.ts:178](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L178)
+Defined in: [src/helper/EntityHelper.ts:178](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L178)
 
 ###### Parameters
 
@@ -14962,7 +15952,7 @@ Defined in: [helper/EntityHelper.ts:178](https://github.com/Orb-Workshop/scripte
 
 > **TakeDamage**(`__namedParameters`): `number`
 
-Defined in: [helper/EntityHelper.ts:222](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L222)
+Defined in: [src/helper/EntityHelper.ts:222](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L222)
 
 ###### Parameters
 
@@ -14986,7 +15976,7 @@ Defined in: [helper/EntityHelper.ts:222](https://github.com/Orb-Workshop/scripte
 
 > **Teleport**(`__namedParameters`): `void`
 
-Defined in: [helper/EntityHelper.ts:150](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L150)
+Defined in: [src/helper/EntityHelper.ts:150](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L150)
 
 ###### Parameters
 
@@ -15009,7 +15999,7 @@ Defined in: [helper/EntityHelper.ts:150](https://github.com/Orb-Workshop/scripte
 
 > **Toggle**(`opts?`): `void`
 
-Defined in: [helper/LogicRelay.ts:48](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/LogicRelay.ts#L48)
+Defined in: [src/helper/LogicRelay.ts:48](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/LogicRelay.ts#L48)
 
 ###### Parameters
 
@@ -15025,7 +16015,7 @@ Defined in: [helper/LogicRelay.ts:48](https://github.com/Orb-Workshop/scriptedeu
 
 > **Trigger**(`opts?`): `void`
 
-Defined in: [helper/LogicRelay.ts:52](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/LogicRelay.ts#L52)
+Defined in: [src/helper/LogicRelay.ts:52](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/LogicRelay.ts#L52)
 
 ###### Parameters
 
@@ -15041,7 +16031,7 @@ Defined in: [helper/LogicRelay.ts:52](https://github.com/Orb-Workshop/scriptedeu
 
 > `static` **Find**(`r`): [`LogicRelay`](#logicrelay)
 
-Defined in: [helper/LogicRelay.ts:28](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/LogicRelay.ts#L28)
+Defined in: [src/helper/LogicRelay.ts:28](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/LogicRelay.ts#L28)
 
 ###### Parameters
 
@@ -15061,7 +16051,7 @@ Defined in: [helper/LogicRelay.ts:28](https://github.com/Orb-Workshop/scriptedeu
 
 > `static` **FindAll**(`r`): [`LogicRelay`](#logicrelay)[]
 
-Defined in: [helper/LogicRelay.ts:33](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/LogicRelay.ts#L33)
+Defined in: [src/helper/LogicRelay.ts:33](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/LogicRelay.ts#L33)
 
 ###### Parameters
 
@@ -15081,7 +16071,7 @@ Defined in: [helper/LogicRelay.ts:33](https://github.com/Orb-Workshop/scriptedeu
 
 > `static` **FindAllByClass**(`classname`, `r`): [`EntityHelper`](#abstract-entityhelper)[]
 
-Defined in: [helper/EntityHelper.ts:52](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L52)
+Defined in: [src/helper/EntityHelper.ts:52](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L52)
 
 ###### Parameters
 
@@ -15102,7 +16092,7 @@ Defined in: [helper/EntityHelper.ts:52](https://github.com/Orb-Workshop/scripted
 
 > `static` **FindByClass**(`classname`, `r`, `error?`): [`EntityHelper`](#abstract-entityhelper) \| `null`
 
-Defined in: [helper/EntityHelper.ts:44](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L44)
+Defined in: [src/helper/EntityHelper.ts:44](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L44)
 
 ###### Parameters
 
@@ -15124,7 +16114,7 @@ Defined in: [helper/EntityHelper.ts:44](https://github.com/Orb-Workshop/scripted
 
 > `static` **From**(`e`): [`LogicRelay`](#logicrelay)
 
-Defined in: [helper/LogicRelay.ts:22](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/LogicRelay.ts#L22)
+Defined in: [src/helper/LogicRelay.ts:22](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/LogicRelay.ts#L22)
 
 ###### Parameters
 
@@ -15138,9 +16128,1076 @@ Defined in: [helper/LogicRelay.ts:22](https://github.com/Orb-Workshop/scriptedeu
 
 ***
 
+### MathCounter
+
+Defined in: [src/helper/MathCounter.ts:17](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/MathCounter.ts#L17)
+
+#### Extends
+
+- [`EntityHelper`](#abstract-entityhelper)
+
+#### Constructors
+
+##### Constructor
+
+> **new MathCounter**(`entity`): [`MathCounter`](#mathcounter)
+
+Defined in: [src/helper/MathCounter.ts:18](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/MathCounter.ts#L18)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `entity` | `Entity` |
+
+###### Returns
+
+[`MathCounter`](#mathcounter)
+
+###### Overrides
+
+[`EntityHelper`](#abstract-entityhelper).[`constructor`](#constructor-1)
+
+#### Accessors
+
+##### raw
+
+###### Get Signature
+
+> **get** **raw**(): `Entity`
+
+Defined in: [src/helper/EntityHelper.ts:57](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L57)
+
+###### Returns
+
+`Entity`
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`raw`](#raw-1)
+
+#### Methods
+
+##### Add()
+
+> **Add**(`value`, `opts?`): `void`
+
+Defined in: [src/helper/MathCounter.ts:48](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/MathCounter.ts#L48)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `value` | `number` |
+| `opts` | \{ \} |
+
+###### Returns
+
+`void`
+
+##### ConnectOutput()
+
+> **ConnectOutput**(`event_name`, `callback`): `void`
+
+Defined in: [src/helper/EntityHelper.ts:95](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L95)
+
+Represents EventListening of IO entities with `this.ConnectOutput`
+TODO: Use Global Events to 'latch onto' the callbacks this method represents.
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `event_name` | `string` |
+| `callback` | `ConnectOutputCallback` |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`ConnectOutput`](#connectoutput-1)
+
+##### Disable()
+
+> **Disable**(`opts?`): `void`
+
+Defined in: [src/helper/MathCounter.ts:44](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/MathCounter.ts#L44)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `opts` | \{ \} |
+
+###### Returns
+
+`void`
+
+##### Divide()
+
+> **Divide**(`value`, `opts?`): `void`
+
+Defined in: [src/helper/MathCounter.ts:60](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/MathCounter.ts#L60)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `value` | `number` |
+| `opts` | \{ \} |
+
+###### Returns
+
+`void`
+
+##### Enable()
+
+> **Enable**(`opts?`): `void`
+
+Defined in: [src/helper/MathCounter.ts:40](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/MathCounter.ts#L40)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `opts` | \{ \} |
+
+###### Returns
+
+`void`
+
+##### FireIO()
+
+> **FireIO**(`opts?`): `void`
+
+Defined in: [src/helper/EntityHelper.ts:59](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L59)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `opts` | \{ \} |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`FireIO`](#fireio-1)
+
+##### FireUser1()
+
+> **FireUser1**(`opts?`): `void`
+
+Defined in: [src/helper/EntityHelper.ts:68](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L68)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `opts` | \{ \} |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`FireUser1`](#fireuser1-1)
+
+##### FireUser2()
+
+> **FireUser2**(`opts?`): `void`
+
+Defined in: [src/helper/EntityHelper.ts:72](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L72)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `opts` | \{ \} |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`FireUser2`](#fireuser2-1)
+
+##### FireUser3()
+
+> **FireUser3**(`opts?`): `void`
+
+Defined in: [src/helper/EntityHelper.ts:76](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L76)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `opts` | \{ \} |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`FireUser3`](#fireuser3-1)
+
+##### FireUser4()
+
+> **FireUser4**(`opts?`): `void`
+
+Defined in: [src/helper/EntityHelper.ts:80](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L80)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `opts` | \{ \} |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`FireUser4`](#fireuser4-1)
+
+##### GetAbsAngles()
+
+> **GetAbsAngles**(): [`QAngle`](Math.md#qangle)
+
+Defined in: [src/helper/EntityHelper.ts:126](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L126)
+
+###### Returns
+
+[`QAngle`](Math.md#qangle)
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`GetAbsAngles`](#getabsangles-1)
+
+##### GetAbsOrigin()
+
+> **GetAbsOrigin**(): [`Vector3`](Math.md#vector3)
+
+Defined in: [src/helper/EntityHelper.ts:118](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L118)
+
+###### Returns
+
+[`Vector3`](Math.md#vector3)
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`GetAbsOrigin`](#getabsorigin-1)
+
+##### GetAbsVelocity()
+
+> **GetAbsVelocity**(): [`Vector3`](Math.md#vector3)
+
+Defined in: [src/helper/EntityHelper.ts:134](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L134)
+
+###### Returns
+
+[`Vector3`](Math.md#vector3)
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`GetAbsVelocity`](#getabsvelocity-1)
+
+##### GetClassName()
+
+> **GetClassName**(): `string`
+
+Defined in: [src/helper/EntityHelper.ts:154](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L154)
+
+###### Returns
+
+`string`
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`GetClassName`](#getclassname-1)
+
+##### GetEntityName()
+
+> **GetEntityName**(): `string`
+
+Defined in: [src/helper/EntityHelper.ts:158](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L158)
+
+###### Returns
+
+`string`
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`GetEntityName`](#getentityname-1)
+
+##### GetEyeAngles()
+
+> **GetEyeAngles**(): [`QAngle`](Math.md#qangle)
+
+Defined in: [src/helper/EntityHelper.ts:142](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L142)
+
+###### Returns
+
+[`QAngle`](Math.md#qangle)
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`GetEyeAngles`](#geteyeangles-1)
+
+##### GetEyePosition()
+
+> **GetEyePosition**(): [`Vector3`](Math.md#vector3)
+
+Defined in: [src/helper/EntityHelper.ts:146](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L146)
+
+###### Returns
+
+[`Vector3`](Math.md#vector3)
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`GetEyePosition`](#geteyeposition-1)
+
+##### GetGroundEntity()
+
+> **GetGroundEntity**(): `any`
+
+Defined in: [src/helper/EntityHelper.ts:218](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L218)
+
+###### Returns
+
+`any`
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`GetGroundEntity`](#getgroundentity-1)
+
+##### GetHealth()
+
+> **GetHealth**(): `number`
+
+Defined in: [src/helper/EntityHelper.ts:186](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L186)
+
+###### Returns
+
+`number`
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`GetHealth`](#gethealth-1)
+
+##### GetLocalAngles()
+
+> **GetLocalAngles**(): [`QAngle`](Math.md#qangle)
+
+Defined in: [src/helper/EntityHelper.ts:130](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L130)
+
+###### Returns
+
+[`QAngle`](Math.md#qangle)
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`GetLocalAngles`](#getlocalangles-1)
+
+##### GetLocalOrigin()
+
+> **GetLocalOrigin**(): [`Vector3`](Math.md#vector3)
+
+Defined in: [src/helper/EntityHelper.ts:122](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L122)
+
+###### Returns
+
+[`Vector3`](Math.md#vector3)
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`GetLocalOrigin`](#getlocalorigin-1)
+
+##### GetLocalVelocity()
+
+> **GetLocalVelocity**(): [`Vector3`](Math.md#vector3)
+
+Defined in: [src/helper/EntityHelper.ts:138](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L138)
+
+###### Returns
+
+[`Vector3`](Math.md#vector3)
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`GetLocalVelocity`](#getlocalvelocity-1)
+
+##### GetMaxHealth()
+
+> **GetMaxHealth**(): `number`
+
+Defined in: [src/helper/EntityHelper.ts:198](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L198)
+
+###### Returns
+
+`number`
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`GetMaxHealth`](#getmaxhealth-1)
+
+##### GetOwner()
+
+> **GetOwner**(): `any`
+
+Defined in: [src/helper/EntityHelper.ts:166](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L166)
+
+###### Returns
+
+`any`
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`GetOwner`](#getowner-1)
+
+##### GetParent()
+
+> **GetParent**(): `any`
+
+Defined in: [src/helper/EntityHelper.ts:174](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L174)
+
+###### Returns
+
+`any`
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`GetParent`](#getparent-1)
+
+##### GetTeamNumber()
+
+> **GetTeamNumber**(): `number`
+
+Defined in: [src/helper/EntityHelper.ts:182](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L182)
+
+###### Returns
+
+`number`
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`GetTeamNumber`](#getteamnumber-1)
+
+##### GetValue()
+
+> **GetValue**(`opts?`): `void`
+
+Defined in: [src/helper/MathCounter.ts:68](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/MathCounter.ts#L68)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `opts` | \{ \} |
+
+###### Returns
+
+`void`
+
+##### IsAlive()
+
+> **IsAlive**(): `boolean`
+
+Defined in: [src/helper/EntityHelper.ts:210](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L210)
+
+###### Returns
+
+`boolean`
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`IsAlive`](#isalive-1)
+
+##### IsValid()
+
+> **IsValid**(): `boolean`
+
+Defined in: [src/helper/EntityHelper.ts:114](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L114)
+
+###### Returns
+
+`boolean`
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`IsValid`](#isvalid-1)
+
+##### IsWorld()
+
+> **IsWorld**(): `boolean`
+
+Defined in: [src/helper/EntityHelper.ts:214](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L214)
+
+###### Returns
+
+`boolean`
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`IsWorld`](#isworld-1)
+
+##### Kill()
+
+> **Kill**(): `void`
+
+Defined in: [src/helper/EntityHelper.ts:226](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L226)
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`Kill`](#kill-1)
+
+##### KillAll()
+
+> **KillAll**(): `void`
+
+Defined in: [src/helper/EntityHelper.ts:234](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L234)
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`KillAll`](#killall-1)
+
+##### KillHierarchy()
+
+> **KillHierarchy**(`opts?`): `void`
+
+Defined in: [src/helper/EntityHelper.ts:230](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L230)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `opts` | \{ \} |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`KillHierarchy`](#killhierarchy-1)
+
+##### Multiply()
+
+> **Multiply**(`value`, `opts?`): `void`
+
+Defined in: [src/helper/MathCounter.ts:56](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/MathCounter.ts#L56)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `value` | `number` |
+| `opts` | \{ \} |
+
+###### Returns
+
+`void`
+
+##### On()
+
+> **On**(`event_name`, `callback`): [`EntityHelper`](#abstract-entityhelper)
+
+Defined in: [src/helper/EntityHelper.ts:104](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L104)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `event_name` | `string` |
+| `callback` | `ConnectOutputCallback` |
+
+###### Returns
+
+[`EntityHelper`](#abstract-entityhelper)
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`On`](#on-1)
+
+##### OnChangedFromMax()
+
+> **OnChangedFromMax**(`callback`): [`MathCounter`](#mathcounter)
+
+Defined in: [src/helper/MathCounter.ts:106](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/MathCounter.ts#L106)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `callback` | `ConnectOutputCallback` |
+
+###### Returns
+
+[`MathCounter`](#mathcounter)
+
+##### OnChangedFromMin()
+
+> **OnChangedFromMin**(`callback`): [`MathCounter`](#mathcounter)
+
+Defined in: [src/helper/MathCounter.ts:102](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/MathCounter.ts#L102)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `callback` | `ConnectOutputCallback` |
+
+###### Returns
+
+[`MathCounter`](#mathcounter)
+
+##### OnGetValue()
+
+> **OnGetValue**(`callback`): [`MathCounter`](#mathcounter)
+
+Defined in: [src/helper/MathCounter.ts:110](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/MathCounter.ts#L110)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `callback` | `ConnectOutputCallback` |
+
+###### Returns
+
+[`MathCounter`](#mathcounter)
+
+##### OnHitMax()
+
+> **OnHitMax**(`callback`): [`MathCounter`](#mathcounter)
+
+Defined in: [src/helper/MathCounter.ts:98](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/MathCounter.ts#L98)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `callback` | `ConnectOutputCallback` |
+
+###### Returns
+
+[`MathCounter`](#mathcounter)
+
+##### OnHitMin()
+
+> **OnHitMin**(`callback`): [`MathCounter`](#mathcounter)
+
+Defined in: [src/helper/MathCounter.ts:94](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/MathCounter.ts#L94)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `callback` | `ConnectOutputCallback` |
+
+###### Returns
+
+[`MathCounter`](#mathcounter)
+
+##### OnKilled()
+
+> **OnKilled**(`callback`): [`MathCounter`](#mathcounter)
+
+Defined in: [src/helper/MathCounter.ts:86](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/MathCounter.ts#L86)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `callback` | `ConnectOutputCallback` |
+
+###### Returns
+
+[`MathCounter`](#mathcounter)
+
+##### OutValue()
+
+> **OutValue**(`callback`): [`MathCounter`](#mathcounter)
+
+Defined in: [src/helper/MathCounter.ts:90](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/MathCounter.ts#L90)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `callback` | `ConnectOutputCallback` |
+
+###### Returns
+
+[`MathCounter`](#mathcounter)
+
+##### Remove()
+
+> **Remove**(): `void`
+
+Defined in: [src/helper/EntityHelper.ts:238](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L238)
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`Remove`](#remove-1)
+
+##### SetEntityName()
+
+> **SetEntityName**(`s`): `void`
+
+Defined in: [src/helper/EntityHelper.ts:162](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L162)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `s` | `string` |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`SetEntityName`](#setentityname-1)
+
+##### SetHealth()
+
+> **SetHealth**(`hp`): `void`
+
+Defined in: [src/helper/EntityHelper.ts:190](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L190)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `hp` | `number` |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`SetHealth`](#sethealth-1)
+
+##### SetHitMax()
+
+> **SetHitMax**(`value`, `opts?`): `void`
+
+Defined in: [src/helper/MathCounter.ts:76](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/MathCounter.ts#L76)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `value` | `number` |
+| `opts` | \{ \} |
+
+###### Returns
+
+`void`
+
+##### SetHitMin()
+
+> **SetHitMin**(`value`, `opts?`): `void`
+
+Defined in: [src/helper/MathCounter.ts:80](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/MathCounter.ts#L80)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `value` | `number` |
+| `opts` | \{ \} |
+
+###### Returns
+
+`void`
+
+##### SetMaxHealth()
+
+> **SetMaxHealth**(`hp`): `void`
+
+Defined in: [src/helper/EntityHelper.ts:202](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L202)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `hp` | `number` |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`SetMaxHealth`](#setmaxhealth-1)
+
+##### SetOwner()
+
+> **SetOwner**(`e`): `void`
+
+Defined in: [src/helper/EntityHelper.ts:170](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L170)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `e` | `Entity` |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`SetOwner`](#setowner-1)
+
+##### SetParent()
+
+> **SetParent**(`e`): `void`
+
+Defined in: [src/helper/EntityHelper.ts:178](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L178)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `e` | `Entity` |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`SetParent`](#setparent-1)
+
+##### SetValue()
+
+> **SetValue**(`value`, `opts?`): `void`
+
+Defined in: [src/helper/MathCounter.ts:64](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/MathCounter.ts#L64)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `value` | `number` |
+| `opts` | \{ \} |
+
+###### Returns
+
+`void`
+
+##### SetValueNoFire()
+
+> **SetValueNoFire**(`value`, `opts?`): `void`
+
+Defined in: [src/helper/MathCounter.ts:72](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/MathCounter.ts#L72)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `value` | `number` |
+| `opts` | \{ \} |
+
+###### Returns
+
+`void`
+
+##### Subtract()
+
+> **Subtract**(`value`, `opts?`): `void`
+
+Defined in: [src/helper/MathCounter.ts:52](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/MathCounter.ts#L52)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `value` | `number` |
+| `opts` | \{ \} |
+
+###### Returns
+
+`void`
+
+##### TakeDamage()
+
+> **TakeDamage**(`__namedParameters`): `number`
+
+Defined in: [src/helper/EntityHelper.ts:222](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L222)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `__namedParameters` | \{ `attacker`: `any`; `damage`: `any`; `inflictor`: `any`; `weapon`: `any`; \} |
+| `__namedParameters.attacker` | `any` |
+| `__namedParameters.damage` | `any` |
+| `__namedParameters.inflictor` | `any` |
+| `__namedParameters.weapon` | `any` |
+
+###### Returns
+
+`number`
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`TakeDamage`](#takedamage-1)
+
+##### Teleport()
+
+> **Teleport**(`__namedParameters`): `void`
+
+Defined in: [src/helper/EntityHelper.ts:150](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L150)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `__namedParameters` | \{ `position`: `any`; `rotation`: `any`; `velocity`: `any`; \} |
+| `__namedParameters.position` | `any` |
+| `__namedParameters.rotation` | `any` |
+| `__namedParameters.velocity` | `any` |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`Teleport`](#teleport-1)
+
+##### Find()
+
+> `static` **Find**(`r`): [`MathCounter`](#mathcounter)
+
+Defined in: [src/helper/MathCounter.ts:28](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/MathCounter.ts#L28)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `r` | `string` \| `RegExp` |
+
+###### Returns
+
+[`MathCounter`](#mathcounter)
+
+###### Overrides
+
+[`EntityHelper`](#abstract-entityhelper).[`Find`](#find-1)
+
+##### FindAll()
+
+> `static` **FindAll**(`r`): [`MathCounter`](#mathcounter)[]
+
+Defined in: [src/helper/MathCounter.ts:33](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/MathCounter.ts#L33)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `r` | `string` \| `RegExp` |
+
+###### Returns
+
+[`MathCounter`](#mathcounter)[]
+
+###### Overrides
+
+[`EntityHelper`](#abstract-entityhelper).[`FindAll`](#findall-1)
+
+##### FindAllByClass()
+
+> `static` **FindAllByClass**(`classname`, `r`): [`EntityHelper`](#abstract-entityhelper)[]
+
+Defined in: [src/helper/EntityHelper.ts:52](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L52)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `classname` | `string` |
+| `r` | `string` \| `RegExp` |
+
+###### Returns
+
+[`EntityHelper`](#abstract-entityhelper)[]
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`FindAllByClass`](#findallbyclass-1)
+
+##### FindByClass()
+
+> `static` **FindByClass**(`classname`, `r`, `error?`): [`EntityHelper`](#abstract-entityhelper) \| `null`
+
+Defined in: [src/helper/EntityHelper.ts:44](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L44)
+
+###### Parameters
+
+| Parameter | Type | Default value |
+| ------ | ------ | ------ |
+| `classname` | `string` | `undefined` |
+| `r` | `string` \| `RegExp` | `undefined` |
+| `error` | `boolean` | `false` |
+
+###### Returns
+
+[`EntityHelper`](#abstract-entityhelper) \| `null`
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`FindByClass`](#findbyclass-1)
+
+##### From()
+
+> `static` **From**(`e`): [`MathCounter`](#mathcounter)
+
+Defined in: [src/helper/MathCounter.ts:22](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/MathCounter.ts#L22)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `e` | `Entity` |
+
+###### Returns
+
+[`MathCounter`](#mathcounter)
+
+***
+
 ### MoveableSoundEvent
 
-Defined in: [helper/MoveableSoundEvent.ts:8](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/MoveableSoundEvent.ts#L8)
+Defined in: [src/helper/MoveableSoundEvent.ts:8](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/MoveableSoundEvent.ts#L8)
 
 Wraps the sound event template.
 
@@ -15154,7 +17211,7 @@ Wraps the sound event template.
 
 > **new MoveableSoundEvent**(`empty_prop_dynamic_entity`, `sound_event_entity`): [`MoveableSoundEvent`](#moveablesoundevent)
 
-Defined in: [helper/MoveableSoundEvent.ts:10](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/MoveableSoundEvent.ts#L10)
+Defined in: [src/helper/MoveableSoundEvent.ts:10](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/MoveableSoundEvent.ts#L10)
 
 ###### Parameters
 
@@ -15169,7 +17226,7 @@ Defined in: [helper/MoveableSoundEvent.ts:10](https://github.com/Orb-Workshop/sc
 
 ###### Overrides
 
-[`EntityHelper`](#abstract-entityhelper).[`constructor`](#constructor-2)
+[`EntityHelper`](#abstract-entityhelper).[`constructor`](#constructor-1)
 
 #### Accessors
 
@@ -15179,7 +17236,7 @@ Defined in: [helper/MoveableSoundEvent.ts:10](https://github.com/Orb-Workshop/sc
 
 > **get** **raw**(): `Entity`
 
-Defined in: [helper/EntityHelper.ts:57](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L57)
+Defined in: [src/helper/EntityHelper.ts:57](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L57)
 
 ###### Returns
 
@@ -15195,7 +17252,7 @@ Defined in: [helper/EntityHelper.ts:57](https://github.com/Orb-Workshop/scripted
 
 > **ConnectOutput**(`event_name`, `callback`): `void`
 
-Defined in: [helper/EntityHelper.ts:95](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L95)
+Defined in: [src/helper/EntityHelper.ts:95](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L95)
 
 Represents EventListening of IO entities with `this.ConnectOutput`
 TODO: Use Global Events to 'latch onto' the callbacks this method represents.
@@ -15219,7 +17276,7 @@ TODO: Use Global Events to 'latch onto' the callbacks this method represents.
 
 > **FireIO**(`opts?`): `void`
 
-Defined in: [helper/EntityHelper.ts:59](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L59)
+Defined in: [src/helper/EntityHelper.ts:59](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L59)
 
 ###### Parameters
 
@@ -15239,7 +17296,7 @@ Defined in: [helper/EntityHelper.ts:59](https://github.com/Orb-Workshop/scripted
 
 > **FireUser1**(`opts?`): `void`
 
-Defined in: [helper/EntityHelper.ts:68](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L68)
+Defined in: [src/helper/EntityHelper.ts:68](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L68)
 
 ###### Parameters
 
@@ -15259,7 +17316,7 @@ Defined in: [helper/EntityHelper.ts:68](https://github.com/Orb-Workshop/scripted
 
 > **FireUser2**(`opts?`): `void`
 
-Defined in: [helper/EntityHelper.ts:72](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L72)
+Defined in: [src/helper/EntityHelper.ts:72](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L72)
 
 ###### Parameters
 
@@ -15279,7 +17336,7 @@ Defined in: [helper/EntityHelper.ts:72](https://github.com/Orb-Workshop/scripted
 
 > **FireUser3**(`opts?`): `void`
 
-Defined in: [helper/EntityHelper.ts:76](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L76)
+Defined in: [src/helper/EntityHelper.ts:76](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L76)
 
 ###### Parameters
 
@@ -15299,7 +17356,7 @@ Defined in: [helper/EntityHelper.ts:76](https://github.com/Orb-Workshop/scripted
 
 > **FireUser4**(`opts?`): `void`
 
-Defined in: [helper/EntityHelper.ts:80](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L80)
+Defined in: [src/helper/EntityHelper.ts:80](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L80)
 
 ###### Parameters
 
@@ -15319,7 +17376,7 @@ Defined in: [helper/EntityHelper.ts:80](https://github.com/Orb-Workshop/scripted
 
 > **GetAbsAngles**(): [`QAngle`](Math.md#qangle)
 
-Defined in: [helper/EntityHelper.ts:126](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L126)
+Defined in: [src/helper/EntityHelper.ts:126](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L126)
 
 ###### Returns
 
@@ -15333,7 +17390,7 @@ Defined in: [helper/EntityHelper.ts:126](https://github.com/Orb-Workshop/scripte
 
 > **GetAbsOrigin**(): [`Vector3`](Math.md#vector3)
 
-Defined in: [helper/EntityHelper.ts:118](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L118)
+Defined in: [src/helper/EntityHelper.ts:118](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L118)
 
 ###### Returns
 
@@ -15347,7 +17404,7 @@ Defined in: [helper/EntityHelper.ts:118](https://github.com/Orb-Workshop/scripte
 
 > **GetAbsVelocity**(): [`Vector3`](Math.md#vector3)
 
-Defined in: [helper/EntityHelper.ts:134](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L134)
+Defined in: [src/helper/EntityHelper.ts:134](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L134)
 
 ###### Returns
 
@@ -15361,7 +17418,7 @@ Defined in: [helper/EntityHelper.ts:134](https://github.com/Orb-Workshop/scripte
 
 > **GetClassName**(): `string`
 
-Defined in: [helper/EntityHelper.ts:154](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L154)
+Defined in: [src/helper/EntityHelper.ts:154](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L154)
 
 ###### Returns
 
@@ -15375,7 +17432,7 @@ Defined in: [helper/EntityHelper.ts:154](https://github.com/Orb-Workshop/scripte
 
 > **GetEntityName**(): `string`
 
-Defined in: [helper/EntityHelper.ts:158](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L158)
+Defined in: [src/helper/EntityHelper.ts:158](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L158)
 
 ###### Returns
 
@@ -15389,7 +17446,7 @@ Defined in: [helper/EntityHelper.ts:158](https://github.com/Orb-Workshop/scripte
 
 > **GetEyeAngles**(): [`QAngle`](Math.md#qangle)
 
-Defined in: [helper/EntityHelper.ts:142](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L142)
+Defined in: [src/helper/EntityHelper.ts:142](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L142)
 
 ###### Returns
 
@@ -15403,7 +17460,7 @@ Defined in: [helper/EntityHelper.ts:142](https://github.com/Orb-Workshop/scripte
 
 > **GetEyePosition**(): [`Vector3`](Math.md#vector3)
 
-Defined in: [helper/EntityHelper.ts:146](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L146)
+Defined in: [src/helper/EntityHelper.ts:146](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L146)
 
 ###### Returns
 
@@ -15417,7 +17474,7 @@ Defined in: [helper/EntityHelper.ts:146](https://github.com/Orb-Workshop/scripte
 
 > **GetGroundEntity**(): `any`
 
-Defined in: [helper/EntityHelper.ts:218](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L218)
+Defined in: [src/helper/EntityHelper.ts:218](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L218)
 
 ###### Returns
 
@@ -15431,7 +17488,7 @@ Defined in: [helper/EntityHelper.ts:218](https://github.com/Orb-Workshop/scripte
 
 > **GetHealth**(): `number`
 
-Defined in: [helper/EntityHelper.ts:186](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L186)
+Defined in: [src/helper/EntityHelper.ts:186](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L186)
 
 ###### Returns
 
@@ -15445,7 +17502,7 @@ Defined in: [helper/EntityHelper.ts:186](https://github.com/Orb-Workshop/scripte
 
 > **GetLocalAngles**(): [`QAngle`](Math.md#qangle)
 
-Defined in: [helper/EntityHelper.ts:130](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L130)
+Defined in: [src/helper/EntityHelper.ts:130](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L130)
 
 ###### Returns
 
@@ -15459,7 +17516,7 @@ Defined in: [helper/EntityHelper.ts:130](https://github.com/Orb-Workshop/scripte
 
 > **GetLocalOrigin**(): [`Vector3`](Math.md#vector3)
 
-Defined in: [helper/EntityHelper.ts:122](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L122)
+Defined in: [src/helper/EntityHelper.ts:122](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L122)
 
 ###### Returns
 
@@ -15473,7 +17530,7 @@ Defined in: [helper/EntityHelper.ts:122](https://github.com/Orb-Workshop/scripte
 
 > **GetLocalVelocity**(): [`Vector3`](Math.md#vector3)
 
-Defined in: [helper/EntityHelper.ts:138](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L138)
+Defined in: [src/helper/EntityHelper.ts:138](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L138)
 
 ###### Returns
 
@@ -15487,7 +17544,7 @@ Defined in: [helper/EntityHelper.ts:138](https://github.com/Orb-Workshop/scripte
 
 > **GetMaxHealth**(): `number`
 
-Defined in: [helper/EntityHelper.ts:198](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L198)
+Defined in: [src/helper/EntityHelper.ts:198](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L198)
 
 ###### Returns
 
@@ -15501,7 +17558,7 @@ Defined in: [helper/EntityHelper.ts:198](https://github.com/Orb-Workshop/scripte
 
 > **GetOwner**(): `any`
 
-Defined in: [helper/EntityHelper.ts:166](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L166)
+Defined in: [src/helper/EntityHelper.ts:166](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L166)
 
 ###### Returns
 
@@ -15515,7 +17572,7 @@ Defined in: [helper/EntityHelper.ts:166](https://github.com/Orb-Workshop/scripte
 
 > **GetParent**(): `any`
 
-Defined in: [helper/EntityHelper.ts:174](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L174)
+Defined in: [src/helper/EntityHelper.ts:174](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L174)
 
 ###### Returns
 
@@ -15529,7 +17586,7 @@ Defined in: [helper/EntityHelper.ts:174](https://github.com/Orb-Workshop/scripte
 
 > **GetTeamNumber**(): `number`
 
-Defined in: [helper/EntityHelper.ts:182](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L182)
+Defined in: [src/helper/EntityHelper.ts:182](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L182)
 
 ###### Returns
 
@@ -15543,7 +17600,7 @@ Defined in: [helper/EntityHelper.ts:182](https://github.com/Orb-Workshop/scripte
 
 > **IsAlive**(): `boolean`
 
-Defined in: [helper/EntityHelper.ts:210](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L210)
+Defined in: [src/helper/EntityHelper.ts:210](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L210)
 
 ###### Returns
 
@@ -15557,7 +17614,7 @@ Defined in: [helper/EntityHelper.ts:210](https://github.com/Orb-Workshop/scripte
 
 > **IsValid**(): `boolean`
 
-Defined in: [helper/EntityHelper.ts:114](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L114)
+Defined in: [src/helper/EntityHelper.ts:114](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L114)
 
 ###### Returns
 
@@ -15571,7 +17628,7 @@ Defined in: [helper/EntityHelper.ts:114](https://github.com/Orb-Workshop/scripte
 
 > **IsWorld**(): `boolean`
 
-Defined in: [helper/EntityHelper.ts:214](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L214)
+Defined in: [src/helper/EntityHelper.ts:214](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L214)
 
 ###### Returns
 
@@ -15585,7 +17642,7 @@ Defined in: [helper/EntityHelper.ts:214](https://github.com/Orb-Workshop/scripte
 
 > **Kill**(): `void`
 
-Defined in: [helper/EntityHelper.ts:226](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L226)
+Defined in: [src/helper/EntityHelper.ts:226](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L226)
 
 ###### Returns
 
@@ -15599,7 +17656,7 @@ Defined in: [helper/EntityHelper.ts:226](https://github.com/Orb-Workshop/scripte
 
 > **KillAll**(): `void`
 
-Defined in: [helper/EntityHelper.ts:234](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L234)
+Defined in: [src/helper/EntityHelper.ts:234](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L234)
 
 ###### Returns
 
@@ -15613,7 +17670,7 @@ Defined in: [helper/EntityHelper.ts:234](https://github.com/Orb-Workshop/scripte
 
 > **KillHierarchy**(`opts?`): `void`
 
-Defined in: [helper/EntityHelper.ts:230](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L230)
+Defined in: [src/helper/EntityHelper.ts:230](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L230)
 
 ###### Parameters
 
@@ -15633,7 +17690,7 @@ Defined in: [helper/EntityHelper.ts:230](https://github.com/Orb-Workshop/scripte
 
 > **On**(`event_name`, `callback`): [`EntityHelper`](#abstract-entityhelper)
 
-Defined in: [helper/EntityHelper.ts:104](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L104)
+Defined in: [src/helper/EntityHelper.ts:104](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L104)
 
 ###### Parameters
 
@@ -15654,7 +17711,7 @@ Defined in: [helper/EntityHelper.ts:104](https://github.com/Orb-Workshop/scripte
 
 > **Remove**(): `void`
 
-Defined in: [helper/EntityHelper.ts:238](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L238)
+Defined in: [src/helper/EntityHelper.ts:238](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L238)
 
 ###### Returns
 
@@ -15668,7 +17725,7 @@ Defined in: [helper/EntityHelper.ts:238](https://github.com/Orb-Workshop/scripte
 
 > **SetEntityName**(`s`): `void`
 
-Defined in: [helper/EntityHelper.ts:162](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L162)
+Defined in: [src/helper/EntityHelper.ts:162](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L162)
 
 ###### Parameters
 
@@ -15688,7 +17745,7 @@ Defined in: [helper/EntityHelper.ts:162](https://github.com/Orb-Workshop/scripte
 
 > **SetHealth**(`hp`): `void`
 
-Defined in: [helper/EntityHelper.ts:190](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L190)
+Defined in: [src/helper/EntityHelper.ts:190](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L190)
 
 ###### Parameters
 
@@ -15708,7 +17765,7 @@ Defined in: [helper/EntityHelper.ts:190](https://github.com/Orb-Workshop/scripte
 
 > **SetMaxHealth**(`hp`): `void`
 
-Defined in: [helper/EntityHelper.ts:202](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L202)
+Defined in: [src/helper/EntityHelper.ts:202](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L202)
 
 ###### Parameters
 
@@ -15728,7 +17785,7 @@ Defined in: [helper/EntityHelper.ts:202](https://github.com/Orb-Workshop/scripte
 
 > **SetOwner**(`e`): `void`
 
-Defined in: [helper/EntityHelper.ts:170](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L170)
+Defined in: [src/helper/EntityHelper.ts:170](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L170)
 
 ###### Parameters
 
@@ -15748,7 +17805,7 @@ Defined in: [helper/EntityHelper.ts:170](https://github.com/Orb-Workshop/scripte
 
 > **SetParent**(`e`): `void`
 
-Defined in: [helper/EntityHelper.ts:178](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L178)
+Defined in: [src/helper/EntityHelper.ts:178](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L178)
 
 ###### Parameters
 
@@ -15768,7 +17825,7 @@ Defined in: [helper/EntityHelper.ts:178](https://github.com/Orb-Workshop/scripte
 
 > **SetSoundEventName**(`soundevent_name`, `opts`): `void`
 
-Defined in: [helper/MoveableSoundEvent.ts:21](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/MoveableSoundEvent.ts#L21)
+Defined in: [src/helper/MoveableSoundEvent.ts:21](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/MoveableSoundEvent.ts#L21)
 
 ###### Parameters
 
@@ -15785,7 +17842,7 @@ Defined in: [helper/MoveableSoundEvent.ts:21](https://github.com/Orb-Workshop/sc
 
 > **StartSound**(`opts`): `void`
 
-Defined in: [helper/MoveableSoundEvent.ts:25](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/MoveableSoundEvent.ts#L25)
+Defined in: [src/helper/MoveableSoundEvent.ts:25](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/MoveableSoundEvent.ts#L25)
 
 ###### Parameters
 
@@ -15801,7 +17858,7 @@ Defined in: [helper/MoveableSoundEvent.ts:25](https://github.com/Orb-Workshop/sc
 
 > **StopSound**(`opts`): `void`
 
-Defined in: [helper/MoveableSoundEvent.ts:29](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/MoveableSoundEvent.ts#L29)
+Defined in: [src/helper/MoveableSoundEvent.ts:29](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/MoveableSoundEvent.ts#L29)
 
 ###### Parameters
 
@@ -15817,7 +17874,7 @@ Defined in: [helper/MoveableSoundEvent.ts:29](https://github.com/Orb-Workshop/sc
 
 > **TakeDamage**(`__namedParameters`): `number`
 
-Defined in: [helper/EntityHelper.ts:222](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L222)
+Defined in: [src/helper/EntityHelper.ts:222](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L222)
 
 ###### Parameters
 
@@ -15841,7 +17898,7 @@ Defined in: [helper/EntityHelper.ts:222](https://github.com/Orb-Workshop/scripte
 
 > **Teleport**(`__namedParameters`): `void`
 
-Defined in: [helper/EntityHelper.ts:150](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L150)
+Defined in: [src/helper/EntityHelper.ts:150](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L150)
 
 ###### Parameters
 
@@ -15864,7 +17921,7 @@ Defined in: [helper/EntityHelper.ts:150](https://github.com/Orb-Workshop/scripte
 
 > `abstract` `static` **Find**\<`T`\>(`r`): `T`
 
-Defined in: [helper/EntityHelper.ts:34](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L34)
+Defined in: [src/helper/EntityHelper.ts:34](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L34)
 
 ###### Type Parameters
 
@@ -15890,7 +17947,7 @@ Defined in: [helper/EntityHelper.ts:34](https://github.com/Orb-Workshop/scripted
 
 > `abstract` `static` **FindAll**\<`T`\>(`r`): `T`[]
 
-Defined in: [helper/EntityHelper.ts:39](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L39)
+Defined in: [src/helper/EntityHelper.ts:39](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L39)
 
 ###### Type Parameters
 
@@ -15916,7 +17973,7 @@ Defined in: [helper/EntityHelper.ts:39](https://github.com/Orb-Workshop/scripted
 
 > `static` **FindAllByClass**(`classname`, `r`): [`EntityHelper`](#abstract-entityhelper)[]
 
-Defined in: [helper/EntityHelper.ts:52](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L52)
+Defined in: [src/helper/EntityHelper.ts:52](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L52)
 
 ###### Parameters
 
@@ -15937,7 +17994,7 @@ Defined in: [helper/EntityHelper.ts:52](https://github.com/Orb-Workshop/scripted
 
 > `static` **FindByClass**(`classname`, `r`, `error?`): [`EntityHelper`](#abstract-entityhelper) \| `null`
 
-Defined in: [helper/EntityHelper.ts:44](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L44)
+Defined in: [src/helper/EntityHelper.ts:44](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L44)
 
 ###### Parameters
 
@@ -15959,7 +18016,7 @@ Defined in: [helper/EntityHelper.ts:44](https://github.com/Orb-Workshop/scripted
 
 > `static` **Spawn**(`soundevent_name`, `position?`): [`MoveableSoundEvent`](#moveablesoundevent)
 
-Defined in: [helper/MoveableSoundEvent.ts:15](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/MoveableSoundEvent.ts#L15)
+Defined in: [src/helper/MoveableSoundEvent.ts:15](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/MoveableSoundEvent.ts#L15)
 
 ###### Parameters
 
@@ -15976,7 +18033,7 @@ Defined in: [helper/MoveableSoundEvent.ts:15](https://github.com/Orb-Workshop/sc
 
 ### PathTrack
 
-Defined in: [helper/PathTrack.ts:20](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PathTrack.ts#L20)
+Defined in: [src/helper/PathTrack.ts:20](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PathTrack.ts#L20)
 
 #### Extends
 
@@ -15988,7 +18045,7 @@ Defined in: [helper/PathTrack.ts:20](https://github.com/Orb-Workshop/scriptedeuc
 
 > **new PathTrack**(`entity`): [`PathTrack`](#pathtrack)
 
-Defined in: [helper/PathTrack.ts:21](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PathTrack.ts#L21)
+Defined in: [src/helper/PathTrack.ts:21](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PathTrack.ts#L21)
 
 ###### Parameters
 
@@ -16012,7 +18069,7 @@ Defined in: [helper/PathTrack.ts:21](https://github.com/Orb-Workshop/scriptedeuc
 
 > **get** **raw**(): `Entity`
 
-Defined in: [helper/EntityHelper.ts:57](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L57)
+Defined in: [src/helper/EntityHelper.ts:57](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L57)
 
 ###### Returns
 
@@ -16028,7 +18085,7 @@ Defined in: [helper/EntityHelper.ts:57](https://github.com/Orb-Workshop/scripted
 
 > **ConnectOutput**(`event_name`, `callback`): `void`
 
-Defined in: [helper/EntityHelper.ts:95](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L95)
+Defined in: [src/helper/EntityHelper.ts:95](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L95)
 
 Represents EventListening of IO entities with `this.ConnectOutput`
 TODO: Use Global Events to 'latch onto' the callbacks this method represents.
@@ -16052,7 +18109,7 @@ TODO: Use Global Events to 'latch onto' the callbacks this method represents.
 
 > **DisableAlternatePath**(`opts?`): `void`
 
-Defined in: [helper/PathTrack.ts:63](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PathTrack.ts#L63)
+Defined in: [src/helper/PathTrack.ts:63](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PathTrack.ts#L63)
 
 ###### Parameters
 
@@ -16068,7 +18125,7 @@ Defined in: [helper/PathTrack.ts:63](https://github.com/Orb-Workshop/scriptedeuc
 
 > **DisablePath**(`opts?`): `void`
 
-Defined in: [helper/PathTrack.ts:51](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PathTrack.ts#L51)
+Defined in: [src/helper/PathTrack.ts:51](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PathTrack.ts#L51)
 
 ###### Parameters
 
@@ -16084,7 +18141,7 @@ Defined in: [helper/PathTrack.ts:51](https://github.com/Orb-Workshop/scriptedeuc
 
 > **EnableAlternatePath**(`opts?`): `void`
 
-Defined in: [helper/PathTrack.ts:59](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PathTrack.ts#L59)
+Defined in: [src/helper/PathTrack.ts:59](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PathTrack.ts#L59)
 
 ###### Parameters
 
@@ -16100,7 +18157,7 @@ Defined in: [helper/PathTrack.ts:59](https://github.com/Orb-Workshop/scriptedeuc
 
 > **EnablePath**(`opts?`): `void`
 
-Defined in: [helper/PathTrack.ts:47](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PathTrack.ts#L47)
+Defined in: [src/helper/PathTrack.ts:47](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PathTrack.ts#L47)
 
 ###### Parameters
 
@@ -16116,7 +18173,7 @@ Defined in: [helper/PathTrack.ts:47](https://github.com/Orb-Workshop/scriptedeuc
 
 > **FireIO**(`opts?`): `void`
 
-Defined in: [helper/EntityHelper.ts:59](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L59)
+Defined in: [src/helper/EntityHelper.ts:59](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L59)
 
 ###### Parameters
 
@@ -16136,7 +18193,7 @@ Defined in: [helper/EntityHelper.ts:59](https://github.com/Orb-Workshop/scripted
 
 > **FireUser1**(`opts?`): `void`
 
-Defined in: [helper/EntityHelper.ts:68](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L68)
+Defined in: [src/helper/EntityHelper.ts:68](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L68)
 
 ###### Parameters
 
@@ -16156,7 +18213,7 @@ Defined in: [helper/EntityHelper.ts:68](https://github.com/Orb-Workshop/scripted
 
 > **FireUser2**(`opts?`): `void`
 
-Defined in: [helper/EntityHelper.ts:72](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L72)
+Defined in: [src/helper/EntityHelper.ts:72](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L72)
 
 ###### Parameters
 
@@ -16176,7 +18233,7 @@ Defined in: [helper/EntityHelper.ts:72](https://github.com/Orb-Workshop/scripted
 
 > **FireUser3**(`opts?`): `void`
 
-Defined in: [helper/EntityHelper.ts:76](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L76)
+Defined in: [src/helper/EntityHelper.ts:76](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L76)
 
 ###### Parameters
 
@@ -16196,7 +18253,7 @@ Defined in: [helper/EntityHelper.ts:76](https://github.com/Orb-Workshop/scripted
 
 > **FireUser4**(`opts?`): `void`
 
-Defined in: [helper/EntityHelper.ts:80](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L80)
+Defined in: [src/helper/EntityHelper.ts:80](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L80)
 
 ###### Parameters
 
@@ -16216,7 +18273,7 @@ Defined in: [helper/EntityHelper.ts:80](https://github.com/Orb-Workshop/scripted
 
 > **GetAbsAngles**(): [`QAngle`](Math.md#qangle)
 
-Defined in: [helper/EntityHelper.ts:126](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L126)
+Defined in: [src/helper/EntityHelper.ts:126](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L126)
 
 ###### Returns
 
@@ -16230,7 +18287,7 @@ Defined in: [helper/EntityHelper.ts:126](https://github.com/Orb-Workshop/scripte
 
 > **GetAbsOrigin**(): [`Vector3`](Math.md#vector3)
 
-Defined in: [helper/EntityHelper.ts:118](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L118)
+Defined in: [src/helper/EntityHelper.ts:118](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L118)
 
 ###### Returns
 
@@ -16244,7 +18301,7 @@ Defined in: [helper/EntityHelper.ts:118](https://github.com/Orb-Workshop/scripte
 
 > **GetAbsVelocity**(): [`Vector3`](Math.md#vector3)
 
-Defined in: [helper/EntityHelper.ts:134](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L134)
+Defined in: [src/helper/EntityHelper.ts:134](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L134)
 
 ###### Returns
 
@@ -16258,7 +18315,7 @@ Defined in: [helper/EntityHelper.ts:134](https://github.com/Orb-Workshop/scripte
 
 > **GetClassName**(): `string`
 
-Defined in: [helper/EntityHelper.ts:154](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L154)
+Defined in: [src/helper/EntityHelper.ts:154](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L154)
 
 ###### Returns
 
@@ -16272,7 +18329,7 @@ Defined in: [helper/EntityHelper.ts:154](https://github.com/Orb-Workshop/scripte
 
 > **GetColor**(): `ColorType`
 
-Defined in: [helper/BaseModelEntity.ts:59](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L59)
+Defined in: [src/helper/BaseModelEntity.ts:59](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L59)
 
 ###### Returns
 
@@ -16286,7 +18343,7 @@ Defined in: [helper/BaseModelEntity.ts:59](https://github.com/Orb-Workshop/scrip
 
 > **GetEntityName**(): `string`
 
-Defined in: [helper/EntityHelper.ts:158](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L158)
+Defined in: [src/helper/EntityHelper.ts:158](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L158)
 
 ###### Returns
 
@@ -16300,7 +18357,7 @@ Defined in: [helper/EntityHelper.ts:158](https://github.com/Orb-Workshop/scripte
 
 > **GetEyeAngles**(): [`QAngle`](Math.md#qangle)
 
-Defined in: [helper/EntityHelper.ts:142](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L142)
+Defined in: [src/helper/EntityHelper.ts:142](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L142)
 
 ###### Returns
 
@@ -16314,7 +18371,7 @@ Defined in: [helper/EntityHelper.ts:142](https://github.com/Orb-Workshop/scripte
 
 > **GetEyePosition**(): [`Vector3`](Math.md#vector3)
 
-Defined in: [helper/EntityHelper.ts:146](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L146)
+Defined in: [src/helper/EntityHelper.ts:146](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L146)
 
 ###### Returns
 
@@ -16328,7 +18385,7 @@ Defined in: [helper/EntityHelper.ts:146](https://github.com/Orb-Workshop/scripte
 
 > **GetGroundEntity**(): `any`
 
-Defined in: [helper/EntityHelper.ts:218](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L218)
+Defined in: [src/helper/EntityHelper.ts:218](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L218)
 
 ###### Returns
 
@@ -16342,7 +18399,7 @@ Defined in: [helper/EntityHelper.ts:218](https://github.com/Orb-Workshop/scripte
 
 > **GetHealth**(): `number`
 
-Defined in: [helper/EntityHelper.ts:186](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L186)
+Defined in: [src/helper/EntityHelper.ts:186](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L186)
 
 ###### Returns
 
@@ -16356,7 +18413,7 @@ Defined in: [helper/EntityHelper.ts:186](https://github.com/Orb-Workshop/scripte
 
 > **GetLocalAngles**(): [`QAngle`](Math.md#qangle)
 
-Defined in: [helper/EntityHelper.ts:130](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L130)
+Defined in: [src/helper/EntityHelper.ts:130](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L130)
 
 ###### Returns
 
@@ -16370,7 +18427,7 @@ Defined in: [helper/EntityHelper.ts:130](https://github.com/Orb-Workshop/scripte
 
 > **GetLocalOrigin**(): [`Vector3`](Math.md#vector3)
 
-Defined in: [helper/EntityHelper.ts:122](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L122)
+Defined in: [src/helper/EntityHelper.ts:122](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L122)
 
 ###### Returns
 
@@ -16384,7 +18441,7 @@ Defined in: [helper/EntityHelper.ts:122](https://github.com/Orb-Workshop/scripte
 
 > **GetLocalVelocity**(): [`Vector3`](Math.md#vector3)
 
-Defined in: [helper/EntityHelper.ts:138](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L138)
+Defined in: [src/helper/EntityHelper.ts:138](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L138)
 
 ###### Returns
 
@@ -16398,7 +18455,7 @@ Defined in: [helper/EntityHelper.ts:138](https://github.com/Orb-Workshop/scripte
 
 > **GetMaxHealth**(): `number`
 
-Defined in: [helper/EntityHelper.ts:198](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L198)
+Defined in: [src/helper/EntityHelper.ts:198](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L198)
 
 ###### Returns
 
@@ -16412,7 +18469,7 @@ Defined in: [helper/EntityHelper.ts:198](https://github.com/Orb-Workshop/scripte
 
 > **GetModelName**(): `string`
 
-Defined in: [helper/BaseModelEntity.ts:43](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L43)
+Defined in: [src/helper/BaseModelEntity.ts:43](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L43)
 
 ###### Returns
 
@@ -16426,7 +18483,7 @@ Defined in: [helper/BaseModelEntity.ts:43](https://github.com/Orb-Workshop/scrip
 
 > **GetModelScale**(): `string`
 
-Defined in: [helper/BaseModelEntity.ts:51](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L51)
+Defined in: [src/helper/BaseModelEntity.ts:51](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L51)
 
 ###### Returns
 
@@ -16440,7 +18497,7 @@ Defined in: [helper/BaseModelEntity.ts:51](https://github.com/Orb-Workshop/scrip
 
 > **GetOwner**(): `any`
 
-Defined in: [helper/EntityHelper.ts:166](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L166)
+Defined in: [src/helper/EntityHelper.ts:166](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L166)
 
 ###### Returns
 
@@ -16454,7 +18511,7 @@ Defined in: [helper/EntityHelper.ts:166](https://github.com/Orb-Workshop/scripte
 
 > **GetParent**(): `any`
 
-Defined in: [helper/EntityHelper.ts:174](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L174)
+Defined in: [src/helper/EntityHelper.ts:174](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L174)
 
 ###### Returns
 
@@ -16468,7 +18525,7 @@ Defined in: [helper/EntityHelper.ts:174](https://github.com/Orb-Workshop/scripte
 
 > **GetTeamNumber**(): `number`
 
-Defined in: [helper/EntityHelper.ts:182](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L182)
+Defined in: [src/helper/EntityHelper.ts:182](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L182)
 
 ###### Returns
 
@@ -16482,7 +18539,7 @@ Defined in: [helper/EntityHelper.ts:182](https://github.com/Orb-Workshop/scripte
 
 > **Glow**(`color?`): `void`
 
-Defined in: [helper/BaseModelEntity.ts:63](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L63)
+Defined in: [src/helper/BaseModelEntity.ts:63](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L63)
 
 ###### Parameters
 
@@ -16502,7 +18559,7 @@ Defined in: [helper/BaseModelEntity.ts:63](https://github.com/Orb-Workshop/scrip
 
 > **IsAlive**(): `boolean`
 
-Defined in: [helper/EntityHelper.ts:210](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L210)
+Defined in: [src/helper/EntityHelper.ts:210](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L210)
 
 ###### Returns
 
@@ -16516,7 +18573,7 @@ Defined in: [helper/EntityHelper.ts:210](https://github.com/Orb-Workshop/scripte
 
 > **IsGlowing**(): `boolean`
 
-Defined in: [helper/BaseModelEntity.ts:71](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L71)
+Defined in: [src/helper/BaseModelEntity.ts:71](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L71)
 
 ###### Returns
 
@@ -16530,7 +18587,7 @@ Defined in: [helper/BaseModelEntity.ts:71](https://github.com/Orb-Workshop/scrip
 
 > **IsValid**(): `boolean`
 
-Defined in: [helper/EntityHelper.ts:114](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L114)
+Defined in: [src/helper/EntityHelper.ts:114](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L114)
 
 ###### Returns
 
@@ -16544,7 +18601,7 @@ Defined in: [helper/EntityHelper.ts:114](https://github.com/Orb-Workshop/scripte
 
 > **IsWorld**(): `boolean`
 
-Defined in: [helper/EntityHelper.ts:214](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L214)
+Defined in: [src/helper/EntityHelper.ts:214](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L214)
 
 ###### Returns
 
@@ -16558,7 +18615,7 @@ Defined in: [helper/EntityHelper.ts:214](https://github.com/Orb-Workshop/scripte
 
 > **Kill**(): `void`
 
-Defined in: [helper/EntityHelper.ts:226](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L226)
+Defined in: [src/helper/EntityHelper.ts:226](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L226)
 
 ###### Returns
 
@@ -16572,7 +18629,7 @@ Defined in: [helper/EntityHelper.ts:226](https://github.com/Orb-Workshop/scripte
 
 > **KillAll**(): `void`
 
-Defined in: [helper/EntityHelper.ts:234](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L234)
+Defined in: [src/helper/EntityHelper.ts:234](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L234)
 
 ###### Returns
 
@@ -16586,7 +18643,7 @@ Defined in: [helper/EntityHelper.ts:234](https://github.com/Orb-Workshop/scripte
 
 > **KillHierarchy**(`opts?`): `void`
 
-Defined in: [helper/EntityHelper.ts:230](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L230)
+Defined in: [src/helper/EntityHelper.ts:230](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L230)
 
 ###### Parameters
 
@@ -16606,7 +18663,7 @@ Defined in: [helper/EntityHelper.ts:230](https://github.com/Orb-Workshop/scripte
 
 > **On**(`event_name`, `callback`): [`EntityHelper`](#abstract-entityhelper)
 
-Defined in: [helper/EntityHelper.ts:104](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L104)
+Defined in: [src/helper/EntityHelper.ts:104](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L104)
 
 ###### Parameters
 
@@ -16627,7 +18684,7 @@ Defined in: [helper/EntityHelper.ts:104](https://github.com/Orb-Workshop/scripte
 
 > **OnPass**(`callback`): [`PathTrack`](#pathtrack)
 
-Defined in: [helper/PathTrack.ts:69](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PathTrack.ts#L69)
+Defined in: [src/helper/PathTrack.ts:69](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PathTrack.ts#L69)
 
 ###### Parameters
 
@@ -16643,7 +18700,7 @@ Defined in: [helper/PathTrack.ts:69](https://github.com/Orb-Workshop/scriptedeuc
 
 > **Remove**(): `void`
 
-Defined in: [helper/EntityHelper.ts:238](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L238)
+Defined in: [src/helper/EntityHelper.ts:238](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L238)
 
 ###### Returns
 
@@ -16657,7 +18714,7 @@ Defined in: [helper/EntityHelper.ts:238](https://github.com/Orb-Workshop/scripte
 
 > **SetColor**(`c`): `void`
 
-Defined in: [helper/BaseModelEntity.ts:55](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L55)
+Defined in: [src/helper/BaseModelEntity.ts:55](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L55)
 
 ###### Parameters
 
@@ -16677,7 +18734,7 @@ Defined in: [helper/BaseModelEntity.ts:55](https://github.com/Orb-Workshop/scrip
 
 > **SetEntityName**(`s`): `void`
 
-Defined in: [helper/EntityHelper.ts:162](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L162)
+Defined in: [src/helper/EntityHelper.ts:162](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L162)
 
 ###### Parameters
 
@@ -16697,7 +18754,7 @@ Defined in: [helper/EntityHelper.ts:162](https://github.com/Orb-Workshop/scripte
 
 > **SetHealth**(`hp`): `void`
 
-Defined in: [helper/EntityHelper.ts:190](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L190)
+Defined in: [src/helper/EntityHelper.ts:190](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L190)
 
 ###### Parameters
 
@@ -16717,7 +18774,7 @@ Defined in: [helper/EntityHelper.ts:190](https://github.com/Orb-Workshop/scripte
 
 > **SetMaxHealth**(`hp`): `void`
 
-Defined in: [helper/EntityHelper.ts:202](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L202)
+Defined in: [src/helper/EntityHelper.ts:202](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L202)
 
 ###### Parameters
 
@@ -16737,7 +18794,7 @@ Defined in: [helper/EntityHelper.ts:202](https://github.com/Orb-Workshop/scripte
 
 > **SetModel**(`s`): `void`
 
-Defined in: [helper/BaseModelEntity.ts:39](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L39)
+Defined in: [src/helper/BaseModelEntity.ts:39](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L39)
 
 ###### Parameters
 
@@ -16757,7 +18814,7 @@ Defined in: [helper/BaseModelEntity.ts:39](https://github.com/Orb-Workshop/scrip
 
 > **SetModelScale**(`s`): `void`
 
-Defined in: [helper/BaseModelEntity.ts:47](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L47)
+Defined in: [src/helper/BaseModelEntity.ts:47](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L47)
 
 ###### Parameters
 
@@ -16777,7 +18834,7 @@ Defined in: [helper/BaseModelEntity.ts:47](https://github.com/Orb-Workshop/scrip
 
 > **SetOwner**(`e`): `void`
 
-Defined in: [helper/EntityHelper.ts:170](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L170)
+Defined in: [src/helper/EntityHelper.ts:170](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L170)
 
 ###### Parameters
 
@@ -16797,7 +18854,7 @@ Defined in: [helper/EntityHelper.ts:170](https://github.com/Orb-Workshop/scripte
 
 > **SetParent**(`e`): `void`
 
-Defined in: [helper/EntityHelper.ts:178](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L178)
+Defined in: [src/helper/EntityHelper.ts:178](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L178)
 
 ###### Parameters
 
@@ -16817,7 +18874,7 @@ Defined in: [helper/EntityHelper.ts:178](https://github.com/Orb-Workshop/scripte
 
 > **TakeDamage**(`__namedParameters`): `number`
 
-Defined in: [helper/EntityHelper.ts:222](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L222)
+Defined in: [src/helper/EntityHelper.ts:222](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L222)
 
 ###### Parameters
 
@@ -16841,7 +18898,7 @@ Defined in: [helper/EntityHelper.ts:222](https://github.com/Orb-Workshop/scripte
 
 > **Teleport**(`__namedParameters`): `void`
 
-Defined in: [helper/EntityHelper.ts:150](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L150)
+Defined in: [src/helper/EntityHelper.ts:150](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L150)
 
 ###### Parameters
 
@@ -16864,7 +18921,7 @@ Defined in: [helper/EntityHelper.ts:150](https://github.com/Orb-Workshop/scripte
 
 > **ToggleAlternatePath**(`opts?`): `void`
 
-Defined in: [helper/PathTrack.ts:55](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PathTrack.ts#L55)
+Defined in: [src/helper/PathTrack.ts:55](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PathTrack.ts#L55)
 
 ###### Parameters
 
@@ -16880,7 +18937,7 @@ Defined in: [helper/PathTrack.ts:55](https://github.com/Orb-Workshop/scriptedeuc
 
 > **TogglePath**(`opts?`): `void`
 
-Defined in: [helper/PathTrack.ts:43](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PathTrack.ts#L43)
+Defined in: [src/helper/PathTrack.ts:43](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PathTrack.ts#L43)
 
 ###### Parameters
 
@@ -16896,7 +18953,7 @@ Defined in: [helper/PathTrack.ts:43](https://github.com/Orb-Workshop/scriptedeuc
 
 > **Unglow**(): `void`
 
-Defined in: [helper/BaseModelEntity.ts:67](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L67)
+Defined in: [src/helper/BaseModelEntity.ts:67](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L67)
 
 ###### Returns
 
@@ -16910,7 +18967,7 @@ Defined in: [helper/BaseModelEntity.ts:67](https://github.com/Orb-Workshop/scrip
 
 > `static` **Find**(`r`): [`PathTrack`](#pathtrack)
 
-Defined in: [helper/PathTrack.ts:31](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PathTrack.ts#L31)
+Defined in: [src/helper/PathTrack.ts:31](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PathTrack.ts#L31)
 
 ###### Parameters
 
@@ -16930,7 +18987,7 @@ Defined in: [helper/PathTrack.ts:31](https://github.com/Orb-Workshop/scriptedeuc
 
 > `static` **FindAll**(`r`): [`PathTrack`](#pathtrack)[]
 
-Defined in: [helper/PathTrack.ts:36](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PathTrack.ts#L36)
+Defined in: [src/helper/PathTrack.ts:36](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PathTrack.ts#L36)
 
 ###### Parameters
 
@@ -16950,7 +19007,7 @@ Defined in: [helper/PathTrack.ts:36](https://github.com/Orb-Workshop/scriptedeuc
 
 > `static` **FindAllByClass**(`classname`, `r`): [`EntityHelper`](#abstract-entityhelper)[]
 
-Defined in: [helper/EntityHelper.ts:52](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L52)
+Defined in: [src/helper/EntityHelper.ts:52](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L52)
 
 ###### Parameters
 
@@ -16971,7 +19028,7 @@ Defined in: [helper/EntityHelper.ts:52](https://github.com/Orb-Workshop/scripted
 
 > `static` **FindByClass**(`classname`, `r`, `error?`): [`EntityHelper`](#abstract-entityhelper) \| `null`
 
-Defined in: [helper/EntityHelper.ts:44](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L44)
+Defined in: [src/helper/EntityHelper.ts:44](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L44)
 
 ###### Parameters
 
@@ -16993,7 +19050,7 @@ Defined in: [helper/EntityHelper.ts:44](https://github.com/Orb-Workshop/scripted
 
 > `static` **From**(`e`): [`PathTrack`](#pathtrack)
 
-Defined in: [helper/PathTrack.ts:25](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PathTrack.ts#L25)
+Defined in: [src/helper/PathTrack.ts:25](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PathTrack.ts#L25)
 
 ###### Parameters
 
@@ -17013,7 +19070,7 @@ Defined in: [helper/PathTrack.ts:25](https://github.com/Orb-Workshop/scriptedeuc
 
 ### PointSoundEvent
 
-Defined in: [helper/PointSoundEvent.ts:17](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PointSoundEvent.ts#L17)
+Defined in: [src/helper/PointSoundEvent.ts:17](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PointSoundEvent.ts#L17)
 
 #### Extends
 
@@ -17025,7 +19082,7 @@ Defined in: [helper/PointSoundEvent.ts:17](https://github.com/Orb-Workshop/scrip
 
 > **new PointSoundEvent**(`entity`): [`PointSoundEvent`](#pointsoundevent)
 
-Defined in: [helper/PointSoundEvent.ts:18](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PointSoundEvent.ts#L18)
+Defined in: [src/helper/PointSoundEvent.ts:18](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PointSoundEvent.ts#L18)
 
 ###### Parameters
 
@@ -17039,7 +19096,7 @@ Defined in: [helper/PointSoundEvent.ts:18](https://github.com/Orb-Workshop/scrip
 
 ###### Overrides
 
-[`EntityHelper`](#abstract-entityhelper).[`constructor`](#constructor-2)
+[`EntityHelper`](#abstract-entityhelper).[`constructor`](#constructor-1)
 
 #### Accessors
 
@@ -17049,7 +19106,7 @@ Defined in: [helper/PointSoundEvent.ts:18](https://github.com/Orb-Workshop/scrip
 
 > **get** **raw**(): `Entity`
 
-Defined in: [helper/EntityHelper.ts:57](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L57)
+Defined in: [src/helper/EntityHelper.ts:57](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L57)
 
 ###### Returns
 
@@ -17065,7 +19122,7 @@ Defined in: [helper/EntityHelper.ts:57](https://github.com/Orb-Workshop/scripted
 
 > **ConnectOutput**(`event_name`, `callback`): `void`
 
-Defined in: [helper/EntityHelper.ts:95](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L95)
+Defined in: [src/helper/EntityHelper.ts:95](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L95)
 
 Represents EventListening of IO entities with `this.ConnectOutput`
 TODO: Use Global Events to 'latch onto' the callbacks this method represents.
@@ -17089,7 +19146,7 @@ TODO: Use Global Events to 'latch onto' the callbacks this method represents.
 
 > **FireIO**(`opts?`): `void`
 
-Defined in: [helper/EntityHelper.ts:59](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L59)
+Defined in: [src/helper/EntityHelper.ts:59](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L59)
 
 ###### Parameters
 
@@ -17109,7 +19166,7 @@ Defined in: [helper/EntityHelper.ts:59](https://github.com/Orb-Workshop/scripted
 
 > **FireUser1**(`opts?`): `void`
 
-Defined in: [helper/EntityHelper.ts:68](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L68)
+Defined in: [src/helper/EntityHelper.ts:68](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L68)
 
 ###### Parameters
 
@@ -17129,7 +19186,7 @@ Defined in: [helper/EntityHelper.ts:68](https://github.com/Orb-Workshop/scripted
 
 > **FireUser2**(`opts?`): `void`
 
-Defined in: [helper/EntityHelper.ts:72](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L72)
+Defined in: [src/helper/EntityHelper.ts:72](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L72)
 
 ###### Parameters
 
@@ -17149,7 +19206,7 @@ Defined in: [helper/EntityHelper.ts:72](https://github.com/Orb-Workshop/scripted
 
 > **FireUser3**(`opts?`): `void`
 
-Defined in: [helper/EntityHelper.ts:76](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L76)
+Defined in: [src/helper/EntityHelper.ts:76](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L76)
 
 ###### Parameters
 
@@ -17169,7 +19226,7 @@ Defined in: [helper/EntityHelper.ts:76](https://github.com/Orb-Workshop/scripted
 
 > **FireUser4**(`opts?`): `void`
 
-Defined in: [helper/EntityHelper.ts:80](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L80)
+Defined in: [src/helper/EntityHelper.ts:80](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L80)
 
 ###### Parameters
 
@@ -17189,7 +19246,7 @@ Defined in: [helper/EntityHelper.ts:80](https://github.com/Orb-Workshop/scripted
 
 > **GetAbsAngles**(): [`QAngle`](Math.md#qangle)
 
-Defined in: [helper/EntityHelper.ts:126](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L126)
+Defined in: [src/helper/EntityHelper.ts:126](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L126)
 
 ###### Returns
 
@@ -17203,7 +19260,7 @@ Defined in: [helper/EntityHelper.ts:126](https://github.com/Orb-Workshop/scripte
 
 > **GetAbsOrigin**(): [`Vector3`](Math.md#vector3)
 
-Defined in: [helper/EntityHelper.ts:118](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L118)
+Defined in: [src/helper/EntityHelper.ts:118](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L118)
 
 ###### Returns
 
@@ -17217,7 +19274,7 @@ Defined in: [helper/EntityHelper.ts:118](https://github.com/Orb-Workshop/scripte
 
 > **GetAbsVelocity**(): [`Vector3`](Math.md#vector3)
 
-Defined in: [helper/EntityHelper.ts:134](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L134)
+Defined in: [src/helper/EntityHelper.ts:134](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L134)
 
 ###### Returns
 
@@ -17231,7 +19288,7 @@ Defined in: [helper/EntityHelper.ts:134](https://github.com/Orb-Workshop/scripte
 
 > **GetClassName**(): `string`
 
-Defined in: [helper/EntityHelper.ts:154](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L154)
+Defined in: [src/helper/EntityHelper.ts:154](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L154)
 
 ###### Returns
 
@@ -17245,7 +19302,7 @@ Defined in: [helper/EntityHelper.ts:154](https://github.com/Orb-Workshop/scripte
 
 > **GetEntityName**(): `string`
 
-Defined in: [helper/EntityHelper.ts:158](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L158)
+Defined in: [src/helper/EntityHelper.ts:158](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L158)
 
 ###### Returns
 
@@ -17259,7 +19316,7 @@ Defined in: [helper/EntityHelper.ts:158](https://github.com/Orb-Workshop/scripte
 
 > **GetEyeAngles**(): [`QAngle`](Math.md#qangle)
 
-Defined in: [helper/EntityHelper.ts:142](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L142)
+Defined in: [src/helper/EntityHelper.ts:142](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L142)
 
 ###### Returns
 
@@ -17273,7 +19330,7 @@ Defined in: [helper/EntityHelper.ts:142](https://github.com/Orb-Workshop/scripte
 
 > **GetEyePosition**(): [`Vector3`](Math.md#vector3)
 
-Defined in: [helper/EntityHelper.ts:146](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L146)
+Defined in: [src/helper/EntityHelper.ts:146](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L146)
 
 ###### Returns
 
@@ -17287,7 +19344,7 @@ Defined in: [helper/EntityHelper.ts:146](https://github.com/Orb-Workshop/scripte
 
 > **GetGroundEntity**(): `any`
 
-Defined in: [helper/EntityHelper.ts:218](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L218)
+Defined in: [src/helper/EntityHelper.ts:218](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L218)
 
 ###### Returns
 
@@ -17301,7 +19358,7 @@ Defined in: [helper/EntityHelper.ts:218](https://github.com/Orb-Workshop/scripte
 
 > **GetHealth**(): `number`
 
-Defined in: [helper/EntityHelper.ts:186](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L186)
+Defined in: [src/helper/EntityHelper.ts:186](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L186)
 
 ###### Returns
 
@@ -17315,7 +19372,7 @@ Defined in: [helper/EntityHelper.ts:186](https://github.com/Orb-Workshop/scripte
 
 > **GetLocalAngles**(): [`QAngle`](Math.md#qangle)
 
-Defined in: [helper/EntityHelper.ts:130](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L130)
+Defined in: [src/helper/EntityHelper.ts:130](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L130)
 
 ###### Returns
 
@@ -17329,7 +19386,7 @@ Defined in: [helper/EntityHelper.ts:130](https://github.com/Orb-Workshop/scripte
 
 > **GetLocalOrigin**(): [`Vector3`](Math.md#vector3)
 
-Defined in: [helper/EntityHelper.ts:122](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L122)
+Defined in: [src/helper/EntityHelper.ts:122](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L122)
 
 ###### Returns
 
@@ -17343,7 +19400,7 @@ Defined in: [helper/EntityHelper.ts:122](https://github.com/Orb-Workshop/scripte
 
 > **GetLocalVelocity**(): [`Vector3`](Math.md#vector3)
 
-Defined in: [helper/EntityHelper.ts:138](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L138)
+Defined in: [src/helper/EntityHelper.ts:138](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L138)
 
 ###### Returns
 
@@ -17357,7 +19414,7 @@ Defined in: [helper/EntityHelper.ts:138](https://github.com/Orb-Workshop/scripte
 
 > **GetMaxHealth**(): `number`
 
-Defined in: [helper/EntityHelper.ts:198](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L198)
+Defined in: [src/helper/EntityHelper.ts:198](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L198)
 
 ###### Returns
 
@@ -17371,7 +19428,7 @@ Defined in: [helper/EntityHelper.ts:198](https://github.com/Orb-Workshop/scripte
 
 > **GetOwner**(): `any`
 
-Defined in: [helper/EntityHelper.ts:166](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L166)
+Defined in: [src/helper/EntityHelper.ts:166](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L166)
 
 ###### Returns
 
@@ -17385,7 +19442,7 @@ Defined in: [helper/EntityHelper.ts:166](https://github.com/Orb-Workshop/scripte
 
 > **GetParent**(): `any`
 
-Defined in: [helper/EntityHelper.ts:174](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L174)
+Defined in: [src/helper/EntityHelper.ts:174](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L174)
 
 ###### Returns
 
@@ -17399,7 +19456,7 @@ Defined in: [helper/EntityHelper.ts:174](https://github.com/Orb-Workshop/scripte
 
 > **GetTeamNumber**(): `number`
 
-Defined in: [helper/EntityHelper.ts:182](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L182)
+Defined in: [src/helper/EntityHelper.ts:182](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L182)
 
 ###### Returns
 
@@ -17413,7 +19470,7 @@ Defined in: [helper/EntityHelper.ts:182](https://github.com/Orb-Workshop/scripte
 
 > **IsAlive**(): `boolean`
 
-Defined in: [helper/EntityHelper.ts:210](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L210)
+Defined in: [src/helper/EntityHelper.ts:210](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L210)
 
 ###### Returns
 
@@ -17427,7 +19484,7 @@ Defined in: [helper/EntityHelper.ts:210](https://github.com/Orb-Workshop/scripte
 
 > **IsValid**(): `boolean`
 
-Defined in: [helper/EntityHelper.ts:114](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L114)
+Defined in: [src/helper/EntityHelper.ts:114](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L114)
 
 ###### Returns
 
@@ -17441,7 +19498,7 @@ Defined in: [helper/EntityHelper.ts:114](https://github.com/Orb-Workshop/scripte
 
 > **IsWorld**(): `boolean`
 
-Defined in: [helper/EntityHelper.ts:214](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L214)
+Defined in: [src/helper/EntityHelper.ts:214](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L214)
 
 ###### Returns
 
@@ -17455,7 +19512,7 @@ Defined in: [helper/EntityHelper.ts:214](https://github.com/Orb-Workshop/scripte
 
 > **Kill**(): `void`
 
-Defined in: [helper/EntityHelper.ts:226](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L226)
+Defined in: [src/helper/EntityHelper.ts:226](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L226)
 
 ###### Returns
 
@@ -17469,7 +19526,7 @@ Defined in: [helper/EntityHelper.ts:226](https://github.com/Orb-Workshop/scripte
 
 > **KillAll**(): `void`
 
-Defined in: [helper/EntityHelper.ts:234](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L234)
+Defined in: [src/helper/EntityHelper.ts:234](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L234)
 
 ###### Returns
 
@@ -17483,7 +19540,7 @@ Defined in: [helper/EntityHelper.ts:234](https://github.com/Orb-Workshop/scripte
 
 > **KillHierarchy**(`opts?`): `void`
 
-Defined in: [helper/EntityHelper.ts:230](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L230)
+Defined in: [src/helper/EntityHelper.ts:230](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L230)
 
 ###### Parameters
 
@@ -17503,7 +19560,7 @@ Defined in: [helper/EntityHelper.ts:230](https://github.com/Orb-Workshop/scripte
 
 > **On**(`event_name`, `callback`): [`EntityHelper`](#abstract-entityhelper)
 
-Defined in: [helper/EntityHelper.ts:104](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L104)
+Defined in: [src/helper/EntityHelper.ts:104](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L104)
 
 ###### Parameters
 
@@ -17524,7 +19581,7 @@ Defined in: [helper/EntityHelper.ts:104](https://github.com/Orb-Workshop/scripte
 
 > **OnSoundFinished**(`callback`): [`PointSoundEvent`](#pointsoundevent)
 
-Defined in: [helper/PointSoundEvent.ts:55](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PointSoundEvent.ts#L55)
+Defined in: [src/helper/PointSoundEvent.ts:55](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PointSoundEvent.ts#L55)
 
 ###### Parameters
 
@@ -17540,7 +19597,7 @@ Defined in: [helper/PointSoundEvent.ts:55](https://github.com/Orb-Workshop/scrip
 
 > **Remove**(): `void`
 
-Defined in: [helper/EntityHelper.ts:238](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L238)
+Defined in: [src/helper/EntityHelper.ts:238](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L238)
 
 ###### Returns
 
@@ -17554,7 +19611,7 @@ Defined in: [helper/EntityHelper.ts:238](https://github.com/Orb-Workshop/scripte
 
 > **SetEntityName**(`s`): `void`
 
-Defined in: [helper/EntityHelper.ts:162](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L162)
+Defined in: [src/helper/EntityHelper.ts:162](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L162)
 
 ###### Parameters
 
@@ -17574,7 +19631,7 @@ Defined in: [helper/EntityHelper.ts:162](https://github.com/Orb-Workshop/scripte
 
 > **SetHealth**(`hp`): `void`
 
-Defined in: [helper/EntityHelper.ts:190](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L190)
+Defined in: [src/helper/EntityHelper.ts:190](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L190)
 
 ###### Parameters
 
@@ -17594,7 +19651,7 @@ Defined in: [helper/EntityHelper.ts:190](https://github.com/Orb-Workshop/scripte
 
 > **SetMaxHealth**(`hp`): `void`
 
-Defined in: [helper/EntityHelper.ts:202](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L202)
+Defined in: [src/helper/EntityHelper.ts:202](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L202)
 
 ###### Parameters
 
@@ -17614,7 +19671,7 @@ Defined in: [helper/EntityHelper.ts:202](https://github.com/Orb-Workshop/scripte
 
 > **SetOwner**(`e`): `void`
 
-Defined in: [helper/EntityHelper.ts:170](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L170)
+Defined in: [src/helper/EntityHelper.ts:170](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L170)
 
 ###### Parameters
 
@@ -17634,7 +19691,7 @@ Defined in: [helper/EntityHelper.ts:170](https://github.com/Orb-Workshop/scripte
 
 > **SetParent**(`e`): `void`
 
-Defined in: [helper/EntityHelper.ts:178](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L178)
+Defined in: [src/helper/EntityHelper.ts:178](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L178)
 
 ###### Parameters
 
@@ -17654,7 +19711,7 @@ Defined in: [helper/EntityHelper.ts:178](https://github.com/Orb-Workshop/scripte
 
 > **SetSoundEventName**(`soundevent_name`, `opts?`): `void`
 
-Defined in: [helper/PointSoundEvent.ts:41](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PointSoundEvent.ts#L41)
+Defined in: [src/helper/PointSoundEvent.ts:41](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PointSoundEvent.ts#L41)
 
 ###### Parameters
 
@@ -17671,7 +19728,7 @@ Defined in: [helper/PointSoundEvent.ts:41](https://github.com/Orb-Workshop/scrip
 
 > **StartSound**(`opts?`): `void`
 
-Defined in: [helper/PointSoundEvent.ts:45](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PointSoundEvent.ts#L45)
+Defined in: [src/helper/PointSoundEvent.ts:45](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PointSoundEvent.ts#L45)
 
 ###### Parameters
 
@@ -17687,7 +19744,7 @@ Defined in: [helper/PointSoundEvent.ts:45](https://github.com/Orb-Workshop/scrip
 
 > **StopSound**(`opts?`): `void`
 
-Defined in: [helper/PointSoundEvent.ts:49](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PointSoundEvent.ts#L49)
+Defined in: [src/helper/PointSoundEvent.ts:49](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PointSoundEvent.ts#L49)
 
 ###### Parameters
 
@@ -17703,7 +19760,7 @@ Defined in: [helper/PointSoundEvent.ts:49](https://github.com/Orb-Workshop/scrip
 
 > **TakeDamage**(`__namedParameters`): `number`
 
-Defined in: [helper/EntityHelper.ts:222](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L222)
+Defined in: [src/helper/EntityHelper.ts:222](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L222)
 
 ###### Parameters
 
@@ -17727,7 +19784,7 @@ Defined in: [helper/EntityHelper.ts:222](https://github.com/Orb-Workshop/scripte
 
 > **Teleport**(`__namedParameters`): `void`
 
-Defined in: [helper/EntityHelper.ts:150](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L150)
+Defined in: [src/helper/EntityHelper.ts:150](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L150)
 
 ###### Parameters
 
@@ -17750,7 +19807,7 @@ Defined in: [helper/EntityHelper.ts:150](https://github.com/Orb-Workshop/scripte
 
 > `static` **Find**(`r`): [`PointSoundEvent`](#pointsoundevent)
 
-Defined in: [helper/PointSoundEvent.ts:29](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PointSoundEvent.ts#L29)
+Defined in: [src/helper/PointSoundEvent.ts:29](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PointSoundEvent.ts#L29)
 
 ###### Parameters
 
@@ -17770,7 +19827,7 @@ Defined in: [helper/PointSoundEvent.ts:29](https://github.com/Orb-Workshop/scrip
 
 > `static` **FindAll**(`r`): [`PointSoundEvent`](#pointsoundevent)[]
 
-Defined in: [helper/PointSoundEvent.ts:34](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PointSoundEvent.ts#L34)
+Defined in: [src/helper/PointSoundEvent.ts:34](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PointSoundEvent.ts#L34)
 
 ###### Parameters
 
@@ -17790,7 +19847,7 @@ Defined in: [helper/PointSoundEvent.ts:34](https://github.com/Orb-Workshop/scrip
 
 > `static` **FindAllByClass**(`classname`, `r`): [`EntityHelper`](#abstract-entityhelper)[]
 
-Defined in: [helper/EntityHelper.ts:52](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L52)
+Defined in: [src/helper/EntityHelper.ts:52](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L52)
 
 ###### Parameters
 
@@ -17811,7 +19868,7 @@ Defined in: [helper/EntityHelper.ts:52](https://github.com/Orb-Workshop/scripted
 
 > `static` **FindByClass**(`classname`, `r`, `error?`): [`EntityHelper`](#abstract-entityhelper) \| `null`
 
-Defined in: [helper/EntityHelper.ts:44](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L44)
+Defined in: [src/helper/EntityHelper.ts:44](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L44)
 
 ###### Parameters
 
@@ -17833,7 +19890,7 @@ Defined in: [helper/EntityHelper.ts:44](https://github.com/Orb-Workshop/scripted
 
 > `static` **From**(`e`): [`PointSoundEvent`](#pointsoundevent)
 
-Defined in: [helper/PointSoundEvent.ts:22](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PointSoundEvent.ts#L22)
+Defined in: [src/helper/PointSoundEvent.ts:22](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PointSoundEvent.ts#L22)
 
 ###### Parameters
 
@@ -17849,7 +19906,7 @@ Defined in: [helper/PointSoundEvent.ts:22](https://github.com/Orb-Workshop/scrip
 
 ### PointTemplate
 
-Defined in: [helper/PointTemplate.ts:15](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PointTemplate.ts#L15)
+Defined in: [src/helper/PointTemplate.ts:15](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PointTemplate.ts#L15)
 
 #### Extends
 
@@ -17861,7 +19918,7 @@ Defined in: [helper/PointTemplate.ts:15](https://github.com/Orb-Workshop/scripte
 
 > **new PointTemplate**(`entity`): [`PointTemplate`](#pointtemplate)
 
-Defined in: [helper/PointTemplate.ts:16](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PointTemplate.ts#L16)
+Defined in: [src/helper/PointTemplate.ts:16](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PointTemplate.ts#L16)
 
 ###### Parameters
 
@@ -17875,7 +19932,7 @@ Defined in: [helper/PointTemplate.ts:16](https://github.com/Orb-Workshop/scripte
 
 ###### Overrides
 
-[`EntityHelper`](#abstract-entityhelper).[`constructor`](#constructor-2)
+[`EntityHelper`](#abstract-entityhelper).[`constructor`](#constructor-1)
 
 #### Accessors
 
@@ -17885,7 +19942,7 @@ Defined in: [helper/PointTemplate.ts:16](https://github.com/Orb-Workshop/scripte
 
 > **get** **raw**(): `Entity`
 
-Defined in: [helper/EntityHelper.ts:57](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L57)
+Defined in: [src/helper/EntityHelper.ts:57](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L57)
 
 ###### Returns
 
@@ -17901,7 +19958,7 @@ Defined in: [helper/EntityHelper.ts:57](https://github.com/Orb-Workshop/scripted
 
 > **ConnectOutput**(`event_name`, `callback`): `void`
 
-Defined in: [helper/EntityHelper.ts:95](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L95)
+Defined in: [src/helper/EntityHelper.ts:95](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L95)
 
 Represents EventListening of IO entities with `this.ConnectOutput`
 TODO: Use Global Events to 'latch onto' the callbacks this method represents.
@@ -17925,7 +19982,7 @@ TODO: Use Global Events to 'latch onto' the callbacks this method represents.
 
 > **FireIO**(`opts?`): `void`
 
-Defined in: [helper/EntityHelper.ts:59](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L59)
+Defined in: [src/helper/EntityHelper.ts:59](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L59)
 
 ###### Parameters
 
@@ -17945,7 +20002,7 @@ Defined in: [helper/EntityHelper.ts:59](https://github.com/Orb-Workshop/scripted
 
 > **FireUser1**(`opts?`): `void`
 
-Defined in: [helper/EntityHelper.ts:68](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L68)
+Defined in: [src/helper/EntityHelper.ts:68](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L68)
 
 ###### Parameters
 
@@ -17965,7 +20022,7 @@ Defined in: [helper/EntityHelper.ts:68](https://github.com/Orb-Workshop/scripted
 
 > **FireUser2**(`opts?`): `void`
 
-Defined in: [helper/EntityHelper.ts:72](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L72)
+Defined in: [src/helper/EntityHelper.ts:72](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L72)
 
 ###### Parameters
 
@@ -17985,7 +20042,7 @@ Defined in: [helper/EntityHelper.ts:72](https://github.com/Orb-Workshop/scripted
 
 > **FireUser3**(`opts?`): `void`
 
-Defined in: [helper/EntityHelper.ts:76](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L76)
+Defined in: [src/helper/EntityHelper.ts:76](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L76)
 
 ###### Parameters
 
@@ -18005,7 +20062,7 @@ Defined in: [helper/EntityHelper.ts:76](https://github.com/Orb-Workshop/scripted
 
 > **FireUser4**(`opts?`): `void`
 
-Defined in: [helper/EntityHelper.ts:80](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L80)
+Defined in: [src/helper/EntityHelper.ts:80](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L80)
 
 ###### Parameters
 
@@ -18025,7 +20082,7 @@ Defined in: [helper/EntityHelper.ts:80](https://github.com/Orb-Workshop/scripted
 
 > **ForceSpawn**(`origin?`, `rotation?`): [`EntityHelper`](#abstract-entityhelper)[]
 
-Defined in: [helper/PointTemplate.ts:40](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PointTemplate.ts#L40)
+Defined in: [src/helper/PointTemplate.ts:40](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PointTemplate.ts#L40)
 
 ###### Parameters
 
@@ -18042,7 +20099,7 @@ Defined in: [helper/PointTemplate.ts:40](https://github.com/Orb-Workshop/scripte
 
 > **GetAbsAngles**(): [`QAngle`](Math.md#qangle)
 
-Defined in: [helper/EntityHelper.ts:126](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L126)
+Defined in: [src/helper/EntityHelper.ts:126](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L126)
 
 ###### Returns
 
@@ -18056,7 +20113,7 @@ Defined in: [helper/EntityHelper.ts:126](https://github.com/Orb-Workshop/scripte
 
 > **GetAbsOrigin**(): [`Vector3`](Math.md#vector3)
 
-Defined in: [helper/EntityHelper.ts:118](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L118)
+Defined in: [src/helper/EntityHelper.ts:118](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L118)
 
 ###### Returns
 
@@ -18070,7 +20127,7 @@ Defined in: [helper/EntityHelper.ts:118](https://github.com/Orb-Workshop/scripte
 
 > **GetAbsVelocity**(): [`Vector3`](Math.md#vector3)
 
-Defined in: [helper/EntityHelper.ts:134](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L134)
+Defined in: [src/helper/EntityHelper.ts:134](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L134)
 
 ###### Returns
 
@@ -18084,7 +20141,7 @@ Defined in: [helper/EntityHelper.ts:134](https://github.com/Orb-Workshop/scripte
 
 > **GetClassName**(): `string`
 
-Defined in: [helper/EntityHelper.ts:154](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L154)
+Defined in: [src/helper/EntityHelper.ts:154](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L154)
 
 ###### Returns
 
@@ -18098,7 +20155,7 @@ Defined in: [helper/EntityHelper.ts:154](https://github.com/Orb-Workshop/scripte
 
 > **GetEntityName**(): `string`
 
-Defined in: [helper/EntityHelper.ts:158](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L158)
+Defined in: [src/helper/EntityHelper.ts:158](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L158)
 
 ###### Returns
 
@@ -18112,7 +20169,7 @@ Defined in: [helper/EntityHelper.ts:158](https://github.com/Orb-Workshop/scripte
 
 > **GetEyeAngles**(): [`QAngle`](Math.md#qangle)
 
-Defined in: [helper/EntityHelper.ts:142](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L142)
+Defined in: [src/helper/EntityHelper.ts:142](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L142)
 
 ###### Returns
 
@@ -18126,7 +20183,7 @@ Defined in: [helper/EntityHelper.ts:142](https://github.com/Orb-Workshop/scripte
 
 > **GetEyePosition**(): [`Vector3`](Math.md#vector3)
 
-Defined in: [helper/EntityHelper.ts:146](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L146)
+Defined in: [src/helper/EntityHelper.ts:146](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L146)
 
 ###### Returns
 
@@ -18140,7 +20197,7 @@ Defined in: [helper/EntityHelper.ts:146](https://github.com/Orb-Workshop/scripte
 
 > **GetGroundEntity**(): `any`
 
-Defined in: [helper/EntityHelper.ts:218](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L218)
+Defined in: [src/helper/EntityHelper.ts:218](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L218)
 
 ###### Returns
 
@@ -18154,7 +20211,7 @@ Defined in: [helper/EntityHelper.ts:218](https://github.com/Orb-Workshop/scripte
 
 > **GetHealth**(): `number`
 
-Defined in: [helper/EntityHelper.ts:186](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L186)
+Defined in: [src/helper/EntityHelper.ts:186](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L186)
 
 ###### Returns
 
@@ -18168,7 +20225,7 @@ Defined in: [helper/EntityHelper.ts:186](https://github.com/Orb-Workshop/scripte
 
 > **GetLocalAngles**(): [`QAngle`](Math.md#qangle)
 
-Defined in: [helper/EntityHelper.ts:130](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L130)
+Defined in: [src/helper/EntityHelper.ts:130](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L130)
 
 ###### Returns
 
@@ -18182,7 +20239,7 @@ Defined in: [helper/EntityHelper.ts:130](https://github.com/Orb-Workshop/scripte
 
 > **GetLocalOrigin**(): [`Vector3`](Math.md#vector3)
 
-Defined in: [helper/EntityHelper.ts:122](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L122)
+Defined in: [src/helper/EntityHelper.ts:122](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L122)
 
 ###### Returns
 
@@ -18196,7 +20253,7 @@ Defined in: [helper/EntityHelper.ts:122](https://github.com/Orb-Workshop/scripte
 
 > **GetLocalVelocity**(): [`Vector3`](Math.md#vector3)
 
-Defined in: [helper/EntityHelper.ts:138](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L138)
+Defined in: [src/helper/EntityHelper.ts:138](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L138)
 
 ###### Returns
 
@@ -18210,7 +20267,7 @@ Defined in: [helper/EntityHelper.ts:138](https://github.com/Orb-Workshop/scripte
 
 > **GetMaxHealth**(): `number`
 
-Defined in: [helper/EntityHelper.ts:198](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L198)
+Defined in: [src/helper/EntityHelper.ts:198](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L198)
 
 ###### Returns
 
@@ -18224,7 +20281,7 @@ Defined in: [helper/EntityHelper.ts:198](https://github.com/Orb-Workshop/scripte
 
 > **GetOwner**(): `any`
 
-Defined in: [helper/EntityHelper.ts:166](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L166)
+Defined in: [src/helper/EntityHelper.ts:166](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L166)
 
 ###### Returns
 
@@ -18238,7 +20295,7 @@ Defined in: [helper/EntityHelper.ts:166](https://github.com/Orb-Workshop/scripte
 
 > **GetParent**(): `any`
 
-Defined in: [helper/EntityHelper.ts:174](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L174)
+Defined in: [src/helper/EntityHelper.ts:174](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L174)
 
 ###### Returns
 
@@ -18252,7 +20309,7 @@ Defined in: [helper/EntityHelper.ts:174](https://github.com/Orb-Workshop/scripte
 
 > **GetTeamNumber**(): `number`
 
-Defined in: [helper/EntityHelper.ts:182](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L182)
+Defined in: [src/helper/EntityHelper.ts:182](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L182)
 
 ###### Returns
 
@@ -18266,7 +20323,7 @@ Defined in: [helper/EntityHelper.ts:182](https://github.com/Orb-Workshop/scripte
 
 > **IsAlive**(): `boolean`
 
-Defined in: [helper/EntityHelper.ts:210](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L210)
+Defined in: [src/helper/EntityHelper.ts:210](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L210)
 
 ###### Returns
 
@@ -18280,7 +20337,7 @@ Defined in: [helper/EntityHelper.ts:210](https://github.com/Orb-Workshop/scripte
 
 > **IsValid**(): `boolean`
 
-Defined in: [helper/EntityHelper.ts:114](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L114)
+Defined in: [src/helper/EntityHelper.ts:114](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L114)
 
 ###### Returns
 
@@ -18294,7 +20351,7 @@ Defined in: [helper/EntityHelper.ts:114](https://github.com/Orb-Workshop/scripte
 
 > **IsWorld**(): `boolean`
 
-Defined in: [helper/EntityHelper.ts:214](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L214)
+Defined in: [src/helper/EntityHelper.ts:214](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L214)
 
 ###### Returns
 
@@ -18308,7 +20365,7 @@ Defined in: [helper/EntityHelper.ts:214](https://github.com/Orb-Workshop/scripte
 
 > **Kill**(): `void`
 
-Defined in: [helper/EntityHelper.ts:226](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L226)
+Defined in: [src/helper/EntityHelper.ts:226](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L226)
 
 ###### Returns
 
@@ -18322,7 +20379,7 @@ Defined in: [helper/EntityHelper.ts:226](https://github.com/Orb-Workshop/scripte
 
 > **KillAll**(): `void`
 
-Defined in: [helper/EntityHelper.ts:234](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L234)
+Defined in: [src/helper/EntityHelper.ts:234](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L234)
 
 ###### Returns
 
@@ -18336,7 +20393,7 @@ Defined in: [helper/EntityHelper.ts:234](https://github.com/Orb-Workshop/scripte
 
 > **KillHierarchy**(`opts?`): `void`
 
-Defined in: [helper/EntityHelper.ts:230](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L230)
+Defined in: [src/helper/EntityHelper.ts:230](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L230)
 
 ###### Parameters
 
@@ -18356,7 +20413,7 @@ Defined in: [helper/EntityHelper.ts:230](https://github.com/Orb-Workshop/scripte
 
 > **On**(`event_name`, `callback`): [`EntityHelper`](#abstract-entityhelper)
 
-Defined in: [helper/EntityHelper.ts:104](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L104)
+Defined in: [src/helper/EntityHelper.ts:104](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L104)
 
 ###### Parameters
 
@@ -18377,7 +20434,7 @@ Defined in: [helper/EntityHelper.ts:104](https://github.com/Orb-Workshop/scripte
 
 > **Remove**(): `void`
 
-Defined in: [helper/EntityHelper.ts:238](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L238)
+Defined in: [src/helper/EntityHelper.ts:238](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L238)
 
 ###### Returns
 
@@ -18391,7 +20448,7 @@ Defined in: [helper/EntityHelper.ts:238](https://github.com/Orb-Workshop/scripte
 
 > **SetEntityName**(`s`): `void`
 
-Defined in: [helper/EntityHelper.ts:162](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L162)
+Defined in: [src/helper/EntityHelper.ts:162](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L162)
 
 ###### Parameters
 
@@ -18411,7 +20468,7 @@ Defined in: [helper/EntityHelper.ts:162](https://github.com/Orb-Workshop/scripte
 
 > **SetHealth**(`hp`): `void`
 
-Defined in: [helper/EntityHelper.ts:190](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L190)
+Defined in: [src/helper/EntityHelper.ts:190](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L190)
 
 ###### Parameters
 
@@ -18431,7 +20488,7 @@ Defined in: [helper/EntityHelper.ts:190](https://github.com/Orb-Workshop/scripte
 
 > **SetMaxHealth**(`hp`): `void`
 
-Defined in: [helper/EntityHelper.ts:202](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L202)
+Defined in: [src/helper/EntityHelper.ts:202](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L202)
 
 ###### Parameters
 
@@ -18451,7 +20508,7 @@ Defined in: [helper/EntityHelper.ts:202](https://github.com/Orb-Workshop/scripte
 
 > **SetOwner**(`e`): `void`
 
-Defined in: [helper/EntityHelper.ts:170](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L170)
+Defined in: [src/helper/EntityHelper.ts:170](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L170)
 
 ###### Parameters
 
@@ -18471,7 +20528,7 @@ Defined in: [helper/EntityHelper.ts:170](https://github.com/Orb-Workshop/scripte
 
 > **SetParent**(`e`): `void`
 
-Defined in: [helper/EntityHelper.ts:178](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L178)
+Defined in: [src/helper/EntityHelper.ts:178](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L178)
 
 ###### Parameters
 
@@ -18491,7 +20548,7 @@ Defined in: [helper/EntityHelper.ts:178](https://github.com/Orb-Workshop/scripte
 
 > **TakeDamage**(`__namedParameters`): `number`
 
-Defined in: [helper/EntityHelper.ts:222](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L222)
+Defined in: [src/helper/EntityHelper.ts:222](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L222)
 
 ###### Parameters
 
@@ -18515,7 +20572,7 @@ Defined in: [helper/EntityHelper.ts:222](https://github.com/Orb-Workshop/scripte
 
 > **Teleport**(`__namedParameters`): `void`
 
-Defined in: [helper/EntityHelper.ts:150](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L150)
+Defined in: [src/helper/EntityHelper.ts:150](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L150)
 
 ###### Parameters
 
@@ -18538,7 +20595,7 @@ Defined in: [helper/EntityHelper.ts:150](https://github.com/Orb-Workshop/scripte
 
 > `static` **Find**(`r`): [`PointTemplate`](#pointtemplate)
 
-Defined in: [helper/PointTemplate.ts:26](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PointTemplate.ts#L26)
+Defined in: [src/helper/PointTemplate.ts:26](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PointTemplate.ts#L26)
 
 ###### Parameters
 
@@ -18558,7 +20615,7 @@ Defined in: [helper/PointTemplate.ts:26](https://github.com/Orb-Workshop/scripte
 
 > `static` **FindAll**(`r`): [`PointTemplate`](#pointtemplate)[]
 
-Defined in: [helper/PointTemplate.ts:31](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PointTemplate.ts#L31)
+Defined in: [src/helper/PointTemplate.ts:31](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PointTemplate.ts#L31)
 
 ###### Parameters
 
@@ -18578,7 +20635,7 @@ Defined in: [helper/PointTemplate.ts:31](https://github.com/Orb-Workshop/scripte
 
 > `static` **FindAllByClass**(`classname`, `r`): [`EntityHelper`](#abstract-entityhelper)[]
 
-Defined in: [helper/EntityHelper.ts:52](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L52)
+Defined in: [src/helper/EntityHelper.ts:52](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L52)
 
 ###### Parameters
 
@@ -18599,7 +20656,7 @@ Defined in: [helper/EntityHelper.ts:52](https://github.com/Orb-Workshop/scripted
 
 > `static` **FindByClass**(`classname`, `r`, `error?`): [`EntityHelper`](#abstract-entityhelper) \| `null`
 
-Defined in: [helper/EntityHelper.ts:44](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L44)
+Defined in: [src/helper/EntityHelper.ts:44](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L44)
 
 ###### Parameters
 
@@ -18621,7 +20678,7 @@ Defined in: [helper/EntityHelper.ts:44](https://github.com/Orb-Workshop/scripted
 
 > `static` **From**(`e`): [`PointTemplate`](#pointtemplate)
 
-Defined in: [helper/PointTemplate.ts:20](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PointTemplate.ts#L20)
+Defined in: [src/helper/PointTemplate.ts:20](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PointTemplate.ts#L20)
 
 ###### Parameters
 
@@ -18637,7 +20694,7 @@ Defined in: [helper/PointTemplate.ts:20](https://github.com/Orb-Workshop/scripte
 
 ### PropDynamic
 
-Defined in: [helper/PropDynamic.ts:18](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropDynamic.ts#L18)
+Defined in: [src/helper/PropDynamic.ts:18](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropDynamic.ts#L18)
 
 #### Extends
 
@@ -18653,7 +20710,7 @@ Defined in: [helper/PropDynamic.ts:18](https://github.com/Orb-Workshop/scriptede
 
 > **new PropDynamic**(`entity`): [`PropDynamic`](#propdynamic)
 
-Defined in: [helper/PropDynamic.ts:19](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropDynamic.ts#L19)
+Defined in: [src/helper/PropDynamic.ts:19](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropDynamic.ts#L19)
 
 ###### Parameters
 
@@ -18667,7 +20724,7 @@ Defined in: [helper/PropDynamic.ts:19](https://github.com/Orb-Workshop/scriptede
 
 ###### Overrides
 
-[`FuncBreakable`](#funcbreakable).[`constructor`](#constructor-7)
+[`FuncBreakable`](#funcbreakable).[`constructor`](#constructor-6)
 
 #### Accessors
 
@@ -18677,7 +20734,7 @@ Defined in: [helper/PropDynamic.ts:19](https://github.com/Orb-Workshop/scriptede
 
 > **get** **raw**(): `Entity`
 
-Defined in: [helper/EntityHelper.ts:57](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L57)
+Defined in: [src/helper/EntityHelper.ts:57](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L57)
 
 ###### Returns
 
@@ -18693,7 +20750,7 @@ Defined in: [helper/EntityHelper.ts:57](https://github.com/Orb-Workshop/scripted
 
 > **AddHealth**(`value`, `opts?`): `void`
 
-Defined in: [helper/FuncBreakable.ts:49](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/FuncBreakable.ts#L49)
+Defined in: [src/helper/FuncBreakable.ts:49](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/FuncBreakable.ts#L49)
 
 ###### Parameters
 
@@ -18714,7 +20771,7 @@ Defined in: [helper/FuncBreakable.ts:49](https://github.com/Orb-Workshop/scripte
 
 > **Break**(`opts?`): `void`
 
-Defined in: [helper/FuncBreakable.ts:41](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/FuncBreakable.ts#L41)
+Defined in: [src/helper/FuncBreakable.ts:41](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/FuncBreakable.ts#L41)
 
 ###### Parameters
 
@@ -18734,7 +20791,7 @@ Defined in: [helper/FuncBreakable.ts:41](https://github.com/Orb-Workshop/scripte
 
 > **ClearRenderAttribute**(`opts?`): `void`
 
-Defined in: [helper/PropDynamic.ts:54](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropDynamic.ts#L54)
+Defined in: [src/helper/PropDynamic.ts:54](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropDynamic.ts#L54)
 
 ###### Parameters
 
@@ -18750,7 +20807,7 @@ Defined in: [helper/PropDynamic.ts:54](https://github.com/Orb-Workshop/scriptede
 
 > **ConnectOutput**(`event_name`, `callback`): `void`
 
-Defined in: [helper/EntityHelper.ts:95](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L95)
+Defined in: [src/helper/EntityHelper.ts:95](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L95)
 
 Represents EventListening of IO entities with `this.ConnectOutput`
 TODO: Use Global Events to 'latch onto' the callbacks this method represents.
@@ -18774,7 +20831,7 @@ TODO: Use Global Events to 'latch onto' the callbacks this method represents.
 
 > **Disable**(`opts?`): `void`
 
-Defined in: [helper/PropDynamic.ts:99](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropDynamic.ts#L99)
+Defined in: [src/helper/PropDynamic.ts:99](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropDynamic.ts#L99)
 
 ###### Parameters
 
@@ -18790,7 +20847,7 @@ Defined in: [helper/PropDynamic.ts:99](https://github.com/Orb-Workshop/scriptede
 
 > **DisableCollision**(`opts?`): `void`
 
-Defined in: [helper/PropDynamic.ts:70](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropDynamic.ts#L70)
+Defined in: [src/helper/PropDynamic.ts:70](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropDynamic.ts#L70)
 
 ###### Parameters
 
@@ -18806,7 +20863,7 @@ Defined in: [helper/PropDynamic.ts:70](https://github.com/Orb-Workshop/scriptede
 
 > **DisableShadow**(`opts?`): `void`
 
-Defined in: [helper/PropDynamic.ts:62](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropDynamic.ts#L62)
+Defined in: [src/helper/PropDynamic.ts:62](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropDynamic.ts#L62)
 
 ###### Parameters
 
@@ -18822,7 +20879,7 @@ Defined in: [helper/PropDynamic.ts:62](https://github.com/Orb-Workshop/scriptede
 
 > **Enable**(`opts?`): `void`
 
-Defined in: [helper/PropDynamic.ts:95](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropDynamic.ts#L95)
+Defined in: [src/helper/PropDynamic.ts:95](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropDynamic.ts#L95)
 
 ###### Parameters
 
@@ -18838,7 +20895,7 @@ Defined in: [helper/PropDynamic.ts:95](https://github.com/Orb-Workshop/scriptede
 
 > **EnableCollision**(`opts?`): `void`
 
-Defined in: [helper/PropDynamic.ts:66](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropDynamic.ts#L66)
+Defined in: [src/helper/PropDynamic.ts:66](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropDynamic.ts#L66)
 
 ###### Parameters
 
@@ -18854,7 +20911,7 @@ Defined in: [helper/PropDynamic.ts:66](https://github.com/Orb-Workshop/scriptede
 
 > **EnableShadow**(`opts?`): `void`
 
-Defined in: [helper/PropDynamic.ts:58](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropDynamic.ts#L58)
+Defined in: [src/helper/PropDynamic.ts:58](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropDynamic.ts#L58)
 
 ###### Parameters
 
@@ -18870,7 +20927,7 @@ Defined in: [helper/PropDynamic.ts:58](https://github.com/Orb-Workshop/scriptede
 
 > **FireIO**(`opts?`): `void`
 
-Defined in: [helper/EntityHelper.ts:59](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L59)
+Defined in: [src/helper/EntityHelper.ts:59](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L59)
 
 ###### Parameters
 
@@ -18890,7 +20947,7 @@ Defined in: [helper/EntityHelper.ts:59](https://github.com/Orb-Workshop/scripted
 
 > **FireUser1**(`opts?`): `void`
 
-Defined in: [helper/EntityHelper.ts:68](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L68)
+Defined in: [src/helper/EntityHelper.ts:68](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L68)
 
 ###### Parameters
 
@@ -18910,7 +20967,7 @@ Defined in: [helper/EntityHelper.ts:68](https://github.com/Orb-Workshop/scripted
 
 > **FireUser2**(`opts?`): `void`
 
-Defined in: [helper/EntityHelper.ts:72](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L72)
+Defined in: [src/helper/EntityHelper.ts:72](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L72)
 
 ###### Parameters
 
@@ -18930,7 +20987,7 @@ Defined in: [helper/EntityHelper.ts:72](https://github.com/Orb-Workshop/scripted
 
 > **FireUser3**(`opts?`): `void`
 
-Defined in: [helper/EntityHelper.ts:76](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L76)
+Defined in: [src/helper/EntityHelper.ts:76](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L76)
 
 ###### Parameters
 
@@ -18950,7 +21007,7 @@ Defined in: [helper/EntityHelper.ts:76](https://github.com/Orb-Workshop/scripted
 
 > **FireUser4**(`opts?`): `void`
 
-Defined in: [helper/EntityHelper.ts:80](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L80)
+Defined in: [src/helper/EntityHelper.ts:80](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L80)
 
 ###### Parameters
 
@@ -18970,7 +21027,7 @@ Defined in: [helper/EntityHelper.ts:80](https://github.com/Orb-Workshop/scripted
 
 > **FollowEntity**(`opts?`): `void`
 
-Defined in: [helper/PropDynamic.ts:42](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropDynamic.ts#L42)
+Defined in: [src/helper/PropDynamic.ts:42](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropDynamic.ts#L42)
 
 ###### Parameters
 
@@ -18986,7 +21043,7 @@ Defined in: [helper/PropDynamic.ts:42](https://github.com/Orb-Workshop/scriptede
 
 > **GetAbsAngles**(): [`QAngle`](Math.md#qangle)
 
-Defined in: [helper/EntityHelper.ts:126](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L126)
+Defined in: [src/helper/EntityHelper.ts:126](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L126)
 
 ###### Returns
 
@@ -19000,7 +21057,7 @@ Defined in: [helper/EntityHelper.ts:126](https://github.com/Orb-Workshop/scripte
 
 > **GetAbsOrigin**(): [`Vector3`](Math.md#vector3)
 
-Defined in: [helper/EntityHelper.ts:118](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L118)
+Defined in: [src/helper/EntityHelper.ts:118](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L118)
 
 ###### Returns
 
@@ -19014,7 +21071,7 @@ Defined in: [helper/EntityHelper.ts:118](https://github.com/Orb-Workshop/scripte
 
 > **GetAbsVelocity**(): [`Vector3`](Math.md#vector3)
 
-Defined in: [helper/EntityHelper.ts:134](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L134)
+Defined in: [src/helper/EntityHelper.ts:134](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L134)
 
 ###### Returns
 
@@ -19028,7 +21085,7 @@ Defined in: [helper/EntityHelper.ts:134](https://github.com/Orb-Workshop/scripte
 
 > **GetClassName**(): `string`
 
-Defined in: [helper/EntityHelper.ts:154](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L154)
+Defined in: [src/helper/EntityHelper.ts:154](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L154)
 
 ###### Returns
 
@@ -19042,7 +21099,7 @@ Defined in: [helper/EntityHelper.ts:154](https://github.com/Orb-Workshop/scripte
 
 > **GetColor**(): `ColorType`
 
-Defined in: [helper/BaseModelEntity.ts:59](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L59)
+Defined in: [src/helper/BaseModelEntity.ts:59](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L59)
 
 ###### Returns
 
@@ -19056,7 +21113,7 @@ Defined in: [helper/BaseModelEntity.ts:59](https://github.com/Orb-Workshop/scrip
 
 > **GetEntityName**(): `string`
 
-Defined in: [helper/EntityHelper.ts:158](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L158)
+Defined in: [src/helper/EntityHelper.ts:158](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L158)
 
 ###### Returns
 
@@ -19070,7 +21127,7 @@ Defined in: [helper/EntityHelper.ts:158](https://github.com/Orb-Workshop/scripte
 
 > **GetEyeAngles**(): [`QAngle`](Math.md#qangle)
 
-Defined in: [helper/EntityHelper.ts:142](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L142)
+Defined in: [src/helper/EntityHelper.ts:142](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L142)
 
 ###### Returns
 
@@ -19084,7 +21141,7 @@ Defined in: [helper/EntityHelper.ts:142](https://github.com/Orb-Workshop/scripte
 
 > **GetEyePosition**(): [`Vector3`](Math.md#vector3)
 
-Defined in: [helper/EntityHelper.ts:146](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L146)
+Defined in: [src/helper/EntityHelper.ts:146](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L146)
 
 ###### Returns
 
@@ -19098,7 +21155,7 @@ Defined in: [helper/EntityHelper.ts:146](https://github.com/Orb-Workshop/scripte
 
 > **GetGroundEntity**(): `any`
 
-Defined in: [helper/EntityHelper.ts:218](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L218)
+Defined in: [src/helper/EntityHelper.ts:218](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L218)
 
 ###### Returns
 
@@ -19112,7 +21169,7 @@ Defined in: [helper/EntityHelper.ts:218](https://github.com/Orb-Workshop/scripte
 
 > **GetHealth**(): `number`
 
-Defined in: [helper/EntityHelper.ts:186](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L186)
+Defined in: [src/helper/EntityHelper.ts:186](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L186)
 
 ###### Returns
 
@@ -19126,7 +21183,7 @@ Defined in: [helper/EntityHelper.ts:186](https://github.com/Orb-Workshop/scripte
 
 > **GetLocalAngles**(): [`QAngle`](Math.md#qangle)
 
-Defined in: [helper/EntityHelper.ts:130](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L130)
+Defined in: [src/helper/EntityHelper.ts:130](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L130)
 
 ###### Returns
 
@@ -19140,7 +21197,7 @@ Defined in: [helper/EntityHelper.ts:130](https://github.com/Orb-Workshop/scripte
 
 > **GetLocalOrigin**(): [`Vector3`](Math.md#vector3)
 
-Defined in: [helper/EntityHelper.ts:122](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L122)
+Defined in: [src/helper/EntityHelper.ts:122](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L122)
 
 ###### Returns
 
@@ -19154,7 +21211,7 @@ Defined in: [helper/EntityHelper.ts:122](https://github.com/Orb-Workshop/scripte
 
 > **GetLocalVelocity**(): [`Vector3`](Math.md#vector3)
 
-Defined in: [helper/EntityHelper.ts:138](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L138)
+Defined in: [src/helper/EntityHelper.ts:138](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L138)
 
 ###### Returns
 
@@ -19168,7 +21225,7 @@ Defined in: [helper/EntityHelper.ts:138](https://github.com/Orb-Workshop/scripte
 
 > **GetMaxHealth**(): `number`
 
-Defined in: [helper/EntityHelper.ts:198](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L198)
+Defined in: [src/helper/EntityHelper.ts:198](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L198)
 
 ###### Returns
 
@@ -19182,7 +21239,7 @@ Defined in: [helper/EntityHelper.ts:198](https://github.com/Orb-Workshop/scripte
 
 > **GetModelName**(): `string`
 
-Defined in: [helper/BaseModelEntity.ts:43](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L43)
+Defined in: [src/helper/BaseModelEntity.ts:43](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L43)
 
 ###### Returns
 
@@ -19196,7 +21253,7 @@ Defined in: [helper/BaseModelEntity.ts:43](https://github.com/Orb-Workshop/scrip
 
 > **GetModelScale**(): `string`
 
-Defined in: [helper/BaseModelEntity.ts:51](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L51)
+Defined in: [src/helper/BaseModelEntity.ts:51](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L51)
 
 ###### Returns
 
@@ -19210,7 +21267,7 @@ Defined in: [helper/BaseModelEntity.ts:51](https://github.com/Orb-Workshop/scrip
 
 > **GetOwner**(): `any`
 
-Defined in: [helper/EntityHelper.ts:166](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L166)
+Defined in: [src/helper/EntityHelper.ts:166](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L166)
 
 ###### Returns
 
@@ -19224,7 +21281,7 @@ Defined in: [helper/EntityHelper.ts:166](https://github.com/Orb-Workshop/scripte
 
 > **GetParent**(): `any`
 
-Defined in: [helper/EntityHelper.ts:174](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L174)
+Defined in: [src/helper/EntityHelper.ts:174](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L174)
 
 ###### Returns
 
@@ -19238,7 +21295,7 @@ Defined in: [helper/EntityHelper.ts:174](https://github.com/Orb-Workshop/scripte
 
 > **GetTeamNumber**(): `number`
 
-Defined in: [helper/EntityHelper.ts:182](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L182)
+Defined in: [src/helper/EntityHelper.ts:182](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L182)
 
 ###### Returns
 
@@ -19252,7 +21309,7 @@ Defined in: [helper/EntityHelper.ts:182](https://github.com/Orb-Workshop/scripte
 
 > **Glow**(`color?`): `void`
 
-Defined in: [helper/BaseModelEntity.ts:63](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L63)
+Defined in: [src/helper/BaseModelEntity.ts:63](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L63)
 
 ###### Parameters
 
@@ -19272,7 +21329,7 @@ Defined in: [helper/BaseModelEntity.ts:63](https://github.com/Orb-Workshop/scrip
 
 > **IsAlive**(): `boolean`
 
-Defined in: [helper/EntityHelper.ts:210](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L210)
+Defined in: [src/helper/EntityHelper.ts:210](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L210)
 
 ###### Returns
 
@@ -19286,7 +21343,7 @@ Defined in: [helper/EntityHelper.ts:210](https://github.com/Orb-Workshop/scripte
 
 > **IsGlowing**(): `boolean`
 
-Defined in: [helper/BaseModelEntity.ts:71](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L71)
+Defined in: [src/helper/BaseModelEntity.ts:71](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L71)
 
 ###### Returns
 
@@ -19300,7 +21357,7 @@ Defined in: [helper/BaseModelEntity.ts:71](https://github.com/Orb-Workshop/scrip
 
 > **IsValid**(): `boolean`
 
-Defined in: [helper/EntityHelper.ts:114](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L114)
+Defined in: [src/helper/EntityHelper.ts:114](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L114)
 
 ###### Returns
 
@@ -19314,7 +21371,7 @@ Defined in: [helper/EntityHelper.ts:114](https://github.com/Orb-Workshop/scripte
 
 > **IsWorld**(): `boolean`
 
-Defined in: [helper/EntityHelper.ts:214](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L214)
+Defined in: [src/helper/EntityHelper.ts:214](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L214)
 
 ###### Returns
 
@@ -19328,7 +21385,7 @@ Defined in: [helper/EntityHelper.ts:214](https://github.com/Orb-Workshop/scripte
 
 > **Kill**(): `void`
 
-Defined in: [helper/EntityHelper.ts:226](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L226)
+Defined in: [src/helper/EntityHelper.ts:226](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L226)
 
 ###### Returns
 
@@ -19342,7 +21399,7 @@ Defined in: [helper/EntityHelper.ts:226](https://github.com/Orb-Workshop/scripte
 
 > **KillAll**(): `void`
 
-Defined in: [helper/EntityHelper.ts:234](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L234)
+Defined in: [src/helper/EntityHelper.ts:234](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L234)
 
 ###### Returns
 
@@ -19356,7 +21413,7 @@ Defined in: [helper/EntityHelper.ts:234](https://github.com/Orb-Workshop/scripte
 
 > **KillHierarchy**(`opts?`): `void`
 
-Defined in: [helper/EntityHelper.ts:230](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L230)
+Defined in: [src/helper/EntityHelper.ts:230](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L230)
 
 ###### Parameters
 
@@ -19376,7 +21433,7 @@ Defined in: [helper/EntityHelper.ts:230](https://github.com/Orb-Workshop/scripte
 
 > **On**(`event_name`, `callback`): [`EntityHelper`](#abstract-entityhelper)
 
-Defined in: [helper/EntityHelper.ts:104](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L104)
+Defined in: [src/helper/EntityHelper.ts:104](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L104)
 
 ###### Parameters
 
@@ -19397,7 +21454,7 @@ Defined in: [helper/EntityHelper.ts:104](https://github.com/Orb-Workshop/scripte
 
 > **OnAnimationBegun**(`callback`): [`PropDynamic`](#propdynamic)
 
-Defined in: [helper/PropDynamic.ts:145](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropDynamic.ts#L145)
+Defined in: [src/helper/PropDynamic.ts:145](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropDynamic.ts#L145)
 
 ###### Parameters
 
@@ -19413,7 +21470,7 @@ Defined in: [helper/PropDynamic.ts:145](https://github.com/Orb-Workshop/scripted
 
 > **OnAnimationDone**(`callback`): [`PropDynamic`](#propdynamic)
 
-Defined in: [helper/PropDynamic.ts:149](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropDynamic.ts#L149)
+Defined in: [src/helper/PropDynamic.ts:149](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropDynamic.ts#L149)
 
 ###### Parameters
 
@@ -19429,7 +21486,7 @@ Defined in: [helper/PropDynamic.ts:149](https://github.com/Orb-Workshop/scripted
 
 > **OnAnimationLoopCycleDone**(`callback`): [`PropDynamic`](#propdynamic)
 
-Defined in: [helper/PropDynamic.ts:161](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropDynamic.ts#L161)
+Defined in: [src/helper/PropDynamic.ts:161](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropDynamic.ts#L161)
 
 ###### Parameters
 
@@ -19445,7 +21502,7 @@ Defined in: [helper/PropDynamic.ts:161](https://github.com/Orb-Workshop/scripted
 
 > **OnAnimationReachedEnd**(`callback`): [`PropDynamic`](#propdynamic)
 
-Defined in: [helper/PropDynamic.ts:153](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropDynamic.ts#L153)
+Defined in: [src/helper/PropDynamic.ts:153](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropDynamic.ts#L153)
 
 ###### Parameters
 
@@ -19461,7 +21518,7 @@ Defined in: [helper/PropDynamic.ts:153](https://github.com/Orb-Workshop/scripted
 
 > **OnAnimationReachedStart**(`callback`): [`PropDynamic`](#propdynamic)
 
-Defined in: [helper/PropDynamic.ts:157](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropDynamic.ts#L157)
+Defined in: [src/helper/PropDynamic.ts:157](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropDynamic.ts#L157)
 
 ###### Parameters
 
@@ -19477,7 +21534,7 @@ Defined in: [helper/PropDynamic.ts:157](https://github.com/Orb-Workshop/scripted
 
 > **OnBreak**(`callback`): [`FuncBreakable`](#funcbreakable)
 
-Defined in: [helper/FuncBreakable.ts:62](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/FuncBreakable.ts#L62)
+Defined in: [src/helper/FuncBreakable.ts:62](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/FuncBreakable.ts#L62)
 
 ###### Parameters
 
@@ -19497,7 +21554,7 @@ Defined in: [helper/FuncBreakable.ts:62](https://github.com/Orb-Workshop/scripte
 
 > **OnDestructibleHitGroupDamageLevelChanged**(`callback`): [`PropDynamic`](#propdynamic)
 
-Defined in: [helper/PropDynamic.ts:165](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropDynamic.ts#L165)
+Defined in: [src/helper/PropDynamic.ts:165](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropDynamic.ts#L165)
 
 ###### Parameters
 
@@ -19513,7 +21570,7 @@ Defined in: [helper/PropDynamic.ts:165](https://github.com/Orb-Workshop/scripted
 
 > **OnHealthChanged**(`callback`): [`PropDynamic`](#propdynamic)
 
-Defined in: [helper/PropDynamic.ts:141](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropDynamic.ts#L141)
+Defined in: [src/helper/PropDynamic.ts:141](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropDynamic.ts#L141)
 
 ###### Parameters
 
@@ -19533,7 +21590,7 @@ Defined in: [helper/PropDynamic.ts:141](https://github.com/Orb-Workshop/scripted
 
 > **OnTakeDamage**(`callback`): [`PropDynamic`](#propdynamic)
 
-Defined in: [helper/PropDynamic.ts:137](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropDynamic.ts#L137)
+Defined in: [src/helper/PropDynamic.ts:137](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropDynamic.ts#L137)
 
 ###### Parameters
 
@@ -19549,7 +21606,7 @@ Defined in: [helper/PropDynamic.ts:137](https://github.com/Orb-Workshop/scripted
 
 > **Remove**(): `void`
 
-Defined in: [helper/EntityHelper.ts:238](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L238)
+Defined in: [src/helper/EntityHelper.ts:238](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L238)
 
 ###### Returns
 
@@ -19563,7 +21620,7 @@ Defined in: [helper/EntityHelper.ts:238](https://github.com/Orb-Workshop/scripte
 
 > **RemoveHealth**(`value`, `opts?`): `void`
 
-Defined in: [helper/FuncBreakable.ts:53](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/FuncBreakable.ts#L53)
+Defined in: [src/helper/FuncBreakable.ts:53](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/FuncBreakable.ts#L53)
 
 ###### Parameters
 
@@ -19584,7 +21641,7 @@ Defined in: [helper/FuncBreakable.ts:53](https://github.com/Orb-Workshop/scripte
 
 > **SetAnimationLooping**(`value`, `opts?`): `void`
 
-Defined in: [helper/PropDynamic.ts:107](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropDynamic.ts#L107)
+Defined in: [src/helper/PropDynamic.ts:107](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropDynamic.ts#L107)
 
 ###### Parameters
 
@@ -19601,7 +21658,7 @@ Defined in: [helper/PropDynamic.ts:107](https://github.com/Orb-Workshop/scripted
 
 > **SetAnimationNoResetLooping**(`value`, `opts?`): `void`
 
-Defined in: [helper/PropDynamic.ts:111](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropDynamic.ts#L111)
+Defined in: [src/helper/PropDynamic.ts:111](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropDynamic.ts#L111)
 
 ###### Parameters
 
@@ -19618,7 +21675,7 @@ Defined in: [helper/PropDynamic.ts:111](https://github.com/Orb-Workshop/scripted
 
 > **SetAnimationNoResetNotLooping**(`value`, `opts?`): `void`
 
-Defined in: [helper/PropDynamic.ts:123](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropDynamic.ts#L123)
+Defined in: [src/helper/PropDynamic.ts:123](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropDynamic.ts#L123)
 
 ###### Parameters
 
@@ -19635,7 +21692,7 @@ Defined in: [helper/PropDynamic.ts:123](https://github.com/Orb-Workshop/scripted
 
 > **SetAnimationNotLooping**(`value`, `opts?`): `void`
 
-Defined in: [helper/PropDynamic.ts:119](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropDynamic.ts#L119)
+Defined in: [src/helper/PropDynamic.ts:119](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropDynamic.ts#L119)
 
 ###### Parameters
 
@@ -19652,7 +21709,7 @@ Defined in: [helper/PropDynamic.ts:119](https://github.com/Orb-Workshop/scripted
 
 > **SetAnimGraphParameter**(`name`, `value`, `opts?`): `void`
 
-Defined in: [helper/PropDynamic.ts:78](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropDynamic.ts#L78)
+Defined in: [src/helper/PropDynamic.ts:78](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropDynamic.ts#L78)
 
 ###### Parameters
 
@@ -19670,7 +21727,7 @@ Defined in: [helper/PropDynamic.ts:78](https://github.com/Orb-Workshop/scriptede
 
 > **SetBodyGroup**(`value`, `opts?`): `void`
 
-Defined in: [helper/PropDynamic.ts:103](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropDynamic.ts#L103)
+Defined in: [src/helper/PropDynamic.ts:103](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropDynamic.ts#L103)
 
 ###### Parameters
 
@@ -19687,7 +21744,7 @@ Defined in: [helper/PropDynamic.ts:103](https://github.com/Orb-Workshop/scripted
 
 > **SetColor**(`c`): `void`
 
-Defined in: [helper/BaseModelEntity.ts:55](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L55)
+Defined in: [src/helper/BaseModelEntity.ts:55](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L55)
 
 ###### Parameters
 
@@ -19707,7 +21764,7 @@ Defined in: [helper/BaseModelEntity.ts:55](https://github.com/Orb-Workshop/scrip
 
 > **SetEntityName**(`s`): `void`
 
-Defined in: [helper/EntityHelper.ts:162](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L162)
+Defined in: [src/helper/EntityHelper.ts:162](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L162)
 
 ###### Parameters
 
@@ -19727,7 +21784,7 @@ Defined in: [helper/EntityHelper.ts:162](https://github.com/Orb-Workshop/scripte
 
 > **SetHealth**(`value`, `opts?`): `void`
 
-Defined in: [helper/FuncBreakable.ts:45](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/FuncBreakable.ts#L45)
+Defined in: [src/helper/FuncBreakable.ts:45](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/FuncBreakable.ts#L45)
 
 ###### Parameters
 
@@ -19748,7 +21805,7 @@ Defined in: [helper/FuncBreakable.ts:45](https://github.com/Orb-Workshop/scripte
 
 > **SetIdleAnimationLooping**(`value`, `opts?`): `void`
 
-Defined in: [helper/PropDynamic.ts:115](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropDynamic.ts#L115)
+Defined in: [src/helper/PropDynamic.ts:115](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropDynamic.ts#L115)
 
 ###### Parameters
 
@@ -19765,7 +21822,7 @@ Defined in: [helper/PropDynamic.ts:115](https://github.com/Orb-Workshop/scripted
 
 > **SetIdleAnimationNotLooping**(`value`, `opts?`): `void`
 
-Defined in: [helper/PropDynamic.ts:127](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropDynamic.ts#L127)
+Defined in: [src/helper/PropDynamic.ts:127](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropDynamic.ts#L127)
 
 ###### Parameters
 
@@ -19782,7 +21839,7 @@ Defined in: [helper/PropDynamic.ts:127](https://github.com/Orb-Workshop/scripted
 
 > **SetMass**(`value`, `opts?`): `void`
 
-Defined in: [helper/FuncBreakable.ts:57](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/FuncBreakable.ts#L57)
+Defined in: [src/helper/FuncBreakable.ts:57](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/FuncBreakable.ts#L57)
 
 ###### Parameters
 
@@ -19803,7 +21860,7 @@ Defined in: [helper/FuncBreakable.ts:57](https://github.com/Orb-Workshop/scripte
 
 > **SetMaxHealth**(`hp`): `void`
 
-Defined in: [helper/EntityHelper.ts:202](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L202)
+Defined in: [src/helper/EntityHelper.ts:202](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L202)
 
 ###### Parameters
 
@@ -19823,7 +21880,7 @@ Defined in: [helper/EntityHelper.ts:202](https://github.com/Orb-Workshop/scripte
 
 > **SetModel**(`s`): `void`
 
-Defined in: [helper/BaseModelEntity.ts:39](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L39)
+Defined in: [src/helper/BaseModelEntity.ts:39](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L39)
 
 ###### Parameters
 
@@ -19843,7 +21900,7 @@ Defined in: [helper/BaseModelEntity.ts:39](https://github.com/Orb-Workshop/scrip
 
 > **SetModelScale**(`s`): `void`
 
-Defined in: [helper/BaseModelEntity.ts:47](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L47)
+Defined in: [src/helper/BaseModelEntity.ts:47](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L47)
 
 ###### Parameters
 
@@ -19863,7 +21920,7 @@ Defined in: [helper/BaseModelEntity.ts:47](https://github.com/Orb-Workshop/scrip
 
 > **SetNavIgnore**(`opts?`): `void`
 
-Defined in: [helper/PropDynamic.ts:74](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropDynamic.ts#L74)
+Defined in: [src/helper/PropDynamic.ts:74](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropDynamic.ts#L74)
 
 ###### Parameters
 
@@ -19879,7 +21936,7 @@ Defined in: [helper/PropDynamic.ts:74](https://github.com/Orb-Workshop/scriptede
 
 > **SetOwner**(`e`): `void`
 
-Defined in: [helper/EntityHelper.ts:170](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L170)
+Defined in: [src/helper/EntityHelper.ts:170](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L170)
 
 ###### Parameters
 
@@ -19899,7 +21956,7 @@ Defined in: [helper/EntityHelper.ts:170](https://github.com/Orb-Workshop/scripte
 
 > **SetParent**(`e`): `void`
 
-Defined in: [helper/EntityHelper.ts:178](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L178)
+Defined in: [src/helper/EntityHelper.ts:178](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L178)
 
 ###### Parameters
 
@@ -19919,7 +21976,7 @@ Defined in: [helper/EntityHelper.ts:178](https://github.com/Orb-Workshop/scripte
 
 > **SetPlaybackRate**(`value`, `opts?`): `void`
 
-Defined in: [helper/PropDynamic.ts:131](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropDynamic.ts#L131)
+Defined in: [src/helper/PropDynamic.ts:131](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropDynamic.ts#L131)
 
 ###### Parameters
 
@@ -19936,7 +21993,7 @@ Defined in: [helper/PropDynamic.ts:131](https://github.com/Orb-Workshop/scripted
 
 > **SetRagdollProfile**(`value`, `opts?`): `void`
 
-Defined in: [helper/PropDynamic.ts:83](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropDynamic.ts#L83)
+Defined in: [src/helper/PropDynamic.ts:83](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropDynamic.ts#L83)
 
 ###### Parameters
 
@@ -19953,7 +22010,7 @@ Defined in: [helper/PropDynamic.ts:83](https://github.com/Orb-Workshop/scriptede
 
 > **SetRenderAttribute**(`value`, `opts?`): `void`
 
-Defined in: [helper/PropDynamic.ts:50](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropDynamic.ts#L50)
+Defined in: [src/helper/PropDynamic.ts:50](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropDynamic.ts#L50)
 
 ###### Parameters
 
@@ -19970,7 +22027,7 @@ Defined in: [helper/PropDynamic.ts:50](https://github.com/Orb-Workshop/scriptede
 
 > **Skin**(`value`, `opts?`): `void`
 
-Defined in: [helper/PropDynamic.ts:46](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropDynamic.ts#L46)
+Defined in: [src/helper/PropDynamic.ts:46](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropDynamic.ts#L46)
 
 ###### Parameters
 
@@ -19987,7 +22044,7 @@ Defined in: [helper/PropDynamic.ts:46](https://github.com/Orb-Workshop/scriptede
 
 > **TakeDamage**(`__namedParameters`): `number`
 
-Defined in: [helper/EntityHelper.ts:222](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L222)
+Defined in: [src/helper/EntityHelper.ts:222](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L222)
 
 ###### Parameters
 
@@ -20011,7 +22068,7 @@ Defined in: [helper/EntityHelper.ts:222](https://github.com/Orb-Workshop/scripte
 
 > **Teleport**(`__namedParameters`): `void`
 
-Defined in: [helper/EntityHelper.ts:150](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L150)
+Defined in: [src/helper/EntityHelper.ts:150](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L150)
 
 ###### Parameters
 
@@ -20034,7 +22091,7 @@ Defined in: [helper/EntityHelper.ts:150](https://github.com/Orb-Workshop/scripte
 
 > **TurnOff**(`opts?`): `void`
 
-Defined in: [helper/PropDynamic.ts:91](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropDynamic.ts#L91)
+Defined in: [src/helper/PropDynamic.ts:91](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropDynamic.ts#L91)
 
 ###### Parameters
 
@@ -20050,7 +22107,7 @@ Defined in: [helper/PropDynamic.ts:91](https://github.com/Orb-Workshop/scriptede
 
 > **TurnOn**(`opts?`): `void`
 
-Defined in: [helper/PropDynamic.ts:87](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropDynamic.ts#L87)
+Defined in: [src/helper/PropDynamic.ts:87](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropDynamic.ts#L87)
 
 ###### Parameters
 
@@ -20066,7 +22123,7 @@ Defined in: [helper/PropDynamic.ts:87](https://github.com/Orb-Workshop/scriptede
 
 > **Unglow**(): `void`
 
-Defined in: [helper/BaseModelEntity.ts:67](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L67)
+Defined in: [src/helper/BaseModelEntity.ts:67](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L67)
 
 ###### Returns
 
@@ -20080,7 +22137,7 @@ Defined in: [helper/BaseModelEntity.ts:67](https://github.com/Orb-Workshop/scrip
 
 > `static` **Find**(`r`): [`PropDynamic`](#propdynamic)
 
-Defined in: [helper/PropDynamic.ts:29](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropDynamic.ts#L29)
+Defined in: [src/helper/PropDynamic.ts:29](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropDynamic.ts#L29)
 
 ###### Parameters
 
@@ -20100,7 +22157,7 @@ Defined in: [helper/PropDynamic.ts:29](https://github.com/Orb-Workshop/scriptede
 
 > `static` **FindAll**(`r`): [`PropDynamic`](#propdynamic)[]
 
-Defined in: [helper/PropDynamic.ts:34](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropDynamic.ts#L34)
+Defined in: [src/helper/PropDynamic.ts:34](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropDynamic.ts#L34)
 
 ###### Parameters
 
@@ -20120,7 +22177,7 @@ Defined in: [helper/PropDynamic.ts:34](https://github.com/Orb-Workshop/scriptede
 
 > `static` **FindAllByClass**(`classname`, `r`): [`EntityHelper`](#abstract-entityhelper)[]
 
-Defined in: [helper/EntityHelper.ts:52](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L52)
+Defined in: [src/helper/EntityHelper.ts:52](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L52)
 
 ###### Parameters
 
@@ -20141,7 +22198,7 @@ Defined in: [helper/EntityHelper.ts:52](https://github.com/Orb-Workshop/scripted
 
 > `static` **FindByClass**(`classname`, `r`, `error?`): [`EntityHelper`](#abstract-entityhelper) \| `null`
 
-Defined in: [helper/EntityHelper.ts:44](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L44)
+Defined in: [src/helper/EntityHelper.ts:44](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L44)
 
 ###### Parameters
 
@@ -20163,7 +22220,7 @@ Defined in: [helper/EntityHelper.ts:44](https://github.com/Orb-Workshop/scripted
 
 > `static` **From**(`e`): [`PropDynamic`](#propdynamic)
 
-Defined in: [helper/PropDynamic.ts:23](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropDynamic.ts#L23)
+Defined in: [src/helper/PropDynamic.ts:23](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropDynamic.ts#L23)
 
 ###### Parameters
 
@@ -20177,13 +22234,13 @@ Defined in: [helper/PropDynamic.ts:23](https://github.com/Orb-Workshop/scriptede
 
 ###### Overrides
 
-[`FuncBreakable`](#funcbreakable).[`From`](#from-6)
+[`FuncBreakable`](#funcbreakable).[`From`](#from-5)
 
 ***
 
 ### PropDynamicOrnament
 
-Defined in: [helper/PropDynamicOrnament.ts:17](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropDynamicOrnament.ts#L17)
+Defined in: [src/helper/PropDynamicOrnament.ts:17](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropDynamicOrnament.ts#L17)
 
 #### Extends
 
@@ -20195,7 +22252,7 @@ Defined in: [helper/PropDynamicOrnament.ts:17](https://github.com/Orb-Workshop/s
 
 > **new PropDynamicOrnament**(`entity`): [`PropDynamicOrnament`](#propdynamicornament)
 
-Defined in: [helper/PropDynamicOrnament.ts:18](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropDynamicOrnament.ts#L18)
+Defined in: [src/helper/PropDynamicOrnament.ts:18](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropDynamicOrnament.ts#L18)
 
 ###### Parameters
 
@@ -20209,7 +22266,7 @@ Defined in: [helper/PropDynamicOrnament.ts:18](https://github.com/Orb-Workshop/s
 
 ###### Overrides
 
-[`PropDynamic`](#propdynamic).[`constructor`](#constructor-22)
+[`PropDynamic`](#propdynamic).[`constructor`](#constructor-23)
 
 #### Accessors
 
@@ -20219,7 +22276,7 @@ Defined in: [helper/PropDynamicOrnament.ts:18](https://github.com/Orb-Workshop/s
 
 > **get** **raw**(): `Entity`
 
-Defined in: [helper/EntityHelper.ts:57](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L57)
+Defined in: [src/helper/EntityHelper.ts:57](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L57)
 
 ###### Returns
 
@@ -20227,7 +22284,7 @@ Defined in: [helper/EntityHelper.ts:57](https://github.com/Orb-Workshop/scripted
 
 ###### Inherited from
 
-[`PropDynamic`](#propdynamic).[`raw`](#raw-21)
+[`PropDynamic`](#propdynamic).[`raw`](#raw-23)
 
 #### Methods
 
@@ -20235,7 +22292,7 @@ Defined in: [helper/EntityHelper.ts:57](https://github.com/Orb-Workshop/scripted
 
 > **AddHealth**(`value`, `opts?`): `void`
 
-Defined in: [helper/FuncBreakable.ts:49](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/FuncBreakable.ts#L49)
+Defined in: [src/helper/FuncBreakable.ts:49](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/FuncBreakable.ts#L49)
 
 ###### Parameters
 
@@ -20256,7 +22313,7 @@ Defined in: [helper/FuncBreakable.ts:49](https://github.com/Orb-Workshop/scripte
 
 > **Break**(`opts?`): `void`
 
-Defined in: [helper/FuncBreakable.ts:41](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/FuncBreakable.ts#L41)
+Defined in: [src/helper/FuncBreakable.ts:41](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/FuncBreakable.ts#L41)
 
 ###### Parameters
 
@@ -20276,7 +22333,7 @@ Defined in: [helper/FuncBreakable.ts:41](https://github.com/Orb-Workshop/scripte
 
 > **ClearRenderAttribute**(`opts?`): `void`
 
-Defined in: [helper/PropDynamic.ts:54](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropDynamic.ts#L54)
+Defined in: [src/helper/PropDynamic.ts:54](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropDynamic.ts#L54)
 
 ###### Parameters
 
@@ -20296,7 +22353,7 @@ Defined in: [helper/PropDynamic.ts:54](https://github.com/Orb-Workshop/scriptede
 
 > **ConnectOutput**(`event_name`, `callback`): `void`
 
-Defined in: [helper/EntityHelper.ts:95](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L95)
+Defined in: [src/helper/EntityHelper.ts:95](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L95)
 
 Represents EventListening of IO entities with `this.ConnectOutput`
 TODO: Use Global Events to 'latch onto' the callbacks this method represents.
@@ -20314,13 +22371,13 @@ TODO: Use Global Events to 'latch onto' the callbacks this method represents.
 
 ###### Inherited from
 
-[`PropDynamic`](#propdynamic).[`ConnectOutput`](#connectoutput-21)
+[`PropDynamic`](#propdynamic).[`ConnectOutput`](#connectoutput-23)
 
 ##### Detached()
 
 > **Detached**(`opts?`): `void`
 
-Defined in: [helper/PropDynamicOrnament.ts:45](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropDynamicOrnament.ts#L45)
+Defined in: [src/helper/PropDynamicOrnament.ts:45](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropDynamicOrnament.ts#L45)
 
 ###### Parameters
 
@@ -20336,7 +22393,7 @@ Defined in: [helper/PropDynamicOrnament.ts:45](https://github.com/Orb-Workshop/s
 
 > **Disable**(`opts?`): `void`
 
-Defined in: [helper/PropDynamic.ts:99](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropDynamic.ts#L99)
+Defined in: [src/helper/PropDynamic.ts:99](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropDynamic.ts#L99)
 
 ###### Parameters
 
@@ -20350,13 +22407,13 @@ Defined in: [helper/PropDynamic.ts:99](https://github.com/Orb-Workshop/scriptede
 
 ###### Inherited from
 
-[`PropDynamic`](#propdynamic).[`Disable`](#disable-1)
+[`PropDynamic`](#propdynamic).[`Disable`](#disable-3)
 
 ##### DisableCollision()
 
 > **DisableCollision**(`opts?`): `void`
 
-Defined in: [helper/PropDynamic.ts:70](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropDynamic.ts#L70)
+Defined in: [src/helper/PropDynamic.ts:70](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropDynamic.ts#L70)
 
 ###### Parameters
 
@@ -20376,7 +22433,7 @@ Defined in: [helper/PropDynamic.ts:70](https://github.com/Orb-Workshop/scriptede
 
 > **DisableShadow**(`opts?`): `void`
 
-Defined in: [helper/PropDynamic.ts:62](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropDynamic.ts#L62)
+Defined in: [src/helper/PropDynamic.ts:62](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropDynamic.ts#L62)
 
 ###### Parameters
 
@@ -20396,7 +22453,7 @@ Defined in: [helper/PropDynamic.ts:62](https://github.com/Orb-Workshop/scriptede
 
 > **Enable**(`opts?`): `void`
 
-Defined in: [helper/PropDynamic.ts:95](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropDynamic.ts#L95)
+Defined in: [src/helper/PropDynamic.ts:95](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropDynamic.ts#L95)
 
 ###### Parameters
 
@@ -20410,13 +22467,13 @@ Defined in: [helper/PropDynamic.ts:95](https://github.com/Orb-Workshop/scriptede
 
 ###### Inherited from
 
-[`PropDynamic`](#propdynamic).[`Enable`](#enable-1)
+[`PropDynamic`](#propdynamic).[`Enable`](#enable-3)
 
 ##### EnableCollision()
 
 > **EnableCollision**(`opts?`): `void`
 
-Defined in: [helper/PropDynamic.ts:66](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropDynamic.ts#L66)
+Defined in: [src/helper/PropDynamic.ts:66](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropDynamic.ts#L66)
 
 ###### Parameters
 
@@ -20436,7 +22493,7 @@ Defined in: [helper/PropDynamic.ts:66](https://github.com/Orb-Workshop/scriptede
 
 > **EnableShadow**(`opts?`): `void`
 
-Defined in: [helper/PropDynamic.ts:58](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropDynamic.ts#L58)
+Defined in: [src/helper/PropDynamic.ts:58](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropDynamic.ts#L58)
 
 ###### Parameters
 
@@ -20456,7 +22513,7 @@ Defined in: [helper/PropDynamic.ts:58](https://github.com/Orb-Workshop/scriptede
 
 > **FireIO**(`opts?`): `void`
 
-Defined in: [helper/EntityHelper.ts:59](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L59)
+Defined in: [src/helper/EntityHelper.ts:59](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L59)
 
 ###### Parameters
 
@@ -20470,13 +22527,13 @@ Defined in: [helper/EntityHelper.ts:59](https://github.com/Orb-Workshop/scripted
 
 ###### Inherited from
 
-[`PropDynamic`](#propdynamic).[`FireIO`](#fireio-21)
+[`PropDynamic`](#propdynamic).[`FireIO`](#fireio-23)
 
 ##### FireUser1()
 
 > **FireUser1**(`opts?`): `void`
 
-Defined in: [helper/EntityHelper.ts:68](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L68)
+Defined in: [src/helper/EntityHelper.ts:68](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L68)
 
 ###### Parameters
 
@@ -20490,13 +22547,13 @@ Defined in: [helper/EntityHelper.ts:68](https://github.com/Orb-Workshop/scripted
 
 ###### Inherited from
 
-[`PropDynamic`](#propdynamic).[`FireUser1`](#fireuser1-21)
+[`PropDynamic`](#propdynamic).[`FireUser1`](#fireuser1-23)
 
 ##### FireUser2()
 
 > **FireUser2**(`opts?`): `void`
 
-Defined in: [helper/EntityHelper.ts:72](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L72)
+Defined in: [src/helper/EntityHelper.ts:72](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L72)
 
 ###### Parameters
 
@@ -20510,13 +22567,13 @@ Defined in: [helper/EntityHelper.ts:72](https://github.com/Orb-Workshop/scripted
 
 ###### Inherited from
 
-[`PropDynamic`](#propdynamic).[`FireUser2`](#fireuser2-21)
+[`PropDynamic`](#propdynamic).[`FireUser2`](#fireuser2-23)
 
 ##### FireUser3()
 
 > **FireUser3**(`opts?`): `void`
 
-Defined in: [helper/EntityHelper.ts:76](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L76)
+Defined in: [src/helper/EntityHelper.ts:76](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L76)
 
 ###### Parameters
 
@@ -20530,13 +22587,13 @@ Defined in: [helper/EntityHelper.ts:76](https://github.com/Orb-Workshop/scripted
 
 ###### Inherited from
 
-[`PropDynamic`](#propdynamic).[`FireUser3`](#fireuser3-21)
+[`PropDynamic`](#propdynamic).[`FireUser3`](#fireuser3-23)
 
 ##### FireUser4()
 
 > **FireUser4**(`opts?`): `void`
 
-Defined in: [helper/EntityHelper.ts:80](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L80)
+Defined in: [src/helper/EntityHelper.ts:80](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L80)
 
 ###### Parameters
 
@@ -20550,13 +22607,13 @@ Defined in: [helper/EntityHelper.ts:80](https://github.com/Orb-Workshop/scripted
 
 ###### Inherited from
 
-[`PropDynamic`](#propdynamic).[`FireUser4`](#fireuser4-21)
+[`PropDynamic`](#propdynamic).[`FireUser4`](#fireuser4-23)
 
 ##### FollowEntity()
 
 > **FollowEntity**(`opts?`): `void`
 
-Defined in: [helper/PropDynamic.ts:42](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropDynamic.ts#L42)
+Defined in: [src/helper/PropDynamic.ts:42](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropDynamic.ts#L42)
 
 ###### Parameters
 
@@ -20576,7 +22633,7 @@ Defined in: [helper/PropDynamic.ts:42](https://github.com/Orb-Workshop/scriptede
 
 > **GetAbsAngles**(): [`QAngle`](Math.md#qangle)
 
-Defined in: [helper/EntityHelper.ts:126](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L126)
+Defined in: [src/helper/EntityHelper.ts:126](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L126)
 
 ###### Returns
 
@@ -20584,13 +22641,13 @@ Defined in: [helper/EntityHelper.ts:126](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`PropDynamic`](#propdynamic).[`GetAbsAngles`](#getabsangles-21)
+[`PropDynamic`](#propdynamic).[`GetAbsAngles`](#getabsangles-23)
 
 ##### GetAbsOrigin()
 
 > **GetAbsOrigin**(): [`Vector3`](Math.md#vector3)
 
-Defined in: [helper/EntityHelper.ts:118](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L118)
+Defined in: [src/helper/EntityHelper.ts:118](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L118)
 
 ###### Returns
 
@@ -20598,13 +22655,13 @@ Defined in: [helper/EntityHelper.ts:118](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`PropDynamic`](#propdynamic).[`GetAbsOrigin`](#getabsorigin-21)
+[`PropDynamic`](#propdynamic).[`GetAbsOrigin`](#getabsorigin-23)
 
 ##### GetAbsVelocity()
 
 > **GetAbsVelocity**(): [`Vector3`](Math.md#vector3)
 
-Defined in: [helper/EntityHelper.ts:134](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L134)
+Defined in: [src/helper/EntityHelper.ts:134](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L134)
 
 ###### Returns
 
@@ -20612,13 +22669,13 @@ Defined in: [helper/EntityHelper.ts:134](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`PropDynamic`](#propdynamic).[`GetAbsVelocity`](#getabsvelocity-21)
+[`PropDynamic`](#propdynamic).[`GetAbsVelocity`](#getabsvelocity-23)
 
 ##### GetClassName()
 
 > **GetClassName**(): `string`
 
-Defined in: [helper/EntityHelper.ts:154](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L154)
+Defined in: [src/helper/EntityHelper.ts:154](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L154)
 
 ###### Returns
 
@@ -20626,13 +22683,13 @@ Defined in: [helper/EntityHelper.ts:154](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`PropDynamic`](#propdynamic).[`GetClassName`](#getclassname-21)
+[`PropDynamic`](#propdynamic).[`GetClassName`](#getclassname-23)
 
 ##### GetColor()
 
 > **GetColor**(): `ColorType`
 
-Defined in: [helper/BaseModelEntity.ts:59](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L59)
+Defined in: [src/helper/BaseModelEntity.ts:59](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L59)
 
 ###### Returns
 
@@ -20646,7 +22703,7 @@ Defined in: [helper/BaseModelEntity.ts:59](https://github.com/Orb-Workshop/scrip
 
 > **GetEntityName**(): `string`
 
-Defined in: [helper/EntityHelper.ts:158](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L158)
+Defined in: [src/helper/EntityHelper.ts:158](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L158)
 
 ###### Returns
 
@@ -20654,13 +22711,13 @@ Defined in: [helper/EntityHelper.ts:158](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`PropDynamic`](#propdynamic).[`GetEntityName`](#getentityname-21)
+[`PropDynamic`](#propdynamic).[`GetEntityName`](#getentityname-23)
 
 ##### GetEyeAngles()
 
 > **GetEyeAngles**(): [`QAngle`](Math.md#qangle)
 
-Defined in: [helper/EntityHelper.ts:142](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L142)
+Defined in: [src/helper/EntityHelper.ts:142](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L142)
 
 ###### Returns
 
@@ -20668,13 +22725,13 @@ Defined in: [helper/EntityHelper.ts:142](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`PropDynamic`](#propdynamic).[`GetEyeAngles`](#geteyeangles-21)
+[`PropDynamic`](#propdynamic).[`GetEyeAngles`](#geteyeangles-23)
 
 ##### GetEyePosition()
 
 > **GetEyePosition**(): [`Vector3`](Math.md#vector3)
 
-Defined in: [helper/EntityHelper.ts:146](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L146)
+Defined in: [src/helper/EntityHelper.ts:146](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L146)
 
 ###### Returns
 
@@ -20682,13 +22739,13 @@ Defined in: [helper/EntityHelper.ts:146](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`PropDynamic`](#propdynamic).[`GetEyePosition`](#geteyeposition-21)
+[`PropDynamic`](#propdynamic).[`GetEyePosition`](#geteyeposition-23)
 
 ##### GetGroundEntity()
 
 > **GetGroundEntity**(): `any`
 
-Defined in: [helper/EntityHelper.ts:218](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L218)
+Defined in: [src/helper/EntityHelper.ts:218](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L218)
 
 ###### Returns
 
@@ -20696,13 +22753,13 @@ Defined in: [helper/EntityHelper.ts:218](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`PropDynamic`](#propdynamic).[`GetGroundEntity`](#getgroundentity-21)
+[`PropDynamic`](#propdynamic).[`GetGroundEntity`](#getgroundentity-23)
 
 ##### GetHealth()
 
 > **GetHealth**(): `number`
 
-Defined in: [helper/EntityHelper.ts:186](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L186)
+Defined in: [src/helper/EntityHelper.ts:186](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L186)
 
 ###### Returns
 
@@ -20710,13 +22767,13 @@ Defined in: [helper/EntityHelper.ts:186](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`PropDynamic`](#propdynamic).[`GetHealth`](#gethealth-21)
+[`PropDynamic`](#propdynamic).[`GetHealth`](#gethealth-23)
 
 ##### GetLocalAngles()
 
 > **GetLocalAngles**(): [`QAngle`](Math.md#qangle)
 
-Defined in: [helper/EntityHelper.ts:130](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L130)
+Defined in: [src/helper/EntityHelper.ts:130](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L130)
 
 ###### Returns
 
@@ -20724,13 +22781,13 @@ Defined in: [helper/EntityHelper.ts:130](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`PropDynamic`](#propdynamic).[`GetLocalAngles`](#getlocalangles-21)
+[`PropDynamic`](#propdynamic).[`GetLocalAngles`](#getlocalangles-23)
 
 ##### GetLocalOrigin()
 
 > **GetLocalOrigin**(): [`Vector3`](Math.md#vector3)
 
-Defined in: [helper/EntityHelper.ts:122](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L122)
+Defined in: [src/helper/EntityHelper.ts:122](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L122)
 
 ###### Returns
 
@@ -20738,13 +22795,13 @@ Defined in: [helper/EntityHelper.ts:122](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`PropDynamic`](#propdynamic).[`GetLocalOrigin`](#getlocalorigin-21)
+[`PropDynamic`](#propdynamic).[`GetLocalOrigin`](#getlocalorigin-23)
 
 ##### GetLocalVelocity()
 
 > **GetLocalVelocity**(): [`Vector3`](Math.md#vector3)
 
-Defined in: [helper/EntityHelper.ts:138](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L138)
+Defined in: [src/helper/EntityHelper.ts:138](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L138)
 
 ###### Returns
 
@@ -20752,13 +22809,13 @@ Defined in: [helper/EntityHelper.ts:138](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`PropDynamic`](#propdynamic).[`GetLocalVelocity`](#getlocalvelocity-21)
+[`PropDynamic`](#propdynamic).[`GetLocalVelocity`](#getlocalvelocity-23)
 
 ##### GetMaxHealth()
 
 > **GetMaxHealth**(): `number`
 
-Defined in: [helper/EntityHelper.ts:198](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L198)
+Defined in: [src/helper/EntityHelper.ts:198](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L198)
 
 ###### Returns
 
@@ -20766,13 +22823,13 @@ Defined in: [helper/EntityHelper.ts:198](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`PropDynamic`](#propdynamic).[`GetMaxHealth`](#getmaxhealth-21)
+[`PropDynamic`](#propdynamic).[`GetMaxHealth`](#getmaxhealth-23)
 
 ##### GetModelName()
 
 > **GetModelName**(): `string`
 
-Defined in: [helper/BaseModelEntity.ts:43](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L43)
+Defined in: [src/helper/BaseModelEntity.ts:43](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L43)
 
 ###### Returns
 
@@ -20786,7 +22843,7 @@ Defined in: [helper/BaseModelEntity.ts:43](https://github.com/Orb-Workshop/scrip
 
 > **GetModelScale**(): `string`
 
-Defined in: [helper/BaseModelEntity.ts:51](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L51)
+Defined in: [src/helper/BaseModelEntity.ts:51](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L51)
 
 ###### Returns
 
@@ -20800,7 +22857,7 @@ Defined in: [helper/BaseModelEntity.ts:51](https://github.com/Orb-Workshop/scrip
 
 > **GetOwner**(): `any`
 
-Defined in: [helper/EntityHelper.ts:166](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L166)
+Defined in: [src/helper/EntityHelper.ts:166](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L166)
 
 ###### Returns
 
@@ -20808,13 +22865,13 @@ Defined in: [helper/EntityHelper.ts:166](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`PropDynamic`](#propdynamic).[`GetOwner`](#getowner-21)
+[`PropDynamic`](#propdynamic).[`GetOwner`](#getowner-23)
 
 ##### GetParent()
 
 > **GetParent**(): `any`
 
-Defined in: [helper/EntityHelper.ts:174](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L174)
+Defined in: [src/helper/EntityHelper.ts:174](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L174)
 
 ###### Returns
 
@@ -20822,13 +22879,13 @@ Defined in: [helper/EntityHelper.ts:174](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`PropDynamic`](#propdynamic).[`GetParent`](#getparent-21)
+[`PropDynamic`](#propdynamic).[`GetParent`](#getparent-23)
 
 ##### GetTeamNumber()
 
 > **GetTeamNumber**(): `number`
 
-Defined in: [helper/EntityHelper.ts:182](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L182)
+Defined in: [src/helper/EntityHelper.ts:182](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L182)
 
 ###### Returns
 
@@ -20836,13 +22893,13 @@ Defined in: [helper/EntityHelper.ts:182](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`PropDynamic`](#propdynamic).[`GetTeamNumber`](#getteamnumber-21)
+[`PropDynamic`](#propdynamic).[`GetTeamNumber`](#getteamnumber-23)
 
 ##### Glow()
 
 > **Glow**(`color?`): `void`
 
-Defined in: [helper/BaseModelEntity.ts:63](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L63)
+Defined in: [src/helper/BaseModelEntity.ts:63](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L63)
 
 ###### Parameters
 
@@ -20862,7 +22919,7 @@ Defined in: [helper/BaseModelEntity.ts:63](https://github.com/Orb-Workshop/scrip
 
 > **IsAlive**(): `boolean`
 
-Defined in: [helper/EntityHelper.ts:210](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L210)
+Defined in: [src/helper/EntityHelper.ts:210](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L210)
 
 ###### Returns
 
@@ -20870,13 +22927,13 @@ Defined in: [helper/EntityHelper.ts:210](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`PropDynamic`](#propdynamic).[`IsAlive`](#isalive-21)
+[`PropDynamic`](#propdynamic).[`IsAlive`](#isalive-23)
 
 ##### IsGlowing()
 
 > **IsGlowing**(): `boolean`
 
-Defined in: [helper/BaseModelEntity.ts:71](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L71)
+Defined in: [src/helper/BaseModelEntity.ts:71](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L71)
 
 ###### Returns
 
@@ -20890,7 +22947,7 @@ Defined in: [helper/BaseModelEntity.ts:71](https://github.com/Orb-Workshop/scrip
 
 > **IsValid**(): `boolean`
 
-Defined in: [helper/EntityHelper.ts:114](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L114)
+Defined in: [src/helper/EntityHelper.ts:114](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L114)
 
 ###### Returns
 
@@ -20898,13 +22955,13 @@ Defined in: [helper/EntityHelper.ts:114](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`PropDynamic`](#propdynamic).[`IsValid`](#isvalid-21)
+[`PropDynamic`](#propdynamic).[`IsValid`](#isvalid-23)
 
 ##### IsWorld()
 
 > **IsWorld**(): `boolean`
 
-Defined in: [helper/EntityHelper.ts:214](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L214)
+Defined in: [src/helper/EntityHelper.ts:214](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L214)
 
 ###### Returns
 
@@ -20912,13 +22969,13 @@ Defined in: [helper/EntityHelper.ts:214](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`PropDynamic`](#propdynamic).[`IsWorld`](#isworld-21)
+[`PropDynamic`](#propdynamic).[`IsWorld`](#isworld-23)
 
 ##### Kill()
 
 > **Kill**(): `void`
 
-Defined in: [helper/EntityHelper.ts:226](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L226)
+Defined in: [src/helper/EntityHelper.ts:226](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L226)
 
 ###### Returns
 
@@ -20926,13 +22983,13 @@ Defined in: [helper/EntityHelper.ts:226](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`PropDynamic`](#propdynamic).[`Kill`](#kill-21)
+[`PropDynamic`](#propdynamic).[`Kill`](#kill-23)
 
 ##### KillAll()
 
 > **KillAll**(): `void`
 
-Defined in: [helper/EntityHelper.ts:234](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L234)
+Defined in: [src/helper/EntityHelper.ts:234](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L234)
 
 ###### Returns
 
@@ -20940,13 +22997,13 @@ Defined in: [helper/EntityHelper.ts:234](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`PropDynamic`](#propdynamic).[`KillAll`](#killall-21)
+[`PropDynamic`](#propdynamic).[`KillAll`](#killall-23)
 
 ##### KillHierarchy()
 
 > **KillHierarchy**(`opts?`): `void`
 
-Defined in: [helper/EntityHelper.ts:230](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L230)
+Defined in: [src/helper/EntityHelper.ts:230](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L230)
 
 ###### Parameters
 
@@ -20960,13 +23017,13 @@ Defined in: [helper/EntityHelper.ts:230](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`PropDynamic`](#propdynamic).[`KillHierarchy`](#killhierarchy-21)
+[`PropDynamic`](#propdynamic).[`KillHierarchy`](#killhierarchy-23)
 
 ##### On()
 
 > **On**(`event_name`, `callback`): [`EntityHelper`](#abstract-entityhelper)
 
-Defined in: [helper/EntityHelper.ts:104](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L104)
+Defined in: [src/helper/EntityHelper.ts:104](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L104)
 
 ###### Parameters
 
@@ -20981,13 +23038,13 @@ Defined in: [helper/EntityHelper.ts:104](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`PropDynamic`](#propdynamic).[`On`](#on-21)
+[`PropDynamic`](#propdynamic).[`On`](#on-23)
 
 ##### OnAnimationBegun()
 
 > **OnAnimationBegun**(`callback`): [`PropDynamic`](#propdynamic)
 
-Defined in: [helper/PropDynamic.ts:145](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropDynamic.ts#L145)
+Defined in: [src/helper/PropDynamic.ts:145](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropDynamic.ts#L145)
 
 ###### Parameters
 
@@ -21007,7 +23064,7 @@ Defined in: [helper/PropDynamic.ts:145](https://github.com/Orb-Workshop/scripted
 
 > **OnAnimationDone**(`callback`): [`PropDynamic`](#propdynamic)
 
-Defined in: [helper/PropDynamic.ts:149](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropDynamic.ts#L149)
+Defined in: [src/helper/PropDynamic.ts:149](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropDynamic.ts#L149)
 
 ###### Parameters
 
@@ -21027,7 +23084,7 @@ Defined in: [helper/PropDynamic.ts:149](https://github.com/Orb-Workshop/scripted
 
 > **OnAnimationLoopCycleDone**(`callback`): [`PropDynamic`](#propdynamic)
 
-Defined in: [helper/PropDynamic.ts:161](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropDynamic.ts#L161)
+Defined in: [src/helper/PropDynamic.ts:161](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropDynamic.ts#L161)
 
 ###### Parameters
 
@@ -21047,7 +23104,7 @@ Defined in: [helper/PropDynamic.ts:161](https://github.com/Orb-Workshop/scripted
 
 > **OnAnimationReachedEnd**(`callback`): [`PropDynamic`](#propdynamic)
 
-Defined in: [helper/PropDynamic.ts:153](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropDynamic.ts#L153)
+Defined in: [src/helper/PropDynamic.ts:153](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropDynamic.ts#L153)
 
 ###### Parameters
 
@@ -21067,7 +23124,7 @@ Defined in: [helper/PropDynamic.ts:153](https://github.com/Orb-Workshop/scripted
 
 > **OnAnimationReachedStart**(`callback`): [`PropDynamic`](#propdynamic)
 
-Defined in: [helper/PropDynamic.ts:157](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropDynamic.ts#L157)
+Defined in: [src/helper/PropDynamic.ts:157](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropDynamic.ts#L157)
 
 ###### Parameters
 
@@ -21087,7 +23144,7 @@ Defined in: [helper/PropDynamic.ts:157](https://github.com/Orb-Workshop/scripted
 
 > **OnBreak**(`callback`): [`FuncBreakable`](#funcbreakable)
 
-Defined in: [helper/FuncBreakable.ts:62](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/FuncBreakable.ts#L62)
+Defined in: [src/helper/FuncBreakable.ts:62](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/FuncBreakable.ts#L62)
 
 ###### Parameters
 
@@ -21107,7 +23164,7 @@ Defined in: [helper/FuncBreakable.ts:62](https://github.com/Orb-Workshop/scripte
 
 > **OnDestructibleHitGroupDamageLevelChanged**(`callback`): [`PropDynamic`](#propdynamic)
 
-Defined in: [helper/PropDynamic.ts:165](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropDynamic.ts#L165)
+Defined in: [src/helper/PropDynamic.ts:165](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropDynamic.ts#L165)
 
 ###### Parameters
 
@@ -21127,7 +23184,7 @@ Defined in: [helper/PropDynamic.ts:165](https://github.com/Orb-Workshop/scripted
 
 > **OnHealthChanged**(`callback`): [`PropDynamic`](#propdynamic)
 
-Defined in: [helper/PropDynamic.ts:141](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropDynamic.ts#L141)
+Defined in: [src/helper/PropDynamic.ts:141](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropDynamic.ts#L141)
 
 ###### Parameters
 
@@ -21147,7 +23204,7 @@ Defined in: [helper/PropDynamic.ts:141](https://github.com/Orb-Workshop/scripted
 
 > **OnTakeDamage**(`callback`): [`PropDynamic`](#propdynamic)
 
-Defined in: [helper/PropDynamic.ts:137](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropDynamic.ts#L137)
+Defined in: [src/helper/PropDynamic.ts:137](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropDynamic.ts#L137)
 
 ###### Parameters
 
@@ -21167,7 +23224,7 @@ Defined in: [helper/PropDynamic.ts:137](https://github.com/Orb-Workshop/scripted
 
 > **Remove**(): `void`
 
-Defined in: [helper/EntityHelper.ts:238](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L238)
+Defined in: [src/helper/EntityHelper.ts:238](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L238)
 
 ###### Returns
 
@@ -21175,13 +23232,13 @@ Defined in: [helper/EntityHelper.ts:238](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`PropDynamic`](#propdynamic).[`Remove`](#remove-21)
+[`PropDynamic`](#propdynamic).[`Remove`](#remove-23)
 
 ##### RemoveHealth()
 
 > **RemoveHealth**(`value`, `opts?`): `void`
 
-Defined in: [helper/FuncBreakable.ts:53](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/FuncBreakable.ts#L53)
+Defined in: [src/helper/FuncBreakable.ts:53](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/FuncBreakable.ts#L53)
 
 ###### Parameters
 
@@ -21202,7 +23259,7 @@ Defined in: [helper/FuncBreakable.ts:53](https://github.com/Orb-Workshop/scripte
 
 > **SetAnimationLooping**(`value`, `opts?`): `void`
 
-Defined in: [helper/PropDynamic.ts:107](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropDynamic.ts#L107)
+Defined in: [src/helper/PropDynamic.ts:107](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropDynamic.ts#L107)
 
 ###### Parameters
 
@@ -21223,7 +23280,7 @@ Defined in: [helper/PropDynamic.ts:107](https://github.com/Orb-Workshop/scripted
 
 > **SetAnimationNoResetLooping**(`value`, `opts?`): `void`
 
-Defined in: [helper/PropDynamic.ts:111](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropDynamic.ts#L111)
+Defined in: [src/helper/PropDynamic.ts:111](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropDynamic.ts#L111)
 
 ###### Parameters
 
@@ -21244,7 +23301,7 @@ Defined in: [helper/PropDynamic.ts:111](https://github.com/Orb-Workshop/scripted
 
 > **SetAnimationNoResetNotLooping**(`value`, `opts?`): `void`
 
-Defined in: [helper/PropDynamic.ts:123](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropDynamic.ts#L123)
+Defined in: [src/helper/PropDynamic.ts:123](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropDynamic.ts#L123)
 
 ###### Parameters
 
@@ -21265,7 +23322,7 @@ Defined in: [helper/PropDynamic.ts:123](https://github.com/Orb-Workshop/scripted
 
 > **SetAnimationNotLooping**(`value`, `opts?`): `void`
 
-Defined in: [helper/PropDynamic.ts:119](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropDynamic.ts#L119)
+Defined in: [src/helper/PropDynamic.ts:119](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropDynamic.ts#L119)
 
 ###### Parameters
 
@@ -21286,7 +23343,7 @@ Defined in: [helper/PropDynamic.ts:119](https://github.com/Orb-Workshop/scripted
 
 > **SetAnimGraphParameter**(`name`, `value`, `opts?`): `void`
 
-Defined in: [helper/PropDynamic.ts:78](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropDynamic.ts#L78)
+Defined in: [src/helper/PropDynamic.ts:78](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropDynamic.ts#L78)
 
 ###### Parameters
 
@@ -21308,7 +23365,7 @@ Defined in: [helper/PropDynamic.ts:78](https://github.com/Orb-Workshop/scriptede
 
 > **SetAttached**(`opts?`): `void`
 
-Defined in: [helper/PropDynamicOrnament.ts:41](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropDynamicOrnament.ts#L41)
+Defined in: [src/helper/PropDynamicOrnament.ts:41](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropDynamicOrnament.ts#L41)
 
 ###### Parameters
 
@@ -21324,7 +23381,7 @@ Defined in: [helper/PropDynamicOrnament.ts:41](https://github.com/Orb-Workshop/s
 
 > **SetBodyGroup**(`value`, `opts?`): `void`
 
-Defined in: [helper/PropDynamic.ts:103](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropDynamic.ts#L103)
+Defined in: [src/helper/PropDynamic.ts:103](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropDynamic.ts#L103)
 
 ###### Parameters
 
@@ -21345,7 +23402,7 @@ Defined in: [helper/PropDynamic.ts:103](https://github.com/Orb-Workshop/scripted
 
 > **SetColor**(`c`): `void`
 
-Defined in: [helper/BaseModelEntity.ts:55](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L55)
+Defined in: [src/helper/BaseModelEntity.ts:55](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L55)
 
 ###### Parameters
 
@@ -21365,7 +23422,7 @@ Defined in: [helper/BaseModelEntity.ts:55](https://github.com/Orb-Workshop/scrip
 
 > **SetEntityName**(`s`): `void`
 
-Defined in: [helper/EntityHelper.ts:162](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L162)
+Defined in: [src/helper/EntityHelper.ts:162](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L162)
 
 ###### Parameters
 
@@ -21379,13 +23436,13 @@ Defined in: [helper/EntityHelper.ts:162](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`PropDynamic`](#propdynamic).[`SetEntityName`](#setentityname-21)
+[`PropDynamic`](#propdynamic).[`SetEntityName`](#setentityname-23)
 
 ##### SetHealth()
 
 > **SetHealth**(`value`, `opts?`): `void`
 
-Defined in: [helper/FuncBreakable.ts:45](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/FuncBreakable.ts#L45)
+Defined in: [src/helper/FuncBreakable.ts:45](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/FuncBreakable.ts#L45)
 
 ###### Parameters
 
@@ -21400,13 +23457,13 @@ Defined in: [helper/FuncBreakable.ts:45](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`PropDynamic`](#propdynamic).[`SetHealth`](#sethealth-21)
+[`PropDynamic`](#propdynamic).[`SetHealth`](#sethealth-23)
 
 ##### SetIdleAnimationLooping()
 
 > **SetIdleAnimationLooping**(`value`, `opts?`): `void`
 
-Defined in: [helper/PropDynamic.ts:115](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropDynamic.ts#L115)
+Defined in: [src/helper/PropDynamic.ts:115](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropDynamic.ts#L115)
 
 ###### Parameters
 
@@ -21427,7 +23484,7 @@ Defined in: [helper/PropDynamic.ts:115](https://github.com/Orb-Workshop/scripted
 
 > **SetIdleAnimationNotLooping**(`value`, `opts?`): `void`
 
-Defined in: [helper/PropDynamic.ts:127](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropDynamic.ts#L127)
+Defined in: [src/helper/PropDynamic.ts:127](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropDynamic.ts#L127)
 
 ###### Parameters
 
@@ -21448,7 +23505,7 @@ Defined in: [helper/PropDynamic.ts:127](https://github.com/Orb-Workshop/scripted
 
 > **SetMass**(`value`, `opts?`): `void`
 
-Defined in: [helper/FuncBreakable.ts:57](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/FuncBreakable.ts#L57)
+Defined in: [src/helper/FuncBreakable.ts:57](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/FuncBreakable.ts#L57)
 
 ###### Parameters
 
@@ -21469,7 +23526,7 @@ Defined in: [helper/FuncBreakable.ts:57](https://github.com/Orb-Workshop/scripte
 
 > **SetMaxHealth**(`hp`): `void`
 
-Defined in: [helper/EntityHelper.ts:202](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L202)
+Defined in: [src/helper/EntityHelper.ts:202](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L202)
 
 ###### Parameters
 
@@ -21483,13 +23540,13 @@ Defined in: [helper/EntityHelper.ts:202](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`PropDynamic`](#propdynamic).[`SetMaxHealth`](#setmaxhealth-21)
+[`PropDynamic`](#propdynamic).[`SetMaxHealth`](#setmaxhealth-23)
 
 ##### SetModel()
 
 > **SetModel**(`s`): `void`
 
-Defined in: [helper/BaseModelEntity.ts:39](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L39)
+Defined in: [src/helper/BaseModelEntity.ts:39](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L39)
 
 ###### Parameters
 
@@ -21509,7 +23566,7 @@ Defined in: [helper/BaseModelEntity.ts:39](https://github.com/Orb-Workshop/scrip
 
 > **SetModelScale**(`s`): `void`
 
-Defined in: [helper/BaseModelEntity.ts:47](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L47)
+Defined in: [src/helper/BaseModelEntity.ts:47](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L47)
 
 ###### Parameters
 
@@ -21529,7 +23586,7 @@ Defined in: [helper/BaseModelEntity.ts:47](https://github.com/Orb-Workshop/scrip
 
 > **SetNavIgnore**(`opts?`): `void`
 
-Defined in: [helper/PropDynamic.ts:74](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropDynamic.ts#L74)
+Defined in: [src/helper/PropDynamic.ts:74](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropDynamic.ts#L74)
 
 ###### Parameters
 
@@ -21549,7 +23606,7 @@ Defined in: [helper/PropDynamic.ts:74](https://github.com/Orb-Workshop/scriptede
 
 > **SetOwner**(`e`): `void`
 
-Defined in: [helper/EntityHelper.ts:170](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L170)
+Defined in: [src/helper/EntityHelper.ts:170](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L170)
 
 ###### Parameters
 
@@ -21563,13 +23620,13 @@ Defined in: [helper/EntityHelper.ts:170](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`PropDynamic`](#propdynamic).[`SetOwner`](#setowner-21)
+[`PropDynamic`](#propdynamic).[`SetOwner`](#setowner-23)
 
 ##### SetParent()
 
 > **SetParent**(`e`): `void`
 
-Defined in: [helper/EntityHelper.ts:178](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L178)
+Defined in: [src/helper/EntityHelper.ts:178](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L178)
 
 ###### Parameters
 
@@ -21583,13 +23640,13 @@ Defined in: [helper/EntityHelper.ts:178](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`PropDynamic`](#propdynamic).[`SetParent`](#setparent-21)
+[`PropDynamic`](#propdynamic).[`SetParent`](#setparent-23)
 
 ##### SetPlaybackRate()
 
 > **SetPlaybackRate**(`value`, `opts?`): `void`
 
-Defined in: [helper/PropDynamic.ts:131](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropDynamic.ts#L131)
+Defined in: [src/helper/PropDynamic.ts:131](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropDynamic.ts#L131)
 
 ###### Parameters
 
@@ -21610,7 +23667,7 @@ Defined in: [helper/PropDynamic.ts:131](https://github.com/Orb-Workshop/scripted
 
 > **SetRagdollProfile**(`value`, `opts?`): `void`
 
-Defined in: [helper/PropDynamic.ts:83](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropDynamic.ts#L83)
+Defined in: [src/helper/PropDynamic.ts:83](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropDynamic.ts#L83)
 
 ###### Parameters
 
@@ -21631,7 +23688,7 @@ Defined in: [helper/PropDynamic.ts:83](https://github.com/Orb-Workshop/scriptede
 
 > **SetRenderAttribute**(`value`, `opts?`): `void`
 
-Defined in: [helper/PropDynamic.ts:50](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropDynamic.ts#L50)
+Defined in: [src/helper/PropDynamic.ts:50](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropDynamic.ts#L50)
 
 ###### Parameters
 
@@ -21652,7 +23709,7 @@ Defined in: [helper/PropDynamic.ts:50](https://github.com/Orb-Workshop/scriptede
 
 > **Skin**(`value`, `opts?`): `void`
 
-Defined in: [helper/PropDynamic.ts:46](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropDynamic.ts#L46)
+Defined in: [src/helper/PropDynamic.ts:46](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropDynamic.ts#L46)
 
 ###### Parameters
 
@@ -21673,7 +23730,7 @@ Defined in: [helper/PropDynamic.ts:46](https://github.com/Orb-Workshop/scriptede
 
 > **TakeDamage**(`__namedParameters`): `number`
 
-Defined in: [helper/EntityHelper.ts:222](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L222)
+Defined in: [src/helper/EntityHelper.ts:222](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L222)
 
 ###### Parameters
 
@@ -21691,13 +23748,13 @@ Defined in: [helper/EntityHelper.ts:222](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`PropDynamic`](#propdynamic).[`TakeDamage`](#takedamage-21)
+[`PropDynamic`](#propdynamic).[`TakeDamage`](#takedamage-23)
 
 ##### Teleport()
 
 > **Teleport**(`__namedParameters`): `void`
 
-Defined in: [helper/EntityHelper.ts:150](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L150)
+Defined in: [src/helper/EntityHelper.ts:150](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L150)
 
 ###### Parameters
 
@@ -21714,13 +23771,13 @@ Defined in: [helper/EntityHelper.ts:150](https://github.com/Orb-Workshop/scripte
 
 ###### Inherited from
 
-[`PropDynamic`](#propdynamic).[`Teleport`](#teleport-21)
+[`PropDynamic`](#propdynamic).[`Teleport`](#teleport-23)
 
 ##### TurnOff()
 
 > **TurnOff**(`opts?`): `void`
 
-Defined in: [helper/PropDynamic.ts:91](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropDynamic.ts#L91)
+Defined in: [src/helper/PropDynamic.ts:91](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropDynamic.ts#L91)
 
 ###### Parameters
 
@@ -21740,7 +23797,7 @@ Defined in: [helper/PropDynamic.ts:91](https://github.com/Orb-Workshop/scriptede
 
 > **TurnOn**(`opts?`): `void`
 
-Defined in: [helper/PropDynamic.ts:87](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropDynamic.ts#L87)
+Defined in: [src/helper/PropDynamic.ts:87](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropDynamic.ts#L87)
 
 ###### Parameters
 
@@ -21760,7 +23817,7 @@ Defined in: [helper/PropDynamic.ts:87](https://github.com/Orb-Workshop/scriptede
 
 > **Unglow**(): `void`
 
-Defined in: [helper/BaseModelEntity.ts:67](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L67)
+Defined in: [src/helper/BaseModelEntity.ts:67](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L67)
 
 ###### Returns
 
@@ -21774,7 +23831,7 @@ Defined in: [helper/BaseModelEntity.ts:67](https://github.com/Orb-Workshop/scrip
 
 > `static` **Find**(`r`): [`PropDynamicOrnament`](#propdynamicornament)
 
-Defined in: [helper/PropDynamicOrnament.ts:28](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropDynamicOrnament.ts#L28)
+Defined in: [src/helper/PropDynamicOrnament.ts:28](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropDynamicOrnament.ts#L28)
 
 ###### Parameters
 
@@ -21788,13 +23845,13 @@ Defined in: [helper/PropDynamicOrnament.ts:28](https://github.com/Orb-Workshop/s
 
 ###### Overrides
 
-[`PropDynamic`](#propdynamic).[`Find`](#find-21)
+[`PropDynamic`](#propdynamic).[`Find`](#find-23)
 
 ##### FindAll()
 
 > `static` **FindAll**(`r`): [`PropDynamicOrnament`](#propdynamicornament)[]
 
-Defined in: [helper/PropDynamicOrnament.ts:33](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropDynamicOrnament.ts#L33)
+Defined in: [src/helper/PropDynamicOrnament.ts:33](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropDynamicOrnament.ts#L33)
 
 ###### Parameters
 
@@ -21808,13 +23865,13 @@ Defined in: [helper/PropDynamicOrnament.ts:33](https://github.com/Orb-Workshop/s
 
 ###### Overrides
 
-[`PropDynamic`](#propdynamic).[`FindAll`](#findall-21)
+[`PropDynamic`](#propdynamic).[`FindAll`](#findall-23)
 
 ##### FindAllByClass()
 
 > `static` **FindAllByClass**(`classname`, `r`): [`EntityHelper`](#abstract-entityhelper)[]
 
-Defined in: [helper/EntityHelper.ts:52](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L52)
+Defined in: [src/helper/EntityHelper.ts:52](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L52)
 
 ###### Parameters
 
@@ -21829,13 +23886,13 @@ Defined in: [helper/EntityHelper.ts:52](https://github.com/Orb-Workshop/scripted
 
 ###### Inherited from
 
-[`PropDynamic`](#propdynamic).[`FindAllByClass`](#findallbyclass-21)
+[`PropDynamic`](#propdynamic).[`FindAllByClass`](#findallbyclass-23)
 
 ##### FindByClass()
 
 > `static` **FindByClass**(`classname`, `r`, `error?`): [`EntityHelper`](#abstract-entityhelper) \| `null`
 
-Defined in: [helper/EntityHelper.ts:44](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L44)
+Defined in: [src/helper/EntityHelper.ts:44](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L44)
 
 ###### Parameters
 
@@ -21851,13 +23908,13 @@ Defined in: [helper/EntityHelper.ts:44](https://github.com/Orb-Workshop/scripted
 
 ###### Inherited from
 
-[`PropDynamic`](#propdynamic).[`FindByClass`](#findbyclass-21)
+[`PropDynamic`](#propdynamic).[`FindByClass`](#findbyclass-23)
 
 ##### From()
 
 > `static` **From**(`e`): [`PropDynamicOrnament`](#propdynamicornament)
 
-Defined in: [helper/PropDynamicOrnament.ts:22](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropDynamicOrnament.ts#L22)
+Defined in: [src/helper/PropDynamicOrnament.ts:22](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropDynamicOrnament.ts#L22)
 
 ###### Parameters
 
@@ -21871,13 +23928,13 @@ Defined in: [helper/PropDynamicOrnament.ts:22](https://github.com/Orb-Workshop/s
 
 ###### Overrides
 
-[`PropDynamic`](#propdynamic).[`From`](#from-20)
+[`PropDynamic`](#propdynamic).[`From`](#from-21)
 
 ***
 
 ### PropPhysicsMultiplayer
 
-Defined in: [helper/PropPhysicsMultiplayer.ts:18](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropPhysicsMultiplayer.ts#L18)
+Defined in: [src/helper/PropPhysicsMultiplayer.ts:18](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropPhysicsMultiplayer.ts#L18)
 
 #### Extends
 
@@ -21889,7 +23946,7 @@ Defined in: [helper/PropPhysicsMultiplayer.ts:18](https://github.com/Orb-Worksho
 
 > **new PropPhysicsMultiplayer**(`entity`): [`PropPhysicsMultiplayer`](#propphysicsmultiplayer)
 
-Defined in: [helper/PropPhysicsMultiplayer.ts:19](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropPhysicsMultiplayer.ts#L19)
+Defined in: [src/helper/PropPhysicsMultiplayer.ts:19](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropPhysicsMultiplayer.ts#L19)
 
 ###### Parameters
 
@@ -21903,7 +23960,7 @@ Defined in: [helper/PropPhysicsMultiplayer.ts:19](https://github.com/Orb-Worksho
 
 ###### Overrides
 
-[`FuncBreakable`](#funcbreakable).[`constructor`](#constructor-7)
+[`FuncBreakable`](#funcbreakable).[`constructor`](#constructor-6)
 
 #### Accessors
 
@@ -21913,7 +23970,7 @@ Defined in: [helper/PropPhysicsMultiplayer.ts:19](https://github.com/Orb-Worksho
 
 > **get** **raw**(): `Entity`
 
-Defined in: [helper/EntityHelper.ts:57](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L57)
+Defined in: [src/helper/EntityHelper.ts:57](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L57)
 
 ###### Returns
 
@@ -21929,7 +23986,7 @@ Defined in: [helper/EntityHelper.ts:57](https://github.com/Orb-Workshop/scripted
 
 > **AddHealth**(`value`, `opts?`): `void`
 
-Defined in: [helper/FuncBreakable.ts:49](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/FuncBreakable.ts#L49)
+Defined in: [src/helper/FuncBreakable.ts:49](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/FuncBreakable.ts#L49)
 
 ###### Parameters
 
@@ -21950,7 +24007,7 @@ Defined in: [helper/FuncBreakable.ts:49](https://github.com/Orb-Workshop/scripte
 
 > **Break**(`opts?`): `void`
 
-Defined in: [helper/FuncBreakable.ts:41](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/FuncBreakable.ts#L41)
+Defined in: [src/helper/FuncBreakable.ts:41](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/FuncBreakable.ts#L41)
 
 ###### Parameters
 
@@ -21970,7 +24027,7 @@ Defined in: [helper/FuncBreakable.ts:41](https://github.com/Orb-Workshop/scripte
 
 > **ClearRenderAttribute**(`opts?`): `void`
 
-Defined in: [helper/PropPhysicsMultiplayer.ts:102](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropPhysicsMultiplayer.ts#L102)
+Defined in: [src/helper/PropPhysicsMultiplayer.ts:102](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropPhysicsMultiplayer.ts#L102)
 
 ###### Parameters
 
@@ -21986,7 +24043,7 @@ Defined in: [helper/PropPhysicsMultiplayer.ts:102](https://github.com/Orb-Worksh
 
 > **ConnectOutput**(`event_name`, `callback`): `void`
 
-Defined in: [helper/EntityHelper.ts:95](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L95)
+Defined in: [src/helper/EntityHelper.ts:95](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L95)
 
 Represents EventListening of IO entities with `this.ConnectOutput`
 TODO: Use Global Events to 'latch onto' the callbacks this method represents.
@@ -22010,7 +24067,7 @@ TODO: Use Global Events to 'latch onto' the callbacks this method represents.
 
 > **DisableDamageForces**(`opts?`): `void`
 
-Defined in: [helper/PropPhysicsMultiplayer.ts:78](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropPhysicsMultiplayer.ts#L78)
+Defined in: [src/helper/PropPhysicsMultiplayer.ts:78](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropPhysicsMultiplayer.ts#L78)
 
 ###### Parameters
 
@@ -22026,7 +24083,7 @@ Defined in: [helper/PropPhysicsMultiplayer.ts:78](https://github.com/Orb-Worksho
 
 > **DisableGravity**(`opts?`): `void`
 
-Defined in: [helper/PropPhysicsMultiplayer.ts:70](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropPhysicsMultiplayer.ts#L70)
+Defined in: [src/helper/PropPhysicsMultiplayer.ts:70](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropPhysicsMultiplayer.ts#L70)
 
 ###### Parameters
 
@@ -22042,7 +24099,7 @@ Defined in: [helper/PropPhysicsMultiplayer.ts:70](https://github.com/Orb-Worksho
 
 > **DisableMotion**(`opts?`): `void`
 
-Defined in: [helper/PropPhysicsMultiplayer.ts:62](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropPhysicsMultiplayer.ts#L62)
+Defined in: [src/helper/PropPhysicsMultiplayer.ts:62](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropPhysicsMultiplayer.ts#L62)
 
 ###### Parameters
 
@@ -22058,7 +24115,7 @@ Defined in: [helper/PropPhysicsMultiplayer.ts:62](https://github.com/Orb-Worksho
 
 > **DisableShadow**(`opts?`): `void`
 
-Defined in: [helper/PropPhysicsMultiplayer.ts:86](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropPhysicsMultiplayer.ts#L86)
+Defined in: [src/helper/PropPhysicsMultiplayer.ts:86](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropPhysicsMultiplayer.ts#L86)
 
 ###### Parameters
 
@@ -22074,7 +24131,7 @@ Defined in: [helper/PropPhysicsMultiplayer.ts:86](https://github.com/Orb-Worksho
 
 > **EnableDamageForces**(`opts?`): `void`
 
-Defined in: [helper/PropPhysicsMultiplayer.ts:74](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropPhysicsMultiplayer.ts#L74)
+Defined in: [src/helper/PropPhysicsMultiplayer.ts:74](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropPhysicsMultiplayer.ts#L74)
 
 ###### Parameters
 
@@ -22090,7 +24147,7 @@ Defined in: [helper/PropPhysicsMultiplayer.ts:74](https://github.com/Orb-Worksho
 
 > **EnableGravity**(`opts?`): `void`
 
-Defined in: [helper/PropPhysicsMultiplayer.ts:66](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropPhysicsMultiplayer.ts#L66)
+Defined in: [src/helper/PropPhysicsMultiplayer.ts:66](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropPhysicsMultiplayer.ts#L66)
 
 ###### Parameters
 
@@ -22106,7 +24163,7 @@ Defined in: [helper/PropPhysicsMultiplayer.ts:66](https://github.com/Orb-Worksho
 
 > **EnableMotion**(`opts?`): `void`
 
-Defined in: [helper/PropPhysicsMultiplayer.ts:58](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropPhysicsMultiplayer.ts#L58)
+Defined in: [src/helper/PropPhysicsMultiplayer.ts:58](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropPhysicsMultiplayer.ts#L58)
 
 ###### Parameters
 
@@ -22122,7 +24179,7 @@ Defined in: [helper/PropPhysicsMultiplayer.ts:58](https://github.com/Orb-Worksho
 
 > **EnableShadow**(`opts?`): `void`
 
-Defined in: [helper/PropPhysicsMultiplayer.ts:82](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropPhysicsMultiplayer.ts#L82)
+Defined in: [src/helper/PropPhysicsMultiplayer.ts:82](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropPhysicsMultiplayer.ts#L82)
 
 ###### Parameters
 
@@ -22138,7 +24195,7 @@ Defined in: [helper/PropPhysicsMultiplayer.ts:82](https://github.com/Orb-Worksho
 
 > **FireIO**(`opts?`): `void`
 
-Defined in: [helper/EntityHelper.ts:59](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L59)
+Defined in: [src/helper/EntityHelper.ts:59](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L59)
 
 ###### Parameters
 
@@ -22158,7 +24215,7 @@ Defined in: [helper/EntityHelper.ts:59](https://github.com/Orb-Workshop/scripted
 
 > **FireUser1**(`opts?`): `void`
 
-Defined in: [helper/EntityHelper.ts:68](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L68)
+Defined in: [src/helper/EntityHelper.ts:68](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L68)
 
 ###### Parameters
 
@@ -22178,7 +24235,7 @@ Defined in: [helper/EntityHelper.ts:68](https://github.com/Orb-Workshop/scripted
 
 > **FireUser2**(`opts?`): `void`
 
-Defined in: [helper/EntityHelper.ts:72](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L72)
+Defined in: [src/helper/EntityHelper.ts:72](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L72)
 
 ###### Parameters
 
@@ -22198,7 +24255,7 @@ Defined in: [helper/EntityHelper.ts:72](https://github.com/Orb-Workshop/scripted
 
 > **FireUser3**(`opts?`): `void`
 
-Defined in: [helper/EntityHelper.ts:76](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L76)
+Defined in: [src/helper/EntityHelper.ts:76](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L76)
 
 ###### Parameters
 
@@ -22218,7 +24275,7 @@ Defined in: [helper/EntityHelper.ts:76](https://github.com/Orb-Workshop/scripted
 
 > **FireUser4**(`opts?`): `void`
 
-Defined in: [helper/EntityHelper.ts:80](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L80)
+Defined in: [src/helper/EntityHelper.ts:80](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L80)
 
 ###### Parameters
 
@@ -22238,7 +24295,7 @@ Defined in: [helper/EntityHelper.ts:80](https://github.com/Orb-Workshop/scripted
 
 > **FollowEntity**(`opts?`): `void`
 
-Defined in: [helper/PropPhysicsMultiplayer.ts:42](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropPhysicsMultiplayer.ts#L42)
+Defined in: [src/helper/PropPhysicsMultiplayer.ts:42](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropPhysicsMultiplayer.ts#L42)
 
 ###### Parameters
 
@@ -22254,7 +24311,7 @@ Defined in: [helper/PropPhysicsMultiplayer.ts:42](https://github.com/Orb-Worksho
 
 > **GetAbsAngles**(): [`QAngle`](Math.md#qangle)
 
-Defined in: [helper/EntityHelper.ts:126](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L126)
+Defined in: [src/helper/EntityHelper.ts:126](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L126)
 
 ###### Returns
 
@@ -22268,7 +24325,7 @@ Defined in: [helper/EntityHelper.ts:126](https://github.com/Orb-Workshop/scripte
 
 > **GetAbsOrigin**(): [`Vector3`](Math.md#vector3)
 
-Defined in: [helper/EntityHelper.ts:118](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L118)
+Defined in: [src/helper/EntityHelper.ts:118](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L118)
 
 ###### Returns
 
@@ -22282,7 +24339,7 @@ Defined in: [helper/EntityHelper.ts:118](https://github.com/Orb-Workshop/scripte
 
 > **GetAbsVelocity**(): [`Vector3`](Math.md#vector3)
 
-Defined in: [helper/EntityHelper.ts:134](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L134)
+Defined in: [src/helper/EntityHelper.ts:134](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L134)
 
 ###### Returns
 
@@ -22296,7 +24353,7 @@ Defined in: [helper/EntityHelper.ts:134](https://github.com/Orb-Workshop/scripte
 
 > **GetClassName**(): `string`
 
-Defined in: [helper/EntityHelper.ts:154](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L154)
+Defined in: [src/helper/EntityHelper.ts:154](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L154)
 
 ###### Returns
 
@@ -22310,7 +24367,7 @@ Defined in: [helper/EntityHelper.ts:154](https://github.com/Orb-Workshop/scripte
 
 > **GetColor**(): `ColorType`
 
-Defined in: [helper/BaseModelEntity.ts:59](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L59)
+Defined in: [src/helper/BaseModelEntity.ts:59](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L59)
 
 ###### Returns
 
@@ -22324,7 +24381,7 @@ Defined in: [helper/BaseModelEntity.ts:59](https://github.com/Orb-Workshop/scrip
 
 > **GetEntityName**(): `string`
 
-Defined in: [helper/EntityHelper.ts:158](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L158)
+Defined in: [src/helper/EntityHelper.ts:158](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L158)
 
 ###### Returns
 
@@ -22338,7 +24395,7 @@ Defined in: [helper/EntityHelper.ts:158](https://github.com/Orb-Workshop/scripte
 
 > **GetEyeAngles**(): [`QAngle`](Math.md#qangle)
 
-Defined in: [helper/EntityHelper.ts:142](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L142)
+Defined in: [src/helper/EntityHelper.ts:142](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L142)
 
 ###### Returns
 
@@ -22352,7 +24409,7 @@ Defined in: [helper/EntityHelper.ts:142](https://github.com/Orb-Workshop/scripte
 
 > **GetEyePosition**(): [`Vector3`](Math.md#vector3)
 
-Defined in: [helper/EntityHelper.ts:146](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L146)
+Defined in: [src/helper/EntityHelper.ts:146](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L146)
 
 ###### Returns
 
@@ -22366,7 +24423,7 @@ Defined in: [helper/EntityHelper.ts:146](https://github.com/Orb-Workshop/scripte
 
 > **GetGroundEntity**(): `any`
 
-Defined in: [helper/EntityHelper.ts:218](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L218)
+Defined in: [src/helper/EntityHelper.ts:218](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L218)
 
 ###### Returns
 
@@ -22380,7 +24437,7 @@ Defined in: [helper/EntityHelper.ts:218](https://github.com/Orb-Workshop/scripte
 
 > **GetHealth**(): `number`
 
-Defined in: [helper/EntityHelper.ts:186](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L186)
+Defined in: [src/helper/EntityHelper.ts:186](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L186)
 
 ###### Returns
 
@@ -22394,7 +24451,7 @@ Defined in: [helper/EntityHelper.ts:186](https://github.com/Orb-Workshop/scripte
 
 > **GetLocalAngles**(): [`QAngle`](Math.md#qangle)
 
-Defined in: [helper/EntityHelper.ts:130](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L130)
+Defined in: [src/helper/EntityHelper.ts:130](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L130)
 
 ###### Returns
 
@@ -22408,7 +24465,7 @@ Defined in: [helper/EntityHelper.ts:130](https://github.com/Orb-Workshop/scripte
 
 > **GetLocalOrigin**(): [`Vector3`](Math.md#vector3)
 
-Defined in: [helper/EntityHelper.ts:122](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L122)
+Defined in: [src/helper/EntityHelper.ts:122](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L122)
 
 ###### Returns
 
@@ -22422,7 +24479,7 @@ Defined in: [helper/EntityHelper.ts:122](https://github.com/Orb-Workshop/scripte
 
 > **GetLocalVelocity**(): [`Vector3`](Math.md#vector3)
 
-Defined in: [helper/EntityHelper.ts:138](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L138)
+Defined in: [src/helper/EntityHelper.ts:138](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L138)
 
 ###### Returns
 
@@ -22436,7 +24493,7 @@ Defined in: [helper/EntityHelper.ts:138](https://github.com/Orb-Workshop/scripte
 
 > **GetMaxHealth**(): `number`
 
-Defined in: [helper/EntityHelper.ts:198](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L198)
+Defined in: [src/helper/EntityHelper.ts:198](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L198)
 
 ###### Returns
 
@@ -22450,7 +24507,7 @@ Defined in: [helper/EntityHelper.ts:198](https://github.com/Orb-Workshop/scripte
 
 > **GetModelName**(): `string`
 
-Defined in: [helper/BaseModelEntity.ts:43](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L43)
+Defined in: [src/helper/BaseModelEntity.ts:43](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L43)
 
 ###### Returns
 
@@ -22464,7 +24521,7 @@ Defined in: [helper/BaseModelEntity.ts:43](https://github.com/Orb-Workshop/scrip
 
 > **GetModelScale**(): `string`
 
-Defined in: [helper/BaseModelEntity.ts:51](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L51)
+Defined in: [src/helper/BaseModelEntity.ts:51](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L51)
 
 ###### Returns
 
@@ -22478,7 +24535,7 @@ Defined in: [helper/BaseModelEntity.ts:51](https://github.com/Orb-Workshop/scrip
 
 > **GetOwner**(): `any`
 
-Defined in: [helper/EntityHelper.ts:166](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L166)
+Defined in: [src/helper/EntityHelper.ts:166](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L166)
 
 ###### Returns
 
@@ -22492,7 +24549,7 @@ Defined in: [helper/EntityHelper.ts:166](https://github.com/Orb-Workshop/scripte
 
 > **GetParent**(): `any`
 
-Defined in: [helper/EntityHelper.ts:174](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L174)
+Defined in: [src/helper/EntityHelper.ts:174](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L174)
 
 ###### Returns
 
@@ -22506,7 +24563,7 @@ Defined in: [helper/EntityHelper.ts:174](https://github.com/Orb-Workshop/scripte
 
 > **GetTeamNumber**(): `number`
 
-Defined in: [helper/EntityHelper.ts:182](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L182)
+Defined in: [src/helper/EntityHelper.ts:182](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L182)
 
 ###### Returns
 
@@ -22520,7 +24577,7 @@ Defined in: [helper/EntityHelper.ts:182](https://github.com/Orb-Workshop/scripte
 
 > **Glow**(`color?`): `void`
 
-Defined in: [helper/BaseModelEntity.ts:63](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L63)
+Defined in: [src/helper/BaseModelEntity.ts:63](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L63)
 
 ###### Parameters
 
@@ -22540,7 +24597,7 @@ Defined in: [helper/BaseModelEntity.ts:63](https://github.com/Orb-Workshop/scrip
 
 > **IsAlive**(): `boolean`
 
-Defined in: [helper/EntityHelper.ts:210](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L210)
+Defined in: [src/helper/EntityHelper.ts:210](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L210)
 
 ###### Returns
 
@@ -22554,7 +24611,7 @@ Defined in: [helper/EntityHelper.ts:210](https://github.com/Orb-Workshop/scripte
 
 > **IsGlowing**(): `boolean`
 
-Defined in: [helper/BaseModelEntity.ts:71](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L71)
+Defined in: [src/helper/BaseModelEntity.ts:71](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L71)
 
 ###### Returns
 
@@ -22568,7 +24625,7 @@ Defined in: [helper/BaseModelEntity.ts:71](https://github.com/Orb-Workshop/scrip
 
 > **IsValid**(): `boolean`
 
-Defined in: [helper/EntityHelper.ts:114](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L114)
+Defined in: [src/helper/EntityHelper.ts:114](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L114)
 
 ###### Returns
 
@@ -22582,7 +24639,7 @@ Defined in: [helper/EntityHelper.ts:114](https://github.com/Orb-Workshop/scripte
 
 > **IsWorld**(): `boolean`
 
-Defined in: [helper/EntityHelper.ts:214](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L214)
+Defined in: [src/helper/EntityHelper.ts:214](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L214)
 
 ###### Returns
 
@@ -22596,7 +24653,7 @@ Defined in: [helper/EntityHelper.ts:214](https://github.com/Orb-Workshop/scripte
 
 > **Kill**(): `void`
 
-Defined in: [helper/EntityHelper.ts:226](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L226)
+Defined in: [src/helper/EntityHelper.ts:226](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L226)
 
 ###### Returns
 
@@ -22610,7 +24667,7 @@ Defined in: [helper/EntityHelper.ts:226](https://github.com/Orb-Workshop/scripte
 
 > **KillAll**(): `void`
 
-Defined in: [helper/EntityHelper.ts:234](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L234)
+Defined in: [src/helper/EntityHelper.ts:234](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L234)
 
 ###### Returns
 
@@ -22624,7 +24681,7 @@ Defined in: [helper/EntityHelper.ts:234](https://github.com/Orb-Workshop/scripte
 
 > **KillHierarchy**(`opts?`): `void`
 
-Defined in: [helper/EntityHelper.ts:230](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L230)
+Defined in: [src/helper/EntityHelper.ts:230](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L230)
 
 ###### Parameters
 
@@ -22644,7 +24701,7 @@ Defined in: [helper/EntityHelper.ts:230](https://github.com/Orb-Workshop/scripte
 
 > **On**(`event_name`, `callback`): [`EntityHelper`](#abstract-entityhelper)
 
-Defined in: [helper/EntityHelper.ts:104](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L104)
+Defined in: [src/helper/EntityHelper.ts:104](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L104)
 
 ###### Parameters
 
@@ -22665,7 +24722,7 @@ Defined in: [helper/EntityHelper.ts:104](https://github.com/Orb-Workshop/scripte
 
 > **OnAwakened**(`callback`): [`PropPhysicsMultiplayer`](#propphysicsmultiplayer)
 
-Defined in: [helper/PropPhysicsMultiplayer.ts:116](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropPhysicsMultiplayer.ts#L116)
+Defined in: [src/helper/PropPhysicsMultiplayer.ts:116](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropPhysicsMultiplayer.ts#L116)
 
 ###### Parameters
 
@@ -22681,7 +24738,7 @@ Defined in: [helper/PropPhysicsMultiplayer.ts:116](https://github.com/Orb-Worksh
 
 > **OnBreak**(`callback`): [`FuncBreakable`](#funcbreakable)
 
-Defined in: [helper/FuncBreakable.ts:62](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/FuncBreakable.ts#L62)
+Defined in: [src/helper/FuncBreakable.ts:62](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/FuncBreakable.ts#L62)
 
 ###### Parameters
 
@@ -22701,7 +24758,7 @@ Defined in: [helper/FuncBreakable.ts:62](https://github.com/Orb-Workshop/scripte
 
 > **OnHealthChanged**(`callback`): [`FuncBreakable`](#funcbreakable)
 
-Defined in: [helper/FuncBreakable.ts:67](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/FuncBreakable.ts#L67)
+Defined in: [src/helper/FuncBreakable.ts:67](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/FuncBreakable.ts#L67)
 
 ###### Parameters
 
@@ -22721,7 +24778,7 @@ Defined in: [helper/FuncBreakable.ts:67](https://github.com/Orb-Workshop/scripte
 
 > **OnMotionEnabled**(`callback`): [`PropPhysicsMultiplayer`](#propphysicsmultiplayer)
 
-Defined in: [helper/PropPhysicsMultiplayer.ts:108](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropPhysicsMultiplayer.ts#L108)
+Defined in: [src/helper/PropPhysicsMultiplayer.ts:108](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropPhysicsMultiplayer.ts#L108)
 
 ###### Parameters
 
@@ -22737,7 +24794,7 @@ Defined in: [helper/PropPhysicsMultiplayer.ts:108](https://github.com/Orb-Worksh
 
 > **OnOutOfWorld**(`callback`): [`PropPhysicsMultiplayer`](#propphysicsmultiplayer)
 
-Defined in: [helper/PropPhysicsMultiplayer.ts:124](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropPhysicsMultiplayer.ts#L124)
+Defined in: [src/helper/PropPhysicsMultiplayer.ts:124](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropPhysicsMultiplayer.ts#L124)
 
 ###### Parameters
 
@@ -22753,7 +24810,7 @@ Defined in: [helper/PropPhysicsMultiplayer.ts:124](https://github.com/Orb-Worksh
 
 > **OnPlayerUse**(`callback`): [`PropPhysicsMultiplayer`](#propphysicsmultiplayer)
 
-Defined in: [helper/PropPhysicsMultiplayer.ts:120](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropPhysicsMultiplayer.ts#L120)
+Defined in: [src/helper/PropPhysicsMultiplayer.ts:120](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropPhysicsMultiplayer.ts#L120)
 
 ###### Parameters
 
@@ -22769,7 +24826,7 @@ Defined in: [helper/PropPhysicsMultiplayer.ts:120](https://github.com/Orb-Worksh
 
 > **OnTakeDamage**(`callback`): [`PropPhysicsMultiplayer`](#propphysicsmultiplayer)
 
-Defined in: [helper/PropPhysicsMultiplayer.ts:112](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropPhysicsMultiplayer.ts#L112)
+Defined in: [src/helper/PropPhysicsMultiplayer.ts:112](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropPhysicsMultiplayer.ts#L112)
 
 ###### Parameters
 
@@ -22785,7 +24842,7 @@ Defined in: [helper/PropPhysicsMultiplayer.ts:112](https://github.com/Orb-Worksh
 
 > **physdamagescale**(`value`, `opts?`): `void`
 
-Defined in: [helper/PropPhysicsMultiplayer.ts:94](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropPhysicsMultiplayer.ts#L94)
+Defined in: [src/helper/PropPhysicsMultiplayer.ts:94](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropPhysicsMultiplayer.ts#L94)
 
 ###### Parameters
 
@@ -22802,7 +24859,7 @@ Defined in: [helper/PropPhysicsMultiplayer.ts:94](https://github.com/Orb-Worksho
 
 > **Remove**(): `void`
 
-Defined in: [helper/EntityHelper.ts:238](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L238)
+Defined in: [src/helper/EntityHelper.ts:238](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L238)
 
 ###### Returns
 
@@ -22816,7 +24873,7 @@ Defined in: [helper/EntityHelper.ts:238](https://github.com/Orb-Workshop/scripte
 
 > **RemoveHealth**(`value`, `opts?`): `void`
 
-Defined in: [helper/FuncBreakable.ts:53](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/FuncBreakable.ts#L53)
+Defined in: [src/helper/FuncBreakable.ts:53](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/FuncBreakable.ts#L53)
 
 ###### Parameters
 
@@ -22837,7 +24894,7 @@ Defined in: [helper/FuncBreakable.ts:53](https://github.com/Orb-Workshop/scripte
 
 > **SetBodyGroup**(`value`, `opts?`): `void`
 
-Defined in: [helper/PropPhysicsMultiplayer.ts:90](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropPhysicsMultiplayer.ts#L90)
+Defined in: [src/helper/PropPhysicsMultiplayer.ts:90](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropPhysicsMultiplayer.ts#L90)
 
 ###### Parameters
 
@@ -22854,7 +24911,7 @@ Defined in: [helper/PropPhysicsMultiplayer.ts:90](https://github.com/Orb-Worksho
 
 > **SetColor**(`c`): `void`
 
-Defined in: [helper/BaseModelEntity.ts:55](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L55)
+Defined in: [src/helper/BaseModelEntity.ts:55](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L55)
 
 ###### Parameters
 
@@ -22874,7 +24931,7 @@ Defined in: [helper/BaseModelEntity.ts:55](https://github.com/Orb-Workshop/scrip
 
 > **SetEntityName**(`s`): `void`
 
-Defined in: [helper/EntityHelper.ts:162](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L162)
+Defined in: [src/helper/EntityHelper.ts:162](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L162)
 
 ###### Parameters
 
@@ -22894,7 +24951,7 @@ Defined in: [helper/EntityHelper.ts:162](https://github.com/Orb-Workshop/scripte
 
 > **SetHealth**(`value`, `opts?`): `void`
 
-Defined in: [helper/FuncBreakable.ts:45](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/FuncBreakable.ts#L45)
+Defined in: [src/helper/FuncBreakable.ts:45](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/FuncBreakable.ts#L45)
 
 ###### Parameters
 
@@ -22915,7 +24972,7 @@ Defined in: [helper/FuncBreakable.ts:45](https://github.com/Orb-Workshop/scripte
 
 > **SetMass**(`value`, `opts?`): `void`
 
-Defined in: [helper/FuncBreakable.ts:57](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/FuncBreakable.ts#L57)
+Defined in: [src/helper/FuncBreakable.ts:57](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/FuncBreakable.ts#L57)
 
 ###### Parameters
 
@@ -22936,7 +24993,7 @@ Defined in: [helper/FuncBreakable.ts:57](https://github.com/Orb-Workshop/scripte
 
 > **SetMaxHealth**(`hp`): `void`
 
-Defined in: [helper/EntityHelper.ts:202](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L202)
+Defined in: [src/helper/EntityHelper.ts:202](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L202)
 
 ###### Parameters
 
@@ -22956,7 +25013,7 @@ Defined in: [helper/EntityHelper.ts:202](https://github.com/Orb-Workshop/scripte
 
 > **SetModel**(`s`): `void`
 
-Defined in: [helper/BaseModelEntity.ts:39](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L39)
+Defined in: [src/helper/BaseModelEntity.ts:39](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L39)
 
 ###### Parameters
 
@@ -22976,7 +25033,7 @@ Defined in: [helper/BaseModelEntity.ts:39](https://github.com/Orb-Workshop/scrip
 
 > **SetModelScale**(`s`): `void`
 
-Defined in: [helper/BaseModelEntity.ts:47](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L47)
+Defined in: [src/helper/BaseModelEntity.ts:47](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L47)
 
 ###### Parameters
 
@@ -22996,7 +25053,7 @@ Defined in: [helper/BaseModelEntity.ts:47](https://github.com/Orb-Workshop/scrip
 
 > **SetOwner**(`e`): `void`
 
-Defined in: [helper/EntityHelper.ts:170](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L170)
+Defined in: [src/helper/EntityHelper.ts:170](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L170)
 
 ###### Parameters
 
@@ -23016,7 +25073,7 @@ Defined in: [helper/EntityHelper.ts:170](https://github.com/Orb-Workshop/scripte
 
 > **SetParent**(`e`): `void`
 
-Defined in: [helper/EntityHelper.ts:178](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L178)
+Defined in: [src/helper/EntityHelper.ts:178](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L178)
 
 ###### Parameters
 
@@ -23036,7 +25093,7 @@ Defined in: [helper/EntityHelper.ts:178](https://github.com/Orb-Workshop/scripte
 
 > **SetRenderAttribute**(`value`, `opts?`): `void`
 
-Defined in: [helper/PropPhysicsMultiplayer.ts:98](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropPhysicsMultiplayer.ts#L98)
+Defined in: [src/helper/PropPhysicsMultiplayer.ts:98](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropPhysicsMultiplayer.ts#L98)
 
 ###### Parameters
 
@@ -23053,7 +25110,7 @@ Defined in: [helper/PropPhysicsMultiplayer.ts:98](https://github.com/Orb-Worksho
 
 > **Skin**(`value`, `opts?`): `void`
 
-Defined in: [helper/PropPhysicsMultiplayer.ts:46](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropPhysicsMultiplayer.ts#L46)
+Defined in: [src/helper/PropPhysicsMultiplayer.ts:46](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropPhysicsMultiplayer.ts#L46)
 
 ###### Parameters
 
@@ -23070,7 +25127,7 @@ Defined in: [helper/PropPhysicsMultiplayer.ts:46](https://github.com/Orb-Worksho
 
 > **Sleep**(`opts?`): `void`
 
-Defined in: [helper/PropPhysicsMultiplayer.ts:50](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropPhysicsMultiplayer.ts#L50)
+Defined in: [src/helper/PropPhysicsMultiplayer.ts:50](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropPhysicsMultiplayer.ts#L50)
 
 ###### Parameters
 
@@ -23086,7 +25143,7 @@ Defined in: [helper/PropPhysicsMultiplayer.ts:50](https://github.com/Orb-Worksho
 
 > **TakeDamage**(`__namedParameters`): `number`
 
-Defined in: [helper/EntityHelper.ts:222](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L222)
+Defined in: [src/helper/EntityHelper.ts:222](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L222)
 
 ###### Parameters
 
@@ -23110,7 +25167,7 @@ Defined in: [helper/EntityHelper.ts:222](https://github.com/Orb-Workshop/scripte
 
 > **Teleport**(`__namedParameters`): `void`
 
-Defined in: [helper/EntityHelper.ts:150](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L150)
+Defined in: [src/helper/EntityHelper.ts:150](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L150)
 
 ###### Parameters
 
@@ -23133,7 +25190,7 @@ Defined in: [helper/EntityHelper.ts:150](https://github.com/Orb-Workshop/scripte
 
 > **Unglow**(): `void`
 
-Defined in: [helper/BaseModelEntity.ts:67](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L67)
+Defined in: [src/helper/BaseModelEntity.ts:67](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/BaseModelEntity.ts#L67)
 
 ###### Returns
 
@@ -23147,7 +25204,7 @@ Defined in: [helper/BaseModelEntity.ts:67](https://github.com/Orb-Workshop/scrip
 
 > **Wake**(`opts?`): `void`
 
-Defined in: [helper/PropPhysicsMultiplayer.ts:54](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropPhysicsMultiplayer.ts#L54)
+Defined in: [src/helper/PropPhysicsMultiplayer.ts:54](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropPhysicsMultiplayer.ts#L54)
 
 ###### Parameters
 
@@ -23163,7 +25220,7 @@ Defined in: [helper/PropPhysicsMultiplayer.ts:54](https://github.com/Orb-Worksho
 
 > `static` **Find**(`r`): [`PropPhysicsMultiplayer`](#propphysicsmultiplayer)
 
-Defined in: [helper/PropPhysicsMultiplayer.ts:29](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropPhysicsMultiplayer.ts#L29)
+Defined in: [src/helper/PropPhysicsMultiplayer.ts:29](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropPhysicsMultiplayer.ts#L29)
 
 ###### Parameters
 
@@ -23183,7 +25240,7 @@ Defined in: [helper/PropPhysicsMultiplayer.ts:29](https://github.com/Orb-Worksho
 
 > `static` **FindAll**(`r`): [`PropPhysicsMultiplayer`](#propphysicsmultiplayer)[]
 
-Defined in: [helper/PropPhysicsMultiplayer.ts:34](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropPhysicsMultiplayer.ts#L34)
+Defined in: [src/helper/PropPhysicsMultiplayer.ts:34](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropPhysicsMultiplayer.ts#L34)
 
 ###### Parameters
 
@@ -23203,7 +25260,7 @@ Defined in: [helper/PropPhysicsMultiplayer.ts:34](https://github.com/Orb-Worksho
 
 > `static` **FindAllByClass**(`classname`, `r`): [`EntityHelper`](#abstract-entityhelper)[]
 
-Defined in: [helper/EntityHelper.ts:52](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L52)
+Defined in: [src/helper/EntityHelper.ts:52](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L52)
 
 ###### Parameters
 
@@ -23224,7 +25281,7 @@ Defined in: [helper/EntityHelper.ts:52](https://github.com/Orb-Workshop/scripted
 
 > `static` **FindByClass**(`classname`, `r`, `error?`): [`EntityHelper`](#abstract-entityhelper) \| `null`
 
-Defined in: [helper/EntityHelper.ts:44](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L44)
+Defined in: [src/helper/EntityHelper.ts:44](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L44)
 
 ###### Parameters
 
@@ -23246,7 +25303,7 @@ Defined in: [helper/EntityHelper.ts:44](https://github.com/Orb-Workshop/scripted
 
 > `static` **From**(`e`): [`PropPhysicsMultiplayer`](#propphysicsmultiplayer)
 
-Defined in: [helper/PropPhysicsMultiplayer.ts:23](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropPhysicsMultiplayer.ts#L23)
+Defined in: [src/helper/PropPhysicsMultiplayer.ts:23](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/PropPhysicsMultiplayer.ts#L23)
 
 ###### Parameters
 
@@ -23260,13 +25317,13 @@ Defined in: [helper/PropPhysicsMultiplayer.ts:23](https://github.com/Orb-Worksho
 
 ###### Overrides
 
-[`FuncBreakable`](#funcbreakable).[`From`](#from-6)
+[`FuncBreakable`](#funcbreakable).[`From`](#from-5)
 
 ***
 
 ### TriggerMultiple
 
-Defined in: [helper/TriggerMultiple.ts:16](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/TriggerMultiple.ts#L16)
+Defined in: [src/helper/TriggerMultiple.ts:16](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/TriggerMultiple.ts#L16)
 
 #### Extends
 
@@ -23278,7 +25335,7 @@ Defined in: [helper/TriggerMultiple.ts:16](https://github.com/Orb-Workshop/scrip
 
 > **new TriggerMultiple**(`entity`): [`TriggerMultiple`](#triggermultiple)
 
-Defined in: [helper/TriggerMultiple.ts:17](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/TriggerMultiple.ts#L17)
+Defined in: [src/helper/TriggerMultiple.ts:17](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/TriggerMultiple.ts#L17)
 
 ###### Parameters
 
@@ -23292,7 +25349,7 @@ Defined in: [helper/TriggerMultiple.ts:17](https://github.com/Orb-Workshop/scrip
 
 ###### Overrides
 
-[`EntityHelper`](#abstract-entityhelper).[`constructor`](#constructor-2)
+[`EntityHelper`](#abstract-entityhelper).[`constructor`](#constructor-1)
 
 #### Accessors
 
@@ -23302,7 +25359,7 @@ Defined in: [helper/TriggerMultiple.ts:17](https://github.com/Orb-Workshop/scrip
 
 > **get** **raw**(): `Entity`
 
-Defined in: [helper/EntityHelper.ts:57](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L57)
+Defined in: [src/helper/EntityHelper.ts:57](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L57)
 
 ###### Returns
 
@@ -23318,7 +25375,7 @@ Defined in: [helper/EntityHelper.ts:57](https://github.com/Orb-Workshop/scripted
 
 > **ConnectOutput**(`event_name`, `callback`): `void`
 
-Defined in: [helper/EntityHelper.ts:95](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L95)
+Defined in: [src/helper/EntityHelper.ts:95](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L95)
 
 Represents EventListening of IO entities with `this.ConnectOutput`
 TODO: Use Global Events to 'latch onto' the callbacks this method represents.
@@ -23338,11 +25395,43 @@ TODO: Use Global Events to 'latch onto' the callbacks this method represents.
 
 [`EntityHelper`](#abstract-entityhelper).[`ConnectOutput`](#connectoutput-1)
 
+##### Disable()
+
+> **Disable**(`opts?`): `void`
+
+Defined in: [src/helper/TriggerMultiple.ts:43](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/TriggerMultiple.ts#L43)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `opts` | \{ \} |
+
+###### Returns
+
+`void`
+
+##### Enable()
+
+> **Enable**(`opts?`): `void`
+
+Defined in: [src/helper/TriggerMultiple.ts:39](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/TriggerMultiple.ts#L39)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `opts` | \{ \} |
+
+###### Returns
+
+`void`
+
 ##### FireIO()
 
 > **FireIO**(`opts?`): `void`
 
-Defined in: [helper/EntityHelper.ts:59](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L59)
+Defined in: [src/helper/EntityHelper.ts:59](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L59)
 
 ###### Parameters
 
@@ -23362,7 +25451,7 @@ Defined in: [helper/EntityHelper.ts:59](https://github.com/Orb-Workshop/scripted
 
 > **FireUser1**(`opts?`): `void`
 
-Defined in: [helper/EntityHelper.ts:68](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L68)
+Defined in: [src/helper/EntityHelper.ts:68](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L68)
 
 ###### Parameters
 
@@ -23382,7 +25471,7 @@ Defined in: [helper/EntityHelper.ts:68](https://github.com/Orb-Workshop/scripted
 
 > **FireUser2**(`opts?`): `void`
 
-Defined in: [helper/EntityHelper.ts:72](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L72)
+Defined in: [src/helper/EntityHelper.ts:72](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L72)
 
 ###### Parameters
 
@@ -23402,7 +25491,7 @@ Defined in: [helper/EntityHelper.ts:72](https://github.com/Orb-Workshop/scripted
 
 > **FireUser3**(`opts?`): `void`
 
-Defined in: [helper/EntityHelper.ts:76](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L76)
+Defined in: [src/helper/EntityHelper.ts:76](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L76)
 
 ###### Parameters
 
@@ -23422,7 +25511,7 @@ Defined in: [helper/EntityHelper.ts:76](https://github.com/Orb-Workshop/scripted
 
 > **FireUser4**(`opts?`): `void`
 
-Defined in: [helper/EntityHelper.ts:80](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L80)
+Defined in: [src/helper/EntityHelper.ts:80](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L80)
 
 ###### Parameters
 
@@ -23442,7 +25531,7 @@ Defined in: [helper/EntityHelper.ts:80](https://github.com/Orb-Workshop/scripted
 
 > **GetAbsAngles**(): [`QAngle`](Math.md#qangle)
 
-Defined in: [helper/EntityHelper.ts:126](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L126)
+Defined in: [src/helper/EntityHelper.ts:126](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L126)
 
 ###### Returns
 
@@ -23456,7 +25545,7 @@ Defined in: [helper/EntityHelper.ts:126](https://github.com/Orb-Workshop/scripte
 
 > **GetAbsOrigin**(): [`Vector3`](Math.md#vector3)
 
-Defined in: [helper/EntityHelper.ts:118](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L118)
+Defined in: [src/helper/EntityHelper.ts:118](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L118)
 
 ###### Returns
 
@@ -23470,7 +25559,7 @@ Defined in: [helper/EntityHelper.ts:118](https://github.com/Orb-Workshop/scripte
 
 > **GetAbsVelocity**(): [`Vector3`](Math.md#vector3)
 
-Defined in: [helper/EntityHelper.ts:134](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L134)
+Defined in: [src/helper/EntityHelper.ts:134](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L134)
 
 ###### Returns
 
@@ -23484,7 +25573,7 @@ Defined in: [helper/EntityHelper.ts:134](https://github.com/Orb-Workshop/scripte
 
 > **GetClassName**(): `string`
 
-Defined in: [helper/EntityHelper.ts:154](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L154)
+Defined in: [src/helper/EntityHelper.ts:154](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L154)
 
 ###### Returns
 
@@ -23498,7 +25587,7 @@ Defined in: [helper/EntityHelper.ts:154](https://github.com/Orb-Workshop/scripte
 
 > **GetEntityName**(): `string`
 
-Defined in: [helper/EntityHelper.ts:158](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L158)
+Defined in: [src/helper/EntityHelper.ts:158](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L158)
 
 ###### Returns
 
@@ -23512,7 +25601,7 @@ Defined in: [helper/EntityHelper.ts:158](https://github.com/Orb-Workshop/scripte
 
 > **GetEyeAngles**(): [`QAngle`](Math.md#qangle)
 
-Defined in: [helper/EntityHelper.ts:142](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L142)
+Defined in: [src/helper/EntityHelper.ts:142](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L142)
 
 ###### Returns
 
@@ -23526,7 +25615,7 @@ Defined in: [helper/EntityHelper.ts:142](https://github.com/Orb-Workshop/scripte
 
 > **GetEyePosition**(): [`Vector3`](Math.md#vector3)
 
-Defined in: [helper/EntityHelper.ts:146](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L146)
+Defined in: [src/helper/EntityHelper.ts:146](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L146)
 
 ###### Returns
 
@@ -23540,7 +25629,7 @@ Defined in: [helper/EntityHelper.ts:146](https://github.com/Orb-Workshop/scripte
 
 > **GetGroundEntity**(): `any`
 
-Defined in: [helper/EntityHelper.ts:218](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L218)
+Defined in: [src/helper/EntityHelper.ts:218](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L218)
 
 ###### Returns
 
@@ -23554,7 +25643,7 @@ Defined in: [helper/EntityHelper.ts:218](https://github.com/Orb-Workshop/scripte
 
 > **GetHealth**(): `number`
 
-Defined in: [helper/EntityHelper.ts:186](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L186)
+Defined in: [src/helper/EntityHelper.ts:186](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L186)
 
 ###### Returns
 
@@ -23568,7 +25657,7 @@ Defined in: [helper/EntityHelper.ts:186](https://github.com/Orb-Workshop/scripte
 
 > **GetLocalAngles**(): [`QAngle`](Math.md#qangle)
 
-Defined in: [helper/EntityHelper.ts:130](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L130)
+Defined in: [src/helper/EntityHelper.ts:130](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L130)
 
 ###### Returns
 
@@ -23582,7 +25671,7 @@ Defined in: [helper/EntityHelper.ts:130](https://github.com/Orb-Workshop/scripte
 
 > **GetLocalOrigin**(): [`Vector3`](Math.md#vector3)
 
-Defined in: [helper/EntityHelper.ts:122](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L122)
+Defined in: [src/helper/EntityHelper.ts:122](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L122)
 
 ###### Returns
 
@@ -23596,7 +25685,7 @@ Defined in: [helper/EntityHelper.ts:122](https://github.com/Orb-Workshop/scripte
 
 > **GetLocalVelocity**(): [`Vector3`](Math.md#vector3)
 
-Defined in: [helper/EntityHelper.ts:138](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L138)
+Defined in: [src/helper/EntityHelper.ts:138](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L138)
 
 ###### Returns
 
@@ -23610,7 +25699,7 @@ Defined in: [helper/EntityHelper.ts:138](https://github.com/Orb-Workshop/scripte
 
 > **GetMaxHealth**(): `number`
 
-Defined in: [helper/EntityHelper.ts:198](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L198)
+Defined in: [src/helper/EntityHelper.ts:198](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L198)
 
 ###### Returns
 
@@ -23624,7 +25713,7 @@ Defined in: [helper/EntityHelper.ts:198](https://github.com/Orb-Workshop/scripte
 
 > **GetOwner**(): `any`
 
-Defined in: [helper/EntityHelper.ts:166](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L166)
+Defined in: [src/helper/EntityHelper.ts:166](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L166)
 
 ###### Returns
 
@@ -23638,7 +25727,7 @@ Defined in: [helper/EntityHelper.ts:166](https://github.com/Orb-Workshop/scripte
 
 > **GetParent**(): `any`
 
-Defined in: [helper/EntityHelper.ts:174](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L174)
+Defined in: [src/helper/EntityHelper.ts:174](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L174)
 
 ###### Returns
 
@@ -23652,7 +25741,7 @@ Defined in: [helper/EntityHelper.ts:174](https://github.com/Orb-Workshop/scripte
 
 > **GetTeamNumber**(): `number`
 
-Defined in: [helper/EntityHelper.ts:182](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L182)
+Defined in: [src/helper/EntityHelper.ts:182](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L182)
 
 ###### Returns
 
@@ -23666,7 +25755,7 @@ Defined in: [helper/EntityHelper.ts:182](https://github.com/Orb-Workshop/scripte
 
 > **IsAlive**(): `boolean`
 
-Defined in: [helper/EntityHelper.ts:210](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L210)
+Defined in: [src/helper/EntityHelper.ts:210](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L210)
 
 ###### Returns
 
@@ -23680,7 +25769,7 @@ Defined in: [helper/EntityHelper.ts:210](https://github.com/Orb-Workshop/scripte
 
 > **IsValid**(): `boolean`
 
-Defined in: [helper/EntityHelper.ts:114](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L114)
+Defined in: [src/helper/EntityHelper.ts:114](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L114)
 
 ###### Returns
 
@@ -23694,7 +25783,7 @@ Defined in: [helper/EntityHelper.ts:114](https://github.com/Orb-Workshop/scripte
 
 > **IsWorld**(): `boolean`
 
-Defined in: [helper/EntityHelper.ts:214](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L214)
+Defined in: [src/helper/EntityHelper.ts:214](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L214)
 
 ###### Returns
 
@@ -23708,7 +25797,7 @@ Defined in: [helper/EntityHelper.ts:214](https://github.com/Orb-Workshop/scripte
 
 > **Kill**(): `void`
 
-Defined in: [helper/EntityHelper.ts:226](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L226)
+Defined in: [src/helper/EntityHelper.ts:226](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L226)
 
 ###### Returns
 
@@ -23722,7 +25811,7 @@ Defined in: [helper/EntityHelper.ts:226](https://github.com/Orb-Workshop/scripte
 
 > **KillAll**(): `void`
 
-Defined in: [helper/EntityHelper.ts:234](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L234)
+Defined in: [src/helper/EntityHelper.ts:234](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L234)
 
 ###### Returns
 
@@ -23736,7 +25825,7 @@ Defined in: [helper/EntityHelper.ts:234](https://github.com/Orb-Workshop/scripte
 
 > **KillHierarchy**(`opts?`): `void`
 
-Defined in: [helper/EntityHelper.ts:230](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L230)
+Defined in: [src/helper/EntityHelper.ts:230](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L230)
 
 ###### Parameters
 
@@ -23756,7 +25845,7 @@ Defined in: [helper/EntityHelper.ts:230](https://github.com/Orb-Workshop/scripte
 
 > **On**(`event_name`, `callback`): [`EntityHelper`](#abstract-entityhelper)
 
-Defined in: [helper/EntityHelper.ts:104](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L104)
+Defined in: [src/helper/EntityHelper.ts:104](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L104)
 
 ###### Parameters
 
@@ -23777,7 +25866,7 @@ Defined in: [helper/EntityHelper.ts:104](https://github.com/Orb-Workshop/scripte
 
 > **OnEndTouch**(`callback`): [`TriggerMultiple`](#triggermultiple)
 
-Defined in: [helper/TriggerMultiple.ts:45](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/TriggerMultiple.ts#L45)
+Defined in: [src/helper/TriggerMultiple.ts:65](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/TriggerMultiple.ts#L65)
 
 ###### Parameters
 
@@ -23793,7 +25882,23 @@ Defined in: [helper/TriggerMultiple.ts:45](https://github.com/Orb-Workshop/scrip
 
 > **OnEndTouchAll**(`callback`): [`TriggerMultiple`](#triggermultiple)
 
-Defined in: [helper/TriggerMultiple.ts:49](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/TriggerMultiple.ts#L49)
+Defined in: [src/helper/TriggerMultiple.ts:69](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/TriggerMultiple.ts#L69)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `callback` | `ConnectOutputCallback` |
+
+###### Returns
+
+[`TriggerMultiple`](#triggermultiple)
+
+##### OnNotTouching()
+
+> **OnNotTouching**(`callback`): [`TriggerMultiple`](#triggermultiple)
+
+Defined in: [src/helper/TriggerMultiple.ts:85](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/TriggerMultiple.ts#L85)
 
 ###### Parameters
 
@@ -23809,7 +25914,7 @@ Defined in: [helper/TriggerMultiple.ts:49](https://github.com/Orb-Workshop/scrip
 
 > **OnStartTouch**(`callback`): [`TriggerMultiple`](#triggermultiple)
 
-Defined in: [helper/TriggerMultiple.ts:37](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/TriggerMultiple.ts#L37)
+Defined in: [src/helper/TriggerMultiple.ts:57](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/TriggerMultiple.ts#L57)
 
 ###### Parameters
 
@@ -23825,7 +25930,55 @@ Defined in: [helper/TriggerMultiple.ts:37](https://github.com/Orb-Workshop/scrip
 
 > **OnStartTouchAll**(`callback`): [`TriggerMultiple`](#triggermultiple)
 
-Defined in: [helper/TriggerMultiple.ts:41](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/TriggerMultiple.ts#L41)
+Defined in: [src/helper/TriggerMultiple.ts:61](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/TriggerMultiple.ts#L61)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `callback` | `ConnectOutputCallback` |
+
+###### Returns
+
+[`TriggerMultiple`](#triggermultiple)
+
+##### OnTouching()
+
+> **OnTouching**(`callback`): [`TriggerMultiple`](#triggermultiple)
+
+Defined in: [src/helper/TriggerMultiple.ts:77](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/TriggerMultiple.ts#L77)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `callback` | `ConnectOutputCallback` |
+
+###### Returns
+
+[`TriggerMultiple`](#triggermultiple)
+
+##### OnTouchingEachEntity()
+
+> **OnTouchingEachEntity**(`callback`): [`TriggerMultiple`](#triggermultiple)
+
+Defined in: [src/helper/TriggerMultiple.ts:81](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/TriggerMultiple.ts#L81)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `callback` | `ConnectOutputCallback` |
+
+###### Returns
+
+[`TriggerMultiple`](#triggermultiple)
+
+##### OnTrigger()
+
+> **OnTrigger**(`callback`): [`TriggerMultiple`](#triggermultiple)
+
+Defined in: [src/helper/TriggerMultiple.ts:73](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/TriggerMultiple.ts#L73)
 
 ###### Parameters
 
@@ -23841,7 +25994,7 @@ Defined in: [helper/TriggerMultiple.ts:41](https://github.com/Orb-Workshop/scrip
 
 > **Remove**(): `void`
 
-Defined in: [helper/EntityHelper.ts:238](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L238)
+Defined in: [src/helper/EntityHelper.ts:238](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L238)
 
 ###### Returns
 
@@ -23855,7 +26008,7 @@ Defined in: [helper/EntityHelper.ts:238](https://github.com/Orb-Workshop/scripte
 
 > **SetEntityName**(`s`): `void`
 
-Defined in: [helper/EntityHelper.ts:162](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L162)
+Defined in: [src/helper/EntityHelper.ts:162](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L162)
 
 ###### Parameters
 
@@ -23875,7 +26028,7 @@ Defined in: [helper/EntityHelper.ts:162](https://github.com/Orb-Workshop/scripte
 
 > **SetHealth**(`hp`): `void`
 
-Defined in: [helper/EntityHelper.ts:190](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L190)
+Defined in: [src/helper/EntityHelper.ts:190](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L190)
 
 ###### Parameters
 
@@ -23895,7 +26048,7 @@ Defined in: [helper/EntityHelper.ts:190](https://github.com/Orb-Workshop/scripte
 
 > **SetMaxHealth**(`hp`): `void`
 
-Defined in: [helper/EntityHelper.ts:202](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L202)
+Defined in: [src/helper/EntityHelper.ts:202](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L202)
 
 ###### Parameters
 
@@ -23915,7 +26068,7 @@ Defined in: [helper/EntityHelper.ts:202](https://github.com/Orb-Workshop/scripte
 
 > **SetOwner**(`e`): `void`
 
-Defined in: [helper/EntityHelper.ts:170](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L170)
+Defined in: [src/helper/EntityHelper.ts:170](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L170)
 
 ###### Parameters
 
@@ -23935,7 +26088,7 @@ Defined in: [helper/EntityHelper.ts:170](https://github.com/Orb-Workshop/scripte
 
 > **SetParent**(`e`): `void`
 
-Defined in: [helper/EntityHelper.ts:178](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L178)
+Defined in: [src/helper/EntityHelper.ts:178](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L178)
 
 ###### Parameters
 
@@ -23955,7 +26108,7 @@ Defined in: [helper/EntityHelper.ts:178](https://github.com/Orb-Workshop/scripte
 
 > **TakeDamage**(`__namedParameters`): `number`
 
-Defined in: [helper/EntityHelper.ts:222](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L222)
+Defined in: [src/helper/EntityHelper.ts:222](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L222)
 
 ###### Parameters
 
@@ -23979,7 +26132,7 @@ Defined in: [helper/EntityHelper.ts:222](https://github.com/Orb-Workshop/scripte
 
 > **Teleport**(`__namedParameters`): `void`
 
-Defined in: [helper/EntityHelper.ts:150](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L150)
+Defined in: [src/helper/EntityHelper.ts:150](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L150)
 
 ###### Parameters
 
@@ -23998,11 +26151,43 @@ Defined in: [helper/EntityHelper.ts:150](https://github.com/Orb-Workshop/scripte
 
 [`EntityHelper`](#abstract-entityhelper).[`Teleport`](#teleport-1)
 
+##### Toggle()
+
+> **Toggle**(`opts?`): `void`
+
+Defined in: [src/helper/TriggerMultiple.ts:47](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/TriggerMultiple.ts#L47)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `opts` | \{ \} |
+
+###### Returns
+
+`void`
+
+##### TouchTest()
+
+> **TouchTest**(`opts?`): `void`
+
+Defined in: [src/helper/TriggerMultiple.ts:51](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/TriggerMultiple.ts#L51)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `opts` | \{ \} |
+
+###### Returns
+
+`void`
+
 ##### Find()
 
 > `static` **Find**(`r`): [`TriggerMultiple`](#triggermultiple)
 
-Defined in: [helper/TriggerMultiple.ts:27](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/TriggerMultiple.ts#L27)
+Defined in: [src/helper/TriggerMultiple.ts:27](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/TriggerMultiple.ts#L27)
 
 ###### Parameters
 
@@ -24022,7 +26207,7 @@ Defined in: [helper/TriggerMultiple.ts:27](https://github.com/Orb-Workshop/scrip
 
 > `static` **FindAll**(`r`): [`TriggerMultiple`](#triggermultiple)[]
 
-Defined in: [helper/TriggerMultiple.ts:32](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/TriggerMultiple.ts#L32)
+Defined in: [src/helper/TriggerMultiple.ts:32](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/TriggerMultiple.ts#L32)
 
 ###### Parameters
 
@@ -24042,7 +26227,7 @@ Defined in: [helper/TriggerMultiple.ts:32](https://github.com/Orb-Workshop/scrip
 
 > `static` **FindAllByClass**(`classname`, `r`): [`EntityHelper`](#abstract-entityhelper)[]
 
-Defined in: [helper/EntityHelper.ts:52](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L52)
+Defined in: [src/helper/EntityHelper.ts:52](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L52)
 
 ###### Parameters
 
@@ -24063,7 +26248,7 @@ Defined in: [helper/EntityHelper.ts:52](https://github.com/Orb-Workshop/scripted
 
 > `static` **FindByClass**(`classname`, `r`, `error?`): [`EntityHelper`](#abstract-entityhelper) \| `null`
 
-Defined in: [helper/EntityHelper.ts:44](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L44)
+Defined in: [src/helper/EntityHelper.ts:44](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L44)
 
 ###### Parameters
 
@@ -24085,7 +26270,7 @@ Defined in: [helper/EntityHelper.ts:44](https://github.com/Orb-Workshop/scripted
 
 > `static` **From**(`entity`): [`TriggerMultiple`](#triggermultiple)
 
-Defined in: [helper/TriggerMultiple.ts:21](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/TriggerMultiple.ts#L21)
+Defined in: [src/helper/TriggerMultiple.ts:21](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/TriggerMultiple.ts#L21)
 
 ###### Parameters
 
@@ -24096,3 +26281,902 @@ Defined in: [helper/TriggerMultiple.ts:21](https://github.com/Orb-Workshop/scrip
 ###### Returns
 
 [`TriggerMultiple`](#triggermultiple)
+
+***
+
+### TriggerTeleport
+
+Defined in: [src/helper/TriggerTeleport.ts:16](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/TriggerTeleport.ts#L16)
+
+#### Extends
+
+- [`EntityHelper`](#abstract-entityhelper)
+
+#### Constructors
+
+##### Constructor
+
+> **new TriggerTeleport**(`entity`): [`TriggerTeleport`](#triggerteleport)
+
+Defined in: [src/helper/TriggerTeleport.ts:17](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/TriggerTeleport.ts#L17)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `entity` | `Entity` |
+
+###### Returns
+
+[`TriggerTeleport`](#triggerteleport)
+
+###### Overrides
+
+[`EntityHelper`](#abstract-entityhelper).[`constructor`](#constructor-1)
+
+#### Accessors
+
+##### raw
+
+###### Get Signature
+
+> **get** **raw**(): `Entity`
+
+Defined in: [src/helper/EntityHelper.ts:57](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L57)
+
+###### Returns
+
+`Entity`
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`raw`](#raw-1)
+
+#### Methods
+
+##### ConnectOutput()
+
+> **ConnectOutput**(`event_name`, `callback`): `void`
+
+Defined in: [src/helper/EntityHelper.ts:95](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L95)
+
+Represents EventListening of IO entities with `this.ConnectOutput`
+TODO: Use Global Events to 'latch onto' the callbacks this method represents.
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `event_name` | `string` |
+| `callback` | `ConnectOutputCallback` |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`ConnectOutput`](#connectoutput-1)
+
+##### Disable()
+
+> **Disable**(`opts?`): `void`
+
+Defined in: [src/helper/TriggerTeleport.ts:43](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/TriggerTeleport.ts#L43)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `opts` | \{ \} |
+
+###### Returns
+
+`void`
+
+##### Enable()
+
+> **Enable**(`opts?`): `void`
+
+Defined in: [src/helper/TriggerTeleport.ts:39](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/TriggerTeleport.ts#L39)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `opts` | \{ \} |
+
+###### Returns
+
+`void`
+
+##### FireIO()
+
+> **FireIO**(`opts?`): `void`
+
+Defined in: [src/helper/EntityHelper.ts:59](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L59)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `opts` | \{ \} |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`FireIO`](#fireio-1)
+
+##### FireUser1()
+
+> **FireUser1**(`opts?`): `void`
+
+Defined in: [src/helper/EntityHelper.ts:68](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L68)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `opts` | \{ \} |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`FireUser1`](#fireuser1-1)
+
+##### FireUser2()
+
+> **FireUser2**(`opts?`): `void`
+
+Defined in: [src/helper/EntityHelper.ts:72](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L72)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `opts` | \{ \} |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`FireUser2`](#fireuser2-1)
+
+##### FireUser3()
+
+> **FireUser3**(`opts?`): `void`
+
+Defined in: [src/helper/EntityHelper.ts:76](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L76)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `opts` | \{ \} |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`FireUser3`](#fireuser3-1)
+
+##### FireUser4()
+
+> **FireUser4**(`opts?`): `void`
+
+Defined in: [src/helper/EntityHelper.ts:80](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L80)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `opts` | \{ \} |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`FireUser4`](#fireuser4-1)
+
+##### GetAbsAngles()
+
+> **GetAbsAngles**(): [`QAngle`](Math.md#qangle)
+
+Defined in: [src/helper/EntityHelper.ts:126](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L126)
+
+###### Returns
+
+[`QAngle`](Math.md#qangle)
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`GetAbsAngles`](#getabsangles-1)
+
+##### GetAbsOrigin()
+
+> **GetAbsOrigin**(): [`Vector3`](Math.md#vector3)
+
+Defined in: [src/helper/EntityHelper.ts:118](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L118)
+
+###### Returns
+
+[`Vector3`](Math.md#vector3)
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`GetAbsOrigin`](#getabsorigin-1)
+
+##### GetAbsVelocity()
+
+> **GetAbsVelocity**(): [`Vector3`](Math.md#vector3)
+
+Defined in: [src/helper/EntityHelper.ts:134](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L134)
+
+###### Returns
+
+[`Vector3`](Math.md#vector3)
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`GetAbsVelocity`](#getabsvelocity-1)
+
+##### GetClassName()
+
+> **GetClassName**(): `string`
+
+Defined in: [src/helper/EntityHelper.ts:154](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L154)
+
+###### Returns
+
+`string`
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`GetClassName`](#getclassname-1)
+
+##### GetEntityName()
+
+> **GetEntityName**(): `string`
+
+Defined in: [src/helper/EntityHelper.ts:158](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L158)
+
+###### Returns
+
+`string`
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`GetEntityName`](#getentityname-1)
+
+##### GetEyeAngles()
+
+> **GetEyeAngles**(): [`QAngle`](Math.md#qangle)
+
+Defined in: [src/helper/EntityHelper.ts:142](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L142)
+
+###### Returns
+
+[`QAngle`](Math.md#qangle)
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`GetEyeAngles`](#geteyeangles-1)
+
+##### GetEyePosition()
+
+> **GetEyePosition**(): [`Vector3`](Math.md#vector3)
+
+Defined in: [src/helper/EntityHelper.ts:146](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L146)
+
+###### Returns
+
+[`Vector3`](Math.md#vector3)
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`GetEyePosition`](#geteyeposition-1)
+
+##### GetGroundEntity()
+
+> **GetGroundEntity**(): `any`
+
+Defined in: [src/helper/EntityHelper.ts:218](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L218)
+
+###### Returns
+
+`any`
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`GetGroundEntity`](#getgroundentity-1)
+
+##### GetHealth()
+
+> **GetHealth**(): `number`
+
+Defined in: [src/helper/EntityHelper.ts:186](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L186)
+
+###### Returns
+
+`number`
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`GetHealth`](#gethealth-1)
+
+##### GetLocalAngles()
+
+> **GetLocalAngles**(): [`QAngle`](Math.md#qangle)
+
+Defined in: [src/helper/EntityHelper.ts:130](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L130)
+
+###### Returns
+
+[`QAngle`](Math.md#qangle)
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`GetLocalAngles`](#getlocalangles-1)
+
+##### GetLocalOrigin()
+
+> **GetLocalOrigin**(): [`Vector3`](Math.md#vector3)
+
+Defined in: [src/helper/EntityHelper.ts:122](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L122)
+
+###### Returns
+
+[`Vector3`](Math.md#vector3)
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`GetLocalOrigin`](#getlocalorigin-1)
+
+##### GetLocalVelocity()
+
+> **GetLocalVelocity**(): [`Vector3`](Math.md#vector3)
+
+Defined in: [src/helper/EntityHelper.ts:138](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L138)
+
+###### Returns
+
+[`Vector3`](Math.md#vector3)
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`GetLocalVelocity`](#getlocalvelocity-1)
+
+##### GetMaxHealth()
+
+> **GetMaxHealth**(): `number`
+
+Defined in: [src/helper/EntityHelper.ts:198](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L198)
+
+###### Returns
+
+`number`
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`GetMaxHealth`](#getmaxhealth-1)
+
+##### GetOwner()
+
+> **GetOwner**(): `any`
+
+Defined in: [src/helper/EntityHelper.ts:166](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L166)
+
+###### Returns
+
+`any`
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`GetOwner`](#getowner-1)
+
+##### GetParent()
+
+> **GetParent**(): `any`
+
+Defined in: [src/helper/EntityHelper.ts:174](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L174)
+
+###### Returns
+
+`any`
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`GetParent`](#getparent-1)
+
+##### GetTeamNumber()
+
+> **GetTeamNumber**(): `number`
+
+Defined in: [src/helper/EntityHelper.ts:182](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L182)
+
+###### Returns
+
+`number`
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`GetTeamNumber`](#getteamnumber-1)
+
+##### IsAlive()
+
+> **IsAlive**(): `boolean`
+
+Defined in: [src/helper/EntityHelper.ts:210](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L210)
+
+###### Returns
+
+`boolean`
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`IsAlive`](#isalive-1)
+
+##### IsValid()
+
+> **IsValid**(): `boolean`
+
+Defined in: [src/helper/EntityHelper.ts:114](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L114)
+
+###### Returns
+
+`boolean`
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`IsValid`](#isvalid-1)
+
+##### IsWorld()
+
+> **IsWorld**(): `boolean`
+
+Defined in: [src/helper/EntityHelper.ts:214](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L214)
+
+###### Returns
+
+`boolean`
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`IsWorld`](#isworld-1)
+
+##### Kill()
+
+> **Kill**(): `void`
+
+Defined in: [src/helper/EntityHelper.ts:226](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L226)
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`Kill`](#kill-1)
+
+##### KillAll()
+
+> **KillAll**(): `void`
+
+Defined in: [src/helper/EntityHelper.ts:234](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L234)
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`KillAll`](#killall-1)
+
+##### KillHierarchy()
+
+> **KillHierarchy**(`opts?`): `void`
+
+Defined in: [src/helper/EntityHelper.ts:230](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L230)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `opts` | \{ \} |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`KillHierarchy`](#killhierarchy-1)
+
+##### On()
+
+> **On**(`event_name`, `callback`): [`EntityHelper`](#abstract-entityhelper)
+
+Defined in: [src/helper/EntityHelper.ts:104](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L104)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `event_name` | `string` |
+| `callback` | `ConnectOutputCallback` |
+
+###### Returns
+
+[`EntityHelper`](#abstract-entityhelper)
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`On`](#on-1)
+
+##### OnEndTouch()
+
+> **OnEndTouch**(`callback`): [`TriggerTeleport`](#triggerteleport)
+
+Defined in: [src/helper/TriggerTeleport.ts:65](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/TriggerTeleport.ts#L65)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `callback` | `ConnectOutputCallback` |
+
+###### Returns
+
+[`TriggerTeleport`](#triggerteleport)
+
+##### OnEndTouchAll()
+
+> **OnEndTouchAll**(`callback`): [`TriggerTeleport`](#triggerteleport)
+
+Defined in: [src/helper/TriggerTeleport.ts:69](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/TriggerTeleport.ts#L69)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `callback` | `ConnectOutputCallback` |
+
+###### Returns
+
+[`TriggerTeleport`](#triggerteleport)
+
+##### OnKilled()
+
+> **OnKilled**(`callback`): [`TriggerTeleport`](#triggerteleport)
+
+Defined in: [src/helper/TriggerTeleport.ts:53](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/TriggerTeleport.ts#L53)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `callback` | `ConnectOutputCallback` |
+
+###### Returns
+
+[`TriggerTeleport`](#triggerteleport)
+
+##### OnStartTouch()
+
+> **OnStartTouch**(`callback`): [`TriggerTeleport`](#triggerteleport)
+
+Defined in: [src/helper/TriggerTeleport.ts:57](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/TriggerTeleport.ts#L57)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `callback` | `ConnectOutputCallback` |
+
+###### Returns
+
+[`TriggerTeleport`](#triggerteleport)
+
+##### OnStartTouchAll()
+
+> **OnStartTouchAll**(`callback`): [`TriggerTeleport`](#triggerteleport)
+
+Defined in: [src/helper/TriggerTeleport.ts:61](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/TriggerTeleport.ts#L61)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `callback` | `ConnectOutputCallback` |
+
+###### Returns
+
+[`TriggerTeleport`](#triggerteleport)
+
+##### Remove()
+
+> **Remove**(): `void`
+
+Defined in: [src/helper/EntityHelper.ts:238](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L238)
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`Remove`](#remove-1)
+
+##### SetEntityName()
+
+> **SetEntityName**(`s`): `void`
+
+Defined in: [src/helper/EntityHelper.ts:162](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L162)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `s` | `string` |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`SetEntityName`](#setentityname-1)
+
+##### SetHealth()
+
+> **SetHealth**(`hp`): `void`
+
+Defined in: [src/helper/EntityHelper.ts:190](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L190)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `hp` | `number` |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`SetHealth`](#sethealth-1)
+
+##### SetMaxHealth()
+
+> **SetMaxHealth**(`hp`): `void`
+
+Defined in: [src/helper/EntityHelper.ts:202](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L202)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `hp` | `number` |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`SetMaxHealth`](#setmaxhealth-1)
+
+##### SetOwner()
+
+> **SetOwner**(`e`): `void`
+
+Defined in: [src/helper/EntityHelper.ts:170](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L170)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `e` | `Entity` |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`SetOwner`](#setowner-1)
+
+##### SetParent()
+
+> **SetParent**(`e`): `void`
+
+Defined in: [src/helper/EntityHelper.ts:178](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L178)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `e` | `Entity` |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`SetParent`](#setparent-1)
+
+##### TakeDamage()
+
+> **TakeDamage**(`__namedParameters`): `number`
+
+Defined in: [src/helper/EntityHelper.ts:222](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L222)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `__namedParameters` | \{ `attacker`: `any`; `damage`: `any`; `inflictor`: `any`; `weapon`: `any`; \} |
+| `__namedParameters.attacker` | `any` |
+| `__namedParameters.damage` | `any` |
+| `__namedParameters.inflictor` | `any` |
+| `__namedParameters.weapon` | `any` |
+
+###### Returns
+
+`number`
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`TakeDamage`](#takedamage-1)
+
+##### Teleport()
+
+> **Teleport**(`__namedParameters`): `void`
+
+Defined in: [src/helper/EntityHelper.ts:150](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L150)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `__namedParameters` | \{ `position`: `any`; `rotation`: `any`; `velocity`: `any`; \} |
+| `__namedParameters.position` | `any` |
+| `__namedParameters.rotation` | `any` |
+| `__namedParameters.velocity` | `any` |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`Teleport`](#teleport-1)
+
+##### Toggle()
+
+> **Toggle**(`opts?`): `void`
+
+Defined in: [src/helper/TriggerTeleport.ts:47](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/TriggerTeleport.ts#L47)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `opts` | \{ \} |
+
+###### Returns
+
+`void`
+
+##### Find()
+
+> `static` **Find**(`r`): [`TriggerTeleport`](#triggerteleport)
+
+Defined in: [src/helper/TriggerTeleport.ts:27](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/TriggerTeleport.ts#L27)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `r` | `string` \| `RegExp` |
+
+###### Returns
+
+[`TriggerTeleport`](#triggerteleport)
+
+###### Overrides
+
+[`EntityHelper`](#abstract-entityhelper).[`Find`](#find-1)
+
+##### FindAll()
+
+> `static` **FindAll**(`r`): [`TriggerTeleport`](#triggerteleport)[]
+
+Defined in: [src/helper/TriggerTeleport.ts:32](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/TriggerTeleport.ts#L32)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `r` | `string` \| `RegExp` |
+
+###### Returns
+
+[`TriggerTeleport`](#triggerteleport)[]
+
+###### Overrides
+
+[`EntityHelper`](#abstract-entityhelper).[`FindAll`](#findall-1)
+
+##### FindAllByClass()
+
+> `static` **FindAllByClass**(`classname`, `r`): [`EntityHelper`](#abstract-entityhelper)[]
+
+Defined in: [src/helper/EntityHelper.ts:52](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L52)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `classname` | `string` |
+| `r` | `string` \| `RegExp` |
+
+###### Returns
+
+[`EntityHelper`](#abstract-entityhelper)[]
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`FindAllByClass`](#findallbyclass-1)
+
+##### FindByClass()
+
+> `static` **FindByClass**(`classname`, `r`, `error?`): [`EntityHelper`](#abstract-entityhelper) \| `null`
+
+Defined in: [src/helper/EntityHelper.ts:44](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L44)
+
+###### Parameters
+
+| Parameter | Type | Default value |
+| ------ | ------ | ------ |
+| `classname` | `string` | `undefined` |
+| `r` | `string` \| `RegExp` | `undefined` |
+| `error` | `boolean` | `false` |
+
+###### Returns
+
+[`EntityHelper`](#abstract-entityhelper) \| `null`
+
+###### Inherited from
+
+[`EntityHelper`](#abstract-entityhelper).[`FindByClass`](#findbyclass-1)
+
+##### From()
+
+> `static` **From**(`entity`): [`TriggerTeleport`](#triggerteleport)
+
+Defined in: [src/helper/TriggerTeleport.ts:21](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/TriggerTeleport.ts#L21)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `entity` | `Entity` |
+
+###### Returns
+
+[`TriggerTeleport`](#triggerteleport)

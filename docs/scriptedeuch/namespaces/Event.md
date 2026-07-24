@@ -12,7 +12,7 @@ Event Listener and Sender
 
 ### Listener
 
-Defined in: [event/Listener.ts:21](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/event/Listener.ts#L21)
+Defined in: [src/event/Listener.ts:21](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/event/Listener.ts#L21)
 
 Similar to Base.MessageTask, except it processes an event structure.
 
@@ -33,7 +33,7 @@ Notes:
 
 > **new Listener**(`tag`): [`Listener`](#listener)
 
-Defined in: [event/Listener.ts:25](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/event/Listener.ts#L25)
+Defined in: [src/event/Listener.ts:25](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/event/Listener.ts#L25)
 
 ###### Parameters
 
@@ -55,7 +55,7 @@ Defined in: [event/Listener.ts:25](https://github.com/Orb-Workshop/scriptedeuch/
 
 > **Dispose**(): `void`
 
-Defined in: [base/Actor.ts:95](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/Actor.ts#L95)
+Defined in: [src/base/Actor.ts:95](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/Actor.ts#L95)
 
 Override Interface Method. Called after an actor has been made dirty,
 and has been removed from the actor pool
@@ -72,7 +72,7 @@ and has been removed from the actor pool
 
 > **GetDelta**(): `number`
 
-Defined in: [base/Actor.ts:60](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/Actor.ts#L60)
+Defined in: [src/base/Actor.ts:60](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/Actor.ts#L60)
 
 Delta Since last think time.
 
@@ -88,7 +88,7 @@ Delta Since last think time.
 
 > **GetLifetime**(): `number`
 
-Defined in: [base/Actor.ts:58](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/Actor.ts#L58)
+Defined in: [src/base/Actor.ts:58](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/Actor.ts#L58)
 
 How long the actor has been alive in seconds.
 
@@ -104,7 +104,7 @@ How long the actor has been alive in seconds.
 
 > **IsDirty**(): `boolean`
 
-Defined in: [base/Actor.ts:70](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/Actor.ts#L70)
+Defined in: [src/base/Actor.ts:70](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/Actor.ts#L70)
 
 Determine if the Actor is marked for removal.
 
@@ -120,7 +120,7 @@ Determine if the Actor is marked for removal.
 
 > **MakeDirty**(): `void`
 
-Defined in: [base/Actor.ts:62](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/Actor.ts#L62)
+Defined in: [src/base/Actor.ts:62](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/Actor.ts#L62)
 
 Mark the Actor for removal from the actor pool.
 
@@ -136,7 +136,7 @@ Mark the Actor for removal from the actor pool.
 
 > **MaybeThink**(): `void`
 
-Defined in: [base/Actor.ts:73](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/Actor.ts#L73)
+Defined in: [src/base/Actor.ts:73](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/Actor.ts#L73)
 
 Performs `this.Think()` if it past a certain interval
 
@@ -152,7 +152,7 @@ Performs `this.Think()` if it past a certain interval
 
 > **On**(`event_name`, `event_callback`): [`Listener`](#listener)
 
-Defined in: [event/Listener.ts:38](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/event/Listener.ts#L38)
+Defined in: [src/event/Listener.ts:38](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/event/Listener.ts#L38)
 
 ###### Parameters
 
@@ -169,7 +169,7 @@ Defined in: [event/Listener.ts:38](https://github.com/Orb-Workshop/scriptedeuch/
 
 > **ReceiveMessage**(`tag`, `data`): `void`
 
-Defined in: [event/Listener.ts:30](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/event/Listener.ts#L30)
+Defined in: [src/event/Listener.ts:30](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/event/Listener.ts#L30)
 
 Override Interface Method. React to messages sent by other
 actors in the actor pool.
@@ -196,7 +196,7 @@ preferred over this method.
 
 > **Remove**(): `void`
 
-Defined in: [base/Actor.ts:64](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/Actor.ts#L64)
+Defined in: [src/base/Actor.ts:64](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/Actor.ts#L64)
 
 Same as `this.MakeDirty()`.
 
@@ -212,7 +212,7 @@ Same as `this.MakeDirty()`.
 
 > **SetTick**(`i`): `void`
 
-Defined in: [base/Actor.ts:56](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/Actor.ts#L56)
+Defined in: [src/base/Actor.ts:56](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/Actor.ts#L56)
 
 Set the Tick Interval of the system in terms of *tick rate*.
 
@@ -234,7 +234,7 @@ Set the Tick Interval of the system in terms of *tick rate*.
 
 > **SetTickInterval**(`i`): `void`
 
-Defined in: [base/Actor.ts:54](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/Actor.ts#L54)
+Defined in: [src/base/Actor.ts:54](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/Actor.ts#L54)
 
 Set the Tick Interval of the system. Expressed in Seconds.
 
@@ -256,7 +256,7 @@ Set the Tick Interval of the system. Expressed in Seconds.
 
 > **Think**(): `void`
 
-Defined in: [base/Actor.ts:110](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/Actor.ts#L110)
+Defined in: [src/base/Actor.ts:110](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/Actor.ts#L110)
 
 Override Method. Is called at the `think_interval`.
 
@@ -272,7 +272,7 @@ Override Method. Is called at the `think_interval`.
 
 > `static` **SendMessage**(`tag`, `data?`, `actor_pool_name?`): `void`
 
-Defined in: [base/Actor.ts:41](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/Actor.ts#L41)
+Defined in: [src/base/Actor.ts:41](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/Actor.ts#L41)
 
 Send messages to other actors in the actor pool.
 
@@ -296,7 +296,7 @@ Send messages to other actors in the actor pool.
 
 ### Sender
 
-Defined in: [event/Sender.ts:8](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/event/Sender.ts#L8)
+Defined in: [src/event/Sender.ts:8](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/event/Sender.ts#L8)
 
 #### Constructors
 
@@ -304,7 +304,7 @@ Defined in: [event/Sender.ts:8](https://github.com/Orb-Workshop/scriptedeuch/blo
 
 > **new Sender**(`tag`): [`Sender`](#sender)
 
-Defined in: [event/Sender.ts:10](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/event/Sender.ts#L10)
+Defined in: [src/event/Sender.ts:10](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/event/Sender.ts#L10)
 
 ###### Parameters
 
@@ -322,7 +322,7 @@ Defined in: [event/Sender.ts:10](https://github.com/Orb-Workshop/scriptedeuch/bl
 
 > **Send**(`event_name`, `event_data`): `void`
 
-Defined in: [event/Sender.ts:14](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/event/Sender.ts#L14)
+Defined in: [src/event/Sender.ts:14](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/event/Sender.ts#L14)
 
 ###### Parameters
 
@@ -341,7 +341,7 @@ Defined in: [event/Sender.ts:14](https://github.com/Orb-Workshop/scriptedeuch/bl
 
 > **GetGlobalListener**(): [`Listener`](#listener)
 
-Defined in: [event/Global.ts:52](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/event/Global.ts#L52)
+Defined in: [src/event/Global.ts:52](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/event/Global.ts#L52)
 
 Returns an `Event.Listener` using the global `Tag`.
 
@@ -355,7 +355,7 @@ Returns an `Event.Listener` using the global `Tag`.
 
 > **OnActivate**(`callback`): [`Listener`](#listener)
 
-Defined in: [event/Global.ts:62](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/event/Global.ts#L62)
+Defined in: [src/event/Global.ts:62](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/event/Global.ts#L62)
 
 Instance.OnActivate()
 
@@ -375,7 +375,7 @@ Instance.OnActivate()
 
 > **OnPlayerJump**(`callback`): [`Listener`](#listener)
 
-Defined in: [event/Global.ts:77](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/event/Global.ts#L77)
+Defined in: [src/event/Global.ts:77](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/event/Global.ts#L77)
 
 Instance.OnPlayerJump()
 
@@ -395,7 +395,7 @@ Instance.OnPlayerJump()
 
 > **OnRoundEnd**(`callback`): [`Listener`](#listener)
 
-Defined in: [event/Global.ts:72](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/event/Global.ts#L72)
+Defined in: [src/event/Global.ts:72](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/event/Global.ts#L72)
 
 Instance.OnRoundEnd()
 
@@ -415,7 +415,7 @@ Instance.OnRoundEnd()
 
 > **OnRoundStart**(`callback`): [`Listener`](#listener)
 
-Defined in: [event/Global.ts:67](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/event/Global.ts#L67)
+Defined in: [src/event/Global.ts:67](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/event/Global.ts#L67)
 
 Instance.OnRoundStart()
 

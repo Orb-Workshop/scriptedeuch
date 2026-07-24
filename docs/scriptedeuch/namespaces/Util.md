@@ -10,11 +10,25 @@ Utility Library
 
 ## Functions
 
+### AllPlayers()
+
+> **AllPlayers**(): `CSPlayerPawn`[]
+
+Defined in: [src/util/index.ts:74](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/util/index.ts#L74)
+
+Return all active players
+
+#### Returns
+
+`CSPlayerPawn`[]
+
+***
+
 ### CheckClass()
 
 > **CheckClass**(`e`, `classname`): `boolean`
 
-Defined in: [util/index.ts:68](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/util/index.ts#L68)
+Defined in: [src/util/index.ts:68](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/util/index.ts#L68)
 
 Returns 'true' if the given entity has the given classname
 
@@ -35,7 +49,7 @@ Returns 'true' if the given entity has the given classname
 
 > **DeepCopy**(`o`): `any`
 
-Defined in: [util/index.ts:11](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/util/index.ts#L11)
+Defined in: [src/util/index.ts:11](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/util/index.ts#L11)
 
 Returns a deep copy of the provided object, `o`.
 
@@ -55,7 +69,7 @@ Returns a deep copy of the provided object, `o`.
 
 > **GenerateAddOutput**(`opts`): `string`
 
-Defined in: [util/index.ts:40](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/util/index.ts#L40)
+Defined in: [src/util/index.ts:40](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/util/index.ts#L40)
 
 Generate an 'AddOutput' line for IO Events.
 
@@ -75,7 +89,7 @@ Generate an 'AddOutput' line for IO Events.
 
 > **GetPlayerName**(`player_pawn`): `string` \| `null`
 
-Defined in: [util/index.ts:16](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/util/index.ts#L16)
+Defined in: [src/util/index.ts:16](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/util/index.ts#L16)
 
 Return the player name of a CSPlayerPawn, or `null` if it isn't available.
 
@@ -95,7 +109,7 @@ Return the player name of a CSPlayerPawn, or `null` if it isn't available.
 
 > **Memoize**(`func`): (...`args`) => `any`
 
-Defined in: [util/index.ts:28](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/util/index.ts#L28)
+Defined in: [src/util/index.ts:28](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/util/index.ts#L28)
 
 Standard Memoize Function
 
@@ -125,7 +139,7 @@ Standard Memoize Function
 
 > **UniqueGen**(`s?`): () => `string`
 
-Defined in: [util/index.ts:61](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/util/index.ts#L61)
+Defined in: [src/util/index.ts:61](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/util/index.ts#L61)
 
 Returns a function that generates unique indexed names prefixed with `s`
 

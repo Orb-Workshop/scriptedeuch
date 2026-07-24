@@ -12,7 +12,7 @@
 
 > `const` **DIALOG\_TEMPLATE**: `"scriptedeuch.dialog.template"` = `"scriptedeuch.dialog.template"`
 
-Defined in: [base/Default.ts:17](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/Default.ts#L17)
+Defined in: [src/base/Default.ts:17](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/Default.ts#L17)
 
 ***
 
@@ -20,7 +20,7 @@ Defined in: [base/Default.ts:17](https://github.com/Orb-Workshop/scriptedeuch/bl
 
 > `const` **LIGHT\_TEMPLATE**: `"scriptedeuch.light.template"` = `"scriptedeuch.light.template"`
 
-Defined in: [base/Default.ts:12](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/Default.ts#L12)
+Defined in: [src/base/Default.ts:12](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/Default.ts#L12)
 
 ***
 
@@ -28,7 +28,7 @@ Defined in: [base/Default.ts:12](https://github.com/Orb-Workshop/scriptedeuch/bl
 
 > `const` **PROJECTILE\_TEMPLATE**: `"scriptedeuch.projectile.template"` = `"scriptedeuch.projectile.template"`
 
-Defined in: [base/Default.ts:22](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/Default.ts#L22)
+Defined in: [src/base/Default.ts:22](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/Default.ts#L22)
 
 ***
 
@@ -36,7 +36,7 @@ Defined in: [base/Default.ts:22](https://github.com/Orb-Workshop/scriptedeuch/bl
 
 > `const` **SOUND\_EVENT\_TEMPLATE**: `"scriptedeuch.soundevent.template"` = `"scriptedeuch.soundevent.template"`
 
-Defined in: [base/Default.ts:7](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/Default.ts#L7)
+Defined in: [src/base/Default.ts:7](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/Default.ts#L7)
 
 ## Functions
 
@@ -44,7 +44,7 @@ Defined in: [base/Default.ts:7](https://github.com/Orb-Workshop/scriptedeuch/blo
 
 > **DialogTemplate**(): `PointTemplate`
 
-Defined in: [base/Default.ts:18](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/Default.ts#L18)
+Defined in: [src/base/Default.ts:18](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/Default.ts#L18)
 
 #### Returns
 
@@ -56,7 +56,7 @@ Defined in: [base/Default.ts:18](https://github.com/Orb-Workshop/scriptedeuch/bl
 
 > **LightTemplate**(): `PointTemplate`
 
-Defined in: [base/Default.ts:13](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/Default.ts#L13)
+Defined in: [src/base/Default.ts:13](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/Default.ts#L13)
 
 #### Returns
 
@@ -68,7 +68,7 @@ Defined in: [base/Default.ts:13](https://github.com/Orb-Workshop/scriptedeuch/bl
 
 > **ProjectileTemplate**(): `PointTemplate`
 
-Defined in: [base/Default.ts:23](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/Default.ts#L23)
+Defined in: [src/base/Default.ts:23](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/Default.ts#L23)
 
 #### Returns
 
@@ -80,7 +80,7 @@ Defined in: [base/Default.ts:23](https://github.com/Orb-Workshop/scriptedeuch/bl
 
 > **SoundTemplate**(): `PointTemplate`
 
-Defined in: [base/Default.ts:8](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/Default.ts#L8)
+Defined in: [src/base/Default.ts:8](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/Default.ts#L8)
 
 #### Returns
 
