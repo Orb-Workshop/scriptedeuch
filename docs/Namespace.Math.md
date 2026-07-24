@@ -1,9 +1,3 @@
-[**scriptedeuch**](../../README.md)
-
-***
-
-[scriptedeuch](../../README.md) / Math
-
 # Math
 
 Math Library

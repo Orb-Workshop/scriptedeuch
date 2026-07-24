@@ -1,9 +1,3 @@
-[**scriptedeuch**](../../README.md)
-
-***
-
-[scriptedeuch](../../README.md) / Event
-
 # Event
 
 Event Listener and Sender
@@ -25,7 +19,7 @@ Notes:
 
 #### Extends
 
-- [`Actor`](Base/README.md#abstract-actor)
+- [`Actor`](Namespace.Base.md#abstract-actor)
 
 #### Constructors
 
@@ -47,7 +41,7 @@ Defined in: [src/event/Listener.ts:25](https://github.com/Orb-Workshop/scriptede
 
 ###### Overrides
 
-[`Actor`](Base/README.md#abstract-actor).[`constructor`](Base/README.md#constructor)
+[`Actor`](Namespace.Base.md#abstract-actor).[`constructor`](Namespace.Base.md#constructor)
 
 #### Methods
 
@@ -66,7 +60,7 @@ and has been removed from the actor pool
 
 ###### Inherited from
 
-[`Actor`](Base/README.md#abstract-actor).[`Dispose`](Base/README.md#dispose)
+[`Actor`](Namespace.Base.md#abstract-actor).[`Dispose`](Namespace.Base.md#dispose)
 
 ##### GetDelta()
 
@@ -82,7 +76,7 @@ Delta Since last think time.
 
 ###### Inherited from
 
-[`Actor`](Base/README.md#abstract-actor).[`GetDelta`](Base/README.md#getdelta)
+[`Actor`](Namespace.Base.md#abstract-actor).[`GetDelta`](Namespace.Base.md#getdelta)
 
 ##### GetLifetime()
 
@@ -98,7 +92,7 @@ How long the actor has been alive in seconds.
 
 ###### Inherited from
 
-[`Actor`](Base/README.md#abstract-actor).[`GetLifetime`](Base/README.md#getlifetime)
+[`Actor`](Namespace.Base.md#abstract-actor).[`GetLifetime`](Namespace.Base.md#getlifetime)
 
 ##### IsDirty()
 
@@ -114,7 +108,7 @@ Determine if the Actor is marked for removal.
 
 ###### Inherited from
 
-[`Actor`](Base/README.md#abstract-actor).[`IsDirty`](Base/README.md#isdirty)
+[`Actor`](Namespace.Base.md#abstract-actor).[`IsDirty`](Namespace.Base.md#isdirty)
 
 ##### MakeDirty()
 
@@ -130,7 +124,7 @@ Mark the Actor for removal from the actor pool.
 
 ###### Inherited from
 
-[`Actor`](Base/README.md#abstract-actor).[`MakeDirty`](Base/README.md#makedirty)
+[`Actor`](Namespace.Base.md#abstract-actor).[`MakeDirty`](Namespace.Base.md#makedirty)
 
 ##### MaybeThink()
 
@@ -146,7 +140,7 @@ Performs `this.Think()` if it past a certain interval
 
 ###### Inherited from
 
-[`Actor`](Base/README.md#abstract-actor).[`MaybeThink`](Base/README.md#maybethink)
+[`Actor`](Namespace.Base.md#abstract-actor).[`MaybeThink`](Namespace.Base.md#maybethink)
 
 ##### On()
 
@@ -190,7 +184,7 @@ preferred over this method.
 
 ###### Overrides
 
-[`Actor`](Base/README.md#abstract-actor).[`ReceiveMessage`](Base/README.md#receivemessage)
+[`Actor`](Namespace.Base.md#abstract-actor).[`ReceiveMessage`](Namespace.Base.md#receivemessage)
 
 ##### Remove()
 
@@ -206,7 +200,7 @@ Same as `this.MakeDirty()`.
 
 ###### Inherited from
 
-[`Actor`](Base/README.md#abstract-actor).[`Remove`](Base/README.md#remove)
+[`Actor`](Namespace.Base.md#abstract-actor).[`Remove`](Namespace.Base.md#remove)
 
 ##### SetTick()
 
@@ -228,7 +222,7 @@ Set the Tick Interval of the system in terms of *tick rate*.
 
 ###### Inherited from
 
-[`Actor`](Base/README.md#abstract-actor).[`SetTick`](Base/README.md#settick)
+[`Actor`](Namespace.Base.md#abstract-actor).[`SetTick`](Namespace.Base.md#settick)
 
 ##### SetTickInterval()
 
@@ -250,7 +244,7 @@ Set the Tick Interval of the system. Expressed in Seconds.
 
 ###### Inherited from
 
-[`Actor`](Base/README.md#abstract-actor).[`SetTickInterval`](Base/README.md#settickinterval)
+[`Actor`](Namespace.Base.md#abstract-actor).[`SetTickInterval`](Namespace.Base.md#settickinterval)
 
 ##### Think()
 
@@ -266,7 +260,7 @@ Override Method. Is called at the `think_interval`.
 
 ###### Inherited from
 
-[`Actor`](Base/README.md#abstract-actor).[`Think`](Base/README.md#think)
+[`Actor`](Namespace.Base.md#abstract-actor).[`Think`](Namespace.Base.md#think)
 
 ##### SendMessage()
 
@@ -290,7 +284,7 @@ Send messages to other actors in the actor pool.
 
 ###### Inherited from
 
-[`Actor`](Base/README.md#abstract-actor).[`SendMessage`](Base/README.md#sendmessage)
+[`Actor`](Namespace.Base.md#abstract-actor).[`SendMessage`](Namespace.Base.md#sendmessage)
 
 ***
 

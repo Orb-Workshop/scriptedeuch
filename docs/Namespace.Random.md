@@ -1,9 +1,3 @@
-[**scriptedeuch**](../../README.md)
-
-***
-
-[scriptedeuch](../../README.md) / Random
-
 # Random
 
 Randomness Library

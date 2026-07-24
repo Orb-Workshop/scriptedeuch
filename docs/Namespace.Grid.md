@@ -1,9 +1,3 @@
-[**scriptedeuch**](../../README.md)
-
-***
-
-[scriptedeuch](../../README.md) / Grid
-
 # Grid
 
 Grid Library
@@ -252,13 +246,13 @@ Grid3D.
 
 ##### toBBox3()
 
-> **toBBox3**(): [`BBox3`](Math.md#bbox3)
+> **toBBox3**(): [`BBox3`](Namespace.Math.md#bbox3)
 
 Defined in: [src/grid/Grid3D.ts:198](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/grid/Grid3D.ts#L198)
 
 ###### Returns
 
-[`BBox3`](Math.md#bbox3)
+[`BBox3`](Namespace.Math.md#bbox3)
 
 ***
 
@@ -912,13 +906,13 @@ Defined in: [src/grid/SubGrid.ts:85](https://github.com/Orb-Workshop/scriptedeuc
 
 ##### toBBox3()
 
-> **toBBox3**(): [`BBox3`](Math.md#bbox3)
+> **toBBox3**(): [`BBox3`](Namespace.Math.md#bbox3)
 
 Defined in: [src/grid/SubGrid.ts:113](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/grid/SubGrid.ts#L113)
 
 ###### Returns
 
-[`BBox3`](Math.md#bbox3)
+[`BBox3`](Namespace.Math.md#bbox3)
 
 ## Functions
 

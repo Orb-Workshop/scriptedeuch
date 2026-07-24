@@ -1,9 +1,3 @@
-[**scriptedeuch**](../../../../README.md)
-
-***
-
-[scriptedeuch](../../../../README.md) / [Base](../README.md) / Asset
-
 # Asset
 
 ## Functions

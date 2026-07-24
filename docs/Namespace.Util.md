@@ -1,9 +1,3 @@
-[**scriptedeuch**](../../README.md)
-
-***
-
-[scriptedeuch](../../README.md) / Util
-
 # Util
 
 Utility Library

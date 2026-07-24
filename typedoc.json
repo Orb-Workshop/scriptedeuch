@@ -1,15 +1,24 @@
 {
-  "$schema": "https://typedoc-plugin-markdown.org/schema.json",
-  "entryPoints": ["./src/index.ts"],
-  "out": "./docs",
-  "plugin": ["typedoc-plugin-markdown"],
-  "readme": "none",
-  "mergeReadme": true,
-  "enumMembersFormat": "table",
-  "parametersFormat": "table",
-  "propertiesFormat": "table",
-  "typeDeclarationFormat": "table",
-  "indexFormat": "table",
-  "outputFileStrategy": "modules",
-  "gitRevision": "master"
+    "$schema": "https://typedoc-plugin-markdown.org/schema.json",
+    "entryPoints": ["./src/index.ts"],
+    "out": "./docs",
+    "plugin": ["typedoc-plugin-markdown"],
+    "readme": "none",
+    "mergeReadme": true,
+    "enumMembersFormat": "table",
+    "parametersFormat": "table",
+    "propertiesFormat": "table",
+    "typeDeclarationFormat": "table",
+    "indexFormat": "table",
+    "outputFileStrategy": "modules",
+    "gitRevision": "master",
+    "router": "module",
+    "navigation": {
+	"includeCategories": true,
+	"includeGroups": true,
+	"includeFolders": true
+    },
+    "flattenOutputFiles": true,
+    "hideBreadcrumbs": true,
+    "hidePageHeader": true
 }

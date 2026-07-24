@@ -1,24 +1,20 @@
-**scriptedeuch**
-
-***
-
 # scriptedeuch
 
 ## Namespaces
 
 | Namespace | Description |
 | ------ | ------ |
-| [Actor](scriptedeuch/namespaces/Actor.md) | Spawnable Actors (Auto-Mounting) that extend `Base.Actor` |
-| [Base](scriptedeuch/namespaces/Base/README.md) | Base Library Framework Components |
-| [Event](scriptedeuch/namespaces/Event.md) | Event Listener and Sender |
-| [Grid](scriptedeuch/namespaces/Grid.md) | Grid Library |
-| [Helper](scriptedeuch/namespaces/Helper.md) | Entity Helper Library |
-| [Math](scriptedeuch/namespaces/Math.md) | Math Library |
-| [Noise](scriptedeuch/namespaces/Noise.md) | Noisy Library |
-| [Procgen](scriptedeuch/namespaces/Procgen.md) | Procedural Generation Library |
-| [Random](scriptedeuch/namespaces/Random.md) | Randomness Library |
-| [System](scriptedeuch/namespaces/System.md) | Mountable Systems that extend `Base.System` |
-| [Util](scriptedeuch/namespaces/Util.md) | Utility Library |
+| [Actor](Namespace.Actor.md) | Spawnable Actors (Auto-Mounting) that extend `Base.Actor` |
+| [Base](Namespace.Base.md) | Base Library Framework Components |
+| [Event](Namespace.Event.md) | Event Listener and Sender |
+| [Grid](Namespace.Grid.md) | Grid Library |
+| [Helper](Namespace.Helper.md) | Entity Helper Library |
+| [Math](Namespace.Math.md) | Math Library |
+| [Noise](Namespace.Noise.md) | Noisy Library |
+| [Procgen](Namespace.Procgen.md) | Procedural Generation Library |
+| [Random](Namespace.Random.md) | Randomness Library |
+| [System](Namespace.System.md) | Mountable Systems that extend `Base.System` |
+| [Util](Namespace.Util.md) | Utility Library |
 
 ## Classes
 

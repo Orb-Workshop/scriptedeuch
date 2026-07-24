@@ -1,9 +1,3 @@
-[**scriptedeuch**](../../README.md)
-
-***
-
-[scriptedeuch](../../README.md) / System
-
 # System
 
 Mountable Systems that extend `Base.System`
@@ -18,7 +12,7 @@ Implementations which extend the abstract `Base.System` class.
 
 #### Extends
 
-- [`System`](Base/README.md#abstract-system)
+- [`System`](Namespace.Base.md#abstract-system)
 
 #### Constructors
 
@@ -34,7 +28,7 @@ Defined in: [src/system/DeathmatchSpawnerSystem.ts:13](https://github.com/Orb-Wo
 
 ###### Overrides
 
-[`System`](Base/README.md#abstract-system).[`constructor`](Base/README.md#constructor-2)
+[`System`](Namespace.Base.md#abstract-system).[`constructor`](Namespace.Base.md#constructor-2)
 
 #### Methods
 
@@ -102,7 +96,7 @@ Defined in: [src/base/System.ts:29](https://github.com/Orb-Workshop/scriptedeuch
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`DisableSystem`](Base/README.md#disablesystem)
+[`System`](Namespace.Base.md#abstract-system).[`DisableSystem`](Namespace.Base.md#disablesystem)
 
 ##### EnableSystem()
 
@@ -116,7 +110,7 @@ Defined in: [src/base/System.ts:28](https://github.com/Orb-Workshop/scriptedeuch
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`EnableSystem`](Base/README.md#enablesystem)
+[`System`](Namespace.Base.md#abstract-system).[`EnableSystem`](Namespace.Base.md#enablesystem)
 
 ##### GetDelta()
 
@@ -130,7 +124,7 @@ Defined in: [src/base/System.ts:33](https://github.com/Orb-Workshop/scriptedeuch
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`GetDelta`](Base/README.md#getdelta-2)
+[`System`](Namespace.Base.md#abstract-system).[`GetDelta`](Namespace.Base.md#getdelta-2)
 
 ##### IsSystemEnabled()
 
@@ -144,7 +138,7 @@ Defined in: [src/base/System.ts:30](https://github.com/Orb-Workshop/scriptedeuch
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`IsSystemEnabled`](Base/README.md#issystemenabled)
+[`System`](Namespace.Base.md#abstract-system).[`IsSystemEnabled`](Namespace.Base.md#issystemenabled)
 
 ##### MaybeThink()
 
@@ -158,7 +152,7 @@ Defined in: [src/base/System.ts:35](https://github.com/Orb-Workshop/scriptedeuch
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`MaybeThink`](Base/README.md#maybethink-2)
+[`System`](Namespace.Base.md#abstract-system).[`MaybeThink`](Namespace.Base.md#maybethink-2)
 
 ##### OnActivate()
 
@@ -174,7 +168,7 @@ Instance.OnActivate()
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnActivate`](Base/README.md#onactivate)
+[`System`](Namespace.Base.md#abstract-system).[`OnActivate`](Namespace.Base.md#onactivate)
 
 ##### ~~OnBeforePlayerDamage()~~
 
@@ -198,7 +192,7 @@ Instance.OnBeforePlayerDamage()
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnBeforePlayerDamage`](Base/README.md#onbeforeplayerdamage)
+[`System`](Namespace.Base.md#abstract-system).[`OnBeforePlayerDamage`](Namespace.Base.md#onbeforeplayerdamage)
 
 ##### OnBombDefuse()
 
@@ -222,7 +216,7 @@ Instance.OnBombDefuse()
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnBombDefuse`](Base/README.md#onbombdefuse)
+[`System`](Namespace.Base.md#abstract-system).[`OnBombDefuse`](Namespace.Base.md#onbombdefuse)
 
 ##### OnBombPlant()
 
@@ -246,7 +240,7 @@ Instance.OnBombPlant()
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnBombPlant`](Base/README.md#onbombplant)
+[`System`](Namespace.Base.md#abstract-system).[`OnBombPlant`](Namespace.Base.md#onbombplant)
 
 ##### OnBulletImpact()
 
@@ -270,7 +264,7 @@ Instance.OnBulletImpact()
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnBulletImpact`](Base/README.md#onbulletimpact)
+[`System`](Namespace.Base.md#abstract-system).[`OnBulletImpact`](Namespace.Base.md#onbulletimpact)
 
 ##### OnGrenadeBounce()
 
@@ -294,7 +288,7 @@ Instance.OnGrenadeBounce()
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnGrenadeBounce`](Base/README.md#ongrenadebounce)
+[`System`](Namespace.Base.md#abstract-system).[`OnGrenadeBounce`](Namespace.Base.md#ongrenadebounce)
 
 ##### OnGrenadeThrow()
 
@@ -318,7 +312,7 @@ Instance.OnGrenadeThrow()
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnGrenadeThrow`](Base/README.md#ongrenadethrow)
+[`System`](Namespace.Base.md#abstract-system).[`OnGrenadeThrow`](Namespace.Base.md#ongrenadethrow)
 
 ##### OnGunFire()
 
@@ -341,7 +335,7 @@ Instance.OnGunFire()
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnGunFire`](Base/README.md#ongunfire)
+[`System`](Namespace.Base.md#abstract-system).[`OnGunFire`](Namespace.Base.md#ongunfire)
 
 ##### OnGunReload()
 
@@ -364,7 +358,7 @@ Instance.OnGunReload
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnGunReload`](Base/README.md#ongunreload)
+[`System`](Namespace.Base.md#abstract-system).[`OnGunReload`](Namespace.Base.md#ongunreload)
 
 ##### OnKnifeAttack()
 
@@ -388,7 +382,7 @@ Instance.OnKnifeAttack
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnKnifeAttack`](Base/README.md#onknifeattack)
+[`System`](Namespace.Base.md#abstract-system).[`OnKnifeAttack`](Namespace.Base.md#onknifeattack)
 
 ##### OnModifyPlayerDamage()
 
@@ -410,7 +404,7 @@ Instance.OnModifyPlayerDamage()
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnModifyPlayerDamage`](Base/README.md#onmodifyplayerdamage)
+[`System`](Namespace.Base.md#abstract-system).[`OnModifyPlayerDamage`](Namespace.Base.md#onmodifyplayerdamage)
 
 ##### OnPlayerActivate()
 
@@ -426,7 +420,7 @@ Instance.OnPlayerActivate
 
 ###### Overrides
 
-[`System`](Base/README.md#abstract-system).[`OnPlayerActivate`](Base/README.md#onplayeractivate)
+[`System`](Namespace.Base.md#abstract-system).[`OnPlayerActivate`](Namespace.Base.md#onplayeractivate)
 
 ##### OnPlayerChat()
 
@@ -451,7 +445,7 @@ Instance.OnPlayerChat
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnPlayerChat`](Base/README.md#onplayerchat)
+[`System`](Namespace.Base.md#abstract-system).[`OnPlayerChat`](Namespace.Base.md#onplayerchat)
 
 ##### OnPlayerConnect()
 
@@ -474,7 +468,7 @@ Instance.OnPlayerConnect
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnPlayerConnect`](Base/README.md#onplayerconnect)
+[`System`](Namespace.Base.md#abstract-system).[`OnPlayerConnect`](Namespace.Base.md#onplayerconnect)
 
 ##### OnPlayerDamage()
 
@@ -496,7 +490,7 @@ Instance.OnPlayerDamage
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnPlayerDamage`](Base/README.md#onplayerdamage)
+[`System`](Namespace.Base.md#abstract-system).[`OnPlayerDamage`](Namespace.Base.md#onplayerdamage)
 
 ##### OnPlayerDisconnect()
 
@@ -519,7 +513,7 @@ Instance.OnPlayerDisconnect
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnPlayerDisconnect`](Base/README.md#onplayerdisconnect)
+[`System`](Namespace.Base.md#abstract-system).[`OnPlayerDisconnect`](Namespace.Base.md#onplayerdisconnect)
 
 ##### OnPlayerJump()
 
@@ -542,7 +536,7 @@ Instance.OnPlayerJump
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnPlayerJump`](Base/README.md#onplayerjump)
+[`System`](Namespace.Base.md#abstract-system).[`OnPlayerJump`](Namespace.Base.md#onplayerjump)
 
 ##### OnPlayerKill()
 
@@ -558,7 +552,7 @@ Instance.OnPlayerKill
 
 ###### Overrides
 
-[`System`](Base/README.md#abstract-system).[`OnPlayerKill`](Base/README.md#onplayerkill)
+[`System`](Namespace.Base.md#abstract-system).[`OnPlayerKill`](Namespace.Base.md#onplayerkill)
 
 ##### OnPlayerLand()
 
@@ -581,7 +575,7 @@ Instance.OnPlayerLand
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnPlayerLand`](Base/README.md#onplayerland)
+[`System`](Namespace.Base.md#abstract-system).[`OnPlayerLand`](Namespace.Base.md#onplayerland)
 
 ##### OnPlayerPing()
 
@@ -605,7 +599,7 @@ Instance.OnPlayerPing
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnPlayerPing`](Base/README.md#onplayerping)
+[`System`](Namespace.Base.md#abstract-system).[`OnPlayerPing`](Namespace.Base.md#onplayerping)
 
 ##### OnPlayerReset()
 
@@ -628,7 +622,7 @@ Instance.OnPlayerReset
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnPlayerReset`](Base/README.md#onplayerreset)
+[`System`](Namespace.Base.md#abstract-system).[`OnPlayerReset`](Namespace.Base.md#onplayerreset)
 
 ##### OnRoundEnd()
 
@@ -652,7 +646,7 @@ Instance.OnRoundEnd
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnRoundEnd`](Base/README.md#onroundend)
+[`System`](Namespace.Base.md#abstract-system).[`OnRoundEnd`](Namespace.Base.md#onroundend)
 
 ##### OnRoundStart()
 
@@ -668,7 +662,7 @@ Instance.OnRoundStart
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnRoundStart`](Base/README.md#onroundstart)
+[`System`](Namespace.Base.md#abstract-system).[`OnRoundStart`](Namespace.Base.md#onroundstart)
 
 ##### OnScriptReload()
 
@@ -684,7 +678,7 @@ Simpler Version of OnScriptReloadAfter
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnScriptReload`](Base/README.md#onscriptreload)
+[`System`](Namespace.Base.md#abstract-system).[`OnScriptReload`](Namespace.Base.md#onscriptreload)
 
 ##### OnScriptReloadAfter()
 
@@ -712,7 +706,7 @@ Instance.OnReload({after})
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnScriptReloadAfter`](Base/README.md#onscriptreloadafter)
+[`System`](Namespace.Base.md#abstract-system).[`OnScriptReloadAfter`](Namespace.Base.md#onscriptreloadafter)
 
 ##### OnScriptReloadBefore()
 
@@ -734,7 +728,7 @@ Instance.OnReload({before})
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnScriptReloadBefore`](Base/README.md#onscriptreloadbefore)
+[`System`](Namespace.Base.md#abstract-system).[`OnScriptReloadBefore`](Namespace.Base.md#onscriptreloadbefore)
 
 ##### SetTick()
 
@@ -754,7 +748,7 @@ Defined in: [src/base/System.ts:32](https://github.com/Orb-Workshop/scriptedeuch
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`SetTick`](Base/README.md#settick-2)
+[`System`](Namespace.Base.md#abstract-system).[`SetTick`](Namespace.Base.md#settick-2)
 
 ##### SetTickInterval()
 
@@ -774,7 +768,7 @@ Defined in: [src/base/System.ts:31](https://github.com/Orb-Workshop/scriptedeuch
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`SetTickInterval`](Base/README.md#settickinterval-2)
+[`System`](Namespace.Base.md#abstract-system).[`SetTickInterval`](Namespace.Base.md#settickinterval-2)
 
 ##### Think()
 
@@ -790,7 +784,7 @@ Replacement for `Instance.SetThink()` when used with `Base.Mount`.
 
 ###### Overrides
 
-[`System`](Base/README.md#abstract-system).[`Think`](Base/README.md#think-2)
+[`System`](Namespace.Base.md#abstract-system).[`Think`](Namespace.Base.md#think-2)
 
 ##### GetActivePlayers()
 
@@ -852,7 +846,7 @@ Mountable System Abstraction.
 
 #### Extends
 
-- [`System`](Base/README.md#abstract-system)
+- [`System`](Namespace.Base.md#abstract-system)
 
 #### Constructors
 
@@ -874,7 +868,7 @@ Defined in: [src/system/DialogSystem.ts:13](https://github.com/Orb-Workshop/scri
 
 ###### Overrides
 
-[`System`](Base/README.md#abstract-system).[`constructor`](Base/README.md#constructor-2)
+[`System`](Namespace.Base.md#abstract-system).[`constructor`](Namespace.Base.md#constructor-2)
 
 #### Methods
 
@@ -906,7 +900,7 @@ Defined in: [src/base/System.ts:29](https://github.com/Orb-Workshop/scriptedeuch
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`DisableSystem`](Base/README.md#disablesystem)
+[`System`](Namespace.Base.md#abstract-system).[`DisableSystem`](Namespace.Base.md#disablesystem)
 
 ##### EnableSystem()
 
@@ -920,7 +914,7 @@ Defined in: [src/base/System.ts:28](https://github.com/Orb-Workshop/scriptedeuch
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`EnableSystem`](Base/README.md#enablesystem)
+[`System`](Namespace.Base.md#abstract-system).[`EnableSystem`](Namespace.Base.md#enablesystem)
 
 ##### GetDelta()
 
@@ -934,7 +928,7 @@ Defined in: [src/base/System.ts:33](https://github.com/Orb-Workshop/scriptedeuch
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`GetDelta`](Base/README.md#getdelta-2)
+[`System`](Namespace.Base.md#abstract-system).[`GetDelta`](Namespace.Base.md#getdelta-2)
 
 ##### IsSystemEnabled()
 
@@ -948,7 +942,7 @@ Defined in: [src/base/System.ts:30](https://github.com/Orb-Workshop/scriptedeuch
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`IsSystemEnabled`](Base/README.md#issystemenabled)
+[`System`](Namespace.Base.md#abstract-system).[`IsSystemEnabled`](Namespace.Base.md#issystemenabled)
 
 ##### MaybeThink()
 
@@ -962,7 +956,7 @@ Defined in: [src/base/System.ts:35](https://github.com/Orb-Workshop/scriptedeuch
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`MaybeThink`](Base/README.md#maybethink-2)
+[`System`](Namespace.Base.md#abstract-system).[`MaybeThink`](Namespace.Base.md#maybethink-2)
 
 ##### OnActivate()
 
@@ -978,7 +972,7 @@ Instance.OnActivate()
 
 ###### Overrides
 
-[`System`](Base/README.md#abstract-system).[`OnActivate`](Base/README.md#onactivate)
+[`System`](Namespace.Base.md#abstract-system).[`OnActivate`](Namespace.Base.md#onactivate)
 
 ##### ~~OnBeforePlayerDamage()~~
 
@@ -1002,7 +996,7 @@ Instance.OnBeforePlayerDamage()
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnBeforePlayerDamage`](Base/README.md#onbeforeplayerdamage)
+[`System`](Namespace.Base.md#abstract-system).[`OnBeforePlayerDamage`](Namespace.Base.md#onbeforeplayerdamage)
 
 ##### OnBombDefuse()
 
@@ -1026,7 +1020,7 @@ Instance.OnBombDefuse()
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnBombDefuse`](Base/README.md#onbombdefuse)
+[`System`](Namespace.Base.md#abstract-system).[`OnBombDefuse`](Namespace.Base.md#onbombdefuse)
 
 ##### OnBombPlant()
 
@@ -1050,7 +1044,7 @@ Instance.OnBombPlant()
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnBombPlant`](Base/README.md#onbombplant)
+[`System`](Namespace.Base.md#abstract-system).[`OnBombPlant`](Namespace.Base.md#onbombplant)
 
 ##### OnBulletImpact()
 
@@ -1074,7 +1068,7 @@ Instance.OnBulletImpact()
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnBulletImpact`](Base/README.md#onbulletimpact)
+[`System`](Namespace.Base.md#abstract-system).[`OnBulletImpact`](Namespace.Base.md#onbulletimpact)
 
 ##### OnGrenadeBounce()
 
@@ -1098,7 +1092,7 @@ Instance.OnGrenadeBounce()
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnGrenadeBounce`](Base/README.md#ongrenadebounce)
+[`System`](Namespace.Base.md#abstract-system).[`OnGrenadeBounce`](Namespace.Base.md#ongrenadebounce)
 
 ##### OnGrenadeThrow()
 
@@ -1122,7 +1116,7 @@ Instance.OnGrenadeThrow()
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnGrenadeThrow`](Base/README.md#ongrenadethrow)
+[`System`](Namespace.Base.md#abstract-system).[`OnGrenadeThrow`](Namespace.Base.md#ongrenadethrow)
 
 ##### OnGunFire()
 
@@ -1145,7 +1139,7 @@ Instance.OnGunFire()
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnGunFire`](Base/README.md#ongunfire)
+[`System`](Namespace.Base.md#abstract-system).[`OnGunFire`](Namespace.Base.md#ongunfire)
 
 ##### OnGunReload()
 
@@ -1168,7 +1162,7 @@ Instance.OnGunReload
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnGunReload`](Base/README.md#ongunreload)
+[`System`](Namespace.Base.md#abstract-system).[`OnGunReload`](Namespace.Base.md#ongunreload)
 
 ##### OnKnifeAttack()
 
@@ -1192,7 +1186,7 @@ Instance.OnKnifeAttack
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnKnifeAttack`](Base/README.md#onknifeattack)
+[`System`](Namespace.Base.md#abstract-system).[`OnKnifeAttack`](Namespace.Base.md#onknifeattack)
 
 ##### OnModifyPlayerDamage()
 
@@ -1214,7 +1208,7 @@ Instance.OnModifyPlayerDamage()
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnModifyPlayerDamage`](Base/README.md#onmodifyplayerdamage)
+[`System`](Namespace.Base.md#abstract-system).[`OnModifyPlayerDamage`](Namespace.Base.md#onmodifyplayerdamage)
 
 ##### OnPlayerActivate()
 
@@ -1237,7 +1231,7 @@ Instance.OnPlayerActivate
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnPlayerActivate`](Base/README.md#onplayeractivate)
+[`System`](Namespace.Base.md#abstract-system).[`OnPlayerActivate`](Namespace.Base.md#onplayeractivate)
 
 ##### OnPlayerChat()
 
@@ -1262,7 +1256,7 @@ Instance.OnPlayerChat
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnPlayerChat`](Base/README.md#onplayerchat)
+[`System`](Namespace.Base.md#abstract-system).[`OnPlayerChat`](Namespace.Base.md#onplayerchat)
 
 ##### OnPlayerConnect()
 
@@ -1285,7 +1279,7 @@ Instance.OnPlayerConnect
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnPlayerConnect`](Base/README.md#onplayerconnect)
+[`System`](Namespace.Base.md#abstract-system).[`OnPlayerConnect`](Namespace.Base.md#onplayerconnect)
 
 ##### OnPlayerDamage()
 
@@ -1307,7 +1301,7 @@ Instance.OnPlayerDamage
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnPlayerDamage`](Base/README.md#onplayerdamage)
+[`System`](Namespace.Base.md#abstract-system).[`OnPlayerDamage`](Namespace.Base.md#onplayerdamage)
 
 ##### OnPlayerDisconnect()
 
@@ -1330,7 +1324,7 @@ Instance.OnPlayerDisconnect
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnPlayerDisconnect`](Base/README.md#onplayerdisconnect)
+[`System`](Namespace.Base.md#abstract-system).[`OnPlayerDisconnect`](Namespace.Base.md#onplayerdisconnect)
 
 ##### OnPlayerJump()
 
@@ -1353,7 +1347,7 @@ Instance.OnPlayerJump
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnPlayerJump`](Base/README.md#onplayerjump)
+[`System`](Namespace.Base.md#abstract-system).[`OnPlayerJump`](Namespace.Base.md#onplayerjump)
 
 ##### OnPlayerKill()
 
@@ -1379,7 +1373,7 @@ Instance.OnPlayerKill
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnPlayerKill`](Base/README.md#onplayerkill)
+[`System`](Namespace.Base.md#abstract-system).[`OnPlayerKill`](Namespace.Base.md#onplayerkill)
 
 ##### OnPlayerLand()
 
@@ -1402,7 +1396,7 @@ Instance.OnPlayerLand
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnPlayerLand`](Base/README.md#onplayerland)
+[`System`](Namespace.Base.md#abstract-system).[`OnPlayerLand`](Namespace.Base.md#onplayerland)
 
 ##### OnPlayerPing()
 
@@ -1426,7 +1420,7 @@ Instance.OnPlayerPing
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnPlayerPing`](Base/README.md#onplayerping)
+[`System`](Namespace.Base.md#abstract-system).[`OnPlayerPing`](Namespace.Base.md#onplayerping)
 
 ##### OnPlayerReset()
 
@@ -1449,7 +1443,7 @@ Instance.OnPlayerReset
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnPlayerReset`](Base/README.md#onplayerreset)
+[`System`](Namespace.Base.md#abstract-system).[`OnPlayerReset`](Namespace.Base.md#onplayerreset)
 
 ##### OnRoundEnd()
 
@@ -1473,7 +1467,7 @@ Instance.OnRoundEnd
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnRoundEnd`](Base/README.md#onroundend)
+[`System`](Namespace.Base.md#abstract-system).[`OnRoundEnd`](Namespace.Base.md#onroundend)
 
 ##### OnRoundStart()
 
@@ -1489,7 +1483,7 @@ Instance.OnRoundStart
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnRoundStart`](Base/README.md#onroundstart)
+[`System`](Namespace.Base.md#abstract-system).[`OnRoundStart`](Namespace.Base.md#onroundstart)
 
 ##### OnScriptReload()
 
@@ -1505,7 +1499,7 @@ Simpler Version of OnScriptReloadAfter
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnScriptReload`](Base/README.md#onscriptreload)
+[`System`](Namespace.Base.md#abstract-system).[`OnScriptReload`](Namespace.Base.md#onscriptreload)
 
 ##### OnScriptReloadAfter()
 
@@ -1533,7 +1527,7 @@ Instance.OnReload({after})
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnScriptReloadAfter`](Base/README.md#onscriptreloadafter)
+[`System`](Namespace.Base.md#abstract-system).[`OnScriptReloadAfter`](Namespace.Base.md#onscriptreloadafter)
 
 ##### OnScriptReloadBefore()
 
@@ -1555,7 +1549,7 @@ Instance.OnReload({before})
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnScriptReloadBefore`](Base/README.md#onscriptreloadbefore)
+[`System`](Namespace.Base.md#abstract-system).[`OnScriptReloadBefore`](Namespace.Base.md#onscriptreloadbefore)
 
 ##### SetTick()
 
@@ -1575,7 +1569,7 @@ Defined in: [src/base/System.ts:32](https://github.com/Orb-Workshop/scriptedeuch
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`SetTick`](Base/README.md#settick-2)
+[`System`](Namespace.Base.md#abstract-system).[`SetTick`](Namespace.Base.md#settick-2)
 
 ##### SetTickInterval()
 
@@ -1595,7 +1589,7 @@ Defined in: [src/base/System.ts:31](https://github.com/Orb-Workshop/scriptedeuch
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`SetTickInterval`](Base/README.md#settickinterval-2)
+[`System`](Namespace.Base.md#abstract-system).[`SetTickInterval`](Namespace.Base.md#settickinterval-2)
 
 ##### Think()
 
@@ -1611,7 +1605,7 @@ Replacement for `Instance.SetThink()` when used with `Base.Mount`.
 
 ###### Overrides
 
-[`System`](Base/README.md#abstract-system).[`Think`](Base/README.md#think-2)
+[`System`](Namespace.Base.md#abstract-system).[`Think`](Namespace.Base.md#think-2)
 
 ***
 
@@ -1623,7 +1617,7 @@ Mountable System Abstraction.
 
 #### Extends
 
-- [`System`](Base/README.md#abstract-system)
+- [`System`](Namespace.Base.md#abstract-system)
 
 #### Constructors
 
@@ -1645,7 +1639,7 @@ Defined in: [src/system/DoubleJumpSystem.ts:12](https://github.com/Orb-Workshop/
 
 ###### Overrides
 
-[`System`](Base/README.md#abstract-system).[`constructor`](Base/README.md#constructor-2)
+[`System`](Namespace.Base.md#abstract-system).[`constructor`](Namespace.Base.md#constructor-2)
 
 #### Methods
 
@@ -1661,7 +1655,7 @@ Defined in: [src/base/System.ts:29](https://github.com/Orb-Workshop/scriptedeuch
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`DisableSystem`](Base/README.md#disablesystem)
+[`System`](Namespace.Base.md#abstract-system).[`DisableSystem`](Namespace.Base.md#disablesystem)
 
 ##### EnableSystem()
 
@@ -1675,7 +1669,7 @@ Defined in: [src/base/System.ts:28](https://github.com/Orb-Workshop/scriptedeuch
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`EnableSystem`](Base/README.md#enablesystem)
+[`System`](Namespace.Base.md#abstract-system).[`EnableSystem`](Namespace.Base.md#enablesystem)
 
 ##### GetDelta()
 
@@ -1689,7 +1683,7 @@ Defined in: [src/base/System.ts:33](https://github.com/Orb-Workshop/scriptedeuch
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`GetDelta`](Base/README.md#getdelta-2)
+[`System`](Namespace.Base.md#abstract-system).[`GetDelta`](Namespace.Base.md#getdelta-2)
 
 ##### IsSystemEnabled()
 
@@ -1703,7 +1697,7 @@ Defined in: [src/base/System.ts:30](https://github.com/Orb-Workshop/scriptedeuch
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`IsSystemEnabled`](Base/README.md#issystemenabled)
+[`System`](Namespace.Base.md#abstract-system).[`IsSystemEnabled`](Namespace.Base.md#issystemenabled)
 
 ##### MaybeThink()
 
@@ -1717,7 +1711,7 @@ Defined in: [src/base/System.ts:35](https://github.com/Orb-Workshop/scriptedeuch
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`MaybeThink`](Base/README.md#maybethink-2)
+[`System`](Namespace.Base.md#abstract-system).[`MaybeThink`](Namespace.Base.md#maybethink-2)
 
 ##### OnActivate()
 
@@ -1733,7 +1727,7 @@ Instance.OnActivate()
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnActivate`](Base/README.md#onactivate)
+[`System`](Namespace.Base.md#abstract-system).[`OnActivate`](Namespace.Base.md#onactivate)
 
 ##### ~~OnBeforePlayerDamage()~~
 
@@ -1757,7 +1751,7 @@ Instance.OnBeforePlayerDamage()
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnBeforePlayerDamage`](Base/README.md#onbeforeplayerdamage)
+[`System`](Namespace.Base.md#abstract-system).[`OnBeforePlayerDamage`](Namespace.Base.md#onbeforeplayerdamage)
 
 ##### OnBombDefuse()
 
@@ -1781,7 +1775,7 @@ Instance.OnBombDefuse()
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnBombDefuse`](Base/README.md#onbombdefuse)
+[`System`](Namespace.Base.md#abstract-system).[`OnBombDefuse`](Namespace.Base.md#onbombdefuse)
 
 ##### OnBombPlant()
 
@@ -1805,7 +1799,7 @@ Instance.OnBombPlant()
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnBombPlant`](Base/README.md#onbombplant)
+[`System`](Namespace.Base.md#abstract-system).[`OnBombPlant`](Namespace.Base.md#onbombplant)
 
 ##### OnBulletImpact()
 
@@ -1829,7 +1823,7 @@ Instance.OnBulletImpact()
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnBulletImpact`](Base/README.md#onbulletimpact)
+[`System`](Namespace.Base.md#abstract-system).[`OnBulletImpact`](Namespace.Base.md#onbulletimpact)
 
 ##### OnGrenadeBounce()
 
@@ -1853,7 +1847,7 @@ Instance.OnGrenadeBounce()
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnGrenadeBounce`](Base/README.md#ongrenadebounce)
+[`System`](Namespace.Base.md#abstract-system).[`OnGrenadeBounce`](Namespace.Base.md#ongrenadebounce)
 
 ##### OnGrenadeThrow()
 
@@ -1877,7 +1871,7 @@ Instance.OnGrenadeThrow()
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnGrenadeThrow`](Base/README.md#ongrenadethrow)
+[`System`](Namespace.Base.md#abstract-system).[`OnGrenadeThrow`](Namespace.Base.md#ongrenadethrow)
 
 ##### OnGunFire()
 
@@ -1900,7 +1894,7 @@ Instance.OnGunFire()
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnGunFire`](Base/README.md#ongunfire)
+[`System`](Namespace.Base.md#abstract-system).[`OnGunFire`](Namespace.Base.md#ongunfire)
 
 ##### OnGunReload()
 
@@ -1923,7 +1917,7 @@ Instance.OnGunReload
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnGunReload`](Base/README.md#ongunreload)
+[`System`](Namespace.Base.md#abstract-system).[`OnGunReload`](Namespace.Base.md#ongunreload)
 
 ##### OnKnifeAttack()
 
@@ -1947,7 +1941,7 @@ Instance.OnKnifeAttack
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnKnifeAttack`](Base/README.md#onknifeattack)
+[`System`](Namespace.Base.md#abstract-system).[`OnKnifeAttack`](Namespace.Base.md#onknifeattack)
 
 ##### OnModifyPlayerDamage()
 
@@ -1969,7 +1963,7 @@ Instance.OnModifyPlayerDamage()
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnModifyPlayerDamage`](Base/README.md#onmodifyplayerdamage)
+[`System`](Namespace.Base.md#abstract-system).[`OnModifyPlayerDamage`](Namespace.Base.md#onmodifyplayerdamage)
 
 ##### OnPlayerActivate()
 
@@ -1992,7 +1986,7 @@ Instance.OnPlayerActivate
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnPlayerActivate`](Base/README.md#onplayeractivate)
+[`System`](Namespace.Base.md#abstract-system).[`OnPlayerActivate`](Namespace.Base.md#onplayeractivate)
 
 ##### OnPlayerChat()
 
@@ -2017,7 +2011,7 @@ Instance.OnPlayerChat
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnPlayerChat`](Base/README.md#onplayerchat)
+[`System`](Namespace.Base.md#abstract-system).[`OnPlayerChat`](Namespace.Base.md#onplayerchat)
 
 ##### OnPlayerConnect()
 
@@ -2040,7 +2034,7 @@ Instance.OnPlayerConnect
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnPlayerConnect`](Base/README.md#onplayerconnect)
+[`System`](Namespace.Base.md#abstract-system).[`OnPlayerConnect`](Namespace.Base.md#onplayerconnect)
 
 ##### OnPlayerDamage()
 
@@ -2062,7 +2056,7 @@ Instance.OnPlayerDamage
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnPlayerDamage`](Base/README.md#onplayerdamage)
+[`System`](Namespace.Base.md#abstract-system).[`OnPlayerDamage`](Namespace.Base.md#onplayerdamage)
 
 ##### OnPlayerDisconnect()
 
@@ -2085,7 +2079,7 @@ Instance.OnPlayerDisconnect
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnPlayerDisconnect`](Base/README.md#onplayerdisconnect)
+[`System`](Namespace.Base.md#abstract-system).[`OnPlayerDisconnect`](Namespace.Base.md#onplayerdisconnect)
 
 ##### OnPlayerJump()
 
@@ -2108,7 +2102,7 @@ Instance.OnPlayerJump
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnPlayerJump`](Base/README.md#onplayerjump)
+[`System`](Namespace.Base.md#abstract-system).[`OnPlayerJump`](Namespace.Base.md#onplayerjump)
 
 ##### OnPlayerKill()
 
@@ -2134,7 +2128,7 @@ Instance.OnPlayerKill
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnPlayerKill`](Base/README.md#onplayerkill)
+[`System`](Namespace.Base.md#abstract-system).[`OnPlayerKill`](Namespace.Base.md#onplayerkill)
 
 ##### OnPlayerLand()
 
@@ -2157,7 +2151,7 @@ Instance.OnPlayerLand
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnPlayerLand`](Base/README.md#onplayerland)
+[`System`](Namespace.Base.md#abstract-system).[`OnPlayerLand`](Namespace.Base.md#onplayerland)
 
 ##### OnPlayerPing()
 
@@ -2181,7 +2175,7 @@ Instance.OnPlayerPing
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnPlayerPing`](Base/README.md#onplayerping)
+[`System`](Namespace.Base.md#abstract-system).[`OnPlayerPing`](Namespace.Base.md#onplayerping)
 
 ##### OnPlayerReset()
 
@@ -2204,7 +2198,7 @@ Instance.OnPlayerReset
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnPlayerReset`](Base/README.md#onplayerreset)
+[`System`](Namespace.Base.md#abstract-system).[`OnPlayerReset`](Namespace.Base.md#onplayerreset)
 
 ##### OnRoundEnd()
 
@@ -2228,7 +2222,7 @@ Instance.OnRoundEnd
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnRoundEnd`](Base/README.md#onroundend)
+[`System`](Namespace.Base.md#abstract-system).[`OnRoundEnd`](Namespace.Base.md#onroundend)
 
 ##### OnRoundStart()
 
@@ -2244,7 +2238,7 @@ Instance.OnRoundStart
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnRoundStart`](Base/README.md#onroundstart)
+[`System`](Namespace.Base.md#abstract-system).[`OnRoundStart`](Namespace.Base.md#onroundstart)
 
 ##### OnScriptReload()
 
@@ -2260,7 +2254,7 @@ Simpler Version of OnScriptReloadAfter
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnScriptReload`](Base/README.md#onscriptreload)
+[`System`](Namespace.Base.md#abstract-system).[`OnScriptReload`](Namespace.Base.md#onscriptreload)
 
 ##### OnScriptReloadAfter()
 
@@ -2288,7 +2282,7 @@ Instance.OnReload({after})
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnScriptReloadAfter`](Base/README.md#onscriptreloadafter)
+[`System`](Namespace.Base.md#abstract-system).[`OnScriptReloadAfter`](Namespace.Base.md#onscriptreloadafter)
 
 ##### OnScriptReloadBefore()
 
@@ -2310,7 +2304,7 @@ Instance.OnReload({before})
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnScriptReloadBefore`](Base/README.md#onscriptreloadbefore)
+[`System`](Namespace.Base.md#abstract-system).[`OnScriptReloadBefore`](Namespace.Base.md#onscriptreloadbefore)
 
 ##### SetTick()
 
@@ -2330,7 +2324,7 @@ Defined in: [src/base/System.ts:32](https://github.com/Orb-Workshop/scriptedeuch
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`SetTick`](Base/README.md#settick-2)
+[`System`](Namespace.Base.md#abstract-system).[`SetTick`](Namespace.Base.md#settick-2)
 
 ##### SetTickInterval()
 
@@ -2350,7 +2344,7 @@ Defined in: [src/base/System.ts:31](https://github.com/Orb-Workshop/scriptedeuch
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`SetTickInterval`](Base/README.md#settickinterval-2)
+[`System`](Namespace.Base.md#abstract-system).[`SetTickInterval`](Namespace.Base.md#settickinterval-2)
 
 ##### Think()
 
@@ -2366,7 +2360,7 @@ Replacement for `Instance.SetThink()` when used with `Base.Mount`.
 
 ###### Overrides
 
-[`System`](Base/README.md#abstract-system).[`Think`](Base/README.md#think-2)
+[`System`](Namespace.Base.md#abstract-system).[`Think`](Namespace.Base.md#think-2)
 
 ***
 
@@ -2378,7 +2372,7 @@ Mountable System Abstraction.
 
 #### Extends
 
-- [`System`](Base/README.md#abstract-system)
+- [`System`](Namespace.Base.md#abstract-system)
 
 #### Constructors
 
@@ -2394,7 +2388,7 @@ Defined in: [src/system/FreezeTimeSystem.ts:21](https://github.com/Orb-Workshop/
 
 ###### Overrides
 
-[`System`](Base/README.md#abstract-system).[`constructor`](Base/README.md#constructor-2)
+[`System`](Namespace.Base.md#abstract-system).[`constructor`](Namespace.Base.md#constructor-2)
 
 #### Methods
 
@@ -2410,7 +2404,7 @@ Defined in: [src/base/System.ts:29](https://github.com/Orb-Workshop/scriptedeuch
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`DisableSystem`](Base/README.md#disablesystem)
+[`System`](Namespace.Base.md#abstract-system).[`DisableSystem`](Namespace.Base.md#disablesystem)
 
 ##### EnableSystem()
 
@@ -2424,7 +2418,7 @@ Defined in: [src/base/System.ts:28](https://github.com/Orb-Workshop/scriptedeuch
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`EnableSystem`](Base/README.md#enablesystem)
+[`System`](Namespace.Base.md#abstract-system).[`EnableSystem`](Namespace.Base.md#enablesystem)
 
 ##### GetDelta()
 
@@ -2438,7 +2432,7 @@ Defined in: [src/base/System.ts:33](https://github.com/Orb-Workshop/scriptedeuch
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`GetDelta`](Base/README.md#getdelta-2)
+[`System`](Namespace.Base.md#abstract-system).[`GetDelta`](Namespace.Base.md#getdelta-2)
 
 ##### GetElapsedFreezeTime()
 
@@ -2481,7 +2475,7 @@ Defined in: [src/base/System.ts:30](https://github.com/Orb-Workshop/scriptedeuch
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`IsSystemEnabled`](Base/README.md#issystemenabled)
+[`System`](Namespace.Base.md#abstract-system).[`IsSystemEnabled`](Namespace.Base.md#issystemenabled)
 
 ##### MaybeThink()
 
@@ -2495,7 +2489,7 @@ Defined in: [src/base/System.ts:35](https://github.com/Orb-Workshop/scriptedeuch
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`MaybeThink`](Base/README.md#maybethink-2)
+[`System`](Namespace.Base.md#abstract-system).[`MaybeThink`](Namespace.Base.md#maybethink-2)
 
 ##### OnActivate()
 
@@ -2511,7 +2505,7 @@ Instance.OnActivate()
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnActivate`](Base/README.md#onactivate)
+[`System`](Namespace.Base.md#abstract-system).[`OnActivate`](Namespace.Base.md#onactivate)
 
 ##### ~~OnBeforePlayerDamage()~~
 
@@ -2535,7 +2529,7 @@ Instance.OnBeforePlayerDamage()
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnBeforePlayerDamage`](Base/README.md#onbeforeplayerdamage)
+[`System`](Namespace.Base.md#abstract-system).[`OnBeforePlayerDamage`](Namespace.Base.md#onbeforeplayerdamage)
 
 ##### OnBombDefuse()
 
@@ -2559,7 +2553,7 @@ Instance.OnBombDefuse()
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnBombDefuse`](Base/README.md#onbombdefuse)
+[`System`](Namespace.Base.md#abstract-system).[`OnBombDefuse`](Namespace.Base.md#onbombdefuse)
 
 ##### OnBombPlant()
 
@@ -2583,7 +2577,7 @@ Instance.OnBombPlant()
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnBombPlant`](Base/README.md#onbombplant)
+[`System`](Namespace.Base.md#abstract-system).[`OnBombPlant`](Namespace.Base.md#onbombplant)
 
 ##### OnBulletImpact()
 
@@ -2607,7 +2601,7 @@ Instance.OnBulletImpact()
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnBulletImpact`](Base/README.md#onbulletimpact)
+[`System`](Namespace.Base.md#abstract-system).[`OnBulletImpact`](Namespace.Base.md#onbulletimpact)
 
 ##### OnGrenadeBounce()
 
@@ -2631,7 +2625,7 @@ Instance.OnGrenadeBounce()
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnGrenadeBounce`](Base/README.md#ongrenadebounce)
+[`System`](Namespace.Base.md#abstract-system).[`OnGrenadeBounce`](Namespace.Base.md#ongrenadebounce)
 
 ##### OnGrenadeThrow()
 
@@ -2655,7 +2649,7 @@ Instance.OnGrenadeThrow()
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnGrenadeThrow`](Base/README.md#ongrenadethrow)
+[`System`](Namespace.Base.md#abstract-system).[`OnGrenadeThrow`](Namespace.Base.md#ongrenadethrow)
 
 ##### OnGunFire()
 
@@ -2678,7 +2672,7 @@ Instance.OnGunFire()
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnGunFire`](Base/README.md#ongunfire)
+[`System`](Namespace.Base.md#abstract-system).[`OnGunFire`](Namespace.Base.md#ongunfire)
 
 ##### OnGunReload()
 
@@ -2701,7 +2695,7 @@ Instance.OnGunReload
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnGunReload`](Base/README.md#ongunreload)
+[`System`](Namespace.Base.md#abstract-system).[`OnGunReload`](Namespace.Base.md#ongunreload)
 
 ##### OnKnifeAttack()
 
@@ -2725,7 +2719,7 @@ Instance.OnKnifeAttack
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnKnifeAttack`](Base/README.md#onknifeattack)
+[`System`](Namespace.Base.md#abstract-system).[`OnKnifeAttack`](Namespace.Base.md#onknifeattack)
 
 ##### OnModifyPlayerDamage()
 
@@ -2747,7 +2741,7 @@ Instance.OnModifyPlayerDamage()
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnModifyPlayerDamage`](Base/README.md#onmodifyplayerdamage)
+[`System`](Namespace.Base.md#abstract-system).[`OnModifyPlayerDamage`](Namespace.Base.md#onmodifyplayerdamage)
 
 ##### OnPlayerActivate()
 
@@ -2770,7 +2764,7 @@ Instance.OnPlayerActivate
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnPlayerActivate`](Base/README.md#onplayeractivate)
+[`System`](Namespace.Base.md#abstract-system).[`OnPlayerActivate`](Namespace.Base.md#onplayeractivate)
 
 ##### OnPlayerChat()
 
@@ -2795,7 +2789,7 @@ Instance.OnPlayerChat
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnPlayerChat`](Base/README.md#onplayerchat)
+[`System`](Namespace.Base.md#abstract-system).[`OnPlayerChat`](Namespace.Base.md#onplayerchat)
 
 ##### OnPlayerConnect()
 
@@ -2818,7 +2812,7 @@ Instance.OnPlayerConnect
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnPlayerConnect`](Base/README.md#onplayerconnect)
+[`System`](Namespace.Base.md#abstract-system).[`OnPlayerConnect`](Namespace.Base.md#onplayerconnect)
 
 ##### OnPlayerDamage()
 
@@ -2840,7 +2834,7 @@ Instance.OnPlayerDamage
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnPlayerDamage`](Base/README.md#onplayerdamage)
+[`System`](Namespace.Base.md#abstract-system).[`OnPlayerDamage`](Namespace.Base.md#onplayerdamage)
 
 ##### OnPlayerDisconnect()
 
@@ -2863,7 +2857,7 @@ Instance.OnPlayerDisconnect
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnPlayerDisconnect`](Base/README.md#onplayerdisconnect)
+[`System`](Namespace.Base.md#abstract-system).[`OnPlayerDisconnect`](Namespace.Base.md#onplayerdisconnect)
 
 ##### OnPlayerJump()
 
@@ -2886,7 +2880,7 @@ Instance.OnPlayerJump
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnPlayerJump`](Base/README.md#onplayerjump)
+[`System`](Namespace.Base.md#abstract-system).[`OnPlayerJump`](Namespace.Base.md#onplayerjump)
 
 ##### OnPlayerKill()
 
@@ -2912,7 +2906,7 @@ Instance.OnPlayerKill
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnPlayerKill`](Base/README.md#onplayerkill)
+[`System`](Namespace.Base.md#abstract-system).[`OnPlayerKill`](Namespace.Base.md#onplayerkill)
 
 ##### OnPlayerLand()
 
@@ -2935,7 +2929,7 @@ Instance.OnPlayerLand
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnPlayerLand`](Base/README.md#onplayerland)
+[`System`](Namespace.Base.md#abstract-system).[`OnPlayerLand`](Namespace.Base.md#onplayerland)
 
 ##### OnPlayerPing()
 
@@ -2959,7 +2953,7 @@ Instance.OnPlayerPing
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnPlayerPing`](Base/README.md#onplayerping)
+[`System`](Namespace.Base.md#abstract-system).[`OnPlayerPing`](Namespace.Base.md#onplayerping)
 
 ##### OnPlayerReset()
 
@@ -2982,7 +2976,7 @@ Instance.OnPlayerReset
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnPlayerReset`](Base/README.md#onplayerreset)
+[`System`](Namespace.Base.md#abstract-system).[`OnPlayerReset`](Namespace.Base.md#onplayerreset)
 
 ##### OnRoundEnd()
 
@@ -2998,7 +2992,7 @@ Instance.OnRoundEnd
 
 ###### Overrides
 
-[`System`](Base/README.md#abstract-system).[`OnRoundEnd`](Base/README.md#onroundend)
+[`System`](Namespace.Base.md#abstract-system).[`OnRoundEnd`](Namespace.Base.md#onroundend)
 
 ##### OnRoundStart()
 
@@ -3014,7 +3008,7 @@ Instance.OnRoundStart
 
 ###### Overrides
 
-[`System`](Base/README.md#abstract-system).[`OnRoundStart`](Base/README.md#onroundstart)
+[`System`](Namespace.Base.md#abstract-system).[`OnRoundStart`](Namespace.Base.md#onroundstart)
 
 ##### OnScriptReload()
 
@@ -3030,7 +3024,7 @@ Simpler Version of OnScriptReloadAfter
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnScriptReload`](Base/README.md#onscriptreload)
+[`System`](Namespace.Base.md#abstract-system).[`OnScriptReload`](Namespace.Base.md#onscriptreload)
 
 ##### OnScriptReloadAfter()
 
@@ -3058,7 +3052,7 @@ Instance.OnReload({after})
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnScriptReloadAfter`](Base/README.md#onscriptreloadafter)
+[`System`](Namespace.Base.md#abstract-system).[`OnScriptReloadAfter`](Namespace.Base.md#onscriptreloadafter)
 
 ##### OnScriptReloadBefore()
 
@@ -3080,7 +3074,7 @@ Instance.OnReload({before})
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnScriptReloadBefore`](Base/README.md#onscriptreloadbefore)
+[`System`](Namespace.Base.md#abstract-system).[`OnScriptReloadBefore`](Namespace.Base.md#onscriptreloadbefore)
 
 ##### SetTick()
 
@@ -3100,7 +3094,7 @@ Defined in: [src/base/System.ts:32](https://github.com/Orb-Workshop/scriptedeuch
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`SetTick`](Base/README.md#settick-2)
+[`System`](Namespace.Base.md#abstract-system).[`SetTick`](Namespace.Base.md#settick-2)
 
 ##### SetTickInterval()
 
@@ -3120,7 +3114,7 @@ Defined in: [src/base/System.ts:31](https://github.com/Orb-Workshop/scriptedeuch
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`SetTickInterval`](Base/README.md#settickinterval-2)
+[`System`](Namespace.Base.md#abstract-system).[`SetTickInterval`](Namespace.Base.md#settickinterval-2)
 
 ##### Think()
 
@@ -3136,7 +3130,7 @@ Replacement for `Instance.SetThink()` when used with `Base.Mount`.
 
 ###### Overrides
 
-[`System`](Base/README.md#abstract-system).[`Think`](Base/README.md#think-2)
+[`System`](Namespace.Base.md#abstract-system).[`Think`](Namespace.Base.md#think-2)
 
 ***
 
@@ -3148,7 +3142,7 @@ Mountable System Abstraction.
 
 #### Extends
 
-- [`System`](Base/README.md#abstract-system)
+- [`System`](Namespace.Base.md#abstract-system)
 
 #### Constructors
 
@@ -3171,7 +3165,7 @@ Defined in: [src/system/GameAnnouncerSystem.ts:23](https://github.com/Orb-Worksh
 
 ###### Overrides
 
-[`System`](Base/README.md#abstract-system).[`constructor`](Base/README.md#constructor-2)
+[`System`](Namespace.Base.md#abstract-system).[`constructor`](Namespace.Base.md#constructor-2)
 
 #### Methods
 
@@ -3302,7 +3296,7 @@ Defined in: [src/base/System.ts:29](https://github.com/Orb-Workshop/scriptedeuch
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`DisableSystem`](Base/README.md#disablesystem)
+[`System`](Namespace.Base.md#abstract-system).[`DisableSystem`](Namespace.Base.md#disablesystem)
 
 ##### EnableSystem()
 
@@ -3316,7 +3310,7 @@ Defined in: [src/base/System.ts:28](https://github.com/Orb-Workshop/scriptedeuch
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`EnableSystem`](Base/README.md#enablesystem)
+[`System`](Namespace.Base.md#abstract-system).[`EnableSystem`](Namespace.Base.md#enablesystem)
 
 ##### GetDelta()
 
@@ -3330,7 +3324,7 @@ Defined in: [src/base/System.ts:33](https://github.com/Orb-Workshop/scriptedeuch
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`GetDelta`](Base/README.md#getdelta-2)
+[`System`](Namespace.Base.md#abstract-system).[`GetDelta`](Namespace.Base.md#getdelta-2)
 
 ##### IsSystemEnabled()
 
@@ -3344,7 +3338,7 @@ Defined in: [src/base/System.ts:30](https://github.com/Orb-Workshop/scriptedeuch
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`IsSystemEnabled`](Base/README.md#issystemenabled)
+[`System`](Namespace.Base.md#abstract-system).[`IsSystemEnabled`](Namespace.Base.md#issystemenabled)
 
 ##### MaybeThink()
 
@@ -3358,7 +3352,7 @@ Defined in: [src/base/System.ts:35](https://github.com/Orb-Workshop/scriptedeuch
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`MaybeThink`](Base/README.md#maybethink-2)
+[`System`](Namespace.Base.md#abstract-system).[`MaybeThink`](Namespace.Base.md#maybethink-2)
 
 ##### OnActivate()
 
@@ -3374,7 +3368,7 @@ Instance.OnActivate()
 
 ###### Overrides
 
-[`System`](Base/README.md#abstract-system).[`OnActivate`](Base/README.md#onactivate)
+[`System`](Namespace.Base.md#abstract-system).[`OnActivate`](Namespace.Base.md#onactivate)
 
 ##### ~~OnBeforePlayerDamage()~~
 
@@ -3398,7 +3392,7 @@ Instance.OnBeforePlayerDamage()
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnBeforePlayerDamage`](Base/README.md#onbeforeplayerdamage)
+[`System`](Namespace.Base.md#abstract-system).[`OnBeforePlayerDamage`](Namespace.Base.md#onbeforeplayerdamage)
 
 ##### OnBombDefuse()
 
@@ -3422,7 +3416,7 @@ Instance.OnBombDefuse()
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnBombDefuse`](Base/README.md#onbombdefuse)
+[`System`](Namespace.Base.md#abstract-system).[`OnBombDefuse`](Namespace.Base.md#onbombdefuse)
 
 ##### OnBombPlant()
 
@@ -3446,7 +3440,7 @@ Instance.OnBombPlant()
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnBombPlant`](Base/README.md#onbombplant)
+[`System`](Namespace.Base.md#abstract-system).[`OnBombPlant`](Namespace.Base.md#onbombplant)
 
 ##### OnBulletImpact()
 
@@ -3470,7 +3464,7 @@ Instance.OnBulletImpact()
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnBulletImpact`](Base/README.md#onbulletimpact)
+[`System`](Namespace.Base.md#abstract-system).[`OnBulletImpact`](Namespace.Base.md#onbulletimpact)
 
 ##### OnGrenadeBounce()
 
@@ -3494,7 +3488,7 @@ Instance.OnGrenadeBounce()
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnGrenadeBounce`](Base/README.md#ongrenadebounce)
+[`System`](Namespace.Base.md#abstract-system).[`OnGrenadeBounce`](Namespace.Base.md#ongrenadebounce)
 
 ##### OnGrenadeThrow()
 
@@ -3518,7 +3512,7 @@ Instance.OnGrenadeThrow()
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnGrenadeThrow`](Base/README.md#ongrenadethrow)
+[`System`](Namespace.Base.md#abstract-system).[`OnGrenadeThrow`](Namespace.Base.md#ongrenadethrow)
 
 ##### OnGunFire()
 
@@ -3541,7 +3535,7 @@ Instance.OnGunFire()
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnGunFire`](Base/README.md#ongunfire)
+[`System`](Namespace.Base.md#abstract-system).[`OnGunFire`](Namespace.Base.md#ongunfire)
 
 ##### OnGunReload()
 
@@ -3564,7 +3558,7 @@ Instance.OnGunReload
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnGunReload`](Base/README.md#ongunreload)
+[`System`](Namespace.Base.md#abstract-system).[`OnGunReload`](Namespace.Base.md#ongunreload)
 
 ##### OnKnifeAttack()
 
@@ -3588,7 +3582,7 @@ Instance.OnKnifeAttack
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnKnifeAttack`](Base/README.md#onknifeattack)
+[`System`](Namespace.Base.md#abstract-system).[`OnKnifeAttack`](Namespace.Base.md#onknifeattack)
 
 ##### OnModifyPlayerDamage()
 
@@ -3610,7 +3604,7 @@ Instance.OnModifyPlayerDamage()
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnModifyPlayerDamage`](Base/README.md#onmodifyplayerdamage)
+[`System`](Namespace.Base.md#abstract-system).[`OnModifyPlayerDamage`](Namespace.Base.md#onmodifyplayerdamage)
 
 ##### OnPlayerActivate()
 
@@ -3633,7 +3627,7 @@ Instance.OnPlayerActivate
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnPlayerActivate`](Base/README.md#onplayeractivate)
+[`System`](Namespace.Base.md#abstract-system).[`OnPlayerActivate`](Namespace.Base.md#onplayeractivate)
 
 ##### OnPlayerChat()
 
@@ -3658,7 +3652,7 @@ Instance.OnPlayerChat
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnPlayerChat`](Base/README.md#onplayerchat)
+[`System`](Namespace.Base.md#abstract-system).[`OnPlayerChat`](Namespace.Base.md#onplayerchat)
 
 ##### OnPlayerConnect()
 
@@ -3681,7 +3675,7 @@ Instance.OnPlayerConnect
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnPlayerConnect`](Base/README.md#onplayerconnect)
+[`System`](Namespace.Base.md#abstract-system).[`OnPlayerConnect`](Namespace.Base.md#onplayerconnect)
 
 ##### OnPlayerDamage()
 
@@ -3703,7 +3697,7 @@ Instance.OnPlayerDamage
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnPlayerDamage`](Base/README.md#onplayerdamage)
+[`System`](Namespace.Base.md#abstract-system).[`OnPlayerDamage`](Namespace.Base.md#onplayerdamage)
 
 ##### OnPlayerDisconnect()
 
@@ -3726,7 +3720,7 @@ Instance.OnPlayerDisconnect
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnPlayerDisconnect`](Base/README.md#onplayerdisconnect)
+[`System`](Namespace.Base.md#abstract-system).[`OnPlayerDisconnect`](Namespace.Base.md#onplayerdisconnect)
 
 ##### OnPlayerJump()
 
@@ -3749,7 +3743,7 @@ Instance.OnPlayerJump
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnPlayerJump`](Base/README.md#onplayerjump)
+[`System`](Namespace.Base.md#abstract-system).[`OnPlayerJump`](Namespace.Base.md#onplayerjump)
 
 ##### OnPlayerKill()
 
@@ -3771,7 +3765,7 @@ Instance.OnPlayerKill
 
 ###### Overrides
 
-[`System`](Base/README.md#abstract-system).[`OnPlayerKill`](Base/README.md#onplayerkill)
+[`System`](Namespace.Base.md#abstract-system).[`OnPlayerKill`](Namespace.Base.md#onplayerkill)
 
 ##### OnPlayerLand()
 
@@ -3794,7 +3788,7 @@ Instance.OnPlayerLand
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnPlayerLand`](Base/README.md#onplayerland)
+[`System`](Namespace.Base.md#abstract-system).[`OnPlayerLand`](Namespace.Base.md#onplayerland)
 
 ##### OnPlayerPing()
 
@@ -3818,7 +3812,7 @@ Instance.OnPlayerPing
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnPlayerPing`](Base/README.md#onplayerping)
+[`System`](Namespace.Base.md#abstract-system).[`OnPlayerPing`](Namespace.Base.md#onplayerping)
 
 ##### OnPlayerReset()
 
@@ -3841,7 +3835,7 @@ Instance.OnPlayerReset
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnPlayerReset`](Base/README.md#onplayerreset)
+[`System`](Namespace.Base.md#abstract-system).[`OnPlayerReset`](Namespace.Base.md#onplayerreset)
 
 ##### OnRoundEnd()
 
@@ -3865,7 +3859,7 @@ Instance.OnRoundEnd
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnRoundEnd`](Base/README.md#onroundend)
+[`System`](Namespace.Base.md#abstract-system).[`OnRoundEnd`](Namespace.Base.md#onroundend)
 
 ##### OnRoundStart()
 
@@ -3881,7 +3875,7 @@ Instance.OnRoundStart
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnRoundStart`](Base/README.md#onroundstart)
+[`System`](Namespace.Base.md#abstract-system).[`OnRoundStart`](Namespace.Base.md#onroundstart)
 
 ##### OnScriptReload()
 
@@ -3897,7 +3891,7 @@ Simpler Version of OnScriptReloadAfter
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnScriptReload`](Base/README.md#onscriptreload)
+[`System`](Namespace.Base.md#abstract-system).[`OnScriptReload`](Namespace.Base.md#onscriptreload)
 
 ##### OnScriptReloadAfter()
 
@@ -3925,7 +3919,7 @@ Instance.OnReload({after})
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnScriptReloadAfter`](Base/README.md#onscriptreloadafter)
+[`System`](Namespace.Base.md#abstract-system).[`OnScriptReloadAfter`](Namespace.Base.md#onscriptreloadafter)
 
 ##### OnScriptReloadBefore()
 
@@ -3947,7 +3941,7 @@ Instance.OnReload({before})
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnScriptReloadBefore`](Base/README.md#onscriptreloadbefore)
+[`System`](Namespace.Base.md#abstract-system).[`OnScriptReloadBefore`](Namespace.Base.md#onscriptreloadbefore)
 
 ##### SetTick()
 
@@ -3967,7 +3961,7 @@ Defined in: [src/base/System.ts:32](https://github.com/Orb-Workshop/scriptedeuch
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`SetTick`](Base/README.md#settick-2)
+[`System`](Namespace.Base.md#abstract-system).[`SetTick`](Namespace.Base.md#settick-2)
 
 ##### SetTickInterval()
 
@@ -3987,7 +3981,7 @@ Defined in: [src/base/System.ts:31](https://github.com/Orb-Workshop/scriptedeuch
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`SetTickInterval`](Base/README.md#settickinterval-2)
+[`System`](Namespace.Base.md#abstract-system).[`SetTickInterval`](Namespace.Base.md#settickinterval-2)
 
 ##### Think()
 
@@ -4003,7 +3997,7 @@ Replacement for `Instance.SetThink()` when used with `Base.Mount`.
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`Think`](Base/README.md#think-2)
+[`System`](Namespace.Base.md#abstract-system).[`Think`](Namespace.Base.md#think-2)
 
 ***
 
@@ -4015,7 +4009,7 @@ Mountable System Abstraction.
 
 #### Extends
 
-- [`System`](Base/README.md#abstract-system)
+- [`System`](Namespace.Base.md#abstract-system)
 
 #### Constructors
 
@@ -4037,7 +4031,7 @@ Defined in: [src/system/KnifeDashSystem.ts:15](https://github.com/Orb-Workshop/s
 
 ###### Overrides
 
-[`System`](Base/README.md#abstract-system).[`constructor`](Base/README.md#constructor-2)
+[`System`](Namespace.Base.md#abstract-system).[`constructor`](Namespace.Base.md#constructor-2)
 
 #### Properties
 
@@ -4059,7 +4053,7 @@ Defined in: [src/base/System.ts:29](https://github.com/Orb-Workshop/scriptedeuch
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`DisableSystem`](Base/README.md#disablesystem)
+[`System`](Namespace.Base.md#abstract-system).[`DisableSystem`](Namespace.Base.md#disablesystem)
 
 ##### EnableSystem()
 
@@ -4073,7 +4067,7 @@ Defined in: [src/base/System.ts:28](https://github.com/Orb-Workshop/scriptedeuch
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`EnableSystem`](Base/README.md#enablesystem)
+[`System`](Namespace.Base.md#abstract-system).[`EnableSystem`](Namespace.Base.md#enablesystem)
 
 ##### GetDelta()
 
@@ -4087,7 +4081,7 @@ Defined in: [src/base/System.ts:33](https://github.com/Orb-Workshop/scriptedeuch
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`GetDelta`](Base/README.md#getdelta-2)
+[`System`](Namespace.Base.md#abstract-system).[`GetDelta`](Namespace.Base.md#getdelta-2)
 
 ##### IsSystemEnabled()
 
@@ -4101,7 +4095,7 @@ Defined in: [src/base/System.ts:30](https://github.com/Orb-Workshop/scriptedeuch
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`IsSystemEnabled`](Base/README.md#issystemenabled)
+[`System`](Namespace.Base.md#abstract-system).[`IsSystemEnabled`](Namespace.Base.md#issystemenabled)
 
 ##### MaybeThink()
 
@@ -4115,7 +4109,7 @@ Defined in: [src/base/System.ts:35](https://github.com/Orb-Workshop/scriptedeuch
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`MaybeThink`](Base/README.md#maybethink-2)
+[`System`](Namespace.Base.md#abstract-system).[`MaybeThink`](Namespace.Base.md#maybethink-2)
 
 ##### OnActivate()
 
@@ -4131,7 +4125,7 @@ Instance.OnActivate()
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnActivate`](Base/README.md#onactivate)
+[`System`](Namespace.Base.md#abstract-system).[`OnActivate`](Namespace.Base.md#onactivate)
 
 ##### ~~OnBeforePlayerDamage()~~
 
@@ -4155,7 +4149,7 @@ Instance.OnBeforePlayerDamage()
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnBeforePlayerDamage`](Base/README.md#onbeforeplayerdamage)
+[`System`](Namespace.Base.md#abstract-system).[`OnBeforePlayerDamage`](Namespace.Base.md#onbeforeplayerdamage)
 
 ##### OnBombDefuse()
 
@@ -4179,7 +4173,7 @@ Instance.OnBombDefuse()
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnBombDefuse`](Base/README.md#onbombdefuse)
+[`System`](Namespace.Base.md#abstract-system).[`OnBombDefuse`](Namespace.Base.md#onbombdefuse)
 
 ##### OnBombPlant()
 
@@ -4203,7 +4197,7 @@ Instance.OnBombPlant()
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnBombPlant`](Base/README.md#onbombplant)
+[`System`](Namespace.Base.md#abstract-system).[`OnBombPlant`](Namespace.Base.md#onbombplant)
 
 ##### OnBulletImpact()
 
@@ -4227,7 +4221,7 @@ Instance.OnBulletImpact()
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnBulletImpact`](Base/README.md#onbulletimpact)
+[`System`](Namespace.Base.md#abstract-system).[`OnBulletImpact`](Namespace.Base.md#onbulletimpact)
 
 ##### OnGrenadeBounce()
 
@@ -4251,7 +4245,7 @@ Instance.OnGrenadeBounce()
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnGrenadeBounce`](Base/README.md#ongrenadebounce)
+[`System`](Namespace.Base.md#abstract-system).[`OnGrenadeBounce`](Namespace.Base.md#ongrenadebounce)
 
 ##### OnGrenadeThrow()
 
@@ -4275,7 +4269,7 @@ Instance.OnGrenadeThrow()
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnGrenadeThrow`](Base/README.md#ongrenadethrow)
+[`System`](Namespace.Base.md#abstract-system).[`OnGrenadeThrow`](Namespace.Base.md#ongrenadethrow)
 
 ##### OnGunFire()
 
@@ -4298,7 +4292,7 @@ Instance.OnGunFire()
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnGunFire`](Base/README.md#ongunfire)
+[`System`](Namespace.Base.md#abstract-system).[`OnGunFire`](Namespace.Base.md#ongunfire)
 
 ##### OnGunReload()
 
@@ -4321,7 +4315,7 @@ Instance.OnGunReload
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnGunReload`](Base/README.md#ongunreload)
+[`System`](Namespace.Base.md#abstract-system).[`OnGunReload`](Namespace.Base.md#ongunreload)
 
 ##### OnKnifeAttack()
 
@@ -4345,7 +4339,7 @@ Instance.OnKnifeAttack
 
 ###### Overrides
 
-[`System`](Base/README.md#abstract-system).[`OnKnifeAttack`](Base/README.md#onknifeattack)
+[`System`](Namespace.Base.md#abstract-system).[`OnKnifeAttack`](Namespace.Base.md#onknifeattack)
 
 ##### OnModifyPlayerDamage()
 
@@ -4367,7 +4361,7 @@ Instance.OnModifyPlayerDamage()
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnModifyPlayerDamage`](Base/README.md#onmodifyplayerdamage)
+[`System`](Namespace.Base.md#abstract-system).[`OnModifyPlayerDamage`](Namespace.Base.md#onmodifyplayerdamage)
 
 ##### OnPlayerActivate()
 
@@ -4390,7 +4384,7 @@ Instance.OnPlayerActivate
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnPlayerActivate`](Base/README.md#onplayeractivate)
+[`System`](Namespace.Base.md#abstract-system).[`OnPlayerActivate`](Namespace.Base.md#onplayeractivate)
 
 ##### OnPlayerChat()
 
@@ -4415,7 +4409,7 @@ Instance.OnPlayerChat
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnPlayerChat`](Base/README.md#onplayerchat)
+[`System`](Namespace.Base.md#abstract-system).[`OnPlayerChat`](Namespace.Base.md#onplayerchat)
 
 ##### OnPlayerConnect()
 
@@ -4438,7 +4432,7 @@ Instance.OnPlayerConnect
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnPlayerConnect`](Base/README.md#onplayerconnect)
+[`System`](Namespace.Base.md#abstract-system).[`OnPlayerConnect`](Namespace.Base.md#onplayerconnect)
 
 ##### OnPlayerDamage()
 
@@ -4460,7 +4454,7 @@ Instance.OnPlayerDamage
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnPlayerDamage`](Base/README.md#onplayerdamage)
+[`System`](Namespace.Base.md#abstract-system).[`OnPlayerDamage`](Namespace.Base.md#onplayerdamage)
 
 ##### OnPlayerDisconnect()
 
@@ -4483,7 +4477,7 @@ Instance.OnPlayerDisconnect
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnPlayerDisconnect`](Base/README.md#onplayerdisconnect)
+[`System`](Namespace.Base.md#abstract-system).[`OnPlayerDisconnect`](Namespace.Base.md#onplayerdisconnect)
 
 ##### OnPlayerJump()
 
@@ -4506,7 +4500,7 @@ Instance.OnPlayerJump
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnPlayerJump`](Base/README.md#onplayerjump)
+[`System`](Namespace.Base.md#abstract-system).[`OnPlayerJump`](Namespace.Base.md#onplayerjump)
 
 ##### OnPlayerKill()
 
@@ -4532,7 +4526,7 @@ Instance.OnPlayerKill
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnPlayerKill`](Base/README.md#onplayerkill)
+[`System`](Namespace.Base.md#abstract-system).[`OnPlayerKill`](Namespace.Base.md#onplayerkill)
 
 ##### OnPlayerLand()
 
@@ -4555,7 +4549,7 @@ Instance.OnPlayerLand
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnPlayerLand`](Base/README.md#onplayerland)
+[`System`](Namespace.Base.md#abstract-system).[`OnPlayerLand`](Namespace.Base.md#onplayerland)
 
 ##### OnPlayerPing()
 
@@ -4579,7 +4573,7 @@ Instance.OnPlayerPing
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnPlayerPing`](Base/README.md#onplayerping)
+[`System`](Namespace.Base.md#abstract-system).[`OnPlayerPing`](Namespace.Base.md#onplayerping)
 
 ##### OnPlayerReset()
 
@@ -4602,7 +4596,7 @@ Instance.OnPlayerReset
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnPlayerReset`](Base/README.md#onplayerreset)
+[`System`](Namespace.Base.md#abstract-system).[`OnPlayerReset`](Namespace.Base.md#onplayerreset)
 
 ##### OnRoundEnd()
 
@@ -4626,7 +4620,7 @@ Instance.OnRoundEnd
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnRoundEnd`](Base/README.md#onroundend)
+[`System`](Namespace.Base.md#abstract-system).[`OnRoundEnd`](Namespace.Base.md#onroundend)
 
 ##### OnRoundStart()
 
@@ -4642,7 +4636,7 @@ Instance.OnRoundStart
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnRoundStart`](Base/README.md#onroundstart)
+[`System`](Namespace.Base.md#abstract-system).[`OnRoundStart`](Namespace.Base.md#onroundstart)
 
 ##### OnScriptReload()
 
@@ -4658,7 +4652,7 @@ Simpler Version of OnScriptReloadAfter
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnScriptReload`](Base/README.md#onscriptreload)
+[`System`](Namespace.Base.md#abstract-system).[`OnScriptReload`](Namespace.Base.md#onscriptreload)
 
 ##### OnScriptReloadAfter()
 
@@ -4686,7 +4680,7 @@ Instance.OnReload({after})
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnScriptReloadAfter`](Base/README.md#onscriptreloadafter)
+[`System`](Namespace.Base.md#abstract-system).[`OnScriptReloadAfter`](Namespace.Base.md#onscriptreloadafter)
 
 ##### OnScriptReloadBefore()
 
@@ -4708,7 +4702,7 @@ Instance.OnReload({before})
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnScriptReloadBefore`](Base/README.md#onscriptreloadbefore)
+[`System`](Namespace.Base.md#abstract-system).[`OnScriptReloadBefore`](Namespace.Base.md#onscriptreloadbefore)
 
 ##### SetTick()
 
@@ -4728,7 +4722,7 @@ Defined in: [src/base/System.ts:32](https://github.com/Orb-Workshop/scriptedeuch
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`SetTick`](Base/README.md#settick-2)
+[`System`](Namespace.Base.md#abstract-system).[`SetTick`](Namespace.Base.md#settick-2)
 
 ##### SetTickInterval()
 
@@ -4748,7 +4742,7 @@ Defined in: [src/base/System.ts:31](https://github.com/Orb-Workshop/scriptedeuch
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`SetTickInterval`](Base/README.md#settickinterval-2)
+[`System`](Namespace.Base.md#abstract-system).[`SetTickInterval`](Namespace.Base.md#settickinterval-2)
 
 ##### Think()
 
@@ -4764,7 +4758,7 @@ Replacement for `Instance.SetThink()` when used with `Base.Mount`.
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`Think`](Base/README.md#think-2)
+[`System`](Namespace.Base.md#abstract-system).[`Think`](Namespace.Base.md#think-2)
 
 ***
 
@@ -4776,7 +4770,7 @@ Mountable System Abstraction.
 
 #### Extends
 
-- [`System`](Base/README.md#abstract-system)
+- [`System`](Namespace.Base.md#abstract-system)
 
 #### Constructors
 
@@ -4802,7 +4796,7 @@ Defined in: [src/system/PlayerHealthRegenerationSystem.ts:16](https://github.com
 
 ###### Overrides
 
-[`System`](Base/README.md#abstract-system).[`constructor`](Base/README.md#constructor-2)
+[`System`](Namespace.Base.md#abstract-system).[`constructor`](Namespace.Base.md#constructor-2)
 
 #### Methods
 
@@ -4877,7 +4871,7 @@ Defined in: [src/base/System.ts:29](https://github.com/Orb-Workshop/scriptedeuch
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`DisableSystem`](Base/README.md#disablesystem)
+[`System`](Namespace.Base.md#abstract-system).[`DisableSystem`](Namespace.Base.md#disablesystem)
 
 ##### EnableSystem()
 
@@ -4891,7 +4885,7 @@ Defined in: [src/base/System.ts:28](https://github.com/Orb-Workshop/scriptedeuch
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`EnableSystem`](Base/README.md#enablesystem)
+[`System`](Namespace.Base.md#abstract-system).[`EnableSystem`](Namespace.Base.md#enablesystem)
 
 ##### GetDelta()
 
@@ -4905,7 +4899,7 @@ Defined in: [src/base/System.ts:33](https://github.com/Orb-Workshop/scriptedeuch
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`GetDelta`](Base/README.md#getdelta-2)
+[`System`](Namespace.Base.md#abstract-system).[`GetDelta`](Namespace.Base.md#getdelta-2)
 
 ##### IsSystemEnabled()
 
@@ -4919,7 +4913,7 @@ Defined in: [src/base/System.ts:30](https://github.com/Orb-Workshop/scriptedeuch
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`IsSystemEnabled`](Base/README.md#issystemenabled)
+[`System`](Namespace.Base.md#abstract-system).[`IsSystemEnabled`](Namespace.Base.md#issystemenabled)
 
 ##### MaybeThink()
 
@@ -4933,7 +4927,7 @@ Defined in: [src/base/System.ts:35](https://github.com/Orb-Workshop/scriptedeuch
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`MaybeThink`](Base/README.md#maybethink-2)
+[`System`](Namespace.Base.md#abstract-system).[`MaybeThink`](Namespace.Base.md#maybethink-2)
 
 ##### OnActivate()
 
@@ -4949,7 +4943,7 @@ Instance.OnActivate()
 
 ###### Overrides
 
-[`System`](Base/README.md#abstract-system).[`OnActivate`](Base/README.md#onactivate)
+[`System`](Namespace.Base.md#abstract-system).[`OnActivate`](Namespace.Base.md#onactivate)
 
 ##### ~~OnBeforePlayerDamage()~~
 
@@ -4973,7 +4967,7 @@ Instance.OnBeforePlayerDamage()
 
 ###### Overrides
 
-[`System`](Base/README.md#abstract-system).[`OnBeforePlayerDamage`](Base/README.md#onbeforeplayerdamage)
+[`System`](Namespace.Base.md#abstract-system).[`OnBeforePlayerDamage`](Namespace.Base.md#onbeforeplayerdamage)
 
 ##### OnBombDefuse()
 
@@ -4997,7 +4991,7 @@ Instance.OnBombDefuse()
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnBombDefuse`](Base/README.md#onbombdefuse)
+[`System`](Namespace.Base.md#abstract-system).[`OnBombDefuse`](Namespace.Base.md#onbombdefuse)
 
 ##### OnBombPlant()
 
@@ -5021,7 +5015,7 @@ Instance.OnBombPlant()
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnBombPlant`](Base/README.md#onbombplant)
+[`System`](Namespace.Base.md#abstract-system).[`OnBombPlant`](Namespace.Base.md#onbombplant)
 
 ##### OnBulletImpact()
 
@@ -5045,7 +5039,7 @@ Instance.OnBulletImpact()
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnBulletImpact`](Base/README.md#onbulletimpact)
+[`System`](Namespace.Base.md#abstract-system).[`OnBulletImpact`](Namespace.Base.md#onbulletimpact)
 
 ##### OnGrenadeBounce()
 
@@ -5069,7 +5063,7 @@ Instance.OnGrenadeBounce()
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnGrenadeBounce`](Base/README.md#ongrenadebounce)
+[`System`](Namespace.Base.md#abstract-system).[`OnGrenadeBounce`](Namespace.Base.md#ongrenadebounce)
 
 ##### OnGrenadeThrow()
 
@@ -5093,7 +5087,7 @@ Instance.OnGrenadeThrow()
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnGrenadeThrow`](Base/README.md#ongrenadethrow)
+[`System`](Namespace.Base.md#abstract-system).[`OnGrenadeThrow`](Namespace.Base.md#ongrenadethrow)
 
 ##### OnGunFire()
 
@@ -5116,7 +5110,7 @@ Instance.OnGunFire()
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnGunFire`](Base/README.md#ongunfire)
+[`System`](Namespace.Base.md#abstract-system).[`OnGunFire`](Namespace.Base.md#ongunfire)
 
 ##### OnGunReload()
 
@@ -5139,7 +5133,7 @@ Instance.OnGunReload
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnGunReload`](Base/README.md#ongunreload)
+[`System`](Namespace.Base.md#abstract-system).[`OnGunReload`](Namespace.Base.md#ongunreload)
 
 ##### OnKnifeAttack()
 
@@ -5163,7 +5157,7 @@ Instance.OnKnifeAttack
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnKnifeAttack`](Base/README.md#onknifeattack)
+[`System`](Namespace.Base.md#abstract-system).[`OnKnifeAttack`](Namespace.Base.md#onknifeattack)
 
 ##### OnModifyPlayerDamage()
 
@@ -5185,7 +5179,7 @@ Instance.OnModifyPlayerDamage()
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnModifyPlayerDamage`](Base/README.md#onmodifyplayerdamage)
+[`System`](Namespace.Base.md#abstract-system).[`OnModifyPlayerDamage`](Namespace.Base.md#onmodifyplayerdamage)
 
 ##### OnPlayerActivate()
 
@@ -5208,7 +5202,7 @@ Instance.OnPlayerActivate
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnPlayerActivate`](Base/README.md#onplayeractivate)
+[`System`](Namespace.Base.md#abstract-system).[`OnPlayerActivate`](Namespace.Base.md#onplayeractivate)
 
 ##### OnPlayerChat()
 
@@ -5233,7 +5227,7 @@ Instance.OnPlayerChat
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnPlayerChat`](Base/README.md#onplayerchat)
+[`System`](Namespace.Base.md#abstract-system).[`OnPlayerChat`](Namespace.Base.md#onplayerchat)
 
 ##### OnPlayerConnect()
 
@@ -5256,7 +5250,7 @@ Instance.OnPlayerConnect
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnPlayerConnect`](Base/README.md#onplayerconnect)
+[`System`](Namespace.Base.md#abstract-system).[`OnPlayerConnect`](Namespace.Base.md#onplayerconnect)
 
 ##### OnPlayerDamage()
 
@@ -5278,7 +5272,7 @@ Instance.OnPlayerDamage
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnPlayerDamage`](Base/README.md#onplayerdamage)
+[`System`](Namespace.Base.md#abstract-system).[`OnPlayerDamage`](Namespace.Base.md#onplayerdamage)
 
 ##### OnPlayerDisconnect()
 
@@ -5301,7 +5295,7 @@ Instance.OnPlayerDisconnect
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnPlayerDisconnect`](Base/README.md#onplayerdisconnect)
+[`System`](Namespace.Base.md#abstract-system).[`OnPlayerDisconnect`](Namespace.Base.md#onplayerdisconnect)
 
 ##### OnPlayerJump()
 
@@ -5324,7 +5318,7 @@ Instance.OnPlayerJump
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnPlayerJump`](Base/README.md#onplayerjump)
+[`System`](Namespace.Base.md#abstract-system).[`OnPlayerJump`](Namespace.Base.md#onplayerjump)
 
 ##### OnPlayerKill()
 
@@ -5350,7 +5344,7 @@ Instance.OnPlayerKill
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnPlayerKill`](Base/README.md#onplayerkill)
+[`System`](Namespace.Base.md#abstract-system).[`OnPlayerKill`](Namespace.Base.md#onplayerkill)
 
 ##### OnPlayerLand()
 
@@ -5373,7 +5367,7 @@ Instance.OnPlayerLand
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnPlayerLand`](Base/README.md#onplayerland)
+[`System`](Namespace.Base.md#abstract-system).[`OnPlayerLand`](Namespace.Base.md#onplayerland)
 
 ##### OnPlayerPing()
 
@@ -5397,7 +5391,7 @@ Instance.OnPlayerPing
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnPlayerPing`](Base/README.md#onplayerping)
+[`System`](Namespace.Base.md#abstract-system).[`OnPlayerPing`](Namespace.Base.md#onplayerping)
 
 ##### OnPlayerReset()
 
@@ -5420,7 +5414,7 @@ Instance.OnPlayerReset
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnPlayerReset`](Base/README.md#onplayerreset)
+[`System`](Namespace.Base.md#abstract-system).[`OnPlayerReset`](Namespace.Base.md#onplayerreset)
 
 ##### OnRoundEnd()
 
@@ -5444,7 +5438,7 @@ Instance.OnRoundEnd
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnRoundEnd`](Base/README.md#onroundend)
+[`System`](Namespace.Base.md#abstract-system).[`OnRoundEnd`](Namespace.Base.md#onroundend)
 
 ##### OnRoundStart()
 
@@ -5460,7 +5454,7 @@ Instance.OnRoundStart
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnRoundStart`](Base/README.md#onroundstart)
+[`System`](Namespace.Base.md#abstract-system).[`OnRoundStart`](Namespace.Base.md#onroundstart)
 
 ##### OnScriptReload()
 
@@ -5476,7 +5470,7 @@ Simpler Version of OnScriptReloadAfter
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnScriptReload`](Base/README.md#onscriptreload)
+[`System`](Namespace.Base.md#abstract-system).[`OnScriptReload`](Namespace.Base.md#onscriptreload)
 
 ##### OnScriptReloadAfter()
 
@@ -5504,7 +5498,7 @@ Instance.OnReload({after})
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnScriptReloadAfter`](Base/README.md#onscriptreloadafter)
+[`System`](Namespace.Base.md#abstract-system).[`OnScriptReloadAfter`](Namespace.Base.md#onscriptreloadafter)
 
 ##### OnScriptReloadBefore()
 
@@ -5526,7 +5520,7 @@ Instance.OnReload({before})
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnScriptReloadBefore`](Base/README.md#onscriptreloadbefore)
+[`System`](Namespace.Base.md#abstract-system).[`OnScriptReloadBefore`](Namespace.Base.md#onscriptreloadbefore)
 
 ##### SetTick()
 
@@ -5546,7 +5540,7 @@ Defined in: [src/base/System.ts:32](https://github.com/Orb-Workshop/scriptedeuch
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`SetTick`](Base/README.md#settick-2)
+[`System`](Namespace.Base.md#abstract-system).[`SetTick`](Namespace.Base.md#settick-2)
 
 ##### SetTickInterval()
 
@@ -5566,7 +5560,7 @@ Defined in: [src/base/System.ts:31](https://github.com/Orb-Workshop/scriptedeuch
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`SetTickInterval`](Base/README.md#settickinterval-2)
+[`System`](Namespace.Base.md#abstract-system).[`SetTickInterval`](Namespace.Base.md#settickinterval-2)
 
 ##### Think()
 
@@ -5582,7 +5576,7 @@ Replacement for `Instance.SetThink()` when used with `Base.Mount`.
 
 ###### Overrides
 
-[`System`](Base/README.md#abstract-system).[`Think`](Base/README.md#think-2)
+[`System`](Namespace.Base.md#abstract-system).[`Think`](Namespace.Base.md#think-2)
 
 ***
 
@@ -5594,7 +5588,7 @@ Mountable System Abstraction.
 
 #### Extends
 
-- [`System`](Base/README.md#abstract-system)
+- [`System`](Namespace.Base.md#abstract-system)
 
 #### Constructors
 
@@ -5621,7 +5615,7 @@ Defined in: [src/system/PlayerModelChangerSystem.ts:23](https://github.com/Orb-W
 
 ###### Overrides
 
-[`System`](Base/README.md#abstract-system).[`constructor`](Base/README.md#constructor-2)
+[`System`](Namespace.Base.md#abstract-system).[`constructor`](Namespace.Base.md#constructor-2)
 
 #### Methods
 
@@ -5637,7 +5631,7 @@ Defined in: [src/base/System.ts:29](https://github.com/Orb-Workshop/scriptedeuch
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`DisableSystem`](Base/README.md#disablesystem)
+[`System`](Namespace.Base.md#abstract-system).[`DisableSystem`](Namespace.Base.md#disablesystem)
 
 ##### EnableSystem()
 
@@ -5651,7 +5645,7 @@ Defined in: [src/base/System.ts:28](https://github.com/Orb-Workshop/scriptedeuch
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`EnableSystem`](Base/README.md#enablesystem)
+[`System`](Namespace.Base.md#abstract-system).[`EnableSystem`](Namespace.Base.md#enablesystem)
 
 ##### GetDelta()
 
@@ -5665,7 +5659,7 @@ Defined in: [src/base/System.ts:33](https://github.com/Orb-Workshop/scriptedeuch
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`GetDelta`](Base/README.md#getdelta-2)
+[`System`](Namespace.Base.md#abstract-system).[`GetDelta`](Namespace.Base.md#getdelta-2)
 
 ##### IsSystemEnabled()
 
@@ -5679,7 +5673,7 @@ Defined in: [src/base/System.ts:30](https://github.com/Orb-Workshop/scriptedeuch
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`IsSystemEnabled`](Base/README.md#issystemenabled)
+[`System`](Namespace.Base.md#abstract-system).[`IsSystemEnabled`](Namespace.Base.md#issystemenabled)
 
 ##### MaybeThink()
 
@@ -5693,7 +5687,7 @@ Defined in: [src/base/System.ts:35](https://github.com/Orb-Workshop/scriptedeuch
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`MaybeThink`](Base/README.md#maybethink-2)
+[`System`](Namespace.Base.md#abstract-system).[`MaybeThink`](Namespace.Base.md#maybethink-2)
 
 ##### OnActivate()
 
@@ -5709,7 +5703,7 @@ Instance.OnActivate()
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnActivate`](Base/README.md#onactivate)
+[`System`](Namespace.Base.md#abstract-system).[`OnActivate`](Namespace.Base.md#onactivate)
 
 ##### ~~OnBeforePlayerDamage()~~
 
@@ -5733,7 +5727,7 @@ Instance.OnBeforePlayerDamage()
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnBeforePlayerDamage`](Base/README.md#onbeforeplayerdamage)
+[`System`](Namespace.Base.md#abstract-system).[`OnBeforePlayerDamage`](Namespace.Base.md#onbeforeplayerdamage)
 
 ##### OnBombDefuse()
 
@@ -5757,7 +5751,7 @@ Instance.OnBombDefuse()
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnBombDefuse`](Base/README.md#onbombdefuse)
+[`System`](Namespace.Base.md#abstract-system).[`OnBombDefuse`](Namespace.Base.md#onbombdefuse)
 
 ##### OnBombPlant()
 
@@ -5781,7 +5775,7 @@ Instance.OnBombPlant()
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnBombPlant`](Base/README.md#onbombplant)
+[`System`](Namespace.Base.md#abstract-system).[`OnBombPlant`](Namespace.Base.md#onbombplant)
 
 ##### OnBulletImpact()
 
@@ -5805,7 +5799,7 @@ Instance.OnBulletImpact()
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnBulletImpact`](Base/README.md#onbulletimpact)
+[`System`](Namespace.Base.md#abstract-system).[`OnBulletImpact`](Namespace.Base.md#onbulletimpact)
 
 ##### OnGrenadeBounce()
 
@@ -5829,7 +5823,7 @@ Instance.OnGrenadeBounce()
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnGrenadeBounce`](Base/README.md#ongrenadebounce)
+[`System`](Namespace.Base.md#abstract-system).[`OnGrenadeBounce`](Namespace.Base.md#ongrenadebounce)
 
 ##### OnGrenadeThrow()
 
@@ -5853,7 +5847,7 @@ Instance.OnGrenadeThrow()
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnGrenadeThrow`](Base/README.md#ongrenadethrow)
+[`System`](Namespace.Base.md#abstract-system).[`OnGrenadeThrow`](Namespace.Base.md#ongrenadethrow)
 
 ##### OnGunFire()
 
@@ -5876,7 +5870,7 @@ Instance.OnGunFire()
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnGunFire`](Base/README.md#ongunfire)
+[`System`](Namespace.Base.md#abstract-system).[`OnGunFire`](Namespace.Base.md#ongunfire)
 
 ##### OnGunReload()
 
@@ -5899,7 +5893,7 @@ Instance.OnGunReload
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnGunReload`](Base/README.md#ongunreload)
+[`System`](Namespace.Base.md#abstract-system).[`OnGunReload`](Namespace.Base.md#ongunreload)
 
 ##### OnKnifeAttack()
 
@@ -5923,7 +5917,7 @@ Instance.OnKnifeAttack
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnKnifeAttack`](Base/README.md#onknifeattack)
+[`System`](Namespace.Base.md#abstract-system).[`OnKnifeAttack`](Namespace.Base.md#onknifeattack)
 
 ##### OnModifyPlayerDamage()
 
@@ -5945,7 +5939,7 @@ Instance.OnModifyPlayerDamage()
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnModifyPlayerDamage`](Base/README.md#onmodifyplayerdamage)
+[`System`](Namespace.Base.md#abstract-system).[`OnModifyPlayerDamage`](Namespace.Base.md#onmodifyplayerdamage)
 
 ##### OnPlayerActivate()
 
@@ -5968,7 +5962,7 @@ Instance.OnPlayerActivate
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnPlayerActivate`](Base/README.md#onplayeractivate)
+[`System`](Namespace.Base.md#abstract-system).[`OnPlayerActivate`](Namespace.Base.md#onplayeractivate)
 
 ##### OnPlayerChat()
 
@@ -5993,7 +5987,7 @@ Instance.OnPlayerChat
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnPlayerChat`](Base/README.md#onplayerchat)
+[`System`](Namespace.Base.md#abstract-system).[`OnPlayerChat`](Namespace.Base.md#onplayerchat)
 
 ##### OnPlayerConnect()
 
@@ -6016,7 +6010,7 @@ Instance.OnPlayerConnect
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnPlayerConnect`](Base/README.md#onplayerconnect)
+[`System`](Namespace.Base.md#abstract-system).[`OnPlayerConnect`](Namespace.Base.md#onplayerconnect)
 
 ##### OnPlayerDamage()
 
@@ -6038,7 +6032,7 @@ Instance.OnPlayerDamage
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnPlayerDamage`](Base/README.md#onplayerdamage)
+[`System`](Namespace.Base.md#abstract-system).[`OnPlayerDamage`](Namespace.Base.md#onplayerdamage)
 
 ##### OnPlayerDisconnect()
 
@@ -6061,7 +6055,7 @@ Instance.OnPlayerDisconnect
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnPlayerDisconnect`](Base/README.md#onplayerdisconnect)
+[`System`](Namespace.Base.md#abstract-system).[`OnPlayerDisconnect`](Namespace.Base.md#onplayerdisconnect)
 
 ##### OnPlayerJump()
 
@@ -6084,7 +6078,7 @@ Instance.OnPlayerJump
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnPlayerJump`](Base/README.md#onplayerjump)
+[`System`](Namespace.Base.md#abstract-system).[`OnPlayerJump`](Namespace.Base.md#onplayerjump)
 
 ##### OnPlayerKill()
 
@@ -6110,7 +6104,7 @@ Instance.OnPlayerKill
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnPlayerKill`](Base/README.md#onplayerkill)
+[`System`](Namespace.Base.md#abstract-system).[`OnPlayerKill`](Namespace.Base.md#onplayerkill)
 
 ##### OnPlayerLand()
 
@@ -6133,7 +6127,7 @@ Instance.OnPlayerLand
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnPlayerLand`](Base/README.md#onplayerland)
+[`System`](Namespace.Base.md#abstract-system).[`OnPlayerLand`](Namespace.Base.md#onplayerland)
 
 ##### OnPlayerPing()
 
@@ -6157,7 +6151,7 @@ Instance.OnPlayerPing
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnPlayerPing`](Base/README.md#onplayerping)
+[`System`](Namespace.Base.md#abstract-system).[`OnPlayerPing`](Namespace.Base.md#onplayerping)
 
 ##### OnPlayerReset()
 
@@ -6179,7 +6173,7 @@ Instance.OnPlayerReset
 
 ###### Overrides
 
-[`System`](Base/README.md#abstract-system).[`OnPlayerReset`](Base/README.md#onplayerreset)
+[`System`](Namespace.Base.md#abstract-system).[`OnPlayerReset`](Namespace.Base.md#onplayerreset)
 
 ##### OnRoundEnd()
 
@@ -6203,7 +6197,7 @@ Instance.OnRoundEnd
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnRoundEnd`](Base/README.md#onroundend)
+[`System`](Namespace.Base.md#abstract-system).[`OnRoundEnd`](Namespace.Base.md#onroundend)
 
 ##### OnRoundStart()
 
@@ -6219,7 +6213,7 @@ Instance.OnRoundStart
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnRoundStart`](Base/README.md#onroundstart)
+[`System`](Namespace.Base.md#abstract-system).[`OnRoundStart`](Namespace.Base.md#onroundstart)
 
 ##### OnScriptReload()
 
@@ -6235,7 +6229,7 @@ Simpler Version of OnScriptReloadAfter
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnScriptReload`](Base/README.md#onscriptreload)
+[`System`](Namespace.Base.md#abstract-system).[`OnScriptReload`](Namespace.Base.md#onscriptreload)
 
 ##### OnScriptReloadAfter()
 
@@ -6263,7 +6257,7 @@ Instance.OnReload({after})
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnScriptReloadAfter`](Base/README.md#onscriptreloadafter)
+[`System`](Namespace.Base.md#abstract-system).[`OnScriptReloadAfter`](Namespace.Base.md#onscriptreloadafter)
 
 ##### OnScriptReloadBefore()
 
@@ -6285,7 +6279,7 @@ Instance.OnReload({before})
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnScriptReloadBefore`](Base/README.md#onscriptreloadbefore)
+[`System`](Namespace.Base.md#abstract-system).[`OnScriptReloadBefore`](Namespace.Base.md#onscriptreloadbefore)
 
 ##### SetTick()
 
@@ -6305,7 +6299,7 @@ Defined in: [src/base/System.ts:32](https://github.com/Orb-Workshop/scriptedeuch
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`SetTick`](Base/README.md#settick-2)
+[`System`](Namespace.Base.md#abstract-system).[`SetTick`](Namespace.Base.md#settick-2)
 
 ##### SetTickInterval()
 
@@ -6325,7 +6319,7 @@ Defined in: [src/base/System.ts:31](https://github.com/Orb-Workshop/scriptedeuch
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`SetTickInterval`](Base/README.md#settickinterval-2)
+[`System`](Namespace.Base.md#abstract-system).[`SetTickInterval`](Namespace.Base.md#settickinterval-2)
 
 ##### Think()
 
@@ -6341,7 +6335,7 @@ Replacement for `Instance.SetThink()` when used with `Base.Mount`.
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`Think`](Base/README.md#think-2)
+[`System`](Namespace.Base.md#abstract-system).[`Think`](Namespace.Base.md#think-2)
 
 ***
 
@@ -6353,7 +6347,7 @@ Mountable System Abstraction.
 
 #### Extends
 
-- [`System`](Base/README.md#abstract-system)
+- [`System`](Namespace.Base.md#abstract-system)
 
 #### Constructors
 
@@ -6369,7 +6363,7 @@ Defined in: [src/system/PlayerSlidingSystem.ts:48](https://github.com/Orb-Worksh
 
 ###### Overrides
 
-[`System`](Base/README.md#abstract-system).[`constructor`](Base/README.md#constructor-2)
+[`System`](Namespace.Base.md#abstract-system).[`constructor`](Namespace.Base.md#constructor-2)
 
 #### Properties
 
@@ -6391,7 +6385,7 @@ Defined in: [src/base/System.ts:29](https://github.com/Orb-Workshop/scriptedeuch
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`DisableSystem`](Base/README.md#disablesystem)
+[`System`](Namespace.Base.md#abstract-system).[`DisableSystem`](Namespace.Base.md#disablesystem)
 
 ##### EnableSystem()
 
@@ -6405,7 +6399,7 @@ Defined in: [src/base/System.ts:28](https://github.com/Orb-Workshop/scriptedeuch
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`EnableSystem`](Base/README.md#enablesystem)
+[`System`](Namespace.Base.md#abstract-system).[`EnableSystem`](Namespace.Base.md#enablesystem)
 
 ##### GetDelta()
 
@@ -6419,7 +6413,7 @@ Defined in: [src/base/System.ts:33](https://github.com/Orb-Workshop/scriptedeuch
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`GetDelta`](Base/README.md#getdelta-2)
+[`System`](Namespace.Base.md#abstract-system).[`GetDelta`](Namespace.Base.md#getdelta-2)
 
 ##### IsSystemEnabled()
 
@@ -6433,7 +6427,7 @@ Defined in: [src/base/System.ts:30](https://github.com/Orb-Workshop/scriptedeuch
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`IsSystemEnabled`](Base/README.md#issystemenabled)
+[`System`](Namespace.Base.md#abstract-system).[`IsSystemEnabled`](Namespace.Base.md#issystemenabled)
 
 ##### MaybeThink()
 
@@ -6447,7 +6441,7 @@ Defined in: [src/base/System.ts:35](https://github.com/Orb-Workshop/scriptedeuch
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`MaybeThink`](Base/README.md#maybethink-2)
+[`System`](Namespace.Base.md#abstract-system).[`MaybeThink`](Namespace.Base.md#maybethink-2)
 
 ##### OnActivate()
 
@@ -6463,7 +6457,7 @@ Instance.OnActivate()
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnActivate`](Base/README.md#onactivate)
+[`System`](Namespace.Base.md#abstract-system).[`OnActivate`](Namespace.Base.md#onactivate)
 
 ##### ~~OnBeforePlayerDamage()~~
 
@@ -6487,7 +6481,7 @@ Instance.OnBeforePlayerDamage()
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnBeforePlayerDamage`](Base/README.md#onbeforeplayerdamage)
+[`System`](Namespace.Base.md#abstract-system).[`OnBeforePlayerDamage`](Namespace.Base.md#onbeforeplayerdamage)
 
 ##### OnBombDefuse()
 
@@ -6511,7 +6505,7 @@ Instance.OnBombDefuse()
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnBombDefuse`](Base/README.md#onbombdefuse)
+[`System`](Namespace.Base.md#abstract-system).[`OnBombDefuse`](Namespace.Base.md#onbombdefuse)
 
 ##### OnBombPlant()
 
@@ -6535,7 +6529,7 @@ Instance.OnBombPlant()
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnBombPlant`](Base/README.md#onbombplant)
+[`System`](Namespace.Base.md#abstract-system).[`OnBombPlant`](Namespace.Base.md#onbombplant)
 
 ##### OnBulletImpact()
 
@@ -6559,7 +6553,7 @@ Instance.OnBulletImpact()
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnBulletImpact`](Base/README.md#onbulletimpact)
+[`System`](Namespace.Base.md#abstract-system).[`OnBulletImpact`](Namespace.Base.md#onbulletimpact)
 
 ##### OnGrenadeBounce()
 
@@ -6583,7 +6577,7 @@ Instance.OnGrenadeBounce()
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnGrenadeBounce`](Base/README.md#ongrenadebounce)
+[`System`](Namespace.Base.md#abstract-system).[`OnGrenadeBounce`](Namespace.Base.md#ongrenadebounce)
 
 ##### OnGrenadeThrow()
 
@@ -6607,7 +6601,7 @@ Instance.OnGrenadeThrow()
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnGrenadeThrow`](Base/README.md#ongrenadethrow)
+[`System`](Namespace.Base.md#abstract-system).[`OnGrenadeThrow`](Namespace.Base.md#ongrenadethrow)
 
 ##### OnGunFire()
 
@@ -6630,7 +6624,7 @@ Instance.OnGunFire()
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnGunFire`](Base/README.md#ongunfire)
+[`System`](Namespace.Base.md#abstract-system).[`OnGunFire`](Namespace.Base.md#ongunfire)
 
 ##### OnGunReload()
 
@@ -6653,7 +6647,7 @@ Instance.OnGunReload
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnGunReload`](Base/README.md#ongunreload)
+[`System`](Namespace.Base.md#abstract-system).[`OnGunReload`](Namespace.Base.md#ongunreload)
 
 ##### OnKnifeAttack()
 
@@ -6677,7 +6671,7 @@ Instance.OnKnifeAttack
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnKnifeAttack`](Base/README.md#onknifeattack)
+[`System`](Namespace.Base.md#abstract-system).[`OnKnifeAttack`](Namespace.Base.md#onknifeattack)
 
 ##### OnModifyPlayerDamage()
 
@@ -6699,7 +6693,7 @@ Instance.OnModifyPlayerDamage()
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnModifyPlayerDamage`](Base/README.md#onmodifyplayerdamage)
+[`System`](Namespace.Base.md#abstract-system).[`OnModifyPlayerDamage`](Namespace.Base.md#onmodifyplayerdamage)
 
 ##### OnPlayerActivate()
 
@@ -6722,7 +6716,7 @@ Instance.OnPlayerActivate
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnPlayerActivate`](Base/README.md#onplayeractivate)
+[`System`](Namespace.Base.md#abstract-system).[`OnPlayerActivate`](Namespace.Base.md#onplayeractivate)
 
 ##### OnPlayerChat()
 
@@ -6747,7 +6741,7 @@ Instance.OnPlayerChat
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnPlayerChat`](Base/README.md#onplayerchat)
+[`System`](Namespace.Base.md#abstract-system).[`OnPlayerChat`](Namespace.Base.md#onplayerchat)
 
 ##### OnPlayerConnect()
 
@@ -6770,7 +6764,7 @@ Instance.OnPlayerConnect
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnPlayerConnect`](Base/README.md#onplayerconnect)
+[`System`](Namespace.Base.md#abstract-system).[`OnPlayerConnect`](Namespace.Base.md#onplayerconnect)
 
 ##### OnPlayerDamage()
 
@@ -6792,7 +6786,7 @@ Instance.OnPlayerDamage
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnPlayerDamage`](Base/README.md#onplayerdamage)
+[`System`](Namespace.Base.md#abstract-system).[`OnPlayerDamage`](Namespace.Base.md#onplayerdamage)
 
 ##### OnPlayerDisconnect()
 
@@ -6815,7 +6809,7 @@ Instance.OnPlayerDisconnect
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnPlayerDisconnect`](Base/README.md#onplayerdisconnect)
+[`System`](Namespace.Base.md#abstract-system).[`OnPlayerDisconnect`](Namespace.Base.md#onplayerdisconnect)
 
 ##### OnPlayerJump()
 
@@ -6838,7 +6832,7 @@ Instance.OnPlayerJump
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnPlayerJump`](Base/README.md#onplayerjump)
+[`System`](Namespace.Base.md#abstract-system).[`OnPlayerJump`](Namespace.Base.md#onplayerjump)
 
 ##### OnPlayerKill()
 
@@ -6864,7 +6858,7 @@ Instance.OnPlayerKill
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnPlayerKill`](Base/README.md#onplayerkill)
+[`System`](Namespace.Base.md#abstract-system).[`OnPlayerKill`](Namespace.Base.md#onplayerkill)
 
 ##### OnPlayerLand()
 
@@ -6887,7 +6881,7 @@ Instance.OnPlayerLand
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnPlayerLand`](Base/README.md#onplayerland)
+[`System`](Namespace.Base.md#abstract-system).[`OnPlayerLand`](Namespace.Base.md#onplayerland)
 
 ##### OnPlayerPing()
 
@@ -6911,7 +6905,7 @@ Instance.OnPlayerPing
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnPlayerPing`](Base/README.md#onplayerping)
+[`System`](Namespace.Base.md#abstract-system).[`OnPlayerPing`](Namespace.Base.md#onplayerping)
 
 ##### OnPlayerReset()
 
@@ -6934,7 +6928,7 @@ Instance.OnPlayerReset
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnPlayerReset`](Base/README.md#onplayerreset)
+[`System`](Namespace.Base.md#abstract-system).[`OnPlayerReset`](Namespace.Base.md#onplayerreset)
 
 ##### OnRoundEnd()
 
@@ -6958,7 +6952,7 @@ Instance.OnRoundEnd
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnRoundEnd`](Base/README.md#onroundend)
+[`System`](Namespace.Base.md#abstract-system).[`OnRoundEnd`](Namespace.Base.md#onroundend)
 
 ##### OnRoundStart()
 
@@ -6974,7 +6968,7 @@ Instance.OnRoundStart
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnRoundStart`](Base/README.md#onroundstart)
+[`System`](Namespace.Base.md#abstract-system).[`OnRoundStart`](Namespace.Base.md#onroundstart)
 
 ##### OnScriptReload()
 
@@ -6990,7 +6984,7 @@ Simpler Version of OnScriptReloadAfter
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnScriptReload`](Base/README.md#onscriptreload)
+[`System`](Namespace.Base.md#abstract-system).[`OnScriptReload`](Namespace.Base.md#onscriptreload)
 
 ##### OnScriptReloadAfter()
 
@@ -7018,7 +7012,7 @@ Instance.OnReload({after})
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnScriptReloadAfter`](Base/README.md#onscriptreloadafter)
+[`System`](Namespace.Base.md#abstract-system).[`OnScriptReloadAfter`](Namespace.Base.md#onscriptreloadafter)
 
 ##### OnScriptReloadBefore()
 
@@ -7040,7 +7034,7 @@ Instance.OnReload({before})
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnScriptReloadBefore`](Base/README.md#onscriptreloadbefore)
+[`System`](Namespace.Base.md#abstract-system).[`OnScriptReloadBefore`](Namespace.Base.md#onscriptreloadbefore)
 
 ##### SetTick()
 
@@ -7060,7 +7054,7 @@ Defined in: [src/base/System.ts:32](https://github.com/Orb-Workshop/scriptedeuch
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`SetTick`](Base/README.md#settick-2)
+[`System`](Namespace.Base.md#abstract-system).[`SetTick`](Namespace.Base.md#settick-2)
 
 ##### SetTickInterval()
 
@@ -7080,7 +7074,7 @@ Defined in: [src/base/System.ts:31](https://github.com/Orb-Workshop/scriptedeuch
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`SetTickInterval`](Base/README.md#settickinterval-2)
+[`System`](Namespace.Base.md#abstract-system).[`SetTickInterval`](Namespace.Base.md#settickinterval-2)
 
 ##### Think()
 
@@ -7096,7 +7090,7 @@ Replacement for `Instance.SetThink()` when used with `Base.Mount`.
 
 ###### Overrides
 
-[`System`](Base/README.md#abstract-system).[`Think`](Base/README.md#think-2)
+[`System`](Namespace.Base.md#abstract-system).[`Think`](Namespace.Base.md#think-2)
 
 ***
 
@@ -7108,7 +7102,7 @@ Mountable System Abstraction.
 
 #### Extends
 
-- [`System`](Base/README.md#abstract-system)
+- [`System`](Namespace.Base.md#abstract-system)
 
 #### Constructors
 
@@ -7124,7 +7118,7 @@ Defined in: [src/system/SchedulingSystem.ts:21](https://github.com/Orb-Workshop/
 
 ###### Overrides
 
-[`System`](Base/README.md#abstract-system).[`constructor`](Base/README.md#constructor-2)
+[`System`](Namespace.Base.md#abstract-system).[`constructor`](Namespace.Base.md#constructor-2)
 
 #### Methods
 
@@ -7172,7 +7166,7 @@ Defined in: [src/base/System.ts:29](https://github.com/Orb-Workshop/scriptedeuch
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`DisableSystem`](Base/README.md#disablesystem)
+[`System`](Namespace.Base.md#abstract-system).[`DisableSystem`](Namespace.Base.md#disablesystem)
 
 ##### EnableSystem()
 
@@ -7186,7 +7180,7 @@ Defined in: [src/base/System.ts:28](https://github.com/Orb-Workshop/scriptedeuch
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`EnableSystem`](Base/README.md#enablesystem)
+[`System`](Namespace.Base.md#abstract-system).[`EnableSystem`](Namespace.Base.md#enablesystem)
 
 ##### GetDelta()
 
@@ -7200,7 +7194,7 @@ Defined in: [src/base/System.ts:33](https://github.com/Orb-Workshop/scriptedeuch
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`GetDelta`](Base/README.md#getdelta-2)
+[`System`](Namespace.Base.md#abstract-system).[`GetDelta`](Namespace.Base.md#getdelta-2)
 
 ##### IsSystemEnabled()
 
@@ -7214,7 +7208,7 @@ Defined in: [src/base/System.ts:30](https://github.com/Orb-Workshop/scriptedeuch
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`IsSystemEnabled`](Base/README.md#issystemenabled)
+[`System`](Namespace.Base.md#abstract-system).[`IsSystemEnabled`](Namespace.Base.md#issystemenabled)
 
 ##### MaybeThink()
 
@@ -7228,7 +7222,7 @@ Defined in: [src/base/System.ts:35](https://github.com/Orb-Workshop/scriptedeuch
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`MaybeThink`](Base/README.md#maybethink-2)
+[`System`](Namespace.Base.md#abstract-system).[`MaybeThink`](Namespace.Base.md#maybethink-2)
 
 ##### OnActivate()
 
@@ -7244,7 +7238,7 @@ Instance.OnActivate()
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnActivate`](Base/README.md#onactivate)
+[`System`](Namespace.Base.md#abstract-system).[`OnActivate`](Namespace.Base.md#onactivate)
 
 ##### ~~OnBeforePlayerDamage()~~
 
@@ -7268,7 +7262,7 @@ Instance.OnBeforePlayerDamage()
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnBeforePlayerDamage`](Base/README.md#onbeforeplayerdamage)
+[`System`](Namespace.Base.md#abstract-system).[`OnBeforePlayerDamage`](Namespace.Base.md#onbeforeplayerdamage)
 
 ##### OnBombDefuse()
 
@@ -7292,7 +7286,7 @@ Instance.OnBombDefuse()
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnBombDefuse`](Base/README.md#onbombdefuse)
+[`System`](Namespace.Base.md#abstract-system).[`OnBombDefuse`](Namespace.Base.md#onbombdefuse)
 
 ##### OnBombPlant()
 
@@ -7316,7 +7310,7 @@ Instance.OnBombPlant()
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnBombPlant`](Base/README.md#onbombplant)
+[`System`](Namespace.Base.md#abstract-system).[`OnBombPlant`](Namespace.Base.md#onbombplant)
 
 ##### OnBulletImpact()
 
@@ -7340,7 +7334,7 @@ Instance.OnBulletImpact()
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnBulletImpact`](Base/README.md#onbulletimpact)
+[`System`](Namespace.Base.md#abstract-system).[`OnBulletImpact`](Namespace.Base.md#onbulletimpact)
 
 ##### OnGrenadeBounce()
 
@@ -7364,7 +7358,7 @@ Instance.OnGrenadeBounce()
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnGrenadeBounce`](Base/README.md#ongrenadebounce)
+[`System`](Namespace.Base.md#abstract-system).[`OnGrenadeBounce`](Namespace.Base.md#ongrenadebounce)
 
 ##### OnGrenadeThrow()
 
@@ -7388,7 +7382,7 @@ Instance.OnGrenadeThrow()
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnGrenadeThrow`](Base/README.md#ongrenadethrow)
+[`System`](Namespace.Base.md#abstract-system).[`OnGrenadeThrow`](Namespace.Base.md#ongrenadethrow)
 
 ##### OnGunFire()
 
@@ -7411,7 +7405,7 @@ Instance.OnGunFire()
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnGunFire`](Base/README.md#ongunfire)
+[`System`](Namespace.Base.md#abstract-system).[`OnGunFire`](Namespace.Base.md#ongunfire)
 
 ##### OnGunReload()
 
@@ -7434,7 +7428,7 @@ Instance.OnGunReload
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnGunReload`](Base/README.md#ongunreload)
+[`System`](Namespace.Base.md#abstract-system).[`OnGunReload`](Namespace.Base.md#ongunreload)
 
 ##### OnKnifeAttack()
 
@@ -7458,7 +7452,7 @@ Instance.OnKnifeAttack
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnKnifeAttack`](Base/README.md#onknifeattack)
+[`System`](Namespace.Base.md#abstract-system).[`OnKnifeAttack`](Namespace.Base.md#onknifeattack)
 
 ##### OnModifyPlayerDamage()
 
@@ -7480,7 +7474,7 @@ Instance.OnModifyPlayerDamage()
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnModifyPlayerDamage`](Base/README.md#onmodifyplayerdamage)
+[`System`](Namespace.Base.md#abstract-system).[`OnModifyPlayerDamage`](Namespace.Base.md#onmodifyplayerdamage)
 
 ##### OnPlayerActivate()
 
@@ -7503,7 +7497,7 @@ Instance.OnPlayerActivate
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnPlayerActivate`](Base/README.md#onplayeractivate)
+[`System`](Namespace.Base.md#abstract-system).[`OnPlayerActivate`](Namespace.Base.md#onplayeractivate)
 
 ##### OnPlayerChat()
 
@@ -7528,7 +7522,7 @@ Instance.OnPlayerChat
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnPlayerChat`](Base/README.md#onplayerchat)
+[`System`](Namespace.Base.md#abstract-system).[`OnPlayerChat`](Namespace.Base.md#onplayerchat)
 
 ##### OnPlayerConnect()
 
@@ -7551,7 +7545,7 @@ Instance.OnPlayerConnect
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnPlayerConnect`](Base/README.md#onplayerconnect)
+[`System`](Namespace.Base.md#abstract-system).[`OnPlayerConnect`](Namespace.Base.md#onplayerconnect)
 
 ##### OnPlayerDamage()
 
@@ -7573,7 +7567,7 @@ Instance.OnPlayerDamage
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnPlayerDamage`](Base/README.md#onplayerdamage)
+[`System`](Namespace.Base.md#abstract-system).[`OnPlayerDamage`](Namespace.Base.md#onplayerdamage)
 
 ##### OnPlayerDisconnect()
 
@@ -7596,7 +7590,7 @@ Instance.OnPlayerDisconnect
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnPlayerDisconnect`](Base/README.md#onplayerdisconnect)
+[`System`](Namespace.Base.md#abstract-system).[`OnPlayerDisconnect`](Namespace.Base.md#onplayerdisconnect)
 
 ##### OnPlayerJump()
 
@@ -7619,7 +7613,7 @@ Instance.OnPlayerJump
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnPlayerJump`](Base/README.md#onplayerjump)
+[`System`](Namespace.Base.md#abstract-system).[`OnPlayerJump`](Namespace.Base.md#onplayerjump)
 
 ##### OnPlayerKill()
 
@@ -7645,7 +7639,7 @@ Instance.OnPlayerKill
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnPlayerKill`](Base/README.md#onplayerkill)
+[`System`](Namespace.Base.md#abstract-system).[`OnPlayerKill`](Namespace.Base.md#onplayerkill)
 
 ##### OnPlayerLand()
 
@@ -7668,7 +7662,7 @@ Instance.OnPlayerLand
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnPlayerLand`](Base/README.md#onplayerland)
+[`System`](Namespace.Base.md#abstract-system).[`OnPlayerLand`](Namespace.Base.md#onplayerland)
 
 ##### OnPlayerPing()
 
@@ -7692,7 +7686,7 @@ Instance.OnPlayerPing
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnPlayerPing`](Base/README.md#onplayerping)
+[`System`](Namespace.Base.md#abstract-system).[`OnPlayerPing`](Namespace.Base.md#onplayerping)
 
 ##### OnPlayerReset()
 
@@ -7715,7 +7709,7 @@ Instance.OnPlayerReset
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnPlayerReset`](Base/README.md#onplayerreset)
+[`System`](Namespace.Base.md#abstract-system).[`OnPlayerReset`](Namespace.Base.md#onplayerreset)
 
 ##### OnRoundEnd()
 
@@ -7739,7 +7733,7 @@ Instance.OnRoundEnd
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnRoundEnd`](Base/README.md#onroundend)
+[`System`](Namespace.Base.md#abstract-system).[`OnRoundEnd`](Namespace.Base.md#onroundend)
 
 ##### OnRoundStart()
 
@@ -7755,7 +7749,7 @@ Instance.OnRoundStart
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnRoundStart`](Base/README.md#onroundstart)
+[`System`](Namespace.Base.md#abstract-system).[`OnRoundStart`](Namespace.Base.md#onroundstart)
 
 ##### OnScriptReload()
 
@@ -7771,7 +7765,7 @@ Simpler Version of OnScriptReloadAfter
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnScriptReload`](Base/README.md#onscriptreload)
+[`System`](Namespace.Base.md#abstract-system).[`OnScriptReload`](Namespace.Base.md#onscriptreload)
 
 ##### OnScriptReloadAfter()
 
@@ -7799,7 +7793,7 @@ Instance.OnReload({after})
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnScriptReloadAfter`](Base/README.md#onscriptreloadafter)
+[`System`](Namespace.Base.md#abstract-system).[`OnScriptReloadAfter`](Namespace.Base.md#onscriptreloadafter)
 
 ##### OnScriptReloadBefore()
 
@@ -7821,7 +7815,7 @@ Instance.OnReload({before})
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnScriptReloadBefore`](Base/README.md#onscriptreloadbefore)
+[`System`](Namespace.Base.md#abstract-system).[`OnScriptReloadBefore`](Namespace.Base.md#onscriptreloadbefore)
 
 ##### setInterval()
 
@@ -7858,7 +7852,7 @@ Defined in: [src/base/System.ts:32](https://github.com/Orb-Workshop/scriptedeuch
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`SetTick`](Base/README.md#settick-2)
+[`System`](Namespace.Base.md#abstract-system).[`SetTick`](Namespace.Base.md#settick-2)
 
 ##### SetTickInterval()
 
@@ -7878,7 +7872,7 @@ Defined in: [src/base/System.ts:31](https://github.com/Orb-Workshop/scriptedeuch
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`SetTickInterval`](Base/README.md#settickinterval-2)
+[`System`](Namespace.Base.md#abstract-system).[`SetTickInterval`](Namespace.Base.md#settickinterval-2)
 
 ##### setTimeout()
 
@@ -7911,7 +7905,7 @@ Replacement for `Instance.SetThink()` when used with `Base.Mount`.
 
 ###### Overrides
 
-[`System`](Base/README.md#abstract-system).[`Think`](Base/README.md#think-2)
+[`System`](Namespace.Base.md#abstract-system).[`Think`](Namespace.Base.md#think-2)
 
 ***
 
@@ -7923,7 +7917,7 @@ Mountable System Abstraction.
 
 #### Extends
 
-- [`System`](Base/README.md#abstract-system)
+- [`System`](Namespace.Base.md#abstract-system)
 
 #### Constructors
 
@@ -7948,7 +7942,7 @@ Defined in: [src/system/SoundEventSystem.ts:137](https://github.com/Orb-Workshop
 
 ###### Overrides
 
-[`System`](Base/README.md#abstract-system).[`constructor`](Base/README.md#constructor-2)
+[`System`](Namespace.Base.md#abstract-system).[`constructor`](Namespace.Base.md#constructor-2)
 
 #### Methods
 
@@ -7964,7 +7958,7 @@ Defined in: [src/base/System.ts:29](https://github.com/Orb-Workshop/scriptedeuch
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`DisableSystem`](Base/README.md#disablesystem)
+[`System`](Namespace.Base.md#abstract-system).[`DisableSystem`](Namespace.Base.md#disablesystem)
 
 ##### EnableSystem()
 
@@ -7978,7 +7972,7 @@ Defined in: [src/base/System.ts:28](https://github.com/Orb-Workshop/scriptedeuch
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`EnableSystem`](Base/README.md#enablesystem)
+[`System`](Namespace.Base.md#abstract-system).[`EnableSystem`](Namespace.Base.md#enablesystem)
 
 ##### GetDelta()
 
@@ -7992,7 +7986,7 @@ Defined in: [src/base/System.ts:33](https://github.com/Orb-Workshop/scriptedeuch
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`GetDelta`](Base/README.md#getdelta-2)
+[`System`](Namespace.Base.md#abstract-system).[`GetDelta`](Namespace.Base.md#getdelta-2)
 
 ##### IsSystemEnabled()
 
@@ -8006,7 +8000,7 @@ Defined in: [src/base/System.ts:30](https://github.com/Orb-Workshop/scriptedeuch
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`IsSystemEnabled`](Base/README.md#issystemenabled)
+[`System`](Namespace.Base.md#abstract-system).[`IsSystemEnabled`](Namespace.Base.md#issystemenabled)
 
 ##### MaybeThink()
 
@@ -8020,7 +8014,7 @@ Defined in: [src/base/System.ts:35](https://github.com/Orb-Workshop/scriptedeuch
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`MaybeThink`](Base/README.md#maybethink-2)
+[`System`](Namespace.Base.md#abstract-system).[`MaybeThink`](Namespace.Base.md#maybethink-2)
 
 ##### OnActivate()
 
@@ -8036,7 +8030,7 @@ Instance.OnActivate()
 
 ###### Overrides
 
-[`System`](Base/README.md#abstract-system).[`OnActivate`](Base/README.md#onactivate)
+[`System`](Namespace.Base.md#abstract-system).[`OnActivate`](Namespace.Base.md#onactivate)
 
 ##### ~~OnBeforePlayerDamage()~~
 
@@ -8060,7 +8054,7 @@ Instance.OnBeforePlayerDamage()
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnBeforePlayerDamage`](Base/README.md#onbeforeplayerdamage)
+[`System`](Namespace.Base.md#abstract-system).[`OnBeforePlayerDamage`](Namespace.Base.md#onbeforeplayerdamage)
 
 ##### OnBombDefuse()
 
@@ -8084,7 +8078,7 @@ Instance.OnBombDefuse()
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnBombDefuse`](Base/README.md#onbombdefuse)
+[`System`](Namespace.Base.md#abstract-system).[`OnBombDefuse`](Namespace.Base.md#onbombdefuse)
 
 ##### OnBombPlant()
 
@@ -8108,7 +8102,7 @@ Instance.OnBombPlant()
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnBombPlant`](Base/README.md#onbombplant)
+[`System`](Namespace.Base.md#abstract-system).[`OnBombPlant`](Namespace.Base.md#onbombplant)
 
 ##### OnBulletImpact()
 
@@ -8132,7 +8126,7 @@ Instance.OnBulletImpact()
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnBulletImpact`](Base/README.md#onbulletimpact)
+[`System`](Namespace.Base.md#abstract-system).[`OnBulletImpact`](Namespace.Base.md#onbulletimpact)
 
 ##### OnGrenadeBounce()
 
@@ -8156,7 +8150,7 @@ Instance.OnGrenadeBounce()
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnGrenadeBounce`](Base/README.md#ongrenadebounce)
+[`System`](Namespace.Base.md#abstract-system).[`OnGrenadeBounce`](Namespace.Base.md#ongrenadebounce)
 
 ##### OnGrenadeThrow()
 
@@ -8180,7 +8174,7 @@ Instance.OnGrenadeThrow()
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnGrenadeThrow`](Base/README.md#ongrenadethrow)
+[`System`](Namespace.Base.md#abstract-system).[`OnGrenadeThrow`](Namespace.Base.md#ongrenadethrow)
 
 ##### OnGunFire()
 
@@ -8203,7 +8197,7 @@ Instance.OnGunFire()
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnGunFire`](Base/README.md#ongunfire)
+[`System`](Namespace.Base.md#abstract-system).[`OnGunFire`](Namespace.Base.md#ongunfire)
 
 ##### OnGunReload()
 
@@ -8226,7 +8220,7 @@ Instance.OnGunReload
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnGunReload`](Base/README.md#ongunreload)
+[`System`](Namespace.Base.md#abstract-system).[`OnGunReload`](Namespace.Base.md#ongunreload)
 
 ##### OnKnifeAttack()
 
@@ -8250,7 +8244,7 @@ Instance.OnKnifeAttack
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnKnifeAttack`](Base/README.md#onknifeattack)
+[`System`](Namespace.Base.md#abstract-system).[`OnKnifeAttack`](Namespace.Base.md#onknifeattack)
 
 ##### OnModifyPlayerDamage()
 
@@ -8272,7 +8266,7 @@ Instance.OnModifyPlayerDamage()
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnModifyPlayerDamage`](Base/README.md#onmodifyplayerdamage)
+[`System`](Namespace.Base.md#abstract-system).[`OnModifyPlayerDamage`](Namespace.Base.md#onmodifyplayerdamage)
 
 ##### OnPlayerActivate()
 
@@ -8295,7 +8289,7 @@ Instance.OnPlayerActivate
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnPlayerActivate`](Base/README.md#onplayeractivate)
+[`System`](Namespace.Base.md#abstract-system).[`OnPlayerActivate`](Namespace.Base.md#onplayeractivate)
 
 ##### OnPlayerChat()
 
@@ -8320,7 +8314,7 @@ Instance.OnPlayerChat
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnPlayerChat`](Base/README.md#onplayerchat)
+[`System`](Namespace.Base.md#abstract-system).[`OnPlayerChat`](Namespace.Base.md#onplayerchat)
 
 ##### OnPlayerConnect()
 
@@ -8343,7 +8337,7 @@ Instance.OnPlayerConnect
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnPlayerConnect`](Base/README.md#onplayerconnect)
+[`System`](Namespace.Base.md#abstract-system).[`OnPlayerConnect`](Namespace.Base.md#onplayerconnect)
 
 ##### OnPlayerDamage()
 
@@ -8365,7 +8359,7 @@ Instance.OnPlayerDamage
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnPlayerDamage`](Base/README.md#onplayerdamage)
+[`System`](Namespace.Base.md#abstract-system).[`OnPlayerDamage`](Namespace.Base.md#onplayerdamage)
 
 ##### OnPlayerDisconnect()
 
@@ -8388,7 +8382,7 @@ Instance.OnPlayerDisconnect
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnPlayerDisconnect`](Base/README.md#onplayerdisconnect)
+[`System`](Namespace.Base.md#abstract-system).[`OnPlayerDisconnect`](Namespace.Base.md#onplayerdisconnect)
 
 ##### OnPlayerJump()
 
@@ -8411,7 +8405,7 @@ Instance.OnPlayerJump
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnPlayerJump`](Base/README.md#onplayerjump)
+[`System`](Namespace.Base.md#abstract-system).[`OnPlayerJump`](Namespace.Base.md#onplayerjump)
 
 ##### OnPlayerKill()
 
@@ -8437,7 +8431,7 @@ Instance.OnPlayerKill
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnPlayerKill`](Base/README.md#onplayerkill)
+[`System`](Namespace.Base.md#abstract-system).[`OnPlayerKill`](Namespace.Base.md#onplayerkill)
 
 ##### OnPlayerLand()
 
@@ -8460,7 +8454,7 @@ Instance.OnPlayerLand
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnPlayerLand`](Base/README.md#onplayerland)
+[`System`](Namespace.Base.md#abstract-system).[`OnPlayerLand`](Namespace.Base.md#onplayerland)
 
 ##### OnPlayerPing()
 
@@ -8484,7 +8478,7 @@ Instance.OnPlayerPing
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnPlayerPing`](Base/README.md#onplayerping)
+[`System`](Namespace.Base.md#abstract-system).[`OnPlayerPing`](Namespace.Base.md#onplayerping)
 
 ##### OnPlayerReset()
 
@@ -8507,7 +8501,7 @@ Instance.OnPlayerReset
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnPlayerReset`](Base/README.md#onplayerreset)
+[`System`](Namespace.Base.md#abstract-system).[`OnPlayerReset`](Namespace.Base.md#onplayerreset)
 
 ##### OnRoundEnd()
 
@@ -8531,7 +8525,7 @@ Instance.OnRoundEnd
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnRoundEnd`](Base/README.md#onroundend)
+[`System`](Namespace.Base.md#abstract-system).[`OnRoundEnd`](Namespace.Base.md#onroundend)
 
 ##### OnRoundStart()
 
@@ -8547,7 +8541,7 @@ Instance.OnRoundStart
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnRoundStart`](Base/README.md#onroundstart)
+[`System`](Namespace.Base.md#abstract-system).[`OnRoundStart`](Namespace.Base.md#onroundstart)
 
 ##### OnScriptReload()
 
@@ -8563,7 +8557,7 @@ Simpler Version of OnScriptReloadAfter
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnScriptReload`](Base/README.md#onscriptreload)
+[`System`](Namespace.Base.md#abstract-system).[`OnScriptReload`](Namespace.Base.md#onscriptreload)
 
 ##### OnScriptReloadAfter()
 
@@ -8591,7 +8585,7 @@ Instance.OnReload({after})
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnScriptReloadAfter`](Base/README.md#onscriptreloadafter)
+[`System`](Namespace.Base.md#abstract-system).[`OnScriptReloadAfter`](Namespace.Base.md#onscriptreloadafter)
 
 ##### OnScriptReloadBefore()
 
@@ -8613,7 +8607,7 @@ Instance.OnReload({before})
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnScriptReloadBefore`](Base/README.md#onscriptreloadbefore)
+[`System`](Namespace.Base.md#abstract-system).[`OnScriptReloadBefore`](Namespace.Base.md#onscriptreloadbefore)
 
 ##### PlaySoundToPlayer()
 
@@ -8651,7 +8645,7 @@ Defined in: [src/base/System.ts:32](https://github.com/Orb-Workshop/scriptedeuch
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`SetTick`](Base/README.md#settick-2)
+[`System`](Namespace.Base.md#abstract-system).[`SetTick`](Namespace.Base.md#settick-2)
 
 ##### SetTickInterval()
 
@@ -8671,7 +8665,7 @@ Defined in: [src/base/System.ts:31](https://github.com/Orb-Workshop/scriptedeuch
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`SetTickInterval`](Base/README.md#settickinterval-2)
+[`System`](Namespace.Base.md#abstract-system).[`SetTickInterval`](Namespace.Base.md#settickinterval-2)
 
 ##### Think()
 
@@ -8687,7 +8681,7 @@ Replacement for `Instance.SetThink()` when used with `Base.Mount`.
 
 ###### Overrides
 
-[`System`](Base/README.md#abstract-system).[`Think`](Base/README.md#think-2)
+[`System`](Namespace.Base.md#abstract-system).[`Think`](Namespace.Base.md#think-2)
 
 ***
 
@@ -8699,7 +8693,7 @@ Mountable System Abstraction.
 
 #### Extends
 
-- [`System`](Base/README.md#abstract-system)
+- [`System`](Namespace.Base.md#abstract-system)
 
 #### Constructors
 
@@ -8725,7 +8719,7 @@ Defined in: [src/system/WeaponReplacementSystem.ts:22](https://github.com/Orb-Wo
 
 ###### Overrides
 
-[`System`](Base/README.md#abstract-system).[`constructor`](Base/README.md#constructor-2)
+[`System`](Namespace.Base.md#abstract-system).[`constructor`](Namespace.Base.md#constructor-2)
 
 #### Methods
 
@@ -8741,7 +8735,7 @@ Defined in: [src/base/System.ts:29](https://github.com/Orb-Workshop/scriptedeuch
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`DisableSystem`](Base/README.md#disablesystem)
+[`System`](Namespace.Base.md#abstract-system).[`DisableSystem`](Namespace.Base.md#disablesystem)
 
 ##### EnableSystem()
 
@@ -8755,7 +8749,7 @@ Defined in: [src/base/System.ts:28](https://github.com/Orb-Workshop/scriptedeuch
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`EnableSystem`](Base/README.md#enablesystem)
+[`System`](Namespace.Base.md#abstract-system).[`EnableSystem`](Namespace.Base.md#enablesystem)
 
 ##### GetDelta()
 
@@ -8769,7 +8763,7 @@ Defined in: [src/base/System.ts:33](https://github.com/Orb-Workshop/scriptedeuch
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`GetDelta`](Base/README.md#getdelta-2)
+[`System`](Namespace.Base.md#abstract-system).[`GetDelta`](Namespace.Base.md#getdelta-2)
 
 ##### IsSystemEnabled()
 
@@ -8783,7 +8777,7 @@ Defined in: [src/base/System.ts:30](https://github.com/Orb-Workshop/scriptedeuch
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`IsSystemEnabled`](Base/README.md#issystemenabled)
+[`System`](Namespace.Base.md#abstract-system).[`IsSystemEnabled`](Namespace.Base.md#issystemenabled)
 
 ##### MaybeThink()
 
@@ -8797,7 +8791,7 @@ Defined in: [src/base/System.ts:35](https://github.com/Orb-Workshop/scriptedeuch
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`MaybeThink`](Base/README.md#maybethink-2)
+[`System`](Namespace.Base.md#abstract-system).[`MaybeThink`](Namespace.Base.md#maybethink-2)
 
 ##### OnActivate()
 
@@ -8813,7 +8807,7 @@ Instance.OnActivate()
 
 ###### Overrides
 
-[`System`](Base/README.md#abstract-system).[`OnActivate`](Base/README.md#onactivate)
+[`System`](Namespace.Base.md#abstract-system).[`OnActivate`](Namespace.Base.md#onactivate)
 
 ##### ~~OnBeforePlayerDamage()~~
 
@@ -8837,7 +8831,7 @@ Instance.OnBeforePlayerDamage()
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnBeforePlayerDamage`](Base/README.md#onbeforeplayerdamage)
+[`System`](Namespace.Base.md#abstract-system).[`OnBeforePlayerDamage`](Namespace.Base.md#onbeforeplayerdamage)
 
 ##### OnBombDefuse()
 
@@ -8861,7 +8855,7 @@ Instance.OnBombDefuse()
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnBombDefuse`](Base/README.md#onbombdefuse)
+[`System`](Namespace.Base.md#abstract-system).[`OnBombDefuse`](Namespace.Base.md#onbombdefuse)
 
 ##### OnBombPlant()
 
@@ -8885,7 +8879,7 @@ Instance.OnBombPlant()
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnBombPlant`](Base/README.md#onbombplant)
+[`System`](Namespace.Base.md#abstract-system).[`OnBombPlant`](Namespace.Base.md#onbombplant)
 
 ##### OnBulletImpact()
 
@@ -8909,7 +8903,7 @@ Instance.OnBulletImpact()
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnBulletImpact`](Base/README.md#onbulletimpact)
+[`System`](Namespace.Base.md#abstract-system).[`OnBulletImpact`](Namespace.Base.md#onbulletimpact)
 
 ##### OnGrenadeBounce()
 
@@ -8933,7 +8927,7 @@ Instance.OnGrenadeBounce()
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnGrenadeBounce`](Base/README.md#ongrenadebounce)
+[`System`](Namespace.Base.md#abstract-system).[`OnGrenadeBounce`](Namespace.Base.md#ongrenadebounce)
 
 ##### OnGrenadeThrow()
 
@@ -8957,7 +8951,7 @@ Instance.OnGrenadeThrow()
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnGrenadeThrow`](Base/README.md#ongrenadethrow)
+[`System`](Namespace.Base.md#abstract-system).[`OnGrenadeThrow`](Namespace.Base.md#ongrenadethrow)
 
 ##### OnGunFire()
 
@@ -8980,7 +8974,7 @@ Instance.OnGunFire()
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnGunFire`](Base/README.md#ongunfire)
+[`System`](Namespace.Base.md#abstract-system).[`OnGunFire`](Namespace.Base.md#ongunfire)
 
 ##### OnGunReload()
 
@@ -9003,7 +8997,7 @@ Instance.OnGunReload
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnGunReload`](Base/README.md#ongunreload)
+[`System`](Namespace.Base.md#abstract-system).[`OnGunReload`](Namespace.Base.md#ongunreload)
 
 ##### OnKnifeAttack()
 
@@ -9027,7 +9021,7 @@ Instance.OnKnifeAttack
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnKnifeAttack`](Base/README.md#onknifeattack)
+[`System`](Namespace.Base.md#abstract-system).[`OnKnifeAttack`](Namespace.Base.md#onknifeattack)
 
 ##### OnModifyPlayerDamage()
 
@@ -9049,7 +9043,7 @@ Instance.OnModifyPlayerDamage()
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnModifyPlayerDamage`](Base/README.md#onmodifyplayerdamage)
+[`System`](Namespace.Base.md#abstract-system).[`OnModifyPlayerDamage`](Namespace.Base.md#onmodifyplayerdamage)
 
 ##### OnPlayerActivate()
 
@@ -9072,7 +9066,7 @@ Instance.OnPlayerActivate
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnPlayerActivate`](Base/README.md#onplayeractivate)
+[`System`](Namespace.Base.md#abstract-system).[`OnPlayerActivate`](Namespace.Base.md#onplayeractivate)
 
 ##### OnPlayerChat()
 
@@ -9097,7 +9091,7 @@ Instance.OnPlayerChat
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnPlayerChat`](Base/README.md#onplayerchat)
+[`System`](Namespace.Base.md#abstract-system).[`OnPlayerChat`](Namespace.Base.md#onplayerchat)
 
 ##### OnPlayerConnect()
 
@@ -9120,7 +9114,7 @@ Instance.OnPlayerConnect
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnPlayerConnect`](Base/README.md#onplayerconnect)
+[`System`](Namespace.Base.md#abstract-system).[`OnPlayerConnect`](Namespace.Base.md#onplayerconnect)
 
 ##### OnPlayerDamage()
 
@@ -9142,7 +9136,7 @@ Instance.OnPlayerDamage
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnPlayerDamage`](Base/README.md#onplayerdamage)
+[`System`](Namespace.Base.md#abstract-system).[`OnPlayerDamage`](Namespace.Base.md#onplayerdamage)
 
 ##### OnPlayerDisconnect()
 
@@ -9165,7 +9159,7 @@ Instance.OnPlayerDisconnect
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnPlayerDisconnect`](Base/README.md#onplayerdisconnect)
+[`System`](Namespace.Base.md#abstract-system).[`OnPlayerDisconnect`](Namespace.Base.md#onplayerdisconnect)
 
 ##### OnPlayerJump()
 
@@ -9188,7 +9182,7 @@ Instance.OnPlayerJump
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnPlayerJump`](Base/README.md#onplayerjump)
+[`System`](Namespace.Base.md#abstract-system).[`OnPlayerJump`](Namespace.Base.md#onplayerjump)
 
 ##### OnPlayerKill()
 
@@ -9214,7 +9208,7 @@ Instance.OnPlayerKill
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnPlayerKill`](Base/README.md#onplayerkill)
+[`System`](Namespace.Base.md#abstract-system).[`OnPlayerKill`](Namespace.Base.md#onplayerkill)
 
 ##### OnPlayerLand()
 
@@ -9237,7 +9231,7 @@ Instance.OnPlayerLand
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnPlayerLand`](Base/README.md#onplayerland)
+[`System`](Namespace.Base.md#abstract-system).[`OnPlayerLand`](Namespace.Base.md#onplayerland)
 
 ##### OnPlayerPing()
 
@@ -9261,7 +9255,7 @@ Instance.OnPlayerPing
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnPlayerPing`](Base/README.md#onplayerping)
+[`System`](Namespace.Base.md#abstract-system).[`OnPlayerPing`](Namespace.Base.md#onplayerping)
 
 ##### OnPlayerReset()
 
@@ -9283,7 +9277,7 @@ Instance.OnPlayerReset
 
 ###### Overrides
 
-[`System`](Base/README.md#abstract-system).[`OnPlayerReset`](Base/README.md#onplayerreset)
+[`System`](Namespace.Base.md#abstract-system).[`OnPlayerReset`](Namespace.Base.md#onplayerreset)
 
 ##### OnRoundEnd()
 
@@ -9307,7 +9301,7 @@ Instance.OnRoundEnd
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnRoundEnd`](Base/README.md#onroundend)
+[`System`](Namespace.Base.md#abstract-system).[`OnRoundEnd`](Namespace.Base.md#onroundend)
 
 ##### OnRoundStart()
 
@@ -9323,7 +9317,7 @@ Instance.OnRoundStart
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnRoundStart`](Base/README.md#onroundstart)
+[`System`](Namespace.Base.md#abstract-system).[`OnRoundStart`](Namespace.Base.md#onroundstart)
 
 ##### OnScriptReload()
 
@@ -9339,7 +9333,7 @@ Simpler Version of OnScriptReloadAfter
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnScriptReload`](Base/README.md#onscriptreload)
+[`System`](Namespace.Base.md#abstract-system).[`OnScriptReload`](Namespace.Base.md#onscriptreload)
 
 ##### OnScriptReloadAfter()
 
@@ -9367,7 +9361,7 @@ Instance.OnReload({after})
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnScriptReloadAfter`](Base/README.md#onscriptreloadafter)
+[`System`](Namespace.Base.md#abstract-system).[`OnScriptReloadAfter`](Namespace.Base.md#onscriptreloadafter)
 
 ##### OnScriptReloadBefore()
 
@@ -9389,7 +9383,7 @@ Instance.OnReload({before})
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`OnScriptReloadBefore`](Base/README.md#onscriptreloadbefore)
+[`System`](Namespace.Base.md#abstract-system).[`OnScriptReloadBefore`](Namespace.Base.md#onscriptreloadbefore)
 
 ##### ReplaceWeapons()
 
@@ -9425,7 +9419,7 @@ Defined in: [src/base/System.ts:32](https://github.com/Orb-Workshop/scriptedeuch
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`SetTick`](Base/README.md#settick-2)
+[`System`](Namespace.Base.md#abstract-system).[`SetTick`](Namespace.Base.md#settick-2)
 
 ##### SetTickInterval()
 
@@ -9445,7 +9439,7 @@ Defined in: [src/base/System.ts:31](https://github.com/Orb-Workshop/scriptedeuch
 
 ###### Inherited from
 
-[`System`](Base/README.md#abstract-system).[`SetTickInterval`](Base/README.md#settickinterval-2)
+[`System`](Namespace.Base.md#abstract-system).[`SetTickInterval`](Namespace.Base.md#settickinterval-2)
 
 ##### Think()
 
@@ -9461,4 +9455,4 @@ Replacement for `Instance.SetThink()` when used with `Base.Mount`.
 
 ###### Overrides
 
-[`System`](Base/README.md#abstract-system).[`Think`](Base/README.md#think-2)
+[`System`](Namespace.Base.md#abstract-system).[`Think`](Namespace.Base.md#think-2)

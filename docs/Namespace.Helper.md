@@ -1,9 +1,3 @@
-[**scriptedeuch**](../../README.md)
-
-***
-
-[scriptedeuch](../../README.md) / Helper
-
 # Helper
 
 Entity Helper Library
@@ -223,13 +217,13 @@ Defined in: [src/helper/EntityHelper.ts:80](https://github.com/Orb-Workshop/scri
 
 ##### GetAbsAngles()
 
-> **GetAbsAngles**(): [`QAngle`](Math.md#qangle)
+> **GetAbsAngles**(): [`QAngle`](Namespace.Math.md#qangle)
 
 Defined in: [src/helper/EntityHelper.ts:126](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L126)
 
 ###### Returns
 
-[`QAngle`](Math.md#qangle)
+[`QAngle`](Namespace.Math.md#qangle)
 
 ###### Inherited from
 
@@ -237,13 +231,13 @@ Defined in: [src/helper/EntityHelper.ts:126](https://github.com/Orb-Workshop/scr
 
 ##### GetAbsOrigin()
 
-> **GetAbsOrigin**(): [`Vector3`](Math.md#vector3)
+> **GetAbsOrigin**(): [`Vector3`](Namespace.Math.md#vector3)
 
 Defined in: [src/helper/EntityHelper.ts:118](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L118)
 
 ###### Returns
 
-[`Vector3`](Math.md#vector3)
+[`Vector3`](Namespace.Math.md#vector3)
 
 ###### Inherited from
 
@@ -251,13 +245,13 @@ Defined in: [src/helper/EntityHelper.ts:118](https://github.com/Orb-Workshop/scr
 
 ##### GetAbsVelocity()
 
-> **GetAbsVelocity**(): [`Vector3`](Math.md#vector3)
+> **GetAbsVelocity**(): [`Vector3`](Namespace.Math.md#vector3)
 
 Defined in: [src/helper/EntityHelper.ts:134](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L134)
 
 ###### Returns
 
-[`Vector3`](Math.md#vector3)
+[`Vector3`](Namespace.Math.md#vector3)
 
 ###### Inherited from
 
@@ -303,13 +297,13 @@ Defined in: [src/helper/EntityHelper.ts:158](https://github.com/Orb-Workshop/scr
 
 ##### GetEyeAngles()
 
-> **GetEyeAngles**(): [`QAngle`](Math.md#qangle)
+> **GetEyeAngles**(): [`QAngle`](Namespace.Math.md#qangle)
 
 Defined in: [src/helper/EntityHelper.ts:142](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L142)
 
 ###### Returns
 
-[`QAngle`](Math.md#qangle)
+[`QAngle`](Namespace.Math.md#qangle)
 
 ###### Inherited from
 
@@ -317,13 +311,13 @@ Defined in: [src/helper/EntityHelper.ts:142](https://github.com/Orb-Workshop/scr
 
 ##### GetEyePosition()
 
-> **GetEyePosition**(): [`Vector3`](Math.md#vector3)
+> **GetEyePosition**(): [`Vector3`](Namespace.Math.md#vector3)
 
 Defined in: [src/helper/EntityHelper.ts:146](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L146)
 
 ###### Returns
 
-[`Vector3`](Math.md#vector3)
+[`Vector3`](Namespace.Math.md#vector3)
 
 ###### Inherited from
 
@@ -359,13 +353,13 @@ Defined in: [src/helper/EntityHelper.ts:186](https://github.com/Orb-Workshop/scr
 
 ##### GetLocalAngles()
 
-> **GetLocalAngles**(): [`QAngle`](Math.md#qangle)
+> **GetLocalAngles**(): [`QAngle`](Namespace.Math.md#qangle)
 
 Defined in: [src/helper/EntityHelper.ts:130](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L130)
 
 ###### Returns
 
-[`QAngle`](Math.md#qangle)
+[`QAngle`](Namespace.Math.md#qangle)
 
 ###### Inherited from
 
@@ -373,13 +367,13 @@ Defined in: [src/helper/EntityHelper.ts:130](https://github.com/Orb-Workshop/scr
 
 ##### GetLocalOrigin()
 
-> **GetLocalOrigin**(): [`Vector3`](Math.md#vector3)
+> **GetLocalOrigin**(): [`Vector3`](Namespace.Math.md#vector3)
 
 Defined in: [src/helper/EntityHelper.ts:122](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L122)
 
 ###### Returns
 
-[`Vector3`](Math.md#vector3)
+[`Vector3`](Namespace.Math.md#vector3)
 
 ###### Inherited from
 
@@ -387,13 +381,13 @@ Defined in: [src/helper/EntityHelper.ts:122](https://github.com/Orb-Workshop/scr
 
 ##### GetLocalVelocity()
 
-> **GetLocalVelocity**(): [`Vector3`](Math.md#vector3)
+> **GetLocalVelocity**(): [`Vector3`](Namespace.Math.md#vector3)
 
 Defined in: [src/helper/EntityHelper.ts:138](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L138)
 
 ###### Returns
 
-[`Vector3`](Math.md#vector3)
+[`Vector3`](Namespace.Math.md#vector3)
 
 ###### Inherited from
 
@@ -1094,33 +1088,33 @@ Defined in: [src/helper/EntityHelper.ts:80](https://github.com/Orb-Workshop/scri
 
 ##### GetAbsAngles()
 
-> **GetAbsAngles**(): [`QAngle`](Math.md#qangle)
+> **GetAbsAngles**(): [`QAngle`](Namespace.Math.md#qangle)
 
 Defined in: [src/helper/EntityHelper.ts:126](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L126)
 
 ###### Returns
 
-[`QAngle`](Math.md#qangle)
+[`QAngle`](Namespace.Math.md#qangle)
 
 ##### GetAbsOrigin()
 
-> **GetAbsOrigin**(): [`Vector3`](Math.md#vector3)
+> **GetAbsOrigin**(): [`Vector3`](Namespace.Math.md#vector3)
 
 Defined in: [src/helper/EntityHelper.ts:118](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L118)
 
 ###### Returns
 
-[`Vector3`](Math.md#vector3)
+[`Vector3`](Namespace.Math.md#vector3)
 
 ##### GetAbsVelocity()
 
-> **GetAbsVelocity**(): [`Vector3`](Math.md#vector3)
+> **GetAbsVelocity**(): [`Vector3`](Namespace.Math.md#vector3)
 
 Defined in: [src/helper/EntityHelper.ts:134](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L134)
 
 ###### Returns
 
-[`Vector3`](Math.md#vector3)
+[`Vector3`](Namespace.Math.md#vector3)
 
 ##### GetClassName()
 
@@ -1144,23 +1138,23 @@ Defined in: [src/helper/EntityHelper.ts:158](https://github.com/Orb-Workshop/scr
 
 ##### GetEyeAngles()
 
-> **GetEyeAngles**(): [`QAngle`](Math.md#qangle)
+> **GetEyeAngles**(): [`QAngle`](Namespace.Math.md#qangle)
 
 Defined in: [src/helper/EntityHelper.ts:142](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L142)
 
 ###### Returns
 
-[`QAngle`](Math.md#qangle)
+[`QAngle`](Namespace.Math.md#qangle)
 
 ##### GetEyePosition()
 
-> **GetEyePosition**(): [`Vector3`](Math.md#vector3)
+> **GetEyePosition**(): [`Vector3`](Namespace.Math.md#vector3)
 
 Defined in: [src/helper/EntityHelper.ts:146](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L146)
 
 ###### Returns
 
-[`Vector3`](Math.md#vector3)
+[`Vector3`](Namespace.Math.md#vector3)
 
 ##### GetGroundEntity()
 
@@ -1184,33 +1178,33 @@ Defined in: [src/helper/EntityHelper.ts:186](https://github.com/Orb-Workshop/scr
 
 ##### GetLocalAngles()
 
-> **GetLocalAngles**(): [`QAngle`](Math.md#qangle)
+> **GetLocalAngles**(): [`QAngle`](Namespace.Math.md#qangle)
 
 Defined in: [src/helper/EntityHelper.ts:130](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L130)
 
 ###### Returns
 
-[`QAngle`](Math.md#qangle)
+[`QAngle`](Namespace.Math.md#qangle)
 
 ##### GetLocalOrigin()
 
-> **GetLocalOrigin**(): [`Vector3`](Math.md#vector3)
+> **GetLocalOrigin**(): [`Vector3`](Namespace.Math.md#vector3)
 
 Defined in: [src/helper/EntityHelper.ts:122](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L122)
 
 ###### Returns
 
-[`Vector3`](Math.md#vector3)
+[`Vector3`](Namespace.Math.md#vector3)
 
 ##### GetLocalVelocity()
 
-> **GetLocalVelocity**(): [`Vector3`](Math.md#vector3)
+> **GetLocalVelocity**(): [`Vector3`](Namespace.Math.md#vector3)
 
 Defined in: [src/helper/EntityHelper.ts:138](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L138)
 
 ###### Returns
 
-[`Vector3`](Math.md#vector3)
+[`Vector3`](Namespace.Math.md#vector3)
 
 ##### GetMaxHealth()
 
@@ -1737,13 +1731,13 @@ Defined in: [src/helper/EntityHelper.ts:80](https://github.com/Orb-Workshop/scri
 
 ##### GetAbsAngles()
 
-> **GetAbsAngles**(): [`QAngle`](Math.md#qangle)
+> **GetAbsAngles**(): [`QAngle`](Namespace.Math.md#qangle)
 
 Defined in: [src/helper/EntityHelper.ts:126](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L126)
 
 ###### Returns
 
-[`QAngle`](Math.md#qangle)
+[`QAngle`](Namespace.Math.md#qangle)
 
 ###### Inherited from
 
@@ -1751,13 +1745,13 @@ Defined in: [src/helper/EntityHelper.ts:126](https://github.com/Orb-Workshop/scr
 
 ##### GetAbsOrigin()
 
-> **GetAbsOrigin**(): [`Vector3`](Math.md#vector3)
+> **GetAbsOrigin**(): [`Vector3`](Namespace.Math.md#vector3)
 
 Defined in: [src/helper/EntityHelper.ts:118](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L118)
 
 ###### Returns
 
-[`Vector3`](Math.md#vector3)
+[`Vector3`](Namespace.Math.md#vector3)
 
 ###### Inherited from
 
@@ -1765,13 +1759,13 @@ Defined in: [src/helper/EntityHelper.ts:118](https://github.com/Orb-Workshop/scr
 
 ##### GetAbsVelocity()
 
-> **GetAbsVelocity**(): [`Vector3`](Math.md#vector3)
+> **GetAbsVelocity**(): [`Vector3`](Namespace.Math.md#vector3)
 
 Defined in: [src/helper/EntityHelper.ts:134](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L134)
 
 ###### Returns
 
-[`Vector3`](Math.md#vector3)
+[`Vector3`](Namespace.Math.md#vector3)
 
 ###### Inherited from
 
@@ -1807,13 +1801,13 @@ Defined in: [src/helper/EntityHelper.ts:158](https://github.com/Orb-Workshop/scr
 
 ##### GetEyeAngles()
 
-> **GetEyeAngles**(): [`QAngle`](Math.md#qangle)
+> **GetEyeAngles**(): [`QAngle`](Namespace.Math.md#qangle)
 
 Defined in: [src/helper/EntityHelper.ts:142](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L142)
 
 ###### Returns
 
-[`QAngle`](Math.md#qangle)
+[`QAngle`](Namespace.Math.md#qangle)
 
 ###### Inherited from
 
@@ -1821,13 +1815,13 @@ Defined in: [src/helper/EntityHelper.ts:142](https://github.com/Orb-Workshop/scr
 
 ##### GetEyePosition()
 
-> **GetEyePosition**(): [`Vector3`](Math.md#vector3)
+> **GetEyePosition**(): [`Vector3`](Namespace.Math.md#vector3)
 
 Defined in: [src/helper/EntityHelper.ts:146](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L146)
 
 ###### Returns
 
-[`Vector3`](Math.md#vector3)
+[`Vector3`](Namespace.Math.md#vector3)
 
 ###### Inherited from
 
@@ -1863,13 +1857,13 @@ Defined in: [src/helper/EntityHelper.ts:186](https://github.com/Orb-Workshop/scr
 
 ##### GetLocalAngles()
 
-> **GetLocalAngles**(): [`QAngle`](Math.md#qangle)
+> **GetLocalAngles**(): [`QAngle`](Namespace.Math.md#qangle)
 
 Defined in: [src/helper/EntityHelper.ts:130](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L130)
 
 ###### Returns
 
-[`QAngle`](Math.md#qangle)
+[`QAngle`](Namespace.Math.md#qangle)
 
 ###### Inherited from
 
@@ -1877,13 +1871,13 @@ Defined in: [src/helper/EntityHelper.ts:130](https://github.com/Orb-Workshop/scr
 
 ##### GetLocalOrigin()
 
-> **GetLocalOrigin**(): [`Vector3`](Math.md#vector3)
+> **GetLocalOrigin**(): [`Vector3`](Namespace.Math.md#vector3)
 
 Defined in: [src/helper/EntityHelper.ts:122](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L122)
 
 ###### Returns
 
-[`Vector3`](Math.md#vector3)
+[`Vector3`](Namespace.Math.md#vector3)
 
 ###### Inherited from
 
@@ -1891,13 +1885,13 @@ Defined in: [src/helper/EntityHelper.ts:122](https://github.com/Orb-Workshop/scr
 
 ##### GetLocalVelocity()
 
-> **GetLocalVelocity**(): [`Vector3`](Math.md#vector3)
+> **GetLocalVelocity**(): [`Vector3`](Namespace.Math.md#vector3)
 
 Defined in: [src/helper/EntityHelper.ts:138](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L138)
 
 ###### Returns
 
-[`Vector3`](Math.md#vector3)
+[`Vector3`](Namespace.Math.md#vector3)
 
 ###### Inherited from
 
@@ -2508,13 +2502,13 @@ Defined in: [src/helper/EntityHelper.ts:80](https://github.com/Orb-Workshop/scri
 
 ##### GetAbsAngles()
 
-> **GetAbsAngles**(): [`QAngle`](Math.md#qangle)
+> **GetAbsAngles**(): [`QAngle`](Namespace.Math.md#qangle)
 
 Defined in: [src/helper/EntityHelper.ts:126](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L126)
 
 ###### Returns
 
-[`QAngle`](Math.md#qangle)
+[`QAngle`](Namespace.Math.md#qangle)
 
 ###### Inherited from
 
@@ -2522,13 +2516,13 @@ Defined in: [src/helper/EntityHelper.ts:126](https://github.com/Orb-Workshop/scr
 
 ##### GetAbsOrigin()
 
-> **GetAbsOrigin**(): [`Vector3`](Math.md#vector3)
+> **GetAbsOrigin**(): [`Vector3`](Namespace.Math.md#vector3)
 
 Defined in: [src/helper/EntityHelper.ts:118](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L118)
 
 ###### Returns
 
-[`Vector3`](Math.md#vector3)
+[`Vector3`](Namespace.Math.md#vector3)
 
 ###### Inherited from
 
@@ -2536,13 +2530,13 @@ Defined in: [src/helper/EntityHelper.ts:118](https://github.com/Orb-Workshop/scr
 
 ##### GetAbsVelocity()
 
-> **GetAbsVelocity**(): [`Vector3`](Math.md#vector3)
+> **GetAbsVelocity**(): [`Vector3`](Namespace.Math.md#vector3)
 
 Defined in: [src/helper/EntityHelper.ts:134](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L134)
 
 ###### Returns
 
-[`Vector3`](Math.md#vector3)
+[`Vector3`](Namespace.Math.md#vector3)
 
 ###### Inherited from
 
@@ -2578,13 +2572,13 @@ Defined in: [src/helper/EntityHelper.ts:158](https://github.com/Orb-Workshop/scr
 
 ##### GetEyeAngles()
 
-> **GetEyeAngles**(): [`QAngle`](Math.md#qangle)
+> **GetEyeAngles**(): [`QAngle`](Namespace.Math.md#qangle)
 
 Defined in: [src/helper/EntityHelper.ts:142](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L142)
 
 ###### Returns
 
-[`QAngle`](Math.md#qangle)
+[`QAngle`](Namespace.Math.md#qangle)
 
 ###### Inherited from
 
@@ -2592,13 +2586,13 @@ Defined in: [src/helper/EntityHelper.ts:142](https://github.com/Orb-Workshop/scr
 
 ##### GetEyePosition()
 
-> **GetEyePosition**(): [`Vector3`](Math.md#vector3)
+> **GetEyePosition**(): [`Vector3`](Namespace.Math.md#vector3)
 
 Defined in: [src/helper/EntityHelper.ts:146](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L146)
 
 ###### Returns
 
-[`Vector3`](Math.md#vector3)
+[`Vector3`](Namespace.Math.md#vector3)
 
 ###### Inherited from
 
@@ -2634,13 +2628,13 @@ Defined in: [src/helper/EntityHelper.ts:186](https://github.com/Orb-Workshop/scr
 
 ##### GetLocalAngles()
 
-> **GetLocalAngles**(): [`QAngle`](Math.md#qangle)
+> **GetLocalAngles**(): [`QAngle`](Namespace.Math.md#qangle)
 
 Defined in: [src/helper/EntityHelper.ts:130](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L130)
 
 ###### Returns
 
-[`QAngle`](Math.md#qangle)
+[`QAngle`](Namespace.Math.md#qangle)
 
 ###### Inherited from
 
@@ -2648,13 +2642,13 @@ Defined in: [src/helper/EntityHelper.ts:130](https://github.com/Orb-Workshop/scr
 
 ##### GetLocalOrigin()
 
-> **GetLocalOrigin**(): [`Vector3`](Math.md#vector3)
+> **GetLocalOrigin**(): [`Vector3`](Namespace.Math.md#vector3)
 
 Defined in: [src/helper/EntityHelper.ts:122](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L122)
 
 ###### Returns
 
-[`Vector3`](Math.md#vector3)
+[`Vector3`](Namespace.Math.md#vector3)
 
 ###### Inherited from
 
@@ -2662,13 +2656,13 @@ Defined in: [src/helper/EntityHelper.ts:122](https://github.com/Orb-Workshop/scr
 
 ##### GetLocalVelocity()
 
-> **GetLocalVelocity**(): [`Vector3`](Math.md#vector3)
+> **GetLocalVelocity**(): [`Vector3`](Namespace.Math.md#vector3)
 
 Defined in: [src/helper/EntityHelper.ts:138](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L138)
 
 ###### Returns
 
-[`Vector3`](Math.md#vector3)
+[`Vector3`](Namespace.Math.md#vector3)
 
 ###### Inherited from
 
@@ -3327,13 +3321,13 @@ Defined in: [src/helper/EntityHelper.ts:80](https://github.com/Orb-Workshop/scri
 
 ##### GetAbsAngles()
 
-> **GetAbsAngles**(): [`QAngle`](Math.md#qangle)
+> **GetAbsAngles**(): [`QAngle`](Namespace.Math.md#qangle)
 
 Defined in: [src/helper/EntityHelper.ts:126](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L126)
 
 ###### Returns
 
-[`QAngle`](Math.md#qangle)
+[`QAngle`](Namespace.Math.md#qangle)
 
 ###### Inherited from
 
@@ -3341,13 +3335,13 @@ Defined in: [src/helper/EntityHelper.ts:126](https://github.com/Orb-Workshop/scr
 
 ##### GetAbsOrigin()
 
-> **GetAbsOrigin**(): [`Vector3`](Math.md#vector3)
+> **GetAbsOrigin**(): [`Vector3`](Namespace.Math.md#vector3)
 
 Defined in: [src/helper/EntityHelper.ts:118](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L118)
 
 ###### Returns
 
-[`Vector3`](Math.md#vector3)
+[`Vector3`](Namespace.Math.md#vector3)
 
 ###### Inherited from
 
@@ -3355,13 +3349,13 @@ Defined in: [src/helper/EntityHelper.ts:118](https://github.com/Orb-Workshop/scr
 
 ##### GetAbsVelocity()
 
-> **GetAbsVelocity**(): [`Vector3`](Math.md#vector3)
+> **GetAbsVelocity**(): [`Vector3`](Namespace.Math.md#vector3)
 
 Defined in: [src/helper/EntityHelper.ts:134](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L134)
 
 ###### Returns
 
-[`Vector3`](Math.md#vector3)
+[`Vector3`](Namespace.Math.md#vector3)
 
 ###### Inherited from
 
@@ -3397,13 +3391,13 @@ Defined in: [src/helper/EntityHelper.ts:158](https://github.com/Orb-Workshop/scr
 
 ##### GetEyeAngles()
 
-> **GetEyeAngles**(): [`QAngle`](Math.md#qangle)
+> **GetEyeAngles**(): [`QAngle`](Namespace.Math.md#qangle)
 
 Defined in: [src/helper/EntityHelper.ts:142](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L142)
 
 ###### Returns
 
-[`QAngle`](Math.md#qangle)
+[`QAngle`](Namespace.Math.md#qangle)
 
 ###### Inherited from
 
@@ -3411,13 +3405,13 @@ Defined in: [src/helper/EntityHelper.ts:142](https://github.com/Orb-Workshop/scr
 
 ##### GetEyePosition()
 
-> **GetEyePosition**(): [`Vector3`](Math.md#vector3)
+> **GetEyePosition**(): [`Vector3`](Namespace.Math.md#vector3)
 
 Defined in: [src/helper/EntityHelper.ts:146](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L146)
 
 ###### Returns
 
-[`Vector3`](Math.md#vector3)
+[`Vector3`](Namespace.Math.md#vector3)
 
 ###### Inherited from
 
@@ -3453,13 +3447,13 @@ Defined in: [src/helper/EntityHelper.ts:186](https://github.com/Orb-Workshop/scr
 
 ##### GetLocalAngles()
 
-> **GetLocalAngles**(): [`QAngle`](Math.md#qangle)
+> **GetLocalAngles**(): [`QAngle`](Namespace.Math.md#qangle)
 
 Defined in: [src/helper/EntityHelper.ts:130](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L130)
 
 ###### Returns
 
-[`QAngle`](Math.md#qangle)
+[`QAngle`](Namespace.Math.md#qangle)
 
 ###### Inherited from
 
@@ -3467,13 +3461,13 @@ Defined in: [src/helper/EntityHelper.ts:130](https://github.com/Orb-Workshop/scr
 
 ##### GetLocalOrigin()
 
-> **GetLocalOrigin**(): [`Vector3`](Math.md#vector3)
+> **GetLocalOrigin**(): [`Vector3`](Namespace.Math.md#vector3)
 
 Defined in: [src/helper/EntityHelper.ts:122](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L122)
 
 ###### Returns
 
-[`Vector3`](Math.md#vector3)
+[`Vector3`](Namespace.Math.md#vector3)
 
 ###### Inherited from
 
@@ -3481,13 +3475,13 @@ Defined in: [src/helper/EntityHelper.ts:122](https://github.com/Orb-Workshop/scr
 
 ##### GetLocalVelocity()
 
-> **GetLocalVelocity**(): [`Vector3`](Math.md#vector3)
+> **GetLocalVelocity**(): [`Vector3`](Namespace.Math.md#vector3)
 
 Defined in: [src/helper/EntityHelper.ts:138](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L138)
 
 ###### Returns
 
-[`Vector3`](Math.md#vector3)
+[`Vector3`](Namespace.Math.md#vector3)
 
 ###### Inherited from
 
@@ -4245,13 +4239,13 @@ Defined in: [src/helper/EnvironmentShake.ts:54](https://github.com/Orb-Workshop/
 
 ##### GetAbsAngles()
 
-> **GetAbsAngles**(): [`QAngle`](Math.md#qangle)
+> **GetAbsAngles**(): [`QAngle`](Namespace.Math.md#qangle)
 
 Defined in: [src/helper/EntityHelper.ts:126](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L126)
 
 ###### Returns
 
-[`QAngle`](Math.md#qangle)
+[`QAngle`](Namespace.Math.md#qangle)
 
 ###### Inherited from
 
@@ -4259,13 +4253,13 @@ Defined in: [src/helper/EntityHelper.ts:126](https://github.com/Orb-Workshop/scr
 
 ##### GetAbsOrigin()
 
-> **GetAbsOrigin**(): [`Vector3`](Math.md#vector3)
+> **GetAbsOrigin**(): [`Vector3`](Namespace.Math.md#vector3)
 
 Defined in: [src/helper/EntityHelper.ts:118](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L118)
 
 ###### Returns
 
-[`Vector3`](Math.md#vector3)
+[`Vector3`](Namespace.Math.md#vector3)
 
 ###### Inherited from
 
@@ -4273,13 +4267,13 @@ Defined in: [src/helper/EntityHelper.ts:118](https://github.com/Orb-Workshop/scr
 
 ##### GetAbsVelocity()
 
-> **GetAbsVelocity**(): [`Vector3`](Math.md#vector3)
+> **GetAbsVelocity**(): [`Vector3`](Namespace.Math.md#vector3)
 
 Defined in: [src/helper/EntityHelper.ts:134](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L134)
 
 ###### Returns
 
-[`Vector3`](Math.md#vector3)
+[`Vector3`](Namespace.Math.md#vector3)
 
 ###### Inherited from
 
@@ -4315,13 +4309,13 @@ Defined in: [src/helper/EntityHelper.ts:158](https://github.com/Orb-Workshop/scr
 
 ##### GetEyeAngles()
 
-> **GetEyeAngles**(): [`QAngle`](Math.md#qangle)
+> **GetEyeAngles**(): [`QAngle`](Namespace.Math.md#qangle)
 
 Defined in: [src/helper/EntityHelper.ts:142](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L142)
 
 ###### Returns
 
-[`QAngle`](Math.md#qangle)
+[`QAngle`](Namespace.Math.md#qangle)
 
 ###### Inherited from
 
@@ -4329,13 +4323,13 @@ Defined in: [src/helper/EntityHelper.ts:142](https://github.com/Orb-Workshop/scr
 
 ##### GetEyePosition()
 
-> **GetEyePosition**(): [`Vector3`](Math.md#vector3)
+> **GetEyePosition**(): [`Vector3`](Namespace.Math.md#vector3)
 
 Defined in: [src/helper/EntityHelper.ts:146](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L146)
 
 ###### Returns
 
-[`Vector3`](Math.md#vector3)
+[`Vector3`](Namespace.Math.md#vector3)
 
 ###### Inherited from
 
@@ -4371,13 +4365,13 @@ Defined in: [src/helper/EntityHelper.ts:186](https://github.com/Orb-Workshop/scr
 
 ##### GetLocalAngles()
 
-> **GetLocalAngles**(): [`QAngle`](Math.md#qangle)
+> **GetLocalAngles**(): [`QAngle`](Namespace.Math.md#qangle)
 
 Defined in: [src/helper/EntityHelper.ts:130](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L130)
 
 ###### Returns
 
-[`QAngle`](Math.md#qangle)
+[`QAngle`](Namespace.Math.md#qangle)
 
 ###### Inherited from
 
@@ -4385,13 +4379,13 @@ Defined in: [src/helper/EntityHelper.ts:130](https://github.com/Orb-Workshop/scr
 
 ##### GetLocalOrigin()
 
-> **GetLocalOrigin**(): [`Vector3`](Math.md#vector3)
+> **GetLocalOrigin**(): [`Vector3`](Namespace.Math.md#vector3)
 
 Defined in: [src/helper/EntityHelper.ts:122](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L122)
 
 ###### Returns
 
-[`Vector3`](Math.md#vector3)
+[`Vector3`](Namespace.Math.md#vector3)
 
 ###### Inherited from
 
@@ -4399,13 +4393,13 @@ Defined in: [src/helper/EntityHelper.ts:122](https://github.com/Orb-Workshop/scr
 
 ##### GetLocalVelocity()
 
-> **GetLocalVelocity**(): [`Vector3`](Math.md#vector3)
+> **GetLocalVelocity**(): [`Vector3`](Namespace.Math.md#vector3)
 
 Defined in: [src/helper/EntityHelper.ts:138](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L138)
 
 ###### Returns
 
-[`Vector3`](Math.md#vector3)
+[`Vector3`](Namespace.Math.md#vector3)
 
 ###### Inherited from
 
@@ -5086,13 +5080,13 @@ Defined in: [src/helper/EntityHelper.ts:80](https://github.com/Orb-Workshop/scri
 
 ##### GetAbsAngles()
 
-> **GetAbsAngles**(): [`QAngle`](Math.md#qangle)
+> **GetAbsAngles**(): [`QAngle`](Namespace.Math.md#qangle)
 
 Defined in: [src/helper/EntityHelper.ts:126](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L126)
 
 ###### Returns
 
-[`QAngle`](Math.md#qangle)
+[`QAngle`](Namespace.Math.md#qangle)
 
 ###### Inherited from
 
@@ -5100,13 +5094,13 @@ Defined in: [src/helper/EntityHelper.ts:126](https://github.com/Orb-Workshop/scr
 
 ##### GetAbsOrigin()
 
-> **GetAbsOrigin**(): [`Vector3`](Math.md#vector3)
+> **GetAbsOrigin**(): [`Vector3`](Namespace.Math.md#vector3)
 
 Defined in: [src/helper/EntityHelper.ts:118](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L118)
 
 ###### Returns
 
-[`Vector3`](Math.md#vector3)
+[`Vector3`](Namespace.Math.md#vector3)
 
 ###### Inherited from
 
@@ -5114,13 +5108,13 @@ Defined in: [src/helper/EntityHelper.ts:118](https://github.com/Orb-Workshop/scr
 
 ##### GetAbsVelocity()
 
-> **GetAbsVelocity**(): [`Vector3`](Math.md#vector3)
+> **GetAbsVelocity**(): [`Vector3`](Namespace.Math.md#vector3)
 
 Defined in: [src/helper/EntityHelper.ts:134](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L134)
 
 ###### Returns
 
-[`Vector3`](Math.md#vector3)
+[`Vector3`](Namespace.Math.md#vector3)
 
 ###### Inherited from
 
@@ -5170,13 +5164,13 @@ Defined in: [src/helper/EntityHelper.ts:158](https://github.com/Orb-Workshop/scr
 
 ##### GetEyeAngles()
 
-> **GetEyeAngles**(): [`QAngle`](Math.md#qangle)
+> **GetEyeAngles**(): [`QAngle`](Namespace.Math.md#qangle)
 
 Defined in: [src/helper/EntityHelper.ts:142](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L142)
 
 ###### Returns
 
-[`QAngle`](Math.md#qangle)
+[`QAngle`](Namespace.Math.md#qangle)
 
 ###### Inherited from
 
@@ -5184,13 +5178,13 @@ Defined in: [src/helper/EntityHelper.ts:142](https://github.com/Orb-Workshop/scr
 
 ##### GetEyePosition()
 
-> **GetEyePosition**(): [`Vector3`](Math.md#vector3)
+> **GetEyePosition**(): [`Vector3`](Namespace.Math.md#vector3)
 
 Defined in: [src/helper/EntityHelper.ts:146](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L146)
 
 ###### Returns
 
-[`Vector3`](Math.md#vector3)
+[`Vector3`](Namespace.Math.md#vector3)
 
 ###### Inherited from
 
@@ -5226,13 +5220,13 @@ Defined in: [src/helper/EntityHelper.ts:186](https://github.com/Orb-Workshop/scr
 
 ##### GetLocalAngles()
 
-> **GetLocalAngles**(): [`QAngle`](Math.md#qangle)
+> **GetLocalAngles**(): [`QAngle`](Namespace.Math.md#qangle)
 
 Defined in: [src/helper/EntityHelper.ts:130](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L130)
 
 ###### Returns
 
-[`QAngle`](Math.md#qangle)
+[`QAngle`](Namespace.Math.md#qangle)
 
 ###### Inherited from
 
@@ -5240,13 +5234,13 @@ Defined in: [src/helper/EntityHelper.ts:130](https://github.com/Orb-Workshop/scr
 
 ##### GetLocalOrigin()
 
-> **GetLocalOrigin**(): [`Vector3`](Math.md#vector3)
+> **GetLocalOrigin**(): [`Vector3`](Namespace.Math.md#vector3)
 
 Defined in: [src/helper/EntityHelper.ts:122](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L122)
 
 ###### Returns
 
-[`Vector3`](Math.md#vector3)
+[`Vector3`](Namespace.Math.md#vector3)
 
 ###### Inherited from
 
@@ -5254,13 +5248,13 @@ Defined in: [src/helper/EntityHelper.ts:122](https://github.com/Orb-Workshop/scr
 
 ##### GetLocalVelocity()
 
-> **GetLocalVelocity**(): [`Vector3`](Math.md#vector3)
+> **GetLocalVelocity**(): [`Vector3`](Namespace.Math.md#vector3)
 
 Defined in: [src/helper/EntityHelper.ts:138](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L138)
 
 ###### Returns
 
-[`Vector3`](Math.md#vector3)
+[`Vector3`](Namespace.Math.md#vector3)
 
 ###### Inherited from
 
@@ -6110,13 +6104,13 @@ Defined in: [src/helper/EntityHelper.ts:80](https://github.com/Orb-Workshop/scri
 
 ##### GetAbsAngles()
 
-> **GetAbsAngles**(): [`QAngle`](Math.md#qangle)
+> **GetAbsAngles**(): [`QAngle`](Namespace.Math.md#qangle)
 
 Defined in: [src/helper/EntityHelper.ts:126](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L126)
 
 ###### Returns
 
-[`QAngle`](Math.md#qangle)
+[`QAngle`](Namespace.Math.md#qangle)
 
 ###### Inherited from
 
@@ -6124,13 +6118,13 @@ Defined in: [src/helper/EntityHelper.ts:126](https://github.com/Orb-Workshop/scr
 
 ##### GetAbsOrigin()
 
-> **GetAbsOrigin**(): [`Vector3`](Math.md#vector3)
+> **GetAbsOrigin**(): [`Vector3`](Namespace.Math.md#vector3)
 
 Defined in: [src/helper/EntityHelper.ts:118](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L118)
 
 ###### Returns
 
-[`Vector3`](Math.md#vector3)
+[`Vector3`](Namespace.Math.md#vector3)
 
 ###### Inherited from
 
@@ -6138,13 +6132,13 @@ Defined in: [src/helper/EntityHelper.ts:118](https://github.com/Orb-Workshop/scr
 
 ##### GetAbsVelocity()
 
-> **GetAbsVelocity**(): [`Vector3`](Math.md#vector3)
+> **GetAbsVelocity**(): [`Vector3`](Namespace.Math.md#vector3)
 
 Defined in: [src/helper/EntityHelper.ts:134](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L134)
 
 ###### Returns
 
-[`Vector3`](Math.md#vector3)
+[`Vector3`](Namespace.Math.md#vector3)
 
 ###### Inherited from
 
@@ -6194,13 +6188,13 @@ Defined in: [src/helper/EntityHelper.ts:158](https://github.com/Orb-Workshop/scr
 
 ##### GetEyeAngles()
 
-> **GetEyeAngles**(): [`QAngle`](Math.md#qangle)
+> **GetEyeAngles**(): [`QAngle`](Namespace.Math.md#qangle)
 
 Defined in: [src/helper/EntityHelper.ts:142](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L142)
 
 ###### Returns
 
-[`QAngle`](Math.md#qangle)
+[`QAngle`](Namespace.Math.md#qangle)
 
 ###### Inherited from
 
@@ -6208,13 +6202,13 @@ Defined in: [src/helper/EntityHelper.ts:142](https://github.com/Orb-Workshop/scr
 
 ##### GetEyePosition()
 
-> **GetEyePosition**(): [`Vector3`](Math.md#vector3)
+> **GetEyePosition**(): [`Vector3`](Namespace.Math.md#vector3)
 
 Defined in: [src/helper/EntityHelper.ts:146](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L146)
 
 ###### Returns
 
-[`Vector3`](Math.md#vector3)
+[`Vector3`](Namespace.Math.md#vector3)
 
 ###### Inherited from
 
@@ -6250,13 +6244,13 @@ Defined in: [src/helper/EntityHelper.ts:186](https://github.com/Orb-Workshop/scr
 
 ##### GetLocalAngles()
 
-> **GetLocalAngles**(): [`QAngle`](Math.md#qangle)
+> **GetLocalAngles**(): [`QAngle`](Namespace.Math.md#qangle)
 
 Defined in: [src/helper/EntityHelper.ts:130](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L130)
 
 ###### Returns
 
-[`QAngle`](Math.md#qangle)
+[`QAngle`](Namespace.Math.md#qangle)
 
 ###### Inherited from
 
@@ -6264,13 +6258,13 @@ Defined in: [src/helper/EntityHelper.ts:130](https://github.com/Orb-Workshop/scr
 
 ##### GetLocalOrigin()
 
-> **GetLocalOrigin**(): [`Vector3`](Math.md#vector3)
+> **GetLocalOrigin**(): [`Vector3`](Namespace.Math.md#vector3)
 
 Defined in: [src/helper/EntityHelper.ts:122](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L122)
 
 ###### Returns
 
-[`Vector3`](Math.md#vector3)
+[`Vector3`](Namespace.Math.md#vector3)
 
 ###### Inherited from
 
@@ -6278,13 +6272,13 @@ Defined in: [src/helper/EntityHelper.ts:122](https://github.com/Orb-Workshop/scr
 
 ##### GetLocalVelocity()
 
-> **GetLocalVelocity**(): [`Vector3`](Math.md#vector3)
+> **GetLocalVelocity**(): [`Vector3`](Namespace.Math.md#vector3)
 
 Defined in: [src/helper/EntityHelper.ts:138](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L138)
 
 ###### Returns
 
-[`Vector3`](Math.md#vector3)
+[`Vector3`](Namespace.Math.md#vector3)
 
 ###### Inherited from
 
@@ -7227,13 +7221,13 @@ Defined in: [src/helper/EntityHelper.ts:80](https://github.com/Orb-Workshop/scri
 
 ##### GetAbsAngles()
 
-> **GetAbsAngles**(): [`QAngle`](Math.md#qangle)
+> **GetAbsAngles**(): [`QAngle`](Namespace.Math.md#qangle)
 
 Defined in: [src/helper/EntityHelper.ts:126](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L126)
 
 ###### Returns
 
-[`QAngle`](Math.md#qangle)
+[`QAngle`](Namespace.Math.md#qangle)
 
 ###### Inherited from
 
@@ -7241,13 +7235,13 @@ Defined in: [src/helper/EntityHelper.ts:126](https://github.com/Orb-Workshop/scr
 
 ##### GetAbsOrigin()
 
-> **GetAbsOrigin**(): [`Vector3`](Math.md#vector3)
+> **GetAbsOrigin**(): [`Vector3`](Namespace.Math.md#vector3)
 
 Defined in: [src/helper/EntityHelper.ts:118](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L118)
 
 ###### Returns
 
-[`Vector3`](Math.md#vector3)
+[`Vector3`](Namespace.Math.md#vector3)
 
 ###### Inherited from
 
@@ -7255,13 +7249,13 @@ Defined in: [src/helper/EntityHelper.ts:118](https://github.com/Orb-Workshop/scr
 
 ##### GetAbsVelocity()
 
-> **GetAbsVelocity**(): [`Vector3`](Math.md#vector3)
+> **GetAbsVelocity**(): [`Vector3`](Namespace.Math.md#vector3)
 
 Defined in: [src/helper/EntityHelper.ts:134](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L134)
 
 ###### Returns
 
-[`Vector3`](Math.md#vector3)
+[`Vector3`](Namespace.Math.md#vector3)
 
 ###### Inherited from
 
@@ -7311,13 +7305,13 @@ Defined in: [src/helper/EntityHelper.ts:158](https://github.com/Orb-Workshop/scr
 
 ##### GetEyeAngles()
 
-> **GetEyeAngles**(): [`QAngle`](Math.md#qangle)
+> **GetEyeAngles**(): [`QAngle`](Namespace.Math.md#qangle)
 
 Defined in: [src/helper/EntityHelper.ts:142](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L142)
 
 ###### Returns
 
-[`QAngle`](Math.md#qangle)
+[`QAngle`](Namespace.Math.md#qangle)
 
 ###### Inherited from
 
@@ -7325,13 +7319,13 @@ Defined in: [src/helper/EntityHelper.ts:142](https://github.com/Orb-Workshop/scr
 
 ##### GetEyePosition()
 
-> **GetEyePosition**(): [`Vector3`](Math.md#vector3)
+> **GetEyePosition**(): [`Vector3`](Namespace.Math.md#vector3)
 
 Defined in: [src/helper/EntityHelper.ts:146](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L146)
 
 ###### Returns
 
-[`Vector3`](Math.md#vector3)
+[`Vector3`](Namespace.Math.md#vector3)
 
 ###### Inherited from
 
@@ -7367,13 +7361,13 @@ Defined in: [src/helper/EntityHelper.ts:186](https://github.com/Orb-Workshop/scr
 
 ##### GetLocalAngles()
 
-> **GetLocalAngles**(): [`QAngle`](Math.md#qangle)
+> **GetLocalAngles**(): [`QAngle`](Namespace.Math.md#qangle)
 
 Defined in: [src/helper/EntityHelper.ts:130](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L130)
 
 ###### Returns
 
-[`QAngle`](Math.md#qangle)
+[`QAngle`](Namespace.Math.md#qangle)
 
 ###### Inherited from
 
@@ -7381,13 +7375,13 @@ Defined in: [src/helper/EntityHelper.ts:130](https://github.com/Orb-Workshop/scr
 
 ##### GetLocalOrigin()
 
-> **GetLocalOrigin**(): [`Vector3`](Math.md#vector3)
+> **GetLocalOrigin**(): [`Vector3`](Namespace.Math.md#vector3)
 
 Defined in: [src/helper/EntityHelper.ts:122](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L122)
 
 ###### Returns
 
-[`Vector3`](Math.md#vector3)
+[`Vector3`](Namespace.Math.md#vector3)
 
 ###### Inherited from
 
@@ -7395,13 +7389,13 @@ Defined in: [src/helper/EntityHelper.ts:122](https://github.com/Orb-Workshop/scr
 
 ##### GetLocalVelocity()
 
-> **GetLocalVelocity**(): [`Vector3`](Math.md#vector3)
+> **GetLocalVelocity**(): [`Vector3`](Namespace.Math.md#vector3)
 
 Defined in: [src/helper/EntityHelper.ts:138](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L138)
 
 ###### Returns
 
-[`Vector3`](Math.md#vector3)
+[`Vector3`](Namespace.Math.md#vector3)
 
 ###### Inherited from
 
@@ -8330,13 +8324,13 @@ Defined in: [src/helper/EntityHelper.ts:80](https://github.com/Orb-Workshop/scri
 
 ##### GetAbsAngles()
 
-> **GetAbsAngles**(): [`QAngle`](Math.md#qangle)
+> **GetAbsAngles**(): [`QAngle`](Namespace.Math.md#qangle)
 
 Defined in: [src/helper/EntityHelper.ts:126](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L126)
 
 ###### Returns
 
-[`QAngle`](Math.md#qangle)
+[`QAngle`](Namespace.Math.md#qangle)
 
 ###### Inherited from
 
@@ -8344,13 +8338,13 @@ Defined in: [src/helper/EntityHelper.ts:126](https://github.com/Orb-Workshop/scr
 
 ##### GetAbsOrigin()
 
-> **GetAbsOrigin**(): [`Vector3`](Math.md#vector3)
+> **GetAbsOrigin**(): [`Vector3`](Namespace.Math.md#vector3)
 
 Defined in: [src/helper/EntityHelper.ts:118](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L118)
 
 ###### Returns
 
-[`Vector3`](Math.md#vector3)
+[`Vector3`](Namespace.Math.md#vector3)
 
 ###### Inherited from
 
@@ -8358,13 +8352,13 @@ Defined in: [src/helper/EntityHelper.ts:118](https://github.com/Orb-Workshop/scr
 
 ##### GetAbsVelocity()
 
-> **GetAbsVelocity**(): [`Vector3`](Math.md#vector3)
+> **GetAbsVelocity**(): [`Vector3`](Namespace.Math.md#vector3)
 
 Defined in: [src/helper/EntityHelper.ts:134](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L134)
 
 ###### Returns
 
-[`Vector3`](Math.md#vector3)
+[`Vector3`](Namespace.Math.md#vector3)
 
 ###### Inherited from
 
@@ -8414,13 +8408,13 @@ Defined in: [src/helper/EntityHelper.ts:158](https://github.com/Orb-Workshop/scr
 
 ##### GetEyeAngles()
 
-> **GetEyeAngles**(): [`QAngle`](Math.md#qangle)
+> **GetEyeAngles**(): [`QAngle`](Namespace.Math.md#qangle)
 
 Defined in: [src/helper/EntityHelper.ts:142](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L142)
 
 ###### Returns
 
-[`QAngle`](Math.md#qangle)
+[`QAngle`](Namespace.Math.md#qangle)
 
 ###### Inherited from
 
@@ -8428,13 +8422,13 @@ Defined in: [src/helper/EntityHelper.ts:142](https://github.com/Orb-Workshop/scr
 
 ##### GetEyePosition()
 
-> **GetEyePosition**(): [`Vector3`](Math.md#vector3)
+> **GetEyePosition**(): [`Vector3`](Namespace.Math.md#vector3)
 
 Defined in: [src/helper/EntityHelper.ts:146](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L146)
 
 ###### Returns
 
-[`Vector3`](Math.md#vector3)
+[`Vector3`](Namespace.Math.md#vector3)
 
 ###### Inherited from
 
@@ -8470,13 +8464,13 @@ Defined in: [src/helper/EntityHelper.ts:186](https://github.com/Orb-Workshop/scr
 
 ##### GetLocalAngles()
 
-> **GetLocalAngles**(): [`QAngle`](Math.md#qangle)
+> **GetLocalAngles**(): [`QAngle`](Namespace.Math.md#qangle)
 
 Defined in: [src/helper/EntityHelper.ts:130](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L130)
 
 ###### Returns
 
-[`QAngle`](Math.md#qangle)
+[`QAngle`](Namespace.Math.md#qangle)
 
 ###### Inherited from
 
@@ -8484,13 +8478,13 @@ Defined in: [src/helper/EntityHelper.ts:130](https://github.com/Orb-Workshop/scr
 
 ##### GetLocalOrigin()
 
-> **GetLocalOrigin**(): [`Vector3`](Math.md#vector3)
+> **GetLocalOrigin**(): [`Vector3`](Namespace.Math.md#vector3)
 
 Defined in: [src/helper/EntityHelper.ts:122](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L122)
 
 ###### Returns
 
-[`Vector3`](Math.md#vector3)
+[`Vector3`](Namespace.Math.md#vector3)
 
 ###### Inherited from
 
@@ -8498,13 +8492,13 @@ Defined in: [src/helper/EntityHelper.ts:122](https://github.com/Orb-Workshop/scr
 
 ##### GetLocalVelocity()
 
-> **GetLocalVelocity**(): [`Vector3`](Math.md#vector3)
+> **GetLocalVelocity**(): [`Vector3`](Namespace.Math.md#vector3)
 
 Defined in: [src/helper/EntityHelper.ts:138](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L138)
 
 ###### Returns
 
-[`Vector3`](Math.md#vector3)
+[`Vector3`](Namespace.Math.md#vector3)
 
 ###### Inherited from
 
@@ -9597,13 +9591,13 @@ Defined in: [src/helper/EntityHelper.ts:80](https://github.com/Orb-Workshop/scri
 
 ##### GetAbsAngles()
 
-> **GetAbsAngles**(): [`QAngle`](Math.md#qangle)
+> **GetAbsAngles**(): [`QAngle`](Namespace.Math.md#qangle)
 
 Defined in: [src/helper/EntityHelper.ts:126](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L126)
 
 ###### Returns
 
-[`QAngle`](Math.md#qangle)
+[`QAngle`](Namespace.Math.md#qangle)
 
 ###### Inherited from
 
@@ -9611,13 +9605,13 @@ Defined in: [src/helper/EntityHelper.ts:126](https://github.com/Orb-Workshop/scr
 
 ##### GetAbsOrigin()
 
-> **GetAbsOrigin**(): [`Vector3`](Math.md#vector3)
+> **GetAbsOrigin**(): [`Vector3`](Namespace.Math.md#vector3)
 
 Defined in: [src/helper/EntityHelper.ts:118](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L118)
 
 ###### Returns
 
-[`Vector3`](Math.md#vector3)
+[`Vector3`](Namespace.Math.md#vector3)
 
 ###### Inherited from
 
@@ -9625,13 +9619,13 @@ Defined in: [src/helper/EntityHelper.ts:118](https://github.com/Orb-Workshop/scr
 
 ##### GetAbsVelocity()
 
-> **GetAbsVelocity**(): [`Vector3`](Math.md#vector3)
+> **GetAbsVelocity**(): [`Vector3`](Namespace.Math.md#vector3)
 
 Defined in: [src/helper/EntityHelper.ts:134](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L134)
 
 ###### Returns
 
-[`Vector3`](Math.md#vector3)
+[`Vector3`](Namespace.Math.md#vector3)
 
 ###### Inherited from
 
@@ -9667,13 +9661,13 @@ Defined in: [src/helper/EntityHelper.ts:158](https://github.com/Orb-Workshop/scr
 
 ##### GetEyeAngles()
 
-> **GetEyeAngles**(): [`QAngle`](Math.md#qangle)
+> **GetEyeAngles**(): [`QAngle`](Namespace.Math.md#qangle)
 
 Defined in: [src/helper/EntityHelper.ts:142](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L142)
 
 ###### Returns
 
-[`QAngle`](Math.md#qangle)
+[`QAngle`](Namespace.Math.md#qangle)
 
 ###### Inherited from
 
@@ -9681,13 +9675,13 @@ Defined in: [src/helper/EntityHelper.ts:142](https://github.com/Orb-Workshop/scr
 
 ##### GetEyePosition()
 
-> **GetEyePosition**(): [`Vector3`](Math.md#vector3)
+> **GetEyePosition**(): [`Vector3`](Namespace.Math.md#vector3)
 
 Defined in: [src/helper/EntityHelper.ts:146](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L146)
 
 ###### Returns
 
-[`Vector3`](Math.md#vector3)
+[`Vector3`](Namespace.Math.md#vector3)
 
 ###### Inherited from
 
@@ -9723,13 +9717,13 @@ Defined in: [src/helper/EntityHelper.ts:186](https://github.com/Orb-Workshop/scr
 
 ##### GetLocalAngles()
 
-> **GetLocalAngles**(): [`QAngle`](Math.md#qangle)
+> **GetLocalAngles**(): [`QAngle`](Namespace.Math.md#qangle)
 
 Defined in: [src/helper/EntityHelper.ts:130](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L130)
 
 ###### Returns
 
-[`QAngle`](Math.md#qangle)
+[`QAngle`](Namespace.Math.md#qangle)
 
 ###### Inherited from
 
@@ -9737,13 +9731,13 @@ Defined in: [src/helper/EntityHelper.ts:130](https://github.com/Orb-Workshop/scr
 
 ##### GetLocalOrigin()
 
-> **GetLocalOrigin**(): [`Vector3`](Math.md#vector3)
+> **GetLocalOrigin**(): [`Vector3`](Namespace.Math.md#vector3)
 
 Defined in: [src/helper/EntityHelper.ts:122](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L122)
 
 ###### Returns
 
-[`Vector3`](Math.md#vector3)
+[`Vector3`](Namespace.Math.md#vector3)
 
 ###### Inherited from
 
@@ -9751,13 +9745,13 @@ Defined in: [src/helper/EntityHelper.ts:122](https://github.com/Orb-Workshop/scr
 
 ##### GetLocalVelocity()
 
-> **GetLocalVelocity**(): [`Vector3`](Math.md#vector3)
+> **GetLocalVelocity**(): [`Vector3`](Namespace.Math.md#vector3)
 
 Defined in: [src/helper/EntityHelper.ts:138](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L138)
 
 ###### Returns
 
-[`Vector3`](Math.md#vector3)
+[`Vector3`](Namespace.Math.md#vector3)
 
 ###### Inherited from
 
@@ -10499,13 +10493,13 @@ Defined in: [src/helper/InfoMapParameters.ts:42](https://github.com/Orb-Workshop
 
 ##### GetAbsAngles()
 
-> **GetAbsAngles**(): [`QAngle`](Math.md#qangle)
+> **GetAbsAngles**(): [`QAngle`](Namespace.Math.md#qangle)
 
 Defined in: [src/helper/EntityHelper.ts:126](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L126)
 
 ###### Returns
 
-[`QAngle`](Math.md#qangle)
+[`QAngle`](Namespace.Math.md#qangle)
 
 ###### Inherited from
 
@@ -10513,13 +10507,13 @@ Defined in: [src/helper/EntityHelper.ts:126](https://github.com/Orb-Workshop/scr
 
 ##### GetAbsOrigin()
 
-> **GetAbsOrigin**(): [`Vector3`](Math.md#vector3)
+> **GetAbsOrigin**(): [`Vector3`](Namespace.Math.md#vector3)
 
 Defined in: [src/helper/EntityHelper.ts:118](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L118)
 
 ###### Returns
 
-[`Vector3`](Math.md#vector3)
+[`Vector3`](Namespace.Math.md#vector3)
 
 ###### Inherited from
 
@@ -10527,13 +10521,13 @@ Defined in: [src/helper/EntityHelper.ts:118](https://github.com/Orb-Workshop/scr
 
 ##### GetAbsVelocity()
 
-> **GetAbsVelocity**(): [`Vector3`](Math.md#vector3)
+> **GetAbsVelocity**(): [`Vector3`](Namespace.Math.md#vector3)
 
 Defined in: [src/helper/EntityHelper.ts:134](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L134)
 
 ###### Returns
 
-[`Vector3`](Math.md#vector3)
+[`Vector3`](Namespace.Math.md#vector3)
 
 ###### Inherited from
 
@@ -10569,13 +10563,13 @@ Defined in: [src/helper/EntityHelper.ts:158](https://github.com/Orb-Workshop/scr
 
 ##### GetEyeAngles()
 
-> **GetEyeAngles**(): [`QAngle`](Math.md#qangle)
+> **GetEyeAngles**(): [`QAngle`](Namespace.Math.md#qangle)
 
 Defined in: [src/helper/EntityHelper.ts:142](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L142)
 
 ###### Returns
 
-[`QAngle`](Math.md#qangle)
+[`QAngle`](Namespace.Math.md#qangle)
 
 ###### Inherited from
 
@@ -10583,13 +10577,13 @@ Defined in: [src/helper/EntityHelper.ts:142](https://github.com/Orb-Workshop/scr
 
 ##### GetEyePosition()
 
-> **GetEyePosition**(): [`Vector3`](Math.md#vector3)
+> **GetEyePosition**(): [`Vector3`](Namespace.Math.md#vector3)
 
 Defined in: [src/helper/EntityHelper.ts:146](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L146)
 
 ###### Returns
 
-[`Vector3`](Math.md#vector3)
+[`Vector3`](Namespace.Math.md#vector3)
 
 ###### Inherited from
 
@@ -10625,13 +10619,13 @@ Defined in: [src/helper/EntityHelper.ts:186](https://github.com/Orb-Workshop/scr
 
 ##### GetLocalAngles()
 
-> **GetLocalAngles**(): [`QAngle`](Math.md#qangle)
+> **GetLocalAngles**(): [`QAngle`](Namespace.Math.md#qangle)
 
 Defined in: [src/helper/EntityHelper.ts:130](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L130)
 
 ###### Returns
 
-[`QAngle`](Math.md#qangle)
+[`QAngle`](Namespace.Math.md#qangle)
 
 ###### Inherited from
 
@@ -10639,13 +10633,13 @@ Defined in: [src/helper/EntityHelper.ts:130](https://github.com/Orb-Workshop/scr
 
 ##### GetLocalOrigin()
 
-> **GetLocalOrigin**(): [`Vector3`](Math.md#vector3)
+> **GetLocalOrigin**(): [`Vector3`](Namespace.Math.md#vector3)
 
 Defined in: [src/helper/EntityHelper.ts:122](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L122)
 
 ###### Returns
 
-[`Vector3`](Math.md#vector3)
+[`Vector3`](Namespace.Math.md#vector3)
 
 ###### Inherited from
 
@@ -10653,13 +10647,13 @@ Defined in: [src/helper/EntityHelper.ts:122](https://github.com/Orb-Workshop/scr
 
 ##### GetLocalVelocity()
 
-> **GetLocalVelocity**(): [`Vector3`](Math.md#vector3)
+> **GetLocalVelocity**(): [`Vector3`](Namespace.Math.md#vector3)
 
 Defined in: [src/helper/EntityHelper.ts:138](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L138)
 
 ###### Returns
 
-[`Vector3`](Math.md#vector3)
+[`Vector3`](Namespace.Math.md#vector3)
 
 ###### Inherited from
 
@@ -11302,13 +11296,13 @@ Defined in: [src/helper/InfoParticleSystem.ts:50](https://github.com/Orb-Worksho
 
 ##### GetAbsAngles()
 
-> **GetAbsAngles**(): [`QAngle`](Math.md#qangle)
+> **GetAbsAngles**(): [`QAngle`](Namespace.Math.md#qangle)
 
 Defined in: [src/helper/EntityHelper.ts:126](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L126)
 
 ###### Returns
 
-[`QAngle`](Math.md#qangle)
+[`QAngle`](Namespace.Math.md#qangle)
 
 ###### Inherited from
 
@@ -11316,13 +11310,13 @@ Defined in: [src/helper/EntityHelper.ts:126](https://github.com/Orb-Workshop/scr
 
 ##### GetAbsOrigin()
 
-> **GetAbsOrigin**(): [`Vector3`](Math.md#vector3)
+> **GetAbsOrigin**(): [`Vector3`](Namespace.Math.md#vector3)
 
 Defined in: [src/helper/EntityHelper.ts:118](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L118)
 
 ###### Returns
 
-[`Vector3`](Math.md#vector3)
+[`Vector3`](Namespace.Math.md#vector3)
 
 ###### Inherited from
 
@@ -11330,13 +11324,13 @@ Defined in: [src/helper/EntityHelper.ts:118](https://github.com/Orb-Workshop/scr
 
 ##### GetAbsVelocity()
 
-> **GetAbsVelocity**(): [`Vector3`](Math.md#vector3)
+> **GetAbsVelocity**(): [`Vector3`](Namespace.Math.md#vector3)
 
 Defined in: [src/helper/EntityHelper.ts:134](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L134)
 
 ###### Returns
 
-[`Vector3`](Math.md#vector3)
+[`Vector3`](Namespace.Math.md#vector3)
 
 ###### Inherited from
 
@@ -11372,13 +11366,13 @@ Defined in: [src/helper/EntityHelper.ts:158](https://github.com/Orb-Workshop/scr
 
 ##### GetEyeAngles()
 
-> **GetEyeAngles**(): [`QAngle`](Math.md#qangle)
+> **GetEyeAngles**(): [`QAngle`](Namespace.Math.md#qangle)
 
 Defined in: [src/helper/EntityHelper.ts:142](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L142)
 
 ###### Returns
 
-[`QAngle`](Math.md#qangle)
+[`QAngle`](Namespace.Math.md#qangle)
 
 ###### Inherited from
 
@@ -11386,13 +11380,13 @@ Defined in: [src/helper/EntityHelper.ts:142](https://github.com/Orb-Workshop/scr
 
 ##### GetEyePosition()
 
-> **GetEyePosition**(): [`Vector3`](Math.md#vector3)
+> **GetEyePosition**(): [`Vector3`](Namespace.Math.md#vector3)
 
 Defined in: [src/helper/EntityHelper.ts:146](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L146)
 
 ###### Returns
 
-[`Vector3`](Math.md#vector3)
+[`Vector3`](Namespace.Math.md#vector3)
 
 ###### Inherited from
 
@@ -11428,13 +11422,13 @@ Defined in: [src/helper/EntityHelper.ts:186](https://github.com/Orb-Workshop/scr
 
 ##### GetLocalAngles()
 
-> **GetLocalAngles**(): [`QAngle`](Math.md#qangle)
+> **GetLocalAngles**(): [`QAngle`](Namespace.Math.md#qangle)
 
 Defined in: [src/helper/EntityHelper.ts:130](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L130)
 
 ###### Returns
 
-[`QAngle`](Math.md#qangle)
+[`QAngle`](Namespace.Math.md#qangle)
 
 ###### Inherited from
 
@@ -11442,13 +11436,13 @@ Defined in: [src/helper/EntityHelper.ts:130](https://github.com/Orb-Workshop/scr
 
 ##### GetLocalOrigin()
 
-> **GetLocalOrigin**(): [`Vector3`](Math.md#vector3)
+> **GetLocalOrigin**(): [`Vector3`](Namespace.Math.md#vector3)
 
 Defined in: [src/helper/EntityHelper.ts:122](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L122)
 
 ###### Returns
 
-[`Vector3`](Math.md#vector3)
+[`Vector3`](Namespace.Math.md#vector3)
 
 ###### Inherited from
 
@@ -11456,13 +11450,13 @@ Defined in: [src/helper/EntityHelper.ts:122](https://github.com/Orb-Workshop/scr
 
 ##### GetLocalVelocity()
 
-> **GetLocalVelocity**(): [`Vector3`](Math.md#vector3)
+> **GetLocalVelocity**(): [`Vector3`](Namespace.Math.md#vector3)
 
 Defined in: [src/helper/EntityHelper.ts:138](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L138)
 
 ###### Returns
 
-[`Vector3`](Math.md#vector3)
+[`Vector3`](Namespace.Math.md#vector3)
 
 ###### Inherited from
 
@@ -12207,13 +12201,13 @@ Defined in: [src/helper/EntityHelper.ts:80](https://github.com/Orb-Workshop/scri
 
 ##### GetAbsAngles()
 
-> **GetAbsAngles**(): [`QAngle`](Math.md#qangle)
+> **GetAbsAngles**(): [`QAngle`](Namespace.Math.md#qangle)
 
 Defined in: [src/helper/EntityHelper.ts:126](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L126)
 
 ###### Returns
 
-[`QAngle`](Math.md#qangle)
+[`QAngle`](Namespace.Math.md#qangle)
 
 ###### Inherited from
 
@@ -12221,13 +12215,13 @@ Defined in: [src/helper/EntityHelper.ts:126](https://github.com/Orb-Workshop/scr
 
 ##### GetAbsOrigin()
 
-> **GetAbsOrigin**(): [`Vector3`](Math.md#vector3)
+> **GetAbsOrigin**(): [`Vector3`](Namespace.Math.md#vector3)
 
 Defined in: [src/helper/EntityHelper.ts:118](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L118)
 
 ###### Returns
 
-[`Vector3`](Math.md#vector3)
+[`Vector3`](Namespace.Math.md#vector3)
 
 ###### Inherited from
 
@@ -12235,13 +12229,13 @@ Defined in: [src/helper/EntityHelper.ts:118](https://github.com/Orb-Workshop/scr
 
 ##### GetAbsVelocity()
 
-> **GetAbsVelocity**(): [`Vector3`](Math.md#vector3)
+> **GetAbsVelocity**(): [`Vector3`](Namespace.Math.md#vector3)
 
 Defined in: [src/helper/EntityHelper.ts:134](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L134)
 
 ###### Returns
 
-[`Vector3`](Math.md#vector3)
+[`Vector3`](Namespace.Math.md#vector3)
 
 ###### Inherited from
 
@@ -12277,13 +12271,13 @@ Defined in: [src/helper/EntityHelper.ts:158](https://github.com/Orb-Workshop/scr
 
 ##### GetEyeAngles()
 
-> **GetEyeAngles**(): [`QAngle`](Math.md#qangle)
+> **GetEyeAngles**(): [`QAngle`](Namespace.Math.md#qangle)
 
 Defined in: [src/helper/EntityHelper.ts:142](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L142)
 
 ###### Returns
 
-[`QAngle`](Math.md#qangle)
+[`QAngle`](Namespace.Math.md#qangle)
 
 ###### Inherited from
 
@@ -12291,13 +12285,13 @@ Defined in: [src/helper/EntityHelper.ts:142](https://github.com/Orb-Workshop/scr
 
 ##### GetEyePosition()
 
-> **GetEyePosition**(): [`Vector3`](Math.md#vector3)
+> **GetEyePosition**(): [`Vector3`](Namespace.Math.md#vector3)
 
 Defined in: [src/helper/EntityHelper.ts:146](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L146)
 
 ###### Returns
 
-[`Vector3`](Math.md#vector3)
+[`Vector3`](Namespace.Math.md#vector3)
 
 ###### Inherited from
 
@@ -12333,13 +12327,13 @@ Defined in: [src/helper/EntityHelper.ts:186](https://github.com/Orb-Workshop/scr
 
 ##### GetLocalAngles()
 
-> **GetLocalAngles**(): [`QAngle`](Math.md#qangle)
+> **GetLocalAngles**(): [`QAngle`](Namespace.Math.md#qangle)
 
 Defined in: [src/helper/EntityHelper.ts:130](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L130)
 
 ###### Returns
 
-[`QAngle`](Math.md#qangle)
+[`QAngle`](Namespace.Math.md#qangle)
 
 ###### Inherited from
 
@@ -12347,13 +12341,13 @@ Defined in: [src/helper/EntityHelper.ts:130](https://github.com/Orb-Workshop/scr
 
 ##### GetLocalOrigin()
 
-> **GetLocalOrigin**(): [`Vector3`](Math.md#vector3)
+> **GetLocalOrigin**(): [`Vector3`](Namespace.Math.md#vector3)
 
 Defined in: [src/helper/EntityHelper.ts:122](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L122)
 
 ###### Returns
 
-[`Vector3`](Math.md#vector3)
+[`Vector3`](Namespace.Math.md#vector3)
 
 ###### Inherited from
 
@@ -12361,13 +12355,13 @@ Defined in: [src/helper/EntityHelper.ts:122](https://github.com/Orb-Workshop/scr
 
 ##### GetLocalVelocity()
 
-> **GetLocalVelocity**(): [`Vector3`](Math.md#vector3)
+> **GetLocalVelocity**(): [`Vector3`](Namespace.Math.md#vector3)
 
 Defined in: [src/helper/EntityHelper.ts:138](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L138)
 
 ###### Returns
 
-[`Vector3`](Math.md#vector3)
+[`Vector3`](Namespace.Math.md#vector3)
 
 ###### Inherited from
 
@@ -12978,13 +12972,13 @@ Defined in: [src/helper/EntityHelper.ts:80](https://github.com/Orb-Workshop/scri
 
 ##### GetAbsAngles()
 
-> **GetAbsAngles**(): [`QAngle`](Math.md#qangle)
+> **GetAbsAngles**(): [`QAngle`](Namespace.Math.md#qangle)
 
 Defined in: [src/helper/EntityHelper.ts:126](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L126)
 
 ###### Returns
 
-[`QAngle`](Math.md#qangle)
+[`QAngle`](Namespace.Math.md#qangle)
 
 ###### Inherited from
 
@@ -12992,13 +12986,13 @@ Defined in: [src/helper/EntityHelper.ts:126](https://github.com/Orb-Workshop/scr
 
 ##### GetAbsOrigin()
 
-> **GetAbsOrigin**(): [`Vector3`](Math.md#vector3)
+> **GetAbsOrigin**(): [`Vector3`](Namespace.Math.md#vector3)
 
 Defined in: [src/helper/EntityHelper.ts:118](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L118)
 
 ###### Returns
 
-[`Vector3`](Math.md#vector3)
+[`Vector3`](Namespace.Math.md#vector3)
 
 ###### Inherited from
 
@@ -13006,13 +13000,13 @@ Defined in: [src/helper/EntityHelper.ts:118](https://github.com/Orb-Workshop/scr
 
 ##### GetAbsVelocity()
 
-> **GetAbsVelocity**(): [`Vector3`](Math.md#vector3)
+> **GetAbsVelocity**(): [`Vector3`](Namespace.Math.md#vector3)
 
 Defined in: [src/helper/EntityHelper.ts:134](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L134)
 
 ###### Returns
 
-[`Vector3`](Math.md#vector3)
+[`Vector3`](Namespace.Math.md#vector3)
 
 ###### Inherited from
 
@@ -13048,13 +13042,13 @@ Defined in: [src/helper/EntityHelper.ts:158](https://github.com/Orb-Workshop/scr
 
 ##### GetEyeAngles()
 
-> **GetEyeAngles**(): [`QAngle`](Math.md#qangle)
+> **GetEyeAngles**(): [`QAngle`](Namespace.Math.md#qangle)
 
 Defined in: [src/helper/EntityHelper.ts:142](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L142)
 
 ###### Returns
 
-[`QAngle`](Math.md#qangle)
+[`QAngle`](Namespace.Math.md#qangle)
 
 ###### Inherited from
 
@@ -13062,13 +13056,13 @@ Defined in: [src/helper/EntityHelper.ts:142](https://github.com/Orb-Workshop/scr
 
 ##### GetEyePosition()
 
-> **GetEyePosition**(): [`Vector3`](Math.md#vector3)
+> **GetEyePosition**(): [`Vector3`](Namespace.Math.md#vector3)
 
 Defined in: [src/helper/EntityHelper.ts:146](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L146)
 
 ###### Returns
 
-[`Vector3`](Math.md#vector3)
+[`Vector3`](Namespace.Math.md#vector3)
 
 ###### Inherited from
 
@@ -13104,13 +13098,13 @@ Defined in: [src/helper/EntityHelper.ts:186](https://github.com/Orb-Workshop/scr
 
 ##### GetLocalAngles()
 
-> **GetLocalAngles**(): [`QAngle`](Math.md#qangle)
+> **GetLocalAngles**(): [`QAngle`](Namespace.Math.md#qangle)
 
 Defined in: [src/helper/EntityHelper.ts:130](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L130)
 
 ###### Returns
 
-[`QAngle`](Math.md#qangle)
+[`QAngle`](Namespace.Math.md#qangle)
 
 ###### Inherited from
 
@@ -13118,13 +13112,13 @@ Defined in: [src/helper/EntityHelper.ts:130](https://github.com/Orb-Workshop/scr
 
 ##### GetLocalOrigin()
 
-> **GetLocalOrigin**(): [`Vector3`](Math.md#vector3)
+> **GetLocalOrigin**(): [`Vector3`](Namespace.Math.md#vector3)
 
 Defined in: [src/helper/EntityHelper.ts:122](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L122)
 
 ###### Returns
 
-[`Vector3`](Math.md#vector3)
+[`Vector3`](Namespace.Math.md#vector3)
 
 ###### Inherited from
 
@@ -13132,13 +13126,13 @@ Defined in: [src/helper/EntityHelper.ts:122](https://github.com/Orb-Workshop/scr
 
 ##### GetLocalVelocity()
 
-> **GetLocalVelocity**(): [`Vector3`](Math.md#vector3)
+> **GetLocalVelocity**(): [`Vector3`](Namespace.Math.md#vector3)
 
 Defined in: [src/helper/EntityHelper.ts:138](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L138)
 
 ###### Returns
 
-[`Vector3`](Math.md#vector3)
+[`Vector3`](Namespace.Math.md#vector3)
 
 ###### Inherited from
 
@@ -13749,13 +13743,13 @@ Defined in: [src/helper/EntityHelper.ts:80](https://github.com/Orb-Workshop/scri
 
 ##### GetAbsAngles()
 
-> **GetAbsAngles**(): [`QAngle`](Math.md#qangle)
+> **GetAbsAngles**(): [`QAngle`](Namespace.Math.md#qangle)
 
 Defined in: [src/helper/EntityHelper.ts:126](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L126)
 
 ###### Returns
 
-[`QAngle`](Math.md#qangle)
+[`QAngle`](Namespace.Math.md#qangle)
 
 ###### Inherited from
 
@@ -13763,13 +13757,13 @@ Defined in: [src/helper/EntityHelper.ts:126](https://github.com/Orb-Workshop/scr
 
 ##### GetAbsOrigin()
 
-> **GetAbsOrigin**(): [`Vector3`](Math.md#vector3)
+> **GetAbsOrigin**(): [`Vector3`](Namespace.Math.md#vector3)
 
 Defined in: [src/helper/EntityHelper.ts:118](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L118)
 
 ###### Returns
 
-[`Vector3`](Math.md#vector3)
+[`Vector3`](Namespace.Math.md#vector3)
 
 ###### Inherited from
 
@@ -13777,13 +13771,13 @@ Defined in: [src/helper/EntityHelper.ts:118](https://github.com/Orb-Workshop/scr
 
 ##### GetAbsVelocity()
 
-> **GetAbsVelocity**(): [`Vector3`](Math.md#vector3)
+> **GetAbsVelocity**(): [`Vector3`](Namespace.Math.md#vector3)
 
 Defined in: [src/helper/EntityHelper.ts:134](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L134)
 
 ###### Returns
 
-[`Vector3`](Math.md#vector3)
+[`Vector3`](Namespace.Math.md#vector3)
 
 ###### Inherited from
 
@@ -13819,13 +13813,13 @@ Defined in: [src/helper/EntityHelper.ts:158](https://github.com/Orb-Workshop/scr
 
 ##### GetEyeAngles()
 
-> **GetEyeAngles**(): [`QAngle`](Math.md#qangle)
+> **GetEyeAngles**(): [`QAngle`](Namespace.Math.md#qangle)
 
 Defined in: [src/helper/EntityHelper.ts:142](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L142)
 
 ###### Returns
 
-[`QAngle`](Math.md#qangle)
+[`QAngle`](Namespace.Math.md#qangle)
 
 ###### Inherited from
 
@@ -13833,13 +13827,13 @@ Defined in: [src/helper/EntityHelper.ts:142](https://github.com/Orb-Workshop/scr
 
 ##### GetEyePosition()
 
-> **GetEyePosition**(): [`Vector3`](Math.md#vector3)
+> **GetEyePosition**(): [`Vector3`](Namespace.Math.md#vector3)
 
 Defined in: [src/helper/EntityHelper.ts:146](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L146)
 
 ###### Returns
 
-[`Vector3`](Math.md#vector3)
+[`Vector3`](Namespace.Math.md#vector3)
 
 ###### Inherited from
 
@@ -13875,13 +13869,13 @@ Defined in: [src/helper/EntityHelper.ts:186](https://github.com/Orb-Workshop/scr
 
 ##### GetLocalAngles()
 
-> **GetLocalAngles**(): [`QAngle`](Math.md#qangle)
+> **GetLocalAngles**(): [`QAngle`](Namespace.Math.md#qangle)
 
 Defined in: [src/helper/EntityHelper.ts:130](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L130)
 
 ###### Returns
 
-[`QAngle`](Math.md#qangle)
+[`QAngle`](Namespace.Math.md#qangle)
 
 ###### Inherited from
 
@@ -13889,13 +13883,13 @@ Defined in: [src/helper/EntityHelper.ts:130](https://github.com/Orb-Workshop/scr
 
 ##### GetLocalOrigin()
 
-> **GetLocalOrigin**(): [`Vector3`](Math.md#vector3)
+> **GetLocalOrigin**(): [`Vector3`](Namespace.Math.md#vector3)
 
 Defined in: [src/helper/EntityHelper.ts:122](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L122)
 
 ###### Returns
 
-[`Vector3`](Math.md#vector3)
+[`Vector3`](Namespace.Math.md#vector3)
 
 ###### Inherited from
 
@@ -13903,13 +13897,13 @@ Defined in: [src/helper/EntityHelper.ts:122](https://github.com/Orb-Workshop/scr
 
 ##### GetLocalVelocity()
 
-> **GetLocalVelocity**(): [`Vector3`](Math.md#vector3)
+> **GetLocalVelocity**(): [`Vector3`](Namespace.Math.md#vector3)
 
 Defined in: [src/helper/EntityHelper.ts:138](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L138)
 
 ###### Returns
 
-[`Vector3`](Math.md#vector3)
+[`Vector3`](Namespace.Math.md#vector3)
 
 ###### Inherited from
 
@@ -14520,13 +14514,13 @@ Defined in: [src/helper/EntityHelper.ts:80](https://github.com/Orb-Workshop/scri
 
 ##### GetAbsAngles()
 
-> **GetAbsAngles**(): [`QAngle`](Math.md#qangle)
+> **GetAbsAngles**(): [`QAngle`](Namespace.Math.md#qangle)
 
 Defined in: [src/helper/EntityHelper.ts:126](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L126)
 
 ###### Returns
 
-[`QAngle`](Math.md#qangle)
+[`QAngle`](Namespace.Math.md#qangle)
 
 ###### Inherited from
 
@@ -14534,13 +14528,13 @@ Defined in: [src/helper/EntityHelper.ts:126](https://github.com/Orb-Workshop/scr
 
 ##### GetAbsOrigin()
 
-> **GetAbsOrigin**(): [`Vector3`](Math.md#vector3)
+> **GetAbsOrigin**(): [`Vector3`](Namespace.Math.md#vector3)
 
 Defined in: [src/helper/EntityHelper.ts:118](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L118)
 
 ###### Returns
 
-[`Vector3`](Math.md#vector3)
+[`Vector3`](Namespace.Math.md#vector3)
 
 ###### Inherited from
 
@@ -14548,13 +14542,13 @@ Defined in: [src/helper/EntityHelper.ts:118](https://github.com/Orb-Workshop/scr
 
 ##### GetAbsVelocity()
 
-> **GetAbsVelocity**(): [`Vector3`](Math.md#vector3)
+> **GetAbsVelocity**(): [`Vector3`](Namespace.Math.md#vector3)
 
 Defined in: [src/helper/EntityHelper.ts:134](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L134)
 
 ###### Returns
 
-[`Vector3`](Math.md#vector3)
+[`Vector3`](Namespace.Math.md#vector3)
 
 ###### Inherited from
 
@@ -14590,13 +14584,13 @@ Defined in: [src/helper/EntityHelper.ts:158](https://github.com/Orb-Workshop/scr
 
 ##### GetEyeAngles()
 
-> **GetEyeAngles**(): [`QAngle`](Math.md#qangle)
+> **GetEyeAngles**(): [`QAngle`](Namespace.Math.md#qangle)
 
 Defined in: [src/helper/EntityHelper.ts:142](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L142)
 
 ###### Returns
 
-[`QAngle`](Math.md#qangle)
+[`QAngle`](Namespace.Math.md#qangle)
 
 ###### Inherited from
 
@@ -14604,13 +14598,13 @@ Defined in: [src/helper/EntityHelper.ts:142](https://github.com/Orb-Workshop/scr
 
 ##### GetEyePosition()
 
-> **GetEyePosition**(): [`Vector3`](Math.md#vector3)
+> **GetEyePosition**(): [`Vector3`](Namespace.Math.md#vector3)
 
 Defined in: [src/helper/EntityHelper.ts:146](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L146)
 
 ###### Returns
 
-[`Vector3`](Math.md#vector3)
+[`Vector3`](Namespace.Math.md#vector3)
 
 ###### Inherited from
 
@@ -14646,13 +14640,13 @@ Defined in: [src/helper/EntityHelper.ts:186](https://github.com/Orb-Workshop/scr
 
 ##### GetLocalAngles()
 
-> **GetLocalAngles**(): [`QAngle`](Math.md#qangle)
+> **GetLocalAngles**(): [`QAngle`](Namespace.Math.md#qangle)
 
 Defined in: [src/helper/EntityHelper.ts:130](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L130)
 
 ###### Returns
 
-[`QAngle`](Math.md#qangle)
+[`QAngle`](Namespace.Math.md#qangle)
 
 ###### Inherited from
 
@@ -14660,13 +14654,13 @@ Defined in: [src/helper/EntityHelper.ts:130](https://github.com/Orb-Workshop/scr
 
 ##### GetLocalOrigin()
 
-> **GetLocalOrigin**(): [`Vector3`](Math.md#vector3)
+> **GetLocalOrigin**(): [`Vector3`](Namespace.Math.md#vector3)
 
 Defined in: [src/helper/EntityHelper.ts:122](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L122)
 
 ###### Returns
 
-[`Vector3`](Math.md#vector3)
+[`Vector3`](Namespace.Math.md#vector3)
 
 ###### Inherited from
 
@@ -14674,13 +14668,13 @@ Defined in: [src/helper/EntityHelper.ts:122](https://github.com/Orb-Workshop/scr
 
 ##### GetLocalVelocity()
 
-> **GetLocalVelocity**(): [`Vector3`](Math.md#vector3)
+> **GetLocalVelocity**(): [`Vector3`](Namespace.Math.md#vector3)
 
 Defined in: [src/helper/EntityHelper.ts:138](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L138)
 
 ###### Returns
 
-[`Vector3`](Math.md#vector3)
+[`Vector3`](Namespace.Math.md#vector3)
 
 ###### Inherited from
 
@@ -15453,13 +15447,13 @@ Defined in: [src/helper/EntityHelper.ts:80](https://github.com/Orb-Workshop/scri
 
 ##### GetAbsAngles()
 
-> **GetAbsAngles**(): [`QAngle`](Math.md#qangle)
+> **GetAbsAngles**(): [`QAngle`](Namespace.Math.md#qangle)
 
 Defined in: [src/helper/EntityHelper.ts:126](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L126)
 
 ###### Returns
 
-[`QAngle`](Math.md#qangle)
+[`QAngle`](Namespace.Math.md#qangle)
 
 ###### Inherited from
 
@@ -15467,13 +15461,13 @@ Defined in: [src/helper/EntityHelper.ts:126](https://github.com/Orb-Workshop/scr
 
 ##### GetAbsOrigin()
 
-> **GetAbsOrigin**(): [`Vector3`](Math.md#vector3)
+> **GetAbsOrigin**(): [`Vector3`](Namespace.Math.md#vector3)
 
 Defined in: [src/helper/EntityHelper.ts:118](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L118)
 
 ###### Returns
 
-[`Vector3`](Math.md#vector3)
+[`Vector3`](Namespace.Math.md#vector3)
 
 ###### Inherited from
 
@@ -15481,13 +15475,13 @@ Defined in: [src/helper/EntityHelper.ts:118](https://github.com/Orb-Workshop/scr
 
 ##### GetAbsVelocity()
 
-> **GetAbsVelocity**(): [`Vector3`](Math.md#vector3)
+> **GetAbsVelocity**(): [`Vector3`](Namespace.Math.md#vector3)
 
 Defined in: [src/helper/EntityHelper.ts:134](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L134)
 
 ###### Returns
 
-[`Vector3`](Math.md#vector3)
+[`Vector3`](Namespace.Math.md#vector3)
 
 ###### Inherited from
 
@@ -15523,13 +15517,13 @@ Defined in: [src/helper/EntityHelper.ts:158](https://github.com/Orb-Workshop/scr
 
 ##### GetEyeAngles()
 
-> **GetEyeAngles**(): [`QAngle`](Math.md#qangle)
+> **GetEyeAngles**(): [`QAngle`](Namespace.Math.md#qangle)
 
 Defined in: [src/helper/EntityHelper.ts:142](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L142)
 
 ###### Returns
 
-[`QAngle`](Math.md#qangle)
+[`QAngle`](Namespace.Math.md#qangle)
 
 ###### Inherited from
 
@@ -15537,13 +15531,13 @@ Defined in: [src/helper/EntityHelper.ts:142](https://github.com/Orb-Workshop/scr
 
 ##### GetEyePosition()
 
-> **GetEyePosition**(): [`Vector3`](Math.md#vector3)
+> **GetEyePosition**(): [`Vector3`](Namespace.Math.md#vector3)
 
 Defined in: [src/helper/EntityHelper.ts:146](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L146)
 
 ###### Returns
 
-[`Vector3`](Math.md#vector3)
+[`Vector3`](Namespace.Math.md#vector3)
 
 ###### Inherited from
 
@@ -15579,13 +15573,13 @@ Defined in: [src/helper/EntityHelper.ts:186](https://github.com/Orb-Workshop/scr
 
 ##### GetLocalAngles()
 
-> **GetLocalAngles**(): [`QAngle`](Math.md#qangle)
+> **GetLocalAngles**(): [`QAngle`](Namespace.Math.md#qangle)
 
 Defined in: [src/helper/EntityHelper.ts:130](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L130)
 
 ###### Returns
 
-[`QAngle`](Math.md#qangle)
+[`QAngle`](Namespace.Math.md#qangle)
 
 ###### Inherited from
 
@@ -15593,13 +15587,13 @@ Defined in: [src/helper/EntityHelper.ts:130](https://github.com/Orb-Workshop/scr
 
 ##### GetLocalOrigin()
 
-> **GetLocalOrigin**(): [`Vector3`](Math.md#vector3)
+> **GetLocalOrigin**(): [`Vector3`](Namespace.Math.md#vector3)
 
 Defined in: [src/helper/EntityHelper.ts:122](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L122)
 
 ###### Returns
 
-[`Vector3`](Math.md#vector3)
+[`Vector3`](Namespace.Math.md#vector3)
 
 ###### Inherited from
 
@@ -15607,13 +15601,13 @@ Defined in: [src/helper/EntityHelper.ts:122](https://github.com/Orb-Workshop/scr
 
 ##### GetLocalVelocity()
 
-> **GetLocalVelocity**(): [`Vector3`](Math.md#vector3)
+> **GetLocalVelocity**(): [`Vector3`](Namespace.Math.md#vector3)
 
 Defined in: [src/helper/EntityHelper.ts:138](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L138)
 
 ###### Returns
 
-[`Vector3`](Math.md#vector3)
+[`Vector3`](Namespace.Math.md#vector3)
 
 ###### Inherited from
 
@@ -16370,13 +16364,13 @@ Defined in: [src/helper/EntityHelper.ts:80](https://github.com/Orb-Workshop/scri
 
 ##### GetAbsAngles()
 
-> **GetAbsAngles**(): [`QAngle`](Math.md#qangle)
+> **GetAbsAngles**(): [`QAngle`](Namespace.Math.md#qangle)
 
 Defined in: [src/helper/EntityHelper.ts:126](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L126)
 
 ###### Returns
 
-[`QAngle`](Math.md#qangle)
+[`QAngle`](Namespace.Math.md#qangle)
 
 ###### Inherited from
 
@@ -16384,13 +16378,13 @@ Defined in: [src/helper/EntityHelper.ts:126](https://github.com/Orb-Workshop/scr
 
 ##### GetAbsOrigin()
 
-> **GetAbsOrigin**(): [`Vector3`](Math.md#vector3)
+> **GetAbsOrigin**(): [`Vector3`](Namespace.Math.md#vector3)
 
 Defined in: [src/helper/EntityHelper.ts:118](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L118)
 
 ###### Returns
 
-[`Vector3`](Math.md#vector3)
+[`Vector3`](Namespace.Math.md#vector3)
 
 ###### Inherited from
 
@@ -16398,13 +16392,13 @@ Defined in: [src/helper/EntityHelper.ts:118](https://github.com/Orb-Workshop/scr
 
 ##### GetAbsVelocity()
 
-> **GetAbsVelocity**(): [`Vector3`](Math.md#vector3)
+> **GetAbsVelocity**(): [`Vector3`](Namespace.Math.md#vector3)
 
 Defined in: [src/helper/EntityHelper.ts:134](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L134)
 
 ###### Returns
 
-[`Vector3`](Math.md#vector3)
+[`Vector3`](Namespace.Math.md#vector3)
 
 ###### Inherited from
 
@@ -16440,13 +16434,13 @@ Defined in: [src/helper/EntityHelper.ts:158](https://github.com/Orb-Workshop/scr
 
 ##### GetEyeAngles()
 
-> **GetEyeAngles**(): [`QAngle`](Math.md#qangle)
+> **GetEyeAngles**(): [`QAngle`](Namespace.Math.md#qangle)
 
 Defined in: [src/helper/EntityHelper.ts:142](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L142)
 
 ###### Returns
 
-[`QAngle`](Math.md#qangle)
+[`QAngle`](Namespace.Math.md#qangle)
 
 ###### Inherited from
 
@@ -16454,13 +16448,13 @@ Defined in: [src/helper/EntityHelper.ts:142](https://github.com/Orb-Workshop/scr
 
 ##### GetEyePosition()
 
-> **GetEyePosition**(): [`Vector3`](Math.md#vector3)
+> **GetEyePosition**(): [`Vector3`](Namespace.Math.md#vector3)
 
 Defined in: [src/helper/EntityHelper.ts:146](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L146)
 
 ###### Returns
 
-[`Vector3`](Math.md#vector3)
+[`Vector3`](Namespace.Math.md#vector3)
 
 ###### Inherited from
 
@@ -16496,13 +16490,13 @@ Defined in: [src/helper/EntityHelper.ts:186](https://github.com/Orb-Workshop/scr
 
 ##### GetLocalAngles()
 
-> **GetLocalAngles**(): [`QAngle`](Math.md#qangle)
+> **GetLocalAngles**(): [`QAngle`](Namespace.Math.md#qangle)
 
 Defined in: [src/helper/EntityHelper.ts:130](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L130)
 
 ###### Returns
 
-[`QAngle`](Math.md#qangle)
+[`QAngle`](Namespace.Math.md#qangle)
 
 ###### Inherited from
 
@@ -16510,13 +16504,13 @@ Defined in: [src/helper/EntityHelper.ts:130](https://github.com/Orb-Workshop/scr
 
 ##### GetLocalOrigin()
 
-> **GetLocalOrigin**(): [`Vector3`](Math.md#vector3)
+> **GetLocalOrigin**(): [`Vector3`](Namespace.Math.md#vector3)
 
 Defined in: [src/helper/EntityHelper.ts:122](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L122)
 
 ###### Returns
 
-[`Vector3`](Math.md#vector3)
+[`Vector3`](Namespace.Math.md#vector3)
 
 ###### Inherited from
 
@@ -16524,13 +16518,13 @@ Defined in: [src/helper/EntityHelper.ts:122](https://github.com/Orb-Workshop/scr
 
 ##### GetLocalVelocity()
 
-> **GetLocalVelocity**(): [`Vector3`](Math.md#vector3)
+> **GetLocalVelocity**(): [`Vector3`](Namespace.Math.md#vector3)
 
 Defined in: [src/helper/EntityHelper.ts:138](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L138)
 
 ###### Returns
 
-[`Vector3`](Math.md#vector3)
+[`Vector3`](Namespace.Math.md#vector3)
 
 ###### Inherited from
 
@@ -17374,13 +17368,13 @@ Defined in: [src/helper/EntityHelper.ts:80](https://github.com/Orb-Workshop/scri
 
 ##### GetAbsAngles()
 
-> **GetAbsAngles**(): [`QAngle`](Math.md#qangle)
+> **GetAbsAngles**(): [`QAngle`](Namespace.Math.md#qangle)
 
 Defined in: [src/helper/EntityHelper.ts:126](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L126)
 
 ###### Returns
 
-[`QAngle`](Math.md#qangle)
+[`QAngle`](Namespace.Math.md#qangle)
 
 ###### Inherited from
 
@@ -17388,13 +17382,13 @@ Defined in: [src/helper/EntityHelper.ts:126](https://github.com/Orb-Workshop/scr
 
 ##### GetAbsOrigin()
 
-> **GetAbsOrigin**(): [`Vector3`](Math.md#vector3)
+> **GetAbsOrigin**(): [`Vector3`](Namespace.Math.md#vector3)
 
 Defined in: [src/helper/EntityHelper.ts:118](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L118)
 
 ###### Returns
 
-[`Vector3`](Math.md#vector3)
+[`Vector3`](Namespace.Math.md#vector3)
 
 ###### Inherited from
 
@@ -17402,13 +17396,13 @@ Defined in: [src/helper/EntityHelper.ts:118](https://github.com/Orb-Workshop/scr
 
 ##### GetAbsVelocity()
 
-> **GetAbsVelocity**(): [`Vector3`](Math.md#vector3)
+> **GetAbsVelocity**(): [`Vector3`](Namespace.Math.md#vector3)
 
 Defined in: [src/helper/EntityHelper.ts:134](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L134)
 
 ###### Returns
 
-[`Vector3`](Math.md#vector3)
+[`Vector3`](Namespace.Math.md#vector3)
 
 ###### Inherited from
 
@@ -17444,13 +17438,13 @@ Defined in: [src/helper/EntityHelper.ts:158](https://github.com/Orb-Workshop/scr
 
 ##### GetEyeAngles()
 
-> **GetEyeAngles**(): [`QAngle`](Math.md#qangle)
+> **GetEyeAngles**(): [`QAngle`](Namespace.Math.md#qangle)
 
 Defined in: [src/helper/EntityHelper.ts:142](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L142)
 
 ###### Returns
 
-[`QAngle`](Math.md#qangle)
+[`QAngle`](Namespace.Math.md#qangle)
 
 ###### Inherited from
 
@@ -17458,13 +17452,13 @@ Defined in: [src/helper/EntityHelper.ts:142](https://github.com/Orb-Workshop/scr
 
 ##### GetEyePosition()
 
-> **GetEyePosition**(): [`Vector3`](Math.md#vector3)
+> **GetEyePosition**(): [`Vector3`](Namespace.Math.md#vector3)
 
 Defined in: [src/helper/EntityHelper.ts:146](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L146)
 
 ###### Returns
 
-[`Vector3`](Math.md#vector3)
+[`Vector3`](Namespace.Math.md#vector3)
 
 ###### Inherited from
 
@@ -17500,13 +17494,13 @@ Defined in: [src/helper/EntityHelper.ts:186](https://github.com/Orb-Workshop/scr
 
 ##### GetLocalAngles()
 
-> **GetLocalAngles**(): [`QAngle`](Math.md#qangle)
+> **GetLocalAngles**(): [`QAngle`](Namespace.Math.md#qangle)
 
 Defined in: [src/helper/EntityHelper.ts:130](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L130)
 
 ###### Returns
 
-[`QAngle`](Math.md#qangle)
+[`QAngle`](Namespace.Math.md#qangle)
 
 ###### Inherited from
 
@@ -17514,13 +17508,13 @@ Defined in: [src/helper/EntityHelper.ts:130](https://github.com/Orb-Workshop/scr
 
 ##### GetLocalOrigin()
 
-> **GetLocalOrigin**(): [`Vector3`](Math.md#vector3)
+> **GetLocalOrigin**(): [`Vector3`](Namespace.Math.md#vector3)
 
 Defined in: [src/helper/EntityHelper.ts:122](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L122)
 
 ###### Returns
 
-[`Vector3`](Math.md#vector3)
+[`Vector3`](Namespace.Math.md#vector3)
 
 ###### Inherited from
 
@@ -17528,13 +17522,13 @@ Defined in: [src/helper/EntityHelper.ts:122](https://github.com/Orb-Workshop/scr
 
 ##### GetLocalVelocity()
 
-> **GetLocalVelocity**(): [`Vector3`](Math.md#vector3)
+> **GetLocalVelocity**(): [`Vector3`](Namespace.Math.md#vector3)
 
 Defined in: [src/helper/EntityHelper.ts:138](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L138)
 
 ###### Returns
 
-[`Vector3`](Math.md#vector3)
+[`Vector3`](Namespace.Math.md#vector3)
 
 ###### Inherited from
 
@@ -18271,13 +18265,13 @@ Defined in: [src/helper/EntityHelper.ts:80](https://github.com/Orb-Workshop/scri
 
 ##### GetAbsAngles()
 
-> **GetAbsAngles**(): [`QAngle`](Math.md#qangle)
+> **GetAbsAngles**(): [`QAngle`](Namespace.Math.md#qangle)
 
 Defined in: [src/helper/EntityHelper.ts:126](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L126)
 
 ###### Returns
 
-[`QAngle`](Math.md#qangle)
+[`QAngle`](Namespace.Math.md#qangle)
 
 ###### Inherited from
 
@@ -18285,13 +18279,13 @@ Defined in: [src/helper/EntityHelper.ts:126](https://github.com/Orb-Workshop/scr
 
 ##### GetAbsOrigin()
 
-> **GetAbsOrigin**(): [`Vector3`](Math.md#vector3)
+> **GetAbsOrigin**(): [`Vector3`](Namespace.Math.md#vector3)
 
 Defined in: [src/helper/EntityHelper.ts:118](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L118)
 
 ###### Returns
 
-[`Vector3`](Math.md#vector3)
+[`Vector3`](Namespace.Math.md#vector3)
 
 ###### Inherited from
 
@@ -18299,13 +18293,13 @@ Defined in: [src/helper/EntityHelper.ts:118](https://github.com/Orb-Workshop/scr
 
 ##### GetAbsVelocity()
 
-> **GetAbsVelocity**(): [`Vector3`](Math.md#vector3)
+> **GetAbsVelocity**(): [`Vector3`](Namespace.Math.md#vector3)
 
 Defined in: [src/helper/EntityHelper.ts:134](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L134)
 
 ###### Returns
 
-[`Vector3`](Math.md#vector3)
+[`Vector3`](Namespace.Math.md#vector3)
 
 ###### Inherited from
 
@@ -18355,13 +18349,13 @@ Defined in: [src/helper/EntityHelper.ts:158](https://github.com/Orb-Workshop/scr
 
 ##### GetEyeAngles()
 
-> **GetEyeAngles**(): [`QAngle`](Math.md#qangle)
+> **GetEyeAngles**(): [`QAngle`](Namespace.Math.md#qangle)
 
 Defined in: [src/helper/EntityHelper.ts:142](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L142)
 
 ###### Returns
 
-[`QAngle`](Math.md#qangle)
+[`QAngle`](Namespace.Math.md#qangle)
 
 ###### Inherited from
 
@@ -18369,13 +18363,13 @@ Defined in: [src/helper/EntityHelper.ts:142](https://github.com/Orb-Workshop/scr
 
 ##### GetEyePosition()
 
-> **GetEyePosition**(): [`Vector3`](Math.md#vector3)
+> **GetEyePosition**(): [`Vector3`](Namespace.Math.md#vector3)
 
 Defined in: [src/helper/EntityHelper.ts:146](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L146)
 
 ###### Returns
 
-[`Vector3`](Math.md#vector3)
+[`Vector3`](Namespace.Math.md#vector3)
 
 ###### Inherited from
 
@@ -18411,13 +18405,13 @@ Defined in: [src/helper/EntityHelper.ts:186](https://github.com/Orb-Workshop/scr
 
 ##### GetLocalAngles()
 
-> **GetLocalAngles**(): [`QAngle`](Math.md#qangle)
+> **GetLocalAngles**(): [`QAngle`](Namespace.Math.md#qangle)
 
 Defined in: [src/helper/EntityHelper.ts:130](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L130)
 
 ###### Returns
 
-[`QAngle`](Math.md#qangle)
+[`QAngle`](Namespace.Math.md#qangle)
 
 ###### Inherited from
 
@@ -18425,13 +18419,13 @@ Defined in: [src/helper/EntityHelper.ts:130](https://github.com/Orb-Workshop/scr
 
 ##### GetLocalOrigin()
 
-> **GetLocalOrigin**(): [`Vector3`](Math.md#vector3)
+> **GetLocalOrigin**(): [`Vector3`](Namespace.Math.md#vector3)
 
 Defined in: [src/helper/EntityHelper.ts:122](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L122)
 
 ###### Returns
 
-[`Vector3`](Math.md#vector3)
+[`Vector3`](Namespace.Math.md#vector3)
 
 ###### Inherited from
 
@@ -18439,13 +18433,13 @@ Defined in: [src/helper/EntityHelper.ts:122](https://github.com/Orb-Workshop/scr
 
 ##### GetLocalVelocity()
 
-> **GetLocalVelocity**(): [`Vector3`](Math.md#vector3)
+> **GetLocalVelocity**(): [`Vector3`](Namespace.Math.md#vector3)
 
 Defined in: [src/helper/EntityHelper.ts:138](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L138)
 
 ###### Returns
 
-[`Vector3`](Math.md#vector3)
+[`Vector3`](Namespace.Math.md#vector3)
 
 ###### Inherited from
 
@@ -19244,13 +19238,13 @@ Defined in: [src/helper/EntityHelper.ts:80](https://github.com/Orb-Workshop/scri
 
 ##### GetAbsAngles()
 
-> **GetAbsAngles**(): [`QAngle`](Math.md#qangle)
+> **GetAbsAngles**(): [`QAngle`](Namespace.Math.md#qangle)
 
 Defined in: [src/helper/EntityHelper.ts:126](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L126)
 
 ###### Returns
 
-[`QAngle`](Math.md#qangle)
+[`QAngle`](Namespace.Math.md#qangle)
 
 ###### Inherited from
 
@@ -19258,13 +19252,13 @@ Defined in: [src/helper/EntityHelper.ts:126](https://github.com/Orb-Workshop/scr
 
 ##### GetAbsOrigin()
 
-> **GetAbsOrigin**(): [`Vector3`](Math.md#vector3)
+> **GetAbsOrigin**(): [`Vector3`](Namespace.Math.md#vector3)
 
 Defined in: [src/helper/EntityHelper.ts:118](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L118)
 
 ###### Returns
 
-[`Vector3`](Math.md#vector3)
+[`Vector3`](Namespace.Math.md#vector3)
 
 ###### Inherited from
 
@@ -19272,13 +19266,13 @@ Defined in: [src/helper/EntityHelper.ts:118](https://github.com/Orb-Workshop/scr
 
 ##### GetAbsVelocity()
 
-> **GetAbsVelocity**(): [`Vector3`](Math.md#vector3)
+> **GetAbsVelocity**(): [`Vector3`](Namespace.Math.md#vector3)
 
 Defined in: [src/helper/EntityHelper.ts:134](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L134)
 
 ###### Returns
 
-[`Vector3`](Math.md#vector3)
+[`Vector3`](Namespace.Math.md#vector3)
 
 ###### Inherited from
 
@@ -19314,13 +19308,13 @@ Defined in: [src/helper/EntityHelper.ts:158](https://github.com/Orb-Workshop/scr
 
 ##### GetEyeAngles()
 
-> **GetEyeAngles**(): [`QAngle`](Math.md#qangle)
+> **GetEyeAngles**(): [`QAngle`](Namespace.Math.md#qangle)
 
 Defined in: [src/helper/EntityHelper.ts:142](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L142)
 
 ###### Returns
 
-[`QAngle`](Math.md#qangle)
+[`QAngle`](Namespace.Math.md#qangle)
 
 ###### Inherited from
 
@@ -19328,13 +19322,13 @@ Defined in: [src/helper/EntityHelper.ts:142](https://github.com/Orb-Workshop/scr
 
 ##### GetEyePosition()
 
-> **GetEyePosition**(): [`Vector3`](Math.md#vector3)
+> **GetEyePosition**(): [`Vector3`](Namespace.Math.md#vector3)
 
 Defined in: [src/helper/EntityHelper.ts:146](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L146)
 
 ###### Returns
 
-[`Vector3`](Math.md#vector3)
+[`Vector3`](Namespace.Math.md#vector3)
 
 ###### Inherited from
 
@@ -19370,13 +19364,13 @@ Defined in: [src/helper/EntityHelper.ts:186](https://github.com/Orb-Workshop/scr
 
 ##### GetLocalAngles()
 
-> **GetLocalAngles**(): [`QAngle`](Math.md#qangle)
+> **GetLocalAngles**(): [`QAngle`](Namespace.Math.md#qangle)
 
 Defined in: [src/helper/EntityHelper.ts:130](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L130)
 
 ###### Returns
 
-[`QAngle`](Math.md#qangle)
+[`QAngle`](Namespace.Math.md#qangle)
 
 ###### Inherited from
 
@@ -19384,13 +19378,13 @@ Defined in: [src/helper/EntityHelper.ts:130](https://github.com/Orb-Workshop/scr
 
 ##### GetLocalOrigin()
 
-> **GetLocalOrigin**(): [`Vector3`](Math.md#vector3)
+> **GetLocalOrigin**(): [`Vector3`](Namespace.Math.md#vector3)
 
 Defined in: [src/helper/EntityHelper.ts:122](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L122)
 
 ###### Returns
 
-[`Vector3`](Math.md#vector3)
+[`Vector3`](Namespace.Math.md#vector3)
 
 ###### Inherited from
 
@@ -19398,13 +19392,13 @@ Defined in: [src/helper/EntityHelper.ts:122](https://github.com/Orb-Workshop/scr
 
 ##### GetLocalVelocity()
 
-> **GetLocalVelocity**(): [`Vector3`](Math.md#vector3)
+> **GetLocalVelocity**(): [`Vector3`](Namespace.Math.md#vector3)
 
 Defined in: [src/helper/EntityHelper.ts:138](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L138)
 
 ###### Returns
 
-[`Vector3`](Math.md#vector3)
+[`Vector3`](Namespace.Math.md#vector3)
 
 ###### Inherited from
 
@@ -20097,13 +20091,13 @@ Defined in: [src/helper/PointTemplate.ts:40](https://github.com/Orb-Workshop/scr
 
 ##### GetAbsAngles()
 
-> **GetAbsAngles**(): [`QAngle`](Math.md#qangle)
+> **GetAbsAngles**(): [`QAngle`](Namespace.Math.md#qangle)
 
 Defined in: [src/helper/EntityHelper.ts:126](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L126)
 
 ###### Returns
 
-[`QAngle`](Math.md#qangle)
+[`QAngle`](Namespace.Math.md#qangle)
 
 ###### Inherited from
 
@@ -20111,13 +20105,13 @@ Defined in: [src/helper/EntityHelper.ts:126](https://github.com/Orb-Workshop/scr
 
 ##### GetAbsOrigin()
 
-> **GetAbsOrigin**(): [`Vector3`](Math.md#vector3)
+> **GetAbsOrigin**(): [`Vector3`](Namespace.Math.md#vector3)
 
 Defined in: [src/helper/EntityHelper.ts:118](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L118)
 
 ###### Returns
 
-[`Vector3`](Math.md#vector3)
+[`Vector3`](Namespace.Math.md#vector3)
 
 ###### Inherited from
 
@@ -20125,13 +20119,13 @@ Defined in: [src/helper/EntityHelper.ts:118](https://github.com/Orb-Workshop/scr
 
 ##### GetAbsVelocity()
 
-> **GetAbsVelocity**(): [`Vector3`](Math.md#vector3)
+> **GetAbsVelocity**(): [`Vector3`](Namespace.Math.md#vector3)
 
 Defined in: [src/helper/EntityHelper.ts:134](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L134)
 
 ###### Returns
 
-[`Vector3`](Math.md#vector3)
+[`Vector3`](Namespace.Math.md#vector3)
 
 ###### Inherited from
 
@@ -20167,13 +20161,13 @@ Defined in: [src/helper/EntityHelper.ts:158](https://github.com/Orb-Workshop/scr
 
 ##### GetEyeAngles()
 
-> **GetEyeAngles**(): [`QAngle`](Math.md#qangle)
+> **GetEyeAngles**(): [`QAngle`](Namespace.Math.md#qangle)
 
 Defined in: [src/helper/EntityHelper.ts:142](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L142)
 
 ###### Returns
 
-[`QAngle`](Math.md#qangle)
+[`QAngle`](Namespace.Math.md#qangle)
 
 ###### Inherited from
 
@@ -20181,13 +20175,13 @@ Defined in: [src/helper/EntityHelper.ts:142](https://github.com/Orb-Workshop/scr
 
 ##### GetEyePosition()
 
-> **GetEyePosition**(): [`Vector3`](Math.md#vector3)
+> **GetEyePosition**(): [`Vector3`](Namespace.Math.md#vector3)
 
 Defined in: [src/helper/EntityHelper.ts:146](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L146)
 
 ###### Returns
 
-[`Vector3`](Math.md#vector3)
+[`Vector3`](Namespace.Math.md#vector3)
 
 ###### Inherited from
 
@@ -20223,13 +20217,13 @@ Defined in: [src/helper/EntityHelper.ts:186](https://github.com/Orb-Workshop/scr
 
 ##### GetLocalAngles()
 
-> **GetLocalAngles**(): [`QAngle`](Math.md#qangle)
+> **GetLocalAngles**(): [`QAngle`](Namespace.Math.md#qangle)
 
 Defined in: [src/helper/EntityHelper.ts:130](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L130)
 
 ###### Returns
 
-[`QAngle`](Math.md#qangle)
+[`QAngle`](Namespace.Math.md#qangle)
 
 ###### Inherited from
 
@@ -20237,13 +20231,13 @@ Defined in: [src/helper/EntityHelper.ts:130](https://github.com/Orb-Workshop/scr
 
 ##### GetLocalOrigin()
 
-> **GetLocalOrigin**(): [`Vector3`](Math.md#vector3)
+> **GetLocalOrigin**(): [`Vector3`](Namespace.Math.md#vector3)
 
 Defined in: [src/helper/EntityHelper.ts:122](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L122)
 
 ###### Returns
 
-[`Vector3`](Math.md#vector3)
+[`Vector3`](Namespace.Math.md#vector3)
 
 ###### Inherited from
 
@@ -20251,13 +20245,13 @@ Defined in: [src/helper/EntityHelper.ts:122](https://github.com/Orb-Workshop/scr
 
 ##### GetLocalVelocity()
 
-> **GetLocalVelocity**(): [`Vector3`](Math.md#vector3)
+> **GetLocalVelocity**(): [`Vector3`](Namespace.Math.md#vector3)
 
 Defined in: [src/helper/EntityHelper.ts:138](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L138)
 
 ###### Returns
 
-[`Vector3`](Math.md#vector3)
+[`Vector3`](Namespace.Math.md#vector3)
 
 ###### Inherited from
 
@@ -21041,13 +21035,13 @@ Defined in: [src/helper/PropDynamic.ts:42](https://github.com/Orb-Workshop/scrip
 
 ##### GetAbsAngles()
 
-> **GetAbsAngles**(): [`QAngle`](Math.md#qangle)
+> **GetAbsAngles**(): [`QAngle`](Namespace.Math.md#qangle)
 
 Defined in: [src/helper/EntityHelper.ts:126](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L126)
 
 ###### Returns
 
-[`QAngle`](Math.md#qangle)
+[`QAngle`](Namespace.Math.md#qangle)
 
 ###### Inherited from
 
@@ -21055,13 +21049,13 @@ Defined in: [src/helper/EntityHelper.ts:126](https://github.com/Orb-Workshop/scr
 
 ##### GetAbsOrigin()
 
-> **GetAbsOrigin**(): [`Vector3`](Math.md#vector3)
+> **GetAbsOrigin**(): [`Vector3`](Namespace.Math.md#vector3)
 
 Defined in: [src/helper/EntityHelper.ts:118](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L118)
 
 ###### Returns
 
-[`Vector3`](Math.md#vector3)
+[`Vector3`](Namespace.Math.md#vector3)
 
 ###### Inherited from
 
@@ -21069,13 +21063,13 @@ Defined in: [src/helper/EntityHelper.ts:118](https://github.com/Orb-Workshop/scr
 
 ##### GetAbsVelocity()
 
-> **GetAbsVelocity**(): [`Vector3`](Math.md#vector3)
+> **GetAbsVelocity**(): [`Vector3`](Namespace.Math.md#vector3)
 
 Defined in: [src/helper/EntityHelper.ts:134](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L134)
 
 ###### Returns
 
-[`Vector3`](Math.md#vector3)
+[`Vector3`](Namespace.Math.md#vector3)
 
 ###### Inherited from
 
@@ -21125,13 +21119,13 @@ Defined in: [src/helper/EntityHelper.ts:158](https://github.com/Orb-Workshop/scr
 
 ##### GetEyeAngles()
 
-> **GetEyeAngles**(): [`QAngle`](Math.md#qangle)
+> **GetEyeAngles**(): [`QAngle`](Namespace.Math.md#qangle)
 
 Defined in: [src/helper/EntityHelper.ts:142](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L142)
 
 ###### Returns
 
-[`QAngle`](Math.md#qangle)
+[`QAngle`](Namespace.Math.md#qangle)
 
 ###### Inherited from
 
@@ -21139,13 +21133,13 @@ Defined in: [src/helper/EntityHelper.ts:142](https://github.com/Orb-Workshop/scr
 
 ##### GetEyePosition()
 
-> **GetEyePosition**(): [`Vector3`](Math.md#vector3)
+> **GetEyePosition**(): [`Vector3`](Namespace.Math.md#vector3)
 
 Defined in: [src/helper/EntityHelper.ts:146](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L146)
 
 ###### Returns
 
-[`Vector3`](Math.md#vector3)
+[`Vector3`](Namespace.Math.md#vector3)
 
 ###### Inherited from
 
@@ -21181,13 +21175,13 @@ Defined in: [src/helper/EntityHelper.ts:186](https://github.com/Orb-Workshop/scr
 
 ##### GetLocalAngles()
 
-> **GetLocalAngles**(): [`QAngle`](Math.md#qangle)
+> **GetLocalAngles**(): [`QAngle`](Namespace.Math.md#qangle)
 
 Defined in: [src/helper/EntityHelper.ts:130](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L130)
 
 ###### Returns
 
-[`QAngle`](Math.md#qangle)
+[`QAngle`](Namespace.Math.md#qangle)
 
 ###### Inherited from
 
@@ -21195,13 +21189,13 @@ Defined in: [src/helper/EntityHelper.ts:130](https://github.com/Orb-Workshop/scr
 
 ##### GetLocalOrigin()
 
-> **GetLocalOrigin**(): [`Vector3`](Math.md#vector3)
+> **GetLocalOrigin**(): [`Vector3`](Namespace.Math.md#vector3)
 
 Defined in: [src/helper/EntityHelper.ts:122](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L122)
 
 ###### Returns
 
-[`Vector3`](Math.md#vector3)
+[`Vector3`](Namespace.Math.md#vector3)
 
 ###### Inherited from
 
@@ -21209,13 +21203,13 @@ Defined in: [src/helper/EntityHelper.ts:122](https://github.com/Orb-Workshop/scr
 
 ##### GetLocalVelocity()
 
-> **GetLocalVelocity**(): [`Vector3`](Math.md#vector3)
+> **GetLocalVelocity**(): [`Vector3`](Namespace.Math.md#vector3)
 
 Defined in: [src/helper/EntityHelper.ts:138](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L138)
 
 ###### Returns
 
-[`Vector3`](Math.md#vector3)
+[`Vector3`](Namespace.Math.md#vector3)
 
 ###### Inherited from
 
@@ -22631,13 +22625,13 @@ Defined in: [src/helper/PropDynamic.ts:42](https://github.com/Orb-Workshop/scrip
 
 ##### GetAbsAngles()
 
-> **GetAbsAngles**(): [`QAngle`](Math.md#qangle)
+> **GetAbsAngles**(): [`QAngle`](Namespace.Math.md#qangle)
 
 Defined in: [src/helper/EntityHelper.ts:126](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L126)
 
 ###### Returns
 
-[`QAngle`](Math.md#qangle)
+[`QAngle`](Namespace.Math.md#qangle)
 
 ###### Inherited from
 
@@ -22645,13 +22639,13 @@ Defined in: [src/helper/EntityHelper.ts:126](https://github.com/Orb-Workshop/scr
 
 ##### GetAbsOrigin()
 
-> **GetAbsOrigin**(): [`Vector3`](Math.md#vector3)
+> **GetAbsOrigin**(): [`Vector3`](Namespace.Math.md#vector3)
 
 Defined in: [src/helper/EntityHelper.ts:118](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L118)
 
 ###### Returns
 
-[`Vector3`](Math.md#vector3)
+[`Vector3`](Namespace.Math.md#vector3)
 
 ###### Inherited from
 
@@ -22659,13 +22653,13 @@ Defined in: [src/helper/EntityHelper.ts:118](https://github.com/Orb-Workshop/scr
 
 ##### GetAbsVelocity()
 
-> **GetAbsVelocity**(): [`Vector3`](Math.md#vector3)
+> **GetAbsVelocity**(): [`Vector3`](Namespace.Math.md#vector3)
 
 Defined in: [src/helper/EntityHelper.ts:134](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L134)
 
 ###### Returns
 
-[`Vector3`](Math.md#vector3)
+[`Vector3`](Namespace.Math.md#vector3)
 
 ###### Inherited from
 
@@ -22715,13 +22709,13 @@ Defined in: [src/helper/EntityHelper.ts:158](https://github.com/Orb-Workshop/scr
 
 ##### GetEyeAngles()
 
-> **GetEyeAngles**(): [`QAngle`](Math.md#qangle)
+> **GetEyeAngles**(): [`QAngle`](Namespace.Math.md#qangle)
 
 Defined in: [src/helper/EntityHelper.ts:142](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L142)
 
 ###### Returns
 
-[`QAngle`](Math.md#qangle)
+[`QAngle`](Namespace.Math.md#qangle)
 
 ###### Inherited from
 
@@ -22729,13 +22723,13 @@ Defined in: [src/helper/EntityHelper.ts:142](https://github.com/Orb-Workshop/scr
 
 ##### GetEyePosition()
 
-> **GetEyePosition**(): [`Vector3`](Math.md#vector3)
+> **GetEyePosition**(): [`Vector3`](Namespace.Math.md#vector3)
 
 Defined in: [src/helper/EntityHelper.ts:146](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L146)
 
 ###### Returns
 
-[`Vector3`](Math.md#vector3)
+[`Vector3`](Namespace.Math.md#vector3)
 
 ###### Inherited from
 
@@ -22771,13 +22765,13 @@ Defined in: [src/helper/EntityHelper.ts:186](https://github.com/Orb-Workshop/scr
 
 ##### GetLocalAngles()
 
-> **GetLocalAngles**(): [`QAngle`](Math.md#qangle)
+> **GetLocalAngles**(): [`QAngle`](Namespace.Math.md#qangle)
 
 Defined in: [src/helper/EntityHelper.ts:130](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L130)
 
 ###### Returns
 
-[`QAngle`](Math.md#qangle)
+[`QAngle`](Namespace.Math.md#qangle)
 
 ###### Inherited from
 
@@ -22785,13 +22779,13 @@ Defined in: [src/helper/EntityHelper.ts:130](https://github.com/Orb-Workshop/scr
 
 ##### GetLocalOrigin()
 
-> **GetLocalOrigin**(): [`Vector3`](Math.md#vector3)
+> **GetLocalOrigin**(): [`Vector3`](Namespace.Math.md#vector3)
 
 Defined in: [src/helper/EntityHelper.ts:122](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L122)
 
 ###### Returns
 
-[`Vector3`](Math.md#vector3)
+[`Vector3`](Namespace.Math.md#vector3)
 
 ###### Inherited from
 
@@ -22799,13 +22793,13 @@ Defined in: [src/helper/EntityHelper.ts:122](https://github.com/Orb-Workshop/scr
 
 ##### GetLocalVelocity()
 
-> **GetLocalVelocity**(): [`Vector3`](Math.md#vector3)
+> **GetLocalVelocity**(): [`Vector3`](Namespace.Math.md#vector3)
 
 Defined in: [src/helper/EntityHelper.ts:138](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L138)
 
 ###### Returns
 
-[`Vector3`](Math.md#vector3)
+[`Vector3`](Namespace.Math.md#vector3)
 
 ###### Inherited from
 
@@ -24309,13 +24303,13 @@ Defined in: [src/helper/PropPhysicsMultiplayer.ts:42](https://github.com/Orb-Wor
 
 ##### GetAbsAngles()
 
-> **GetAbsAngles**(): [`QAngle`](Math.md#qangle)
+> **GetAbsAngles**(): [`QAngle`](Namespace.Math.md#qangle)
 
 Defined in: [src/helper/EntityHelper.ts:126](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L126)
 
 ###### Returns
 
-[`QAngle`](Math.md#qangle)
+[`QAngle`](Namespace.Math.md#qangle)
 
 ###### Inherited from
 
@@ -24323,13 +24317,13 @@ Defined in: [src/helper/EntityHelper.ts:126](https://github.com/Orb-Workshop/scr
 
 ##### GetAbsOrigin()
 
-> **GetAbsOrigin**(): [`Vector3`](Math.md#vector3)
+> **GetAbsOrigin**(): [`Vector3`](Namespace.Math.md#vector3)
 
 Defined in: [src/helper/EntityHelper.ts:118](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L118)
 
 ###### Returns
 
-[`Vector3`](Math.md#vector3)
+[`Vector3`](Namespace.Math.md#vector3)
 
 ###### Inherited from
 
@@ -24337,13 +24331,13 @@ Defined in: [src/helper/EntityHelper.ts:118](https://github.com/Orb-Workshop/scr
 
 ##### GetAbsVelocity()
 
-> **GetAbsVelocity**(): [`Vector3`](Math.md#vector3)
+> **GetAbsVelocity**(): [`Vector3`](Namespace.Math.md#vector3)
 
 Defined in: [src/helper/EntityHelper.ts:134](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L134)
 
 ###### Returns
 
-[`Vector3`](Math.md#vector3)
+[`Vector3`](Namespace.Math.md#vector3)
 
 ###### Inherited from
 
@@ -24393,13 +24387,13 @@ Defined in: [src/helper/EntityHelper.ts:158](https://github.com/Orb-Workshop/scr
 
 ##### GetEyeAngles()
 
-> **GetEyeAngles**(): [`QAngle`](Math.md#qangle)
+> **GetEyeAngles**(): [`QAngle`](Namespace.Math.md#qangle)
 
 Defined in: [src/helper/EntityHelper.ts:142](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L142)
 
 ###### Returns
 
-[`QAngle`](Math.md#qangle)
+[`QAngle`](Namespace.Math.md#qangle)
 
 ###### Inherited from
 
@@ -24407,13 +24401,13 @@ Defined in: [src/helper/EntityHelper.ts:142](https://github.com/Orb-Workshop/scr
 
 ##### GetEyePosition()
 
-> **GetEyePosition**(): [`Vector3`](Math.md#vector3)
+> **GetEyePosition**(): [`Vector3`](Namespace.Math.md#vector3)
 
 Defined in: [src/helper/EntityHelper.ts:146](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L146)
 
 ###### Returns
 
-[`Vector3`](Math.md#vector3)
+[`Vector3`](Namespace.Math.md#vector3)
 
 ###### Inherited from
 
@@ -24449,13 +24443,13 @@ Defined in: [src/helper/EntityHelper.ts:186](https://github.com/Orb-Workshop/scr
 
 ##### GetLocalAngles()
 
-> **GetLocalAngles**(): [`QAngle`](Math.md#qangle)
+> **GetLocalAngles**(): [`QAngle`](Namespace.Math.md#qangle)
 
 Defined in: [src/helper/EntityHelper.ts:130](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L130)
 
 ###### Returns
 
-[`QAngle`](Math.md#qangle)
+[`QAngle`](Namespace.Math.md#qangle)
 
 ###### Inherited from
 
@@ -24463,13 +24457,13 @@ Defined in: [src/helper/EntityHelper.ts:130](https://github.com/Orb-Workshop/scr
 
 ##### GetLocalOrigin()
 
-> **GetLocalOrigin**(): [`Vector3`](Math.md#vector3)
+> **GetLocalOrigin**(): [`Vector3`](Namespace.Math.md#vector3)
 
 Defined in: [src/helper/EntityHelper.ts:122](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L122)
 
 ###### Returns
 
-[`Vector3`](Math.md#vector3)
+[`Vector3`](Namespace.Math.md#vector3)
 
 ###### Inherited from
 
@@ -24477,13 +24471,13 @@ Defined in: [src/helper/EntityHelper.ts:122](https://github.com/Orb-Workshop/scr
 
 ##### GetLocalVelocity()
 
-> **GetLocalVelocity**(): [`Vector3`](Math.md#vector3)
+> **GetLocalVelocity**(): [`Vector3`](Namespace.Math.md#vector3)
 
 Defined in: [src/helper/EntityHelper.ts:138](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L138)
 
 ###### Returns
 
-[`Vector3`](Math.md#vector3)
+[`Vector3`](Namespace.Math.md#vector3)
 
 ###### Inherited from
 
@@ -25529,13 +25523,13 @@ Defined in: [src/helper/EntityHelper.ts:80](https://github.com/Orb-Workshop/scri
 
 ##### GetAbsAngles()
 
-> **GetAbsAngles**(): [`QAngle`](Math.md#qangle)
+> **GetAbsAngles**(): [`QAngle`](Namespace.Math.md#qangle)
 
 Defined in: [src/helper/EntityHelper.ts:126](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L126)
 
 ###### Returns
 
-[`QAngle`](Math.md#qangle)
+[`QAngle`](Namespace.Math.md#qangle)
 
 ###### Inherited from
 
@@ -25543,13 +25537,13 @@ Defined in: [src/helper/EntityHelper.ts:126](https://github.com/Orb-Workshop/scr
 
 ##### GetAbsOrigin()
 
-> **GetAbsOrigin**(): [`Vector3`](Math.md#vector3)
+> **GetAbsOrigin**(): [`Vector3`](Namespace.Math.md#vector3)
 
 Defined in: [src/helper/EntityHelper.ts:118](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L118)
 
 ###### Returns
 
-[`Vector3`](Math.md#vector3)
+[`Vector3`](Namespace.Math.md#vector3)
 
 ###### Inherited from
 
@@ -25557,13 +25551,13 @@ Defined in: [src/helper/EntityHelper.ts:118](https://github.com/Orb-Workshop/scr
 
 ##### GetAbsVelocity()
 
-> **GetAbsVelocity**(): [`Vector3`](Math.md#vector3)
+> **GetAbsVelocity**(): [`Vector3`](Namespace.Math.md#vector3)
 
 Defined in: [src/helper/EntityHelper.ts:134](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L134)
 
 ###### Returns
 
-[`Vector3`](Math.md#vector3)
+[`Vector3`](Namespace.Math.md#vector3)
 
 ###### Inherited from
 
@@ -25599,13 +25593,13 @@ Defined in: [src/helper/EntityHelper.ts:158](https://github.com/Orb-Workshop/scr
 
 ##### GetEyeAngles()
 
-> **GetEyeAngles**(): [`QAngle`](Math.md#qangle)
+> **GetEyeAngles**(): [`QAngle`](Namespace.Math.md#qangle)
 
 Defined in: [src/helper/EntityHelper.ts:142](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L142)
 
 ###### Returns
 
-[`QAngle`](Math.md#qangle)
+[`QAngle`](Namespace.Math.md#qangle)
 
 ###### Inherited from
 
@@ -25613,13 +25607,13 @@ Defined in: [src/helper/EntityHelper.ts:142](https://github.com/Orb-Workshop/scr
 
 ##### GetEyePosition()
 
-> **GetEyePosition**(): [`Vector3`](Math.md#vector3)
+> **GetEyePosition**(): [`Vector3`](Namespace.Math.md#vector3)
 
 Defined in: [src/helper/EntityHelper.ts:146](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L146)
 
 ###### Returns
 
-[`Vector3`](Math.md#vector3)
+[`Vector3`](Namespace.Math.md#vector3)
 
 ###### Inherited from
 
@@ -25655,13 +25649,13 @@ Defined in: [src/helper/EntityHelper.ts:186](https://github.com/Orb-Workshop/scr
 
 ##### GetLocalAngles()
 
-> **GetLocalAngles**(): [`QAngle`](Math.md#qangle)
+> **GetLocalAngles**(): [`QAngle`](Namespace.Math.md#qangle)
 
 Defined in: [src/helper/EntityHelper.ts:130](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L130)
 
 ###### Returns
 
-[`QAngle`](Math.md#qangle)
+[`QAngle`](Namespace.Math.md#qangle)
 
 ###### Inherited from
 
@@ -25669,13 +25663,13 @@ Defined in: [src/helper/EntityHelper.ts:130](https://github.com/Orb-Workshop/scr
 
 ##### GetLocalOrigin()
 
-> **GetLocalOrigin**(): [`Vector3`](Math.md#vector3)
+> **GetLocalOrigin**(): [`Vector3`](Namespace.Math.md#vector3)
 
 Defined in: [src/helper/EntityHelper.ts:122](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L122)
 
 ###### Returns
 
-[`Vector3`](Math.md#vector3)
+[`Vector3`](Namespace.Math.md#vector3)
 
 ###### Inherited from
 
@@ -25683,13 +25677,13 @@ Defined in: [src/helper/EntityHelper.ts:122](https://github.com/Orb-Workshop/scr
 
 ##### GetLocalVelocity()
 
-> **GetLocalVelocity**(): [`Vector3`](Math.md#vector3)
+> **GetLocalVelocity**(): [`Vector3`](Namespace.Math.md#vector3)
 
 Defined in: [src/helper/EntityHelper.ts:138](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L138)
 
 ###### Returns
 
-[`Vector3`](Math.md#vector3)
+[`Vector3`](Namespace.Math.md#vector3)
 
 ###### Inherited from
 
@@ -26492,13 +26486,13 @@ Defined in: [src/helper/EntityHelper.ts:80](https://github.com/Orb-Workshop/scri
 
 ##### GetAbsAngles()
 
-> **GetAbsAngles**(): [`QAngle`](Math.md#qangle)
+> **GetAbsAngles**(): [`QAngle`](Namespace.Math.md#qangle)
 
 Defined in: [src/helper/EntityHelper.ts:126](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L126)
 
 ###### Returns
 
-[`QAngle`](Math.md#qangle)
+[`QAngle`](Namespace.Math.md#qangle)
 
 ###### Inherited from
 
@@ -26506,13 +26500,13 @@ Defined in: [src/helper/EntityHelper.ts:126](https://github.com/Orb-Workshop/scr
 
 ##### GetAbsOrigin()
 
-> **GetAbsOrigin**(): [`Vector3`](Math.md#vector3)
+> **GetAbsOrigin**(): [`Vector3`](Namespace.Math.md#vector3)
 
 Defined in: [src/helper/EntityHelper.ts:118](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L118)
 
 ###### Returns
 
-[`Vector3`](Math.md#vector3)
+[`Vector3`](Namespace.Math.md#vector3)
 
 ###### Inherited from
 
@@ -26520,13 +26514,13 @@ Defined in: [src/helper/EntityHelper.ts:118](https://github.com/Orb-Workshop/scr
 
 ##### GetAbsVelocity()
 
-> **GetAbsVelocity**(): [`Vector3`](Math.md#vector3)
+> **GetAbsVelocity**(): [`Vector3`](Namespace.Math.md#vector3)
 
 Defined in: [src/helper/EntityHelper.ts:134](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L134)
 
 ###### Returns
 
-[`Vector3`](Math.md#vector3)
+[`Vector3`](Namespace.Math.md#vector3)
 
 ###### Inherited from
 
@@ -26562,13 +26556,13 @@ Defined in: [src/helper/EntityHelper.ts:158](https://github.com/Orb-Workshop/scr
 
 ##### GetEyeAngles()
 
-> **GetEyeAngles**(): [`QAngle`](Math.md#qangle)
+> **GetEyeAngles**(): [`QAngle`](Namespace.Math.md#qangle)
 
 Defined in: [src/helper/EntityHelper.ts:142](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L142)
 
 ###### Returns
 
-[`QAngle`](Math.md#qangle)
+[`QAngle`](Namespace.Math.md#qangle)
 
 ###### Inherited from
 
@@ -26576,13 +26570,13 @@ Defined in: [src/helper/EntityHelper.ts:142](https://github.com/Orb-Workshop/scr
 
 ##### GetEyePosition()
 
-> **GetEyePosition**(): [`Vector3`](Math.md#vector3)
+> **GetEyePosition**(): [`Vector3`](Namespace.Math.md#vector3)
 
 Defined in: [src/helper/EntityHelper.ts:146](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L146)
 
 ###### Returns
 
-[`Vector3`](Math.md#vector3)
+[`Vector3`](Namespace.Math.md#vector3)
 
 ###### Inherited from
 
@@ -26618,13 +26612,13 @@ Defined in: [src/helper/EntityHelper.ts:186](https://github.com/Orb-Workshop/scr
 
 ##### GetLocalAngles()
 
-> **GetLocalAngles**(): [`QAngle`](Math.md#qangle)
+> **GetLocalAngles**(): [`QAngle`](Namespace.Math.md#qangle)
 
 Defined in: [src/helper/EntityHelper.ts:130](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L130)
 
 ###### Returns
 
-[`QAngle`](Math.md#qangle)
+[`QAngle`](Namespace.Math.md#qangle)
 
 ###### Inherited from
 
@@ -26632,13 +26626,13 @@ Defined in: [src/helper/EntityHelper.ts:130](https://github.com/Orb-Workshop/scr
 
 ##### GetLocalOrigin()
 
-> **GetLocalOrigin**(): [`Vector3`](Math.md#vector3)
+> **GetLocalOrigin**(): [`Vector3`](Namespace.Math.md#vector3)
 
 Defined in: [src/helper/EntityHelper.ts:122](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L122)
 
 ###### Returns
 
-[`Vector3`](Math.md#vector3)
+[`Vector3`](Namespace.Math.md#vector3)
 
 ###### Inherited from
 
@@ -26646,13 +26640,13 @@ Defined in: [src/helper/EntityHelper.ts:122](https://github.com/Orb-Workshop/scr
 
 ##### GetLocalVelocity()
 
-> **GetLocalVelocity**(): [`Vector3`](Math.md#vector3)
+> **GetLocalVelocity**(): [`Vector3`](Namespace.Math.md#vector3)
 
 Defined in: [src/helper/EntityHelper.ts:138](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/helper/EntityHelper.ts#L138)
 
 ###### Returns
 
-[`Vector3`](Math.md#vector3)
+[`Vector3`](Namespace.Math.md#vector3)
 
 ###### Inherited from
 

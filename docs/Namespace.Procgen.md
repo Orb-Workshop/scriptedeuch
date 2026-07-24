@@ -1,9 +1,3 @@
-[**scriptedeuch**](../../README.md)
-
-***
-
-[scriptedeuch](../../README.md) / Procgen
-
 # Procgen
 
 Procedural Generation Library
@@ -33,7 +27,7 @@ Defined in: [src/procgen/DiffusionLimitedAggregation.ts:23](https://github.com/O
 | Parameter | Type |
 | ------ | ------ |
 | `grid` | `GridType` |
-| `srng` | [`SeededRandomNumberGenerator`](Random.md#seededrandomnumbergenerator) |
+| `srng` | [`SeededRandomNumberGenerator`](Namespace.Random.md#seededrandomnumbergenerator) |
 
 ###### Returns
 
@@ -43,15 +37,15 @@ Defined in: [src/procgen/DiffusionLimitedAggregation.ts:23](https://github.com/O
 
 | Property | Type | Default value | Defined in |
 | ------ | ------ | ------ | ------ |
-| <a id="current_aggregates"></a> `current_aggregates` | [`GridLens`](Grid.md#gridlens)\<`T`\>[] | `[]` | [src/procgen/DiffusionLimitedAggregation.ts:20](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/procgen/DiffusionLimitedAggregation.ts#L20) |
+| <a id="current_aggregates"></a> `current_aggregates` | [`GridLens`](Namespace.Grid.md#gridlens)\<`T`\>[] | `[]` | [src/procgen/DiffusionLimitedAggregation.ts:20](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/procgen/DiffusionLimitedAggregation.ts#L20) |
 | <a id="cycles"></a> `cycles` | `number` | `DEFAULT_CYCLES` | [src/procgen/DiffusionLimitedAggregation.ts:13](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/procgen/DiffusionLimitedAggregation.ts#L13) |
 | <a id="fill_value"></a> `fill_value` | `T` | `null` | [src/procgen/DiffusionLimitedAggregation.ts:15](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/procgen/DiffusionLimitedAggregation.ts#L15) |
 | <a id="filter_whitelist"></a> `filter_whitelist` | `T`[] | `undefined` | [src/procgen/DiffusionLimitedAggregation.ts:16](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/procgen/DiffusionLimitedAggregation.ts#L16) |
 | <a id="grid"></a> `grid` | `GridType`\<`T`\> | `undefined` | [src/procgen/DiffusionLimitedAggregation.ts:9](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/procgen/DiffusionLimitedAggregation.ts#L9) |
 | <a id="max_aggregates"></a> `max_aggregates` | `number` | `DEFAULT_MAX_AGGREGATES` | [src/procgen/DiffusionLimitedAggregation.ts:14](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/procgen/DiffusionLimitedAggregation.ts#L14) |
-| <a id="particle"></a> `particle` | [`GridLens`](Grid.md#gridlens)\<`T`\> | `null` | [src/procgen/DiffusionLimitedAggregation.ts:21](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/procgen/DiffusionLimitedAggregation.ts#L21) |
-| <a id="seed_point"></a> `seed_point` | [`GridLens`](Grid.md#gridlens)\<`T`\> | `null` | [src/procgen/DiffusionLimitedAggregation.ts:17](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/procgen/DiffusionLimitedAggregation.ts#L17) |
-| <a id="srng"></a> `srng` | [`SeededRandomNumberGenerator`](Random.md#seededrandomnumbergenerator) | `undefined` | [src/procgen/DiffusionLimitedAggregation.ts:10](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/procgen/DiffusionLimitedAggregation.ts#L10) |
+| <a id="particle"></a> `particle` | [`GridLens`](Namespace.Grid.md#gridlens)\<`T`\> | `null` | [src/procgen/DiffusionLimitedAggregation.ts:21](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/procgen/DiffusionLimitedAggregation.ts#L21) |
+| <a id="seed_point"></a> `seed_point` | [`GridLens`](Namespace.Grid.md#gridlens)\<`T`\> | `null` | [src/procgen/DiffusionLimitedAggregation.ts:17](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/procgen/DiffusionLimitedAggregation.ts#L17) |
+| <a id="srng"></a> `srng` | [`SeededRandomNumberGenerator`](Namespace.Random.md#seededrandomnumbergenerator) | `undefined` | [src/procgen/DiffusionLimitedAggregation.ts:10](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/procgen/DiffusionLimitedAggregation.ts#L10) |
 
 #### Methods
 
@@ -96,7 +90,7 @@ Defined in: [src/procgen/PathCrawler.ts:26](https://github.com/Orb-Workshop/scri
 | Parameter | Type |
 | ------ | ------ |
 | `grid` | `GridType`\<`T`\> |
-| `srng` | [`SeededRandomNumberGenerator`](Random.md#seededrandomnumbergenerator) |
+| `srng` | [`SeededRandomNumberGenerator`](Namespace.Random.md#seededrandomnumbergenerator) |
 
 ###### Returns
 
@@ -107,8 +101,8 @@ Defined in: [src/procgen/PathCrawler.ts:26](https://github.com/Orb-Workshop/scri
 | Property | Modifier | Type | Default value | Defined in |
 | ------ | ------ | ------ | ------ | ------ |
 | <a id="grid-1"></a> `grid` | `public` | `GridType`\<`T`\> | `undefined` | [src/procgen/PathCrawler.ts:10](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/procgen/PathCrawler.ts#L10) |
-| <a id="srng-1"></a> `srng` | `public` | [`SeededRandomNumberGenerator`](Random.md#seededrandomnumbergenerator) | `undefined` | [src/procgen/PathCrawler.ts:11](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/procgen/PathCrawler.ts#L11) |
-| <a id="starting_point"></a> `starting_point` | `public` | [`GridLens`](Grid.md#gridlens)\<`T`\> | `null` | [src/procgen/PathCrawler.ts:24](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/procgen/PathCrawler.ts#L24) |
+| <a id="srng-1"></a> `srng` | `public` | [`SeededRandomNumberGenerator`](Namespace.Random.md#seededrandomnumbergenerator) | `undefined` | [src/procgen/PathCrawler.ts:11](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/procgen/PathCrawler.ts#L11) |
+| <a id="starting_point"></a> `starting_point` | `public` | [`GridLens`](Namespace.Grid.md#gridlens)\<`T`\> | `null` | [src/procgen/PathCrawler.ts:24](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/procgen/PathCrawler.ts#L24) |
 | <a id="steps"></a> `steps` | `public` | `number` | `10` | [src/procgen/PathCrawler.ts:23](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/procgen/PathCrawler.ts#L23) |
 | <a id="default_distribution"></a> `default_distribution` | `static` | `object` | `undefined` | [src/procgen/PathCrawler.ts:13](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/procgen/PathCrawler.ts#L13) |
 | `default_distribution.bottom` | `public` | `number` | `1` | [src/procgen/PathCrawler.ts:15](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/procgen/PathCrawler.ts#L15) |
@@ -122,7 +116,7 @@ Defined in: [src/procgen/PathCrawler.ts:26](https://github.com/Orb-Workshop/scri
 
 ##### crawl()
 
-> **crawl**(`opts?`): [`GridLens`](Grid.md#gridlens)\<`T`\>[]
+> **crawl**(`opts?`): [`GridLens`](Namespace.Grid.md#gridlens)\<`T`\>[]
 
 Defined in: [src/procgen/PathCrawler.ts:38](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/procgen/PathCrawler.ts#L38)
 
@@ -134,7 +128,7 @@ Defined in: [src/procgen/PathCrawler.ts:38](https://github.com/Orb-Workshop/scri
 
 ###### Returns
 
-[`GridLens`](Grid.md#gridlens)\<`T`\>[]
+[`GridLens`](Namespace.Grid.md#gridlens)\<`T`\>[]
 
 ***
 
@@ -161,7 +155,7 @@ Defined in: [src/procgen/RoomGeneration.ts:16](https://github.com/Orb-Workshop/s
 | Parameter | Type |
 | ------ | ------ |
 | `grid` | `GridType`\<`T`\> |
-| `srng` | [`SeededRandomNumberGenerator`](Random.md#seededrandomnumbergenerator) |
+| `srng` | [`SeededRandomNumberGenerator`](Namespace.Random.md#seededrandomnumbergenerator) |
 
 ###### Returns
 
@@ -172,14 +166,14 @@ Defined in: [src/procgen/RoomGeneration.ts:16](https://github.com/Orb-Workshop/s
 | Property | Type | Default value | Defined in |
 | ------ | ------ | ------ | ------ |
 | <a id="grid-2"></a> `grid` | `GridType`\<`T`\> | `undefined` | [src/procgen/RoomGeneration.ts:11](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/procgen/RoomGeneration.ts#L11) |
-| <a id="placed_rooms"></a> `placed_rooms` | [`SubGrid`](Grid.md#subgrid-1)\<`number`\>[] | `[]` | [src/procgen/RoomGeneration.ts:14](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/procgen/RoomGeneration.ts#L14) |
-| <a id="srng-2"></a> `srng` | [`SeededRandomNumberGenerator`](Random.md#seededrandomnumbergenerator) | `undefined` | [src/procgen/RoomGeneration.ts:12](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/procgen/RoomGeneration.ts#L12) |
+| <a id="placed_rooms"></a> `placed_rooms` | [`SubGrid`](Namespace.Grid.md#subgrid-1)\<`number`\>[] | `[]` | [src/procgen/RoomGeneration.ts:14](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/procgen/RoomGeneration.ts#L14) |
+| <a id="srng-2"></a> `srng` | [`SeededRandomNumberGenerator`](Namespace.Random.md#seededrandomnumbergenerator) | `undefined` | [src/procgen/RoomGeneration.ts:12](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/procgen/RoomGeneration.ts#L12) |
 
 #### Methods
 
 ##### generateRoom()
 
-> **generateRoom**(`opts`): [`SubGrid`](Grid.md#subgrid-1)\<`T`\>
+> **generateRoom**(`opts`): [`SubGrid`](Namespace.Grid.md#subgrid-1)\<`T`\>
 
 Defined in: [src/procgen/RoomGeneration.ts:21](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/procgen/RoomGeneration.ts#L21)
 
@@ -191,4 +185,4 @@ Defined in: [src/procgen/RoomGeneration.ts:21](https://github.com/Orb-Workshop/s
 
 ###### Returns
 
-[`SubGrid`](Grid.md#subgrid-1)\<`T`\>
+[`SubGrid`](Namespace.Grid.md#subgrid-1)\<`T`\>

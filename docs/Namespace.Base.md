@@ -1,9 +1,3 @@
-[**scriptedeuch**](../../../README.md)
-
-***
-
-[scriptedeuch](../../../README.md) / Base
-
 # Base
 
 Base Library Framework Components
@@ -12,8 +6,8 @@ Base Library Framework Components
 
 | Namespace | Description |
 | ------ | ------ |
-| [Asset](namespaces/Asset.md) | - |
-| [Default](namespaces/Default.md) | - |
+| [Asset](Base.Namespace.Asset.md) | - |
+| [Default](Base.Namespace.Default.md) | - |
 
 ## Classes
 
@@ -25,11 +19,11 @@ Defined in: [src/base/Actor.ts:14](https://github.com/Orb-Workshop/scriptedeuch/
 
 - [`ThinkTask`](#thinktask)
 - [`MessageTask`](#messagetask)
-- [`Explosion`](../Actor.md#explosion)
-- [`PlayerInvincibility`](../Actor.md#playerinvincibility)
-- [`PlayerMount`](../Actor.md#playermount)
-- [`Projectile`](../Actor.md#projectile)
-- [`Listener`](../Event.md#listener)
+- [`Explosion`](Namespace.Actor.md#explosion)
+- [`PlayerInvincibility`](Namespace.Actor.md#playerinvincibility)
+- [`PlayerMount`](Namespace.Actor.md#playermount)
+- [`Projectile`](Namespace.Actor.md#projectile)
+- [`Listener`](Namespace.Event.md#listener)
 
 #### Implements
 
@@ -724,18 +718,18 @@ Mountable System Abstraction.
 
 #### Extended by
 
-- [`DeathmatchSpawnerSystem`](../System.md#deathmatchspawnersystem)
-- [`DialogSystem`](../System.md#dialogsystem)
-- [`DoubleJumpSystem`](../System.md#doublejumpsystem)
-- [`FreezeTimeSystem`](../System.md#freezetimesystem)
-- [`GameAnnouncerSystem`](../System.md#gameannouncersystem)
-- [`KnifeDashSystem`](../System.md#knifedashsystem)
-- [`PlayerHealthRegenerationSystem`](../System.md#playerhealthregenerationsystem)
-- [`PlayerModelChangerSystem`](../System.md#playermodelchangersystem)
-- [`PlayerSlidingSystem`](../System.md#playerslidingsystem)
-- [`SchedulingSystem`](../System.md#schedulingsystem)
-- [`SoundEventSystem`](../System.md#soundeventsystem)
-- [`WeaponReplacementSystem`](../System.md#weaponreplacementsystem)
+- [`DeathmatchSpawnerSystem`](Namespace.System.md#deathmatchspawnersystem)
+- [`DialogSystem`](Namespace.System.md#dialogsystem)
+- [`DoubleJumpSystem`](Namespace.System.md#doublejumpsystem)
+- [`FreezeTimeSystem`](Namespace.System.md#freezetimesystem)
+- [`GameAnnouncerSystem`](Namespace.System.md#gameannouncersystem)
+- [`KnifeDashSystem`](Namespace.System.md#knifedashsystem)
+- [`PlayerHealthRegenerationSystem`](Namespace.System.md#playerhealthregenerationsystem)
+- [`PlayerModelChangerSystem`](Namespace.System.md#playermodelchangersystem)
+- [`PlayerSlidingSystem`](Namespace.System.md#playerslidingsystem)
+- [`SchedulingSystem`](Namespace.System.md#schedulingsystem)
+- [`SoundEventSystem`](Namespace.System.md#soundeventsystem)
+- [`WeaponReplacementSystem`](Namespace.System.md#weaponreplacementsystem)
 
 #### Constructors
 
