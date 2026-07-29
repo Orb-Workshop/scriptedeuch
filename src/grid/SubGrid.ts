@@ -35,7 +35,6 @@ export default class SubGrid<T = number> implements GridType {
                                  k + this.z);
     }
 
-    //TODO: use local index and convert to global index?
     getAtIndex(idx: number): T {
         return this.parent.getAtIndex(idx);
     }

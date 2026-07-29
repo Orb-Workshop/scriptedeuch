@@ -1,13 +1,20 @@
 /**
-   Represents a collection of elements contained with the referenced
+   Represents a collection of elements contained within the referenced
    Grid3D.
 
-   The collection of elements is stored as a map of GridLens instances, by index.
+   The collection of elements is stored as a map of `GridLens`
+   instances, by index. A GridView can be queried for element
+   presence.
+
+   Elements can be added/removed solely as a `GridLens` with `set` and `delete`
 
    It can be queried and manipulated with `forEachElement`. Parts of
    the SubView can be removed and inserted from with SubGrid's.
 
-   SubView's could be used as filters, they can be used to define different layers, etc.
+   Applications of SubViews. SubView's can be used as filters. They
+   can be used to define different layers of a Grid as a sparse set of
+   elements. Especially useful if the dataset cannot be represented by
+   a SubGrid.
 
    # Example
 
@@ -21,7 +28,7 @@
      x: 2, y: 5, width: 6, height: 2,
    }));
    sv.forEachElement((e) => e.set(1));
-   Display2D(g) // Utils
+   Display2D(g)
    ```
 */
 import Grid3D from "./Grid3D";
@@ -42,6 +49,11 @@ export default class SubView<T = number> {
 	this.element_mapping.set(idx, gl);
     }
 
+    delete(gl: GridLens<T>): bool {
+	const idx = this.grid.index(gl.x, gl.y, gl.z);
+	return this.element_mapping.delete(idx);
+    }
+
     has(x: number, y: number, z: number = 0): bool {
 	const idx = this.grid.index(x, y, z);
 	this.element_mapping.has(idx);
@@ -52,17 +64,18 @@ export default class SubView<T = number> {
 	return this.element_mapping.get(idx) ?? null;
     }
 
-    delete(gl: GridLens<T>): bool {
-	const idx = this.grid.index(gl.x, gl.y, gl.z);
-	return this.element_mapping.delete(idx);
-    }
-
     insertGrid(g: SubGrid<T>): void {
-
+	g.forEachIndex((i, j, k) => {
+	    const l = g.lens(i, j, k);
+	    this.set(l);
+	});
     }
 
     removeGrid(g: SubGrid<T>): void {
-
+	g.forEachIndex((i, j, k) => {
+	    const l = g.lens(i, j, k);
+	    this.delete(l);
+	});
     }
 
     forEachElement(f: (e: GridLens<T>) => void): void {
