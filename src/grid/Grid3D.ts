@@ -29,6 +29,7 @@
 */
 import BBox3 from "../math/BBox3";
 import SubGrid from "./SubGrid";
+import SubView from "./SubView";
 import GridLens from "./GridLens";
 import GridError from "./GridError";
 import type GridType from "./GridType";
@@ -211,5 +212,12 @@ export default class Grid3D<T = number> implements GridType {
 	if (z < 0) throw new GridError("GridLens 'z' value is out of bounds.");
 	if (z > this.depth-1) throw new GridError("GridLens 'z' value is out of bounds.");
 	return new GridLens<T>(this, x, y, z);
+    }
+
+    /*
+      Returns a 'SubView' instance. Useful for non-square datasets that exist in the Grid3D.
+    */
+    subView(): SubView<T> {
+	return new SubView(this);
     }
 }

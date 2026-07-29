@@ -134,4 +134,12 @@ export default class SubGrid<T = number> implements GridType {
 	return new GridLens<T>(this, x, y, z);
     }
 
+    /*
+      Returns a 'SubView' instance based on the parent Grid3D. Useful
+      for non-square datasets that exist in the Grid3D.
+    */
+    subView(): SubView<T> {
+	return new SubView<T>(this.parent);
+    }
+
 }
