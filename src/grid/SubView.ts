@@ -65,15 +65,15 @@ export default class SubView<T = number> {
     }
 
     insertGrid(g: SubGrid<T>): void {
-	g.forEachIndex((i, j, k) => {
-	    const l = g.lens(i, j, k);
+	g.forEachGlobalIndex((i, j, k) => {
+	    const l = this.grid.lens(i, j, k);
 	    this.set(l);
 	});
     }
 
     removeGrid(g: SubGrid<T>): void {
-	g.forEachIndex((i, j, k) => {
-	    const l = g.lens(i, j, k);
+	g.forEachGlobalIndex((i, j, k) => {
+	    const l = this.grid.lens(i, j, k);
 	    this.delete(l);
 	});
     }
