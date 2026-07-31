@@ -2,6 +2,7 @@
    Used to crawl over a Grid3D or SubGrid.
 */
 import type GridType from "./GridType";
+import GridError from "./GridError";
 
 export default class GridLens<T> {
     parent: GridType;
@@ -66,5 +67,10 @@ export default class GridLens<T> {
     left(): T|null {
         if (this.x <= 0) return null;
         return new GridLens<T>(this.parent, this.x-1, this.y, this.z);
+    }
+
+    withOwner(g: GridType): GridLens<T> {
+	//TODO: make sure the GridLens is within bounds
+	return new GridLens(g, this.x, this.y, this.z);
     }
 }

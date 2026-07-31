@@ -37,10 +37,10 @@ import GridLens from "./GridLens";
 import type GridType from "./GridType";
 
 export default class SubView<T = number> {
-    grid: GridType<T>;
+    grid: Grid3D<T>;
     element_mapping: Map<number, GridLens<T>> = new Map();
 
-    constructor(grid: GridType<T>) {
+    constructor(grid: Grid3D<T>) {
 	this.grid = grid;
     }
 
@@ -80,5 +80,16 @@ export default class SubView<T = number> {
 
     forEachElement(f: (e: GridLens<T>) => void): void {
 	this.element_mapping.forEach((value, key, m) => f(value));
+    }
+
+    /**
+       Returns the GridView with the given Grid3D as it's parent.
+     */
+    withOwner(g: Grid3D<T>): SubView<T> {
+	const sv = new SubView(this.grid);
+	this.forEachElement((e) => {
+	    sv.set(e.withOwner(g));
+	});
+	return sv;
     }
 }

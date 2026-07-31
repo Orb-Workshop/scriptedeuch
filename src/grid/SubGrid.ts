@@ -130,7 +130,7 @@ export default class SubGrid<T = number> implements GridType {
 	    throw new GridError("GridLens 'z' value is out of bounds.");
 	if (z > this.depth-1)
 	    throw new GridError("GridLens 'z' value is out of bounds.");
-	return new GridLens<T>(this.parent, x, y, z);
+	return new GridLens<T>(this, x, y, z);
     }
 
     /*
