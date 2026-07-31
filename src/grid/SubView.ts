@@ -92,4 +92,13 @@ export default class SubView<T = number> {
 	});
 	return sv;
     }
+
+    translate(x: number, y: number, z: number = 0): SubView<T> {
+	const sv = new SubView(this.grid);
+	this.forEachElement((e) => {
+	    const l = new GridLens(this.grid, e.x + x, e.y + y, e.z + z);
+	    sv.set(l);
+	});
+	return sv;
+    }
 }
