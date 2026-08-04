@@ -28,7 +28,7 @@ export * as Random from "./random";
 export * as Noise from "./noise";
 
 /** Entity Helper Library */
-export * as Helper from "./helper";
+export * as Entity from "./entity";
 
 /** Procedural Generation Library */
 export * as Procgen from "./procgen";

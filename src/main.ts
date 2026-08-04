@@ -13,8 +13,8 @@ import {
     // Events Handling Library built on top of `Base.Actor` actor pool.
     Event,
 
-    // Helper classes for wrapping and adapting to source2 entities.
-    Helper,
+    // Entity helper classes for wrapping and adapting to source2 entities within the map.
+    Entity,
 
     // Math data types that extend the cs2 Vector and QAngle data interface.
     Math,
@@ -69,9 +69,9 @@ const gameAnnouncerSystem = Base.Mount.Register(
     }}));
 
 Mount.Register("HealthRegen", new System.PlayerHealthRegenerationSystem());
-Mount.Register("PlayerModelChanger", new System.PlayerModelChangerSystem({
-    point_script_targetname: "main.script"
-}));
+//Mount.Register("PlayerModelChanger", new System.PlayerModelChangerSystem({
+//    point_script_targetname: "main.script"
+//}));
 
 let Projectile = new Actor.Projectile({fizzle_delay: 1});
 
@@ -106,11 +106,6 @@ try {
 } catch(e) {
     CSS.Msg(`Error Events: ${e.toString()}`);
 }
-
-
-let StopProjectiles = new ThinkTask(() => {
-    ThinkTask.SendMessage("KillAll");
-}, 10);
 
 
 
@@ -166,10 +161,10 @@ CSS.OnScriptInput("Explosion", ({ activator, caller }) => {
 });
 
 function Init() {
-    const fade = Helper.EnvironmentFade.Find("scriptedeuch.env_fade");
-    const hud_hint = Helper.EnvironmentHudHint.Find("scriptedeuch.hud_blind_message");
-    const shake = Helper.EnvironmentShake.Find("scriptedeuch.env_shake");
-    const button = Helper.FuncButton.Find("scriptedeuch.fade_button");
+    const fade = Entity.EnvironmentFade.Find("scriptedeuch.env_fade");
+    const hud_hint = Entity.EnvironmentHudHint.Find("scriptedeuch.hud_blind_message");
+    const shake = Entity.EnvironmentShake.Find("scriptedeuch.env_shake");
+    const button = Entity.FuncButton.Find("scriptedeuch.fade_button");
     button.OnPressed(({ activator }) => {
         fade.Fade();
         hud_hint.ShowHudHint({ activator });
@@ -182,14 +177,14 @@ const PlayerMountEventSender = new Event.Sender(Actor.PlayerMount.Tag);
 function InitPlayerMount(): void {
     CSS.FindEntitiesByClass("player").forEach(p => { p.mounted = false });
 
-    const button = Helper.FuncButton.Find("scriptedeuch.mount_button_use");
+    const button = Entity.FuncButton.Find("scriptedeuch.mount_button_use");
     button.OnPressed(({ activator }) => {
         const player = activator;
         if (Actor.PlayerMount.IsMounted(player)) {
             PlayerMountEventSender.Send("UnMountPlayer", { player });
         }
         else {
-            const mount_entity = Helper.PropDynamic.Find("scriptedeuch.magic_broom");
+            const mount_entity = Entity.PropDynamic.Find("scriptedeuch.magic_broom");
             const mount_offset = Math.Vector3.Zero;
             const player_mount = new Actor.PlayerMount(player, { mount_entity, mount_offset });
         }
@@ -197,8 +192,8 @@ function InitPlayerMount(): void {
     });
 
     let particle_system_enabled = true;
-    Helper.FuncButton.Find("test_particle_system_button").OnPressed(() => {
-        const particle_system = Helper.InfoParticleSystem.Find("test_particle_system");
+    Entity.FuncButton.Find("test_particle_system_button").OnPressed(() => {
+        const particle_system = Entity.InfoParticleSystem.Find("test_particle_system");
         if (particle_system_enabled) {
             particle_system.Stop();
             particle_system_enabled = false;

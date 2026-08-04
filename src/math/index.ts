@@ -21,6 +21,3 @@ export {
     EaseOutSine as OutSineEasing,
     EaseInOutSine as InOutSineEasing,
 } from "./EasingFunctions";
-
-// Grid Functionality
-//export { Grid3D, SubGrid, GridLens, PathFinding, GridError, GridType } from "./grid";
