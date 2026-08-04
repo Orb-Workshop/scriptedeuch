@@ -1,5 +1,4 @@
-import { Vector as VectorType } from "cs_script/point_script";
-
+import type { Vector as VectorType } from "cs_script/point_script";
 
 export default class Vector3 implements VectorType {
     public x: number;
@@ -11,14 +10,14 @@ export default class Vector3 implements VectorType {
         this.y = y;
         this.z = z;
     }
-    
+
     static Null   = new Vector3(+Infinity, -Infinity, +Infinity);
     static Zero   = new Vector3(0, 0, 0);
     static X_AXIS = new Vector3(1, 0, 0);
     static Y_AXIS = new Vector3(0, 1, 0);
     static Z_AXIS = new Vector3(0, 0, 1);
 
-    
+
     /** Same as constructor */
     static Create(x: number = 0, y: number = 0, z: number = 0): Vector3 {
         return new Vector3(x, y, z);

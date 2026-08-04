@@ -7,6 +7,7 @@ import {
     Color as ColorType,
 } from "cs_script/point_script";
 import * as Util from "../util";
+import { Color } from "../color";
 import EntityHelper from "./EntityHelper";
 
 
@@ -35,7 +36,7 @@ export default class BaseModelEntity extends EntityHelper {
     //
     // Adapters for BaseModelEntity
     // @see: https://www.source2.wiki/Scripting/Counter-Strike%202/cs_script/functionList?game=any#basemodelentity
-    
+
     public SetModel(s: string): void {
         this.raw.SetModel(s);
     }
@@ -43,7 +44,7 @@ export default class BaseModelEntity extends EntityHelper {
     public GetModelName(): string {
         return this.raw.GetModelName();
     }
-    
+
     public SetModelScale(s: number): void {
         this.raw.SetModelScale(s);
     }
@@ -51,15 +52,15 @@ export default class BaseModelEntity extends EntityHelper {
     public GetModelScale(): string {
         return this.raw.GetModelScale(s);
     }
-    
+
     public SetColor(c: ColorType): void {
         this.raw.SetColor(c);
     }
 
     public GetColor(): ColorType {
-        return this.raw.GetColor();
+        return Color.From(this.raw.GetColor());
     }
-    
+
     public Glow(color?: ColorType): void {
         this.raw.Glow(color);
     }

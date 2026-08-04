@@ -1,8 +1,6 @@
 /** implements cs2 color and includes additional helper methods when dealing with colors... */
-import {
-    Instance as CSS,
-    Color as ColorType,
-} from "cs_script/point_script";
+import type { Color as ColorType } from "cs_script/point_script";
+import { Instance as CSS } from "cs_script/point_script";
 
 const MIN_VALUE = 0;
 const MAX_VALUE = 255;
@@ -33,7 +31,7 @@ export default class Color implements ColorType {
     public static FromHSLA({h, s, l, a = 100}: HSLAType): Color {
         s /= 100;
         l /= 100;
-        
+
         const hue2rgb = (p, q, t) => {
             if (t < 0) t += 1;
             if (t > 1) t -= 1;
@@ -49,7 +47,7 @@ export default class Color implements ColorType {
         r = hue2rgb(p, q, h / 360 + 1 / 3);
         g = hue2rgb(p, q, h / 360);
         b = hue2rgb(p, q, h / 360 - 1 / 3);
-        
+
         return new Color(
             Math.round(r * 255),
             Math.round(g * 255),
@@ -57,7 +55,7 @@ export default class Color implements ColorType {
             Math.round(a / 100 * 255),
         );
     }
-    
+
     toHSLA(): HSLAType {
         const r_norm = this.r / MAX_VALUE;
         const g_norm = this.g / MAX_VALUE;
@@ -65,9 +63,9 @@ export default class Color implements ColorType {
 
         const max = Math.max(r_norm, g_norm, b_norm);
         const min = Math.min(r_norm, g_norm, b_norm);
-        
+
         const l = (max + min) / 2;
-        
+
         let s;
         if (l <= 0.5) {
             s = (max - min) / (max + min);
@@ -75,7 +73,7 @@ export default class Color implements ColorType {
         else {
             s = (max - min) / (2.0 - max - min);
         }
-        
+
         let h;
         if (r_norm == max) {
             h = (g_norm - b_norm) / (max - min);
@@ -90,7 +88,7 @@ export default class Color implements ColorType {
         // Convert to Degrees
         h *= 60;
         if (h < 0) h += 360;
-        
+
         return {
             h: Math.round(h),
             s: Math.round(s * 100),

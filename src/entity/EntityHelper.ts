@@ -8,8 +8,6 @@ import {
 } from "cs_script/point_script";
 import * as Base from "../base";
 import * as SEMath from "../math";
-import * as Util from "../util";
-import * as Event from "../event";
 
 interface ConnectOutputEvent {
     input?: any;
@@ -24,6 +22,8 @@ interface ConnectionData {
     id: number;
 }
 
+
+
 export default abstract class EntityHelper {
     private connection_ids: Map<string, ConnectionData> = new Map();
     private entity: Entity;
@@ -33,14 +33,12 @@ export default abstract class EntityHelper {
 
     abstract public static Find<T = EntityHelper>(r: RegExp | string): T {
         // Overload with each inherited entity helper by classname
-        // uses EntityHelper.FindByClass
     }
 
     abstract public static FindAll<T = EntityHelper>(r: RegExp | string): Array<T> {
         // Overload with each inherited entity helper by classname
-        // uses EntityHelper.FindAllByClass
     }
-    
+
     public static FindByClass(classname: string, r: RegExp | string, error = false): EntityHelper | null {
         const e = Base.Asset.FindByClass(classname, r);
         if (!e && error)
@@ -53,9 +51,9 @@ export default abstract class EntityHelper {
         const es = Base.Asset.FindAllByClass(classname, r) ?? [];
         return es.map(e => new EntityHelper(e));
     }
-    
+
     public get raw(): Entity { return this.entity }
-    
+
     public FireIO(opts = {}) {
         opts.target = this.raw;
         if (!opts.input) {
@@ -68,15 +66,15 @@ export default abstract class EntityHelper {
     public FireUser1(opts = {}): void {
         this.FireIO({input: "FireUser1", ...opts});
     }
-    
+
     public FireUser2(opts = {}): void {
         this.FireIO({input: "FireUser2", ...opts});
     }
-    
+
     public FireUser3(opts = {}): void {
         this.FireIO({input: "FireUser3", ...opts});
     }
-    
+
     public FireUser4(opts = {}): void {
         this.FireIO({input: "FireUser4", ...opts});
     }
@@ -88,7 +86,7 @@ export default abstract class EntityHelper {
             this.connection_ids.set(event_name, { new_id, callback });
         });
     }
-    
+
     /** Represents EventListening of IO entities with `this.ConnectOutput`
         TODO: Use Global Events to 'latch onto' the callbacks this method represents.
      */
@@ -105,12 +103,12 @@ export default abstract class EntityHelper {
         this.ConnectOutput(event_name, callback);
         return this;
     }
-    
+
     //
-    // Entity Method Adapters
+    // Entity Method Adapter
     // @see: https://www.source2.wiki/Scripting/Counter-Strike%202/cs_script/functionList?game=any#entity
     //
-    
+
     public IsValid(): boolean {
         return this.raw?.IsValid() as boolean;
     }
@@ -139,6 +137,14 @@ export default abstract class EntityHelper {
         return SEMath.Vector3.From(this.raw.GetAbsVelocity());
     }
 
+    public GetAbsAngularVelocity(): SEMath.Vector3 {
+	return SEMath.Vector3.From(this.raw.GetAbsAngularVelocity());
+    }
+
+    public GetLocalAngularVelocity(): SEMath.Vector3 {
+	return SEMath.Vector3.From(this.raw.GetLocalAngularVelocity());
+    }
+
     public GetEyeAngles(): SEMath.QAngle {
         return SEMath.QAngle.From(this.raw.GetEyeAngles());
     }
@@ -147,8 +153,8 @@ export default abstract class EntityHelper {
         return SEMath.Vector3.From(this.raw.GetEyePosition());
     }
 
-    public Teleport({position, rotation, velocity, ...opts}): void {
-        this.raw.Teleport({position, rotation, velocity, ...opts});
+    public Teleport({position, rotation, velocity, angularVelocity, ...opts}): void {
+        this.raw.Teleport({position, rotation, velocity, angularVelocity, ...opts});
     }
 
     public GetClassName(): string {
@@ -234,9 +240,8 @@ export default abstract class EntityHelper {
     public KillAll(): void {
         this.KillHierarchy();
     }
-    
+
     public Remove(): void {
         this.raw.Remove();
     }
 }
-

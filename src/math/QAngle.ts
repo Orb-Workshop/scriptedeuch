@@ -1,11 +1,11 @@
-import { QAngle as QAngleType } from "cs_script/point_script";
+import type { QAngle as QAngleType } from "cs_script/point_script";
 import Vector3 from "./Vector3";
 
 export default class QAngle implements QAngleType {
     public pitch: number;
     public yaw: number;
     public roll: number;
-    
+
     static Zero = new QAngle(0, 0, 0);
 
     static Deg2Rad(deg: number): number {
@@ -17,7 +17,7 @@ export default class QAngle implements QAngleType {
         this.yaw = yaw;
         this.roll = roll;
     }
-    
+
     static Create(pitch = 0, yaw = 0, roll = 0): QAngle {
         return new QAngle(pitch, yaw, roll);
     }
@@ -25,7 +25,7 @@ export default class QAngle implements QAngleType {
     static From({pitch, yaw, roll}: QAngleType): QAngle {
         return new QAngle(pitch, yaw, roll);
     }
-    
+
     public clone(): QAngle {
         return new QAngle(this.pitch, this.yaw, this.roll);
     }
@@ -65,7 +65,7 @@ export default class QAngle implements QAngleType {
         if (a < -180) a += 360;
         return a;
     }
-    
+
     public direction(): Vector3 {
         const pitch = QAngle.Deg2Rad(this.pitch);
         const yaw = QAngle.Deg2Rad(this.yaw);
@@ -73,8 +73,7 @@ export default class QAngle implements QAngleType {
         let x = Math.cos(yaw) * Math.cos(pitch);
         let y = Math.sin(yaw) * Math.cos(pitch);
         let z = -Math.sin(pitch);
-        
+
         return new Vector3(x, y, z);
     }
 }
-
