@@ -30,7 +30,9 @@ export function Memoize(func: Function) {
     return (...args: any) => {
         const key = new Array(args);
         if(!cache.has(key)){
-            cache.set(key, func.apply(this, args));
+	    const result = func.apply(this, args)
+            cache.set(key, result);
+	    return result;
         }
         return cache.get(key);
     }
