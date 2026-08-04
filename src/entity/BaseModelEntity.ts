@@ -57,7 +57,7 @@ export default class BaseModelEntity extends EntityHelper {
         this.raw.SetColor(c);
     }
 
-    public GetColor(): ColorType {
+    public GetColor(): Color {
         return Color.From(this.raw.GetColor());
     }
 
