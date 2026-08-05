@@ -94,9 +94,10 @@ export default class SubView<T> {
 
     /**
        Returns the GridView with the given Grid3D as it's parent.
+       TODO: potential speed-up
      */
-    withOwner(g: Grid3D<T>): SubView<T> {
-	const sv = new SubView(this.grid);
+    withOwner(g: GridType<T>): SubView<T> {
+	const sv = g.subView();
 	this.forEachElement((e) => {
 	    sv.set(e.withOwner(g));
 	});
@@ -106,8 +107,8 @@ export default class SubView<T> {
     translate(x: number, y: number, z: number = 0): SubView<T> {
 	const sv = this.grid.subView();
 	this.forEachElement((e) => {
-	    const idx = this.grid.index(e.x + x, e.y + y, e.z + z);
-	    sv.add(idx);
+	    const l = this.grid.lens(e.x + x, e.y + y, e.z + z);
+	    sv.set(l);
 	});
 	return sv;
     }
