@@ -70,7 +70,12 @@ export default class GridLens<T> {
     }
 
     withOwner(g: GridType): GridLens<T> {
-	//TODO: make sure the GridLens is within bounds
+	if (this.x >= g.width)
+	    throw new GridError(`GridLens' new owner is out of bounds. x = ${this.x}`);
+	if (this.y >= g.height)
+	    throw new GridError(`GridLens' new owner is out of bounds. y = ${this.y}`);
+	if (this.z >= g.depth)
+	    throw new GridError(`GridLens' new owner is out of bounds. z = ${this.z}`);
 	return new GridLens(g, this.x, this.y, this.z);
     }
 }
