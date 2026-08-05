@@ -22,6 +22,7 @@ export default class PathCrawler<T> {
     // Crawl Options
     steps: number = 10;
     starting_point: GridLens<T> = null;
+    distribution: any;
 
     constructor(grid: GridType<T>, srng: SeededRandomNumberGenerator) {
 	this.grid = grid;
@@ -41,18 +42,19 @@ export default class PathCrawler<T> {
 	    starting_point = null,
 	    distribution = PathCrawler.default_distribution,
 	} = opts;
+	this.distribution = { ...distribution, ...PathCrawler.default_distribution };
 	this.steps = steps;
 	this.starting_point = starting_point ?? this.getRandomPoint();
 	let crawl_path = [ this.starting_point ];
 	let crawler = this.starting_point;
 	for (let s = 0; s < this.steps; s++) {
 	    const l_distribution = {
-		left: (crawler.x <= 0) ? 0 : distribution.left,
-		right: (crawler.x >= this.grid.width-1) ? 0 : distribution.right,
-		up: (crawler.y >= this.grid.height-1) ? 0 : distribution.up,
-		down: (crawler.y <= 0) ? 0 : distribution.down,
-		top: (crawler.z >= this.grid.depth-1) ? 0 : distribution.top,
-		bottom: (crawler.z <= 0) ? 0 : distribution.bottom,
+		left: (crawler.x <= 0) ? 0 : this.distribution.left,
+		right: (crawler.x >= this.grid.width-1) ? 0 : this.distribution.right,
+		up: (crawler.y >= this.grid.height-1) ? 0 : this.distribution.up,
+		down: (crawler.y <= 0) ? 0 : this.distribution.down,
+		top: (crawler.z >= this.grid.depth-1) ? 0 : this.distribution.top,
+		bottom: (crawler.z <= 0) ? 0 : this.distribution.bottom,
 	    };
 	    switch(this.srng.randomDistribution(l_distribution)) {
 		case "left": crawler = crawler.left(); break;

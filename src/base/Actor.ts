@@ -18,7 +18,7 @@ export default abstract class Actor implements ActorInterface {
     private init_think: number = CSS.GetGameTime();
     private last_think: number = CSS.GetGameTime();
     private think_interval: number = 1/128;
-    
+
     constructor(actor_pool_name: string = DEFAULT_ACTOR_POOL_NAME) {
         if (!Mount.HasSystem(actor_pool_name)) {
             this.actor_pool = Mount.Register(actor_pool_name, new ActorSystem()) as ActorSystem;
@@ -30,7 +30,7 @@ export default abstract class Actor implements ActorInterface {
         // Spawn our actor within the actor pool
         this.actor_pool.Spawn(this);
     }
-    
+
     //
     // Actor Static Methods
     //
@@ -62,14 +62,14 @@ export default abstract class Actor implements ActorInterface {
     public MakeDirty(): void { this.dirty = true; }
     /** Same as `this.MakeDirty()`. */
     public Remove(): void { this.MakeDirty() }
-    
+
     //
     // ActorInterface Methods
     //
     /** Determine if the Actor is marked for removal. */
     IsDirty(): boolean { return this.dirty; }
 
-    /** Performs `this.Think()` if it past a certain interval */
+    /** Performs `this.Think()` if it is past a certain interval */
     MaybeThink(): void {
         let current_game_time = CSS.GetGameTime();
         const think_lifetime = current_game_time - this.last_think
@@ -88,7 +88,7 @@ export default abstract class Actor implements ActorInterface {
     // Overrideable ActorInterface Methods
     //
 
-    /** 
+    /**
         Override Interface Method. Called after an actor has been made dirty,
         and has been removed from the actor pool
      */
@@ -103,7 +103,7 @@ export default abstract class Actor implements ActorInterface {
 
      */
     ReceiveMessage(tag: string, data: any): void {}
-    
+
     /**
        Override Method. Is called at the `think_interval`.
      */
@@ -116,7 +116,7 @@ export default abstract class Actor implements ActorInterface {
  */
 class ActorSystem extends System {
     private actor_listing: Array<ActorInterface> = [];
-    
+
     constructor() {
         super();
     }
@@ -135,7 +135,7 @@ class ActorSystem extends System {
             }
         });
     }
-    
+
     override Think(): void {
         this.actor_listing.forEach(actor => actor.MaybeThink());
         this.cleanup();

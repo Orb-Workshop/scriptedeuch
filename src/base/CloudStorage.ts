@@ -1,5 +1,5 @@
 /**
-   Cloud Storage Instance. Takes advantage of the 1mb cloud data storage.
+   Cloud Storage Instance. Takes advantage of the 1mb cloud data storage. WIP
 */
 
 // Generate a unique ID for this server instance
@@ -16,6 +16,5 @@ const UID = () => {
    To guarantee write access
  */
 export async function Transact(key, data) {
-    
-}
 
+}
