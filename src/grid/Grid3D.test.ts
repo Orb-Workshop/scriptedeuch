@@ -122,3 +122,17 @@ test("Grid3D Lens", () => {
     expect(l2.up()?.get()).toEqual(g.index(5, 6));
     expect(l2.right()?.get()).toEqual(g.index(6, 5));
 });
+
+test("Grid3D lensFromIndex", () => {
+    let g = new Grid3D({
+	width: 10, height: 10, depth: 2, sentinel: 0,
+    });
+
+    g.forEachIndex((i, j, k) => {
+	g.setAt(i, j, k, g.index(i, j, k));
+    });
+
+    g.forEachIndex((i, j, k) => {
+	expect(g.lensFromIndex(g.index(i, j, k)).get(), g.index(i, j, k));
+    });
+});

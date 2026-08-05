@@ -36,32 +36,42 @@ import SubGrid from "./SubGrid";
 import GridLens from "./GridLens";
 import type GridType from "./GridType";
 
-export default class SubView<T = number> {
+export default class SubView<T> {
     grid: Grid3D<T>;
-    element_mapping: Map<number, GridLens<T>> = new Map();
+    element_set: Set<number> = new Set();  // Set of grid indexes.
 
     constructor(grid: Grid3D<T>) {
 	this.grid = grid;
     }
 
+    add(idx: number): void {
+	this.element_set.add(idx);
+    }
+
     set(gl: GridLens<T>): bool {
 	const idx = this.grid.index(gl.x, gl.y, gl.z);
-	this.element_mapping.set(idx, gl);
+	const chk = this.element_set.has(idx);
+	this.element_set.add(idx);
+	return chk;
     }
 
     delete(gl: GridLens<T>): bool {
 	const idx = this.grid.index(gl.x, gl.y, gl.z);
-	return this.element_mapping.delete(idx);
+	const chk = this.element_set.has(idx);
+	this.element_set.delete(idx);
+	return chk;
     }
 
     has(x: number, y: number, z: number = 0): bool {
 	const idx = this.grid.index(x, y, z);
-	this.element_mapping.has(idx);
+	this.element_set.has(idx);
     }
 
     get(x: number, y: number, z: number = 0): GridLens<T>|null {
 	const idx = this.grid.index(x, y, z);
-	return this.element_mapping.get(idx) ?? null;
+	let chk = this.element_set.has(idx);
+	if (!chk) return null;
+	return this.grid.lens(x, y, z);
     }
 
     insertGrid(g: SubGrid<T>): void {
@@ -79,7 +89,7 @@ export default class SubView<T = number> {
     }
 
     forEachElement(f: (e: GridLens<T>) => void): void {
-	this.element_mapping.forEach((value, key, m) => f(value));
+	this.element_set.forEach((value, key, m) => f(this.grid.lensFromIndex(value)));
     }
 
     /**
@@ -94,11 +104,23 @@ export default class SubView<T = number> {
     }
 
     translate(x: number, y: number, z: number = 0): SubView<T> {
-	const sv = new SubView(this.grid);
+	const sv = this.grid.subView();
 	this.forEachElement((e) => {
-	    const l = new GridLens(this.grid, e.x + x, e.y + y, e.z + z);
-	    sv.set(l);
+	    const idx = this.grid.index(e.x + x, e.y + y, e.z + z);
+	    sv.add(idx);
 	});
+	return sv;
+    }
+
+    union(inn: SubView<T>): SubView<T> {
+	const sv = this.withOwner(this.grid); // clone
+	sv.element_set = sv.element_set.union(inn.element_set);
+	return sv;
+    }
+
+    intersection(inn: SubView<T>): SubView<T> {
+	const sv = this.withOwner(this.grid); // clone
+	sv.element_set = sv.element_set.intersection(inn.element_set);
 	return sv;
     }
 }
