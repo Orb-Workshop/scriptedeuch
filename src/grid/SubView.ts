@@ -35,6 +35,7 @@ import Grid3D from "./Grid3D";
 import SubGrid from "./SubGrid";
 import GridLens from "./GridLens";
 import type GridType from "./GridType";
+import GridError from "./GridError";
 
 export default class SubView<T> {
     grid: Grid3D<T>;
@@ -49,9 +50,10 @@ export default class SubView<T> {
     }
 
     set(gl: GridLens<T>): bool {
+	if (gl.parent !== this.grid) throw new GridError("Grids do not match.");
 	const idx = this.grid.index(gl.x, gl.y, gl.z);
 	const chk = this.element_set.has(idx);
-	this.element_set.add(idx);
+	this.add(idx);
 	return chk;
     }
 
@@ -94,7 +96,6 @@ export default class SubView<T> {
 
     /**
        Returns the GridView with the given Grid3D as it's parent.
-       TODO: potential speed-up
      */
     withOwner(g: GridType<T>): SubView<T> {
 	const sv = g.subView();
