@@ -115,22 +115,37 @@ export default class SubGrid<T = number> implements GridType {
     }
 
     /*
-      Returns a 'GridLens' instance. Useful for crawling/navigating the SubGrid space.
+      Returns a 'GridLens' instance. Useful for crawling/navigating the Grid3D space.
      */
     lens(x: number, y: number, z: number = 0): GridLens<T> {
 	if (x < 0)
-	    throw new GridError("GridLens 'x' value is out of bounds.");
+	    throw new GridError(`GridLens 'x' value is out of bounds (<). x = ${x}`);
 	if (x > this.width-1)
-	    throw new GridError("GridLens 'x' value is out of bounds.");
+	    throw new GridError(`GridLens 'x' value is out of bounds (>). x = ${x}`);
 	if (y < 0)
-	    throw new GridError("GridLens 'y' value is out of bounds.");
+	    throw new GridError(`GridLens 'y' value is out of bounds (<). y = ${y}`);
 	if (y > this.height-1)
-	    throw new GridError("GridLens 'y' value is out of bounds.");
+	    throw new GridError(`GridLens 'y' value is out of bounds (>). y = ${y}`);
 	if (z < 0)
-	    throw new GridError("GridLens 'z' value is out of bounds.");
+	    throw new GridError(`GridLens 'z' value is out of bounds (<). z = ${z}`);
 	if (z > this.depth-1)
-	    throw new GridError("GridLens 'z' value is out of bounds.");
+	    throw new GridError(`GridLens 'z' value is out of bounds (>). z = ${z}`);
 	return new GridLens<T>(this, x, y, z);
+    }
+
+    lensFromIndex(idx: number): GridLens<T> {
+	const w = this.width;
+	const h = this.height;
+	const d = this.depth;
+	const v = Math.floor(idx);
+
+	const t1 = Math.floor(idx / d);
+	const z = idx % d;
+	const t2 = Math.floor(t1 / h);
+	const y = t1 % h;
+	const x = t2;
+
+	return this.lens(x, y, z);
     }
 
     /*

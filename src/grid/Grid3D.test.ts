@@ -125,7 +125,7 @@ test("Grid3D Lens", () => {
 
 test("Grid3D lensFromIndex", () => {
     let g = new Grid3D({
-	width: 10, height: 10, depth: 2, sentinel: 0,
+	width: 5, height: 6, depth: 7, sentinel: 0,
     });
 
     g.forEachIndex((i, j, k) => {
