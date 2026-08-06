@@ -49,31 +49,27 @@ export default class SubView<T> {
 	this.element_set.add(idx);
     }
 
-    set(gl: GridLens<T>): bool {
+    set(gl: GridLens<T>): void {
 	if (gl.parent !== this.grid) throw new GridError("Grids do not match.");
 	const idx = this.grid.index(gl.x, gl.y, gl.z);
-	const chk = this.element_set.has(idx);
 	this.add(idx);
-	return chk;
     }
 
-    delete(gl: GridLens<T>): bool {
+    delete(gl: GridLens<T>): void {
+	if (gl.parent !== this.grid) throw new GridError("Grids do not match.");
 	const idx = this.grid.index(gl.x, gl.y, gl.z);
-	const chk = this.element_set.has(idx);
 	this.element_set.delete(idx);
-	return chk;
     }
 
     has(x: number, y: number, z: number = 0): bool {
 	const idx = this.grid.index(x, y, z);
-	this.element_set.has(idx);
+	return this.element_set.has(idx);
     }
 
     get(x: number, y: number, z: number = 0): GridLens<T>|null {
-	const idx = this.grid.index(x, y, z);
-	let chk = this.element_set.has(idx);
-	if (!chk) return null;
-	return this.grid.lens(x, y, z);
+	if (this.has(x, y, z))
+	    return this.grid.lens(x, y, z);
+	return null;
     }
 
     insertGrid(g: SubGrid<T>): void {
@@ -91,11 +87,11 @@ export default class SubView<T> {
     }
 
     forEachElement(f: (e: GridLens<T>) => void): void {
-	this.element_set.forEach((value, key, m) => f(this.grid.lensFromIndex(value)));
+	this.element_set.forEach((value, key, s) => f(this.grid.lensFromIndex(value)));
     }
 
     /**
-       Returns the GridView with the given Grid3D as it's parent.
+       Returns the GridView with the given GridType as it's parent.
      */
     withOwner(g: GridType<T>): SubView<T> {
 	const sv = g.subView();

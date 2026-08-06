@@ -81,10 +81,17 @@ export default class SubGrid<T = number> implements GridType {
         }
     }
 
+    // Represents the Grid3D Global Index
+    forEachGlobalIndex(f): void {
+        this.forEachIndex((i, j, k) => {
+            f(i+this.x, j+this.y, k+this.z);
+        });
+    }
+
     subGrid(opts): SubGrid<T> {
 	const {
-	    x,
-	    y,
+	    x = 0,
+	    y = 0,
 	    z = 0,
 	    width = 1,
 	    height = 1,
@@ -97,13 +104,6 @@ export default class SubGrid<T = number> implements GridType {
 	    z: this.z + z,
 	    width, height, depth,
 	});
-    }
-
-    // Represents the Grid3D Global Index
-    forEachGlobalIndex(f): void {
-        this.forEachIndex((i, j, k) => {
-            f.bind(this)(i+this.x, j+this.y, k+this.z);
-        });
     }
 
     /*
@@ -137,13 +137,12 @@ export default class SubGrid<T = number> implements GridType {
 	const w = this.width;
 	const h = this.height;
 	const d = this.depth;
-	const v = Math.floor(idx);
+	let v = Math.floor(idx);
 
-	const t1 = Math.floor(idx / d);
-	const z = idx % d;
-	const t2 = Math.floor(t1 / h);
-	const y = t1 % h;
-	const x = t2;
+	const z = Math.floor(v / (w * h));
+	v = v % (w * h);
+	const y = Math.floor(v / w);
+	const x = v % w;
 
 	return this.lens(x, y, z);
     }

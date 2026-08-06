@@ -91,6 +91,40 @@ test("Grid3D SubGrid", () => {
     expect(sg2.getAt(0, 0)).toEqual(g.getAt(5, 5));
 });
 
+test("Grid3D SubGrid 2", () => {
+    let g = new Grid3D({ width: 12, height: 10, sentinel: 0 });
+
+    let sg = g.subGrid({ width: 6, height: 5 });
+    sg.forEachIndex((i, j, k) => sg.setAt(i, j, k, 1));
+
+    expect(g.getAt(0, 0)).toEqual(1);
+    expect(g.getAt(5, 4)).toEqual(1);
+    expect(g.getAt(6, 5)).toEqual(0);
+
+    let sg2 = g.subGrid({ x: 6, y: 5, width: 6, height: 5 });
+    sg2.forEachIndex((i, j, k) => sg2.setAt(i, j, k, 2));
+    expect(g.getAt(0, 0)).toEqual(1);
+    expect(g.getAt(5, 4)).toEqual(1);
+    expect(g.getAt(6, 5)).toEqual(2);
+});
+
+test("Grid3D SubGrid forEachGlobalIndex", () => {
+    let g = new Grid3D({ width: 12, height: 10, sentinel: 0 });
+
+    let sg = g.subGrid({ width: 6, height: 5 });
+    sg.forEachGlobalIndex((i, j, k) => g.setAt(i, j, k, 1));
+
+    expect(g.getAt(0, 0)).toEqual(1);
+    expect(g.getAt(5, 4)).toEqual(1);
+    expect(g.getAt(6, 5)).toEqual(0);
+
+    let sg2 = g.subGrid({ x: 6, y: 5, width: 6, height: 5 });
+    sg2.forEachGlobalIndex((i, j, k) => g.setAt(i, j, k, 2));
+    expect(g.getAt(0, 0)).toEqual(1);
+    expect(g.getAt(5, 4)).toEqual(1);
+    expect(g.getAt(6, 5)).toEqual(2);
+});
+
 test("Grid3D Lens", () => {
     let g = new Grid3D({
 	width: 10, height: 10, sentinel: 0,
@@ -134,5 +168,20 @@ test("Grid3D lensFromIndex", () => {
 
     g.forEachIndex((i, j, k) => {
 	expect(g.lensFromIndex(g.index(i, j, k)).get(), g.index(i, j, k));
+    });
+});
+
+test("Grid3D lensFromIndex 2", () => {
+    let g = new Grid3D({
+	width: 5, height: 6, depth: 7, sentinel: 0,
+    });
+
+    g.forEachIndex((i, j, k) => {
+	g.setAt(i, j, k, g.index(i, j, k));
+    });
+
+    g.forEachIndex((i, j, k) => {
+	const idx = g.index(i, j, k);
+	expect(g.lensFromIndex(idx).get(), idx);
     });
 });
