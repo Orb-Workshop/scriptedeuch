@@ -1,4 +1,4 @@
-/** 
+/**
     The Main Mount Point for scriptedeuch `Base.System` and
     `Base.Actor` classes.
 
@@ -97,7 +97,7 @@ export default class Mount {
 
     /**
        Handle Modifying Player Damage EventCallback
-       
+
        Notes:
 
        - CSS.OnBeforePlayerDamage is replaced with CSS.OnModifyPlayerDamage
@@ -106,7 +106,7 @@ export default class Mount {
     private HandleModifyPlayerDamage(event) {
         // Dress up our event as the result between modifications.
         event.abort = false;
-        
+
         this.forEachEnabledSystem((system) => {
             const result = system.OnBeforePlayerDamage(event) ?? {};
             event = { ...event, ...result };
@@ -183,6 +183,18 @@ export default class Mount {
         CSS.OnRoundStart((event) => {
             this.forEachEnabledSystem((system) => system.OnRoundStart(event));
         });
+        CSS.OnBeginRoundStart((event) => {
+            this.forEachEnabledSystem((system) => system.OnBeginRoundStart(event));
+        });
+	CSS.OnBombExplode((event) => {
+            this.forEachEnabledSystem((system) => system.OnBombExplode(event));
+        });
+        CSS.OnWeaponDrop((event) => {
+            this.forEachEnabledSystem((system) => system.OnWeaponDrop(event));
+        });
+        CSS.OnWeaponPickup((event) => {
+            this.forEachEnabledSystem((system) => system.OnWeaponPickup(event));
+        });
 
         // OnScriptReload functionality is split up into separate overrides
         // System.OnScriptReloadBefore(...) and System.OnScriptReloadAfter(...)
@@ -217,7 +229,7 @@ export default class Mount {
 
     /** Enable All Registered Systems */
     public _startSystems(): void {
-        this.forEachSystem((system) => system.EnableSystem());        
+        this.forEachSystem((system) => system.EnableSystem());
     }
 
     /** Disable All Registered Systems */

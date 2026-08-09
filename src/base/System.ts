@@ -31,7 +31,7 @@ export default abstract class System {
     SetTickInterval(i: number) { this.system_think_interval = i; }
     SetTick(i: number) { this.SetTickInterval(1/i) }
     GetDelta(): number { return CSS.GetGameTime() - this.system_last_think_time; }
-    
+
     MaybeThink(): void {
         let current_game_time = CSS.GetGameTime();
         if (current_game_time - this.system_last_think_time >= this.system_think_interval) {
@@ -48,18 +48,18 @@ export default abstract class System {
        @overload
      */
     Think(): void { } // Override for CSS.SetThink
-    
+
     // CSS Instance Methods
     // https://developer.valvesoftware.com/wiki/Counter-Strike_2_Workshop_Tools/Scripting_API#Instance
     // TODO: do appropriate typechecking.
 
-    /** 
+    /**
         Instance.OnActivate()
-        @overload 
+        @overload
      */
     OnActivate(): void { }
-    
-    /** 
+
+    /**
         Instance.OnBeforePlayerDamage()
         @overload
         @deprecated
@@ -71,134 +71,158 @@ export default abstract class System {
        @overload
      */
     OnModifyPlayerDamage(event: ModifyPlayerDamageEvent): ModfiyPlayerDamageResult | void { }
-    
-    /** 
+
+    /**
         Instance.OnBombDefuse()
         @overload
      */
     OnBombDefuse(event: { plantedC4: Entity, planter: CSPlayerPawn }): void { }
 
-    /** 
+    /**
         Instance.OnBombPlant()
-        @overload 
+        @overload
      */
     OnBombPlant(event: { plantedC4: Entity, planter: CSPlayerPawn }): void { }
-    
-    /** 
+
+    /**
+       Instance.OnBombPlant()
+       @overload
+    */
+    OnBombExplode(event: { plantedC4: Entity }): void { }
+
+    /**
         Instance.OnBulletImpact()
-        @overload 
+        @overload
      */
     OnBulletImpact(event: { weapon: CSWeaponBase, position: VectorType }): void { }
-    
-    /** 
+
+    /**
         Instance.OnGrenadeBounce()
-        @overload 
+        @overload
      */
     OnGrenadeBounce(event: { projectile: Entity, bounces: number }): void { }
-    
-    /** 
+
+    /**
         Instance.OnGrenadeThrow()
-        @overload 
+        @overload
      */
     OnGrenadeThrow(event: { weapon: CSWeaponBase, projectile: Entity }): void { }
-    
-    /** 
+
+    /**
         Instance.OnGunFire()
-        @overload 
+        @overload
      */
     OnGunFire(event: { weapon: CSWeaponBase }): void { }
-    
+
     /**
        Instance.OnGunReload
        @overload
     */
     OnGunReload(event: { weapon: CSWeaponBase }): void { }
-    
-    /** 
+
+    /**
+       Instance.OnWeaponDrop
+       @overload
+    */
+    OnWeaponDrop(event: { weapon: CSWeaponBase, dropper: CSPlayerPawn }): void { }
+
+    /**
+       Instance.OnWeaponPickup
+       @overload
+    */
+    OnWeaponPickup(event: { weapon: CSWeaponBase }): void { }
+
+    /**
         Instance.OnKnifeAttack
         @overload
     */
     OnKnifeAttack(event: { weapon: CSWeaponBase, attackType: CSWeaponAttackType }): void { }
-    
-    /** 
+
+    /**
         Instance.OnPlayerActivate
         @overload
     */
     OnPlayerActivate(event: { player: CSPlayerController }): void { }
-    
-    /** 
+
+    /**
         Instance.OnPlayerChat
         @overload
     */
     OnPlayerChat(event: { player: CSPlayerController | undefined, text: string, team: number }): void { }
-    
-    /** 
+
+    /**
         Instance.OnPlayerConnect
         @overload
     */
     OnPlayerConnect(event: { player: CSPlayerController }): void { }
-    
-    /** 
+
+    /**
         Instance.OnPlayerDamage
         @overload
     */
     OnPlayerDamage(event: PlayerDamageEvent): void { }
-    
-    /** 
+
+    /**
         Instance.OnPlayerDisconnect
         @overload
     */
     OnPlayerDisconnect(event: { playerSlot: number }): void { }
-    
-    /** 
+
+    /**
         Instance.OnPlayerJump
         @overload
     */
     OnPlayerJump(event: { player: CSPlayerPawn }): void { }
-    
-    /** 
+
+    /**
         Instance.OnPlayerKill
         @overload
     */
     OnPlayerKill(event: { player: CSPlayerPawn, inflictor?: Entity, attacker?: Entity, weapon?: CSWeaponBase }): void { }
-    
-    /** 
+
+    /**
         Instance.OnPlayerLand
         @overload
     */
     OnPlayerLand(event: { player: CSPlayerPawn }): void { }
-    
-    /** 
+
+    /**
         Instance.OnPlayerPing
         @overload
     */
     OnPlayerPing(event: { player: CSPlayerController, position: VectorType }): void { }
-    
-    /** 
+
+    /**
         Instance.OnPlayerReset
         @overload
     */
     OnPlayerReset(event: { player: CSPlayerPawn }): void { }
-    
-    /** 
+
+    /**
         Instance.OnRoundEnd
         @overload
     */
     OnRoundEnd(event: { winningTeam: number, reason: CSRoundEndReason }): void { }
-    
-    /** 
+
+    /**
         Instance.OnRoundStart
         @overload
     */
     OnRoundStart(): void { }
-    
-    /** 
+
+    /**
+        Instance.OnBeginRoundStart
+        @overload
+    */
+    OnBeginRoundStart(): void { }
+
+    /**
         Instance.OnReload({before})
         @overload
     */
     OnScriptReloadBefore<T = void>(): T { }
-    
-    /** 
+
+    /**
         Instance.OnReload({after})
         @overload
     */

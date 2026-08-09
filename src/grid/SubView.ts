@@ -117,34 +117,34 @@ export default class SubView<T> {
     }
 
     intersection(inn: SubView<T>): SubView<T> {
-	const sv = this.withOwner(this.grid); // clone
+	const sv = this.withOwner(this.grid);
 	sv.element_set = sv.element_set.intersection(inn.element_set);
 	return sv;
     }
 
     difference(inn: SubView<T>): SubView<T> {
-	const sv = this.withOwner(this.grid); // clone
+	const sv = this.withOwner(this.grid);
 	sv.element_set = sv.element_set.difference(inn.element_set);
 	return sv;
     }
 
     isDisjointFrom(inn: SubView<T>): bool {
-	const sv = this.withOwner(this.grid); // clone
+	const sv = this.withOwner(this.grid);
 	return sv.element_set.isDisjointFrom(inn.element_set);
     }
 
     isSubsetOf(inn: SubView<T>): bool {
-	const sv = this.withOwner(this.grid); // clone
+	const sv = this.withOwner(this.grid);
 	return sv.element_set.isSubsetOf(inn.element_set);
     }
 
     isSupersetOf(inn: SubView<T>): bool {
-	const sv = this.withOwner(this.grid); // clone
+	const sv = this.withOwner(this.grid);
 	return sv.element_set.isSupersetOf(inn.element_set);
     }
 
     symmetricDifference(inn: SubView<T>): SubView<T> {
-	const sv = this.withOwner(this.grid); // clone
+	const sv = this.withOwner(this.grid);
 	sv.element_set = sv.element_set.symmetricDifference(inn.element_set);
 	return sv;
     }
