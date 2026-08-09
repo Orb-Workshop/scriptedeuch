@@ -6,9 +6,9 @@
 | ------ | ------ |
 | [Actor](Namespace.Actor.md) | Spawnable Actors (Auto-Mounting) that extend `Base.Actor` |
 | [Base](Namespace.Base.md) | Base Library Framework Components |
+| [Entity](Namespace.Entity.md) | Entity Helper Library |
 | [Event](Namespace.Event.md) | Event Listener and Sender |
 | [Grid](Namespace.Grid.md) | Grid Library |
-| [Helper](Namespace.Helper.md) | Entity Helper Library |
 | [Math](Namespace.Math.md) | Math Library |
 | [Noise](Namespace.Noise.md) | Noisy Library |
 | [Procgen](Namespace.Procgen.md) | Procedural Generation Library |
@@ -20,7 +20,7 @@
 
 ### Color
 
-Defined in: [src/color/Color.ts:17](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/color/Color.ts#L17)
+Defined in: [src/color/Color.ts:15](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/color/Color.ts#L15)
 
 Color Library
 
@@ -34,7 +34,7 @@ Color Library
 
 > **new Color**(`r`, `g`, `b`, `a?`): [`Color`](#color)
 
-Defined in: [src/color/Color.ts:22](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/color/Color.ts#L22)
+Defined in: [src/color/Color.ts:20](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/color/Color.ts#L20)
 
 ###### Parameters
 
@@ -53,10 +53,10 @@ Defined in: [src/color/Color.ts:22](https://github.com/Orb-Workshop/scriptedeuch
 
 | Property | Modifier | Type | Defined in |
 | ------ | ------ | ------ | ------ |
-| <a id="a"></a> `a` | `public` | `number` | [src/color/Color.ts:21](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/color/Color.ts#L21) |
-| <a id="b"></a> `b` | `public` | `number` | [src/color/Color.ts:20](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/color/Color.ts#L20) |
-| <a id="g"></a> `g` | `public` | `number` | [src/color/Color.ts:19](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/color/Color.ts#L19) |
-| <a id="r"></a> `r` | `public` | `number` | [src/color/Color.ts:18](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/color/Color.ts#L18) |
+| <a id="a"></a> `a` | `public` | `number` | [src/color/Color.ts:19](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/color/Color.ts#L19) |
+| <a id="b"></a> `b` | `public` | `number` | [src/color/Color.ts:18](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/color/Color.ts#L18) |
+| <a id="g"></a> `g` | `public` | `number` | [src/color/Color.ts:17](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/color/Color.ts#L17) |
+| <a id="r"></a> `r` | `public` | `number` | [src/color/Color.ts:16](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/color/Color.ts#L16) |
 
 #### Methods
 
@@ -64,7 +64,7 @@ Defined in: [src/color/Color.ts:22](https://github.com/Orb-Workshop/scriptedeuch
 
 > **toHSLA**(): `HSLAType`
 
-Defined in: [src/color/Color.ts:61](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/color/Color.ts#L61)
+Defined in: [src/color/Color.ts:59](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/color/Color.ts#L59)
 
 ###### Returns
 
@@ -74,7 +74,7 @@ Defined in: [src/color/Color.ts:61](https://github.com/Orb-Workshop/scriptedeuch
 
 > `static` **From**(`__namedParameters`): [`Color`](#color)
 
-Defined in: [src/color/Color.ts:29](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/color/Color.ts#L29)
+Defined in: [src/color/Color.ts:27](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/color/Color.ts#L27)
 
 ###### Parameters
 
@@ -90,7 +90,7 @@ Defined in: [src/color/Color.ts:29](https://github.com/Orb-Workshop/scriptedeuch
 
 > `static` **FromHSLA**(`__namedParameters`): [`Color`](#color)
 
-Defined in: [src/color/Color.ts:33](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/color/Color.ts#L33)
+Defined in: [src/color/Color.ts:31](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/color/Color.ts#L31)
 
 ###### Parameters
 

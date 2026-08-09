@@ -8,7 +8,7 @@ Utility Library
 
 > **AllPlayers**(): `CSPlayerPawn`[]
 
-Defined in: [src/util/index.ts:74](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/util/index.ts#L74)
+Defined in: [src/util/index.ts:76](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/util/index.ts#L76)
 
 Return all active players
 
@@ -22,7 +22,7 @@ Return all active players
 
 > **CheckClass**(`e`, `classname`): `boolean`
 
-Defined in: [src/util/index.ts:68](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/util/index.ts#L68)
+Defined in: [src/util/index.ts:70](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/util/index.ts#L70)
 
 Returns 'true' if the given entity has the given classname
 
@@ -63,7 +63,7 @@ Returns a deep copy of the provided object, `o`.
 
 > **GenerateAddOutput**(`opts`): `string`
 
-Defined in: [src/util/index.ts:40](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/util/index.ts#L40)
+Defined in: [src/util/index.ts:42](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/util/index.ts#L42)
 
 Generate an 'AddOutput' line for IO Events.
 
@@ -133,7 +133,7 @@ Standard Memoize Function
 
 > **UniqueGen**(`s?`): () => `string`
 
-Defined in: [src/util/index.ts:61](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/util/index.ts#L61)
+Defined in: [src/util/index.ts:63](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/util/index.ts#L63)
 
 Returns a function that generates unique indexed names prefixed with `s`
 

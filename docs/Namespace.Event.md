@@ -132,7 +132,7 @@ Mark the Actor for removal from the actor pool.
 
 Defined in: [src/base/Actor.ts:73](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/Actor.ts#L73)
 
-Performs `this.Think()` if it past a certain interval
+Performs `this.Think()` if it is past a certain interval
 
 ###### Returns
 

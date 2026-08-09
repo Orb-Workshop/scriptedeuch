@@ -6,7 +6,7 @@ Grid Library
 
 ### Grid3D
 
-Defined in: [src/grid/Grid3D.ts:36](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/grid/Grid3D.ts#L36)
+Defined in: [src/grid/Grid3D.ts:37](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/grid/Grid3D.ts#L37)
 
 #### Type Parameters
 
@@ -24,7 +24,7 @@ Defined in: [src/grid/Grid3D.ts:36](https://github.com/Orb-Workshop/scriptedeuch
 
 > **new Grid3D**\<`T`\>(`obj?`): [`Grid3D`](#grid3d)\<`T`\>
 
-Defined in: [src/grid/Grid3D.ts:43](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/grid/Grid3D.ts#L43)
+Defined in: [src/grid/Grid3D.ts:44](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/grid/Grid3D.ts#L44)
 
 ###### Parameters
 
@@ -40,9 +40,9 @@ Defined in: [src/grid/Grid3D.ts:43](https://github.com/Orb-Workshop/scriptedeuch
 
 | Property | Type | Defined in |
 | ------ | ------ | ------ |
-| <a id="depth"></a> `depth` | `number` | [src/grid/Grid3D.ts:41](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/grid/Grid3D.ts#L41) |
-| <a id="height"></a> `height` | `number` | [src/grid/Grid3D.ts:40](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/grid/Grid3D.ts#L40) |
-| <a id="width"></a> `width` | `number` | [src/grid/Grid3D.ts:39](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/grid/Grid3D.ts#L39) |
+| <a id="depth"></a> `depth` | `number` | [src/grid/Grid3D.ts:42](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/grid/Grid3D.ts#L42) |
+| <a id="height"></a> `height` | `number` | [src/grid/Grid3D.ts:41](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/grid/Grid3D.ts#L41) |
+| <a id="width"></a> `width` | `number` | [src/grid/Grid3D.ts:40](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/grid/Grid3D.ts#L40) |
 
 #### Methods
 
@@ -50,17 +50,33 @@ Defined in: [src/grid/Grid3D.ts:43](https://github.com/Orb-Workshop/scriptedeuch
 
 > **clone**(): [`Grid3D`](#grid3d)\<`T`\>
 
-Defined in: [src/grid/Grid3D.ts:57](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/grid/Grid3D.ts#L57)
+Defined in: [src/grid/Grid3D.ts:58](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/grid/Grid3D.ts#L58)
 
 ###### Returns
 
 [`Grid3D`](#grid3d)\<`T`\>
 
+##### forEachGlobalIndex()
+
+> **forEachGlobalIndex**(`f`): `void`
+
+Defined in: [src/grid/Grid3D.ts:91](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/grid/Grid3D.ts#L91)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `f` | (`i`, `j`, `k`) => `void` |
+
+###### Returns
+
+`void`
+
 ##### forEachIndex()
 
 > **forEachIndex**(`f`): `void`
 
-Defined in: [src/grid/Grid3D.ts:80](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/grid/Grid3D.ts#L80)
+Defined in: [src/grid/Grid3D.ts:81](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/grid/Grid3D.ts#L81)
 
 ###### Parameters
 
@@ -76,7 +92,7 @@ Defined in: [src/grid/Grid3D.ts:80](https://github.com/Orb-Workshop/scriptedeuch
 
 > **getAt**(`i`, `j`, `k?`): `T`
 
-Defined in: [src/grid/Grid3D.ts:90](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/grid/Grid3D.ts#L90)
+Defined in: [src/grid/Grid3D.ts:95](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/grid/Grid3D.ts#L95)
 
 ###### Parameters
 
@@ -94,7 +110,7 @@ Defined in: [src/grid/Grid3D.ts:90](https://github.com/Orb-Workshop/scriptedeuch
 
 > **getAtIndex**(`idx`): `T`
 
-Defined in: [src/grid/Grid3D.ts:100](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/grid/Grid3D.ts#L100)
+Defined in: [src/grid/Grid3D.ts:105](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/grid/Grid3D.ts#L105)
 
 ###### Parameters
 
@@ -110,7 +126,7 @@ Defined in: [src/grid/Grid3D.ts:100](https://github.com/Orb-Workshop/scriptedeuc
 
 > **hasAt**(`i`, `j`, `k`): `bool`
 
-Defined in: [src/grid/Grid3D.ts:108](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/grid/Grid3D.ts#L108)
+Defined in: [src/grid/Grid3D.ts:113](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/grid/Grid3D.ts#L113)
 
 ###### Parameters
 
@@ -128,7 +144,7 @@ Defined in: [src/grid/Grid3D.ts:108](https://github.com/Orb-Workshop/scriptedeuc
 
 > **index**(`x`, `y`, `z?`): `number`
 
-Defined in: [src/grid/Grid3D.ts:75](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/grid/Grid3D.ts#L75)
+Defined in: [src/grid/Grid3D.ts:76](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/grid/Grid3D.ts#L76)
 
 ###### Parameters
 
@@ -146,7 +162,7 @@ Defined in: [src/grid/Grid3D.ts:75](https://github.com/Orb-Workshop/scriptedeuch
 
 > **lens**(`x`, `y`, `z?`): [`GridLens`](#gridlens)\<`T`\>
 
-Defined in: [src/grid/Grid3D.ts:206](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/grid/Grid3D.ts#L206)
+Defined in: [src/grid/Grid3D.ts:211](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/grid/Grid3D.ts#L211)
 
 ###### Parameters
 
@@ -160,11 +176,27 @@ Defined in: [src/grid/Grid3D.ts:206](https://github.com/Orb-Workshop/scriptedeuc
 
 [`GridLens`](#gridlens)\<`T`\>
 
+##### lensFromIndex()
+
+> **lensFromIndex**(`idx`): [`GridLens`](#gridlens)\<`T`\>
+
+Defined in: [src/grid/Grid3D.ts:227](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/grid/Grid3D.ts#L227)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `idx` | `number` |
+
+###### Returns
+
+[`GridLens`](#gridlens)\<`T`\>
+
 ##### locateElement()
 
 > **locateElement**(`x`, `y`, `z?`): `T`
 
-Defined in: [src/grid/Grid3D.ts:129](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/grid/Grid3D.ts#L129)
+Defined in: [src/grid/Grid3D.ts:134](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/grid/Grid3D.ts#L134)
 
 Will return an element of the Grid approximately within bounds
 of the provided `x`, `y`, and/or `z`.
@@ -192,7 +224,7 @@ Note:
 
 > **setAt**(`i`, `j`, `k`, `value`): `void`
 
-Defined in: [src/grid/Grid3D.ts:104](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/grid/Grid3D.ts#L104)
+Defined in: [src/grid/Grid3D.ts:109](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/grid/Grid3D.ts#L109)
 
 ###### Parameters
 
@@ -211,7 +243,7 @@ Defined in: [src/grid/Grid3D.ts:104](https://github.com/Orb-Workshop/scriptedeuc
 
 > **size**(): `number`
 
-Defined in: [src/grid/Grid3D.ts:71](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/grid/Grid3D.ts#L71)
+Defined in: [src/grid/Grid3D.ts:72](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/grid/Grid3D.ts#L72)
 
 ###### Returns
 
@@ -221,7 +253,7 @@ Defined in: [src/grid/Grid3D.ts:71](https://github.com/Orb-Workshop/scriptedeuch
 
 > **subGrid**(`opts`): [`SubGrid`](#subgrid-1)\<`T`\>
 
-Defined in: [src/grid/Grid3D.ts:163](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/grid/Grid3D.ts#L163)
+Defined in: [src/grid/Grid3D.ts:168](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/grid/Grid3D.ts#L168)
 
 Returns a 'SubGrid' of the current Grid3D. Representing a
 fraction of the original Grid3D.
@@ -244,11 +276,21 @@ Grid3D.
 
 [`SubGrid`](#subgrid-1)\<`T`\>
 
+##### subView()
+
+> **subView**(): [`SubView`](#subview-2)\<`T`\>
+
+Defined in: [src/grid/Grid3D.ts:244](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/grid/Grid3D.ts#L244)
+
+###### Returns
+
+[`SubView`](#subview-2)\<`T`\>
+
 ##### toBBox3()
 
 > **toBBox3**(): [`BBox3`](Namespace.Math.md#bbox3)
 
-Defined in: [src/grid/Grid3D.ts:198](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/grid/Grid3D.ts#L198)
+Defined in: [src/grid/Grid3D.ts:203](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/grid/Grid3D.ts#L203)
 
 ###### Returns
 
@@ -467,7 +509,7 @@ https://v8.dev/docs/stack-trace-api#customizing-stack-traces
 
 ### GridLens
 
-Defined in: [src/grid/GridLens.ts:6](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/grid/GridLens.ts#L6)
+Defined in: [src/grid/GridLens.ts:7](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/grid/GridLens.ts#L7)
 
 #### Type Parameters
 
@@ -481,7 +523,7 @@ Defined in: [src/grid/GridLens.ts:6](https://github.com/Orb-Workshop/scriptedeuc
 
 > **new GridLens**\<`T`\>(`parent`, `x`, `y`, `z`): [`GridLens`](#gridlens)\<`T`\>
 
-Defined in: [src/grid/GridLens.ts:13](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/grid/GridLens.ts#L13)
+Defined in: [src/grid/GridLens.ts:14](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/grid/GridLens.ts#L14)
 
 ###### Parameters
 
@@ -500,10 +542,10 @@ Defined in: [src/grid/GridLens.ts:13](https://github.com/Orb-Workshop/scriptedeu
 
 | Property | Type | Defined in |
 | ------ | ------ | ------ |
-| <a id="parent"></a> `parent` | `GridType` | [src/grid/GridLens.ts:7](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/grid/GridLens.ts#L7) |
-| <a id="x"></a> `x` | `number` | [src/grid/GridLens.ts:9](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/grid/GridLens.ts#L9) |
-| <a id="y"></a> `y` | `number` | [src/grid/GridLens.ts:10](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/grid/GridLens.ts#L10) |
-| <a id="z"></a> `z` | `number` | [src/grid/GridLens.ts:11](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/grid/GridLens.ts#L11) |
+| <a id="parent"></a> `parent` | `GridType` | [src/grid/GridLens.ts:8](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/grid/GridLens.ts#L8) |
+| <a id="x"></a> `x` | `number` | [src/grid/GridLens.ts:10](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/grid/GridLens.ts#L10) |
+| <a id="y"></a> `y` | `number` | [src/grid/GridLens.ts:11](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/grid/GridLens.ts#L11) |
+| <a id="z"></a> `z` | `number` | [src/grid/GridLens.ts:12](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/grid/GridLens.ts#L12) |
 
 #### Methods
 
@@ -511,7 +553,7 @@ Defined in: [src/grid/GridLens.ts:13](https://github.com/Orb-Workshop/scriptedeu
 
 > **bottom**(): `T` \| `null`
 
-Defined in: [src/grid/GridLens.ts:46](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/grid/GridLens.ts#L46)
+Defined in: [src/grid/GridLens.ts:47](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/grid/GridLens.ts#L47)
 
 ###### Returns
 
@@ -521,7 +563,7 @@ Defined in: [src/grid/GridLens.ts:46](https://github.com/Orb-Workshop/scriptedeu
 
 > **clone**(): [`GridLens`](#gridlens)\<`T`\>
 
-Defined in: [src/grid/GridLens.ts:21](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/grid/GridLens.ts#L21)
+Defined in: [src/grid/GridLens.ts:22](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/grid/GridLens.ts#L22)
 
 ###### Returns
 
@@ -531,7 +573,7 @@ Defined in: [src/grid/GridLens.ts:21](https://github.com/Orb-Workshop/scriptedeu
 
 > **down**(): `T` \| `null`
 
-Defined in: [src/grid/GridLens.ts:61](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/grid/GridLens.ts#L61)
+Defined in: [src/grid/GridLens.ts:62](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/grid/GridLens.ts#L62)
 
 ###### Returns
 
@@ -541,7 +583,7 @@ Defined in: [src/grid/GridLens.ts:61](https://github.com/Orb-Workshop/scriptedeu
 
 > **get**(): `T`
 
-Defined in: [src/grid/GridLens.ts:25](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/grid/GridLens.ts#L25)
+Defined in: [src/grid/GridLens.ts:26](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/grid/GridLens.ts#L26)
 
 ###### Returns
 
@@ -551,7 +593,7 @@ Defined in: [src/grid/GridLens.ts:25](https://github.com/Orb-Workshop/scriptedeu
 
 > **isEqual**(`o`): `bool`
 
-Defined in: [src/grid/GridLens.ts:33](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/grid/GridLens.ts#L33)
+Defined in: [src/grid/GridLens.ts:34](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/grid/GridLens.ts#L34)
 
 ###### Parameters
 
@@ -567,7 +609,7 @@ Defined in: [src/grid/GridLens.ts:33](https://github.com/Orb-Workshop/scriptedeu
 
 > **left**(): `T` \| `null`
 
-Defined in: [src/grid/GridLens.ts:66](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/grid/GridLens.ts#L66)
+Defined in: [src/grid/GridLens.ts:67](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/grid/GridLens.ts#L67)
 
 ###### Returns
 
@@ -577,7 +619,7 @@ Defined in: [src/grid/GridLens.ts:66](https://github.com/Orb-Workshop/scriptedeu
 
 > **right**(): `T` \| `null`
 
-Defined in: [src/grid/GridLens.ts:56](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/grid/GridLens.ts#L56)
+Defined in: [src/grid/GridLens.ts:57](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/grid/GridLens.ts#L57)
 
 ###### Returns
 
@@ -587,7 +629,7 @@ Defined in: [src/grid/GridLens.ts:56](https://github.com/Orb-Workshop/scriptedeu
 
 > **set**(`v`): `void`
 
-Defined in: [src/grid/GridLens.ts:29](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/grid/GridLens.ts#L29)
+Defined in: [src/grid/GridLens.ts:30](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/grid/GridLens.ts#L30)
 
 ###### Parameters
 
@@ -603,7 +645,7 @@ Defined in: [src/grid/GridLens.ts:29](https://github.com/Orb-Workshop/scriptedeu
 
 > **top**(): `T` \| `null`
 
-Defined in: [src/grid/GridLens.ts:41](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/grid/GridLens.ts#L41)
+Defined in: [src/grid/GridLens.ts:42](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/grid/GridLens.ts#L42)
 
 ###### Returns
 
@@ -613,11 +655,27 @@ Defined in: [src/grid/GridLens.ts:41](https://github.com/Orb-Workshop/scriptedeu
 
 > **up**(): `T` \| `null`
 
-Defined in: [src/grid/GridLens.ts:51](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/grid/GridLens.ts#L51)
+Defined in: [src/grid/GridLens.ts:52](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/grid/GridLens.ts#L52)
 
 ###### Returns
 
 `T` \| `null`
+
+##### withOwner()
+
+> **withOwner**(`g`): [`GridLens`](#gridlens)\<`T`\>
+
+Defined in: [src/grid/GridLens.ts:72](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/grid/GridLens.ts#L72)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `g` | `GridType` |
+
+###### Returns
+
+[`GridLens`](#gridlens)\<`T`\>
 
 ***
 
@@ -725,7 +783,7 @@ Defined in: [src/grid/SubGrid.ts:22](https://github.com/Orb-Workshop/scriptedeuc
 
 > **forEachGlobalIndex**(`f`): `void`
 
-Defined in: [src/grid/SubGrid.ts:104](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/grid/SubGrid.ts#L104)
+Defined in: [src/grid/SubGrid.ts:85](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/grid/SubGrid.ts#L85)
 
 ###### Parameters
 
@@ -741,7 +799,7 @@ Defined in: [src/grid/SubGrid.ts:104](https://github.com/Orb-Workshop/scriptedeu
 
 > **forEachIndex**(`f`): `void`
 
-Defined in: [src/grid/SubGrid.ts:75](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/grid/SubGrid.ts#L75)
+Defined in: [src/grid/SubGrid.ts:74](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/grid/SubGrid.ts#L74)
 
 ###### Parameters
 
@@ -775,7 +833,7 @@ Defined in: [src/grid/SubGrid.ts:32](https://github.com/Orb-Workshop/scriptedeuc
 
 > **getAtIndex**(`idx`): `T`
 
-Defined in: [src/grid/SubGrid.ts:39](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/grid/SubGrid.ts#L39)
+Defined in: [src/grid/SubGrid.ts:38](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/grid/SubGrid.ts#L38)
 
 ###### Parameters
 
@@ -791,7 +849,7 @@ Defined in: [src/grid/SubGrid.ts:39](https://github.com/Orb-Workshop/scriptedeuc
 
 > **hasAt**(`i`, `j`, `k`): `bool`
 
-Defined in: [src/grid/SubGrid.ts:50](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/grid/SubGrid.ts#L50)
+Defined in: [src/grid/SubGrid.ts:49](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/grid/SubGrid.ts#L49)
 
 ###### Parameters
 
@@ -809,7 +867,7 @@ Defined in: [src/grid/SubGrid.ts:50](https://github.com/Orb-Workshop/scriptedeuc
 
 > **index**(`i`, `j`, `k`): `number`
 
-Defined in: [src/grid/SubGrid.ts:66](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/grid/SubGrid.ts#L66)
+Defined in: [src/grid/SubGrid.ts:65](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/grid/SubGrid.ts#L65)
 
 ###### Parameters
 
@@ -827,7 +885,7 @@ Defined in: [src/grid/SubGrid.ts:66](https://github.com/Orb-Workshop/scriptedeuc
 
 > **lens**(`x`, `y`, `z?`): [`GridLens`](#gridlens)\<`T`\>
 
-Defined in: [src/grid/SubGrid.ts:121](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/grid/SubGrid.ts#L121)
+Defined in: [src/grid/SubGrid.ts:120](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/grid/SubGrid.ts#L120)
 
 ###### Parameters
 
@@ -841,11 +899,27 @@ Defined in: [src/grid/SubGrid.ts:121](https://github.com/Orb-Workshop/scriptedeu
 
 [`GridLens`](#gridlens)\<`T`\>
 
+##### lensFromIndex()
+
+> **lensFromIndex**(`idx`): [`GridLens`](#gridlens)\<`T`\>
+
+Defined in: [src/grid/SubGrid.ts:136](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/grid/SubGrid.ts#L136)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `idx` | `number` |
+
+###### Returns
+
+[`GridLens`](#gridlens)\<`T`\>
+
 ##### locateElement()
 
 > **locateElement**(`i`, `j`, `k`): `T`
 
-Defined in: [src/grid/SubGrid.ts:56](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/grid/SubGrid.ts#L56)
+Defined in: [src/grid/SubGrid.ts:55](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/grid/SubGrid.ts#L55)
 
 ###### Parameters
 
@@ -863,7 +937,7 @@ Defined in: [src/grid/SubGrid.ts:56](https://github.com/Orb-Workshop/scriptedeuc
 
 > **setAt**(`i`, `j`, `k`, `value`): `void`
 
-Defined in: [src/grid/SubGrid.ts:43](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/grid/SubGrid.ts#L43)
+Defined in: [src/grid/SubGrid.ts:42](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/grid/SubGrid.ts#L42)
 
 ###### Parameters
 
@@ -882,7 +956,7 @@ Defined in: [src/grid/SubGrid.ts:43](https://github.com/Orb-Workshop/scriptedeuc
 
 > **size**(): `number`
 
-Defined in: [src/grid/SubGrid.ts:62](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/grid/SubGrid.ts#L62)
+Defined in: [src/grid/SubGrid.ts:61](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/grid/SubGrid.ts#L61)
 
 ###### Returns
 
@@ -892,7 +966,7 @@ Defined in: [src/grid/SubGrid.ts:62](https://github.com/Orb-Workshop/scriptedeuc
 
 > **subGrid**(`opts`): [`SubGrid`](#subgrid-1)\<`T`\>
 
-Defined in: [src/grid/SubGrid.ts:85](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/grid/SubGrid.ts#L85)
+Defined in: [src/grid/SubGrid.ts:91](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/grid/SubGrid.ts#L91)
 
 ###### Parameters
 
@@ -904,15 +978,344 @@ Defined in: [src/grid/SubGrid.ts:85](https://github.com/Orb-Workshop/scriptedeuc
 
 [`SubGrid`](#subgrid-1)\<`T`\>
 
+##### subView()
+
+> **subView**(): `SubView`\<`T`\>
+
+Defined in: [src/grid/SubGrid.ts:154](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/grid/SubGrid.ts#L154)
+
+###### Returns
+
+`SubView`\<`T`\>
+
 ##### toBBox3()
 
 > **toBBox3**(): [`BBox3`](Namespace.Math.md#bbox3)
 
-Defined in: [src/grid/SubGrid.ts:113](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/grid/SubGrid.ts#L113)
+Defined in: [src/grid/SubGrid.ts:112](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/grid/SubGrid.ts#L112)
 
 ###### Returns
 
 [`BBox3`](Namespace.Math.md#bbox3)
+
+***
+
+### SubView
+
+Defined in: [src/grid/SubView.ts:40](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/grid/SubView.ts#L40)
+
+#### Type Parameters
+
+| Type Parameter |
+| ------ |
+| `T` |
+
+#### Constructors
+
+##### Constructor
+
+> **new SubView**\<`T`\>(`grid`): [`SubView`](#subview-2)\<`T`\>
+
+Defined in: [src/grid/SubView.ts:44](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/grid/SubView.ts#L44)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `grid` | [`Grid3D`](#grid3d)\<`T`\> |
+
+###### Returns
+
+[`SubView`](#subview-2)\<`T`\>
+
+#### Properties
+
+| Property | Type | Defined in |
+| ------ | ------ | ------ |
+| <a id="element_set"></a> `element_set` | `Set`\<`number`\> | [src/grid/SubView.ts:42](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/grid/SubView.ts#L42) |
+| <a id="grid"></a> `grid` | [`Grid3D`](#grid3d)\<`T`\> | [src/grid/SubView.ts:41](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/grid/SubView.ts#L41) |
+
+#### Methods
+
+##### add()
+
+> **add**(`idx`): `void`
+
+Defined in: [src/grid/SubView.ts:48](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/grid/SubView.ts#L48)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `idx` | `number` |
+
+###### Returns
+
+`void`
+
+##### delete()
+
+> **delete**(`gl`): `void`
+
+Defined in: [src/grid/SubView.ts:58](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/grid/SubView.ts#L58)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `gl` | [`GridLens`](#gridlens)\<`T`\> |
+
+###### Returns
+
+`void`
+
+##### difference()
+
+> **difference**(`inn`): [`SubView`](#subview-2)\<`T`\>
+
+Defined in: [src/grid/SubView.ts:125](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/grid/SubView.ts#L125)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `inn` | [`SubView`](#subview-2)\<`T`\> |
+
+###### Returns
+
+[`SubView`](#subview-2)\<`T`\>
+
+##### forEachElement()
+
+> **forEachElement**(`f`): `void`
+
+Defined in: [src/grid/SubView.ts:89](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/grid/SubView.ts#L89)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `f` | (`e`) => `void` |
+
+###### Returns
+
+`void`
+
+##### get()
+
+> **get**(`x`, `y`, `z?`): [`GridLens`](#gridlens)\<`T`\> \| `null`
+
+Defined in: [src/grid/SubView.ts:69](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/grid/SubView.ts#L69)
+
+###### Parameters
+
+| Parameter | Type | Default value |
+| ------ | ------ | ------ |
+| `x` | `number` | `undefined` |
+| `y` | `number` | `undefined` |
+| `z` | `number` | `0` |
+
+###### Returns
+
+[`GridLens`](#gridlens)\<`T`\> \| `null`
+
+##### has()
+
+> **has**(`x`, `y`, `z?`): `bool`
+
+Defined in: [src/grid/SubView.ts:64](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/grid/SubView.ts#L64)
+
+###### Parameters
+
+| Parameter | Type | Default value |
+| ------ | ------ | ------ |
+| `x` | `number` | `undefined` |
+| `y` | `number` | `undefined` |
+| `z` | `number` | `0` |
+
+###### Returns
+
+`bool`
+
+##### insertGrid()
+
+> **insertGrid**(`g`): `void`
+
+Defined in: [src/grid/SubView.ts:75](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/grid/SubView.ts#L75)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `g` | [`SubGrid`](#subgrid-1)\<`T`\> |
+
+###### Returns
+
+`void`
+
+##### intersection()
+
+> **intersection**(`inn`): [`SubView`](#subview-2)\<`T`\>
+
+Defined in: [src/grid/SubView.ts:119](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/grid/SubView.ts#L119)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `inn` | [`SubView`](#subview-2)\<`T`\> |
+
+###### Returns
+
+[`SubView`](#subview-2)\<`T`\>
+
+##### isDisjointFrom()
+
+> **isDisjointFrom**(`inn`): `bool`
+
+Defined in: [src/grid/SubView.ts:131](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/grid/SubView.ts#L131)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `inn` | [`SubView`](#subview-2)\<`T`\> |
+
+###### Returns
+
+`bool`
+
+##### isSubsetOf()
+
+> **isSubsetOf**(`inn`): `bool`
+
+Defined in: [src/grid/SubView.ts:136](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/grid/SubView.ts#L136)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `inn` | [`SubView`](#subview-2)\<`T`\> |
+
+###### Returns
+
+`bool`
+
+##### isSupersetOf()
+
+> **isSupersetOf**(`inn`): `bool`
+
+Defined in: [src/grid/SubView.ts:141](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/grid/SubView.ts#L141)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `inn` | [`SubView`](#subview-2)\<`T`\> |
+
+###### Returns
+
+`bool`
+
+##### removeGrid()
+
+> **removeGrid**(`g`): `void`
+
+Defined in: [src/grid/SubView.ts:82](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/grid/SubView.ts#L82)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `g` | [`SubGrid`](#subgrid-1)\<`T`\> |
+
+###### Returns
+
+`void`
+
+##### set()
+
+> **set**(`gl`): `void`
+
+Defined in: [src/grid/SubView.ts:52](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/grid/SubView.ts#L52)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `gl` | [`GridLens`](#gridlens)\<`T`\> |
+
+###### Returns
+
+`void`
+
+##### symmetricDifference()
+
+> **symmetricDifference**(`inn`): [`SubView`](#subview-2)\<`T`\>
+
+Defined in: [src/grid/SubView.ts:146](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/grid/SubView.ts#L146)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `inn` | [`SubView`](#subview-2)\<`T`\> |
+
+###### Returns
+
+[`SubView`](#subview-2)\<`T`\>
+
+##### translate()
+
+> **translate**(`x`, `y`, `z?`): [`SubView`](#subview-2)\<`T`\>
+
+Defined in: [src/grid/SubView.ts:104](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/grid/SubView.ts#L104)
+
+###### Parameters
+
+| Parameter | Type | Default value |
+| ------ | ------ | ------ |
+| `x` | `number` | `undefined` |
+| `y` | `number` | `undefined` |
+| `z` | `number` | `0` |
+
+###### Returns
+
+[`SubView`](#subview-2)\<`T`\>
+
+##### union()
+
+> **union**(`inn`): [`SubView`](#subview-2)\<`T`\>
+
+Defined in: [src/grid/SubView.ts:113](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/grid/SubView.ts#L113)
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `inn` | [`SubView`](#subview-2)\<`T`\> |
+
+###### Returns
+
+[`SubView`](#subview-2)\<`T`\>
+
+##### withOwner()
+
+> **withOwner**(`g`): [`SubView`](#subview-2)\<`T`\>
+
+Defined in: [src/grid/SubView.ts:96](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/grid/SubView.ts#L96)
+
+Returns the GridView with the given GridType as it's parent.
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `g` | `GridType`\<`T`\> |
+
+###### Returns
+
+[`SubView`](#subview-2)\<`T`\>
 
 ## Functions
 

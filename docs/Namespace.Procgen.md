@@ -83,7 +83,7 @@ Defined in: [src/procgen/PathCrawler.ts:9](https://github.com/Orb-Workshop/scrip
 
 > **new PathCrawler**\<`T`\>(`grid`, `srng`): [`PathCrawler`](#pathcrawler)\<`T`\>
 
-Defined in: [src/procgen/PathCrawler.ts:26](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/procgen/PathCrawler.ts#L26)
+Defined in: [src/procgen/PathCrawler.ts:27](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/procgen/PathCrawler.ts#L27)
 
 ###### Parameters
 
@@ -100,6 +100,7 @@ Defined in: [src/procgen/PathCrawler.ts:26](https://github.com/Orb-Workshop/scri
 
 | Property | Modifier | Type | Default value | Defined in |
 | ------ | ------ | ------ | ------ | ------ |
+| <a id="distribution"></a> `distribution` | `public` | `any` | `undefined` | [src/procgen/PathCrawler.ts:25](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/procgen/PathCrawler.ts#L25) |
 | <a id="grid-1"></a> `grid` | `public` | `GridType`\<`T`\> | `undefined` | [src/procgen/PathCrawler.ts:10](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/procgen/PathCrawler.ts#L10) |
 | <a id="srng-1"></a> `srng` | `public` | [`SeededRandomNumberGenerator`](Namespace.Random.md#seededrandomnumbergenerator) | `undefined` | [src/procgen/PathCrawler.ts:11](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/procgen/PathCrawler.ts#L11) |
 | <a id="starting_point"></a> `starting_point` | `public` | [`GridLens`](Namespace.Grid.md#gridlens)\<`T`\> | `null` | [src/procgen/PathCrawler.ts:24](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/procgen/PathCrawler.ts#L24) |
@@ -118,7 +119,7 @@ Defined in: [src/procgen/PathCrawler.ts:26](https://github.com/Orb-Workshop/scri
 
 > **crawl**(`opts?`): [`GridLens`](Namespace.Grid.md#gridlens)\<`T`\>[]
 
-Defined in: [src/procgen/PathCrawler.ts:38](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/procgen/PathCrawler.ts#L38)
+Defined in: [src/procgen/PathCrawler.ts:39](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/procgen/PathCrawler.ts#L39)
 
 ###### Parameters
 
