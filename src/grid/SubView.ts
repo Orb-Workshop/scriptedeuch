@@ -36,6 +36,7 @@ import SubGrid from "./SubGrid";
 import GridLens from "./GridLens";
 import type GridType from "./GridType";
 import GridError from "./GridError";
+import { Point3 } from "../math";
 
 export default class SubView<T> {
     grid: Grid3D<T>;
@@ -147,5 +148,27 @@ export default class SubView<T> {
 	const sv = this.withOwner(this.grid);
 	sv.element_set = sv.element_set.symmetricDifference(inn.element_set);
 	return sv;
+    }
+
+    /**
+       Represents the center point of the subview indexes. It is based
+       on the mean average of each coordinate axis.
+     */
+    centerPoint(): Point3 {
+	let x_total = 0;
+	let y_total = 0;
+	let z_total = 0;
+	let count = 0;
+	this.forEachElement((e) => {
+	    x_total += e.x;
+	    y_total += e.y;
+	    z_total += e.z;
+	    count += 1;
+	});
+	const x = Math.floor(x_total / count);
+	const y = Math.floor(y_total / count);
+	const z = Math.floor(z_total / count);
+
+	return new Point3(x, y, z);
     }
 }

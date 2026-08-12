@@ -113,3 +113,23 @@ test("SubView insertGrid", () => {
     expect(g.getAt(0, 0)).toEqual(".");
     expect(g.getAt(5, 4)).toEqual(".");
 });
+
+test("SubView centerPoint 1", () => {
+    let g = new Grid3D({ width: 12, height: 10, sentinel: 0 });
+    let sv = g.subView();
+    sv.insertGrid(g.subGrid({ width: 6, height: 5 }));
+    const cp = sv.centerPoint();
+    expect(cp.x).toEqual(2);
+    expect(cp.y).toEqual(2);
+    expect(cp.z).toEqual(0);
+});
+
+test("SubView centerPoint 2", () => {
+    let g = new Grid3D({ width: 12, height: 10, sentinel: 0 });
+    let sv = g.subView();
+    sv.insertGrid(g.subGrid({ width: 6, height: 5, x: 2, y: 2 }));
+    const cp = sv.centerPoint();
+    expect(cp.x).toEqual(4);
+    expect(cp.y).toEqual(4);
+    expect(cp.z).toEqual(0);
+});
