@@ -36,7 +36,7 @@ import SubGrid from "./SubGrid";
 import GridLens from "./GridLens";
 import type GridType from "./GridType";
 import GridError from "./GridError";
-import { Point3 } from "../math";
+import { Point3, BBox3 } from "../math";
 
 export default class SubView<T> {
     grid: Grid3D<T>;
@@ -170,5 +170,37 @@ export default class SubView<T> {
 	const z = Math.floor(z_total / count);
 
 	return new Point3(x, y, z);
+    }
+
+    /*
+      Returns a BBox3 Bounding Box object, which has dimensions big
+      enough to hold all elements of the SubView.
+     */
+    toBBox3(): BBox3 {
+	let x_min = 0;
+	let x_max = 0;
+	let y_min = 0;
+	let y_max = 0;
+	let z_min = 0;
+	let z_max = 0;
+	this.forEachElement((e) => {
+	    if (e.x < x_min) x_min = e.x;
+	    if (e.x > x_max) x_max = e.x;
+
+	    if (e.y < y_min) y_min = e.y;
+	    if (e.y > y_max) y_max = e.y;
+
+	    if (e.z < z_min) z_min = e.z;
+	    if (e.z > z_max) z_max = e.z;
+	});
+
+	const x = x_min;
+	const y = y_min;
+	const z = z_min;
+	const w = x_max - x_min + 1;
+	const h = y_max - y_min + 1;
+	const d = z_max - z_min + 1;
+
+	return new BBox3(x, y, z, w, h, d);
     }
 }
