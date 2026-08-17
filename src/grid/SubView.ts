@@ -73,6 +73,12 @@ export default class SubView<T> {
 	return null;
     }
 
+    clone(): SubView<T> {
+	let sv = this.grid.subView();
+	this.forEachElement(e => sv.set(e));
+	return sv;
+    }
+
     insertGrid(g: SubGrid<T>): void {
 	g.forEachGlobalIndex((i, j, k) => {
 	    const l = this.grid.lens(i, j, k);
@@ -202,5 +208,122 @@ export default class SubView<T> {
 	const d = z_max - z_min + 1;
 
 	return new BBox3(x, y, z, w, h, d);
+    }
+
+    /*
+      Returns true if the given offset and dimension can be
+      represented in the populated SubView
+    */
+    private fitsChunk(x, y, z, width, height, depth): bool {
+	const sv = this.grid.subGrid({ x, y, z, width, height, depth }).toPopulatedSubView();
+	return sv.isSubsetOf(this);
+    }
+
+    /*
+      Attempts to find a vacant space in SubView that can hold a
+      SubGrid with the given dimensions, or returns null.
+    */
+    private findChunk(width: number, height: number, depth: number): SubGrid | null {
+	const sv_bb = this.toBBox3();
+
+	// return null for obvious chunk sizes that don't fit
+	if (width > sv_bb.w) return null;
+	if (height > sv_bb.h) return null;
+	if (depth > sv_bb.d) return null;
+
+	const x_min = sv_bb.x;
+	const x_max = sv_bb.x + sv_bb.w - width;
+	const y_min = sv_bb.y;
+	const y_max = sv_bb.y + sv_bb.h - height;
+	const z_min = sv_bb.z;
+	const z_max = sv_bb.z + sv_bb.d - depth;
+
+	for (let k = z_min; k <= z_max; k++) {
+	    for (let j = y_min; j <= y_max; j++) {
+		for (let i = x_min; i <= x_max; i++) {
+		    if (this.fitsChunk(i, j, k, width, height, depth))
+			return new SubGrid(i, j, k, width, height, depth);
+		}
+	    }
+	}
+	return null;
+    }
+
+    /*
+      Will return an array of SubGrids that fit within the SubView of elements.
+
+      Defining the width, height or depth determines the constraints
+      for how wide, long and tall the SubGrids can be. Unconstrained
+      dimensions will attempt to fit the biggest possible SubGrids to
+      populate the SubView.
+
+      Notes:
+
+      - For example, `sv.chunks({width: 1})` would return strips of
+        SubGrids that have a width of 1, and varying unconstrained
+        maxima heights and maxima depths. It will attempt to create
+        the fewest number of subgrids to fill the subview within the
+        given constraints.
+     */
+    chunks(opts: {width?: number, height?: number, depth?: number}): Array<SubGrid> {
+	const width = opts.width ?? null;
+	const height = opts.height ?? null;
+	const depth = opts.depth ?? null;
+
+	let sv = this.clone();
+	const sv_bb = sv.toBBox3();
+
+	// Generate the dimensional shapes that we'll be checking against the SubView
+	const w_listing = (width === null) ? range(sv_bb.w, 1) : [ width ];
+	const h_listing = (height === null) ? range(sv_bb.h, 1) : [ height ];
+	const d_listing = (depth === null) ? range(sv_bb.d, 1) : [ depth ];
+
+	// SubView Dimensional Bounds
+	const x_min = sv_bb.x;
+	const x_max = sv_bb.x + sv_bb.w;
+	const y_min = sv_bb.y;
+	const y_max = sv_bb.y + sv_bb.h;
+	const z_min = sv_bb.z;
+	const z_max = sv_bb.z + sv_bb.d;
+
+	let chunk_listing = [];
+	// Iterate over different dimensional shapes to iteratively try out over each section of subview
+	d_listing.forEach((d) => {
+	    h_listing.forEach((h) => {
+		w_listing.forEach((w) => {
+		    // For each offset of the dimensional shape that fits within the subview bounds
+		    for (let k = z_min; k <= (z_max - d); k++) {
+			for (let j = y_min; j <= (y_max - h); j++) {
+			    for (let i = x_min; i <= (x_max - w); i++) {
+				//
+				const chunk = sv.findChunk(i, j, k, w, h, d);
+				if (chunk !== null) {
+				    chunk_listing.push(chunk);
+				    sv.removeGrid(chunk);
+				}
+			    }
+			}
+		    }
+		});
+	    });
+	});
+	return chunk_listing;
+    }
+}
+
+// Python range() function
+function range(a, b) {
+    const size = Math.abs(a - b ?? 0);
+    let start_at = 0;
+    if (b === undefined) {
+	return [...Array(size).keys()];
+    }
+    else if (a < b) {
+	start_at = a;
+	return [...Array(size).keys()].map(i => i + start_at);
+    }
+    else {
+	start_at = b;
+	return [...Array(size).keys()].map(i => i + start_at).reverse();
     }
 }

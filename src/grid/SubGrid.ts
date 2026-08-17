@@ -62,6 +62,11 @@ export default class SubGrid<T = number> implements GridType {
         return this.width * this.height * this.depth;
     }
 
+    /*
+      Note:
+
+      - Index is based on the parent Grid3D.
+     */
     index(i, j, k): number {
         return this.parent.index(
             i + this.x,
@@ -150,9 +155,24 @@ export default class SubGrid<T = number> implements GridType {
     /*
       Returns a 'SubView' instance based on the parent Grid3D. Useful
       for non-square datasets that exist in the Grid3D.
+
+      Note:
+
+      - Resulting SubView is not populated. It is an empty SubView based on the parent.
     */
     subView(): SubView<T> {
 	return new SubView<T>(this.parent);
     }
 
+    /*
+      Returns a 'SubView' instance based on the parent Grid3D. It is
+      populated with all indexes contained in the SubGrid.
+     */
+    toPopulatedSubView(): SubView<T> {
+	let sv = this.subView();
+	this.forEachIndex((i, j, k) => {
+	    sv.add(this.index(i, j, k));
+	});
+	return sv;
+    }
 }
