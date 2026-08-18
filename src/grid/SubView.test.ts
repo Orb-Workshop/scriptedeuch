@@ -133,3 +133,52 @@ test("SubView centerPoint 2", () => {
     expect(cp.y).toEqual(4);
     expect(cp.z).toEqual(0);
 });
+
+test("SubView fitsChunk", () => {
+    let g = new Grid3D({ width: 5, height: 5, sentinel: 0 });
+    let sv = g.subView();
+    sv.insertGrid(g.subGrid({ width: 5, height: 5 }));
+    expect(sv.fitsChunk(0, 0, 0, 5, 5, 1)).toEqual(true);
+
+    sv.removeGrid(g.subGrid({ width: 5, height: 5 }));
+    expect(sv.fitsChunk(0, 0, 0, 5, 5, 1)).toEqual(false);
+
+    sv.set(g.lens(3, 3));
+    expect(sv.fitsChunk(3, 3, 0, 1, 1, 1)).toEqual(true);
+    expect(sv.fitsChunk(4, 4, 0, 1, 1, 1)).toEqual(false);
+});
+
+test("SubView findChunk", () => {
+    let g = new Grid3D({ width: 5, height: 5, sentinel: 0 });
+    let sv = g.subView();
+    sv.insertGrid(g.subGrid({ x: 1, y: 1, width: 3, height: 3 }));
+    const chunk = sv.findChunk(3, 3);
+    expect(chunk).not.toBeNull();
+    expect(chunk.width).toEqual(3);
+    expect(chunk.height).toEqual(3);
+    expect(chunk.depth).toEqual(1);
+    expect(chunk.x).toEqual(1);
+    expect(chunk.y).toEqual(1);
+    expect(chunk.z).toEqual(0);
+});
+
+test("SubView chunks 1", () => {
+    let g = new Grid3D({ width: 10, height: 1, sentinel: 0 });
+    let sv = g.subView();
+    const setl = i => sv.add(g.index(i, 0, 0));
+    setl(0);
+    setl(1);
+
+    setl(3)
+
+    setl(5);
+    setl(6);
+
+    setl(9);
+
+    let wide_chunks = sv.chunks({ width: 2 });
+    expect(wide_chunks.length).toEqual(2);
+
+    let all_chunks = sv.chunks();
+    expect(all_chunks.length).toEqual(4);
+});

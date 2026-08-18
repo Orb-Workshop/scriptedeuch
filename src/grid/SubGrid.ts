@@ -5,6 +5,7 @@
 import { BBox3 } from "../math";
 import GridLens from "./GridLens";
 import GridError from "./GridError";
+import SubView from "./SubView";
 import type GridType from "./GridType";
 import type Grid3D from "./Grid3D";
 
@@ -117,6 +118,23 @@ export default class SubGrid<T = number> implements GridType {
     toBBox3(): BBox3 {
 	return new BBox3(this.x, this.y, this.z,
 			 this.width, this.height, this.depth);
+    }
+
+    /*
+      Sets the owner of the SubGrid.
+
+      TODO: make sure it can fit in the new owner's grid
+     */
+    setOwner(owner: GridType<T>): SubGrid<T> {
+	return new SubGrid({
+	    parent: owner,
+	    x: this.x,
+	    y: this.y,
+	    z: this.z,
+	    width: this.width,
+	    height: this.height,
+	    depth: this.depth,
+	});
     }
 
     /*

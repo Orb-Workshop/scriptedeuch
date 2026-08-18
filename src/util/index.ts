@@ -81,7 +81,9 @@ export function AllPlayers(): Array<CSPlayerPawn> {
 
 /**  Python-like range() function
 
-     TODO: add `step`
+     Note:
+
+     - the full range is inclusive, in python the end is exclusive.
  */
 export function range(a, b) {
     const size = Math.floor(Math.abs(a - (b ?? 0)));

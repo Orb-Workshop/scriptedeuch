@@ -224,7 +224,7 @@ export default class SubView<T> {
       Attempts to find a vacant space in SubView that can hold a
       SubGrid with the given dimensions, or returns null.
     */
-    private findChunk(width: number, height: number, depth: number): SubGrid | null {
+    private findChunk(width: number, height: number, depth: number = 1): SubGrid | null {
 	const sv_bb = this.toBBox3();
 
 	// return null for obvious chunk sizes that don't fit
@@ -243,7 +243,7 @@ export default class SubView<T> {
 	    for (let j = y_min; j <= y_max; j++) {
 		for (let i = x_min; i <= x_max; i++) {
 		    if (this.fitsChunk(i, j, k, width, height, depth))
-			return new SubGrid(i, j, k, width, height, depth);
+			return this.grid.subGrid({ x: i, y: j, z: k, width, height, depth });
 		}
 	    }
 	}
@@ -260,13 +260,13 @@ export default class SubView<T> {
 
       Notes:
 
-      - For example, `sv.chunks({width: 1})` would return strips of
+      - For example, `sv.chunks({ width: 1 })` would return strips of
         SubGrids that have a width of 1, and varying unconstrained
         maxima heights and maxima depths. It will attempt to create
         the fewest number of subgrids to fill the subview within the
         given constraints.
      */
-    chunks(opts: {width?: number, height?: number, depth?: number}): Array<SubGrid> {
+    chunks(opts: { width?: number, height?: number, depth?: number } = {}): Array<SubGrid> {
 	const width = opts.width ?? null;
 	const height = opts.height ?? null;
 	const depth = opts.depth ?? null;
@@ -279,31 +279,20 @@ export default class SubView<T> {
 	const h_listing = (height === null) ? range(sv_bb.h, 1) : [ height ];
 	const d_listing = (depth === null) ? range(sv_bb.d, 1) : [ depth ];
 
-	// SubView Dimensional Bounds
-	const x_min = sv_bb.x;
-	const x_max = sv_bb.x + sv_bb.w;
-	const y_min = sv_bb.y;
-	const y_max = sv_bb.y + sv_bb.h;
-	const z_min = sv_bb.z;
-	const z_max = sv_bb.z + sv_bb.d;
-
 	let chunk_listing = [];
 	// Iterate over different dimensional shapes to iteratively try out over each section of subview
 	d_listing.forEach((d) => {
 	    h_listing.forEach((h) => {
 		w_listing.forEach((w) => {
-		    // For each offset of the dimensional shape that fits within the subview bounds
-		    for (let k = z_min; k <= (z_max - d); k++) {
-			for (let j = y_min; j <= (y_max - h); j++) {
-			    for (let i = x_min; i <= (x_max - w); i++) {
-				//
-				const chunk = sv.findChunk(i, j, k, w, h, d);
-				if (chunk !== null) {
-				    chunk_listing.push(chunk);
-				    sv.removeGrid(chunk);
-				}
-			    }
+		    while(true) {
+			// For each offset of the dimensional shape that fits within the subview bounds
+			const chunk = sv.findChunk(w, h, d);
+			if (chunk !== null) {
+			    chunk_listing.push(chunk);
+			    sv.removeGrid(chunk);
+			    continue;
 			}
+			break;
 		    }
 		});
 	    });
