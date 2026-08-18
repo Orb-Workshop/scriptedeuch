@@ -182,3 +182,47 @@ test("SubView chunks 1", () => {
     let all_chunks = sv.chunks();
     expect(all_chunks.length).toEqual(4);
 });
+
+test("SubView chunks 2", () => {
+    let g = new Grid3D({ width: 10, height: 1, sentinel: 0 });
+    let sv = g.subView();
+    const setl = i => sv.add(g.index(i, 0, 0));
+    setl(0);
+    setl(1);
+
+    setl(3)
+
+    setl(5);
+    setl(6);
+    setl(7);
+
+    setl(9);
+
+    let wide_chunks = sv.chunks({ width: 2 });
+    expect(wide_chunks.length).toEqual(2);
+
+    let all_chunks = sv.chunks();
+    expect(all_chunks.length).toEqual(4);
+});
+
+test("SubView chunks 3", () => {
+    let g = new Grid3D({ width: 10, height: 10, sentinel: 0 });
+    let sv = g.subView();
+    const setl = i => sv.add(g.index(i, 0, 0));
+    setl(0);
+    setl(1);
+
+    setl(3)
+
+    setl(5);
+    setl(6);
+    setl(7);
+
+    setl(9);
+
+    let wide_chunks = sv.chunks({ width: 2 });
+    expect(wide_chunks.length).toEqual(2);
+
+    let all_chunks = sv.chunks();
+    expect(all_chunks.length).toEqual(4);
+});
