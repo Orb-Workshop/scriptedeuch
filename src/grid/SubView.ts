@@ -37,6 +37,7 @@ import GridLens from "./GridLens";
 import type GridType from "./GridType";
 import GridError from "./GridError";
 import { Point3, BBox3 } from "../math";
+import { range } from "../util";
 
 export default class SubView<T> {
     grid: Grid3D<T>;
@@ -308,22 +309,5 @@ export default class SubView<T> {
 	    });
 	});
 	return chunk_listing;
-    }
-}
-
-// Python range() function
-function range(a, b) {
-    const size = Math.abs(a - b ?? 0);
-    let start_at = 0;
-    if (b === undefined) {
-	return [...Array(size).keys()];
-    }
-    else if (a < b) {
-	start_at = a;
-	return [...Array(size).keys()].map(i => i + start_at);
-    }
-    else {
-	start_at = b;
-	return [...Array(size).keys()].map(i => i + start_at).reverse();
     }
 }

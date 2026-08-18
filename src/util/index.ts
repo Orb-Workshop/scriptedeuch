@@ -78,3 +78,23 @@ export function AllPlayers(): Array<CSPlayerPawn> {
         .filter(p => p.IsValid())
     ;
 }
+
+/**  Python-like range() function
+
+     TODO: add `step`
+ */
+export function range(a, b) {
+    const size = Math.floor(Math.abs(a - (b ?? 0)));
+    let start_at = 0;
+    if (b === undefined) {
+	return [...Array(size).keys()];
+    }
+    else if (a < b) {
+	start_at = a;
+	return [...Array(size+1).keys()].map(i => i + start_at);
+    }
+    else {
+	start_at = b;
+	return [...Array(size+1).keys()].map(i => i + start_at).reverse();
+    }
+}
