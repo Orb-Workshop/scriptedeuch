@@ -129,6 +129,31 @@ Standard Memoize Function
 
 ***
 
+### range()
+
+> **range**(`a`, `b`): `number`[]
+
+Defined in: [src/util/index.ts:88](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/util/index.ts#L88)
+
+Python-like range() function
+
+Note:
+
+- the full range is inclusive, in python the end is exclusive.
+
+#### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `a` | `any` |
+| `b` | `any` |
+
+#### Returns
+
+`number`[]
+
+***
+
 ### UniqueGen()
 
 > **UniqueGen**(`s?`): () => `string`

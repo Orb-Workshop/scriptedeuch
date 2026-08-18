@@ -250,7 +250,7 @@ export default class SubView<T> {
 	return null;
     }
 
-    /*
+    /**
       Will return an array of SubGrids that fit within the SubView of elements.
 
       Defining the width, height or depth determines the constraints

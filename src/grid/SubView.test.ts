@@ -220,6 +220,9 @@ test("SubView chunks 3", () => {
 
     setl(9);
 
+    let bigger_chunks = sv.chunks({ width: 3 });
+    expect(bigger_chunks.length).toEqual(1);
+
     let wide_chunks = sv.chunks({ width: 2 });
     expect(wide_chunks.length).toEqual(2);
 
