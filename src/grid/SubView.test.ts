@@ -229,3 +229,96 @@ test("SubView chunks 3", () => {
     let all_chunks = sv.chunks();
     expect(all_chunks.length).toEqual(4);
 });
+
+test("SubView chunks 1h", () => {
+    let g = new Grid3D({ width: 1, height: 10, sentinel: 0 });
+    let sv = g.subView();
+    const setl = j => sv.add(g.index(0, j, 0));
+    setl(0);
+    setl(1);
+
+    setl(3)
+
+    setl(5);
+    setl(6);
+
+    setl(9);
+
+    let wide_chunks = sv.chunks({ height: 2 });
+    expect(wide_chunks.length).toEqual(2);
+
+    let all_chunks = sv.chunks();
+    expect(all_chunks.length).toEqual(4);
+});
+
+test("SubView chunks 2h", () => {
+    let g = new Grid3D({ width: 10, height: 10, sentinel: 0 });
+    let sv = g.subView();
+    const setl = j => sv.add(g.index(0, j, 0));
+    setl(0);
+    setl(1);
+
+    setl(3)
+
+    setl(5);
+    setl(6);
+
+    setl(9);
+
+    let wide_chunks = sv.chunks({ height: 2 });
+    expect(wide_chunks.length).toEqual(2);
+
+    let all_chunks = sv.chunks();
+    expect(all_chunks.length).toEqual(4);
+});
+
+test("SubView chunks 3h", () => {
+    let g = new Grid3D({ width: 128, height: 128, sentinel: 0 });
+    let sv = g.subView();
+    const setl = j => sv.add(g.index(0, j, 0));
+    setl(0);
+    setl(1);
+
+    setl(3)
+
+    setl(5);
+    setl(6);
+
+    setl(9);
+
+    let wide_chunks = sv.chunks({ height: 2 });
+    expect(wide_chunks.length).toEqual(2);
+
+    let all_chunks = sv.chunks();
+    expect(all_chunks.length).toEqual(4);
+});
+
+test("SubView chunks 2d", () => {
+    let g = new Grid3D({ width: 128, height: 128, sentinel: 0 });
+    let sv = g.subView();
+    const setl = i => sv.add(g.index(i, i, 0));
+    setl(0);
+    setl(1);
+
+    setl(3)
+
+    setl(5);
+    setl(6);
+
+    setl(9);
+
+    let all_chunks = sv.chunks();
+    expect(all_chunks.length).toEqual(6);
+});
+
+test("SubView chunks 2d 2", () => {
+    let g = new Grid3D({ width: 32, height: 32, sentinel: 0 });
+    let sv = g.subView();
+
+    g.forEachIndex((i, j, k) => {
+	if (i > 10 && i < 20 && j > 10 && j < 30) sv.add(g.index(i, j, k));
+    });
+
+    let all_chunks = sv.chunks();
+    expect(all_chunks.length).toEqual(1);
+});

@@ -251,21 +251,22 @@ export default class SubView<T> {
     }
 
     /**
-      Will return an array of SubGrids that fit within the SubView of elements.
+       TODO: Come up with a better 2d/3d bin-packing algorithm.
+       Will return an array of SubGrids that fit within the SubView of elements.
 
-      Defining the width, height or depth determines the constraints
-      for how wide, long and tall the SubGrids can be. Unconstrained
-      dimensions will attempt to fit the biggest possible SubGrids to
-      populate the SubView.
+       Defining the width, height or depth determines the constraints
+       for how wide, long and tall the SubGrids can be. Unconstrained
+       dimensions will attempt to fit the biggest possible SubGrids to
+       populate the SubView.
 
-      Notes:
+       Notes:
 
-      - For example, `sv.chunks({ width: 1 })` would return strips of
-        SubGrids that have a width of 1, and varying unconstrained
-        maxima heights and maxima depths. It will attempt to create
-        the fewest number of subgrids to fill the subview within the
-        given constraints.
-     */
+       - For example, `sv.chunks({ width: 1 })` would return strips of
+         SubGrids that have a width of 1, and varying unconstrained
+	 maxima heights and maxima depths. It will attempt to create
+         the fewest number of subgrids to fill the subview within the
+         given constraints.
+    */
     chunks(opts: { width?: number, height?: number, depth?: number } = {}): Array<SubGrid> {
 	const width = opts.width ?? null;
 	const height = opts.height ?? null;
@@ -298,5 +299,12 @@ export default class SubView<T> {
 	    });
 	});
 	return chunk_listing;
+    }
+
+    /**
+       MaxRect Implementation.
+     */
+    chunks2(opts: { width?: number, height?: number, depth?: number } = {}): Array<SubGrid> {
+	throw new Error("Not Implemented");
     }
 }
