@@ -59,6 +59,36 @@ export default class SubGrid<T = number> implements GridType {
 					 k + this.z);
     }
 
+    /**
+       Returns true if a SubGrid with the given attributes will fit
+       within the current SubGrid
+     */
+    fitsSubGrid(opts): bool {
+        const {
+            x = 0,
+            y = 0,
+            z = 0,
+            width = 1,
+            height = 1,
+            depth = 1,
+        } = opts;
+	if (x < 0) return false
+	if (x > this.width-1) return false;
+	if (y < 0) return false;
+	if (y > this.height-1) return false;
+	if (z < 0) return false;
+	if (z > this.depth-1) return false;
+
+	if (x + width > this.width)
+	    return false;
+	if (y + height > this.height)
+	    return false;
+	if (z + depth > this.depth)
+	    return false;
+
+	return true;
+    }
+
     size(): number {
         return this.width * this.height * this.depth;
     }

@@ -322,3 +322,15 @@ test("SubView chunks 2d 2", () => {
     let all_chunks = sv.chunks();
     expect(all_chunks.length).toEqual(1);
 });
+
+test("SubView maxRects 1", () => {
+    let g = new Grid3D({ width: 32, height: 32, sentinel: 0 });
+    let sv = g.subView();
+
+    g.forEachIndex((i, j, k) => {
+	if (i > 10 && i < 20 && j > 10 && j < 30) sv.add(g.index(i, j, k));
+    });
+
+    let all_rects = sv.maxRects();
+    expect(all_rects.length).toEqual(1);
+});

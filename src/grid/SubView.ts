@@ -216,7 +216,9 @@ export default class SubView<T> {
       represented in the populated SubView
     */
     private fitsChunk(x, y, z, width, height, depth): bool {
-	const sv = this.grid.subGrid({ x, y, z, width, height, depth }).toPopulatedSubView();
+	const opts = { x, y, z, width, height, depth };
+	if (!this.grid.fitsSubGrid(opts)) return false;
+	const sv = this.grid.subGrid(opts).toPopulatedSubView();
 	return sv.isSubsetOf(this);
     }
 
@@ -301,10 +303,86 @@ export default class SubView<T> {
 	return chunk_listing;
     }
 
+    private firstElement(): GridLens<T>|null {
+	const it = this.element_set.values();
+	const index = it.next().value; // first value
+	if (index === undefined) return null;
+	return this.grid.lensFromIndex(index);
+    }
+
+    /**
+       Will attempt to create a SubGrid that populates the biggest
+       area around `elem`, where `elem` is an element within the
+       subview providing initial placement.
+     */
+    inflateElement(elem: GridLens<T>): SubGrid<T> {
+	if (!this.has(elem.x, elem.y, elem.z)) throw new Error("Initial element does not exist in the SubView.");
+
+	let width = 1;
+	let height = 1;
+	let depth = 1;
+	let x = elem.x;
+	let y = elem.y;
+	let z = elem.z;
+
+	while(true) {
+	    let bcontinue = false;
+
+	    // Expand Width
+	    if (this.fitsChunk(x, y, z, width+1, height, depth)) {
+		width += 1;
+		bcontinue = true;
+	    }
+	    if (this.fitsChunk(x-1, y, z, width+1, height, depth)) {
+		x -= 1;
+		width += 1;
+		bcontinue = true;
+	    }
+
+	    // Expand Height
+	    if (this.fitsChunk(x, y, z, width, height+1, depth)) {
+		height += 1;
+		bcontinue = true;
+	    }
+
+	    if (this.fitsChunk(x, y-1, z, width, height+1, depth)) {
+		y -= 1;
+		height += 1;
+		bcontinue = true;
+	    }
+
+	    // Expand Depth
+	    if (this.fitsChunk(x, y, z, width, height, depth+1)) {
+		depth += 1;
+		bcontinue = true;
+	    }
+
+	    if (this.fitsChunk(x, y, z-1, width, height, depth+1)) {
+		z -= 1;
+		depth += 1;
+		bcontinue = true;
+	    }
+
+	    if (!bcontinue) break;
+	}
+
+	return this.grid.subGrid({ x, y, z, width, height, depth });
+    }
+
     /**
        MaxRect Implementation.
-     */
-    chunks2(opts: { width?: number, height?: number, depth?: number } = {}): Array<SubGrid> {
-	throw new Error("Not Implemented");
+    */
+    maxRects(): Array<SubGrid> {
+	let sv = this.clone();
+	let rect_listing = [];
+
+	while(true) {
+	    const elem = sv.firstElement();
+	    if (elem === null) break;
+	    const sg = sv.inflateElement(elem);
+	    sv.removeGrid(sg);
+	    rect_listing.push(sg);
+	}
+	return rect_listing;
     }
 }
