@@ -184,11 +184,11 @@ export default class SubView<T> {
       enough to hold all elements of the SubView.
      */
     toBBox3(): BBox3 {
-	let x_min = 0;
+	let x_min = Number.MAX_SAFE_INTEGER;
 	let x_max = 0;
-	let y_min = 0;
+	let y_min = Number.MAX_SAFE_INTEGER;
 	let y_max = 0;
-	let z_min = 0;
+	let z_min = Number.MAX_SAFE_INTEGER;
 	let z_max = 0;
 	this.forEachElement((e) => {
 	    if (e.x < x_min) x_min = e.x;
