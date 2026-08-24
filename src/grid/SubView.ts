@@ -85,6 +85,14 @@ export default class SubView<T> {
 	return this;
     }
 
+    isEmpty(): bool {
+	return this.element_set.size <= 0;
+    }
+
+    get size(): number {
+	return this.element_set.size;
+    }
+
     insertGrid(g: SubGrid<T>): SubView<T> {
 	g.forEachGlobalIndex((i, j, k) => {
 	    const l = this.grid.lens(i, j, k);
