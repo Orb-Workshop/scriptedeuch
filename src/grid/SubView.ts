@@ -63,13 +63,18 @@ export default class SubView<T> {
 	this.element_set.delete(idx);
     }
 
-    has(x: number, y: number, z: number = 0): bool {
+    has(gl: GridLens<T>): bool {
+	const idx = this.grid.index(gl.x, gl.y, gl.z);
+	return this.element_set.has(idx);
+    }
+
+    hasIndex(x: number, y: number, z: number = 0): bool {
 	const idx = this.grid.index(x, y, z);
 	return this.element_set.has(idx);
     }
 
     get(x: number, y: number, z: number = 0): GridLens<T>|null {
-	if (this.has(x, y, z))
+	if (this.hasIndex(x, y, z))
 	    return this.grid.lens(x, y, z);
 	return null;
     }
@@ -327,12 +332,12 @@ export default class SubView<T> {
     }
 
     /**
-       Will attempt to create a SubGrid that populates the biggest
-       area around `elem`, where `elem` is an element within the
-       subview providing initial placement.
+       Will create a SubGrid that populates the biggest area around
+       `elem`, where `elem` is an element within the subview providing
+       initial placement.
      */
     inflateElement(elem: GridLens<T>): SubGrid<T> {
-	if (!this.has(elem.x, elem.y, elem.z)) throw new Error("Initial element does not exist in the SubView.");
+	if (!this.hasIndex(elem.x, elem.y, elem.z)) throw new Error("Initial element does not exist in the SubView.");
 
 	let width = 1;
 	let height = 1;
@@ -386,7 +391,7 @@ export default class SubView<T> {
     }
 
     /**
-       MaxRect Implementation.
+       MaxRect Implementation. Faster Bin-Packing.
     */
     maxRects(): Array<SubGrid> {
 	let sv = this.clone();
