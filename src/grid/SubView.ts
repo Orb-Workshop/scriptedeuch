@@ -80,22 +80,30 @@ export default class SubView<T> {
 	return sv;
     }
 
-    insertGrid(g: SubGrid<T>): void {
+    clear(): SubView<T> {
+	this.element_set.clear();
+	return this;
+    }
+
+    insertGrid(g: SubGrid<T>): SubView<T> {
 	g.forEachGlobalIndex((i, j, k) => {
 	    const l = this.grid.lens(i, j, k);
 	    this.set(l);
 	});
+	return this;
     }
 
-    removeGrid(g: SubGrid<T>): void {
+    removeGrid(g: SubGrid<T>): SubView<T> {
 	g.forEachGlobalIndex((i, j, k) => {
 	    const l = this.grid.lens(i, j, k);
 	    this.delete(l);
 	});
+	return this;
     }
 
-    forEachElement(f: (e: GridLens<T>) => void): void {
+    forEachElement(f: (e: GridLens<T>) => void): SubView<T> {
 	this.element_set.forEach((value, key, s) => f(this.grid.lensFromIndex(value)));
+	return this;
     }
 
     /**
