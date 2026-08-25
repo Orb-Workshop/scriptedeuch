@@ -2,8 +2,8 @@
   Fundamental Abstract System class that all CSS Systems should
   inherit.
 */
-import {
-    Instance as CSS,
+import { Instance as CSS } from "cs_script/point_script";
+import type {
     BeforePlayerDamageEvent,
     BeforePlayerDamageModify,
     ModifyPlayerDamageEvent,
@@ -14,6 +14,8 @@ import {
     CSWeaponAttackType,
     PlayerDamageEvent,
     CSRoundEndReason,
+    BombDefuseEvent,
+    CustomHudLayout,
 } from "cs_script/point_script";
 
 /**
@@ -60,6 +62,90 @@ export default abstract class System {
     OnActivate(): void { }
 
     /**
+        Instance.OnPlayerConnect
+        @overload
+    */
+    OnPlayerConnect(event: { player: CSPlayerController }): void { }
+
+    /**
+        Instance.OnPlayerActivate
+        @overload
+    */
+    OnPlayerActivate(event: { player: CSPlayerController }): void { }
+
+    /**
+        Instance.OnPlayerDisconnect
+        @overload
+    */
+    OnPlayerDisconnect(event: { playerSlot: number }): void { }
+
+    /**
+        Instance.OnPlayerReset
+        @overload
+    */
+    OnPlayerReset(event: { player: CSPlayerPawn }): void { }
+
+    /**
+        Instance.OnRoundStart
+        @overload
+    */
+    OnRoundStart(): void { }
+
+    /**
+        Instance.OnRoundEnd
+        @overload
+    */
+    OnRoundEnd(event: { winningTeam: number, reason: CSRoundEndReason }): void { }
+
+    /**
+        Instance.OnBeginRoundRestart
+        @overload
+    */
+    OnBeginRoundRestart(): void { }
+
+    /**
+        Instance.OnBombPlantStart()
+        @overload
+     */
+    OnBombPlantStart(event: { planter: CSPlayerPawn }): void { }
+
+    /**
+       Instance.OnBombPlantAbort()
+       @overload
+    */
+    OnBombPlantAbort(event: { planter: CSPlayerPawn }): void { }
+
+    /**
+        Instance.OnBombPlant()
+        @overload
+     */
+    OnBombPlant(event: { plantedC4: Entity, planter: CSPlayerPawn }): void { }
+
+    /**
+        Instance.OnBombDefuseStart()
+        @overload
+     */
+    OnBombDefuseStart(event: { plantedC4: Entity }): void { }
+
+    /**
+        Instance.OnBombDefuseAbort()
+        @overload
+     */
+    OnBombDefuseAbort(event: { plantedC4: Entity }): void { }
+
+    /**
+        Instance.OnBombDefuse()
+        @overload
+     */
+    OnBombDefuse(event: BombDefuseEvent): void { }
+
+    /**
+       Instance.OnBombExplode()
+       @overload
+    */
+    OnBombExplode(event: { plantedC4: Entity }): void { }
+
+    /**
         Instance.OnBeforePlayerDamage()
         @overload
         @deprecated
@@ -73,40 +159,46 @@ export default abstract class System {
     OnModifyPlayerDamage(event: ModifyPlayerDamageEvent): ModfiyPlayerDamageResult | void { }
 
     /**
-        Instance.OnBombDefuse()
+        Instance.OnPlayerDamage
         @overload
-     */
-    OnBombDefuse(event: { plantedC4: Entity, planter: CSPlayerPawn }): void { }
+    */
+    OnPlayerDamage(event: PlayerDamageEvent): void { }
 
     /**
-        Instance.OnBombPlant()
-        @overload
-     */
-    OnBombPlant(event: { plantedC4: Entity, planter: CSPlayerPawn }): void { }
-
-    /**
-       Instance.OnBombPlant()
+       Instance.OnPlayerKill
        @overload
     */
-    OnBombExplode(event: { plantedC4: Entity }): void { }
+    OnPlayerKill(event: { player: CSPlayerPawn, inflictor?: Entity, attacker?: Entity, weapon?: CSWeaponBase }): void { }
 
     /**
-        Instance.OnBulletImpact()
+        Instance.OnPlayerJump
         @overload
-     */
-    OnBulletImpact(event: { weapon: CSWeaponBase, position: VectorType }): void { }
+    */
+    OnPlayerJump(event: { player: CSPlayerPawn }): void { }
 
     /**
-        Instance.OnGrenadeBounce()
+        Instance.OnPlayerLand
         @overload
-     */
-    OnGrenadeBounce(event: { projectile: Entity, bounces: number }): void { }
+    */
+    OnPlayerLand(event: { player: CSPlayerPawn }): void { }
 
     /**
-        Instance.OnGrenadeThrow()
+        Instance.OnPlayerChat
         @overload
-     */
-    OnGrenadeThrow(event: { weapon: CSWeaponBase, projectile: Entity }): void { }
+    */
+    OnPlayerChat(event: { player: CSPlayerController | undefined, text: string, team: number }): void { }
+
+    /**
+        Instance.OnPlayerPing
+        @overload
+    */
+    OnPlayerPing(event: { player: CSPlayerController, position: VectorType }): void { }
+
+    /**
+       Instance.OnGunReload
+       @overload
+    */
+    OnGunReload(event: { weapon: CSWeaponBase }): void { }
 
     /**
         Instance.OnGunFire()
@@ -115,10 +207,10 @@ export default abstract class System {
     OnGunFire(event: { weapon: CSWeaponBase }): void { }
 
     /**
-       Instance.OnGunReload
-       @overload
-    */
-    OnGunReload(event: { weapon: CSWeaponBase }): void { }
+        Instance.OnBulletImpact()
+        @overload
+     */
+    OnBulletImpact(event: { weapon: CSWeaponBase, position: VectorType }): void { }
 
     /**
        Instance.OnWeaponDrop
@@ -133,103 +225,43 @@ export default abstract class System {
     OnWeaponPickup(event: { weapon: CSWeaponBase }): void { }
 
     /**
+        Instance.OnGrenadeThrow()
+        @overload
+     */
+    OnGrenadeThrow(event: { weapon: CSWeaponBase, projectile: Entity }): void { }
+
+    /**
+        Instance.OnGrenadeBounce()
+        @overload
+     */
+    OnGrenadeBounce(event: { projectile: Entity, bounces: number }): void { }
+
+    /**
         Instance.OnKnifeAttack
         @overload
     */
     OnKnifeAttack(event: { weapon: CSWeaponBase, attackType: CSWeaponAttackType }): void { }
 
     /**
-        Instance.OnPlayerActivate
+        Instance.OnCustomHudClicked()
         @overload
-    */
-    OnPlayerActivate(event: { player: CSPlayerController }): void { }
+     */
+    OnCustomHudClicked(event: { player: CSPlayerController, layout: CustomHudLayout, buttonId: string }): void { }
 
     /**
-        Instance.OnPlayerChat
-        @overload
-    */
-    OnPlayerChat(event: { player: CSPlayerController | undefined, text: string, team: number }): void { }
-
-    /**
-        Instance.OnPlayerConnect
-        @overload
-    */
-    OnPlayerConnect(event: { player: CSPlayerController }): void { }
-
-    /**
-        Instance.OnPlayerDamage
-        @overload
-    */
-    OnPlayerDamage(event: PlayerDamageEvent): void { }
-
-    /**
-        Instance.OnPlayerDisconnect
-        @overload
-    */
-    OnPlayerDisconnect(event: { playerSlot: number }): void { }
-
-    /**
-        Instance.OnPlayerJump
-        @overload
-    */
-    OnPlayerJump(event: { player: CSPlayerPawn }): void { }
-
-    /**
-        Instance.OnPlayerKill
-        @overload
-    */
-    OnPlayerKill(event: { player: CSPlayerPawn, inflictor?: Entity, attacker?: Entity, weapon?: CSWeaponBase }): void { }
-
-    /**
-        Instance.OnPlayerLand
-        @overload
-    */
-    OnPlayerLand(event: { player: CSPlayerPawn }): void { }
-
-    /**
-        Instance.OnPlayerPing
-        @overload
-    */
-    OnPlayerPing(event: { player: CSPlayerController, position: VectorType }): void { }
-
-    /**
-        Instance.OnPlayerReset
-        @overload
-    */
-    OnPlayerReset(event: { player: CSPlayerPawn }): void { }
-
-    /**
-        Instance.OnRoundEnd
-        @overload
-    */
-    OnRoundEnd(event: { winningTeam: number, reason: CSRoundEndReason }): void { }
-
-    /**
-        Instance.OnRoundStart
-        @overload
-    */
-    OnRoundStart(): void { }
-
-    /**
-        Instance.OnBeginRoundStart
-        @overload
-    */
-    OnBeginRoundStart(): void { }
-
-    /**
-        Instance.OnReload({before})
-        @overload
+       Instance.OnReload({before})
+       @overload
     */
     OnScriptReloadBefore<T = void>(): T { }
 
     /**
-        Instance.OnReload({after})
-        @overload
+       Instance.OnReload({after})
+       @overload
     */
     OnScriptReloadAfter<T>(memory: T): void { }
 
     /**
-        Simpler Version of OnScriptReloadAfter
+       Simpler Version of OnScriptReloadAfter
     */
     OnScriptReload(): void { }
 }

@@ -30,8 +30,8 @@
     ```
  */
 
-import {
-    Instance as CSS,
+import { Instance as CSS } from "cs_script/point_script";
+import type {
     CSDamageTypes,
     CSDamageFlags,
 } from "cs_script/point_script";
@@ -120,74 +120,76 @@ export default class Mount {
         CSS.OnActivate(() => {
             this.forEachEnabledSystem((system) => system.OnActivate());
         });
-
-        CSS.OnBeforePlayerDamage((event) => this.HandleModifyPlayerDamage(event));
-        CSS.OnModifyPlayerDamage((event) => this.HandleModifyPlayerDamage(event));
-        CSS.OnBombDefuse((event) => {
-            this.forEachEnabledSystem((system) => system.OnBombDefuse(event));
-        });
-        CSS.OnBombPlant((event) => {
-            this.forEachEnabledSystem((system) => system.OnBombPlant(event));
-        });
-        CSS.OnBulletImpact((event) => {
-            this.forEachEnabledSystem((system) => system.OnBulletImpact(event));
-        });
-        CSS.OnGrenadeBounce((event) => {
-            this.forEachEnabledSystem((system) => system.OnGrenadeBounce(event));
-        });
-        CSS.OnGrenadeThrow((event) => {
-            this.forEachEnabledSystem((system) => system.OnGrenadeThrow(event));
-        });
-        CSS.OnGunFire((event) => {
-            this.forEachEnabledSystem((system) => system.OnGunFire(event));
-        });
-        CSS.OnGunReload((event) => {
-            this.forEachEnabledSystem((system) => system.OnGunReload(event));
-        });
-        CSS.OnKnifeAttack((event) => {
-            this.forEachEnabledSystem((system) => system.OnKnifeAttack(event));
+        CSS.OnPlayerConnect((event) => {
+            this.forEachEnabledSystem((system) => system.OnPlayerConnect(event));
         });
         CSS.OnPlayerActivate((event) => {
             this.forEachEnabledSystem((system) => system.OnPlayerActivate(event));
         });
-        CSS.OnPlayerChat((event) => {
-            this.forEachEnabledSystem((system) => system.OnPlayerChat(event));
-        });
-        CSS.OnPlayerConnect((event) => {
-            this.forEachEnabledSystem((system) => system.OnPlayerConnect(event));
-        });
-        CSS.OnPlayerDamage((event) => {
-            this.forEachEnabledSystem((system) => system.OnPlayerDamage(event));
-        });
         CSS.OnPlayerDisconnect((event) => {
             this.forEachEnabledSystem((system) => system.OnPlayerDisconnect(event));
         });
-        CSS.OnPlayerJump((event) => {
-            this.forEachEnabledSystem((system) => system.OnPlayerJump(event));
-        });
-        CSS.OnPlayerKill((event) => {
-            this.forEachEnabledSystem((system) => system.OnPlayerKill(event));
-        });
-        CSS.OnPlayerLand((event) => {
-            this.forEachEnabledSystem((system) => system.OnPlayerLand(event));
-        });
-        CSS.OnPlayerPing((event) => {
-            this.forEachEnabledSystem((system) => system.OnPlayerPing(event));
-        });
-        CSS.OnPlayerReset((event) => {
+	CSS.OnPlayerReset((event) => {
             this.forEachEnabledSystem((system) => system.OnPlayerReset(event));
-        });
-        CSS.OnRoundEnd((event) => {
-            this.forEachEnabledSystem((system) => system.OnRoundEnd(event));
         });
         CSS.OnRoundStart((event) => {
             this.forEachEnabledSystem((system) => system.OnRoundStart(event));
         });
-        CSS.OnBeginRoundStart((event) => {
-            this.forEachEnabledSystem((system) => system.OnBeginRoundStart(event));
+        CSS.OnRoundEnd((event) => {
+            this.forEachEnabledSystem((system) => system.OnRoundEnd(event));
+        });
+        CSS.OnBeginRoundRestart((event) => {
+            this.forEachEnabledSystem((system) => system.OnBeginRoundRestart(event));
+        });
+        CSS.OnBombPlantStart((event) => {
+            this.forEachEnabledSystem((system) => system.OnBombPlantStart(event));
+        });
+	CSS.OnBombPlantAbort((event) => {
+            this.forEachEnabledSystem((system) => system.OnBombPlantAbort(event));
+        });
+        CSS.OnBombPlant((event) => {
+            this.forEachEnabledSystem((system) => system.OnBombPlant(event));
+        });
+        CSS.OnBombDefuseStart((event) => {
+            this.forEachEnabledSystem((system) => system.OnBombDefuseStart(event));
+        });
+	CSS.OnBombDefuseAbort((event) => {
+            this.forEachEnabledSystem((system) => system.OnBombDefuseAbort(event));
+        });
+        CSS.OnBombDefuse((event) => {
+            this.forEachEnabledSystem((system) => system.OnBombDefuse(event));
         });
 	CSS.OnBombExplode((event) => {
             this.forEachEnabledSystem((system) => system.OnBombExplode(event));
+        });
+        CSS.OnBeforePlayerDamage((event) => this.HandleModifyPlayerDamage(event));
+        CSS.OnModifyPlayerDamage((event) => this.HandleModifyPlayerDamage(event));
+        CSS.OnPlayerDamage((event) => {
+            this.forEachEnabledSystem((system) => system.OnPlayerDamage(event));
+        });
+        CSS.OnPlayerKill((event) => {
+            this.forEachEnabledSystem((system) => system.OnPlayerKill(event));
+        });
+        CSS.OnPlayerJump((event) => {
+            this.forEachEnabledSystem((system) => system.OnPlayerJump(event));
+        });
+        CSS.OnPlayerLand((event) => {
+            this.forEachEnabledSystem((system) => system.OnPlayerLand(event));
+        });
+        CSS.OnPlayerChat((event) => {
+            this.forEachEnabledSystem((system) => system.OnPlayerChat(event));
+        });
+        CSS.OnPlayerPing((event) => {
+            this.forEachEnabledSystem((system) => system.OnPlayerPing(event));
+        });
+        CSS.OnGunReload((event) => {
+            this.forEachEnabledSystem((system) => system.OnGunReload(event));
+        });
+        CSS.OnGunFire((event) => {
+            this.forEachEnabledSystem((system) => system.OnGunFire(event));
+        });
+        CSS.OnBulletImpact((event) => {
+            this.forEachEnabledSystem((system) => system.OnBulletImpact(event));
         });
         CSS.OnWeaponDrop((event) => {
             this.forEachEnabledSystem((system) => system.OnWeaponDrop(event));
@@ -195,6 +197,19 @@ export default class Mount {
         CSS.OnWeaponPickup((event) => {
             this.forEachEnabledSystem((system) => system.OnWeaponPickup(event));
         });
+        CSS.OnGrenadeThrow((event) => {
+            this.forEachEnabledSystem((system) => system.OnGrenadeThrow(event));
+        });
+        CSS.OnGrenadeBounce((event) => {
+            this.forEachEnabledSystem((system) => system.OnGrenadeBounce(event));
+        });
+        CSS.OnKnifeAttack((event) => {
+            this.forEachEnabledSystem((system) => system.OnKnifeAttack(event));
+        });
+        CSS.OnCustomHudClicked((event) => {
+            this.forEachEnabledSystem((system) => system.OnCustomHudClicked(event));
+        });
+
 
         // OnScriptReload functionality is split up into separate overrides
         // System.OnScriptReloadBefore(...) and System.OnScriptReloadAfter(...)
