@@ -224,8 +224,26 @@ new Base.ThinkTask(() => {
     //CSS.Msg(`Elapsed Round Time: ${FreezeTime.GetElapsedRoundTime()}`);
 }, 1/128);
 
+//
+// HUD Layout System
+//
+class Hud extends Base.System {
+    constructor() {
+	super();
+    }
+
+    OnRoundStart(event): void {
+	const hud_layout = Entity.CustomHudLayout.Find("test_hud_layout");
+	Util.AllPlayers().forEach(p => hud_layout.SetHasClassForPlayer(p.GetPlayerSlot(), "dialog", "Dismissed", false))
+    }
+}
+
+
+
+
 Mount.Register("KnifeDash", new System.KnifeDashSystem());
 Mount.Register("DoubleJump", new System.DoubleJumpSystem());
+//Mount.Register("HUD", new Hud());
 
 // Listing off what's running
 CSS.Msg("Systems: " + Mount.List().join(", "))

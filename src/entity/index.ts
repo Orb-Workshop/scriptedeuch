@@ -5,6 +5,7 @@ export { default as EntityHelper } from "./EntityHelper";
 // env_shooter doesn't seem to materialize in cs2 as an entity.
 // export { default as EnvironmentShooter } from "./EnvironmentShooter";
 export { default as BaseModelEntity } from "./BaseModelEntity";
+export { default as CustomHudLayout } from "./CustomHudlayout";
 export { default as EnvironmentFade } from "./EnvironmentFade";
 export { default as EnvironmentHudHint } from "./EnvironmentHudHint";
 export { default as EnvironmentParticleGlow } from "./EnvironmentParticleGlow";
@@ -30,6 +31,5 @@ export { default as PropDynamicOrnament } from "./PropDynamicOrnament";
 export { default as PropPhysicsMultiplayer } from "./PropPhysicsMultiplayer";
 export { default as TriggerMultiple } from "./TriggerMultiple";
 export { default as TriggerTeleport } from "./TriggerTeleport";
-
 // Extensions to cs2 entities. Often make up multiple entities
 export { default as MoveableSoundEvent } from "./MoveableSoundEvent";

@@ -1,8 +1,8 @@
 /**
    Entity Adapter for 'env_fade' cs2 entity.
- */
-import {
-    Instance as CSS,
+*/
+import { Instance as CSS } from "cs_script/point_script";
+import type {
     Entity,
     Vector as VectorType,
     QAngle as QAngleType,
@@ -10,14 +10,12 @@ import {
 import { default as EntityHelper, MaybeEntity } from "./EntityHelper";
 import * as Util from "../util";
 import * as Event from "../event";
-import { RemoveActorOnRoundEnd } from "./util";
 
 export const CLASSNAME = "env_fade";
 
 export default class EnvironmentFade extends EntityHelper {
     constructor(entity: Entity) {
         super(entity);
-        //RemoveActorOnRoundEnd(this);
     }
 
     public static From(e: Entity): EnvironmentFade {
@@ -38,9 +36,8 @@ export default class EnvironmentFade extends EntityHelper {
     }
 
     // IO Event Inputs
-    
+
     public Fade(opts = {}): void {
         this.FireIO({ input: "Fade", ...opts });
     }
 }
-
