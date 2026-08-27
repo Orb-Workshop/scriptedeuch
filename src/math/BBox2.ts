@@ -6,7 +6,7 @@ export default class BBox2 {
     y: number;
     w: number;
     h: number;
-    
+
     constructor(x: number = 0, y: number = 0, w: number = 0, h: number = 0) {
         this.x = x;
         this.y = y;
@@ -78,7 +78,7 @@ export default class BBox2 {
         let h = this.h;
         return new BBox2(x, y, w, h);
     }
-    
+
     // Extend the top, right, bottom, left of the BBox2
     extendLeft(amt: number): BBox2 {
         let x = this.x - amt;
@@ -110,5 +110,21 @@ export default class BBox2 {
         let w = this.w;
         let h = this.h + amt;
         return new BBox2(x, y, w, h);
+    }
+
+    get x_min(): number {
+	return this.x;
+    }
+
+    get x_max(): number {
+	return this.x + this.w;
+    }
+
+    get y_min(): number {
+	return this.y;
+    }
+
+    get y_max(): number {
+	return this.y + this.h;
     }
 }

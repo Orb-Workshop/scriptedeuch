@@ -186,4 +186,28 @@ export default class BBox3 {
         let d = this.d + amt;
         return new BBox3(x, y, z, w, h, d);
     }
+
+    get x_min(): number {
+	return this.x;
+    }
+
+    get x_max(): number {
+	return this.x + this.w;
+    }
+
+    get y_min(): number {
+	return this.y;
+    }
+
+    get y_max(): number {
+	return this.y + this.h;
+    }
+
+    get z_min(): number {
+	return this.z;
+    }
+
+    get z_max(): number {
+	return this.z + this.d;
+    }
 }
