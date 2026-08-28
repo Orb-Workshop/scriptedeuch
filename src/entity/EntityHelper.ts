@@ -2,9 +2,11 @@
    Serves as an adapter over entities. Meant to be extended into base entities.
  */
 
-import {
-    Instance as CSS,
+import { Instance as CSS } from "cs_script/point_script";
+import type {
     Entity,
+    CSMoveType,
+    RotationVector,
 } from "cs_script/point_script";
 import * as Base from "../base";
 import * as SEMath from "../math";
@@ -155,6 +157,18 @@ export default abstract class EntityHelper {
 
     public Teleport({position, rotation, velocity, angularVelocity, ...opts}): void {
         this.raw.Teleport({position, rotation, velocity, angularVelocity, ...opts});
+    }
+
+    public Move(newValues: { position?: SEMath.Vector3, angles?: SEMath.QAngle, velocity?: SEMath.Vector3, angularVelocity?: SEMath.Vector3 }): void {
+	this.raw.Move(newValues);
+    }
+
+    public GetMoveType(): CSMoveType {
+	return this.raw.GetMoveType();
+    }
+
+    public SetMoveType(moveType: CSMoveType): void {
+	this.raw.SetMoveType(moveType);
     }
 
     public GetClassName(): string {
