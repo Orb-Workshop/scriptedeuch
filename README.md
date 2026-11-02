@@ -40,6 +40,22 @@ Base.Mount.Register("PlayerModelChanger", new System.PlayerModelChanger({
 Base.Mount.Start();
 ```
 
+### I want to double jump
+```typescript
+import { Base, System } from "scriptedeuch";
+
+Base.Mount.Register("DoubleJump", new System.DoubleJump());
+Base.Mount.Start();
+```
+
+### I want to knife dash (right-clicking with knife results in a dash)
+```typescript
+import { Base, System } from "scriptedeuch";
+
+Base.Mount.Register("KnifeDash", new System.KnifeDash());
+Base.Mount.Start();
+```
+
 ### I want to track killing sprees, and play sounds to players
 
 Note: `System.SoundEvent` requires the
