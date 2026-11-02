@@ -1,16 +1,12 @@
 /**
    Entity Adapter for 'path_track' cs2 entity.
- */
-import {
-    Instance as CSS,
+*/
+import { Instance as CSS } from "cs_script/point_script";
+import type {
     Entity,
-    Vector as VectorType,
-    QAngle as QAngleType,
 } from "cs_script/point_script";
-import {
-    default as EntityHelper,
-    ConnectOutputCallback,
-} from "./EntityHelper";
+import { default as EntityHelper } from "./EntityHelper";
+import type { ConnectOutputCallback } from "./EntityHelper";
 import * as Base from "../base";
 import * as Util from "../util";
 import { default as BaseModelEntity } from "./BaseModelEntity";
@@ -22,24 +18,24 @@ export default class PathTrack extends BaseModelEntity {
         super(entity);
     }
 
-    public static From(e: Entity): PathTrack {
+    public static override From(e: Entity): PathTrack {
         if (!Util.CheckClass(e, CLASSNAME))
             throw new Error(`PathTrack - Classname Error: ${e?.GetClassName()}`);
         return new PathTrack(e);
     }
-   
-    public static Find(r: RegExp | string): PathTrack {
-        const e = EntityHelper.FindByClass(CLASSNAME, r, true);
+
+    public static override Find(r: RegExp | string): PathTrack {
+        const e = EntityHelper.FindByClassStrict(CLASSNAME, r);
         return new PathTrack(e.raw);
     }
 
-    public static FindAll(r: RegExp | string): Array<PathTrack> {
+    public static override FindAll(r: RegExp | string): Array<PathTrack> {
         const es = EntityHelper.FindAllByClass(CLASSNAME, r);
         return es.map(e => new PathTrack(e.raw));
     }
 
     // IO Event Inputs
-    
+
     public TogglePath(opts = {}): void {
         this.FireIO({ input: "TogglePath", ...opts });
     }
@@ -63,12 +59,11 @@ export default class PathTrack extends BaseModelEntity {
     public DisableAlternatePath(opts = {}): void {
         this.FireIO({ input: "DisableAlternatePath", ...opts });
     }
-    
+
     // IO Event Outputs
-    
+
     public OnPass(callback: ConnectOutputCallback): PathTrack {
         return this.On("OnPass", callback) as PathTrack;
     }
-    
-}
 
+}

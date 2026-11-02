@@ -1,5 +1,5 @@
-import {
-    Instance as CSS,
+import { Instance as CSS } from "cs_script/point_script";
+import type {
     CSPlayerPawn,
     CSPlayerController,
     PointTemplate,
@@ -36,7 +36,7 @@ function AttachSoundToPlayer({
         ErrorMessage(`soundevent point_template is missing...`);
         return null;
     }
-    
+
     const player_position = player_pawn.GetEyePosition();
     let soundevent_spawn = soundevent_template.ForceSpawn(player_position);
     if (!(soundevent_spawn instanceof Array)) {
@@ -45,7 +45,7 @@ function AttachSoundToPlayer({
     }
     let empty_entity = soundevent_spawn[0];
     let soundevent_entity = soundevent_spawn[1];
-    
+
     // Slight Workaround: attempting to parent the point_soundevent
     // directly failed to work, so i'm parenting a
     // prop_dynamic_ornament, which has the point_soundevent parented.
@@ -66,7 +66,7 @@ class PlayerSoundEventController {
     private player_name: string;
     private soundevent_timeout: number;
     private debug: boolean;
-    
+
     constructor({
         player_pawn,
         soundevent_timeout = 5., // Seconds
@@ -133,7 +133,7 @@ export default class SoundEventSystem extends System {
     private player_listing: Map<string, PlayerSoundEventController> = new Map();
     private soundevent_timeout: number;
     private debug: boolean;
-    
+
     constructor({
         tick_rate = 128.,
         soundevent_timeout = 5., // Seconds
@@ -148,8 +148,8 @@ export default class SoundEventSystem extends System {
     override OnActivate() {
         CSS.Msg("Sound Event System Activated!");
     }
-    
-    public PlaySoundToPlayer(player_pawn, soundevent_name, immediate=false) {
+
+    public PlaySoundToPlayer(player_pawn: CSPlayerPawn, soundevent_name: string, immediate=false) {
         const soundevent_entity = AttachSoundToPlayer({player_pawn, soundevent_name, debug: this.debug});
         const player_name = GetPlayerName(player_pawn) ?? "N/A";
         if (!soundevent_entity) return;
@@ -165,7 +165,7 @@ export default class SoundEventSystem extends System {
             if (this.debug) CSS.Msg(`Queued Soundevent '${soundevent_name}' to Player '${player_name}'`);
         }
     }
-    
+
     private queueSoundToPlayer(obj) {
         obj = obj || {};
         const {
@@ -207,5 +207,3 @@ export default class SoundEventSystem extends System {
 }
 
 //const soundEventSystem = new SoundEventSystem();
-
-

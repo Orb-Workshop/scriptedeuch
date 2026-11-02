@@ -1,16 +1,11 @@
 /**
    Entity Adapter for 'MathCounter'
- */
-import {
-    Instance as CSS,
-    Entity,
-    Color as ColorType,
-} from "cs_script/point_script";
+*/
+import { Instance as CSS } from "cs_script/point_script";
+import type { Entity } from "cs_script/point_script";
 import * as Util from "../util";
-import {
-    default as EntityHelper,
-    ConnectOutputCallback,
-} from "./EntityHelper";
+import { default as EntityHelper } from "./EntityHelper";
+import type { ConnectOutputCallback } from "./EntityHelper";
 
 
 export const CLASSNAME = "math_counter";
@@ -26,7 +21,7 @@ export default class MathCounter extends EntityHelper {
     }
 
     public static Find(r: RegExp | string): MathCounter {
-        const e = EntityHelper.FindByClass(CLASSNAME, r, true);
+        const e = EntityHelper.FindByClassStrict(CLASSNAME, r);
         return new MathCounter(e.raw);
     }
 
@@ -80,13 +75,13 @@ export default class MathCounter extends EntityHelper {
     public SetHitMin(value: number, opts = {}): void {
         this.FireIO({ input: "SetHitMin", value, ...opts });
     }
-    
+
     // IO Event Outputs
-    
+
     public OnKilled(callback: ConnectOutputCallback): MathCounter {
         return this.On("OnKilled", callback) as MathCounter;
     }
-    
+
     public OutValue(callback: ConnectOutputCallback): MathCounter {
         return this.On("OutValue", callback) as MathCounter;
     }

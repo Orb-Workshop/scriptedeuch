@@ -4,10 +4,8 @@
 import { Instance as CSS } from "cs_script/point_script";
 import type {
     Entity,
-    Vector as VectorType,
-    QAngle as QAngleType,
 } from "cs_script/point_script";
-import { default as EntityHelper, MaybeEntity } from "./EntityHelper";
+import { default as EntityHelper } from "./EntityHelper";
 import * as Util from "../util";
 import * as Event from "../event";
 
@@ -26,7 +24,7 @@ export default class EnvironmentFade extends EntityHelper {
 
     public static Find(r: RegExp | string): EnvironmentFade {
         // Overload with each entity helper
-        const e = EntityHelper.FindByClass(CLASSNAME, r, true);
+        const e = EntityHelper.FindByClassStrict(CLASSNAME, r, true);
         return new EnvironmentFade(e.raw);
     }
 

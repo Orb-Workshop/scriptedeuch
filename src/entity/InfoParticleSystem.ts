@@ -1,11 +1,10 @@
 /**
    Entity Adapter for 'info_particle_system' cs2 entity.
- */
+*/
+import { Instance as CSS } from "cs_script/point_script";
 import {
-    Instance as CSS,
     Entity,
     Vector as VectorType,
-    QAngle as QAngleType,
 } from "cs_script/point_script";
 import { default as EntityHelper, MaybeEntity } from "./EntityHelper";
 import * as Util from "../util";
@@ -28,7 +27,7 @@ export default class InfoParticleSystem extends EntityHelper {
 
     public static Find(r: RegExp | string): InfoParticleSystem {
         // Overload with each entity helper
-        const e = EntityHelper.FindByClass(CLASSNAME, r, true);
+        const e = EntityHelper.FindByClassStrict(CLASSNAME, r);
         return new InfoParticleSystem(e.raw);
     }
 
@@ -38,7 +37,7 @@ export default class InfoParticleSystem extends EntityHelper {
     }
 
     // IO Event Inputs
-    
+
     public Start(opts = {}): void {
         this.FireIO({ input: "Start", ...opts });
     }
@@ -79,4 +78,3 @@ export default class InfoParticleSystem extends EntityHelper {
         this.FireIO({ input: "SetDataControlPointZ", value, ...opts });
     }
 }
-

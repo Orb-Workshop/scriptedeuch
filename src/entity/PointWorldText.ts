@@ -1,16 +1,12 @@
 /**
    Entity Adapter for 'point_worldtext' cs2 entity.
  */
-import {
-    Instance as CSS,
-    Entity,
-} from "cs_script/point_script";
-import {
-    default as EntityHelper,
-    ConnectOutputCallback,
-} from "./EntityHelper";
+import { Instance as CSS } from "cs_script/point_script";
+import type { Entity } from "cs_script/point_script";
+import { default as EntityHelper } from "./EntityHelper";
+import type { ConnectOutputCallback } from "./EntityHelper";
 import * as Util from "../util";
-import Color as SEColor from "./Color";
+import type { Color as SEColor } from "./Color";
 
 /** The cs2 entity we're adapting to */
 export const CLASSNAME: string = "point_worldtext";
@@ -26,9 +22,9 @@ export default class PointWorldText extends EntityHelper {
                 `PointWorldText - Classname Error: ${e?.GetClassName()}`);
         return new PointWorldText(e);
     }
-   
+
     public static Find(r: RegExp | string): PointWorldText {
-        const e = EntityHelper.FindByClass(CLASSNAME, r, true);
+        const e = EntityHelper.FindByClassStrict(CLASSNAME, r);
         return new PointWorldText(e.raw);
     }
 
@@ -38,7 +34,7 @@ export default class PointWorldText extends EntityHelper {
     }
 
     // IO Event Inputs
-    
+
     SetMessage(msg: string, opts = {}): void {
         this.FireIO({input: "SetMessage", value: msg, ...opts});
     }

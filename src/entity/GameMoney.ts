@@ -1,17 +1,13 @@
 /**
    Entity Adapter for 'game_money'
- */
-import {
-    Instance as CSS,
+*/
+import { Instance as CSS } from "cs_script/point_script";
+import type {
     Entity,
-    Vector as VectorType,
-    QAngle as QAngleType,
     CSPlayerPawn,
 } from "cs_script/point_script";
-import {
-    default as EntityHelper,
-    ConnectOutputCallback,
-} from "./EntityHelper";
+import { default as EntityHelper } from "./EntityHelper";
+import type { ConnectOutputCallback } from "./EntityHelper";
 import * as Util from "../util";
 
 const CLASSNAME = "game_money";
@@ -28,7 +24,7 @@ export default class GameMoney extends EntityHelper {
     }
 
     public static Find(r: RegExp | string): GameMoney {
-        const e = EntityHelper.FindByClass(CLASSNAME, r, true);
+        const e = EntityHelper.FindByClassStrict(CLASSNAME, r);
         return new GameMoney(e.raw);
     }
 
@@ -51,12 +47,12 @@ export default class GameMoney extends EntityHelper {
         this.SetMoneyAmount(amount);
         this.AddTeamMoneyCT();
     }
-    
+
     // IO Event Inputs
     SetMoneyAmount(value: number, opts = {}): void {
         this.FireIO({input: "SetMoneyAmount", value, ...opts});
     }
-    
+
     AddMoneyPlayer(opts = {}): void {
         this.FireIO({input: "AddMoneyPlayer", ...opts});
     }
@@ -82,5 +78,5 @@ export default class GameMoney extends EntityHelper {
     public OnMoneySpentFail(callback: ConnectOutputCallback): GameMoney {
         return this.On("OnMoneySpentFail", callback) as GameMoney;
     }
-    
+
 }

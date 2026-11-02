@@ -16,6 +16,9 @@ import type {
     CSRoundEndReason,
     BombDefuseEvent,
     CustomHudLayout,
+    CSPlayerPawn,
+    CSPlayerController,
+    CSHostage,
 } from "cs_script/point_script";
 
 /**
@@ -86,6 +89,12 @@ export default abstract class System {
     OnPlayerReset(event: { player: CSPlayerPawn }): void { }
 
     /**
+        Instance.OnPlayerTeamChanged
+        @overload
+    */
+    OnPlayerTeamChanged(event: { player: CSPlayerPawn, oldTeam: number }): void { }
+
+    /**
         Instance.OnRoundStart
         @overload
     */
@@ -144,6 +153,42 @@ export default abstract class System {
        @overload
     */
     OnBombExplode(event: { plantedC4: Entity }): void { }
+
+    /**
+       Instance.OnHostagePickUpStart
+       @overload
+    */
+    OnHostagePickUpStart(event: { hostage: CSHostage }): void { }
+
+    /**
+       Instance.OnHostagePickUpAbort
+       @overload
+    */
+    OnHostagePickUpAbort(event: { hostage: CSHostage, player: CSPlayerPawn }): void { }
+
+    /**
+       Instance.OnHostagePickUp
+       @overload
+    */
+    OnHostagePickUp(event: { hostage: CSHostage }): void { }
+
+    /**
+       Instance.OnHostageDrop
+       @overload
+    */
+    OnHostageDrop(event: { hostage: CSHostage, dropper: CSPlayerPawn }): void { }
+
+    /**
+       Instance.OnHostageRescue
+       @overload
+    */
+    OnHostageRescue(event: { hostage: CSHostage }): void { }
+
+    /**
+       Instance.OnHostageKill
+       @overload
+    */
+    OnHostageKill(event: { hostage: CSHostage, attacker?: CSPlayerPawn }): void { }
 
     /**
         Instance.OnBeforePlayerDamage()

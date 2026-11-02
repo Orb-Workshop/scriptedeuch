@@ -32,7 +32,7 @@ export default class Color implements ColorType {
         s /= 100;
         l /= 100;
 
-        const hue2rgb = (p, q, t) => {
+        const hue2rgb = (p: number, q: number, t: number) => {
             if (t < 0) t += 1;
             if (t > 1) t -= 1;
             if (t < 1 / 6) return p + (q - p) * 6 * t;

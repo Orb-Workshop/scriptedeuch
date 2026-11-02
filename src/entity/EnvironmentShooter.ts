@@ -32,7 +32,7 @@ export default class EnvironmentShooter extends EntityHelper {
 
     public static Find(r: RegExp | string): EnvironmentShooter {
         // Overload with each entity helper
-        const e = EntityHelper.FindByClass(CLASSNAME, r, true);
+        const e = EntityHelper.FindByClassStrict(CLASSNAME, r);
         return new EnvironmentShooter(e.raw);
     }
 
@@ -42,9 +42,8 @@ export default class EnvironmentShooter extends EntityHelper {
     }
 
     // IO Event Inputs
-    
+
     public Shoot(opts = {}): void {
         this.FireIO({ input: "Shoot", ...opts });
     }
 }
-

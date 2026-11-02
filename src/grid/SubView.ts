@@ -63,12 +63,12 @@ export default class SubView<T> {
 	this.element_set.delete(idx);
     }
 
-    has(gl: GridLens<T>): bool {
+    has(gl: GridLens<T>): boolean {
 	const idx = this.grid.index(gl.x, gl.y, gl.z);
 	return this.element_set.has(idx);
     }
 
-    hasIndex(x: number, y: number, z: number = 0): bool {
+    hasIndex(x: number, y: number, z: number = 0): boolean {
 	const idx = this.grid.index(x, y, z);
 	return this.element_set.has(idx);
     }
@@ -90,7 +90,7 @@ export default class SubView<T> {
 	return this;
     }
 
-    isEmpty(): bool {
+    isEmpty(): boolean {
 	return this.element_set.size <= 0;
     }
 
@@ -99,7 +99,7 @@ export default class SubView<T> {
     }
 
     insertGrid(g: SubGrid<T>): SubView<T> {
-	g.forEachGlobalIndex((i, j, k) => {
+	g.forEachGlobalIndex((i: number, j: number, k: number) => {
 	    const l = this.grid.lens(i, j, k);
 	    this.set(l);
 	});
@@ -157,17 +157,17 @@ export default class SubView<T> {
 	return sv;
     }
 
-    isDisjointFrom(inn: SubView<T>): bool {
+    isDisjointFrom(inn: SubView<T>): boolean {
 	const sv = this.withOwner(this.grid);
 	return sv.element_set.isDisjointFrom(inn.element_set);
     }
 
-    isSubsetOf(inn: SubView<T>): bool {
+    isSubsetOf(inn: SubView<T>): boolean {
 	const sv = this.withOwner(this.grid);
 	return sv.element_set.isSubsetOf(inn.element_set);
     }
 
-    isSupersetOf(inn: SubView<T>): bool {
+    isSupersetOf(inn: SubView<T>): boolean {
 	const sv = this.withOwner(this.grid);
 	return sv.element_set.isSupersetOf(inn.element_set);
     }
@@ -236,7 +236,7 @@ export default class SubView<T> {
       Returns true if the given offset and dimension can be
       represented in the populated SubView
     */
-    private fitsChunk(x, y, z, width, height, depth): bool {
+    private fitsChunk(x, y, z, width, height, depth): boolean {
 	const opts = { x, y, z, width, height, depth };
 	if (!this.grid.fitsSubGrid(opts)) return false;
 	const sv = this.grid.subGrid(opts).toPopulatedSubView();

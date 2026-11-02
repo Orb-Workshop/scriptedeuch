@@ -1,16 +1,14 @@
 /**
    Entity Adapter for 'func_breakable'
- */
-import {
-    Instance as CSS,
+*/
+import { Instance as CSS } from "cs_script/point_script";
+import type {
     Entity,
     Color as ColorType,
 } from "cs_script/point_script";
 import * as Util from "../util";
-import {
-    default as EntityHelper,
-    ConnectOutputCallback,
-} from "./EntityHelper";
+import { default as EntityHelper } from "./EntityHelper";
+import type { ConnectOutputCallback } from "./EntityHelper";
 import BaseModelEntity from "./BaseModelEntity";
 
 
@@ -20,18 +18,18 @@ export default class FuncBreakable extends BaseModelEntity {
         super(entity);
     }
 
-    public static From(e: Entity): FuncBreakable {
+    public static override From(e: Entity): FuncBreakable {
         if (!Util.CheckClass(e, CLASSNAME))
             throw new Error(`FuncBreakable - Classname Error: ${e?.GetClassName()}`);
         return new FuncBreakable(e);
     }
 
-    public static Find(r: RegExp | string): FuncBreakable {
-        const e = EntityHelper.FindByClass(CLASSNAME, r, true);
+    public static override Find(r: RegExp | string): FuncBreakable {
+        const e = EntityHelper.FindByClassStrict(CLASSNAME, r);
         return new FuncBreakable(e.raw);
     }
 
-    public static FindAll(r: RegExp | string): Array<FuncBreakable> {
+    public static override FindAll(r: RegExp | string): Array<FuncBreakable> {
         // Overload with each entity helper
         const es = EntityHelper.FindAllByClass(CLASSNAME, r);
         return es.map(e => new FuncBreakable(e.raw));
@@ -45,7 +43,7 @@ export default class FuncBreakable extends BaseModelEntity {
     public SetHealth(value: number, opts = {}): void {
         this.FireIO({ input: "SetHealth", value, ...opts });
     }
-    
+
     public AddHealth(value: number, opts = {}): void {
         this.FireIO({ input: "AddHealth", value, ...opts });
     }
@@ -57,15 +55,15 @@ export default class FuncBreakable extends BaseModelEntity {
     public SetMass(value: number, opts = {}): void {
         this.FireIO({ input: "SetMass", value, ...opts });
     }
-    
+
     // IO Event Outputs
     public OnBreak(callback: ConnectOutputCallback): FuncBreakable {
         return this.On("OnBreak", callback) as FuncBreakable;
     }
-    
+
     // IO Event Outputs
     public OnHealthChanged(callback: ConnectOutputCallback): FuncBreakable {
         return this.On("OnHealthChanged", callback) as FuncBreakable;
     }
-    
+
 }

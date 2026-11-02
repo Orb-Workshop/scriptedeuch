@@ -34,6 +34,23 @@ import { Instance as CSS } from "cs_script/point_script";
 import type {
     CSDamageTypes,
     CSDamageFlags,
+    CSPlayerPawn,
+    CSPlayerController,
+    CSRoundEndReason,
+    CSPlantedC4,
+    BombDefuseEvent,
+    BombPlantEvent,
+    CSHostage,
+    ModifyPlayerDamageEvent,
+    ModifyPlayerDamageResult,
+    PlayerDamageEvent,
+    Entity,
+    CSWeaponBase,
+    Vector,
+    CSGrenadeProjectileBase,
+    GrenadeBounceEvent,
+    CSWeaponAttackType,
+    CustomHudLayout,
 } from "cs_script/point_script";
 import System from "./System";
 
@@ -103,11 +120,11 @@ export default class Mount {
        - CSS.OnBeforePlayerDamage is replaced with CSS.OnModifyPlayerDamage
        - { abort: true } takes precedence
     */
-    private HandleModifyPlayerDamage(event) {
+    private HandleModifyPlayerDamage(event: ModifyPlayerDamageEvent): ModifyPlayerDamageResult {
         // Dress up our event as the result between modifications.
         event.abort = false;
 
-        this.forEachEnabledSystem((system) => {
+        this.forEachEnabledSystem((system: System) => {
             const result = system.OnBeforePlayerDamage(event) ?? {};
             event = { ...event, ...result };
         });
@@ -120,93 +137,114 @@ export default class Mount {
         CSS.OnActivate(() => {
             this.forEachEnabledSystem((system) => system.OnActivate());
         });
-        CSS.OnPlayerConnect((event) => {
-            this.forEachEnabledSystem((system) => system.OnPlayerConnect(event));
+        CSS.OnPlayerConnect((event: { player: CSPlayerController }) => {
+            this.forEachEnabledSystem((system: System) => system.OnPlayerConnect(event));
         });
-        CSS.OnPlayerActivate((event) => {
-            this.forEachEnabledSystem((system) => system.OnPlayerActivate(event));
+        CSS.OnPlayerActivate((event: { player: CSPlayerController }) => {
+            this.forEachEnabledSystem((system: System) => system.OnPlayerActivate(event));
         });
-        CSS.OnPlayerDisconnect((event) => {
-            this.forEachEnabledSystem((system) => system.OnPlayerDisconnect(event));
+        CSS.OnPlayerDisconnect((event: { playerSlot: number }) => {
+            this.forEachEnabledSystem((system: System) => system.OnPlayerDisconnect(event));
         });
-	CSS.OnPlayerReset((event) => {
-            this.forEachEnabledSystem((system) => system.OnPlayerReset(event));
+	CSS.OnPlayerReset((event: { player: CSPlayerPawn }) => {
+            this.forEachEnabledSystem((system: System) => system.OnPlayerReset(event));
         });
-        CSS.OnRoundStart((event) => {
+	CSS.OnPlayerTeamChanged((event: { player: CSPlayerPawn, oldTeam: number }) => {
+            this.forEachEnabledSystem((system) => system.OnPlayerTeamChanged(event));
+        });
+        CSS.OnRoundStart(() => {
             this.forEachEnabledSystem((system) => system.OnRoundStart(event));
         });
-        CSS.OnRoundEnd((event) => {
+        CSS.OnRoundEnd((event: { winningTeam: number, reason: CSRoundEndReason }) => {
             this.forEachEnabledSystem((system) => system.OnRoundEnd(event));
         });
-        CSS.OnBeginRoundRestart((event) => {
+        CSS.OnBeginRoundRestart(() => {
             this.forEachEnabledSystem((system) => system.OnBeginRoundRestart(event));
         });
-        CSS.OnBombPlantStart((event) => {
+        CSS.OnBombPlantStart((event: { planter: CSPlayerPawn }) => {
             this.forEachEnabledSystem((system) => system.OnBombPlantStart(event));
         });
-	CSS.OnBombPlantAbort((event) => {
+	CSS.OnBombPlantAbort((event: { planter: CSPlayerPawn }) => {
             this.forEachEnabledSystem((system) => system.OnBombPlantAbort(event));
         });
-        CSS.OnBombPlant((event) => {
+        CSS.OnBombPlant((event: BombPlantEvent) => {
             this.forEachEnabledSystem((system) => system.OnBombPlant(event));
         });
-        CSS.OnBombDefuseStart((event) => {
+        CSS.OnBombDefuseStart((event: { plantedC4: CSPlantedC4 }) => {
             this.forEachEnabledSystem((system) => system.OnBombDefuseStart(event));
         });
-	CSS.OnBombDefuseAbort((event) => {
+	CSS.OnBombDefuseAbort((event: { plantedC4: CSPlantedC4 }) => {
             this.forEachEnabledSystem((system) => system.OnBombDefuseAbort(event));
         });
-        CSS.OnBombDefuse((event) => {
+        CSS.OnBombDefuse((event: BombDefuseEvent) => {
             this.forEachEnabledSystem((system) => system.OnBombDefuse(event));
         });
-	CSS.OnBombExplode((event) => {
+	CSS.OnBombExplode((event: { plantedC4: CSPlantedC4 }) => {
             this.forEachEnabledSystem((system) => system.OnBombExplode(event));
         });
-        CSS.OnBeforePlayerDamage((event) => this.HandleModifyPlayerDamage(event));
-        CSS.OnModifyPlayerDamage((event) => this.HandleModifyPlayerDamage(event));
-        CSS.OnPlayerDamage((event) => {
+	CSS.OnHostagePickUpStart((event: { hostage: CSHostage }) => {
+	    this.forEachEnabledSystem((system) => system.OnHostagePickUpStart(event));
+	});
+	CSS.OnHostagePickUpAbort((event: { hostage: CSHostage, player: CSPlayerPawn }) => {
+	    this.forEachEnabledSystem((system) => system.OnHostagePickUpAbort(event));
+	});
+	CSS.OnHostagePickUp((event: { hostage: CSHostage }) => {
+	    this.forEachEnabledSystem((system) => system.OnHostagePickUp(event));
+	});
+	CSS.OnHostageDrop((event: { hostage: CSHostage, dropper: CSPlayerPawn }) => {
+	    this.forEachEnabledSystem((system) => system.OnHostageDrop(event));
+	});
+	CSS.OnHostageRescue((event: { hostage: CSHostage }) => {
+	    this.forEachEnabledSystem((system) => system.OnHostageRescue(event));
+	});
+	CSS.OnHostageKill((event: { hostage: CSHostage, attacker?: CSPlayerPawn }) => {
+	    this.forEachEnabledSystem((system) => system.OnHostageKill(event));
+	});
+        CSS.OnBeforePlayerDamage((event: ModifyPlayerDamageEvent) => this.HandleModifyPlayerDamage(event));
+        CSS.OnModifyPlayerDamage((event: ModifyPlayerDamageEvent) => this.HandleModifyPlayerDamage(event));
+        CSS.OnPlayerDamage((event: PlayerDamageEvent) => {
             this.forEachEnabledSystem((system) => system.OnPlayerDamage(event));
         });
-        CSS.OnPlayerKill((event) => {
+        CSS.OnPlayerKill((event: { player: CSPlayerPawn, inflictor?: Entity, attacker?: Entity, weapon?: CSWeaponBase }) => {
             this.forEachEnabledSystem((system) => system.OnPlayerKill(event));
         });
-        CSS.OnPlayerJump((event) => {
+        CSS.OnPlayerJump((event: { player: CSPlayerPawn }) => {
             this.forEachEnabledSystem((system) => system.OnPlayerJump(event));
         });
-        CSS.OnPlayerLand((event) => {
+        CSS.OnPlayerLand((event: { player: CSPlayerPawn }) => {
             this.forEachEnabledSystem((system) => system.OnPlayerLand(event));
         });
-        CSS.OnPlayerChat((event) => {
+        CSS.OnPlayerChat((event: { player?: CSPlayerController, text: string, team: number }) => {
             this.forEachEnabledSystem((system) => system.OnPlayerChat(event));
         });
-        CSS.OnPlayerPing((event) => {
+        CSS.OnPlayerPing((event: { player: CSPlayerController, position: Vector }) => {
             this.forEachEnabledSystem((system) => system.OnPlayerPing(event));
         });
-        CSS.OnGunReload((event) => {
+        CSS.OnGunReload((event: { weapon: CSWeaponBase }) => {
             this.forEachEnabledSystem((system) => system.OnGunReload(event));
         });
-        CSS.OnGunFire((event) => {
+        CSS.OnGunFire((event: { weapon: CSWeaponBase }) => {
             this.forEachEnabledSystem((system) => system.OnGunFire(event));
         });
-        CSS.OnBulletImpact((event) => {
+        CSS.OnBulletImpact((event: { weapon: CSWeaponBase, position: Vector, hitEntity?: Entity }) => {
             this.forEachEnabledSystem((system) => system.OnBulletImpact(event));
         });
-        CSS.OnWeaponDrop((event) => {
+        CSS.OnWeaponDrop((event: { weapon: CSWeaponBase, dropper: CSPlayerPawn }) => {
             this.forEachEnabledSystem((system) => system.OnWeaponDrop(event));
         });
-        CSS.OnWeaponPickup((event) => {
+        CSS.OnWeaponPickup((event: { weapon: CSWeaponBase }) => {
             this.forEachEnabledSystem((system) => system.OnWeaponPickup(event));
         });
-        CSS.OnGrenadeThrow((event) => {
+        CSS.OnGrenadeThrow((event: { weapon: CSWeaponBase, projectile: CSGrenadeProjectileBase }) => {
             this.forEachEnabledSystem((system) => system.OnGrenadeThrow(event));
         });
-        CSS.OnGrenadeBounce((event) => {
+        CSS.OnGrenadeBounce((event: GrenadeBounceEvent) => {
             this.forEachEnabledSystem((system) => system.OnGrenadeBounce(event));
         });
-        CSS.OnKnifeAttack((event) => {
+        CSS.OnKnifeAttack((event: { weapon: CSWeaponBase, attackType: CSWeaponAttackType }) => {
             this.forEachEnabledSystem((system) => system.OnKnifeAttack(event));
         });
-        CSS.OnCustomHudClicked((event) => {
+        CSS.OnCustomHudClicked((event: { player: CSPlayerController, layout: CustomHudLayout, buttonId: string }) => {
             this.forEachEnabledSystem((system) => system.OnCustomHudClicked(event));
         });
 
@@ -268,7 +306,7 @@ export default class Mount {
     /** Enable Registered System with `name`. */
     public static Enable(name: string): boolean {
         if (Mount.HasSystem(name)) {
-            Mount.GetSystem(name).EnableSystem();
+            Mount.GetSystem(name)?.EnableSystem();
             return true;
         }
         return false;
@@ -277,7 +315,7 @@ export default class Mount {
     /** Disable Registered System with `name`. */
     public static Disable(name: string): boolean {
         if (Mount.HasSystem(name)) {
-            Mount.GetSystem(name).DisableSystem();
+            Mount.GetSystem(name)?.DisableSystem();
             return true;
         }
         return false;

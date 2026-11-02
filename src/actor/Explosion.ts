@@ -1,5 +1,5 @@
-import {
-    Instance as CSS,
+import { Instance as CSS } from "cs_script/point_script";
+import type {
     Vector as VectorType,
     CSPlayerPawn,
     Entity,
@@ -8,7 +8,7 @@ import * as Base from "../base";
 import * as Math from "../math";
 import * as Util from "../util";
 
-/** 
+/**
 
     Allows you to perform an 'explosion effect' at the given
     `position`, which damages players and applies a force. The damage can be attributed to a player.
@@ -16,7 +16,7 @@ import * as Util from "../util";
 */
 export default class Explosion extends Base.Actor {
     static Tag: string = "ExplosionTag";
-    private position: Vector3;
+    private position: VectorType;
     //
     private radius: number;
     private force_falloff: number;
@@ -25,7 +25,7 @@ export default class Explosion extends Base.Actor {
     private force: number; // TODO: what is this unit?
     private damage: number;
     private debug: boolean;
-    
+
     constructor({
         position = Math.Vector3.Zero,
         //
@@ -48,7 +48,7 @@ export default class Explosion extends Base.Actor {
         this.damage = damage;
         this.debug = debug;
     }
-    
+
     static GetPlayers(): Array<CSPlayerPawn> {
         return CSS.FindEntitiesByClass("player");
     }
@@ -67,7 +67,7 @@ export default class Explosion extends Base.Actor {
         player_position.z += CHEST_OFFSET // Origin sits at the feet, we bring it up to the chest
         return player_position;
     }
-    
+
     private checkPlayerCollision(player_pawn: CSPlayerPawn): boolean {
         const player_center = this.getPlayerCenter(player_pawn);
         const distance = this.position.distance(player_center);
@@ -105,9 +105,9 @@ export default class Explosion extends Base.Actor {
         }
         const force = this.force * easeFunction(distance);
         const force_direction = player_center.sub(this.position).normalize();
-        
+
         // TODO: come up with a better force and velocity relationship for impulse force.
-        
+
         const player_velocity = Math.Vector3.From(player_pawn.GetAbsVelocity());
         const velocity = player_velocity.add(force_direction.scale(force));
         player_pawn.Teleport({ velocity });
@@ -115,7 +115,7 @@ export default class Explosion extends Base.Actor {
             CSS.Msg(`Force: ${force}`);
         }
     }
-    
+
     public Explode(inflictor: CSPlayerPawn = null): Explosion | void {
         if (this.debug) {
             CSS.DebugSphere({
@@ -133,4 +133,3 @@ export default class Explosion extends Base.Actor {
         return this;
     }
 }
-

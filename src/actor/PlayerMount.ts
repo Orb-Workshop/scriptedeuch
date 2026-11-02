@@ -1,5 +1,5 @@
-import {
-    Instance as CSS,
+import { Instance as CSS } from "cs_script/point_script";
+import type {
     CSPlayerPawn,
     CSDamageFlags,
     Entity,
@@ -20,7 +20,7 @@ export default class PlayerMount extends Base.Actor {
     public mount_offset: SEMath.Vector3;
     public listener = new Event.Listener(PlayerMount.Tag);
     public global_listener = Event.GetGlobalListener();
-    constructor(player_pawn, { mount_entity, mount_offset }) {
+    constructor(player_pawn: CSPlayerPawn, { mount_entity, mount_offset }) {
         super();
         this.player_pawn = player_pawn;
         this.mount_entity = mount_entity;
@@ -40,7 +40,7 @@ export default class PlayerMount extends Base.Actor {
             if (this.player_pawn === player) this.UnMountPlayer();
         });
     }
-    
+
     public static IsMounted(player: CSPlayerPawn): boolean {
         return player?.mounted;
     }
@@ -52,7 +52,7 @@ export default class PlayerMount extends Base.Actor {
             .add(this.mount_offset);
         this.player_pawn.Teleport({ position: mount_position });
     }
-    
+
     private MountPlayer(): void {
         this.UpdatePawnPosition();
         this.player_pawn.SetParent(this.mount_entity);
@@ -62,17 +62,17 @@ export default class PlayerMount extends Base.Actor {
     public UnMountPlayer(): void {
         this.player_pawn.SetParent(null);
         this.player_pawn.mounted = false;
-        this.Remove();        
+        this.Remove();
     }
-    
+
     private HandleJump(): void {
         this.UnMountPlayer();
         let velocity = SEMath.Vector3.From(this.player_pawn.GetAbsVelocity());
         velocity.z += JUMP_VELOCITY;
         this.player_pawn.Teleport({ velocity });
-        
+
     }
-    
+
     override Dispose(): void {
         this.global_listener.Remove();
         this.listener.Remove();
@@ -82,4 +82,3 @@ export default class PlayerMount extends Base.Actor {
         this.UpdatePawnPosition();
     }
 }
-

@@ -1,11 +1,9 @@
 /**
    Entity Adapter for 'info_map_parameters' cs2 entity.
- */
-import {
-    Instance as CSS,
+*/
+import { Instance as CSS } from "cs_script/point_script";
+import type {
     Entity,
-    Vector as VectorType,
-    QAngle as QAngleType,
 } from "cs_script/point_script";
 import { default as EntityHelper, MaybeEntity } from "./EntityHelper";
 import * as Util from "../util";
@@ -28,7 +26,7 @@ export default class InfoMapParameters extends EntityHelper {
 
     public static Find(r: RegExp | string): InfoMapParameters {
         // Overload with each entity helper
-        const e = EntityHelper.FindByClass(CLASSNAME, r, true);
+        const e = EntityHelper.FindByClassStrict(CLASSNAME, r);
         return new InfoMapParameters(e.raw);
     }
 
@@ -38,7 +36,7 @@ export default class InfoMapParameters extends EntityHelper {
     }
 
     // IO Event Inputs
-    
+
     public FireWinCondition(value: WinCondition, opts = {}): void {
         this.FireIO({ input: "FireWinCondition", value, ...opts });
     }

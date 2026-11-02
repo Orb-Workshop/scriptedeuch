@@ -1,23 +1,17 @@
 /**
    Entity Adapter for 'env_particle_glow' cs2 entity.
- */
-import {
-    Instance as CSS,
-    Entity,
-    Vector as VectorType,
-    QAngle as QAngleType,
-} from "cs_script/point_script";
-import { default as EntityHelper, MaybeEntity } from "./EntityHelper";
+*/
+import { Instance as CSS } from "cs_script/point_script";
+import type { Entity } from "cs_script/point_script";
+import { default as EntityHelper } from "./EntityHelper";
 import * as Util from "../util";
 import * as Event from "../event";
-import { RemoveActorOnRoundEnd } from "./util";
 
 export const CLASSNAME = "env_particle_glow";
 
 export default class EnvironmentParticleGlow extends EntityHelper {
     constructor(entity: Entity) {
         super(entity);
-        //RemoveActorOnRoundEnd(this);
     }
 
     public static From(e: Entity): EnvironmentParticleGlow {
@@ -28,7 +22,7 @@ export default class EnvironmentParticleGlow extends EntityHelper {
 
     public static Find(r: RegExp | string): EnvironmentParticleGlow {
         // Overload with each entity helper
-        const e = EntityHelper.FindByClass(CLASSNAME, r, true);
+        const e = EntityHelper.FindByClassStrict(CLASSNAME, r, true);
         return new EnvironmentParticleGlow(e.raw);
     }
 
@@ -38,7 +32,7 @@ export default class EnvironmentParticleGlow extends EntityHelper {
     }
 
     // IO Event Inputs
-    
+
     public setcolortint(opts = {}): void {
         this.FireIO({ input: "setcolortint", ...opts });
     }
@@ -71,6 +65,5 @@ export default class EnvironmentParticleGlow extends EntityHelper {
         const value = [x, y, z].join(" ");
         this.FireIO({ input: "SetControlPoint", value, ...opts });
     }
-    
-}
 
+}

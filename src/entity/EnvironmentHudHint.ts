@@ -1,23 +1,17 @@
 /**
    Entity Adapter for 'env_hudhint' cs2 entity.
  */
-import {
-    Instance as CSS,
-    Entity,
-    Vector as VectorType,
-    QAngle as QAngleType,
-} from "cs_script/point_script";
-import { default as EntityHelper, MaybeEntity } from "./EntityHelper";
+import { Instance as CSS } from "cs_script/point_script";
+import type { Entity } from "cs_script/point_script";
+import { default as EntityHelper } from "./EntityHelper";
 import * as Util from "../util";
 import * as Event from "../event";
-import { RemoveActorOnRoundEnd } from "./util";
 
 export const CLASSNAME = "env_hudhint";
 
 export default class EnvironmentHudHint extends EntityHelper {
     constructor(entity: Entity) {
         super(entity);
-        //RemoveActorOnRoundEnd(this);
     }
 
     public static From(e: Entity): EnvironmentHudHint {
@@ -28,7 +22,7 @@ export default class EnvironmentHudHint extends EntityHelper {
 
     public static Find(r: RegExp | string): EnvironmentHudHint {
         // Overload with each entity helper
-        const e = EntityHelper.FindByClass(CLASSNAME, r, true);
+        const e = EntityHelper.FindByClassStrict(CLASSNAME, r, true);
         return new EnvironmentHudHint(e.raw);
     }
 
@@ -38,7 +32,7 @@ export default class EnvironmentHudHint extends EntityHelper {
     }
 
     // IO Event Inputs
-    
+
     public ShowHudHint(opts = {}): void {
         // TODO: Needs activator, consider erroring out when no activator present?
         this.FireIO({ input: "ShowHudHint", ...opts });

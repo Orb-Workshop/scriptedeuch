@@ -29,7 +29,7 @@ export enum ProjectileState {
        constructor() {
            super();
        }
-   
+
        override OnGunFire(event) {
            const weapon_base = event.weapon;
            const class_name = weapon_base?.GetClassName();
@@ -69,7 +69,7 @@ export default class Projectile extends Actor {
 
     /**
        Create an instance of Projectile based on a firing `weapon_base` entity in-game.
-       
+
        Note:
 
        - This is useful for connecting to `Base.System.OnGunFire({ weapon })`.
@@ -88,7 +88,7 @@ export default class Projectile extends Actor {
         const position = player_eye_position.add(direction.scale(forward_distance));
         // TODO: add offset
         const velocity = direction.scale(speed);
-        
+
         return new Projectile({
             position,
             rotation,
@@ -153,7 +153,7 @@ export default class Projectile extends Actor {
         else
             CSS.EntFireAtTarget({target: this.entity, input: "EnableGravity"});
 
-        // 
+        //
         this.entity.Teleport({velocity: this.initial_velocity});
         this.state = ProjectileState.FIRED;
         return this;
@@ -166,7 +166,7 @@ export default class Projectile extends Actor {
     private getLastPosition(): number {
         return this.last_position;
     }
-    
+
     private updateLastPosition(): void {
         const current_position = this.getCurrentPosition();
         this.last_position = current_position;
@@ -176,7 +176,7 @@ export default class Projectile extends Actor {
     CheckCollision(): void {
         const current_position = this.getCurrentPosition();
         const last_position = this.getLastPosition();
-        
+
         const trace: TraceResult = CSS.TraceSphere({
             start: last_position,
             end: current_position,
@@ -194,9 +194,9 @@ export default class Projectile extends Actor {
     /** Handles the collision itself, where `trace` is the collision. */
     HandleCollision(trace: TraceResult): void {
         const entity_hit = trace.hitEntity;
-        if (!entity_hit?.IsValid()) return;        
+        if (!entity_hit?.IsValid()) return;
         if (entity_hit.GetClassName() !== "player") return;
-        
+
         const player_hit = entity_hit as CSPlayerPawn;
         player_hit.TakeDamage({
             damage: this.damage,
@@ -206,13 +206,13 @@ export default class Projectile extends Actor {
             damageType: this.damage_type, // CRUSH?
         });
     }
-    
+
     override Remove(): void {
         this.state = ProjectileState.DEAD;
         super.Remove();
         if (this.entity?.IsValid()) this.entity.Remove();
     }
-    
+
     override Think(): void {
         if (this.GetLifetime() >= this.fizzle_delay) this.Remove();
         if (this.state !== ProjectileState.FIRED) return;
@@ -224,7 +224,7 @@ export default class Projectile extends Actor {
         this.updateLastPosition();
     }
 
-    override ReceiveMessage(tag, data): void {
+    override ReceiveMessage(tag: string, data: any): void {
         if (tag == "Kill" && data?.name === this.name) this.Remove();
         if (tag == "KillAll") this.Remove();
     }
@@ -233,4 +233,3 @@ export default class Projectile extends Actor {
         if (this.entity?.IsValid()) this.entity.Remove();
     }
 }
-

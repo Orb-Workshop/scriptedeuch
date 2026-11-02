@@ -41,6 +41,12 @@ export default abstract class EntityHelper {
         // Overload with each inherited entity helper by classname
     }
 
+    public static FindByClassStrict(classname: string, r: RegExp | string): EntityHelper {
+	const e = Base.Asset.FindByClass(classname, r);
+	if (!e) throw new Error(`Failed to find '${classname}' with search pattern '${r.toString()}'`);
+	return new EntityHelper(e);
+    }
+
     public static FindByClass(classname: string, r: RegExp | string, error = false): EntityHelper | null {
         const e = Base.Asset.FindByClass(classname, r);
         if (!e && error)

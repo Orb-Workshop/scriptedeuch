@@ -1,16 +1,12 @@
 /**
    Entity Adapter for 'func_tracktrain' cs2 entity.
- */
-import {
-    Instance as CSS,
+*/
+import { Instance as CSS } from "cs_script/point_script";
+import type {
     Entity,
-    Vector as VectorType,
-    QAngle as QAngleType,
 } from "cs_script/point_script";
-import {
-    default as EntityHelper,
-    ConnectOutputCallback,
-} from "./EntityHelper";
+import { default as EntityHelper } from "./EntityHelper";
+import type { ConnectOutputCallback } from "./EntityHelper";
 import * as Base from "../base";
 import * as Util from "../util";
 import { default as BaseModelEntity } from "./BaseModelEntity";
@@ -22,24 +18,24 @@ export default class FuncTrackTrain extends BaseModelEntity {
         super(entity);
     }
 
-    public static From(e: Entity): FuncTrackTrain {
+    public static override From(e: Entity): FuncTrackTrain {
         if (!Util.CheckClass(e, CLASSNAME))
             throw new Error(`FuncTrackTrain - Classname Error: ${e?.GetClassName()}`);
         return new FuncTrackTrain(e);
     }
-   
-    public static Find(r: RegExp | string): FuncTrackTrain {
-        const e = EntityHelper.FindByClass(CLASSNAME, r, true);
+
+    public static override Find(r: RegExp | string): FuncTrackTrain {
+        const e = EntityHelper.FindByClassStrict(CLASSNAME, r);
         return new FuncTrackTrain(e.raw);
     }
 
-    public static FindAll(r: RegExp | string): Array<FuncTrackTrain> {
+    public static override FindAll(r: RegExp | string): Array<FuncTrackTrain> {
         const es = EntityHelper.FindAllByClass(CLASSNAME, r);
         return es.map(e => new FuncTrackTrain(e.raw));
     }
 
     // IO Event Inputs
-    
+
     public DisableShadows(opts = {}): void {
         this.FireIO({ input: "DisableShadows", ...opts });
     }
@@ -59,7 +55,7 @@ export default class FuncTrackTrain extends BaseModelEntity {
     public SetMoveDistanceFromEnd(value: number, opts = {}): void {
         this.FireIO({ input: "SetMoveDistanceFromEnd", value, ...opts });
     }
-    
+
     public SetSpeedDir(value: number, opts = {}): void {
         this.FireIO({ input: "SetSpeedDir", value, ...opts });
     }
@@ -103,9 +99,9 @@ export default class FuncTrackTrain extends BaseModelEntity {
     public UnlockOrientation(opts = {}): void {
         this.FireIO({ input: "UnlockOrientation", ...opts });
     }
-    
+
     // IO Event Outputs
-    
+
     public OnStart(callback: ConnectOutputCallback): FuncTrackTrain {
         return this.On("OnStart", callback) as FuncTrackTrain;
     }
@@ -121,6 +117,5 @@ export default class FuncTrackTrain extends BaseModelEntity {
     public OnKilled(callback: ConnectOutputCallback): FuncTrackTrain {
         return this.On("OnKilled", callback) as FuncTrackTrain;
     }
-    
-}
 
+}

@@ -1,7 +1,7 @@
 /**
    Interface used by Grid3D and SubGrid.
 */
-export interface GridType<T> {
+export default interface GridType<T> {
     width: number;
     height: number;
     depth: number;
@@ -10,6 +10,6 @@ export interface GridType<T> {
     forEachIndex(f: (i: number, j: number, k: number) => void): void;
     getAt(i: number, j: number, k: number): T;
     setAt(i: number, j: number, k: number, v: T): void;
-    hasAt(i: number, j: number, k: number): bool;
+    hasAt(i: number, j: number, k: number): boolean;
     locateElement(x: number, y: number, z: number): T;
 }

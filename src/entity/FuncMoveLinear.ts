@@ -1,17 +1,13 @@
 /**
    Entity Adapter for 'func_movelinear' cs2 entity.
- */
+*/
+import { Instance as CSS } from "cs_script/point_script";
 import {
-    Instance as CSS,
     Entity,
     Vector as VectorType,
-    QAngle as QAngleType,
 } from "cs_script/point_script";
-import {
-    default as EntityHelper,
-    ConnectOutputCallback,
-} from "./EntityHelper";
-import * as Base from "../base";
+import { default as EntityHelper } from "./EntityHelper";
+import type { ConnectOutputCallback } from "./EntityHelper";
 import * as Util from "../util";
 import { default as BaseModelEntity } from "./BaseModelEntity";
 
@@ -22,24 +18,24 @@ export default class FuncMoveLinear extends BaseModelEntity {
         super(entity);
     }
 
-    public static From(e: Entity): FuncMoveLinear {
+    public static override From(e: Entity): FuncMoveLinear {
         if (!Util.CheckClass(e, CLASSNAME))
             throw new Error(`FuncMoveLinear - Classname Error: ${e?.GetClassName()}`);
         return new FuncMoveLinear(e);
     }
-   
-    public static Find(r: RegExp | string): FuncMoveLinear {
-        const e = EntityHelper.FindByClass(CLASSNAME, r, true);
+
+    public static override Find(r: RegExp | string): FuncMoveLinear {
+        const e = EntityHelper.FindByClassStrict(CLASSNAME, r);
         return new FuncMoveLinear(e.raw);
     }
 
-    public static FindAll(r: RegExp | string): Array<FuncMoveLinear> {
+    public static override FindAll(r: RegExp | string): Array<FuncMoveLinear> {
         const es = EntityHelper.FindAllByClass(CLASSNAME, r);
         return es.map(e => new FuncMoveLinear(e.raw));
     }
 
     // IO Event Inputs
-    
+
     public Open(opts = {}): void {
         this.FireIO({ input: "Open", ...opts });
     }
@@ -71,16 +67,15 @@ export default class FuncMoveLinear extends BaseModelEntity {
     public SetMoveDistanceFromEnd(opts = {}): void {
         this.FireIO({ input: "SetMoveDistanceFromEnd", ...opts });
     }
-    
+
     // IO Event Outputs
-    
+
     public OnFullyOpened(callback: ConnectOutputCallback): FuncMoveLinear {
         return this.On("OnFullyOpened", callback) as FuncMoveLinear;
     }
-    
+
     public OnFullyClosed(callback: ConnectOutputCallback): FuncMoveLinear {
         return this.On("OnFullyClosed", callback) as FuncMoveLinear;
     }
-    
-}
 
+}

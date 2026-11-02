@@ -34,20 +34,20 @@ type TextFieldOptions = {template?: PointTemplate}
 class Dialog {
     public fields: Array<DialogField> = [];
     public cleanup: boolean = false;
-    
+
     constructor({
         position = Vector.Zero,
         rotation = QAngle.Zero,
     } = {}) {
-        
+
     }
 
     public AddTextField(msg: string, opts: TextFieldOptions = {}) {
         opts.template = opts.template ?? Default.DialogTemplate();
         this.fields.push(new Text(msg, opts))
     }
-        
-    public AddClickableTextField(msg, callback, opts: TextFieldOptions = {}) {
+
+    public AddClickableTextField(msg: string, callback, opts: TextFieldOptions = {}) {
         opts.template = opts.template ?? Default.DialogTemplate();
     }
 
@@ -57,7 +57,7 @@ class Dialog {
 
     // Show the dialog.
     public Show() {
-        
+
     }
 
     // Cleanup the dialog.
@@ -74,7 +74,7 @@ class DialogField {
 
 class Text extends DialogField {
     private template: PointTemplate;
-    
+
     constructor(msg, {
         template = Default.DialogTemplate(),
     } = {}) {
@@ -85,7 +85,7 @@ class Text extends DialogField {
 
 class ClickableText extends DialogField {
     private template: PointTemplate;
-    
+
     constructor(msg, {
         template = Default.DialogTemplate(),
     } = {}) {

@@ -1,14 +1,13 @@
-import {
-    Instance as CSS,
+import { Instance as CSS } from "cs_script/point_script";
+import type {
     CSPlayerPawn,
-    CSDamageFlags,
 } from "cs_script/point_script";
 import * as Base from "../base";
 
 const DefaultSystemName = "DefaultPlayerInvincibility";
 
 /** The `player_pawn` receives `duration` seconds of invincibility
-    
+
     @example
     ```typescript
     new PlayerInvincibility(player_pawn, {duration: 5.0}); // 5 Seconds
@@ -18,7 +17,7 @@ export default class PlayerInvincibility extends Base.Actor {
     static Tag: string = "PlayerInvincibilityTag";
     private player_pawn: CSPlayerPawn;
     private duration: number;
-    constructor(player_pawn, {duration = 1.0}) {
+    constructor(player_pawn: CSPlayerPawn, { duration = 1.0 }) {
         super();
         this.player_pawn = player_pawn;
         this.duration = duration;
@@ -31,7 +30,7 @@ export default class PlayerInvincibility extends Base.Actor {
     SendMessage(event_name: string, event_data): void {
         Base.Actor.SendMessage(PlayerInvincibility.Tag, { event_name, event_data });
     }
-    
+
     private _register(): void {
         const playerInvincibilitySystem = Base.Mount.GetSystem(DefaultSystemName);
         playerInvincibilitySystem.Register(this.player_pawn);
@@ -56,7 +55,7 @@ export default class PlayerInvincibility extends Base.Actor {
     }
 }
 
-/** 
+/**
     Manages the `System.OnBeforePlayerDamage`
     events. PlayerInvisibility Actors will automatically register on
     construction and unregister on disposal.
@@ -74,7 +73,7 @@ class PlayerInvincibilitySystem extends Base.System {
     public Unregister(player_pawn: CSPlayerPawn) {
         this.invincible_players.delete(player_pawn);
     }
-    
+
     override OnBeforePlayerDamage(event) {
         const player_pawn = event.player;
         if (!this.invincible_players.has(player_pawn)) return;

@@ -1,4 +1,3 @@
-import { Instance as CSS } from "cs_script/point_script";
 import * as Base from "../base";
 import EntityHelper from "./EntityHelper";
 import PointSoundEvent from "./PointSoundEvent";
@@ -14,14 +13,14 @@ export default class MoveableSoundEvent extends EntityHelper {
 
     public static Spawn(soundevent_name, position = Math.Vector3.Zero): MoveableSoundEvent {
         const soundevent = new MoveableSoundEventSpawner().Spawn(position);
-        soundevent.SetSoundEventName(soundevent_name);
+        soundevent.SetSoundEventName(soundevent_name, {});
         return soundevent;
     }
-    
+
     SetSoundEventName(soundevent_name: string, opts): void {
         this.soundevent.SetSoundEventName(soundevent_name, opts);
     }
-    
+
     StartSound(opts): void {
         this.soundevent.StartSound(opts);
     }

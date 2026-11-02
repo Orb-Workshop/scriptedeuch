@@ -63,7 +63,7 @@ export default class DiffusionLimitedAggregation<T = number> {
 	}
     }
 
-    private iterateCycle(): bool {
+    private iterateCycle(): boolean {
 	if (this.particle === null)
 	    this.particle = this.generateParticle();
 

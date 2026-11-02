@@ -2,18 +2,16 @@ import {
     Instance as CSS,
     Entity,
 } from "cs_script/point_script";
-import {
-    default as EntityHelper,
-    ConnectOutputCallback,
-} from "./EntityHelper";
+import { default as EntityHelper } from "./EntityHelper";
+import type { ConnectOutputCallback } from "./EntityHelper";
 import * as Util from "../util";
 
 export const CLASSNAME = "trigger_teleport";
 
-/* 
+/*
    An adapter class for 'trigger_teleport' entities
  */
-export default class TriggerTeleport extends EntityHelper {    
+export default class TriggerTeleport extends EntityHelper {
     constructor(entity: Entity) {
         super(entity);
     }
@@ -25,7 +23,7 @@ export default class TriggerTeleport extends EntityHelper {
     }
 
     public static Find(r: RegExp | string): TriggerTeleport {
-        const e = EntityHelper.FindByClass(CLASSNAME, r, true);
+        const e = EntityHelper.FindByClassStrict(CLASSNAME, r);
         return new TriggerTeleport(e.raw);
     }
 
@@ -35,7 +33,7 @@ export default class TriggerTeleport extends EntityHelper {
     }
 
     // Input IO
-    
+
     Enable(opts = {}): void {
         this.FireIO({ input: "Enable", ...opts });
     }
@@ -47,13 +45,13 @@ export default class TriggerTeleport extends EntityHelper {
     Toggle(opts = {}): void {
         this.FireIO({ input: "Toggle", ...opts });
     }
-    
+
     // Output IO
 
     OnKilled(callback: ConnectOutputCallback): TriggerTeleport {
         return this.On("OnKilled", callback) as TriggerTeleport;
     }
-    
+
     OnStartTouch(callback: ConnectOutputCallback): TriggerTeleport {
         return this.On("OnStartTouch", callback) as TriggerTeleport;
     }
@@ -65,7 +63,7 @@ export default class TriggerTeleport extends EntityHelper {
     OnEndTouch(callback: ConnectOutputCallback): TriggerTeleport {
         return this.On("OnEndTouch", callback) as TriggerTeleport;
     }
-    
+
     OnEndTouchAll(callback: ConnectOutputCallback): TriggerTeleport {
         return this.On("OnEndTouchAll", callback) as TriggerTeleport;
     }

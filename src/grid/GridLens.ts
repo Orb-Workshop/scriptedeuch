@@ -5,7 +5,7 @@ import type GridType from "./GridType";
 import GridError from "./GridError";
 
 export default class GridLens<T> {
-    parent: GridType;
+    parent: GridType<T>;
 
     x: number;
     y: number;
@@ -31,7 +31,7 @@ export default class GridLens<T> {
 	this.parent.setAt(this.x, this.y, this.z, v);
     }
 
-    isEqual(o: GridLens<T>): bool {
+    isEqual(o: GridLens<T>): boolean {
 	return (
 	    this.parent === o?.parent &&
 		this.x === o?.x &&
@@ -39,32 +39,32 @@ export default class GridLens<T> {
 		this.z === o?.z);
     }
 
-    top(): T|null {
+    top(): GridLens<T>|null {
 	if (this.z >= this.parent.depth-1) return null;
 	return new GridLens<T>(this.parent, this.x, this.y, this.z+1);
     }
 
-    bottom(): T|null {
+    bottom(): GridLens<T>|null {
 	if (this.z <= 0) return null;
 	return new GridLens<T>(this.parent, this.x, this.y. this.z-1);
     }
 
-    up(): T|null {
+    up(): GridLens<T>|null {
         if (this.y >= this.parent.height-1) return null;
         return new GridLens<T>(this.parent, this.x, this.y+1, this.z);
     }
 
-    right(): T|null {
+    right(): GridLens<T>|null {
         if (this.x >= this.parent.width-1) return null;
         return new GridLens<T>(this.parent, this.x+1, this.y, this.z);
     }
 
-    down(): T|null {
+    down(): GridLens<T>|null {
         if (this.y <= 0) return null;
         return new GridLens<T>(this.parent, this.x, this.y-1, this.z);
     }
 
-    left(): T|null {
+    left(): GridLens<T>|null {
         if (this.x <= 0) return null;
         return new GridLens<T>(this.parent, this.x-1, this.y, this.z);
     }

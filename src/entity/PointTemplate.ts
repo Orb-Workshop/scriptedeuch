@@ -1,8 +1,8 @@
 /**
    Entity Adapter for 'point_template'
- */
-import {
-    Instance as CSS,
+*/
+import { Instance as CSS } from "cs_script/point_script";
+import type {
     Entity,
     Vector as VectorType,
     QAngle as QAngleType,
@@ -24,7 +24,7 @@ export default class PointTemplate extends EntityHelper {
     }
 
     public static Find(r: RegExp | string): PointTemplate {
-        const e = EntityHelper.FindByClass(CLASSNAME, r, true);
+        const e = EntityHelper.FindByClassStrict(CLASSNAME, r);
         return new PointTemplate(e.raw);
     }
 
@@ -32,14 +32,14 @@ export default class PointTemplate extends EntityHelper {
         const es = EntityHelper.FindAllByClass(CLASSNAME, r);
         return es.map(e => new PointTemplate(e.raw));
     }
-    
+
     //
     // Adapters for PointTemplate
     // @see: https://www.source2.wiki/Scripting/Counter-Strike%202/cs_script/functionList?game=any#pointtemplate
 
     public ForceSpawn(origin?: VectorType, rotation?: QAngleType): EntityHelper[] {
         const es = this.entity.ForceSpawn(origin, rotation) ?? [];
-        return es.map(e => new EntityHelper(e));
+        return es.map((e: Entity) => new EntityHelper(e));
     }
-    
+
 }

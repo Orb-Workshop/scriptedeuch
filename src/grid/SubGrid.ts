@@ -40,20 +40,20 @@ export default class SubGrid<T = number> implements GridType {
         return this.parent.getAtIndex(idx);
     }
 
-    setAt(i, j, k, value): void {
+    setAt(i: number, j: number, k: number, value: T): void {
         this.parent.setAt(i + this.x,
                           j + this.y,
                           k + this.z,
 			  value);
     }
 
-    hasAt(i, j, k): bool {
+    hasAt(i: number, j: number, k: number): boolean {
 	return this.parent.hasAt(i + this.x,
 				 j + this.y,
 				 k + this.z);
     }
 
-    locateElement(i, j, k): T {
+    locateElement(i: number, j: number, k: number): T {
 	return this.parent.locateElement(i + this.x,
 					 j + this.y,
 					 k + this.z);
@@ -63,7 +63,7 @@ export default class SubGrid<T = number> implements GridType {
        Returns true if a SubGrid with the given attributes will fit
        within the current SubGrid
      */
-    fitsSubGrid(opts): bool {
+    fitsSubGrid(opts): boolean {
         const {
             x = 0,
             y = 0,
@@ -98,7 +98,7 @@ export default class SubGrid<T = number> implements GridType {
 
       - Index is based on the parent Grid3D.
      */
-    index(i, j, k): number {
+    index(i: number, j: number, k: number): number {
         return this.parent.index(
             i + this.x,
             j + this.y,
@@ -107,7 +107,7 @@ export default class SubGrid<T = number> implements GridType {
     }
 
     // Represents the SubGrid Local Index.
-    forEachIndex(f): void {
+    forEachIndex(f: (i: number, j: number, k: number) => void): void {
         for (let k = 0; k < this.depth; k++) {
             for (let j = 0; j < this.height; j++) {
                 for (let i = 0; i < this.width; i++) {
@@ -118,8 +118,8 @@ export default class SubGrid<T = number> implements GridType {
     }
 
     // Represents the Grid3D Global Index
-    forEachGlobalIndex(f): void {
-        this.forEachIndex((i, j, k) => {
+    forEachGlobalIndex(f: (i: number, j: number, k: number) => void): void {
+        this.forEachIndex((i: number, j: number, k: number) => {
             f(i+this.x, j+this.y, k+this.z);
         });
     }

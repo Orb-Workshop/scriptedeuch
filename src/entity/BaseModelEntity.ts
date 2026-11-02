@@ -24,7 +24,7 @@ export default class BaseModelEntity extends EntityHelper {
     }
 
     public static Find(r: RegExp | string): BaseModelEntity {
-        const e = EntityHelper.FindByClass(CLASSNAME, r, true);
+        const e = EntityHelper.FindByClassStrict(CLASSNAME, r);
         return new BaseModelEntity(e.raw);
     }
 

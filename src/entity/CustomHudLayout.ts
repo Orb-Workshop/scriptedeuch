@@ -4,10 +4,8 @@
 import { Instance as CSS } from "cs_script/point_script";
 import type {
     Entity,
-    Vector as VectorType,
-    QAngle as QAngleType,
 } from "cs_script/point_script";
-import { default as EntityHelper, MaybeEntity } from "./EntityHelper";
+import { default as EntityHelper } from "./EntityHelper";
 import * as Util from "../util";
 import * as Event from "../event";
 
@@ -26,7 +24,7 @@ export default class CustomHudLayout extends EntityHelper {
 
     public static Find(r: RegExp | string): CustomHudLayout {
         // Overload with each entity helper
-        const e = EntityHelper.FindByClass(CLASSNAME, r, true);
+        const e = EntityHelper.FindByClassStrict(CLASSNAME, r);
         return new CustomHudLayout(e.raw);
     }
 
@@ -35,11 +33,11 @@ export default class CustomHudLayout extends EntityHelper {
         return es.map(e => new CustomHudLayout(e.raw));
     }
 
-    SetHasClass(panelId: string, className: string, hasClass?: bool): void {
+    SetHasClass(panelId: string, className: string, hasClass?: boolean): void {
 	this.raw.SetHasClass(panelId, className, hasClass);
     }
 
-    SetHasClassForPlayer(playerSlot: number, panelId: string, className: string, hasClass?: bool): void {
+    SetHasClassForPlayer(playerSlot: number, panelId: string, className: string, hasClass?: boolean): void {
 	this.raw.SetHasClassForPlayer(playerSlot, panelId, className, hasClass);
     }
 
@@ -51,11 +49,11 @@ export default class CustomHudLayout extends EntityHelper {
 	this.raw.SetDialogVariableStringForPlayer(playerSlot, panelId, variableName, value);
     }
 
-    SetInputCaptureEnabled(playerSlot: number, enabled: bool): void {
+    SetInputCaptureEnabled(playerSlot: number, enabled: boolean): void {
 	this.raw.SetInputCaptureEnabled(playerSlot, enabled);
     }
 
-    IsInputCaptureEnabled(playerSlot: number): bool {
+    IsInputCaptureEnabled(playerSlot: number): boolean {
 	return this.raw.IsInputCaptureEnabled(playerSlot);
     }
 }

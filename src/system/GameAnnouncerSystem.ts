@@ -1,6 +1,5 @@
-import {
-    Instance as CSS,
-    CSPlayerPawn,
+import { Instance as CSS, CSPlayerPawn } from "cs_script/point_script";
+import type {
     CSPlayerController,
     PointTemplate,
     BaseModelEntity,
@@ -19,7 +18,7 @@ export default class GameAnnouncerSystem extends System {
     private player_listing: Dict = {};
     private callback: Function;
     private kill_award_interval: number;
-    
+
     constructor({
         callback,
         kill_award_interval = 5.0, // Seconds,
@@ -27,15 +26,15 @@ export default class GameAnnouncerSystem extends System {
         super();
         this.callback = callback;
         this.kill_award_interval = kill_award_interval;
-        
+
         if (this.callback === undefined) throw new Error("No callback provided");
     }
-    
+
     override OnActivate() {
         CSS.Msg("Game Announcer System Activated!");
     }
-    
-    _resetPlayer(player_pawn) {
+
+    _resetPlayer(player_pawn: CSPlayerPawn) {
         const player_name = GetPlayerName(player_pawn);
         this.player_listing[player_name] = {
             kills_since_death: 0,        // Killing Sprees
@@ -49,7 +48,7 @@ export default class GameAnnouncerSystem extends System {
         };
     }
 
-    _checkPlayer(player_pawn) {
+    _checkPlayer(player_pawn: CSPlayerPawn) {
         const player_name = GetPlayerName(player_pawn);
         if (player_name === null) return null;
 
@@ -59,24 +58,24 @@ export default class GameAnnouncerSystem extends System {
         return player_name;
     }
 
-    _getPlayer(player_pawn) {
+    _getPlayer(player_pawn: CSPlayerPawn) {
         const player_name = this._checkPlayer(player_pawn);
         if (!player_name) return null;
         return this.player_listing[player_name];
     }
 
-    _hasKillingSpree(player_pawn) {
+    _hasKillingSpree(player_pawn: CSPlayerPawn) {
         let { kills_since_death } = this._getPlayer(player_pawn);
         return kills_since_death >= 5;
     }
 
-    _areTeammates(player_pawn_a, player_pawn_b) {
+    _areTeammates(player_pawn_a: CSPlayerPawn, player_pawn_b: CSPlayerPawn) {
         const team_number_a = player_pawn_a.GetTeamNumber();
         const team_number_b = player_pawn_b.GetTeamNumber();
         return (!IsFreeForAll() && team_number_a == team_number_b);
     }
 
-    _recordKill(player_pawn_attacker, player_pawn_death, weapon_name) {
+    _recordKill(player_pawn_attacker: CSPlayerPawn, player_pawn_death: CSPlayerPawn, weapon_name: string) {
         let player_stats = this._getPlayer(player_pawn_attacker);
         if (!player_stats) return;
         const current_game_time = CSS.GetGameTime();
@@ -124,7 +123,7 @@ export default class GameAnnouncerSystem extends System {
         });
     }
 
-    _recordDeath(player_pawn) {
+    _recordDeath(player_pawn: CSPlayerPawn) {
         this._resetPlayer(player_pawn);
     }
 

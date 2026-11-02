@@ -90,7 +90,7 @@ class PathElement {
     // path
     parent?: PathElement = null; // Path Lowest Cost Parent
     sentinel?: number = null;
-    visited: bool = false;
+    visited: boolean = false;
     // grid location of path element (x, y, z)
     path_grid: Grid3D<PathElement>; // Parent Grid
     x: number;

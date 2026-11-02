@@ -7,10 +7,8 @@ import {
     Color as ColorType,
 } from "cs_script/point_script";
 import * as Util from "../util";
-import {
-    default as EntityHelper,
-    ConnectOutputCallback,
-} from "./EntityHelper";
+import { default as EntityHelper } from "./EntityHelper";
+import type { ConnectOutputCallback } from "./EntityHelper";
 import BaseModelEntity from "./BaseModelEntity";
 import FuncBreakable from "./FuncBreakable";
 
@@ -27,7 +25,7 @@ export default class PropPhysicsMultiplayer extends FuncBreakable {
     }
 
     public static Find(r: RegExp | string): PropPhysicsMultiplayer {
-        const e = EntityHelper.FindByClass(CLASSNAME, r, true);
+        const e = EntityHelper.FindByClassStrict(CLASSNAME, r);
         return new PropPhysicsMultiplayer(e.raw);
     }
 
@@ -42,11 +40,11 @@ export default class PropPhysicsMultiplayer extends FuncBreakable {
     public FollowEntity(opts = {}): void {
         this.FireIO({ input: "FollowEntity", ...opts });
     }
-    
+
     public Skin(value: number, opts = {}): void {
         this.FireIO({ input: "Skin", value, ...opts });
     }
-    
+
     public Sleep(opts = {}): void {
         this.FireIO({ input: "Sleep", ...opts });
     }
@@ -58,7 +56,7 @@ export default class PropPhysicsMultiplayer extends FuncBreakable {
     public EnableMotion(opts = {}): void {
         this.FireIO({ input: "EnableMotion", ...opts });
     }
-    
+
     public DisableMotion(opts = {}): void {
         this.FireIO({ input: "DisableMotion", ...opts });
     }
@@ -66,7 +64,7 @@ export default class PropPhysicsMultiplayer extends FuncBreakable {
     public EnableGravity(opts = {}): void {
         this.FireIO({ input: "EnableGravity", ...opts });
     }
-    
+
     public DisableGravity(opts = {}): void {
         this.FireIO({ input: "DisableGravity", ...opts });
     }
@@ -74,7 +72,7 @@ export default class PropPhysicsMultiplayer extends FuncBreakable {
     public EnableDamageForces(opts = {}): void {
         this.FireIO({ input: "EnableDamageForces", ...opts });
     }
-    
+
     public DisableDamageForces(opts = {}): void {
         this.FireIO({ input: "DisableDamageForces", ...opts });
     }
@@ -82,7 +80,7 @@ export default class PropPhysicsMultiplayer extends FuncBreakable {
     public EnableShadow(opts = {}): void {
         this.FireIO({ input: "EnableShadow", ...opts });
     }
-    
+
     public DisableShadow(opts = {}): void {
         this.FireIO({ input: "DisableShadow", ...opts });
     }
@@ -102,9 +100,9 @@ export default class PropPhysicsMultiplayer extends FuncBreakable {
     public ClearRenderAttribute(opts = {}): void {
         this.FireIO({ input: "ClearRenderAttribute", ...opts });
     }
-    
+
     // IO Event Outputs
-    
+
     public OnMotionEnabled(callback: ConnectOutputCallback): PropPhysicsMultiplayer {
         return this.On("OnMotionEnabled", callback) as PropPhysicsMultiplayer;
     }
@@ -124,5 +122,5 @@ export default class PropPhysicsMultiplayer extends FuncBreakable {
     public OnOutOfWorld(callback: ConnectOutputCallback): PropPhysicsMultiplayer {
         return this.On("OnOutOfWorld", callback) as PropPhysicsMultiplayer;
     }
-    
+
 }

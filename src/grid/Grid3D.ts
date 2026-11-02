@@ -34,7 +34,7 @@ import GridLens from "./GridLens";
 import GridError from "./GridError";
 import type GridType from "./GridType";
 
-export default class Grid3D<T = number> implements GridType {
+export default class Grid3D<T = number> implements GridType<T> {
     private data: Array<T> = [];
 
     width: number;
@@ -78,7 +78,7 @@ export default class Grid3D<T = number> implements GridType {
         return array_index;
     }
 
-    forEachIndex(f: (i, j, k) => void): void {
+    forEachIndex(f: (i: number, j: number, k: number) => void): void {
         for (let k = 0; k < this.depth; k++) {
             for (let j = 0; j < this.height; j++) {
                 for (let i = 0; i < this.width; i++) {
@@ -88,7 +88,7 @@ export default class Grid3D<T = number> implements GridType {
         }
     }
 
-    forEachGlobalIndex(f: (i, j, k) => void): void {
+    forEachGlobalIndex(f: (i: number, j: number, k: number) => void): void {
 	return this.forEachIndex(f);
     }
 
@@ -110,7 +110,7 @@ export default class Grid3D<T = number> implements GridType {
         this.data[this.index(i, j, k)] = value;
     }
 
-    hasAt(i: number, j: number, k: number): bool {
+    hasAt(i: number, j: number, k: number): boolean {
 	if (i < 0) return false;
         if (i >= this.width) return false;
         if (j < 0) return false;
@@ -157,7 +157,7 @@ export default class Grid3D<T = number> implements GridType {
        Returns true if a SubGrid with the given attributes will fit
        within the current Grid3D
      */
-    fitsSubGrid(opts): bool {
+    fitsSubGrid(opts): boolean {
         const {
             x = 0,
             y = 0,

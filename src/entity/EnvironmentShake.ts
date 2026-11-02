@@ -1,23 +1,19 @@
 /**
    Entity Adapter for 'env_shake' cs2 entity.
- */
-import {
-    Instance as CSS,
+*/
+import { Instance as CSS } from "cs_script/point_script";
+import type {
     Entity,
-    Vector as VectorType,
-    QAngle as QAngleType,
 } from "cs_script/point_script";
 import { default as EntityHelper, MaybeEntity } from "./EntityHelper";
 import * as Util from "../util";
 import * as Event from "../event";
-import { RemoveActorOnRoundEnd } from "./util";
 
 export const CLASSNAME = "env_shake";
 
 export default class EnvironmentShake extends EntityHelper {
     constructor(entity: Entity) {
         super(entity);
-        //RemoveActorOnRoundEnd(this);
     }
 
     public static From(e: Entity): EnvironmentShake {
@@ -28,7 +24,7 @@ export default class EnvironmentShake extends EntityHelper {
 
     public static Find(r: RegExp | string): EnvironmentShake {
         // Overload with each entity helper
-        const e = EntityHelper.FindByClass(CLASSNAME, r, true);
+        const e = EntityHelper.FindByClassStrict(CLASSNAME, r);
         return new EnvironmentShake(e.raw);
     }
 
@@ -38,7 +34,7 @@ export default class EnvironmentShake extends EntityHelper {
     }
 
     // IO Event Inputs
-    
+
     public StartShake(opts = {}): void {
         this.FireIO({ input: "StartShake", ...opts });
     }
@@ -54,6 +50,5 @@ export default class EnvironmentShake extends EntityHelper {
     public Frequency(opts = {}): void {
         this.FireIO({ input: "Frequency", ...opts });
     }
-    
-}
 
+}

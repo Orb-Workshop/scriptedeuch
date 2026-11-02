@@ -1,14 +1,11 @@
 /**
    Asset discovery, particularly point_template entities.
 */
-import {
-    Instance as CSS,
-    PointTemplate,
-    Entity,
-} from "cs_script/point_script";
+import { Instance as CSS } from "cs_script/point_script";
+import type { PointTemplate, Entity } from "cs_script/point_script";
 import { Memoize } from "../util";
 
-/** 
+/**
     Search for a class type partially matching a given entity
     name. This can be expressed as a Regular Expression.
 
@@ -21,14 +18,14 @@ import { Memoize } from "../util";
 export function FindByClass(classname: string, r: RegExp | string): Entity | null {
     const entities = CSS.FindEntitiesByClass(classname);
     if (typeof r == "string")
-        return entities.find(entity => entity.GetEntityName().includes(r)) ?? null;
+        return entities.find((entity: Entity) => entity.GetEntityName().includes(r)) ?? null;
     else if (r.constructor.name === "RegExp")
-        return entities.find(entity => r.test(entity.GetEntityName())) ?? null;
+        return entities.find((entity: Entity) => r.test(entity.GetEntityName())) ?? null;
     else
         throw new Error("Unknown pattern type: " + typeof r);
 }
 
-/** 
+/**
     Search through cs2 entities of type `classname` partially matching multiple entity
     names. This can be expressed as a Regular Expression.
 
@@ -55,5 +52,3 @@ export function FindTemplate(r: RegExp | string): PointTemplate | null {
     return FindByClass("point_template", r)
 }
 //export const FindTemplate = Memoize(_FindTemplate);
-
-

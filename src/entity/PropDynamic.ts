@@ -7,10 +7,8 @@ import {
     Color as ColorType,
 } from "cs_script/point_script";
 import * as Util from "../util";
-import {
-    default as EntityHelper,
-    ConnectOutputCallback,
-} from "./EntityHelper";
+import { default as EntityHelper } from "./EntityHelper";
+import type { ConnectOutputCallback } from "./EntityHelper";
 import BaseModelEntity from "./BaseModelEntity";
 import FuncBreakable from "./FuncBreakable";
 
@@ -20,18 +18,18 @@ export default class PropDynamic extends FuncBreakable {
         super(entity);
     }
 
-    public static From(e: Entity): PropDynamic {
+    public static override From(e: Entity): PropDynamic {
         if (!Util.CheckClass(e, CLASSNAME))
             throw new Error(`PropDynamic - Classname Error: ${e?.GetClassName()}`);
         return new PropDynamic(e);
     }
 
-    public static Find(r: RegExp | string): PropDynamic {
-        const e = EntityHelper.FindByClass(CLASSNAME, r, true);
+    public static override Find(r: RegExp | string): PropDynamic {
+        const e = EntityHelper.FindByClassStrict(CLASSNAME, r);
         return new PropDynamic(e.raw);
     }
 
-    public static FindAll(r: RegExp | string): Array<PropDynamic> {
+    public static override FindAll(r: RegExp | string): Array<PropDynamic> {
         // Overload with each entity helper
         const es = EntityHelper.FindAllByClass(CLASSNAME, r);
         return es.map(e => new PropDynamic(e.raw));
@@ -42,7 +40,7 @@ export default class PropDynamic extends FuncBreakable {
     public FollowEntity(opts = {}): void {
         this.FireIO({ input: "FollowEntity", ...opts });
     }
-    
+
     public Skin(value: number, opts = {}): void {
         this.FireIO({ input: "Skin", value, ...opts });
     }
@@ -58,7 +56,7 @@ export default class PropDynamic extends FuncBreakable {
     public EnableShadow(opts = {}): void {
         this.FireIO({ input: "EnableShadow", ...opts });
     }
-    
+
     public DisableShadow(opts = {}): void {
         this.FireIO({ input: "DisableShadow", ...opts });
     }
@@ -66,7 +64,7 @@ export default class PropDynamic extends FuncBreakable {
     public EnableCollision(opts = {}): void {
         this.FireIO({ input: "EnableCollision", ...opts });
     }
-    
+
     public DisableCollision(opts = {}): void {
         this.FireIO({ input: "DisableCollision", ...opts });
     }
@@ -74,7 +72,7 @@ export default class PropDynamic extends FuncBreakable {
     public SetNavIgnore(opts = {}): void {
         this.FireIO({ input: "SetNavIgnore", ...opts });
     }
-    
+
     public SetAnimGraphParameter(name: string, value: any, opts = {}): void {
         value = `${name}=${value}`;
         this.FireIO({ input: "SetAnimGraphParameter", value, ...opts });
@@ -95,7 +93,7 @@ export default class PropDynamic extends FuncBreakable {
     public Enable(opts = {}): void {
         this.FireIO({ input: "Enable", ...opts });
     }
-    
+
     public Disable(opts = {}): void {
         this.FireIO({ input: "Disable", ...opts });
     }
@@ -138,7 +136,7 @@ export default class PropDynamic extends FuncBreakable {
         return this.On("OnTakeDamage", callback) as PropDynamic;
     }
 
-    public OnHealthChanged(callback: ConnectOutputCallback): PropDynamic {
+    public override OnHealthChanged(callback: ConnectOutputCallback): PropDynamic {
         return this.On("OnHealthChanged", callback) as PropDynamic;
     }
 
@@ -161,12 +159,12 @@ export default class PropDynamic extends FuncBreakable {
     public OnAnimationLoopCycleDone(callback: ConnectOutputCallback): PropDynamic {
         return this.On("OnAnimationLoopCycleDone", callback) as PropDynamic;
     }
-    
+
     public OnDestructibleHitGroupDamageLevelChanged(
         callback: ConnectOutputCallback): PropDynamic {
         return this.On("OnDestructibleHitGroupDamageLevelChanged", callback) as PropDynamic;
     }
-    
 
-    
+
+
 }

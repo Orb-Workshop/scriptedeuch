@@ -1,17 +1,11 @@
 /**
    Entity Adapter for 'LogicCase'
  */
-import {
-    Instance as CSS,
-    Entity,
-    Color as ColorType,
-} from "cs_script/point_script";
+import { Instance as CSS } from "cs_script/point_script";
+import type { Entity } from "cs_script/point_script";
 import * as Util from "../util";
-import {
-    default as EntityHelper,
-    ConnectOutputCallback,
-} from "./EntityHelper";
-
+import { default as EntityHelper } from "./EntityHelper";
+import type { ConnectOutputCallback } from "./EntityHelper";
 
 export const CLASSNAME = "logic_case";
 export default class LogicCase extends EntityHelper {
@@ -26,7 +20,7 @@ export default class LogicCase extends EntityHelper {
     }
 
     public static Find(r: RegExp | string): LogicCase {
-        const e = EntityHelper.FindByClass(CLASSNAME, r, true);
+        const e = EntityHelper.FindByClassStrict(CLASSNAME, r);
         return new LogicCase(e.raw);
     }
 
@@ -52,7 +46,7 @@ export default class LogicCase extends EntityHelper {
     public ResetShuffle(opts = {}): void {
         this.FireIO({ input: "ResetShuffle", ...opts });
     }
-    
+
     // IO Event Outputs
     public OnKilled(callback: ConnectOutputCallback): LogicCase {
         return this.On("OnKilled", callback) as LogicCase;

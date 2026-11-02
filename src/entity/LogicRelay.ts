@@ -1,16 +1,12 @@
 /**
    Entity Adapter for 'LogicRelay'
- */
-import {
-    Instance as CSS,
-    Entity,
-    Color as ColorType,
-} from "cs_script/point_script";
+*/
+
+import { Instance as CSS } from "cs_script/point_script";
+import type { Entity } from "cs_script/point_script";
 import * as Util from "../util";
-import {
-    default as EntityHelper,
-    ConnectOutputCallback,
-} from "./EntityHelper";
+import { default as EntityHelper } from "./EntityHelper";
+import type { ConnectOutputCallback } from "./EntityHelper";
 
 
 export const CLASSNAME = "logic_relay";
@@ -26,7 +22,7 @@ export default class LogicRelay extends EntityHelper {
     }
 
     public static Find(r: RegExp | string): LogicRelay {
-        const e = EntityHelper.FindByClass(CLASSNAME, r, true);
+        const e = EntityHelper.FindByClassStrict(CLASSNAME, r);
         return new LogicRelay(e.raw);
     }
 
@@ -56,7 +52,7 @@ export default class LogicRelay extends EntityHelper {
     public CancelPending(opts = {}): void {
         this.FireIO({ input: "CancelPending", ...opts });
     }
-    
+
     // IO Event Outputs
     public OnTrigger(callback: ConnectOutputCallback): LogicRelay {
         return this.On("OnTrigger", callback) as LogicRelay;
@@ -69,5 +65,5 @@ export default class LogicRelay extends EntityHelper {
     public OnSpawn(callback: ConnectOutputCallback): LogicRelay {
         return this.On("OnSpawn", callback) as LogicRelay;
     }
-    
+
 }

@@ -7,10 +7,8 @@ import {
     Color as ColorType,
 } from "cs_script/point_script";
 import * as Util from "../util";
-import {
-    default as EntityHelper,
-    ConnectOutputCallback,
-} from "./EntityHelper";
+import { default as EntityHelper } from "./EntityHelper";
+import type { ConnectOutputCallback } from "./EntityHelper";
 import PropDynamic from "./PropDynamic";
 
 export const CLASSNAME = "prop_dynamic_ornament";
@@ -26,7 +24,7 @@ export default class PropDynamicOrnament extends PropDynamic {
     }
 
     public static Find(r: RegExp | string): PropDynamicOrnament {
-        const e = EntityHelper.FindByClass(CLASSNAME, r, true);
+        const e = EntityHelper.FindByClassStrict(CLASSNAME, r);
         return new PropDynamicOrnament(e.raw);
     }
 

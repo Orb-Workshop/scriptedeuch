@@ -1,11 +1,9 @@
 /**
    Entity Adapter for 'info_target'
- */
-import {
-    Instance as CSS,
+*/
+import { Instance as CSS } from "cs_script/point_script";
+import type {
     Entity,
-    Vector as VectorType,
-    QAngle as QAngleType,
 } from "cs_script/point_script";
 import EntityHelper from "./EntityHelper";
 import * as Util from "../util";
@@ -24,7 +22,7 @@ export default class InfoTarget extends EntityHelper {
     }
 
     public static Find(r: RegExp | string): InfoTarget {
-        const e = EntityHelper.FindByClass(CLASSNAME, r, true);
+        const e = EntityHelper.FindByClassStrict(CLASSNAME, r);
         return new InfoTarget(e.raw);
     }
 
@@ -32,5 +30,5 @@ export default class InfoTarget extends EntityHelper {
         const es = EntityHelper.FindAllByClass(CLASSNAME, r);
         return es.map(e => new InfoTarget(e.raw));
     }
-    
+
 }

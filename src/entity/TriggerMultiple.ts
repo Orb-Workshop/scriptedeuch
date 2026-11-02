@@ -2,18 +2,16 @@ import {
     Instance as CSS,
     Entity,
 } from "cs_script/point_script";
-import {
-    default as EntityHelper,
-    ConnectOutputCallback,
-} from "./EntityHelper";
+import { default as EntityHelper } from "./EntityHelper";
+import type { ConnectOutputCallback } from "./EntityHelper";
 import * as Util from "../util";
 
 export const CLASSNAME = "trigger_multiple";
 
-/* 
+/*
    An adapter class for 'trigger_multiple' entities
  */
-export default class TriggerMultiple extends EntityHelper {    
+export default class TriggerMultiple extends EntityHelper {
     constructor(entity: Entity) {
         super(entity);
     }
@@ -25,7 +23,7 @@ export default class TriggerMultiple extends EntityHelper {
     }
 
     public static Find(r: RegExp | string): TriggerMultiple {
-        const e = EntityHelper.FindByClass(CLASSNAME, r, true);
+        const e = EntityHelper.FindByClassStrict(CLASSNAME, r);
         return new TriggerMultiple(e.raw);
     }
 
@@ -35,7 +33,7 @@ export default class TriggerMultiple extends EntityHelper {
     }
 
     // Input IO
-    
+
     Enable(opts = {}): void {
         this.FireIO({ input: "Enable", ...opts });
     }
@@ -51,9 +49,9 @@ export default class TriggerMultiple extends EntityHelper {
     TouchTest(opts = {}): void {
         this.FireIO({ input: "TouchTest", ...opts });
     }
-    
+
     // Output IO
-    
+
     OnStartTouch(callback: ConnectOutputCallback): TriggerMultiple {
         return this.On("OnStartTouch", callback) as TriggerMultiple;
     }
@@ -65,7 +63,7 @@ export default class TriggerMultiple extends EntityHelper {
     OnEndTouch(callback: ConnectOutputCallback): TriggerMultiple {
         return this.On("OnEndTouch", callback) as TriggerMultiple;
     }
-    
+
     OnEndTouchAll(callback: ConnectOutputCallback): TriggerMultiple {
         return this.On("OnEndTouchAll", callback) as TriggerMultiple;
     }
@@ -77,7 +75,7 @@ export default class TriggerMultiple extends EntityHelper {
     OnTouching(callback: ConnectOutputCallback): TriggerMultiple {
         return this.On("OnTouching", callback) as TriggerMultiple;
     }
-    
+
     OnTouchingEachEntity(callback: ConnectOutputCallback): TriggerMultiple {
         return this.On("OnTouchingEachEntity", callback) as TriggerMultiple;
     }

@@ -19,13 +19,13 @@ import {
     // Math data types that extend the cs2 Vector and QAngle data interface.
     Math,
 
-    // Grid
+    // Grid Data Structure with data manipulation tools (SubGrid, GridLens, SubView)
     Grid,
 
     // Randomness, seeded and unseeded.
     Random,
 
-    // Noise library
+    // Noise library, Simplex Noise
     Noise,
 
     // Procedural Generation

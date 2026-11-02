@@ -1,6 +1,5 @@
-import {
-    Instance as CSS,
-    CSPlayerPawn,
+import { Instance as CSS, CSPlayerPawn } from "cs_script/point_script";
+import type {
     CSPlayerController,
 } from "cs_script/point_script";
 import { GetPlayerName } from "../util";
@@ -12,7 +11,7 @@ export default class PlayerHealthRegenerationSystem extends System {
     private regeneration_delay: number;
     private max_health_recovery: number;
     private player_listing: {[key:string]:any};
-    
+
     constructor({
         regeneration_rate = 10.0,    // Health Per Second
         regeneration_delay = 5.0,    // Seconds
@@ -27,7 +26,7 @@ export default class PlayerHealthRegenerationSystem extends System {
         this.SetTick(tick_rate);
     }
 
-   
+
     override Think() {
         Object.keys(this.player_listing).forEach((player_name) => {
             const current_game_time = CSS.GetGameTime();
@@ -56,8 +55,8 @@ export default class PlayerHealthRegenerationSystem extends System {
         });
         this.cleanup();
     }
-    
-    _resetPlayer(player_pawn, afflicted_damage = 0) {
+
+    _resetPlayer(player_pawn: CSPlayerPawn, afflicted_damage: number = 0) {
         const player_name = GetPlayerName(player_pawn);
         if (player_name === null) return;
         let total_health = player_pawn.GetHealth() - afflicted_damage;
@@ -72,7 +71,7 @@ export default class PlayerHealthRegenerationSystem extends System {
         };
     }
 
-    _checkPlayer(player_pawn) {
+    _checkPlayer(player_pawn: CSPlayerPawn) {
         return (player_pawn instanceof CSPlayerPawn &&
             player_pawn.IsValid() &&
             player_pawn.IsAlive() &&
@@ -80,7 +79,7 @@ export default class PlayerHealthRegenerationSystem extends System {
             player_pawn.GetHealth() < this.max_health_recovery);
     }
 
-    _getPlayer(player_pawn) {
+    _getPlayer(player_pawn: CSPlayerPawn) {
         const player_name = GetPlayerName(player_pawn);
         if (player_name === null) return null;
         return this.player_listing[player_name];
@@ -96,7 +95,7 @@ export default class PlayerHealthRegenerationSystem extends System {
     override OnActivate() {
         CSS.Msg("Player Health Regeneration Activated!");
     }
-    
+
     cleanup() {
         Object.keys(this.player_listing).forEach((player_name) => {
             let { player_pawn } = this.player_listing[player_name];
