@@ -111,7 +111,7 @@ class GlockShot extends Base.System {
         if (class_name !== "weapon_glock") return;
         let projectile = Actor.Projectile.FromWeapon(weapon_base, {
             damage: 150,
-            speed: 10_000,
+            speed: 2_000,
             disable_gravity: true,
             collision_radius: 10.0,
             remove_on_collision: true,
@@ -228,9 +228,6 @@ class Hud extends Base.System {
 	Util.AllPlayers().forEach(p => hud_layout.SetHasClassForPlayer(p.GetPlayerSlot(), "dialog", "Dismissed", false))
     }
 }
-
-
-
 
 Base.Mount.Register("KnifeDash", new System.KnifeDashSystem());
 Base.Mount.Register("DoubleJump", new System.DoubleJumpSystem());
