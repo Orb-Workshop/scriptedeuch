@@ -38,6 +38,56 @@ Defined in: [src/math/BBox2.ts:10](https://github.com/Orb-Workshop/scriptedeuch/
 | <a id="x"></a> `x` | `number` | [src/math/BBox2.ts:5](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/math/BBox2.ts#L5) |
 | <a id="y"></a> `y` | `number` | [src/math/BBox2.ts:6](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/math/BBox2.ts#L6) |
 
+#### Accessors
+
+##### x\_max
+
+###### Get Signature
+
+> **get** **x\_max**(): `number`
+
+Defined in: [src/math/BBox2.ts:119](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/math/BBox2.ts#L119)
+
+###### Returns
+
+`number`
+
+##### x\_min
+
+###### Get Signature
+
+> **get** **x\_min**(): `number`
+
+Defined in: [src/math/BBox2.ts:115](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/math/BBox2.ts#L115)
+
+###### Returns
+
+`number`
+
+##### y\_max
+
+###### Get Signature
+
+> **get** **y\_max**(): `number`
+
+Defined in: [src/math/BBox2.ts:127](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/math/BBox2.ts#L127)
+
+###### Returns
+
+`number`
+
+##### y\_min
+
+###### Get Signature
+
+> **get** **y\_min**(): `number`
+
+Defined in: [src/math/BBox2.ts:123](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/math/BBox2.ts#L123)
+
+###### Returns
+
+`number`
+
 #### Methods
 
 ##### center()
@@ -236,6 +286,80 @@ Defined in: [src/math/BBox3.ts:13](https://github.com/Orb-Workshop/scriptedeuch/
 | <a id="x-1"></a> `x` | `number` | [src/math/BBox3.ts:5](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/math/BBox3.ts#L5) |
 | <a id="y-1"></a> `y` | `number` | [src/math/BBox3.ts:6](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/math/BBox3.ts#L6) |
 | <a id="z"></a> `z` | `number` | [src/math/BBox3.ts:7](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/math/BBox3.ts#L7) |
+
+#### Accessors
+
+##### x\_max
+
+###### Get Signature
+
+> **get** **x\_max**(): `number`
+
+Defined in: [src/math/BBox3.ts:194](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/math/BBox3.ts#L194)
+
+###### Returns
+
+`number`
+
+##### x\_min
+
+###### Get Signature
+
+> **get** **x\_min**(): `number`
+
+Defined in: [src/math/BBox3.ts:190](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/math/BBox3.ts#L190)
+
+###### Returns
+
+`number`
+
+##### y\_max
+
+###### Get Signature
+
+> **get** **y\_max**(): `number`
+
+Defined in: [src/math/BBox3.ts:202](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/math/BBox3.ts#L202)
+
+###### Returns
+
+`number`
+
+##### y\_min
+
+###### Get Signature
+
+> **get** **y\_min**(): `number`
+
+Defined in: [src/math/BBox3.ts:198](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/math/BBox3.ts#L198)
+
+###### Returns
+
+`number`
+
+##### z\_max
+
+###### Get Signature
+
+> **get** **z\_max**(): `number`
+
+Defined in: [src/math/BBox3.ts:210](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/math/BBox3.ts#L210)
+
+###### Returns
+
+`number`
+
+##### z\_min
+
+###### Get Signature
+
+> **get** **z\_min**(): `number`
+
+Defined in: [src/math/BBox3.ts:206](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/math/BBox3.ts#L206)
+
+###### Returns
+
+`number`
 
 #### Methods
 
@@ -489,8 +613,8 @@ Defined in: [src/math/EasingFunctions.ts:22](https://github.com/Orb-Workshop/scr
 
 | Parameter | Type |
 | ------ | ------ |
-| `start` | `any` |
-| `end` | `any` |
+| `start` | `number` |
+| `end` | `number` |
 
 ###### Returns
 
@@ -574,8 +698,8 @@ Defined in: [src/math/EasingFunctions.ts:8](https://github.com/Orb-Workshop/scri
 
 | Parameter | Type |
 | ------ | ------ |
-| `start` | `any` |
-| `end` | `any` |
+| `start` | `number` |
+| `end` | `number` |
 
 ###### Returns
 
@@ -918,8 +1042,8 @@ Defined in: [src/math/EasingFunctions.ts:15](https://github.com/Orb-Workshop/scr
 
 | Parameter | Type |
 | ------ | ------ |
-| `start` | `any` |
-| `end` | `any` |
+| `start` | `number` |
+| `end` | `number` |
 
 ###### Returns
 

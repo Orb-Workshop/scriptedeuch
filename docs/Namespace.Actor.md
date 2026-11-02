@@ -316,7 +316,7 @@ Send messages to other actors in the actor pool.
 
 ### PlayerInvincibility
 
-Defined in: [src/actor/PlayerInvincibility.ts:17](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/actor/PlayerInvincibility.ts#L17)
+Defined in: [src/actor/PlayerInvincibility.ts:16](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/actor/PlayerInvincibility.ts#L16)
 
 The `player_pawn` receives `duration` seconds of invincibility
 
@@ -336,13 +336,13 @@ new PlayerInvincibility(player_pawn, {duration: 5.0}); // 5 Seconds
 
 > **new PlayerInvincibility**(`player_pawn`, `__namedParameters`): [`PlayerInvincibility`](#playerinvincibility)
 
-Defined in: [src/actor/PlayerInvincibility.ts:21](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/actor/PlayerInvincibility.ts#L21)
+Defined in: [src/actor/PlayerInvincibility.ts:20](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/actor/PlayerInvincibility.ts#L20)
 
 ###### Parameters
 
 | Parameter | Type |
 | ------ | ------ |
-| `player_pawn` | `any` |
+| `player_pawn` | `CSPlayerPawn` |
 | `__namedParameters` | \{ `duration?`: `number`; \} |
 | `__namedParameters.duration?` | `number` |
 
@@ -358,7 +358,7 @@ Defined in: [src/actor/PlayerInvincibility.ts:21](https://github.com/Orb-Worksho
 
 | Property | Modifier | Type | Default value | Defined in |
 | ------ | ------ | ------ | ------ | ------ |
-| <a id="tag-1"></a> `Tag` | `static` | `string` | `"PlayerInvincibilityTag"` | [src/actor/PlayerInvincibility.ts:18](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/actor/PlayerInvincibility.ts#L18) |
+| <a id="tag-1"></a> `Tag` | `static` | `string` | `"PlayerInvincibilityTag"` | [src/actor/PlayerInvincibility.ts:17](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/actor/PlayerInvincibility.ts#L17) |
 
 #### Methods
 
@@ -366,7 +366,7 @@ Defined in: [src/actor/PlayerInvincibility.ts:21](https://github.com/Orb-Worksho
 
 > **Dispose**(): `void`
 
-Defined in: [src/actor/PlayerInvincibility.ts:54](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/actor/PlayerInvincibility.ts#L54)
+Defined in: [src/actor/PlayerInvincibility.ts:53](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/actor/PlayerInvincibility.ts#L53)
 
 Override Interface Method. Called after an actor has been made dirty,
 and has been removed from the actor pool
@@ -506,7 +506,7 @@ Same as `this.MakeDirty()`.
 
 > **SendMessage**(`event_name`, `event_data`): `void`
 
-Defined in: [src/actor/PlayerInvincibility.ts:31](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/actor/PlayerInvincibility.ts#L31)
+Defined in: [src/actor/PlayerInvincibility.ts:30](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/actor/PlayerInvincibility.ts#L30)
 
 ###### Parameters
 
@@ -567,7 +567,7 @@ Set the Tick Interval of the system. Expressed in Seconds.
 
 > **Think**(): `void`
 
-Defined in: [src/actor/PlayerInvincibility.ts:47](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/actor/PlayerInvincibility.ts#L47)
+Defined in: [src/actor/PlayerInvincibility.ts:46](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/actor/PlayerInvincibility.ts#L46)
 
 Override Method. Is called at the `think_interval`.
 
@@ -627,7 +627,7 @@ Defined in: [src/actor/PlayerMount.ts:23](https://github.com/Orb-Workshop/script
 
 | Parameter | Type |
 | ------ | ------ |
-| `player_pawn` | `any` |
+| `player_pawn` | `CSPlayerPawn` |
 | `__namedParameters` | \{ `mount_entity`: `any`; `mount_offset`: `any`; \} |
 | `__namedParameters.mount_entity` | `any` |
 | `__namedParameters.mount_offset` | `any` |
@@ -1167,7 +1167,7 @@ preferred over this method.
 
 | Parameter | Type |
 | ------ | ------ |
-| `tag` | `any` |
+| `tag` | `string` |
 | `data` | `any` |
 
 ###### Returns

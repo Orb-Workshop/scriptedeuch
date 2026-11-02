@@ -4,9 +4,9 @@ Mountable Systems that extend `Base.System`
 
 ## Classes
 
-### DeathmatchSpawnerSystem
+### DeathmatchSpawner
 
-Defined in: [src/system/DeathmatchSpawnerSystem.ts:10](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/system/DeathmatchSpawnerSystem.ts#L10)
+Defined in: [src/system/DeathmatchSpawner.ts:10](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/system/DeathmatchSpawner.ts#L10)
 
 Implementations which extend the abstract `Base.System` class.
 
@@ -18,13 +18,13 @@ Implementations which extend the abstract `Base.System` class.
 
 ##### Constructor
 
-> **new DeathmatchSpawnerSystem**(): [`DeathmatchSpawnerSystem`](#deathmatchspawnersystem)
+> **new DeathmatchSpawner**(): [`DeathmatchSpawner`](#deathmatchspawner)
 
-Defined in: [src/system/DeathmatchSpawnerSystem.ts:13](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/system/DeathmatchSpawnerSystem.ts#L13)
+Defined in: [src/system/DeathmatchSpawner.ts:13](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/system/DeathmatchSpawner.ts#L13)
 
 ###### Returns
 
-[`DeathmatchSpawnerSystem`](#deathmatchspawnersystem)
+[`DeathmatchSpawner`](#deathmatchspawner)
 
 ###### Overrides
 
@@ -36,7 +36,7 @@ Defined in: [src/system/DeathmatchSpawnerSystem.ts:13](https://github.com/Orb-Wo
 
 > **\_disableAllSpawners**(): `void`
 
-Defined in: [src/system/DeathmatchSpawnerSystem.ts:64](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/system/DeathmatchSpawnerSystem.ts#L64)
+Defined in: [src/system/DeathmatchSpawner.ts:64](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/system/DeathmatchSpawner.ts#L64)
 
 ###### Returns
 
@@ -46,7 +46,7 @@ Defined in: [src/system/DeathmatchSpawnerSystem.ts:64](https://github.com/Orb-Wo
 
 > **\_enableSpawner**(`spawner`): `void`
 
-Defined in: [src/system/DeathmatchSpawnerSystem.ts:71](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/system/DeathmatchSpawnerSystem.ts#L71)
+Defined in: [src/system/DeathmatchSpawner.ts:71](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/system/DeathmatchSpawner.ts#L71)
 
 ###### Parameters
 
@@ -62,7 +62,7 @@ Defined in: [src/system/DeathmatchSpawnerSystem.ts:71](https://github.com/Orb-Wo
 
 > **\_getDisabledSpawners**(): `any`
 
-Defined in: [src/system/DeathmatchSpawnerSystem.ts:76](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/system/DeathmatchSpawnerSystem.ts#L76)
+Defined in: [src/system/DeathmatchSpawner.ts:76](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/system/DeathmatchSpawner.ts#L76)
 
 ###### Returns
 
@@ -72,7 +72,7 @@ Defined in: [src/system/DeathmatchSpawnerSystem.ts:76](https://github.com/Orb-Wo
 
 > **\_scoreSpawner**(`spawner`): `any`[]
 
-Defined in: [src/system/DeathmatchSpawnerSystem.ts:82](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/system/DeathmatchSpawnerSystem.ts#L82)
+Defined in: [src/system/DeathmatchSpawner.ts:82](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/system/DeathmatchSpawner.ts#L82)
 
 ###### Parameters
 
@@ -88,7 +88,7 @@ Defined in: [src/system/DeathmatchSpawnerSystem.ts:82](https://github.com/Orb-Wo
 
 > **DisableSystem**(): `void`
 
-Defined in: [src/base/System.ts:29](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L29)
+Defined in: [src/base/System.ts:34](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L34)
 
 ###### Returns
 
@@ -102,7 +102,7 @@ Defined in: [src/base/System.ts:29](https://github.com/Orb-Workshop/scriptedeuch
 
 > **EnableSystem**(): `void`
 
-Defined in: [src/base/System.ts:28](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L28)
+Defined in: [src/base/System.ts:33](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L33)
 
 ###### Returns
 
@@ -116,7 +116,7 @@ Defined in: [src/base/System.ts:28](https://github.com/Orb-Workshop/scriptedeuch
 
 > **GetDelta**(): `number`
 
-Defined in: [src/base/System.ts:33](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L33)
+Defined in: [src/base/System.ts:38](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L38)
 
 ###### Returns
 
@@ -130,7 +130,7 @@ Defined in: [src/base/System.ts:33](https://github.com/Orb-Workshop/scriptedeuch
 
 > **IsSystemEnabled**(): `boolean`
 
-Defined in: [src/base/System.ts:30](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L30)
+Defined in: [src/base/System.ts:35](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L35)
 
 ###### Returns
 
@@ -144,7 +144,7 @@ Defined in: [src/base/System.ts:30](https://github.com/Orb-Workshop/scriptedeuch
 
 > **MaybeThink**(): `void`
 
-Defined in: [src/base/System.ts:35](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L35)
+Defined in: [src/base/System.ts:40](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L40)
 
 ###### Returns
 
@@ -158,7 +158,7 @@ Defined in: [src/base/System.ts:35](https://github.com/Orb-Workshop/scriptedeuch
 
 > **OnActivate**(): `void`
 
-Defined in: [src/base/System.ts:60](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L60)
+Defined in: [src/base/System.ts:65](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L65)
 
 Instance.OnActivate()
 
@@ -174,7 +174,7 @@ Instance.OnActivate()
 
 > **OnBeforePlayerDamage**(`event`): `any`
 
-Defined in: [src/base/System.ts:67](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L67)
+Defined in: [src/base/System.ts:198](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L198)
 
 Instance.OnBeforePlayerDamage()
 
@@ -194,13 +194,13 @@ Instance.OnBeforePlayerDamage()
 
 [`System`](Namespace.Base.md#abstract-system).[`OnBeforePlayerDamage`](Namespace.Base.md#onbeforeplayerdamage)
 
-##### OnBeginRoundStart()
+##### OnBeginRoundRestart()
 
-> **OnBeginRoundStart**(): `void`
+> **OnBeginRoundRestart**(): `void`
 
-Defined in: [src/base/System.ts:217](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L217)
+Defined in: [src/base/System.ts:113](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L113)
 
-Instance.OnBeginRoundStart
+Instance.OnBeginRoundRestart
 
 ###### Returns
 
@@ -208,13 +208,13 @@ Instance.OnBeginRoundStart
 
 ###### Inherited from
 
-[`System`](Namespace.Base.md#abstract-system).[`OnBeginRoundStart`](Namespace.Base.md#onbeginroundstart)
+[`System`](Namespace.Base.md#abstract-system).[`OnBeginRoundRestart`](Namespace.Base.md#onbeginroundrestart)
 
 ##### OnBombDefuse()
 
 > **OnBombDefuse**(`event`): `void`
 
-Defined in: [src/base/System.ts:79](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L79)
+Defined in: [src/base/System.ts:149](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L149)
 
 Instance.OnBombDefuse()
 
@@ -222,9 +222,7 @@ Instance.OnBombDefuse()
 
 | Parameter | Type |
 | ------ | ------ |
-| `event` | \{ `plantedC4`: `Entity`; `planter`: `CSPlayerPawn`; \} |
-| `event.plantedC4` | `Entity` |
-| `event.planter` | `CSPlayerPawn` |
+| `event` | `BombDefuseEvent` |
 
 ###### Returns
 
@@ -234,13 +232,59 @@ Instance.OnBombDefuse()
 
 [`System`](Namespace.Base.md#abstract-system).[`OnBombDefuse`](Namespace.Base.md#onbombdefuse)
 
+##### OnBombDefuseAbort()
+
+> **OnBombDefuseAbort**(`event`): `void`
+
+Defined in: [src/base/System.ts:143](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L143)
+
+Instance.OnBombDefuseAbort()
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `event` | \{ `plantedC4`: `Entity`; \} |
+| `event.plantedC4` | `Entity` |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`System`](Namespace.Base.md#abstract-system).[`OnBombDefuseAbort`](Namespace.Base.md#onbombdefuseabort)
+
+##### OnBombDefuseStart()
+
+> **OnBombDefuseStart**(`event`): `void`
+
+Defined in: [src/base/System.ts:137](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L137)
+
+Instance.OnBombDefuseStart()
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `event` | \{ `plantedC4`: `Entity`; \} |
+| `event.plantedC4` | `Entity` |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`System`](Namespace.Base.md#abstract-system).[`OnBombDefuseStart`](Namespace.Base.md#onbombdefusestart)
+
 ##### OnBombExplode()
 
 > **OnBombExplode**(`event`): `void`
 
-Defined in: [src/base/System.ts:91](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L91)
+Defined in: [src/base/System.ts:155](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L155)
 
-Instance.OnBombPlant()
+Instance.OnBombExplode()
 
 ###### Parameters
 
@@ -261,7 +305,7 @@ Instance.OnBombPlant()
 
 > **OnBombPlant**(`event`): `void`
 
-Defined in: [src/base/System.ts:85](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L85)
+Defined in: [src/base/System.ts:131](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L131)
 
 Instance.OnBombPlant()
 
@@ -281,11 +325,57 @@ Instance.OnBombPlant()
 
 [`System`](Namespace.Base.md#abstract-system).[`OnBombPlant`](Namespace.Base.md#onbombplant)
 
+##### OnBombPlantAbort()
+
+> **OnBombPlantAbort**(`event`): `void`
+
+Defined in: [src/base/System.ts:125](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L125)
+
+Instance.OnBombPlantAbort()
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `event` | \{ `planter`: `CSPlayerPawn`; \} |
+| `event.planter` | `CSPlayerPawn` |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`System`](Namespace.Base.md#abstract-system).[`OnBombPlantAbort`](Namespace.Base.md#onbombplantabort)
+
+##### OnBombPlantStart()
+
+> **OnBombPlantStart**(`event`): `void`
+
+Defined in: [src/base/System.ts:119](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L119)
+
+Instance.OnBombPlantStart()
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `event` | \{ `planter`: `CSPlayerPawn`; \} |
+| `event.planter` | `CSPlayerPawn` |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`System`](Namespace.Base.md#abstract-system).[`OnBombPlantStart`](Namespace.Base.md#onbombplantstart)
+
 ##### OnBulletImpact()
 
 > **OnBulletImpact**(`event`): `void`
 
-Defined in: [src/base/System.ts:97](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L97)
+Defined in: [src/base/System.ts:258](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L258)
 
 Instance.OnBulletImpact()
 
@@ -305,11 +395,36 @@ Instance.OnBulletImpact()
 
 [`System`](Namespace.Base.md#abstract-system).[`OnBulletImpact`](Namespace.Base.md#onbulletimpact)
 
+##### OnCustomHudClicked()
+
+> **OnCustomHudClicked**(`event`): `void`
+
+Defined in: [src/base/System.ts:294](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L294)
+
+Instance.OnCustomHudClicked()
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `event` | \{ `buttonId`: `string`; `layout`: `CustomHudLayout`; `player`: `CSPlayerController`; \} |
+| `event.buttonId` | `string` |
+| `event.layout` | `CustomHudLayout` |
+| `event.player` | `CSPlayerController` |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`System`](Namespace.Base.md#abstract-system).[`OnCustomHudClicked`](Namespace.Base.md#oncustomhudclicked)
+
 ##### OnGrenadeBounce()
 
 > **OnGrenadeBounce**(`event`): `void`
 
-Defined in: [src/base/System.ts:103](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L103)
+Defined in: [src/base/System.ts:282](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L282)
 
 Instance.OnGrenadeBounce()
 
@@ -333,7 +448,7 @@ Instance.OnGrenadeBounce()
 
 > **OnGrenadeThrow**(`event`): `void`
 
-Defined in: [src/base/System.ts:109](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L109)
+Defined in: [src/base/System.ts:276](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L276)
 
 Instance.OnGrenadeThrow()
 
@@ -357,7 +472,7 @@ Instance.OnGrenadeThrow()
 
 > **OnGunFire**(`event`): `void`
 
-Defined in: [src/base/System.ts:115](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L115)
+Defined in: [src/base/System.ts:252](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L252)
 
 Instance.OnGunFire()
 
@@ -380,7 +495,7 @@ Instance.OnGunFire()
 
 > **OnGunReload**(`event`): `void`
 
-Defined in: [src/base/System.ts:121](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L121)
+Defined in: [src/base/System.ts:246](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L246)
 
 Instance.OnGunReload
 
@@ -399,11 +514,152 @@ Instance.OnGunReload
 
 [`System`](Namespace.Base.md#abstract-system).[`OnGunReload`](Namespace.Base.md#ongunreload)
 
+##### OnHostageDrop()
+
+> **OnHostageDrop**(`event`): `void`
+
+Defined in: [src/base/System.ts:179](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L179)
+
+Instance.OnHostageDrop
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `event` | \{ `dropper`: `CSPlayerPawn`; `hostage`: `CSHostage`; \} |
+| `event.dropper` | `CSPlayerPawn` |
+| `event.hostage` | `CSHostage` |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`System`](Namespace.Base.md#abstract-system).[`OnHostageDrop`](Namespace.Base.md#onhostagedrop)
+
+##### OnHostageKill()
+
+> **OnHostageKill**(`event`): `void`
+
+Defined in: [src/base/System.ts:191](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L191)
+
+Instance.OnHostageKill
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `event` | \{ `attacker?`: `any`; `hostage`: `CSHostage`; \} |
+| `event.attacker?` | `any` |
+| `event.hostage` | `CSHostage` |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`System`](Namespace.Base.md#abstract-system).[`OnHostageKill`](Namespace.Base.md#onhostagekill)
+
+##### OnHostagePickUp()
+
+> **OnHostagePickUp**(`event`): `void`
+
+Defined in: [src/base/System.ts:173](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L173)
+
+Instance.OnHostagePickUp
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `event` | \{ `hostage`: `CSHostage`; \} |
+| `event.hostage` | `CSHostage` |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`System`](Namespace.Base.md#abstract-system).[`OnHostagePickUp`](Namespace.Base.md#onhostagepickup)
+
+##### OnHostagePickUpAbort()
+
+> **OnHostagePickUpAbort**(`event`): `void`
+
+Defined in: [src/base/System.ts:167](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L167)
+
+Instance.OnHostagePickUpAbort
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `event` | \{ `hostage`: `CSHostage`; `player`: `CSPlayerPawn`; \} |
+| `event.hostage` | `CSHostage` |
+| `event.player` | `CSPlayerPawn` |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`System`](Namespace.Base.md#abstract-system).[`OnHostagePickUpAbort`](Namespace.Base.md#onhostagepickupabort)
+
+##### OnHostagePickUpStart()
+
+> **OnHostagePickUpStart**(`event`): `void`
+
+Defined in: [src/base/System.ts:161](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L161)
+
+Instance.OnHostagePickUpStart
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `event` | \{ `hostage`: `CSHostage`; \} |
+| `event.hostage` | `CSHostage` |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`System`](Namespace.Base.md#abstract-system).[`OnHostagePickUpStart`](Namespace.Base.md#onhostagepickupstart)
+
+##### OnHostageRescue()
+
+> **OnHostageRescue**(`event`): `void`
+
+Defined in: [src/base/System.ts:185](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L185)
+
+Instance.OnHostageRescue
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `event` | \{ `hostage`: `CSHostage`; \} |
+| `event.hostage` | `CSHostage` |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`System`](Namespace.Base.md#abstract-system).[`OnHostageRescue`](Namespace.Base.md#onhostagerescue)
+
 ##### OnKnifeAttack()
 
 > **OnKnifeAttack**(`event`): `void`
 
-Defined in: [src/base/System.ts:139](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L139)
+Defined in: [src/base/System.ts:288](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L288)
 
 Instance.OnKnifeAttack
 
@@ -427,7 +683,7 @@ Instance.OnKnifeAttack
 
 > **OnModifyPlayerDamage**(`event`): `any`
 
-Defined in: [src/base/System.ts:73](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L73)
+Defined in: [src/base/System.ts:204](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L204)
 
 Instance.OnModifyPlayerDamage()
 
@@ -449,7 +705,7 @@ Instance.OnModifyPlayerDamage()
 
 > **OnPlayerActivate**(): `void`
 
-Defined in: [src/system/DeathmatchSpawnerSystem.ts:131](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/system/DeathmatchSpawnerSystem.ts#L131)
+Defined in: [src/system/DeathmatchSpawner.ts:131](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/system/DeathmatchSpawner.ts#L131)
 
 Instance.OnPlayerActivate
 
@@ -465,7 +721,7 @@ Instance.OnPlayerActivate
 
 > **OnPlayerChat**(`event`): `void`
 
-Defined in: [src/base/System.ts:151](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L151)
+Defined in: [src/base/System.ts:234](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L234)
 
 Instance.OnPlayerChat
 
@@ -490,7 +746,7 @@ Instance.OnPlayerChat
 
 > **OnPlayerConnect**(`event`): `void`
 
-Defined in: [src/base/System.ts:157](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L157)
+Defined in: [src/base/System.ts:71](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L71)
 
 Instance.OnPlayerConnect
 
@@ -513,7 +769,7 @@ Instance.OnPlayerConnect
 
 > **OnPlayerDamage**(`event`): `void`
 
-Defined in: [src/base/System.ts:163](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L163)
+Defined in: [src/base/System.ts:210](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L210)
 
 Instance.OnPlayerDamage
 
@@ -535,7 +791,7 @@ Instance.OnPlayerDamage
 
 > **OnPlayerDisconnect**(`event`): `void`
 
-Defined in: [src/base/System.ts:169](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L169)
+Defined in: [src/base/System.ts:83](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L83)
 
 Instance.OnPlayerDisconnect
 
@@ -558,7 +814,7 @@ Instance.OnPlayerDisconnect
 
 > **OnPlayerJump**(`event`): `void`
 
-Defined in: [src/base/System.ts:175](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L175)
+Defined in: [src/base/System.ts:222](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L222)
 
 Instance.OnPlayerJump
 
@@ -581,7 +837,7 @@ Instance.OnPlayerJump
 
 > **OnPlayerKill**(): `void`
 
-Defined in: [src/system/DeathmatchSpawnerSystem.ts:127](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/system/DeathmatchSpawnerSystem.ts#L127)
+Defined in: [src/system/DeathmatchSpawner.ts:127](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/system/DeathmatchSpawner.ts#L127)
 
 Instance.OnPlayerKill
 
@@ -597,7 +853,7 @@ Instance.OnPlayerKill
 
 > **OnPlayerLand**(`event`): `void`
 
-Defined in: [src/base/System.ts:187](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L187)
+Defined in: [src/base/System.ts:228](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L228)
 
 Instance.OnPlayerLand
 
@@ -620,7 +876,7 @@ Instance.OnPlayerLand
 
 > **OnPlayerPing**(`event`): `void`
 
-Defined in: [src/base/System.ts:193](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L193)
+Defined in: [src/base/System.ts:240](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L240)
 
 Instance.OnPlayerPing
 
@@ -644,7 +900,7 @@ Instance.OnPlayerPing
 
 > **OnPlayerReset**(`event`): `void`
 
-Defined in: [src/base/System.ts:199](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L199)
+Defined in: [src/base/System.ts:89](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L89)
 
 Instance.OnPlayerReset
 
@@ -663,11 +919,35 @@ Instance.OnPlayerReset
 
 [`System`](Namespace.Base.md#abstract-system).[`OnPlayerReset`](Namespace.Base.md#onplayerreset)
 
+##### OnPlayerTeamChanged()
+
+> **OnPlayerTeamChanged**(`event`): `void`
+
+Defined in: [src/base/System.ts:95](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L95)
+
+Instance.OnPlayerTeamChanged
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `event` | \{ `oldTeam`: `number`; `player`: `CSPlayerPawn`; \} |
+| `event.oldTeam` | `number` |
+| `event.player` | `CSPlayerPawn` |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`System`](Namespace.Base.md#abstract-system).[`OnPlayerTeamChanged`](Namespace.Base.md#onplayerteamchanged)
+
 ##### OnRoundEnd()
 
 > **OnRoundEnd**(`event`): `void`
 
-Defined in: [src/base/System.ts:205](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L205)
+Defined in: [src/base/System.ts:107](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L107)
 
 Instance.OnRoundEnd
 
@@ -691,7 +971,7 @@ Instance.OnRoundEnd
 
 > **OnRoundStart**(): `void`
 
-Defined in: [src/base/System.ts:211](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L211)
+Defined in: [src/base/System.ts:101](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L101)
 
 Instance.OnRoundStart
 
@@ -707,7 +987,7 @@ Instance.OnRoundStart
 
 > **OnScriptReload**(): `void`
 
-Defined in: [src/base/System.ts:234](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L234)
+Defined in: [src/base/System.ts:311](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L311)
 
 Simpler Version of OnScriptReloadAfter
 
@@ -723,7 +1003,7 @@ Simpler Version of OnScriptReloadAfter
 
 > **OnScriptReloadAfter**\<`T`\>(`memory`): `void`
 
-Defined in: [src/base/System.ts:229](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L229)
+Defined in: [src/base/System.ts:306](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L306)
 
 Instance.OnReload({after})
 
@@ -751,7 +1031,7 @@ Instance.OnReload({after})
 
 > **OnScriptReloadBefore**\<`T`\>(): `T`
 
-Defined in: [src/base/System.ts:223](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L223)
+Defined in: [src/base/System.ts:300](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L300)
 
 Instance.OnReload({before})
 
@@ -773,7 +1053,7 @@ Instance.OnReload({before})
 
 > **OnWeaponDrop**(`event`): `void`
 
-Defined in: [src/base/System.ts:127](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L127)
+Defined in: [src/base/System.ts:264](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L264)
 
 Instance.OnWeaponDrop
 
@@ -797,7 +1077,7 @@ Instance.OnWeaponDrop
 
 > **OnWeaponPickup**(`event`): `void`
 
-Defined in: [src/base/System.ts:133](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L133)
+Defined in: [src/base/System.ts:270](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L270)
 
 Instance.OnWeaponPickup
 
@@ -820,7 +1100,7 @@ Instance.OnWeaponPickup
 
 > **SetTick**(`i`): `void`
 
-Defined in: [src/base/System.ts:32](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L32)
+Defined in: [src/base/System.ts:37](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L37)
 
 ###### Parameters
 
@@ -840,7 +1120,7 @@ Defined in: [src/base/System.ts:32](https://github.com/Orb-Workshop/scriptedeuch
 
 > **SetTickInterval**(`i`): `void`
 
-Defined in: [src/base/System.ts:31](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L31)
+Defined in: [src/base/System.ts:36](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L36)
 
 ###### Parameters
 
@@ -860,7 +1140,7 @@ Defined in: [src/base/System.ts:31](https://github.com/Orb-Workshop/scriptedeuch
 
 > **Think**(): `void`
 
-Defined in: [src/system/DeathmatchSpawnerSystem.ts:101](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/system/DeathmatchSpawnerSystem.ts#L101)
+Defined in: [src/system/DeathmatchSpawner.ts:101](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/system/DeathmatchSpawner.ts#L101)
 
 Replacement for `Instance.SetThink()` when used with `Base.Mount`.
 
@@ -876,7 +1156,7 @@ Replacement for `Instance.SetThink()` when used with `Base.Mount`.
 
 > `static` **GetActivePlayers**(): `any`[]
 
-Defined in: [src/system/DeathmatchSpawnerSystem.ts:37](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/system/DeathmatchSpawnerSystem.ts#L37)
+Defined in: [src/system/DeathmatchSpawner.ts:37](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/system/DeathmatchSpawner.ts#L37)
 
 ###### Returns
 
@@ -886,7 +1166,7 @@ Defined in: [src/system/DeathmatchSpawnerSystem.ts:37](https://github.com/Orb-Wo
 
 > `static` **GetAlivePlayers**(): `any`[]
 
-Defined in: [src/system/DeathmatchSpawnerSystem.ts:46](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/system/DeathmatchSpawnerSystem.ts#L46)
+Defined in: [src/system/DeathmatchSpawner.ts:46](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/system/DeathmatchSpawner.ts#L46)
 
 ###### Returns
 
@@ -896,7 +1176,7 @@ Defined in: [src/system/DeathmatchSpawnerSystem.ts:46](https://github.com/Orb-Wo
 
 > `static` **GetDeadPlayers**(): `any`[]
 
-Defined in: [src/system/DeathmatchSpawnerSystem.ts:55](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/system/DeathmatchSpawnerSystem.ts#L55)
+Defined in: [src/system/DeathmatchSpawner.ts:55](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/system/DeathmatchSpawner.ts#L55)
 
 ###### Returns
 
@@ -906,7 +1186,7 @@ Defined in: [src/system/DeathmatchSpawnerSystem.ts:55](https://github.com/Orb-Wo
 
 > `static` **GetPlayerControllers**(): `any`[]
 
-Defined in: [src/system/DeathmatchSpawnerSystem.ts:25](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/system/DeathmatchSpawnerSystem.ts#L25)
+Defined in: [src/system/DeathmatchSpawner.ts:25](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/system/DeathmatchSpawner.ts#L25)
 
 ###### Returns
 
@@ -916,7 +1196,7 @@ Defined in: [src/system/DeathmatchSpawnerSystem.ts:25](https://github.com/Orb-Wo
 
 > `static` **RetrievePlayerSpawns**(): `any`
 
-Defined in: [src/system/DeathmatchSpawnerSystem.ts:20](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/system/DeathmatchSpawnerSystem.ts#L20)
+Defined in: [src/system/DeathmatchSpawner.ts:20](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/system/DeathmatchSpawner.ts#L20)
 
 ###### Returns
 
@@ -924,9 +1204,9 @@ Defined in: [src/system/DeathmatchSpawnerSystem.ts:20](https://github.com/Orb-Wo
 
 ***
 
-### DialogSystem
+### Dialog
 
-Defined in: [src/system/DialogSystem.ts:10](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/system/DialogSystem.ts#L10)
+Defined in: [src/system/Dialog.ts:10](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/system/Dialog.ts#L10)
 
 Mountable System Abstraction.
 
@@ -938,9 +1218,9 @@ Mountable System Abstraction.
 
 ##### Constructor
 
-> **new DialogSystem**(`opts?`): [`DialogSystem`](#dialogsystem)
+> **new Dialog**(`opts?`): [`Dialog`](#dialog)
 
-Defined in: [src/system/DialogSystem.ts:13](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/system/DialogSystem.ts#L13)
+Defined in: [src/system/Dialog.ts:13](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/system/Dialog.ts#L13)
 
 ###### Parameters
 
@@ -950,7 +1230,7 @@ Defined in: [src/system/DialogSystem.ts:13](https://github.com/Orb-Workshop/scri
 
 ###### Returns
 
-[`DialogSystem`](#dialogsystem)
+[`Dialog`](#dialog)
 
 ###### Overrides
 
@@ -962,7 +1242,7 @@ Defined in: [src/system/DialogSystem.ts:13](https://github.com/Orb-Workshop/scri
 
 > **CreateDialog**(`opts?`): `Dialog`
 
-Defined in: [src/system/DialogSystem.ts:21](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/system/DialogSystem.ts#L21)
+Defined in: [src/system/Dialog.ts:21](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/system/Dialog.ts#L21)
 
 ###### Parameters
 
@@ -978,7 +1258,7 @@ Defined in: [src/system/DialogSystem.ts:21](https://github.com/Orb-Workshop/scri
 
 > **DisableSystem**(): `void`
 
-Defined in: [src/base/System.ts:29](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L29)
+Defined in: [src/base/System.ts:34](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L34)
 
 ###### Returns
 
@@ -992,7 +1272,7 @@ Defined in: [src/base/System.ts:29](https://github.com/Orb-Workshop/scriptedeuch
 
 > **EnableSystem**(): `void`
 
-Defined in: [src/base/System.ts:28](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L28)
+Defined in: [src/base/System.ts:33](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L33)
 
 ###### Returns
 
@@ -1006,7 +1286,7 @@ Defined in: [src/base/System.ts:28](https://github.com/Orb-Workshop/scriptedeuch
 
 > **GetDelta**(): `number`
 
-Defined in: [src/base/System.ts:33](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L33)
+Defined in: [src/base/System.ts:38](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L38)
 
 ###### Returns
 
@@ -1020,7 +1300,7 @@ Defined in: [src/base/System.ts:33](https://github.com/Orb-Workshop/scriptedeuch
 
 > **IsSystemEnabled**(): `boolean`
 
-Defined in: [src/base/System.ts:30](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L30)
+Defined in: [src/base/System.ts:35](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L35)
 
 ###### Returns
 
@@ -1034,7 +1314,7 @@ Defined in: [src/base/System.ts:30](https://github.com/Orb-Workshop/scriptedeuch
 
 > **MaybeThink**(): `void`
 
-Defined in: [src/base/System.ts:35](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L35)
+Defined in: [src/base/System.ts:40](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L40)
 
 ###### Returns
 
@@ -1048,7 +1328,7 @@ Defined in: [src/base/System.ts:35](https://github.com/Orb-Workshop/scriptedeuch
 
 > **OnActivate**(): `void`
 
-Defined in: [src/system/DialogSystem.ts:17](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/system/DialogSystem.ts#L17)
+Defined in: [src/system/Dialog.ts:17](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/system/Dialog.ts#L17)
 
 Instance.OnActivate()
 
@@ -1064,7 +1344,7 @@ Instance.OnActivate()
 
 > **OnBeforePlayerDamage**(`event`): `any`
 
-Defined in: [src/base/System.ts:67](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L67)
+Defined in: [src/base/System.ts:198](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L198)
 
 Instance.OnBeforePlayerDamage()
 
@@ -1084,13 +1364,13 @@ Instance.OnBeforePlayerDamage()
 
 [`System`](Namespace.Base.md#abstract-system).[`OnBeforePlayerDamage`](Namespace.Base.md#onbeforeplayerdamage)
 
-##### OnBeginRoundStart()
+##### OnBeginRoundRestart()
 
-> **OnBeginRoundStart**(): `void`
+> **OnBeginRoundRestart**(): `void`
 
-Defined in: [src/base/System.ts:217](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L217)
+Defined in: [src/base/System.ts:113](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L113)
 
-Instance.OnBeginRoundStart
+Instance.OnBeginRoundRestart
 
 ###### Returns
 
@@ -1098,13 +1378,13 @@ Instance.OnBeginRoundStart
 
 ###### Inherited from
 
-[`System`](Namespace.Base.md#abstract-system).[`OnBeginRoundStart`](Namespace.Base.md#onbeginroundstart)
+[`System`](Namespace.Base.md#abstract-system).[`OnBeginRoundRestart`](Namespace.Base.md#onbeginroundrestart)
 
 ##### OnBombDefuse()
 
 > **OnBombDefuse**(`event`): `void`
 
-Defined in: [src/base/System.ts:79](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L79)
+Defined in: [src/base/System.ts:149](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L149)
 
 Instance.OnBombDefuse()
 
@@ -1112,9 +1392,7 @@ Instance.OnBombDefuse()
 
 | Parameter | Type |
 | ------ | ------ |
-| `event` | \{ `plantedC4`: `Entity`; `planter`: `CSPlayerPawn`; \} |
-| `event.plantedC4` | `Entity` |
-| `event.planter` | `CSPlayerPawn` |
+| `event` | `BombDefuseEvent` |
 
 ###### Returns
 
@@ -1124,13 +1402,59 @@ Instance.OnBombDefuse()
 
 [`System`](Namespace.Base.md#abstract-system).[`OnBombDefuse`](Namespace.Base.md#onbombdefuse)
 
+##### OnBombDefuseAbort()
+
+> **OnBombDefuseAbort**(`event`): `void`
+
+Defined in: [src/base/System.ts:143](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L143)
+
+Instance.OnBombDefuseAbort()
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `event` | \{ `plantedC4`: `Entity`; \} |
+| `event.plantedC4` | `Entity` |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`System`](Namespace.Base.md#abstract-system).[`OnBombDefuseAbort`](Namespace.Base.md#onbombdefuseabort)
+
+##### OnBombDefuseStart()
+
+> **OnBombDefuseStart**(`event`): `void`
+
+Defined in: [src/base/System.ts:137](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L137)
+
+Instance.OnBombDefuseStart()
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `event` | \{ `plantedC4`: `Entity`; \} |
+| `event.plantedC4` | `Entity` |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`System`](Namespace.Base.md#abstract-system).[`OnBombDefuseStart`](Namespace.Base.md#onbombdefusestart)
+
 ##### OnBombExplode()
 
 > **OnBombExplode**(`event`): `void`
 
-Defined in: [src/base/System.ts:91](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L91)
+Defined in: [src/base/System.ts:155](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L155)
 
-Instance.OnBombPlant()
+Instance.OnBombExplode()
 
 ###### Parameters
 
@@ -1151,7 +1475,7 @@ Instance.OnBombPlant()
 
 > **OnBombPlant**(`event`): `void`
 
-Defined in: [src/base/System.ts:85](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L85)
+Defined in: [src/base/System.ts:131](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L131)
 
 Instance.OnBombPlant()
 
@@ -1171,11 +1495,57 @@ Instance.OnBombPlant()
 
 [`System`](Namespace.Base.md#abstract-system).[`OnBombPlant`](Namespace.Base.md#onbombplant)
 
+##### OnBombPlantAbort()
+
+> **OnBombPlantAbort**(`event`): `void`
+
+Defined in: [src/base/System.ts:125](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L125)
+
+Instance.OnBombPlantAbort()
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `event` | \{ `planter`: `CSPlayerPawn`; \} |
+| `event.planter` | `CSPlayerPawn` |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`System`](Namespace.Base.md#abstract-system).[`OnBombPlantAbort`](Namespace.Base.md#onbombplantabort)
+
+##### OnBombPlantStart()
+
+> **OnBombPlantStart**(`event`): `void`
+
+Defined in: [src/base/System.ts:119](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L119)
+
+Instance.OnBombPlantStart()
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `event` | \{ `planter`: `CSPlayerPawn`; \} |
+| `event.planter` | `CSPlayerPawn` |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`System`](Namespace.Base.md#abstract-system).[`OnBombPlantStart`](Namespace.Base.md#onbombplantstart)
+
 ##### OnBulletImpact()
 
 > **OnBulletImpact**(`event`): `void`
 
-Defined in: [src/base/System.ts:97](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L97)
+Defined in: [src/base/System.ts:258](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L258)
 
 Instance.OnBulletImpact()
 
@@ -1195,11 +1565,36 @@ Instance.OnBulletImpact()
 
 [`System`](Namespace.Base.md#abstract-system).[`OnBulletImpact`](Namespace.Base.md#onbulletimpact)
 
+##### OnCustomHudClicked()
+
+> **OnCustomHudClicked**(`event`): `void`
+
+Defined in: [src/base/System.ts:294](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L294)
+
+Instance.OnCustomHudClicked()
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `event` | \{ `buttonId`: `string`; `layout`: `CustomHudLayout`; `player`: `CSPlayerController`; \} |
+| `event.buttonId` | `string` |
+| `event.layout` | `CustomHudLayout` |
+| `event.player` | `CSPlayerController` |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`System`](Namespace.Base.md#abstract-system).[`OnCustomHudClicked`](Namespace.Base.md#oncustomhudclicked)
+
 ##### OnGrenadeBounce()
 
 > **OnGrenadeBounce**(`event`): `void`
 
-Defined in: [src/base/System.ts:103](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L103)
+Defined in: [src/base/System.ts:282](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L282)
 
 Instance.OnGrenadeBounce()
 
@@ -1223,7 +1618,7 @@ Instance.OnGrenadeBounce()
 
 > **OnGrenadeThrow**(`event`): `void`
 
-Defined in: [src/base/System.ts:109](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L109)
+Defined in: [src/base/System.ts:276](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L276)
 
 Instance.OnGrenadeThrow()
 
@@ -1247,7 +1642,7 @@ Instance.OnGrenadeThrow()
 
 > **OnGunFire**(`event`): `void`
 
-Defined in: [src/base/System.ts:115](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L115)
+Defined in: [src/base/System.ts:252](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L252)
 
 Instance.OnGunFire()
 
@@ -1270,7 +1665,7 @@ Instance.OnGunFire()
 
 > **OnGunReload**(`event`): `void`
 
-Defined in: [src/base/System.ts:121](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L121)
+Defined in: [src/base/System.ts:246](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L246)
 
 Instance.OnGunReload
 
@@ -1289,11 +1684,152 @@ Instance.OnGunReload
 
 [`System`](Namespace.Base.md#abstract-system).[`OnGunReload`](Namespace.Base.md#ongunreload)
 
+##### OnHostageDrop()
+
+> **OnHostageDrop**(`event`): `void`
+
+Defined in: [src/base/System.ts:179](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L179)
+
+Instance.OnHostageDrop
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `event` | \{ `dropper`: `CSPlayerPawn`; `hostage`: `CSHostage`; \} |
+| `event.dropper` | `CSPlayerPawn` |
+| `event.hostage` | `CSHostage` |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`System`](Namespace.Base.md#abstract-system).[`OnHostageDrop`](Namespace.Base.md#onhostagedrop)
+
+##### OnHostageKill()
+
+> **OnHostageKill**(`event`): `void`
+
+Defined in: [src/base/System.ts:191](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L191)
+
+Instance.OnHostageKill
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `event` | \{ `attacker?`: `any`; `hostage`: `CSHostage`; \} |
+| `event.attacker?` | `any` |
+| `event.hostage` | `CSHostage` |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`System`](Namespace.Base.md#abstract-system).[`OnHostageKill`](Namespace.Base.md#onhostagekill)
+
+##### OnHostagePickUp()
+
+> **OnHostagePickUp**(`event`): `void`
+
+Defined in: [src/base/System.ts:173](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L173)
+
+Instance.OnHostagePickUp
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `event` | \{ `hostage`: `CSHostage`; \} |
+| `event.hostage` | `CSHostage` |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`System`](Namespace.Base.md#abstract-system).[`OnHostagePickUp`](Namespace.Base.md#onhostagepickup)
+
+##### OnHostagePickUpAbort()
+
+> **OnHostagePickUpAbort**(`event`): `void`
+
+Defined in: [src/base/System.ts:167](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L167)
+
+Instance.OnHostagePickUpAbort
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `event` | \{ `hostage`: `CSHostage`; `player`: `CSPlayerPawn`; \} |
+| `event.hostage` | `CSHostage` |
+| `event.player` | `CSPlayerPawn` |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`System`](Namespace.Base.md#abstract-system).[`OnHostagePickUpAbort`](Namespace.Base.md#onhostagepickupabort)
+
+##### OnHostagePickUpStart()
+
+> **OnHostagePickUpStart**(`event`): `void`
+
+Defined in: [src/base/System.ts:161](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L161)
+
+Instance.OnHostagePickUpStart
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `event` | \{ `hostage`: `CSHostage`; \} |
+| `event.hostage` | `CSHostage` |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`System`](Namespace.Base.md#abstract-system).[`OnHostagePickUpStart`](Namespace.Base.md#onhostagepickupstart)
+
+##### OnHostageRescue()
+
+> **OnHostageRescue**(`event`): `void`
+
+Defined in: [src/base/System.ts:185](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L185)
+
+Instance.OnHostageRescue
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `event` | \{ `hostage`: `CSHostage`; \} |
+| `event.hostage` | `CSHostage` |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`System`](Namespace.Base.md#abstract-system).[`OnHostageRescue`](Namespace.Base.md#onhostagerescue)
+
 ##### OnKnifeAttack()
 
 > **OnKnifeAttack**(`event`): `void`
 
-Defined in: [src/base/System.ts:139](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L139)
+Defined in: [src/base/System.ts:288](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L288)
 
 Instance.OnKnifeAttack
 
@@ -1317,7 +1853,7 @@ Instance.OnKnifeAttack
 
 > **OnModifyPlayerDamage**(`event`): `any`
 
-Defined in: [src/base/System.ts:73](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L73)
+Defined in: [src/base/System.ts:204](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L204)
 
 Instance.OnModifyPlayerDamage()
 
@@ -1339,7 +1875,7 @@ Instance.OnModifyPlayerDamage()
 
 > **OnPlayerActivate**(`event`): `void`
 
-Defined in: [src/base/System.ts:145](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L145)
+Defined in: [src/base/System.ts:77](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L77)
 
 Instance.OnPlayerActivate
 
@@ -1362,7 +1898,7 @@ Instance.OnPlayerActivate
 
 > **OnPlayerChat**(`event`): `void`
 
-Defined in: [src/base/System.ts:151](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L151)
+Defined in: [src/base/System.ts:234](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L234)
 
 Instance.OnPlayerChat
 
@@ -1387,7 +1923,7 @@ Instance.OnPlayerChat
 
 > **OnPlayerConnect**(`event`): `void`
 
-Defined in: [src/base/System.ts:157](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L157)
+Defined in: [src/base/System.ts:71](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L71)
 
 Instance.OnPlayerConnect
 
@@ -1410,7 +1946,7 @@ Instance.OnPlayerConnect
 
 > **OnPlayerDamage**(`event`): `void`
 
-Defined in: [src/base/System.ts:163](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L163)
+Defined in: [src/base/System.ts:210](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L210)
 
 Instance.OnPlayerDamage
 
@@ -1432,7 +1968,7 @@ Instance.OnPlayerDamage
 
 > **OnPlayerDisconnect**(`event`): `void`
 
-Defined in: [src/base/System.ts:169](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L169)
+Defined in: [src/base/System.ts:83](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L83)
 
 Instance.OnPlayerDisconnect
 
@@ -1455,7 +1991,7 @@ Instance.OnPlayerDisconnect
 
 > **OnPlayerJump**(`event`): `void`
 
-Defined in: [src/base/System.ts:175](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L175)
+Defined in: [src/base/System.ts:222](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L222)
 
 Instance.OnPlayerJump
 
@@ -1478,7 +2014,7 @@ Instance.OnPlayerJump
 
 > **OnPlayerKill**(`event`): `void`
 
-Defined in: [src/base/System.ts:181](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L181)
+Defined in: [src/base/System.ts:216](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L216)
 
 Instance.OnPlayerKill
 
@@ -1504,7 +2040,7 @@ Instance.OnPlayerKill
 
 > **OnPlayerLand**(`event`): `void`
 
-Defined in: [src/base/System.ts:187](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L187)
+Defined in: [src/base/System.ts:228](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L228)
 
 Instance.OnPlayerLand
 
@@ -1527,7 +2063,7 @@ Instance.OnPlayerLand
 
 > **OnPlayerPing**(`event`): `void`
 
-Defined in: [src/base/System.ts:193](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L193)
+Defined in: [src/base/System.ts:240](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L240)
 
 Instance.OnPlayerPing
 
@@ -1551,7 +2087,7 @@ Instance.OnPlayerPing
 
 > **OnPlayerReset**(`event`): `void`
 
-Defined in: [src/base/System.ts:199](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L199)
+Defined in: [src/base/System.ts:89](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L89)
 
 Instance.OnPlayerReset
 
@@ -1570,11 +2106,35 @@ Instance.OnPlayerReset
 
 [`System`](Namespace.Base.md#abstract-system).[`OnPlayerReset`](Namespace.Base.md#onplayerreset)
 
+##### OnPlayerTeamChanged()
+
+> **OnPlayerTeamChanged**(`event`): `void`
+
+Defined in: [src/base/System.ts:95](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L95)
+
+Instance.OnPlayerTeamChanged
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `event` | \{ `oldTeam`: `number`; `player`: `CSPlayerPawn`; \} |
+| `event.oldTeam` | `number` |
+| `event.player` | `CSPlayerPawn` |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`System`](Namespace.Base.md#abstract-system).[`OnPlayerTeamChanged`](Namespace.Base.md#onplayerteamchanged)
+
 ##### OnRoundEnd()
 
 > **OnRoundEnd**(`event`): `void`
 
-Defined in: [src/base/System.ts:205](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L205)
+Defined in: [src/base/System.ts:107](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L107)
 
 Instance.OnRoundEnd
 
@@ -1598,7 +2158,7 @@ Instance.OnRoundEnd
 
 > **OnRoundStart**(): `void`
 
-Defined in: [src/base/System.ts:211](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L211)
+Defined in: [src/base/System.ts:101](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L101)
 
 Instance.OnRoundStart
 
@@ -1614,7 +2174,7 @@ Instance.OnRoundStart
 
 > **OnScriptReload**(): `void`
 
-Defined in: [src/base/System.ts:234](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L234)
+Defined in: [src/base/System.ts:311](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L311)
 
 Simpler Version of OnScriptReloadAfter
 
@@ -1630,7 +2190,7 @@ Simpler Version of OnScriptReloadAfter
 
 > **OnScriptReloadAfter**\<`T`\>(`memory`): `void`
 
-Defined in: [src/base/System.ts:229](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L229)
+Defined in: [src/base/System.ts:306](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L306)
 
 Instance.OnReload({after})
 
@@ -1658,7 +2218,7 @@ Instance.OnReload({after})
 
 > **OnScriptReloadBefore**\<`T`\>(): `T`
 
-Defined in: [src/base/System.ts:223](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L223)
+Defined in: [src/base/System.ts:300](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L300)
 
 Instance.OnReload({before})
 
@@ -1680,7 +2240,7 @@ Instance.OnReload({before})
 
 > **OnWeaponDrop**(`event`): `void`
 
-Defined in: [src/base/System.ts:127](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L127)
+Defined in: [src/base/System.ts:264](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L264)
 
 Instance.OnWeaponDrop
 
@@ -1704,7 +2264,7 @@ Instance.OnWeaponDrop
 
 > **OnWeaponPickup**(`event`): `void`
 
-Defined in: [src/base/System.ts:133](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L133)
+Defined in: [src/base/System.ts:270](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L270)
 
 Instance.OnWeaponPickup
 
@@ -1727,7 +2287,7 @@ Instance.OnWeaponPickup
 
 > **SetTick**(`i`): `void`
 
-Defined in: [src/base/System.ts:32](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L32)
+Defined in: [src/base/System.ts:37](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L37)
 
 ###### Parameters
 
@@ -1747,7 +2307,7 @@ Defined in: [src/base/System.ts:32](https://github.com/Orb-Workshop/scriptedeuch
 
 > **SetTickInterval**(`i`): `void`
 
-Defined in: [src/base/System.ts:31](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L31)
+Defined in: [src/base/System.ts:36](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L36)
 
 ###### Parameters
 
@@ -1767,7 +2327,7 @@ Defined in: [src/base/System.ts:31](https://github.com/Orb-Workshop/scriptedeuch
 
 > **Think**(): `void`
 
-Defined in: [src/system/DialogSystem.ts:27](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/system/DialogSystem.ts#L27)
+Defined in: [src/system/Dialog.ts:27](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/system/Dialog.ts#L27)
 
 Replacement for `Instance.SetThink()` when used with `Base.Mount`.
 
@@ -1781,9 +2341,9 @@ Replacement for `Instance.SetThink()` when used with `Base.Mount`.
 
 ***
 
-### DoubleJumpSystem
+### DoubleJump
 
-Defined in: [src/system/DoubleJumpSystem.ts:10](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/system/DoubleJumpSystem.ts#L10)
+Defined in: [src/system/DoubleJump.ts:10](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/system/DoubleJump.ts#L10)
 
 Mountable System Abstraction.
 
@@ -1795,9 +2355,9 @@ Mountable System Abstraction.
 
 ##### Constructor
 
-> **new DoubleJumpSystem**(`jump_velocity?`): [`DoubleJumpSystem`](#doublejumpsystem)
+> **new DoubleJump**(`jump_velocity?`): [`DoubleJump`](#doublejump)
 
-Defined in: [src/system/DoubleJumpSystem.ts:12](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/system/DoubleJumpSystem.ts#L12)
+Defined in: [src/system/DoubleJump.ts:12](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/system/DoubleJump.ts#L12)
 
 ###### Parameters
 
@@ -1807,7 +2367,7 @@ Defined in: [src/system/DoubleJumpSystem.ts:12](https://github.com/Orb-Workshop/
 
 ###### Returns
 
-[`DoubleJumpSystem`](#doublejumpsystem)
+[`DoubleJump`](#doublejump)
 
 ###### Overrides
 
@@ -1819,7 +2379,7 @@ Defined in: [src/system/DoubleJumpSystem.ts:12](https://github.com/Orb-Workshop/
 
 > **DisableSystem**(): `void`
 
-Defined in: [src/base/System.ts:29](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L29)
+Defined in: [src/base/System.ts:34](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L34)
 
 ###### Returns
 
@@ -1833,7 +2393,7 @@ Defined in: [src/base/System.ts:29](https://github.com/Orb-Workshop/scriptedeuch
 
 > **EnableSystem**(): `void`
 
-Defined in: [src/base/System.ts:28](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L28)
+Defined in: [src/base/System.ts:33](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L33)
 
 ###### Returns
 
@@ -1847,7 +2407,7 @@ Defined in: [src/base/System.ts:28](https://github.com/Orb-Workshop/scriptedeuch
 
 > **GetDelta**(): `number`
 
-Defined in: [src/base/System.ts:33](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L33)
+Defined in: [src/base/System.ts:38](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L38)
 
 ###### Returns
 
@@ -1861,7 +2421,7 @@ Defined in: [src/base/System.ts:33](https://github.com/Orb-Workshop/scriptedeuch
 
 > **IsSystemEnabled**(): `boolean`
 
-Defined in: [src/base/System.ts:30](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L30)
+Defined in: [src/base/System.ts:35](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L35)
 
 ###### Returns
 
@@ -1875,7 +2435,7 @@ Defined in: [src/base/System.ts:30](https://github.com/Orb-Workshop/scriptedeuch
 
 > **MaybeThink**(): `void`
 
-Defined in: [src/base/System.ts:35](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L35)
+Defined in: [src/base/System.ts:40](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L40)
 
 ###### Returns
 
@@ -1889,7 +2449,7 @@ Defined in: [src/base/System.ts:35](https://github.com/Orb-Workshop/scriptedeuch
 
 > **OnActivate**(): `void`
 
-Defined in: [src/base/System.ts:60](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L60)
+Defined in: [src/base/System.ts:65](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L65)
 
 Instance.OnActivate()
 
@@ -1905,7 +2465,7 @@ Instance.OnActivate()
 
 > **OnBeforePlayerDamage**(`event`): `any`
 
-Defined in: [src/base/System.ts:67](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L67)
+Defined in: [src/base/System.ts:198](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L198)
 
 Instance.OnBeforePlayerDamage()
 
@@ -1925,13 +2485,13 @@ Instance.OnBeforePlayerDamage()
 
 [`System`](Namespace.Base.md#abstract-system).[`OnBeforePlayerDamage`](Namespace.Base.md#onbeforeplayerdamage)
 
-##### OnBeginRoundStart()
+##### OnBeginRoundRestart()
 
-> **OnBeginRoundStart**(): `void`
+> **OnBeginRoundRestart**(): `void`
 
-Defined in: [src/base/System.ts:217](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L217)
+Defined in: [src/base/System.ts:113](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L113)
 
-Instance.OnBeginRoundStart
+Instance.OnBeginRoundRestart
 
 ###### Returns
 
@@ -1939,13 +2499,13 @@ Instance.OnBeginRoundStart
 
 ###### Inherited from
 
-[`System`](Namespace.Base.md#abstract-system).[`OnBeginRoundStart`](Namespace.Base.md#onbeginroundstart)
+[`System`](Namespace.Base.md#abstract-system).[`OnBeginRoundRestart`](Namespace.Base.md#onbeginroundrestart)
 
 ##### OnBombDefuse()
 
 > **OnBombDefuse**(`event`): `void`
 
-Defined in: [src/base/System.ts:79](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L79)
+Defined in: [src/base/System.ts:149](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L149)
 
 Instance.OnBombDefuse()
 
@@ -1953,9 +2513,7 @@ Instance.OnBombDefuse()
 
 | Parameter | Type |
 | ------ | ------ |
-| `event` | \{ `plantedC4`: `Entity`; `planter`: `CSPlayerPawn`; \} |
-| `event.plantedC4` | `Entity` |
-| `event.planter` | `CSPlayerPawn` |
+| `event` | `BombDefuseEvent` |
 
 ###### Returns
 
@@ -1965,13 +2523,59 @@ Instance.OnBombDefuse()
 
 [`System`](Namespace.Base.md#abstract-system).[`OnBombDefuse`](Namespace.Base.md#onbombdefuse)
 
+##### OnBombDefuseAbort()
+
+> **OnBombDefuseAbort**(`event`): `void`
+
+Defined in: [src/base/System.ts:143](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L143)
+
+Instance.OnBombDefuseAbort()
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `event` | \{ `plantedC4`: `Entity`; \} |
+| `event.plantedC4` | `Entity` |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`System`](Namespace.Base.md#abstract-system).[`OnBombDefuseAbort`](Namespace.Base.md#onbombdefuseabort)
+
+##### OnBombDefuseStart()
+
+> **OnBombDefuseStart**(`event`): `void`
+
+Defined in: [src/base/System.ts:137](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L137)
+
+Instance.OnBombDefuseStart()
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `event` | \{ `plantedC4`: `Entity`; \} |
+| `event.plantedC4` | `Entity` |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`System`](Namespace.Base.md#abstract-system).[`OnBombDefuseStart`](Namespace.Base.md#onbombdefusestart)
+
 ##### OnBombExplode()
 
 > **OnBombExplode**(`event`): `void`
 
-Defined in: [src/base/System.ts:91](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L91)
+Defined in: [src/base/System.ts:155](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L155)
 
-Instance.OnBombPlant()
+Instance.OnBombExplode()
 
 ###### Parameters
 
@@ -1992,7 +2596,7 @@ Instance.OnBombPlant()
 
 > **OnBombPlant**(`event`): `void`
 
-Defined in: [src/base/System.ts:85](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L85)
+Defined in: [src/base/System.ts:131](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L131)
 
 Instance.OnBombPlant()
 
@@ -2012,11 +2616,57 @@ Instance.OnBombPlant()
 
 [`System`](Namespace.Base.md#abstract-system).[`OnBombPlant`](Namespace.Base.md#onbombplant)
 
+##### OnBombPlantAbort()
+
+> **OnBombPlantAbort**(`event`): `void`
+
+Defined in: [src/base/System.ts:125](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L125)
+
+Instance.OnBombPlantAbort()
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `event` | \{ `planter`: `CSPlayerPawn`; \} |
+| `event.planter` | `CSPlayerPawn` |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`System`](Namespace.Base.md#abstract-system).[`OnBombPlantAbort`](Namespace.Base.md#onbombplantabort)
+
+##### OnBombPlantStart()
+
+> **OnBombPlantStart**(`event`): `void`
+
+Defined in: [src/base/System.ts:119](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L119)
+
+Instance.OnBombPlantStart()
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `event` | \{ `planter`: `CSPlayerPawn`; \} |
+| `event.planter` | `CSPlayerPawn` |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`System`](Namespace.Base.md#abstract-system).[`OnBombPlantStart`](Namespace.Base.md#onbombplantstart)
+
 ##### OnBulletImpact()
 
 > **OnBulletImpact**(`event`): `void`
 
-Defined in: [src/base/System.ts:97](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L97)
+Defined in: [src/base/System.ts:258](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L258)
 
 Instance.OnBulletImpact()
 
@@ -2036,11 +2686,36 @@ Instance.OnBulletImpact()
 
 [`System`](Namespace.Base.md#abstract-system).[`OnBulletImpact`](Namespace.Base.md#onbulletimpact)
 
+##### OnCustomHudClicked()
+
+> **OnCustomHudClicked**(`event`): `void`
+
+Defined in: [src/base/System.ts:294](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L294)
+
+Instance.OnCustomHudClicked()
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `event` | \{ `buttonId`: `string`; `layout`: `CustomHudLayout`; `player`: `CSPlayerController`; \} |
+| `event.buttonId` | `string` |
+| `event.layout` | `CustomHudLayout` |
+| `event.player` | `CSPlayerController` |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`System`](Namespace.Base.md#abstract-system).[`OnCustomHudClicked`](Namespace.Base.md#oncustomhudclicked)
+
 ##### OnGrenadeBounce()
 
 > **OnGrenadeBounce**(`event`): `void`
 
-Defined in: [src/base/System.ts:103](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L103)
+Defined in: [src/base/System.ts:282](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L282)
 
 Instance.OnGrenadeBounce()
 
@@ -2064,7 +2739,7 @@ Instance.OnGrenadeBounce()
 
 > **OnGrenadeThrow**(`event`): `void`
 
-Defined in: [src/base/System.ts:109](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L109)
+Defined in: [src/base/System.ts:276](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L276)
 
 Instance.OnGrenadeThrow()
 
@@ -2088,7 +2763,7 @@ Instance.OnGrenadeThrow()
 
 > **OnGunFire**(`event`): `void`
 
-Defined in: [src/base/System.ts:115](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L115)
+Defined in: [src/base/System.ts:252](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L252)
 
 Instance.OnGunFire()
 
@@ -2111,7 +2786,7 @@ Instance.OnGunFire()
 
 > **OnGunReload**(`event`): `void`
 
-Defined in: [src/base/System.ts:121](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L121)
+Defined in: [src/base/System.ts:246](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L246)
 
 Instance.OnGunReload
 
@@ -2130,11 +2805,152 @@ Instance.OnGunReload
 
 [`System`](Namespace.Base.md#abstract-system).[`OnGunReload`](Namespace.Base.md#ongunreload)
 
+##### OnHostageDrop()
+
+> **OnHostageDrop**(`event`): `void`
+
+Defined in: [src/base/System.ts:179](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L179)
+
+Instance.OnHostageDrop
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `event` | \{ `dropper`: `CSPlayerPawn`; `hostage`: `CSHostage`; \} |
+| `event.dropper` | `CSPlayerPawn` |
+| `event.hostage` | `CSHostage` |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`System`](Namespace.Base.md#abstract-system).[`OnHostageDrop`](Namespace.Base.md#onhostagedrop)
+
+##### OnHostageKill()
+
+> **OnHostageKill**(`event`): `void`
+
+Defined in: [src/base/System.ts:191](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L191)
+
+Instance.OnHostageKill
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `event` | \{ `attacker?`: `any`; `hostage`: `CSHostage`; \} |
+| `event.attacker?` | `any` |
+| `event.hostage` | `CSHostage` |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`System`](Namespace.Base.md#abstract-system).[`OnHostageKill`](Namespace.Base.md#onhostagekill)
+
+##### OnHostagePickUp()
+
+> **OnHostagePickUp**(`event`): `void`
+
+Defined in: [src/base/System.ts:173](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L173)
+
+Instance.OnHostagePickUp
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `event` | \{ `hostage`: `CSHostage`; \} |
+| `event.hostage` | `CSHostage` |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`System`](Namespace.Base.md#abstract-system).[`OnHostagePickUp`](Namespace.Base.md#onhostagepickup)
+
+##### OnHostagePickUpAbort()
+
+> **OnHostagePickUpAbort**(`event`): `void`
+
+Defined in: [src/base/System.ts:167](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L167)
+
+Instance.OnHostagePickUpAbort
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `event` | \{ `hostage`: `CSHostage`; `player`: `CSPlayerPawn`; \} |
+| `event.hostage` | `CSHostage` |
+| `event.player` | `CSPlayerPawn` |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`System`](Namespace.Base.md#abstract-system).[`OnHostagePickUpAbort`](Namespace.Base.md#onhostagepickupabort)
+
+##### OnHostagePickUpStart()
+
+> **OnHostagePickUpStart**(`event`): `void`
+
+Defined in: [src/base/System.ts:161](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L161)
+
+Instance.OnHostagePickUpStart
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `event` | \{ `hostage`: `CSHostage`; \} |
+| `event.hostage` | `CSHostage` |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`System`](Namespace.Base.md#abstract-system).[`OnHostagePickUpStart`](Namespace.Base.md#onhostagepickupstart)
+
+##### OnHostageRescue()
+
+> **OnHostageRescue**(`event`): `void`
+
+Defined in: [src/base/System.ts:185](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L185)
+
+Instance.OnHostageRescue
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `event` | \{ `hostage`: `CSHostage`; \} |
+| `event.hostage` | `CSHostage` |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`System`](Namespace.Base.md#abstract-system).[`OnHostageRescue`](Namespace.Base.md#onhostagerescue)
+
 ##### OnKnifeAttack()
 
 > **OnKnifeAttack**(`event`): `void`
 
-Defined in: [src/base/System.ts:139](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L139)
+Defined in: [src/base/System.ts:288](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L288)
 
 Instance.OnKnifeAttack
 
@@ -2158,7 +2974,7 @@ Instance.OnKnifeAttack
 
 > **OnModifyPlayerDamage**(`event`): `any`
 
-Defined in: [src/base/System.ts:73](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L73)
+Defined in: [src/base/System.ts:204](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L204)
 
 Instance.OnModifyPlayerDamage()
 
@@ -2180,7 +2996,7 @@ Instance.OnModifyPlayerDamage()
 
 > **OnPlayerActivate**(`event`): `void`
 
-Defined in: [src/base/System.ts:145](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L145)
+Defined in: [src/base/System.ts:77](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L77)
 
 Instance.OnPlayerActivate
 
@@ -2203,7 +3019,7 @@ Instance.OnPlayerActivate
 
 > **OnPlayerChat**(`event`): `void`
 
-Defined in: [src/base/System.ts:151](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L151)
+Defined in: [src/base/System.ts:234](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L234)
 
 Instance.OnPlayerChat
 
@@ -2228,7 +3044,7 @@ Instance.OnPlayerChat
 
 > **OnPlayerConnect**(`event`): `void`
 
-Defined in: [src/base/System.ts:157](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L157)
+Defined in: [src/base/System.ts:71](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L71)
 
 Instance.OnPlayerConnect
 
@@ -2251,7 +3067,7 @@ Instance.OnPlayerConnect
 
 > **OnPlayerDamage**(`event`): `void`
 
-Defined in: [src/base/System.ts:163](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L163)
+Defined in: [src/base/System.ts:210](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L210)
 
 Instance.OnPlayerDamage
 
@@ -2273,7 +3089,7 @@ Instance.OnPlayerDamage
 
 > **OnPlayerDisconnect**(`event`): `void`
 
-Defined in: [src/base/System.ts:169](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L169)
+Defined in: [src/base/System.ts:83](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L83)
 
 Instance.OnPlayerDisconnect
 
@@ -2296,7 +3112,7 @@ Instance.OnPlayerDisconnect
 
 > **OnPlayerJump**(`event`): `void`
 
-Defined in: [src/base/System.ts:175](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L175)
+Defined in: [src/base/System.ts:222](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L222)
 
 Instance.OnPlayerJump
 
@@ -2319,7 +3135,7 @@ Instance.OnPlayerJump
 
 > **OnPlayerKill**(`event`): `void`
 
-Defined in: [src/base/System.ts:181](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L181)
+Defined in: [src/base/System.ts:216](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L216)
 
 Instance.OnPlayerKill
 
@@ -2345,7 +3161,7 @@ Instance.OnPlayerKill
 
 > **OnPlayerLand**(`event`): `void`
 
-Defined in: [src/base/System.ts:187](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L187)
+Defined in: [src/base/System.ts:228](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L228)
 
 Instance.OnPlayerLand
 
@@ -2368,7 +3184,7 @@ Instance.OnPlayerLand
 
 > **OnPlayerPing**(`event`): `void`
 
-Defined in: [src/base/System.ts:193](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L193)
+Defined in: [src/base/System.ts:240](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L240)
 
 Instance.OnPlayerPing
 
@@ -2392,7 +3208,7 @@ Instance.OnPlayerPing
 
 > **OnPlayerReset**(`event`): `void`
 
-Defined in: [src/base/System.ts:199](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L199)
+Defined in: [src/base/System.ts:89](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L89)
 
 Instance.OnPlayerReset
 
@@ -2411,11 +3227,35 @@ Instance.OnPlayerReset
 
 [`System`](Namespace.Base.md#abstract-system).[`OnPlayerReset`](Namespace.Base.md#onplayerreset)
 
+##### OnPlayerTeamChanged()
+
+> **OnPlayerTeamChanged**(`event`): `void`
+
+Defined in: [src/base/System.ts:95](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L95)
+
+Instance.OnPlayerTeamChanged
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `event` | \{ `oldTeam`: `number`; `player`: `CSPlayerPawn`; \} |
+| `event.oldTeam` | `number` |
+| `event.player` | `CSPlayerPawn` |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`System`](Namespace.Base.md#abstract-system).[`OnPlayerTeamChanged`](Namespace.Base.md#onplayerteamchanged)
+
 ##### OnRoundEnd()
 
 > **OnRoundEnd**(`event`): `void`
 
-Defined in: [src/base/System.ts:205](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L205)
+Defined in: [src/base/System.ts:107](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L107)
 
 Instance.OnRoundEnd
 
@@ -2439,7 +3279,7 @@ Instance.OnRoundEnd
 
 > **OnRoundStart**(): `void`
 
-Defined in: [src/base/System.ts:211](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L211)
+Defined in: [src/base/System.ts:101](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L101)
 
 Instance.OnRoundStart
 
@@ -2455,7 +3295,7 @@ Instance.OnRoundStart
 
 > **OnScriptReload**(): `void`
 
-Defined in: [src/base/System.ts:234](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L234)
+Defined in: [src/base/System.ts:311](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L311)
 
 Simpler Version of OnScriptReloadAfter
 
@@ -2471,7 +3311,7 @@ Simpler Version of OnScriptReloadAfter
 
 > **OnScriptReloadAfter**\<`T`\>(`memory`): `void`
 
-Defined in: [src/base/System.ts:229](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L229)
+Defined in: [src/base/System.ts:306](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L306)
 
 Instance.OnReload({after})
 
@@ -2499,7 +3339,7 @@ Instance.OnReload({after})
 
 > **OnScriptReloadBefore**\<`T`\>(): `T`
 
-Defined in: [src/base/System.ts:223](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L223)
+Defined in: [src/base/System.ts:300](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L300)
 
 Instance.OnReload({before})
 
@@ -2521,7 +3361,7 @@ Instance.OnReload({before})
 
 > **OnWeaponDrop**(`event`): `void`
 
-Defined in: [src/base/System.ts:127](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L127)
+Defined in: [src/base/System.ts:264](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L264)
 
 Instance.OnWeaponDrop
 
@@ -2545,7 +3385,7 @@ Instance.OnWeaponDrop
 
 > **OnWeaponPickup**(`event`): `void`
 
-Defined in: [src/base/System.ts:133](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L133)
+Defined in: [src/base/System.ts:270](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L270)
 
 Instance.OnWeaponPickup
 
@@ -2568,7 +3408,7 @@ Instance.OnWeaponPickup
 
 > **SetTick**(`i`): `void`
 
-Defined in: [src/base/System.ts:32](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L32)
+Defined in: [src/base/System.ts:37](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L37)
 
 ###### Parameters
 
@@ -2588,7 +3428,7 @@ Defined in: [src/base/System.ts:32](https://github.com/Orb-Workshop/scriptedeuch
 
 > **SetTickInterval**(`i`): `void`
 
-Defined in: [src/base/System.ts:31](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L31)
+Defined in: [src/base/System.ts:36](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L36)
 
 ###### Parameters
 
@@ -2608,7 +3448,7 @@ Defined in: [src/base/System.ts:31](https://github.com/Orb-Workshop/scriptedeuch
 
 > **Think**(): `void`
 
-Defined in: [src/system/DoubleJumpSystem.ts:17](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/system/DoubleJumpSystem.ts#L17)
+Defined in: [src/system/DoubleJump.ts:17](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/system/DoubleJump.ts#L17)
 
 Replacement for `Instance.SetThink()` when used with `Base.Mount`.
 
@@ -2622,9 +3462,9 @@ Replacement for `Instance.SetThink()` when used with `Base.Mount`.
 
 ***
 
-### FreezeTimeSystem
+### FreezeTime
 
-Defined in: [src/system/FreezeTimeSystem.ts:14](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/system/FreezeTimeSystem.ts#L14)
+Defined in: [src/system/FreezeTime.ts:14](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/system/FreezeTime.ts#L14)
 
 Mountable System Abstraction.
 
@@ -2636,13 +3476,13 @@ Mountable System Abstraction.
 
 ##### Constructor
 
-> **new FreezeTimeSystem**(): [`FreezeTimeSystem`](#freezetimesystem)
+> **new FreezeTime**(): [`FreezeTime`](#freezetime)
 
-Defined in: [src/system/FreezeTimeSystem.ts:21](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/system/FreezeTimeSystem.ts#L21)
+Defined in: [src/system/FreezeTime.ts:21](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/system/FreezeTime.ts#L21)
 
 ###### Returns
 
-[`FreezeTimeSystem`](#freezetimesystem)
+[`FreezeTime`](#freezetime)
 
 ###### Overrides
 
@@ -2654,7 +3494,7 @@ Defined in: [src/system/FreezeTimeSystem.ts:21](https://github.com/Orb-Workshop/
 
 > **DisableSystem**(): `void`
 
-Defined in: [src/base/System.ts:29](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L29)
+Defined in: [src/base/System.ts:34](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L34)
 
 ###### Returns
 
@@ -2668,7 +3508,7 @@ Defined in: [src/base/System.ts:29](https://github.com/Orb-Workshop/scriptedeuch
 
 > **EnableSystem**(): `void`
 
-Defined in: [src/base/System.ts:28](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L28)
+Defined in: [src/base/System.ts:33](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L33)
 
 ###### Returns
 
@@ -2682,7 +3522,7 @@ Defined in: [src/base/System.ts:28](https://github.com/Orb-Workshop/scriptedeuch
 
 > **GetDelta**(): `number`
 
-Defined in: [src/base/System.ts:33](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L33)
+Defined in: [src/base/System.ts:38](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L38)
 
 ###### Returns
 
@@ -2696,7 +3536,7 @@ Defined in: [src/base/System.ts:33](https://github.com/Orb-Workshop/scriptedeuch
 
 > **GetElapsedFreezeTime**(): `number`
 
-Defined in: [src/system/FreezeTimeSystem.ts:28](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/system/FreezeTimeSystem.ts#L28)
+Defined in: [src/system/FreezeTime.ts:28](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/system/FreezeTime.ts#L28)
 
 The elapsed amount of time since the round began, and the match has been frozen.
 
@@ -2708,7 +3548,7 @@ The elapsed amount of time since the round began, and the match has been frozen.
 
 > **GetElapsedRoundTime**(): `number`
 
-Defined in: [src/system/FreezeTimeSystem.ts:40](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/system/FreezeTimeSystem.ts#L40)
+Defined in: [src/system/FreezeTime.ts:40](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/system/FreezeTime.ts#L40)
 
 Returns the elapsed time since the round started, taking into
 account the freeze time.
@@ -2725,7 +3565,7 @@ Note:
 
 > **IsSystemEnabled**(): `boolean`
 
-Defined in: [src/base/System.ts:30](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L30)
+Defined in: [src/base/System.ts:35](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L35)
 
 ###### Returns
 
@@ -2739,7 +3579,7 @@ Defined in: [src/base/System.ts:30](https://github.com/Orb-Workshop/scriptedeuch
 
 > **MaybeThink**(): `void`
 
-Defined in: [src/base/System.ts:35](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L35)
+Defined in: [src/base/System.ts:40](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L40)
 
 ###### Returns
 
@@ -2753,7 +3593,7 @@ Defined in: [src/base/System.ts:35](https://github.com/Orb-Workshop/scriptedeuch
 
 > **OnActivate**(): `void`
 
-Defined in: [src/base/System.ts:60](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L60)
+Defined in: [src/base/System.ts:65](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L65)
 
 Instance.OnActivate()
 
@@ -2769,7 +3609,7 @@ Instance.OnActivate()
 
 > **OnBeforePlayerDamage**(`event`): `any`
 
-Defined in: [src/base/System.ts:67](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L67)
+Defined in: [src/base/System.ts:198](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L198)
 
 Instance.OnBeforePlayerDamage()
 
@@ -2789,13 +3629,13 @@ Instance.OnBeforePlayerDamage()
 
 [`System`](Namespace.Base.md#abstract-system).[`OnBeforePlayerDamage`](Namespace.Base.md#onbeforeplayerdamage)
 
-##### OnBeginRoundStart()
+##### OnBeginRoundRestart()
 
-> **OnBeginRoundStart**(): `void`
+> **OnBeginRoundRestart**(): `void`
 
-Defined in: [src/base/System.ts:217](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L217)
+Defined in: [src/base/System.ts:113](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L113)
 
-Instance.OnBeginRoundStart
+Instance.OnBeginRoundRestart
 
 ###### Returns
 
@@ -2803,13 +3643,13 @@ Instance.OnBeginRoundStart
 
 ###### Inherited from
 
-[`System`](Namespace.Base.md#abstract-system).[`OnBeginRoundStart`](Namespace.Base.md#onbeginroundstart)
+[`System`](Namespace.Base.md#abstract-system).[`OnBeginRoundRestart`](Namespace.Base.md#onbeginroundrestart)
 
 ##### OnBombDefuse()
 
 > **OnBombDefuse**(`event`): `void`
 
-Defined in: [src/base/System.ts:79](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L79)
+Defined in: [src/base/System.ts:149](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L149)
 
 Instance.OnBombDefuse()
 
@@ -2817,9 +3657,7 @@ Instance.OnBombDefuse()
 
 | Parameter | Type |
 | ------ | ------ |
-| `event` | \{ `plantedC4`: `Entity`; `planter`: `CSPlayerPawn`; \} |
-| `event.plantedC4` | `Entity` |
-| `event.planter` | `CSPlayerPawn` |
+| `event` | `BombDefuseEvent` |
 
 ###### Returns
 
@@ -2829,13 +3667,59 @@ Instance.OnBombDefuse()
 
 [`System`](Namespace.Base.md#abstract-system).[`OnBombDefuse`](Namespace.Base.md#onbombdefuse)
 
+##### OnBombDefuseAbort()
+
+> **OnBombDefuseAbort**(`event`): `void`
+
+Defined in: [src/base/System.ts:143](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L143)
+
+Instance.OnBombDefuseAbort()
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `event` | \{ `plantedC4`: `Entity`; \} |
+| `event.plantedC4` | `Entity` |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`System`](Namespace.Base.md#abstract-system).[`OnBombDefuseAbort`](Namespace.Base.md#onbombdefuseabort)
+
+##### OnBombDefuseStart()
+
+> **OnBombDefuseStart**(`event`): `void`
+
+Defined in: [src/base/System.ts:137](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L137)
+
+Instance.OnBombDefuseStart()
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `event` | \{ `plantedC4`: `Entity`; \} |
+| `event.plantedC4` | `Entity` |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`System`](Namespace.Base.md#abstract-system).[`OnBombDefuseStart`](Namespace.Base.md#onbombdefusestart)
+
 ##### OnBombExplode()
 
 > **OnBombExplode**(`event`): `void`
 
-Defined in: [src/base/System.ts:91](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L91)
+Defined in: [src/base/System.ts:155](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L155)
 
-Instance.OnBombPlant()
+Instance.OnBombExplode()
 
 ###### Parameters
 
@@ -2856,7 +3740,7 @@ Instance.OnBombPlant()
 
 > **OnBombPlant**(`event`): `void`
 
-Defined in: [src/base/System.ts:85](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L85)
+Defined in: [src/base/System.ts:131](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L131)
 
 Instance.OnBombPlant()
 
@@ -2876,11 +3760,57 @@ Instance.OnBombPlant()
 
 [`System`](Namespace.Base.md#abstract-system).[`OnBombPlant`](Namespace.Base.md#onbombplant)
 
+##### OnBombPlantAbort()
+
+> **OnBombPlantAbort**(`event`): `void`
+
+Defined in: [src/base/System.ts:125](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L125)
+
+Instance.OnBombPlantAbort()
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `event` | \{ `planter`: `CSPlayerPawn`; \} |
+| `event.planter` | `CSPlayerPawn` |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`System`](Namespace.Base.md#abstract-system).[`OnBombPlantAbort`](Namespace.Base.md#onbombplantabort)
+
+##### OnBombPlantStart()
+
+> **OnBombPlantStart**(`event`): `void`
+
+Defined in: [src/base/System.ts:119](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L119)
+
+Instance.OnBombPlantStart()
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `event` | \{ `planter`: `CSPlayerPawn`; \} |
+| `event.planter` | `CSPlayerPawn` |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`System`](Namespace.Base.md#abstract-system).[`OnBombPlantStart`](Namespace.Base.md#onbombplantstart)
+
 ##### OnBulletImpact()
 
 > **OnBulletImpact**(`event`): `void`
 
-Defined in: [src/base/System.ts:97](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L97)
+Defined in: [src/base/System.ts:258](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L258)
 
 Instance.OnBulletImpact()
 
@@ -2900,11 +3830,36 @@ Instance.OnBulletImpact()
 
 [`System`](Namespace.Base.md#abstract-system).[`OnBulletImpact`](Namespace.Base.md#onbulletimpact)
 
+##### OnCustomHudClicked()
+
+> **OnCustomHudClicked**(`event`): `void`
+
+Defined in: [src/base/System.ts:294](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L294)
+
+Instance.OnCustomHudClicked()
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `event` | \{ `buttonId`: `string`; `layout`: `CustomHudLayout`; `player`: `CSPlayerController`; \} |
+| `event.buttonId` | `string` |
+| `event.layout` | `CustomHudLayout` |
+| `event.player` | `CSPlayerController` |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`System`](Namespace.Base.md#abstract-system).[`OnCustomHudClicked`](Namespace.Base.md#oncustomhudclicked)
+
 ##### OnGrenadeBounce()
 
 > **OnGrenadeBounce**(`event`): `void`
 
-Defined in: [src/base/System.ts:103](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L103)
+Defined in: [src/base/System.ts:282](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L282)
 
 Instance.OnGrenadeBounce()
 
@@ -2928,7 +3883,7 @@ Instance.OnGrenadeBounce()
 
 > **OnGrenadeThrow**(`event`): `void`
 
-Defined in: [src/base/System.ts:109](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L109)
+Defined in: [src/base/System.ts:276](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L276)
 
 Instance.OnGrenadeThrow()
 
@@ -2952,7 +3907,7 @@ Instance.OnGrenadeThrow()
 
 > **OnGunFire**(`event`): `void`
 
-Defined in: [src/base/System.ts:115](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L115)
+Defined in: [src/base/System.ts:252](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L252)
 
 Instance.OnGunFire()
 
@@ -2975,7 +3930,7 @@ Instance.OnGunFire()
 
 > **OnGunReload**(`event`): `void`
 
-Defined in: [src/base/System.ts:121](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L121)
+Defined in: [src/base/System.ts:246](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L246)
 
 Instance.OnGunReload
 
@@ -2994,11 +3949,152 @@ Instance.OnGunReload
 
 [`System`](Namespace.Base.md#abstract-system).[`OnGunReload`](Namespace.Base.md#ongunreload)
 
+##### OnHostageDrop()
+
+> **OnHostageDrop**(`event`): `void`
+
+Defined in: [src/base/System.ts:179](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L179)
+
+Instance.OnHostageDrop
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `event` | \{ `dropper`: `CSPlayerPawn`; `hostage`: `CSHostage`; \} |
+| `event.dropper` | `CSPlayerPawn` |
+| `event.hostage` | `CSHostage` |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`System`](Namespace.Base.md#abstract-system).[`OnHostageDrop`](Namespace.Base.md#onhostagedrop)
+
+##### OnHostageKill()
+
+> **OnHostageKill**(`event`): `void`
+
+Defined in: [src/base/System.ts:191](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L191)
+
+Instance.OnHostageKill
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `event` | \{ `attacker?`: `any`; `hostage`: `CSHostage`; \} |
+| `event.attacker?` | `any` |
+| `event.hostage` | `CSHostage` |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`System`](Namespace.Base.md#abstract-system).[`OnHostageKill`](Namespace.Base.md#onhostagekill)
+
+##### OnHostagePickUp()
+
+> **OnHostagePickUp**(`event`): `void`
+
+Defined in: [src/base/System.ts:173](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L173)
+
+Instance.OnHostagePickUp
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `event` | \{ `hostage`: `CSHostage`; \} |
+| `event.hostage` | `CSHostage` |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`System`](Namespace.Base.md#abstract-system).[`OnHostagePickUp`](Namespace.Base.md#onhostagepickup)
+
+##### OnHostagePickUpAbort()
+
+> **OnHostagePickUpAbort**(`event`): `void`
+
+Defined in: [src/base/System.ts:167](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L167)
+
+Instance.OnHostagePickUpAbort
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `event` | \{ `hostage`: `CSHostage`; `player`: `CSPlayerPawn`; \} |
+| `event.hostage` | `CSHostage` |
+| `event.player` | `CSPlayerPawn` |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`System`](Namespace.Base.md#abstract-system).[`OnHostagePickUpAbort`](Namespace.Base.md#onhostagepickupabort)
+
+##### OnHostagePickUpStart()
+
+> **OnHostagePickUpStart**(`event`): `void`
+
+Defined in: [src/base/System.ts:161](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L161)
+
+Instance.OnHostagePickUpStart
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `event` | \{ `hostage`: `CSHostage`; \} |
+| `event.hostage` | `CSHostage` |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`System`](Namespace.Base.md#abstract-system).[`OnHostagePickUpStart`](Namespace.Base.md#onhostagepickupstart)
+
+##### OnHostageRescue()
+
+> **OnHostageRescue**(`event`): `void`
+
+Defined in: [src/base/System.ts:185](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L185)
+
+Instance.OnHostageRescue
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `event` | \{ `hostage`: `CSHostage`; \} |
+| `event.hostage` | `CSHostage` |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`System`](Namespace.Base.md#abstract-system).[`OnHostageRescue`](Namespace.Base.md#onhostagerescue)
+
 ##### OnKnifeAttack()
 
 > **OnKnifeAttack**(`event`): `void`
 
-Defined in: [src/base/System.ts:139](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L139)
+Defined in: [src/base/System.ts:288](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L288)
 
 Instance.OnKnifeAttack
 
@@ -3022,7 +4118,7 @@ Instance.OnKnifeAttack
 
 > **OnModifyPlayerDamage**(`event`): `any`
 
-Defined in: [src/base/System.ts:73](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L73)
+Defined in: [src/base/System.ts:204](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L204)
 
 Instance.OnModifyPlayerDamage()
 
@@ -3044,7 +4140,7 @@ Instance.OnModifyPlayerDamage()
 
 > **OnPlayerActivate**(`event`): `void`
 
-Defined in: [src/base/System.ts:145](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L145)
+Defined in: [src/base/System.ts:77](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L77)
 
 Instance.OnPlayerActivate
 
@@ -3067,7 +4163,7 @@ Instance.OnPlayerActivate
 
 > **OnPlayerChat**(`event`): `void`
 
-Defined in: [src/base/System.ts:151](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L151)
+Defined in: [src/base/System.ts:234](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L234)
 
 Instance.OnPlayerChat
 
@@ -3092,7 +4188,7 @@ Instance.OnPlayerChat
 
 > **OnPlayerConnect**(`event`): `void`
 
-Defined in: [src/base/System.ts:157](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L157)
+Defined in: [src/base/System.ts:71](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L71)
 
 Instance.OnPlayerConnect
 
@@ -3115,7 +4211,7 @@ Instance.OnPlayerConnect
 
 > **OnPlayerDamage**(`event`): `void`
 
-Defined in: [src/base/System.ts:163](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L163)
+Defined in: [src/base/System.ts:210](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L210)
 
 Instance.OnPlayerDamage
 
@@ -3137,7 +4233,7 @@ Instance.OnPlayerDamage
 
 > **OnPlayerDisconnect**(`event`): `void`
 
-Defined in: [src/base/System.ts:169](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L169)
+Defined in: [src/base/System.ts:83](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L83)
 
 Instance.OnPlayerDisconnect
 
@@ -3160,7 +4256,7 @@ Instance.OnPlayerDisconnect
 
 > **OnPlayerJump**(`event`): `void`
 
-Defined in: [src/base/System.ts:175](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L175)
+Defined in: [src/base/System.ts:222](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L222)
 
 Instance.OnPlayerJump
 
@@ -3183,7 +4279,7 @@ Instance.OnPlayerJump
 
 > **OnPlayerKill**(`event`): `void`
 
-Defined in: [src/base/System.ts:181](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L181)
+Defined in: [src/base/System.ts:216](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L216)
 
 Instance.OnPlayerKill
 
@@ -3209,7 +4305,7 @@ Instance.OnPlayerKill
 
 > **OnPlayerLand**(`event`): `void`
 
-Defined in: [src/base/System.ts:187](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L187)
+Defined in: [src/base/System.ts:228](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L228)
 
 Instance.OnPlayerLand
 
@@ -3232,7 +4328,7 @@ Instance.OnPlayerLand
 
 > **OnPlayerPing**(`event`): `void`
 
-Defined in: [src/base/System.ts:193](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L193)
+Defined in: [src/base/System.ts:240](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L240)
 
 Instance.OnPlayerPing
 
@@ -3256,7 +4352,7 @@ Instance.OnPlayerPing
 
 > **OnPlayerReset**(`event`): `void`
 
-Defined in: [src/base/System.ts:199](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L199)
+Defined in: [src/base/System.ts:89](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L89)
 
 Instance.OnPlayerReset
 
@@ -3275,11 +4371,35 @@ Instance.OnPlayerReset
 
 [`System`](Namespace.Base.md#abstract-system).[`OnPlayerReset`](Namespace.Base.md#onplayerreset)
 
+##### OnPlayerTeamChanged()
+
+> **OnPlayerTeamChanged**(`event`): `void`
+
+Defined in: [src/base/System.ts:95](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L95)
+
+Instance.OnPlayerTeamChanged
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `event` | \{ `oldTeam`: `number`; `player`: `CSPlayerPawn`; \} |
+| `event.oldTeam` | `number` |
+| `event.player` | `CSPlayerPawn` |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`System`](Namespace.Base.md#abstract-system).[`OnPlayerTeamChanged`](Namespace.Base.md#onplayerteamchanged)
+
 ##### OnRoundEnd()
 
 > **OnRoundEnd**(): `void`
 
-Defined in: [src/system/FreezeTimeSystem.ts:50](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/system/FreezeTimeSystem.ts#L50)
+Defined in: [src/system/FreezeTime.ts:50](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/system/FreezeTime.ts#L50)
 
 Instance.OnRoundEnd
 
@@ -3295,7 +4415,7 @@ Instance.OnRoundEnd
 
 > **OnRoundStart**(): `void`
 
-Defined in: [src/system/FreezeTimeSystem.ts:45](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/system/FreezeTimeSystem.ts#L45)
+Defined in: [src/system/FreezeTime.ts:45](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/system/FreezeTime.ts#L45)
 
 Instance.OnRoundStart
 
@@ -3311,7 +4431,7 @@ Instance.OnRoundStart
 
 > **OnScriptReload**(): `void`
 
-Defined in: [src/base/System.ts:234](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L234)
+Defined in: [src/base/System.ts:311](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L311)
 
 Simpler Version of OnScriptReloadAfter
 
@@ -3327,7 +4447,7 @@ Simpler Version of OnScriptReloadAfter
 
 > **OnScriptReloadAfter**\<`T`\>(`memory`): `void`
 
-Defined in: [src/base/System.ts:229](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L229)
+Defined in: [src/base/System.ts:306](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L306)
 
 Instance.OnReload({after})
 
@@ -3355,7 +4475,7 @@ Instance.OnReload({after})
 
 > **OnScriptReloadBefore**\<`T`\>(): `T`
 
-Defined in: [src/base/System.ts:223](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L223)
+Defined in: [src/base/System.ts:300](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L300)
 
 Instance.OnReload({before})
 
@@ -3377,7 +4497,7 @@ Instance.OnReload({before})
 
 > **OnWeaponDrop**(`event`): `void`
 
-Defined in: [src/base/System.ts:127](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L127)
+Defined in: [src/base/System.ts:264](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L264)
 
 Instance.OnWeaponDrop
 
@@ -3401,7 +4521,7 @@ Instance.OnWeaponDrop
 
 > **OnWeaponPickup**(`event`): `void`
 
-Defined in: [src/base/System.ts:133](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L133)
+Defined in: [src/base/System.ts:270](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L270)
 
 Instance.OnWeaponPickup
 
@@ -3424,7 +4544,7 @@ Instance.OnWeaponPickup
 
 > **SetTick**(`i`): `void`
 
-Defined in: [src/base/System.ts:32](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L32)
+Defined in: [src/base/System.ts:37](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L37)
 
 ###### Parameters
 
@@ -3444,7 +4564,7 @@ Defined in: [src/base/System.ts:32](https://github.com/Orb-Workshop/scriptedeuch
 
 > **SetTickInterval**(`i`): `void`
 
-Defined in: [src/base/System.ts:31](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L31)
+Defined in: [src/base/System.ts:36](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L36)
 
 ###### Parameters
 
@@ -3464,7 +4584,7 @@ Defined in: [src/base/System.ts:31](https://github.com/Orb-Workshop/scriptedeuch
 
 > **Think**(): `void`
 
-Defined in: [src/system/FreezeTimeSystem.ts:54](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/system/FreezeTimeSystem.ts#L54)
+Defined in: [src/system/FreezeTime.ts:54](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/system/FreezeTime.ts#L54)
 
 Replacement for `Instance.SetThink()` when used with `Base.Mount`.
 
@@ -3478,9 +4598,9 @@ Replacement for `Instance.SetThink()` when used with `Base.Mount`.
 
 ***
 
-### GameAnnouncerSystem
+### GameAnnouncer
 
-Defined in: [src/system/GameAnnouncerSystem.ts:18](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/system/GameAnnouncerSystem.ts#L18)
+Defined in: [src/system/GameAnnouncer.ts:18](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/system/GameAnnouncer.ts#L18)
 
 Mountable System Abstraction.
 
@@ -3492,9 +4612,9 @@ Mountable System Abstraction.
 
 ##### Constructor
 
-> **new GameAnnouncerSystem**(`__namedParameters?`): [`GameAnnouncerSystem`](#gameannouncersystem)
+> **new GameAnnouncer**(`__namedParameters?`): [`GameAnnouncer`](#gameannouncer)
 
-Defined in: [src/system/GameAnnouncerSystem.ts:23](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/system/GameAnnouncerSystem.ts#L23)
+Defined in: [src/system/GameAnnouncer.ts:23](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/system/GameAnnouncer.ts#L23)
 
 ###### Parameters
 
@@ -3505,7 +4625,7 @@ Defined in: [src/system/GameAnnouncerSystem.ts:23](https://github.com/Orb-Worksh
 
 ###### Returns
 
-[`GameAnnouncerSystem`](#gameannouncersystem)
+[`GameAnnouncer`](#gameannouncer)
 
 ###### Overrides
 
@@ -3517,14 +4637,14 @@ Defined in: [src/system/GameAnnouncerSystem.ts:23](https://github.com/Orb-Worksh
 
 > **\_areTeammates**(`player_pawn_a`, `player_pawn_b`): `boolean`
 
-Defined in: [src/system/GameAnnouncerSystem.ts:73](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/system/GameAnnouncerSystem.ts#L73)
+Defined in: [src/system/GameAnnouncer.ts:73](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/system/GameAnnouncer.ts#L73)
 
 ###### Parameters
 
 | Parameter | Type |
 | ------ | ------ |
-| `player_pawn_a` | `any` |
-| `player_pawn_b` | `any` |
+| `player_pawn_a` | `CSPlayerPawn` |
+| `player_pawn_b` | `CSPlayerPawn` |
 
 ###### Returns
 
@@ -3534,13 +4654,13 @@ Defined in: [src/system/GameAnnouncerSystem.ts:73](https://github.com/Orb-Worksh
 
 > **\_checkPlayer**(`player_pawn`): `string` \| `null`
 
-Defined in: [src/system/GameAnnouncerSystem.ts:52](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/system/GameAnnouncerSystem.ts#L52)
+Defined in: [src/system/GameAnnouncer.ts:52](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/system/GameAnnouncer.ts#L52)
 
 ###### Parameters
 
 | Parameter | Type |
 | ------ | ------ |
-| `player_pawn` | `any` |
+| `player_pawn` | `CSPlayerPawn` |
 
 ###### Returns
 
@@ -3550,13 +4670,13 @@ Defined in: [src/system/GameAnnouncerSystem.ts:52](https://github.com/Orb-Worksh
 
 > **\_getPlayer**(`player_pawn`): `any`
 
-Defined in: [src/system/GameAnnouncerSystem.ts:62](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/system/GameAnnouncerSystem.ts#L62)
+Defined in: [src/system/GameAnnouncer.ts:62](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/system/GameAnnouncer.ts#L62)
 
 ###### Parameters
 
 | Parameter | Type |
 | ------ | ------ |
-| `player_pawn` | `any` |
+| `player_pawn` | `CSPlayerPawn` |
 
 ###### Returns
 
@@ -3566,13 +4686,13 @@ Defined in: [src/system/GameAnnouncerSystem.ts:62](https://github.com/Orb-Worksh
 
 > **\_hasKillingSpree**(`player_pawn`): `boolean`
 
-Defined in: [src/system/GameAnnouncerSystem.ts:68](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/system/GameAnnouncerSystem.ts#L68)
+Defined in: [src/system/GameAnnouncer.ts:68](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/system/GameAnnouncer.ts#L68)
 
 ###### Parameters
 
 | Parameter | Type |
 | ------ | ------ |
-| `player_pawn` | `any` |
+| `player_pawn` | `CSPlayerPawn` |
 
 ###### Returns
 
@@ -3582,13 +4702,13 @@ Defined in: [src/system/GameAnnouncerSystem.ts:68](https://github.com/Orb-Worksh
 
 > **\_recordDeath**(`player_pawn`): `void`
 
-Defined in: [src/system/GameAnnouncerSystem.ts:127](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/system/GameAnnouncerSystem.ts#L127)
+Defined in: [src/system/GameAnnouncer.ts:127](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/system/GameAnnouncer.ts#L127)
 
 ###### Parameters
 
 | Parameter | Type |
 | ------ | ------ |
-| `player_pawn` | `any` |
+| `player_pawn` | `CSPlayerPawn` |
 
 ###### Returns
 
@@ -3598,15 +4718,15 @@ Defined in: [src/system/GameAnnouncerSystem.ts:127](https://github.com/Orb-Works
 
 > **\_recordKill**(`player_pawn_attacker`, `player_pawn_death`, `weapon_name`): `void`
 
-Defined in: [src/system/GameAnnouncerSystem.ts:79](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/system/GameAnnouncerSystem.ts#L79)
+Defined in: [src/system/GameAnnouncer.ts:79](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/system/GameAnnouncer.ts#L79)
 
 ###### Parameters
 
 | Parameter | Type |
 | ------ | ------ |
-| `player_pawn_attacker` | `any` |
-| `player_pawn_death` | `any` |
-| `weapon_name` | `any` |
+| `player_pawn_attacker` | `CSPlayerPawn` |
+| `player_pawn_death` | `CSPlayerPawn` |
+| `weapon_name` | `string` |
 
 ###### Returns
 
@@ -3616,13 +4736,13 @@ Defined in: [src/system/GameAnnouncerSystem.ts:79](https://github.com/Orb-Worksh
 
 > **\_resetPlayer**(`player_pawn`): `void`
 
-Defined in: [src/system/GameAnnouncerSystem.ts:38](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/system/GameAnnouncerSystem.ts#L38)
+Defined in: [src/system/GameAnnouncer.ts:38](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/system/GameAnnouncer.ts#L38)
 
 ###### Parameters
 
 | Parameter | Type |
 | ------ | ------ |
-| `player_pawn` | `any` |
+| `player_pawn` | `CSPlayerPawn` |
 
 ###### Returns
 
@@ -3632,7 +4752,7 @@ Defined in: [src/system/GameAnnouncerSystem.ts:38](https://github.com/Orb-Worksh
 
 > **DisableSystem**(): `void`
 
-Defined in: [src/base/System.ts:29](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L29)
+Defined in: [src/base/System.ts:34](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L34)
 
 ###### Returns
 
@@ -3646,7 +4766,7 @@ Defined in: [src/base/System.ts:29](https://github.com/Orb-Workshop/scriptedeuch
 
 > **EnableSystem**(): `void`
 
-Defined in: [src/base/System.ts:28](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L28)
+Defined in: [src/base/System.ts:33](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L33)
 
 ###### Returns
 
@@ -3660,7 +4780,7 @@ Defined in: [src/base/System.ts:28](https://github.com/Orb-Workshop/scriptedeuch
 
 > **GetDelta**(): `number`
 
-Defined in: [src/base/System.ts:33](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L33)
+Defined in: [src/base/System.ts:38](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L38)
 
 ###### Returns
 
@@ -3674,7 +4794,7 @@ Defined in: [src/base/System.ts:33](https://github.com/Orb-Workshop/scriptedeuch
 
 > **IsSystemEnabled**(): `boolean`
 
-Defined in: [src/base/System.ts:30](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L30)
+Defined in: [src/base/System.ts:35](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L35)
 
 ###### Returns
 
@@ -3688,7 +4808,7 @@ Defined in: [src/base/System.ts:30](https://github.com/Orb-Workshop/scriptedeuch
 
 > **MaybeThink**(): `void`
 
-Defined in: [src/base/System.ts:35](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L35)
+Defined in: [src/base/System.ts:40](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L40)
 
 ###### Returns
 
@@ -3702,7 +4822,7 @@ Defined in: [src/base/System.ts:35](https://github.com/Orb-Workshop/scriptedeuch
 
 > **OnActivate**(): `void`
 
-Defined in: [src/system/GameAnnouncerSystem.ts:34](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/system/GameAnnouncerSystem.ts#L34)
+Defined in: [src/system/GameAnnouncer.ts:34](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/system/GameAnnouncer.ts#L34)
 
 Instance.OnActivate()
 
@@ -3718,7 +4838,7 @@ Instance.OnActivate()
 
 > **OnBeforePlayerDamage**(`event`): `any`
 
-Defined in: [src/base/System.ts:67](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L67)
+Defined in: [src/base/System.ts:198](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L198)
 
 Instance.OnBeforePlayerDamage()
 
@@ -3738,13 +4858,13 @@ Instance.OnBeforePlayerDamage()
 
 [`System`](Namespace.Base.md#abstract-system).[`OnBeforePlayerDamage`](Namespace.Base.md#onbeforeplayerdamage)
 
-##### OnBeginRoundStart()
+##### OnBeginRoundRestart()
 
-> **OnBeginRoundStart**(): `void`
+> **OnBeginRoundRestart**(): `void`
 
-Defined in: [src/base/System.ts:217](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L217)
+Defined in: [src/base/System.ts:113](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L113)
 
-Instance.OnBeginRoundStart
+Instance.OnBeginRoundRestart
 
 ###### Returns
 
@@ -3752,13 +4872,13 @@ Instance.OnBeginRoundStart
 
 ###### Inherited from
 
-[`System`](Namespace.Base.md#abstract-system).[`OnBeginRoundStart`](Namespace.Base.md#onbeginroundstart)
+[`System`](Namespace.Base.md#abstract-system).[`OnBeginRoundRestart`](Namespace.Base.md#onbeginroundrestart)
 
 ##### OnBombDefuse()
 
 > **OnBombDefuse**(`event`): `void`
 
-Defined in: [src/base/System.ts:79](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L79)
+Defined in: [src/base/System.ts:149](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L149)
 
 Instance.OnBombDefuse()
 
@@ -3766,9 +4886,7 @@ Instance.OnBombDefuse()
 
 | Parameter | Type |
 | ------ | ------ |
-| `event` | \{ `plantedC4`: `Entity`; `planter`: `CSPlayerPawn`; \} |
-| `event.plantedC4` | `Entity` |
-| `event.planter` | `CSPlayerPawn` |
+| `event` | `BombDefuseEvent` |
 
 ###### Returns
 
@@ -3778,13 +4896,59 @@ Instance.OnBombDefuse()
 
 [`System`](Namespace.Base.md#abstract-system).[`OnBombDefuse`](Namespace.Base.md#onbombdefuse)
 
+##### OnBombDefuseAbort()
+
+> **OnBombDefuseAbort**(`event`): `void`
+
+Defined in: [src/base/System.ts:143](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L143)
+
+Instance.OnBombDefuseAbort()
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `event` | \{ `plantedC4`: `Entity`; \} |
+| `event.plantedC4` | `Entity` |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`System`](Namespace.Base.md#abstract-system).[`OnBombDefuseAbort`](Namespace.Base.md#onbombdefuseabort)
+
+##### OnBombDefuseStart()
+
+> **OnBombDefuseStart**(`event`): `void`
+
+Defined in: [src/base/System.ts:137](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L137)
+
+Instance.OnBombDefuseStart()
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `event` | \{ `plantedC4`: `Entity`; \} |
+| `event.plantedC4` | `Entity` |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`System`](Namespace.Base.md#abstract-system).[`OnBombDefuseStart`](Namespace.Base.md#onbombdefusestart)
+
 ##### OnBombExplode()
 
 > **OnBombExplode**(`event`): `void`
 
-Defined in: [src/base/System.ts:91](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L91)
+Defined in: [src/base/System.ts:155](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L155)
 
-Instance.OnBombPlant()
+Instance.OnBombExplode()
 
 ###### Parameters
 
@@ -3805,7 +4969,7 @@ Instance.OnBombPlant()
 
 > **OnBombPlant**(`event`): `void`
 
-Defined in: [src/base/System.ts:85](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L85)
+Defined in: [src/base/System.ts:131](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L131)
 
 Instance.OnBombPlant()
 
@@ -3825,11 +4989,57 @@ Instance.OnBombPlant()
 
 [`System`](Namespace.Base.md#abstract-system).[`OnBombPlant`](Namespace.Base.md#onbombplant)
 
+##### OnBombPlantAbort()
+
+> **OnBombPlantAbort**(`event`): `void`
+
+Defined in: [src/base/System.ts:125](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L125)
+
+Instance.OnBombPlantAbort()
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `event` | \{ `planter`: `CSPlayerPawn`; \} |
+| `event.planter` | `CSPlayerPawn` |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`System`](Namespace.Base.md#abstract-system).[`OnBombPlantAbort`](Namespace.Base.md#onbombplantabort)
+
+##### OnBombPlantStart()
+
+> **OnBombPlantStart**(`event`): `void`
+
+Defined in: [src/base/System.ts:119](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L119)
+
+Instance.OnBombPlantStart()
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `event` | \{ `planter`: `CSPlayerPawn`; \} |
+| `event.planter` | `CSPlayerPawn` |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`System`](Namespace.Base.md#abstract-system).[`OnBombPlantStart`](Namespace.Base.md#onbombplantstart)
+
 ##### OnBulletImpact()
 
 > **OnBulletImpact**(`event`): `void`
 
-Defined in: [src/base/System.ts:97](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L97)
+Defined in: [src/base/System.ts:258](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L258)
 
 Instance.OnBulletImpact()
 
@@ -3849,11 +5059,36 @@ Instance.OnBulletImpact()
 
 [`System`](Namespace.Base.md#abstract-system).[`OnBulletImpact`](Namespace.Base.md#onbulletimpact)
 
+##### OnCustomHudClicked()
+
+> **OnCustomHudClicked**(`event`): `void`
+
+Defined in: [src/base/System.ts:294](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L294)
+
+Instance.OnCustomHudClicked()
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `event` | \{ `buttonId`: `string`; `layout`: `CustomHudLayout`; `player`: `CSPlayerController`; \} |
+| `event.buttonId` | `string` |
+| `event.layout` | `CustomHudLayout` |
+| `event.player` | `CSPlayerController` |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`System`](Namespace.Base.md#abstract-system).[`OnCustomHudClicked`](Namespace.Base.md#oncustomhudclicked)
+
 ##### OnGrenadeBounce()
 
 > **OnGrenadeBounce**(`event`): `void`
 
-Defined in: [src/base/System.ts:103](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L103)
+Defined in: [src/base/System.ts:282](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L282)
 
 Instance.OnGrenadeBounce()
 
@@ -3877,7 +5112,7 @@ Instance.OnGrenadeBounce()
 
 > **OnGrenadeThrow**(`event`): `void`
 
-Defined in: [src/base/System.ts:109](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L109)
+Defined in: [src/base/System.ts:276](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L276)
 
 Instance.OnGrenadeThrow()
 
@@ -3901,7 +5136,7 @@ Instance.OnGrenadeThrow()
 
 > **OnGunFire**(`event`): `void`
 
-Defined in: [src/base/System.ts:115](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L115)
+Defined in: [src/base/System.ts:252](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L252)
 
 Instance.OnGunFire()
 
@@ -3924,7 +5159,7 @@ Instance.OnGunFire()
 
 > **OnGunReload**(`event`): `void`
 
-Defined in: [src/base/System.ts:121](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L121)
+Defined in: [src/base/System.ts:246](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L246)
 
 Instance.OnGunReload
 
@@ -3943,11 +5178,152 @@ Instance.OnGunReload
 
 [`System`](Namespace.Base.md#abstract-system).[`OnGunReload`](Namespace.Base.md#ongunreload)
 
+##### OnHostageDrop()
+
+> **OnHostageDrop**(`event`): `void`
+
+Defined in: [src/base/System.ts:179](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L179)
+
+Instance.OnHostageDrop
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `event` | \{ `dropper`: `CSPlayerPawn`; `hostage`: `CSHostage`; \} |
+| `event.dropper` | `CSPlayerPawn` |
+| `event.hostage` | `CSHostage` |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`System`](Namespace.Base.md#abstract-system).[`OnHostageDrop`](Namespace.Base.md#onhostagedrop)
+
+##### OnHostageKill()
+
+> **OnHostageKill**(`event`): `void`
+
+Defined in: [src/base/System.ts:191](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L191)
+
+Instance.OnHostageKill
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `event` | \{ `attacker?`: `any`; `hostage`: `CSHostage`; \} |
+| `event.attacker?` | `any` |
+| `event.hostage` | `CSHostage` |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`System`](Namespace.Base.md#abstract-system).[`OnHostageKill`](Namespace.Base.md#onhostagekill)
+
+##### OnHostagePickUp()
+
+> **OnHostagePickUp**(`event`): `void`
+
+Defined in: [src/base/System.ts:173](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L173)
+
+Instance.OnHostagePickUp
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `event` | \{ `hostage`: `CSHostage`; \} |
+| `event.hostage` | `CSHostage` |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`System`](Namespace.Base.md#abstract-system).[`OnHostagePickUp`](Namespace.Base.md#onhostagepickup)
+
+##### OnHostagePickUpAbort()
+
+> **OnHostagePickUpAbort**(`event`): `void`
+
+Defined in: [src/base/System.ts:167](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L167)
+
+Instance.OnHostagePickUpAbort
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `event` | \{ `hostage`: `CSHostage`; `player`: `CSPlayerPawn`; \} |
+| `event.hostage` | `CSHostage` |
+| `event.player` | `CSPlayerPawn` |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`System`](Namespace.Base.md#abstract-system).[`OnHostagePickUpAbort`](Namespace.Base.md#onhostagepickupabort)
+
+##### OnHostagePickUpStart()
+
+> **OnHostagePickUpStart**(`event`): `void`
+
+Defined in: [src/base/System.ts:161](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L161)
+
+Instance.OnHostagePickUpStart
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `event` | \{ `hostage`: `CSHostage`; \} |
+| `event.hostage` | `CSHostage` |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`System`](Namespace.Base.md#abstract-system).[`OnHostagePickUpStart`](Namespace.Base.md#onhostagepickupstart)
+
+##### OnHostageRescue()
+
+> **OnHostageRescue**(`event`): `void`
+
+Defined in: [src/base/System.ts:185](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L185)
+
+Instance.OnHostageRescue
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `event` | \{ `hostage`: `CSHostage`; \} |
+| `event.hostage` | `CSHostage` |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`System`](Namespace.Base.md#abstract-system).[`OnHostageRescue`](Namespace.Base.md#onhostagerescue)
+
 ##### OnKnifeAttack()
 
 > **OnKnifeAttack**(`event`): `void`
 
-Defined in: [src/base/System.ts:139](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L139)
+Defined in: [src/base/System.ts:288](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L288)
 
 Instance.OnKnifeAttack
 
@@ -3971,7 +5347,7 @@ Instance.OnKnifeAttack
 
 > **OnModifyPlayerDamage**(`event`): `any`
 
-Defined in: [src/base/System.ts:73](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L73)
+Defined in: [src/base/System.ts:204](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L204)
 
 Instance.OnModifyPlayerDamage()
 
@@ -3993,7 +5369,7 @@ Instance.OnModifyPlayerDamage()
 
 > **OnPlayerActivate**(`event`): `void`
 
-Defined in: [src/base/System.ts:145](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L145)
+Defined in: [src/base/System.ts:77](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L77)
 
 Instance.OnPlayerActivate
 
@@ -4016,7 +5392,7 @@ Instance.OnPlayerActivate
 
 > **OnPlayerChat**(`event`): `void`
 
-Defined in: [src/base/System.ts:151](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L151)
+Defined in: [src/base/System.ts:234](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L234)
 
 Instance.OnPlayerChat
 
@@ -4041,7 +5417,7 @@ Instance.OnPlayerChat
 
 > **OnPlayerConnect**(`event`): `void`
 
-Defined in: [src/base/System.ts:157](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L157)
+Defined in: [src/base/System.ts:71](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L71)
 
 Instance.OnPlayerConnect
 
@@ -4064,7 +5440,7 @@ Instance.OnPlayerConnect
 
 > **OnPlayerDamage**(`event`): `void`
 
-Defined in: [src/base/System.ts:163](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L163)
+Defined in: [src/base/System.ts:210](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L210)
 
 Instance.OnPlayerDamage
 
@@ -4086,7 +5462,7 @@ Instance.OnPlayerDamage
 
 > **OnPlayerDisconnect**(`event`): `void`
 
-Defined in: [src/base/System.ts:169](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L169)
+Defined in: [src/base/System.ts:83](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L83)
 
 Instance.OnPlayerDisconnect
 
@@ -4109,7 +5485,7 @@ Instance.OnPlayerDisconnect
 
 > **OnPlayerJump**(`event`): `void`
 
-Defined in: [src/base/System.ts:175](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L175)
+Defined in: [src/base/System.ts:222](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L222)
 
 Instance.OnPlayerJump
 
@@ -4132,7 +5508,7 @@ Instance.OnPlayerJump
 
 > **OnPlayerKill**(`event`): `void`
 
-Defined in: [src/system/GameAnnouncerSystem.ts:131](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/system/GameAnnouncerSystem.ts#L131)
+Defined in: [src/system/GameAnnouncer.ts:131](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/system/GameAnnouncer.ts#L131)
 
 Instance.OnPlayerKill
 
@@ -4154,7 +5530,7 @@ Instance.OnPlayerKill
 
 > **OnPlayerLand**(`event`): `void`
 
-Defined in: [src/base/System.ts:187](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L187)
+Defined in: [src/base/System.ts:228](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L228)
 
 Instance.OnPlayerLand
 
@@ -4177,7 +5553,7 @@ Instance.OnPlayerLand
 
 > **OnPlayerPing**(`event`): `void`
 
-Defined in: [src/base/System.ts:193](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L193)
+Defined in: [src/base/System.ts:240](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L240)
 
 Instance.OnPlayerPing
 
@@ -4201,7 +5577,7 @@ Instance.OnPlayerPing
 
 > **OnPlayerReset**(`event`): `void`
 
-Defined in: [src/base/System.ts:199](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L199)
+Defined in: [src/base/System.ts:89](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L89)
 
 Instance.OnPlayerReset
 
@@ -4220,11 +5596,35 @@ Instance.OnPlayerReset
 
 [`System`](Namespace.Base.md#abstract-system).[`OnPlayerReset`](Namespace.Base.md#onplayerreset)
 
+##### OnPlayerTeamChanged()
+
+> **OnPlayerTeamChanged**(`event`): `void`
+
+Defined in: [src/base/System.ts:95](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L95)
+
+Instance.OnPlayerTeamChanged
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `event` | \{ `oldTeam`: `number`; `player`: `CSPlayerPawn`; \} |
+| `event.oldTeam` | `number` |
+| `event.player` | `CSPlayerPawn` |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`System`](Namespace.Base.md#abstract-system).[`OnPlayerTeamChanged`](Namespace.Base.md#onplayerteamchanged)
+
 ##### OnRoundEnd()
 
 > **OnRoundEnd**(`event`): `void`
 
-Defined in: [src/base/System.ts:205](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L205)
+Defined in: [src/base/System.ts:107](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L107)
 
 Instance.OnRoundEnd
 
@@ -4248,7 +5648,7 @@ Instance.OnRoundEnd
 
 > **OnRoundStart**(): `void`
 
-Defined in: [src/base/System.ts:211](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L211)
+Defined in: [src/base/System.ts:101](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L101)
 
 Instance.OnRoundStart
 
@@ -4264,7 +5664,7 @@ Instance.OnRoundStart
 
 > **OnScriptReload**(): `void`
 
-Defined in: [src/base/System.ts:234](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L234)
+Defined in: [src/base/System.ts:311](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L311)
 
 Simpler Version of OnScriptReloadAfter
 
@@ -4280,7 +5680,7 @@ Simpler Version of OnScriptReloadAfter
 
 > **OnScriptReloadAfter**\<`T`\>(`memory`): `void`
 
-Defined in: [src/base/System.ts:229](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L229)
+Defined in: [src/base/System.ts:306](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L306)
 
 Instance.OnReload({after})
 
@@ -4308,7 +5708,7 @@ Instance.OnReload({after})
 
 > **OnScriptReloadBefore**\<`T`\>(): `T`
 
-Defined in: [src/base/System.ts:223](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L223)
+Defined in: [src/base/System.ts:300](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L300)
 
 Instance.OnReload({before})
 
@@ -4330,7 +5730,7 @@ Instance.OnReload({before})
 
 > **OnWeaponDrop**(`event`): `void`
 
-Defined in: [src/base/System.ts:127](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L127)
+Defined in: [src/base/System.ts:264](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L264)
 
 Instance.OnWeaponDrop
 
@@ -4354,7 +5754,7 @@ Instance.OnWeaponDrop
 
 > **OnWeaponPickup**(`event`): `void`
 
-Defined in: [src/base/System.ts:133](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L133)
+Defined in: [src/base/System.ts:270](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L270)
 
 Instance.OnWeaponPickup
 
@@ -4377,7 +5777,7 @@ Instance.OnWeaponPickup
 
 > **SetTick**(`i`): `void`
 
-Defined in: [src/base/System.ts:32](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L32)
+Defined in: [src/base/System.ts:37](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L37)
 
 ###### Parameters
 
@@ -4397,7 +5797,7 @@ Defined in: [src/base/System.ts:32](https://github.com/Orb-Workshop/scriptedeuch
 
 > **SetTickInterval**(`i`): `void`
 
-Defined in: [src/base/System.ts:31](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L31)
+Defined in: [src/base/System.ts:36](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L36)
 
 ###### Parameters
 
@@ -4417,7 +5817,7 @@ Defined in: [src/base/System.ts:31](https://github.com/Orb-Workshop/scriptedeuch
 
 > **Think**(): `void`
 
-Defined in: [src/base/System.ts:50](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L50)
+Defined in: [src/base/System.ts:55](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L55)
 
 Replacement for `Instance.SetThink()` when used with `Base.Mount`.
 
@@ -4431,9 +5831,9 @@ Replacement for `Instance.SetThink()` when used with `Base.Mount`.
 
 ***
 
-### KnifeDashSystem
+### KnifeDash
 
-Defined in: [src/system/KnifeDashSystem.ts:13](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/system/KnifeDashSystem.ts#L13)
+Defined in: [src/system/KnifeDash.ts:13](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/system/KnifeDash.ts#L13)
 
 Mountable System Abstraction.
 
@@ -4445,9 +5845,9 @@ Mountable System Abstraction.
 
 ##### Constructor
 
-> **new KnifeDashSystem**(`dash_speed?`): [`KnifeDashSystem`](#knifedashsystem)
+> **new KnifeDash**(`dash_speed?`): [`KnifeDash`](#knifedash)
 
-Defined in: [src/system/KnifeDashSystem.ts:15](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/system/KnifeDashSystem.ts#L15)
+Defined in: [src/system/KnifeDash.ts:15](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/system/KnifeDash.ts#L15)
 
 ###### Parameters
 
@@ -4457,7 +5857,7 @@ Defined in: [src/system/KnifeDashSystem.ts:15](https://github.com/Orb-Workshop/s
 
 ###### Returns
 
-[`KnifeDashSystem`](#knifedashsystem)
+[`KnifeDash`](#knifedash)
 
 ###### Overrides
 
@@ -4467,7 +5867,7 @@ Defined in: [src/system/KnifeDashSystem.ts:15](https://github.com/Orb-Workshop/s
 
 | Property | Type | Defined in |
 | ------ | ------ | ------ |
-| <a id="dash_speed"></a> `dash_speed` | `number` | [src/system/KnifeDashSystem.ts:14](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/system/KnifeDashSystem.ts#L14) |
+| <a id="dash_speed"></a> `dash_speed` | `number` | [src/system/KnifeDash.ts:14](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/system/KnifeDash.ts#L14) |
 
 #### Methods
 
@@ -4475,7 +5875,7 @@ Defined in: [src/system/KnifeDashSystem.ts:15](https://github.com/Orb-Workshop/s
 
 > **DisableSystem**(): `void`
 
-Defined in: [src/base/System.ts:29](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L29)
+Defined in: [src/base/System.ts:34](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L34)
 
 ###### Returns
 
@@ -4489,7 +5889,7 @@ Defined in: [src/base/System.ts:29](https://github.com/Orb-Workshop/scriptedeuch
 
 > **EnableSystem**(): `void`
 
-Defined in: [src/base/System.ts:28](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L28)
+Defined in: [src/base/System.ts:33](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L33)
 
 ###### Returns
 
@@ -4503,7 +5903,7 @@ Defined in: [src/base/System.ts:28](https://github.com/Orb-Workshop/scriptedeuch
 
 > **GetDelta**(): `number`
 
-Defined in: [src/base/System.ts:33](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L33)
+Defined in: [src/base/System.ts:38](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L38)
 
 ###### Returns
 
@@ -4517,7 +5917,7 @@ Defined in: [src/base/System.ts:33](https://github.com/Orb-Workshop/scriptedeuch
 
 > **IsSystemEnabled**(): `boolean`
 
-Defined in: [src/base/System.ts:30](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L30)
+Defined in: [src/base/System.ts:35](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L35)
 
 ###### Returns
 
@@ -4531,7 +5931,7 @@ Defined in: [src/base/System.ts:30](https://github.com/Orb-Workshop/scriptedeuch
 
 > **MaybeThink**(): `void`
 
-Defined in: [src/base/System.ts:35](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L35)
+Defined in: [src/base/System.ts:40](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L40)
 
 ###### Returns
 
@@ -4545,7 +5945,7 @@ Defined in: [src/base/System.ts:35](https://github.com/Orb-Workshop/scriptedeuch
 
 > **OnActivate**(): `void`
 
-Defined in: [src/base/System.ts:60](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L60)
+Defined in: [src/base/System.ts:65](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L65)
 
 Instance.OnActivate()
 
@@ -4561,7 +5961,7 @@ Instance.OnActivate()
 
 > **OnBeforePlayerDamage**(`event`): `any`
 
-Defined in: [src/base/System.ts:67](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L67)
+Defined in: [src/base/System.ts:198](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L198)
 
 Instance.OnBeforePlayerDamage()
 
@@ -4581,13 +5981,13 @@ Instance.OnBeforePlayerDamage()
 
 [`System`](Namespace.Base.md#abstract-system).[`OnBeforePlayerDamage`](Namespace.Base.md#onbeforeplayerdamage)
 
-##### OnBeginRoundStart()
+##### OnBeginRoundRestart()
 
-> **OnBeginRoundStart**(): `void`
+> **OnBeginRoundRestart**(): `void`
 
-Defined in: [src/base/System.ts:217](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L217)
+Defined in: [src/base/System.ts:113](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L113)
 
-Instance.OnBeginRoundStart
+Instance.OnBeginRoundRestart
 
 ###### Returns
 
@@ -4595,13 +5995,13 @@ Instance.OnBeginRoundStart
 
 ###### Inherited from
 
-[`System`](Namespace.Base.md#abstract-system).[`OnBeginRoundStart`](Namespace.Base.md#onbeginroundstart)
+[`System`](Namespace.Base.md#abstract-system).[`OnBeginRoundRestart`](Namespace.Base.md#onbeginroundrestart)
 
 ##### OnBombDefuse()
 
 > **OnBombDefuse**(`event`): `void`
 
-Defined in: [src/base/System.ts:79](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L79)
+Defined in: [src/base/System.ts:149](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L149)
 
 Instance.OnBombDefuse()
 
@@ -4609,9 +6009,7 @@ Instance.OnBombDefuse()
 
 | Parameter | Type |
 | ------ | ------ |
-| `event` | \{ `plantedC4`: `Entity`; `planter`: `CSPlayerPawn`; \} |
-| `event.plantedC4` | `Entity` |
-| `event.planter` | `CSPlayerPawn` |
+| `event` | `BombDefuseEvent` |
 
 ###### Returns
 
@@ -4621,13 +6019,59 @@ Instance.OnBombDefuse()
 
 [`System`](Namespace.Base.md#abstract-system).[`OnBombDefuse`](Namespace.Base.md#onbombdefuse)
 
+##### OnBombDefuseAbort()
+
+> **OnBombDefuseAbort**(`event`): `void`
+
+Defined in: [src/base/System.ts:143](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L143)
+
+Instance.OnBombDefuseAbort()
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `event` | \{ `plantedC4`: `Entity`; \} |
+| `event.plantedC4` | `Entity` |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`System`](Namespace.Base.md#abstract-system).[`OnBombDefuseAbort`](Namespace.Base.md#onbombdefuseabort)
+
+##### OnBombDefuseStart()
+
+> **OnBombDefuseStart**(`event`): `void`
+
+Defined in: [src/base/System.ts:137](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L137)
+
+Instance.OnBombDefuseStart()
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `event` | \{ `plantedC4`: `Entity`; \} |
+| `event.plantedC4` | `Entity` |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`System`](Namespace.Base.md#abstract-system).[`OnBombDefuseStart`](Namespace.Base.md#onbombdefusestart)
+
 ##### OnBombExplode()
 
 > **OnBombExplode**(`event`): `void`
 
-Defined in: [src/base/System.ts:91](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L91)
+Defined in: [src/base/System.ts:155](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L155)
 
-Instance.OnBombPlant()
+Instance.OnBombExplode()
 
 ###### Parameters
 
@@ -4648,7 +6092,7 @@ Instance.OnBombPlant()
 
 > **OnBombPlant**(`event`): `void`
 
-Defined in: [src/base/System.ts:85](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L85)
+Defined in: [src/base/System.ts:131](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L131)
 
 Instance.OnBombPlant()
 
@@ -4668,11 +6112,57 @@ Instance.OnBombPlant()
 
 [`System`](Namespace.Base.md#abstract-system).[`OnBombPlant`](Namespace.Base.md#onbombplant)
 
+##### OnBombPlantAbort()
+
+> **OnBombPlantAbort**(`event`): `void`
+
+Defined in: [src/base/System.ts:125](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L125)
+
+Instance.OnBombPlantAbort()
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `event` | \{ `planter`: `CSPlayerPawn`; \} |
+| `event.planter` | `CSPlayerPawn` |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`System`](Namespace.Base.md#abstract-system).[`OnBombPlantAbort`](Namespace.Base.md#onbombplantabort)
+
+##### OnBombPlantStart()
+
+> **OnBombPlantStart**(`event`): `void`
+
+Defined in: [src/base/System.ts:119](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L119)
+
+Instance.OnBombPlantStart()
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `event` | \{ `planter`: `CSPlayerPawn`; \} |
+| `event.planter` | `CSPlayerPawn` |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`System`](Namespace.Base.md#abstract-system).[`OnBombPlantStart`](Namespace.Base.md#onbombplantstart)
+
 ##### OnBulletImpact()
 
 > **OnBulletImpact**(`event`): `void`
 
-Defined in: [src/base/System.ts:97](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L97)
+Defined in: [src/base/System.ts:258](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L258)
 
 Instance.OnBulletImpact()
 
@@ -4692,11 +6182,36 @@ Instance.OnBulletImpact()
 
 [`System`](Namespace.Base.md#abstract-system).[`OnBulletImpact`](Namespace.Base.md#onbulletimpact)
 
+##### OnCustomHudClicked()
+
+> **OnCustomHudClicked**(`event`): `void`
+
+Defined in: [src/base/System.ts:294](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L294)
+
+Instance.OnCustomHudClicked()
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `event` | \{ `buttonId`: `string`; `layout`: `CustomHudLayout`; `player`: `CSPlayerController`; \} |
+| `event.buttonId` | `string` |
+| `event.layout` | `CustomHudLayout` |
+| `event.player` | `CSPlayerController` |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`System`](Namespace.Base.md#abstract-system).[`OnCustomHudClicked`](Namespace.Base.md#oncustomhudclicked)
+
 ##### OnGrenadeBounce()
 
 > **OnGrenadeBounce**(`event`): `void`
 
-Defined in: [src/base/System.ts:103](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L103)
+Defined in: [src/base/System.ts:282](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L282)
 
 Instance.OnGrenadeBounce()
 
@@ -4720,7 +6235,7 @@ Instance.OnGrenadeBounce()
 
 > **OnGrenadeThrow**(`event`): `void`
 
-Defined in: [src/base/System.ts:109](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L109)
+Defined in: [src/base/System.ts:276](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L276)
 
 Instance.OnGrenadeThrow()
 
@@ -4744,7 +6259,7 @@ Instance.OnGrenadeThrow()
 
 > **OnGunFire**(`event`): `void`
 
-Defined in: [src/base/System.ts:115](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L115)
+Defined in: [src/base/System.ts:252](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L252)
 
 Instance.OnGunFire()
 
@@ -4767,7 +6282,7 @@ Instance.OnGunFire()
 
 > **OnGunReload**(`event`): `void`
 
-Defined in: [src/base/System.ts:121](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L121)
+Defined in: [src/base/System.ts:246](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L246)
 
 Instance.OnGunReload
 
@@ -4786,11 +6301,152 @@ Instance.OnGunReload
 
 [`System`](Namespace.Base.md#abstract-system).[`OnGunReload`](Namespace.Base.md#ongunreload)
 
+##### OnHostageDrop()
+
+> **OnHostageDrop**(`event`): `void`
+
+Defined in: [src/base/System.ts:179](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L179)
+
+Instance.OnHostageDrop
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `event` | \{ `dropper`: `CSPlayerPawn`; `hostage`: `CSHostage`; \} |
+| `event.dropper` | `CSPlayerPawn` |
+| `event.hostage` | `CSHostage` |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`System`](Namespace.Base.md#abstract-system).[`OnHostageDrop`](Namespace.Base.md#onhostagedrop)
+
+##### OnHostageKill()
+
+> **OnHostageKill**(`event`): `void`
+
+Defined in: [src/base/System.ts:191](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L191)
+
+Instance.OnHostageKill
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `event` | \{ `attacker?`: `any`; `hostage`: `CSHostage`; \} |
+| `event.attacker?` | `any` |
+| `event.hostage` | `CSHostage` |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`System`](Namespace.Base.md#abstract-system).[`OnHostageKill`](Namespace.Base.md#onhostagekill)
+
+##### OnHostagePickUp()
+
+> **OnHostagePickUp**(`event`): `void`
+
+Defined in: [src/base/System.ts:173](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L173)
+
+Instance.OnHostagePickUp
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `event` | \{ `hostage`: `CSHostage`; \} |
+| `event.hostage` | `CSHostage` |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`System`](Namespace.Base.md#abstract-system).[`OnHostagePickUp`](Namespace.Base.md#onhostagepickup)
+
+##### OnHostagePickUpAbort()
+
+> **OnHostagePickUpAbort**(`event`): `void`
+
+Defined in: [src/base/System.ts:167](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L167)
+
+Instance.OnHostagePickUpAbort
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `event` | \{ `hostage`: `CSHostage`; `player`: `CSPlayerPawn`; \} |
+| `event.hostage` | `CSHostage` |
+| `event.player` | `CSPlayerPawn` |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`System`](Namespace.Base.md#abstract-system).[`OnHostagePickUpAbort`](Namespace.Base.md#onhostagepickupabort)
+
+##### OnHostagePickUpStart()
+
+> **OnHostagePickUpStart**(`event`): `void`
+
+Defined in: [src/base/System.ts:161](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L161)
+
+Instance.OnHostagePickUpStart
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `event` | \{ `hostage`: `CSHostage`; \} |
+| `event.hostage` | `CSHostage` |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`System`](Namespace.Base.md#abstract-system).[`OnHostagePickUpStart`](Namespace.Base.md#onhostagepickupstart)
+
+##### OnHostageRescue()
+
+> **OnHostageRescue**(`event`): `void`
+
+Defined in: [src/base/System.ts:185](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L185)
+
+Instance.OnHostageRescue
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `event` | \{ `hostage`: `CSHostage`; \} |
+| `event.hostage` | `CSHostage` |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`System`](Namespace.Base.md#abstract-system).[`OnHostageRescue`](Namespace.Base.md#onhostagerescue)
+
 ##### OnKnifeAttack()
 
 > **OnKnifeAttack**(`__namedParameters`): `void`
 
-Defined in: [src/system/KnifeDashSystem.ts:20](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/system/KnifeDashSystem.ts#L20)
+Defined in: [src/system/KnifeDash.ts:20](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/system/KnifeDash.ts#L20)
 
 Instance.OnKnifeAttack
 
@@ -4814,7 +6470,7 @@ Instance.OnKnifeAttack
 
 > **OnModifyPlayerDamage**(`event`): `any`
 
-Defined in: [src/base/System.ts:73](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L73)
+Defined in: [src/base/System.ts:204](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L204)
 
 Instance.OnModifyPlayerDamage()
 
@@ -4836,7 +6492,7 @@ Instance.OnModifyPlayerDamage()
 
 > **OnPlayerActivate**(`event`): `void`
 
-Defined in: [src/base/System.ts:145](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L145)
+Defined in: [src/base/System.ts:77](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L77)
 
 Instance.OnPlayerActivate
 
@@ -4859,7 +6515,7 @@ Instance.OnPlayerActivate
 
 > **OnPlayerChat**(`event`): `void`
 
-Defined in: [src/base/System.ts:151](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L151)
+Defined in: [src/base/System.ts:234](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L234)
 
 Instance.OnPlayerChat
 
@@ -4884,7 +6540,7 @@ Instance.OnPlayerChat
 
 > **OnPlayerConnect**(`event`): `void`
 
-Defined in: [src/base/System.ts:157](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L157)
+Defined in: [src/base/System.ts:71](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L71)
 
 Instance.OnPlayerConnect
 
@@ -4907,7 +6563,7 @@ Instance.OnPlayerConnect
 
 > **OnPlayerDamage**(`event`): `void`
 
-Defined in: [src/base/System.ts:163](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L163)
+Defined in: [src/base/System.ts:210](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L210)
 
 Instance.OnPlayerDamage
 
@@ -4929,7 +6585,7 @@ Instance.OnPlayerDamage
 
 > **OnPlayerDisconnect**(`event`): `void`
 
-Defined in: [src/base/System.ts:169](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L169)
+Defined in: [src/base/System.ts:83](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L83)
 
 Instance.OnPlayerDisconnect
 
@@ -4952,7 +6608,7 @@ Instance.OnPlayerDisconnect
 
 > **OnPlayerJump**(`event`): `void`
 
-Defined in: [src/base/System.ts:175](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L175)
+Defined in: [src/base/System.ts:222](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L222)
 
 Instance.OnPlayerJump
 
@@ -4975,7 +6631,7 @@ Instance.OnPlayerJump
 
 > **OnPlayerKill**(`event`): `void`
 
-Defined in: [src/base/System.ts:181](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L181)
+Defined in: [src/base/System.ts:216](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L216)
 
 Instance.OnPlayerKill
 
@@ -5001,7 +6657,7 @@ Instance.OnPlayerKill
 
 > **OnPlayerLand**(`event`): `void`
 
-Defined in: [src/base/System.ts:187](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L187)
+Defined in: [src/base/System.ts:228](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L228)
 
 Instance.OnPlayerLand
 
@@ -5024,7 +6680,7 @@ Instance.OnPlayerLand
 
 > **OnPlayerPing**(`event`): `void`
 
-Defined in: [src/base/System.ts:193](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L193)
+Defined in: [src/base/System.ts:240](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L240)
 
 Instance.OnPlayerPing
 
@@ -5048,7 +6704,7 @@ Instance.OnPlayerPing
 
 > **OnPlayerReset**(`event`): `void`
 
-Defined in: [src/base/System.ts:199](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L199)
+Defined in: [src/base/System.ts:89](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L89)
 
 Instance.OnPlayerReset
 
@@ -5067,11 +6723,35 @@ Instance.OnPlayerReset
 
 [`System`](Namespace.Base.md#abstract-system).[`OnPlayerReset`](Namespace.Base.md#onplayerreset)
 
+##### OnPlayerTeamChanged()
+
+> **OnPlayerTeamChanged**(`event`): `void`
+
+Defined in: [src/base/System.ts:95](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L95)
+
+Instance.OnPlayerTeamChanged
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `event` | \{ `oldTeam`: `number`; `player`: `CSPlayerPawn`; \} |
+| `event.oldTeam` | `number` |
+| `event.player` | `CSPlayerPawn` |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`System`](Namespace.Base.md#abstract-system).[`OnPlayerTeamChanged`](Namespace.Base.md#onplayerteamchanged)
+
 ##### OnRoundEnd()
 
 > **OnRoundEnd**(`event`): `void`
 
-Defined in: [src/base/System.ts:205](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L205)
+Defined in: [src/base/System.ts:107](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L107)
 
 Instance.OnRoundEnd
 
@@ -5095,7 +6775,7 @@ Instance.OnRoundEnd
 
 > **OnRoundStart**(): `void`
 
-Defined in: [src/base/System.ts:211](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L211)
+Defined in: [src/base/System.ts:101](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L101)
 
 Instance.OnRoundStart
 
@@ -5111,7 +6791,7 @@ Instance.OnRoundStart
 
 > **OnScriptReload**(): `void`
 
-Defined in: [src/base/System.ts:234](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L234)
+Defined in: [src/base/System.ts:311](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L311)
 
 Simpler Version of OnScriptReloadAfter
 
@@ -5127,7 +6807,7 @@ Simpler Version of OnScriptReloadAfter
 
 > **OnScriptReloadAfter**\<`T`\>(`memory`): `void`
 
-Defined in: [src/base/System.ts:229](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L229)
+Defined in: [src/base/System.ts:306](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L306)
 
 Instance.OnReload({after})
 
@@ -5155,7 +6835,7 @@ Instance.OnReload({after})
 
 > **OnScriptReloadBefore**\<`T`\>(): `T`
 
-Defined in: [src/base/System.ts:223](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L223)
+Defined in: [src/base/System.ts:300](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L300)
 
 Instance.OnReload({before})
 
@@ -5177,7 +6857,7 @@ Instance.OnReload({before})
 
 > **OnWeaponDrop**(`event`): `void`
 
-Defined in: [src/base/System.ts:127](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L127)
+Defined in: [src/base/System.ts:264](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L264)
 
 Instance.OnWeaponDrop
 
@@ -5201,7 +6881,7 @@ Instance.OnWeaponDrop
 
 > **OnWeaponPickup**(`event`): `void`
 
-Defined in: [src/base/System.ts:133](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L133)
+Defined in: [src/base/System.ts:270](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L270)
 
 Instance.OnWeaponPickup
 
@@ -5224,7 +6904,7 @@ Instance.OnWeaponPickup
 
 > **SetTick**(`i`): `void`
 
-Defined in: [src/base/System.ts:32](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L32)
+Defined in: [src/base/System.ts:37](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L37)
 
 ###### Parameters
 
@@ -5244,7 +6924,7 @@ Defined in: [src/base/System.ts:32](https://github.com/Orb-Workshop/scriptedeuch
 
 > **SetTickInterval**(`i`): `void`
 
-Defined in: [src/base/System.ts:31](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L31)
+Defined in: [src/base/System.ts:36](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L36)
 
 ###### Parameters
 
@@ -5264,7 +6944,7 @@ Defined in: [src/base/System.ts:31](https://github.com/Orb-Workshop/scriptedeuch
 
 > **Think**(): `void`
 
-Defined in: [src/base/System.ts:50](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L50)
+Defined in: [src/base/System.ts:55](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L55)
 
 Replacement for `Instance.SetThink()` when used with `Base.Mount`.
 
@@ -5278,9 +6958,9 @@ Replacement for `Instance.SetThink()` when used with `Base.Mount`.
 
 ***
 
-### PlayerHealthRegenerationSystem
+### PlayerHealthRegeneration
 
-Defined in: [src/system/PlayerHealthRegenerationSystem.ts:9](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/system/PlayerHealthRegenerationSystem.ts#L9)
+Defined in: [src/system/PlayerHealthRegeneration.ts:8](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/system/PlayerHealthRegeneration.ts#L8)
 
 Mountable System Abstraction.
 
@@ -5292,9 +6972,9 @@ Mountable System Abstraction.
 
 ##### Constructor
 
-> **new PlayerHealthRegenerationSystem**(`__namedParameters?`): [`PlayerHealthRegenerationSystem`](#playerhealthregenerationsystem)
+> **new PlayerHealthRegeneration**(`__namedParameters?`): [`PlayerHealthRegeneration`](#playerhealthregeneration)
 
-Defined in: [src/system/PlayerHealthRegenerationSystem.ts:16](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/system/PlayerHealthRegenerationSystem.ts#L16)
+Defined in: [src/system/PlayerHealthRegeneration.ts:15](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/system/PlayerHealthRegeneration.ts#L15)
 
 ###### Parameters
 
@@ -5308,7 +6988,7 @@ Defined in: [src/system/PlayerHealthRegenerationSystem.ts:16](https://github.com
 
 ###### Returns
 
-[`PlayerHealthRegenerationSystem`](#playerhealthregenerationsystem)
+[`PlayerHealthRegeneration`](#playerhealthregeneration)
 
 ###### Overrides
 
@@ -5320,13 +7000,13 @@ Defined in: [src/system/PlayerHealthRegenerationSystem.ts:16](https://github.com
 
 > **\_checkPlayer**(`player_pawn`): `any`
 
-Defined in: [src/system/PlayerHealthRegenerationSystem.ts:75](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/system/PlayerHealthRegenerationSystem.ts#L75)
+Defined in: [src/system/PlayerHealthRegeneration.ts:74](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/system/PlayerHealthRegeneration.ts#L74)
 
 ###### Parameters
 
 | Parameter | Type |
 | ------ | ------ |
-| `player_pawn` | `any` |
+| `player_pawn` | `CSPlayerPawn` |
 
 ###### Returns
 
@@ -5336,13 +7016,13 @@ Defined in: [src/system/PlayerHealthRegenerationSystem.ts:75](https://github.com
 
 > **\_getPlayer**(`player_pawn`): `any`
 
-Defined in: [src/system/PlayerHealthRegenerationSystem.ts:83](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/system/PlayerHealthRegenerationSystem.ts#L83)
+Defined in: [src/system/PlayerHealthRegeneration.ts:82](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/system/PlayerHealthRegeneration.ts#L82)
 
 ###### Parameters
 
 | Parameter | Type |
 | ------ | ------ |
-| `player_pawn` | `any` |
+| `player_pawn` | `CSPlayerPawn` |
 
 ###### Returns
 
@@ -5352,13 +7032,13 @@ Defined in: [src/system/PlayerHealthRegenerationSystem.ts:83](https://github.com
 
 > **\_resetPlayer**(`player_pawn`, `afflicted_damage?`): `void`
 
-Defined in: [src/system/PlayerHealthRegenerationSystem.ts:60](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/system/PlayerHealthRegenerationSystem.ts#L60)
+Defined in: [src/system/PlayerHealthRegeneration.ts:59](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/system/PlayerHealthRegeneration.ts#L59)
 
 ###### Parameters
 
 | Parameter | Type | Default value |
 | ------ | ------ | ------ |
-| `player_pawn` | `any` | `undefined` |
+| `player_pawn` | `CSPlayerPawn` | `undefined` |
 | `afflicted_damage` | `number` | `0` |
 
 ###### Returns
@@ -5369,7 +7049,7 @@ Defined in: [src/system/PlayerHealthRegenerationSystem.ts:60](https://github.com
 
 > **cleanup**(): `void`
 
-Defined in: [src/system/PlayerHealthRegenerationSystem.ts:100](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/system/PlayerHealthRegenerationSystem.ts#L100)
+Defined in: [src/system/PlayerHealthRegeneration.ts:99](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/system/PlayerHealthRegeneration.ts#L99)
 
 ###### Returns
 
@@ -5379,7 +7059,7 @@ Defined in: [src/system/PlayerHealthRegenerationSystem.ts:100](https://github.co
 
 > **DisableSystem**(): `void`
 
-Defined in: [src/base/System.ts:29](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L29)
+Defined in: [src/base/System.ts:34](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L34)
 
 ###### Returns
 
@@ -5393,7 +7073,7 @@ Defined in: [src/base/System.ts:29](https://github.com/Orb-Workshop/scriptedeuch
 
 > **EnableSystem**(): `void`
 
-Defined in: [src/base/System.ts:28](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L28)
+Defined in: [src/base/System.ts:33](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L33)
 
 ###### Returns
 
@@ -5407,7 +7087,7 @@ Defined in: [src/base/System.ts:28](https://github.com/Orb-Workshop/scriptedeuch
 
 > **GetDelta**(): `number`
 
-Defined in: [src/base/System.ts:33](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L33)
+Defined in: [src/base/System.ts:38](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L38)
 
 ###### Returns
 
@@ -5421,7 +7101,7 @@ Defined in: [src/base/System.ts:33](https://github.com/Orb-Workshop/scriptedeuch
 
 > **IsSystemEnabled**(): `boolean`
 
-Defined in: [src/base/System.ts:30](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L30)
+Defined in: [src/base/System.ts:35](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L35)
 
 ###### Returns
 
@@ -5435,7 +7115,7 @@ Defined in: [src/base/System.ts:30](https://github.com/Orb-Workshop/scriptedeuch
 
 > **MaybeThink**(): `void`
 
-Defined in: [src/base/System.ts:35](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L35)
+Defined in: [src/base/System.ts:40](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L40)
 
 ###### Returns
 
@@ -5449,7 +7129,7 @@ Defined in: [src/base/System.ts:35](https://github.com/Orb-Workshop/scriptedeuch
 
 > **OnActivate**(): `void`
 
-Defined in: [src/system/PlayerHealthRegenerationSystem.ts:96](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/system/PlayerHealthRegenerationSystem.ts#L96)
+Defined in: [src/system/PlayerHealthRegeneration.ts:95](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/system/PlayerHealthRegeneration.ts#L95)
 
 Instance.OnActivate()
 
@@ -5465,7 +7145,7 @@ Instance.OnActivate()
 
 > **OnBeforePlayerDamage**(`event`): `object`
 
-Defined in: [src/system/PlayerHealthRegenerationSystem.ts:89](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/system/PlayerHealthRegenerationSystem.ts#L89)
+Defined in: [src/system/PlayerHealthRegeneration.ts:88](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/system/PlayerHealthRegeneration.ts#L88)
 
 Instance.OnBeforePlayerDamage()
 
@@ -5485,13 +7165,13 @@ Instance.OnBeforePlayerDamage()
 
 [`System`](Namespace.Base.md#abstract-system).[`OnBeforePlayerDamage`](Namespace.Base.md#onbeforeplayerdamage)
 
-##### OnBeginRoundStart()
+##### OnBeginRoundRestart()
 
-> **OnBeginRoundStart**(): `void`
+> **OnBeginRoundRestart**(): `void`
 
-Defined in: [src/base/System.ts:217](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L217)
+Defined in: [src/base/System.ts:113](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L113)
 
-Instance.OnBeginRoundStart
+Instance.OnBeginRoundRestart
 
 ###### Returns
 
@@ -5499,13 +7179,13 @@ Instance.OnBeginRoundStart
 
 ###### Inherited from
 
-[`System`](Namespace.Base.md#abstract-system).[`OnBeginRoundStart`](Namespace.Base.md#onbeginroundstart)
+[`System`](Namespace.Base.md#abstract-system).[`OnBeginRoundRestart`](Namespace.Base.md#onbeginroundrestart)
 
 ##### OnBombDefuse()
 
 > **OnBombDefuse**(`event`): `void`
 
-Defined in: [src/base/System.ts:79](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L79)
+Defined in: [src/base/System.ts:149](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L149)
 
 Instance.OnBombDefuse()
 
@@ -5513,9 +7193,7 @@ Instance.OnBombDefuse()
 
 | Parameter | Type |
 | ------ | ------ |
-| `event` | \{ `plantedC4`: `Entity`; `planter`: `CSPlayerPawn`; \} |
-| `event.plantedC4` | `Entity` |
-| `event.planter` | `CSPlayerPawn` |
+| `event` | `BombDefuseEvent` |
 
 ###### Returns
 
@@ -5525,13 +7203,59 @@ Instance.OnBombDefuse()
 
 [`System`](Namespace.Base.md#abstract-system).[`OnBombDefuse`](Namespace.Base.md#onbombdefuse)
 
+##### OnBombDefuseAbort()
+
+> **OnBombDefuseAbort**(`event`): `void`
+
+Defined in: [src/base/System.ts:143](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L143)
+
+Instance.OnBombDefuseAbort()
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `event` | \{ `plantedC4`: `Entity`; \} |
+| `event.plantedC4` | `Entity` |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`System`](Namespace.Base.md#abstract-system).[`OnBombDefuseAbort`](Namespace.Base.md#onbombdefuseabort)
+
+##### OnBombDefuseStart()
+
+> **OnBombDefuseStart**(`event`): `void`
+
+Defined in: [src/base/System.ts:137](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L137)
+
+Instance.OnBombDefuseStart()
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `event` | \{ `plantedC4`: `Entity`; \} |
+| `event.plantedC4` | `Entity` |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`System`](Namespace.Base.md#abstract-system).[`OnBombDefuseStart`](Namespace.Base.md#onbombdefusestart)
+
 ##### OnBombExplode()
 
 > **OnBombExplode**(`event`): `void`
 
-Defined in: [src/base/System.ts:91](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L91)
+Defined in: [src/base/System.ts:155](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L155)
 
-Instance.OnBombPlant()
+Instance.OnBombExplode()
 
 ###### Parameters
 
@@ -5552,7 +7276,7 @@ Instance.OnBombPlant()
 
 > **OnBombPlant**(`event`): `void`
 
-Defined in: [src/base/System.ts:85](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L85)
+Defined in: [src/base/System.ts:131](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L131)
 
 Instance.OnBombPlant()
 
@@ -5572,11 +7296,57 @@ Instance.OnBombPlant()
 
 [`System`](Namespace.Base.md#abstract-system).[`OnBombPlant`](Namespace.Base.md#onbombplant)
 
+##### OnBombPlantAbort()
+
+> **OnBombPlantAbort**(`event`): `void`
+
+Defined in: [src/base/System.ts:125](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L125)
+
+Instance.OnBombPlantAbort()
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `event` | \{ `planter`: `CSPlayerPawn`; \} |
+| `event.planter` | `CSPlayerPawn` |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`System`](Namespace.Base.md#abstract-system).[`OnBombPlantAbort`](Namespace.Base.md#onbombplantabort)
+
+##### OnBombPlantStart()
+
+> **OnBombPlantStart**(`event`): `void`
+
+Defined in: [src/base/System.ts:119](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L119)
+
+Instance.OnBombPlantStart()
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `event` | \{ `planter`: `CSPlayerPawn`; \} |
+| `event.planter` | `CSPlayerPawn` |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`System`](Namespace.Base.md#abstract-system).[`OnBombPlantStart`](Namespace.Base.md#onbombplantstart)
+
 ##### OnBulletImpact()
 
 > **OnBulletImpact**(`event`): `void`
 
-Defined in: [src/base/System.ts:97](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L97)
+Defined in: [src/base/System.ts:258](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L258)
 
 Instance.OnBulletImpact()
 
@@ -5596,11 +7366,36 @@ Instance.OnBulletImpact()
 
 [`System`](Namespace.Base.md#abstract-system).[`OnBulletImpact`](Namespace.Base.md#onbulletimpact)
 
+##### OnCustomHudClicked()
+
+> **OnCustomHudClicked**(`event`): `void`
+
+Defined in: [src/base/System.ts:294](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L294)
+
+Instance.OnCustomHudClicked()
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `event` | \{ `buttonId`: `string`; `layout`: `CustomHudLayout`; `player`: `CSPlayerController`; \} |
+| `event.buttonId` | `string` |
+| `event.layout` | `CustomHudLayout` |
+| `event.player` | `CSPlayerController` |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`System`](Namespace.Base.md#abstract-system).[`OnCustomHudClicked`](Namespace.Base.md#oncustomhudclicked)
+
 ##### OnGrenadeBounce()
 
 > **OnGrenadeBounce**(`event`): `void`
 
-Defined in: [src/base/System.ts:103](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L103)
+Defined in: [src/base/System.ts:282](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L282)
 
 Instance.OnGrenadeBounce()
 
@@ -5624,7 +7419,7 @@ Instance.OnGrenadeBounce()
 
 > **OnGrenadeThrow**(`event`): `void`
 
-Defined in: [src/base/System.ts:109](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L109)
+Defined in: [src/base/System.ts:276](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L276)
 
 Instance.OnGrenadeThrow()
 
@@ -5648,7 +7443,7 @@ Instance.OnGrenadeThrow()
 
 > **OnGunFire**(`event`): `void`
 
-Defined in: [src/base/System.ts:115](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L115)
+Defined in: [src/base/System.ts:252](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L252)
 
 Instance.OnGunFire()
 
@@ -5671,7 +7466,7 @@ Instance.OnGunFire()
 
 > **OnGunReload**(`event`): `void`
 
-Defined in: [src/base/System.ts:121](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L121)
+Defined in: [src/base/System.ts:246](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L246)
 
 Instance.OnGunReload
 
@@ -5690,11 +7485,152 @@ Instance.OnGunReload
 
 [`System`](Namespace.Base.md#abstract-system).[`OnGunReload`](Namespace.Base.md#ongunreload)
 
+##### OnHostageDrop()
+
+> **OnHostageDrop**(`event`): `void`
+
+Defined in: [src/base/System.ts:179](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L179)
+
+Instance.OnHostageDrop
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `event` | \{ `dropper`: `CSPlayerPawn`; `hostage`: `CSHostage`; \} |
+| `event.dropper` | `CSPlayerPawn` |
+| `event.hostage` | `CSHostage` |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`System`](Namespace.Base.md#abstract-system).[`OnHostageDrop`](Namespace.Base.md#onhostagedrop)
+
+##### OnHostageKill()
+
+> **OnHostageKill**(`event`): `void`
+
+Defined in: [src/base/System.ts:191](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L191)
+
+Instance.OnHostageKill
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `event` | \{ `attacker?`: `any`; `hostage`: `CSHostage`; \} |
+| `event.attacker?` | `any` |
+| `event.hostage` | `CSHostage` |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`System`](Namespace.Base.md#abstract-system).[`OnHostageKill`](Namespace.Base.md#onhostagekill)
+
+##### OnHostagePickUp()
+
+> **OnHostagePickUp**(`event`): `void`
+
+Defined in: [src/base/System.ts:173](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L173)
+
+Instance.OnHostagePickUp
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `event` | \{ `hostage`: `CSHostage`; \} |
+| `event.hostage` | `CSHostage` |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`System`](Namespace.Base.md#abstract-system).[`OnHostagePickUp`](Namespace.Base.md#onhostagepickup)
+
+##### OnHostagePickUpAbort()
+
+> **OnHostagePickUpAbort**(`event`): `void`
+
+Defined in: [src/base/System.ts:167](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L167)
+
+Instance.OnHostagePickUpAbort
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `event` | \{ `hostage`: `CSHostage`; `player`: `CSPlayerPawn`; \} |
+| `event.hostage` | `CSHostage` |
+| `event.player` | `CSPlayerPawn` |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`System`](Namespace.Base.md#abstract-system).[`OnHostagePickUpAbort`](Namespace.Base.md#onhostagepickupabort)
+
+##### OnHostagePickUpStart()
+
+> **OnHostagePickUpStart**(`event`): `void`
+
+Defined in: [src/base/System.ts:161](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L161)
+
+Instance.OnHostagePickUpStart
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `event` | \{ `hostage`: `CSHostage`; \} |
+| `event.hostage` | `CSHostage` |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`System`](Namespace.Base.md#abstract-system).[`OnHostagePickUpStart`](Namespace.Base.md#onhostagepickupstart)
+
+##### OnHostageRescue()
+
+> **OnHostageRescue**(`event`): `void`
+
+Defined in: [src/base/System.ts:185](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L185)
+
+Instance.OnHostageRescue
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `event` | \{ `hostage`: `CSHostage`; \} |
+| `event.hostage` | `CSHostage` |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`System`](Namespace.Base.md#abstract-system).[`OnHostageRescue`](Namespace.Base.md#onhostagerescue)
+
 ##### OnKnifeAttack()
 
 > **OnKnifeAttack**(`event`): `void`
 
-Defined in: [src/base/System.ts:139](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L139)
+Defined in: [src/base/System.ts:288](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L288)
 
 Instance.OnKnifeAttack
 
@@ -5718,7 +7654,7 @@ Instance.OnKnifeAttack
 
 > **OnModifyPlayerDamage**(`event`): `any`
 
-Defined in: [src/base/System.ts:73](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L73)
+Defined in: [src/base/System.ts:204](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L204)
 
 Instance.OnModifyPlayerDamage()
 
@@ -5740,7 +7676,7 @@ Instance.OnModifyPlayerDamage()
 
 > **OnPlayerActivate**(`event`): `void`
 
-Defined in: [src/base/System.ts:145](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L145)
+Defined in: [src/base/System.ts:77](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L77)
 
 Instance.OnPlayerActivate
 
@@ -5763,7 +7699,7 @@ Instance.OnPlayerActivate
 
 > **OnPlayerChat**(`event`): `void`
 
-Defined in: [src/base/System.ts:151](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L151)
+Defined in: [src/base/System.ts:234](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L234)
 
 Instance.OnPlayerChat
 
@@ -5788,7 +7724,7 @@ Instance.OnPlayerChat
 
 > **OnPlayerConnect**(`event`): `void`
 
-Defined in: [src/base/System.ts:157](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L157)
+Defined in: [src/base/System.ts:71](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L71)
 
 Instance.OnPlayerConnect
 
@@ -5811,7 +7747,7 @@ Instance.OnPlayerConnect
 
 > **OnPlayerDamage**(`event`): `void`
 
-Defined in: [src/base/System.ts:163](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L163)
+Defined in: [src/base/System.ts:210](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L210)
 
 Instance.OnPlayerDamage
 
@@ -5833,7 +7769,7 @@ Instance.OnPlayerDamage
 
 > **OnPlayerDisconnect**(`event`): `void`
 
-Defined in: [src/base/System.ts:169](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L169)
+Defined in: [src/base/System.ts:83](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L83)
 
 Instance.OnPlayerDisconnect
 
@@ -5856,7 +7792,7 @@ Instance.OnPlayerDisconnect
 
 > **OnPlayerJump**(`event`): `void`
 
-Defined in: [src/base/System.ts:175](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L175)
+Defined in: [src/base/System.ts:222](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L222)
 
 Instance.OnPlayerJump
 
@@ -5879,7 +7815,7 @@ Instance.OnPlayerJump
 
 > **OnPlayerKill**(`event`): `void`
 
-Defined in: [src/base/System.ts:181](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L181)
+Defined in: [src/base/System.ts:216](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L216)
 
 Instance.OnPlayerKill
 
@@ -5905,7 +7841,7 @@ Instance.OnPlayerKill
 
 > **OnPlayerLand**(`event`): `void`
 
-Defined in: [src/base/System.ts:187](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L187)
+Defined in: [src/base/System.ts:228](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L228)
 
 Instance.OnPlayerLand
 
@@ -5928,7 +7864,7 @@ Instance.OnPlayerLand
 
 > **OnPlayerPing**(`event`): `void`
 
-Defined in: [src/base/System.ts:193](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L193)
+Defined in: [src/base/System.ts:240](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L240)
 
 Instance.OnPlayerPing
 
@@ -5952,7 +7888,7 @@ Instance.OnPlayerPing
 
 > **OnPlayerReset**(`event`): `void`
 
-Defined in: [src/base/System.ts:199](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L199)
+Defined in: [src/base/System.ts:89](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L89)
 
 Instance.OnPlayerReset
 
@@ -5971,11 +7907,35 @@ Instance.OnPlayerReset
 
 [`System`](Namespace.Base.md#abstract-system).[`OnPlayerReset`](Namespace.Base.md#onplayerreset)
 
+##### OnPlayerTeamChanged()
+
+> **OnPlayerTeamChanged**(`event`): `void`
+
+Defined in: [src/base/System.ts:95](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L95)
+
+Instance.OnPlayerTeamChanged
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `event` | \{ `oldTeam`: `number`; `player`: `CSPlayerPawn`; \} |
+| `event.oldTeam` | `number` |
+| `event.player` | `CSPlayerPawn` |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`System`](Namespace.Base.md#abstract-system).[`OnPlayerTeamChanged`](Namespace.Base.md#onplayerteamchanged)
+
 ##### OnRoundEnd()
 
 > **OnRoundEnd**(`event`): `void`
 
-Defined in: [src/base/System.ts:205](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L205)
+Defined in: [src/base/System.ts:107](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L107)
 
 Instance.OnRoundEnd
 
@@ -5999,7 +7959,7 @@ Instance.OnRoundEnd
 
 > **OnRoundStart**(): `void`
 
-Defined in: [src/base/System.ts:211](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L211)
+Defined in: [src/base/System.ts:101](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L101)
 
 Instance.OnRoundStart
 
@@ -6015,7 +7975,7 @@ Instance.OnRoundStart
 
 > **OnScriptReload**(): `void`
 
-Defined in: [src/base/System.ts:234](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L234)
+Defined in: [src/base/System.ts:311](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L311)
 
 Simpler Version of OnScriptReloadAfter
 
@@ -6031,7 +7991,7 @@ Simpler Version of OnScriptReloadAfter
 
 > **OnScriptReloadAfter**\<`T`\>(`memory`): `void`
 
-Defined in: [src/base/System.ts:229](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L229)
+Defined in: [src/base/System.ts:306](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L306)
 
 Instance.OnReload({after})
 
@@ -6059,7 +8019,7 @@ Instance.OnReload({after})
 
 > **OnScriptReloadBefore**\<`T`\>(): `T`
 
-Defined in: [src/base/System.ts:223](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L223)
+Defined in: [src/base/System.ts:300](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L300)
 
 Instance.OnReload({before})
 
@@ -6081,7 +8041,7 @@ Instance.OnReload({before})
 
 > **OnWeaponDrop**(`event`): `void`
 
-Defined in: [src/base/System.ts:127](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L127)
+Defined in: [src/base/System.ts:264](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L264)
 
 Instance.OnWeaponDrop
 
@@ -6105,7 +8065,7 @@ Instance.OnWeaponDrop
 
 > **OnWeaponPickup**(`event`): `void`
 
-Defined in: [src/base/System.ts:133](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L133)
+Defined in: [src/base/System.ts:270](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L270)
 
 Instance.OnWeaponPickup
 
@@ -6128,7 +8088,7 @@ Instance.OnWeaponPickup
 
 > **SetTick**(`i`): `void`
 
-Defined in: [src/base/System.ts:32](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L32)
+Defined in: [src/base/System.ts:37](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L37)
 
 ###### Parameters
 
@@ -6148,7 +8108,7 @@ Defined in: [src/base/System.ts:32](https://github.com/Orb-Workshop/scriptedeuch
 
 > **SetTickInterval**(`i`): `void`
 
-Defined in: [src/base/System.ts:31](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L31)
+Defined in: [src/base/System.ts:36](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L36)
 
 ###### Parameters
 
@@ -6168,7 +8128,7 @@ Defined in: [src/base/System.ts:31](https://github.com/Orb-Workshop/scriptedeuch
 
 > **Think**(): `void`
 
-Defined in: [src/system/PlayerHealthRegenerationSystem.ts:31](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/system/PlayerHealthRegenerationSystem.ts#L31)
+Defined in: [src/system/PlayerHealthRegeneration.ts:30](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/system/PlayerHealthRegeneration.ts#L30)
 
 Replacement for `Instance.SetThink()` when used with `Base.Mount`.
 
@@ -6182,9 +8142,9 @@ Replacement for `Instance.SetThink()` when used with `Base.Mount`.
 
 ***
 
-### PlayerModelChangerSystem
+### PlayerModelChanger
 
-Defined in: [src/system/PlayerModelChangerSystem.ts:13](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/system/PlayerModelChangerSystem.ts#L13)
+Defined in: [src/system/PlayerModelChanger.ts:13](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/system/PlayerModelChanger.ts#L13)
 
 Mountable System Abstraction.
 
@@ -6196,9 +8156,9 @@ Mountable System Abstraction.
 
 ##### Constructor
 
-> **new PlayerModelChangerSystem**(`__namedParameters?`): [`PlayerModelChangerSystem`](#playermodelchangersystem)
+> **new PlayerModelChanger**(`__namedParameters?`): [`PlayerModelChanger`](#playermodelchanger)
 
-Defined in: [src/system/PlayerModelChangerSystem.ts:23](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/system/PlayerModelChangerSystem.ts#L23)
+Defined in: [src/system/PlayerModelChanger.ts:23](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/system/PlayerModelChanger.ts#L23)
 
 ###### Parameters
 
@@ -6213,7 +8173,7 @@ Defined in: [src/system/PlayerModelChangerSystem.ts:23](https://github.com/Orb-W
 
 ###### Returns
 
-[`PlayerModelChangerSystem`](#playermodelchangersystem)
+[`PlayerModelChanger`](#playermodelchanger)
 
 ###### Overrides
 
@@ -6225,7 +8185,7 @@ Defined in: [src/system/PlayerModelChangerSystem.ts:23](https://github.com/Orb-W
 
 > **DisableSystem**(): `void`
 
-Defined in: [src/base/System.ts:29](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L29)
+Defined in: [src/base/System.ts:34](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L34)
 
 ###### Returns
 
@@ -6239,7 +8199,7 @@ Defined in: [src/base/System.ts:29](https://github.com/Orb-Workshop/scriptedeuch
 
 > **EnableSystem**(): `void`
 
-Defined in: [src/base/System.ts:28](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L28)
+Defined in: [src/base/System.ts:33](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L33)
 
 ###### Returns
 
@@ -6253,7 +8213,7 @@ Defined in: [src/base/System.ts:28](https://github.com/Orb-Workshop/scriptedeuch
 
 > **GetDelta**(): `number`
 
-Defined in: [src/base/System.ts:33](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L33)
+Defined in: [src/base/System.ts:38](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L38)
 
 ###### Returns
 
@@ -6267,7 +8227,7 @@ Defined in: [src/base/System.ts:33](https://github.com/Orb-Workshop/scriptedeuch
 
 > **IsSystemEnabled**(): `boolean`
 
-Defined in: [src/base/System.ts:30](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L30)
+Defined in: [src/base/System.ts:35](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L35)
 
 ###### Returns
 
@@ -6281,7 +8241,7 @@ Defined in: [src/base/System.ts:30](https://github.com/Orb-Workshop/scriptedeuch
 
 > **MaybeThink**(): `void`
 
-Defined in: [src/base/System.ts:35](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L35)
+Defined in: [src/base/System.ts:40](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L40)
 
 ###### Returns
 
@@ -6295,7 +8255,7 @@ Defined in: [src/base/System.ts:35](https://github.com/Orb-Workshop/scriptedeuch
 
 > **OnActivate**(): `void`
 
-Defined in: [src/base/System.ts:60](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L60)
+Defined in: [src/base/System.ts:65](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L65)
 
 Instance.OnActivate()
 
@@ -6311,7 +8271,7 @@ Instance.OnActivate()
 
 > **OnBeforePlayerDamage**(`event`): `any`
 
-Defined in: [src/base/System.ts:67](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L67)
+Defined in: [src/base/System.ts:198](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L198)
 
 Instance.OnBeforePlayerDamage()
 
@@ -6331,13 +8291,13 @@ Instance.OnBeforePlayerDamage()
 
 [`System`](Namespace.Base.md#abstract-system).[`OnBeforePlayerDamage`](Namespace.Base.md#onbeforeplayerdamage)
 
-##### OnBeginRoundStart()
+##### OnBeginRoundRestart()
 
-> **OnBeginRoundStart**(): `void`
+> **OnBeginRoundRestart**(): `void`
 
-Defined in: [src/base/System.ts:217](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L217)
+Defined in: [src/base/System.ts:113](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L113)
 
-Instance.OnBeginRoundStart
+Instance.OnBeginRoundRestart
 
 ###### Returns
 
@@ -6345,13 +8305,13 @@ Instance.OnBeginRoundStart
 
 ###### Inherited from
 
-[`System`](Namespace.Base.md#abstract-system).[`OnBeginRoundStart`](Namespace.Base.md#onbeginroundstart)
+[`System`](Namespace.Base.md#abstract-system).[`OnBeginRoundRestart`](Namespace.Base.md#onbeginroundrestart)
 
 ##### OnBombDefuse()
 
 > **OnBombDefuse**(`event`): `void`
 
-Defined in: [src/base/System.ts:79](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L79)
+Defined in: [src/base/System.ts:149](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L149)
 
 Instance.OnBombDefuse()
 
@@ -6359,9 +8319,7 @@ Instance.OnBombDefuse()
 
 | Parameter | Type |
 | ------ | ------ |
-| `event` | \{ `plantedC4`: `Entity`; `planter`: `CSPlayerPawn`; \} |
-| `event.plantedC4` | `Entity` |
-| `event.planter` | `CSPlayerPawn` |
+| `event` | `BombDefuseEvent` |
 
 ###### Returns
 
@@ -6371,13 +8329,59 @@ Instance.OnBombDefuse()
 
 [`System`](Namespace.Base.md#abstract-system).[`OnBombDefuse`](Namespace.Base.md#onbombdefuse)
 
+##### OnBombDefuseAbort()
+
+> **OnBombDefuseAbort**(`event`): `void`
+
+Defined in: [src/base/System.ts:143](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L143)
+
+Instance.OnBombDefuseAbort()
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `event` | \{ `plantedC4`: `Entity`; \} |
+| `event.plantedC4` | `Entity` |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`System`](Namespace.Base.md#abstract-system).[`OnBombDefuseAbort`](Namespace.Base.md#onbombdefuseabort)
+
+##### OnBombDefuseStart()
+
+> **OnBombDefuseStart**(`event`): `void`
+
+Defined in: [src/base/System.ts:137](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L137)
+
+Instance.OnBombDefuseStart()
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `event` | \{ `plantedC4`: `Entity`; \} |
+| `event.plantedC4` | `Entity` |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`System`](Namespace.Base.md#abstract-system).[`OnBombDefuseStart`](Namespace.Base.md#onbombdefusestart)
+
 ##### OnBombExplode()
 
 > **OnBombExplode**(`event`): `void`
 
-Defined in: [src/base/System.ts:91](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L91)
+Defined in: [src/base/System.ts:155](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L155)
 
-Instance.OnBombPlant()
+Instance.OnBombExplode()
 
 ###### Parameters
 
@@ -6398,7 +8402,7 @@ Instance.OnBombPlant()
 
 > **OnBombPlant**(`event`): `void`
 
-Defined in: [src/base/System.ts:85](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L85)
+Defined in: [src/base/System.ts:131](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L131)
 
 Instance.OnBombPlant()
 
@@ -6418,11 +8422,57 @@ Instance.OnBombPlant()
 
 [`System`](Namespace.Base.md#abstract-system).[`OnBombPlant`](Namespace.Base.md#onbombplant)
 
+##### OnBombPlantAbort()
+
+> **OnBombPlantAbort**(`event`): `void`
+
+Defined in: [src/base/System.ts:125](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L125)
+
+Instance.OnBombPlantAbort()
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `event` | \{ `planter`: `CSPlayerPawn`; \} |
+| `event.planter` | `CSPlayerPawn` |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`System`](Namespace.Base.md#abstract-system).[`OnBombPlantAbort`](Namespace.Base.md#onbombplantabort)
+
+##### OnBombPlantStart()
+
+> **OnBombPlantStart**(`event`): `void`
+
+Defined in: [src/base/System.ts:119](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L119)
+
+Instance.OnBombPlantStart()
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `event` | \{ `planter`: `CSPlayerPawn`; \} |
+| `event.planter` | `CSPlayerPawn` |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`System`](Namespace.Base.md#abstract-system).[`OnBombPlantStart`](Namespace.Base.md#onbombplantstart)
+
 ##### OnBulletImpact()
 
 > **OnBulletImpact**(`event`): `void`
 
-Defined in: [src/base/System.ts:97](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L97)
+Defined in: [src/base/System.ts:258](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L258)
 
 Instance.OnBulletImpact()
 
@@ -6442,11 +8492,36 @@ Instance.OnBulletImpact()
 
 [`System`](Namespace.Base.md#abstract-system).[`OnBulletImpact`](Namespace.Base.md#onbulletimpact)
 
+##### OnCustomHudClicked()
+
+> **OnCustomHudClicked**(`event`): `void`
+
+Defined in: [src/base/System.ts:294](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L294)
+
+Instance.OnCustomHudClicked()
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `event` | \{ `buttonId`: `string`; `layout`: `CustomHudLayout`; `player`: `CSPlayerController`; \} |
+| `event.buttonId` | `string` |
+| `event.layout` | `CustomHudLayout` |
+| `event.player` | `CSPlayerController` |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`System`](Namespace.Base.md#abstract-system).[`OnCustomHudClicked`](Namespace.Base.md#oncustomhudclicked)
+
 ##### OnGrenadeBounce()
 
 > **OnGrenadeBounce**(`event`): `void`
 
-Defined in: [src/base/System.ts:103](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L103)
+Defined in: [src/base/System.ts:282](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L282)
 
 Instance.OnGrenadeBounce()
 
@@ -6470,7 +8545,7 @@ Instance.OnGrenadeBounce()
 
 > **OnGrenadeThrow**(`event`): `void`
 
-Defined in: [src/base/System.ts:109](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L109)
+Defined in: [src/base/System.ts:276](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L276)
 
 Instance.OnGrenadeThrow()
 
@@ -6494,7 +8569,7 @@ Instance.OnGrenadeThrow()
 
 > **OnGunFire**(`event`): `void`
 
-Defined in: [src/base/System.ts:115](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L115)
+Defined in: [src/base/System.ts:252](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L252)
 
 Instance.OnGunFire()
 
@@ -6517,7 +8592,7 @@ Instance.OnGunFire()
 
 > **OnGunReload**(`event`): `void`
 
-Defined in: [src/base/System.ts:121](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L121)
+Defined in: [src/base/System.ts:246](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L246)
 
 Instance.OnGunReload
 
@@ -6536,11 +8611,152 @@ Instance.OnGunReload
 
 [`System`](Namespace.Base.md#abstract-system).[`OnGunReload`](Namespace.Base.md#ongunreload)
 
+##### OnHostageDrop()
+
+> **OnHostageDrop**(`event`): `void`
+
+Defined in: [src/base/System.ts:179](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L179)
+
+Instance.OnHostageDrop
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `event` | \{ `dropper`: `CSPlayerPawn`; `hostage`: `CSHostage`; \} |
+| `event.dropper` | `CSPlayerPawn` |
+| `event.hostage` | `CSHostage` |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`System`](Namespace.Base.md#abstract-system).[`OnHostageDrop`](Namespace.Base.md#onhostagedrop)
+
+##### OnHostageKill()
+
+> **OnHostageKill**(`event`): `void`
+
+Defined in: [src/base/System.ts:191](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L191)
+
+Instance.OnHostageKill
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `event` | \{ `attacker?`: `any`; `hostage`: `CSHostage`; \} |
+| `event.attacker?` | `any` |
+| `event.hostage` | `CSHostage` |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`System`](Namespace.Base.md#abstract-system).[`OnHostageKill`](Namespace.Base.md#onhostagekill)
+
+##### OnHostagePickUp()
+
+> **OnHostagePickUp**(`event`): `void`
+
+Defined in: [src/base/System.ts:173](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L173)
+
+Instance.OnHostagePickUp
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `event` | \{ `hostage`: `CSHostage`; \} |
+| `event.hostage` | `CSHostage` |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`System`](Namespace.Base.md#abstract-system).[`OnHostagePickUp`](Namespace.Base.md#onhostagepickup)
+
+##### OnHostagePickUpAbort()
+
+> **OnHostagePickUpAbort**(`event`): `void`
+
+Defined in: [src/base/System.ts:167](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L167)
+
+Instance.OnHostagePickUpAbort
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `event` | \{ `hostage`: `CSHostage`; `player`: `CSPlayerPawn`; \} |
+| `event.hostage` | `CSHostage` |
+| `event.player` | `CSPlayerPawn` |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`System`](Namespace.Base.md#abstract-system).[`OnHostagePickUpAbort`](Namespace.Base.md#onhostagepickupabort)
+
+##### OnHostagePickUpStart()
+
+> **OnHostagePickUpStart**(`event`): `void`
+
+Defined in: [src/base/System.ts:161](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L161)
+
+Instance.OnHostagePickUpStart
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `event` | \{ `hostage`: `CSHostage`; \} |
+| `event.hostage` | `CSHostage` |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`System`](Namespace.Base.md#abstract-system).[`OnHostagePickUpStart`](Namespace.Base.md#onhostagepickupstart)
+
+##### OnHostageRescue()
+
+> **OnHostageRescue**(`event`): `void`
+
+Defined in: [src/base/System.ts:185](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L185)
+
+Instance.OnHostageRescue
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `event` | \{ `hostage`: `CSHostage`; \} |
+| `event.hostage` | `CSHostage` |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`System`](Namespace.Base.md#abstract-system).[`OnHostageRescue`](Namespace.Base.md#onhostagerescue)
+
 ##### OnKnifeAttack()
 
 > **OnKnifeAttack**(`event`): `void`
 
-Defined in: [src/base/System.ts:139](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L139)
+Defined in: [src/base/System.ts:288](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L288)
 
 Instance.OnKnifeAttack
 
@@ -6564,7 +8780,7 @@ Instance.OnKnifeAttack
 
 > **OnModifyPlayerDamage**(`event`): `any`
 
-Defined in: [src/base/System.ts:73](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L73)
+Defined in: [src/base/System.ts:204](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L204)
 
 Instance.OnModifyPlayerDamage()
 
@@ -6586,7 +8802,7 @@ Instance.OnModifyPlayerDamage()
 
 > **OnPlayerActivate**(`event`): `void`
 
-Defined in: [src/base/System.ts:145](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L145)
+Defined in: [src/base/System.ts:77](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L77)
 
 Instance.OnPlayerActivate
 
@@ -6609,7 +8825,7 @@ Instance.OnPlayerActivate
 
 > **OnPlayerChat**(`event`): `void`
 
-Defined in: [src/base/System.ts:151](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L151)
+Defined in: [src/base/System.ts:234](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L234)
 
 Instance.OnPlayerChat
 
@@ -6634,7 +8850,7 @@ Instance.OnPlayerChat
 
 > **OnPlayerConnect**(`event`): `void`
 
-Defined in: [src/base/System.ts:157](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L157)
+Defined in: [src/base/System.ts:71](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L71)
 
 Instance.OnPlayerConnect
 
@@ -6657,7 +8873,7 @@ Instance.OnPlayerConnect
 
 > **OnPlayerDamage**(`event`): `void`
 
-Defined in: [src/base/System.ts:163](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L163)
+Defined in: [src/base/System.ts:210](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L210)
 
 Instance.OnPlayerDamage
 
@@ -6679,7 +8895,7 @@ Instance.OnPlayerDamage
 
 > **OnPlayerDisconnect**(`event`): `void`
 
-Defined in: [src/base/System.ts:169](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L169)
+Defined in: [src/base/System.ts:83](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L83)
 
 Instance.OnPlayerDisconnect
 
@@ -6702,7 +8918,7 @@ Instance.OnPlayerDisconnect
 
 > **OnPlayerJump**(`event`): `void`
 
-Defined in: [src/base/System.ts:175](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L175)
+Defined in: [src/base/System.ts:222](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L222)
 
 Instance.OnPlayerJump
 
@@ -6725,7 +8941,7 @@ Instance.OnPlayerJump
 
 > **OnPlayerKill**(`event`): `void`
 
-Defined in: [src/base/System.ts:181](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L181)
+Defined in: [src/base/System.ts:216](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L216)
 
 Instance.OnPlayerKill
 
@@ -6751,7 +8967,7 @@ Instance.OnPlayerKill
 
 > **OnPlayerLand**(`event`): `void`
 
-Defined in: [src/base/System.ts:187](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L187)
+Defined in: [src/base/System.ts:228](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L228)
 
 Instance.OnPlayerLand
 
@@ -6774,7 +8990,7 @@ Instance.OnPlayerLand
 
 > **OnPlayerPing**(`event`): `void`
 
-Defined in: [src/base/System.ts:193](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L193)
+Defined in: [src/base/System.ts:240](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L240)
 
 Instance.OnPlayerPing
 
@@ -6798,7 +9014,7 @@ Instance.OnPlayerPing
 
 > **OnPlayerReset**(`event`): `void`
 
-Defined in: [src/system/PlayerModelChangerSystem.ts:121](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/system/PlayerModelChangerSystem.ts#L121)
+Defined in: [src/system/PlayerModelChanger.ts:121](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/system/PlayerModelChanger.ts#L121)
 
 Instance.OnPlayerReset
 
@@ -6816,11 +9032,35 @@ Instance.OnPlayerReset
 
 [`System`](Namespace.Base.md#abstract-system).[`OnPlayerReset`](Namespace.Base.md#onplayerreset)
 
+##### OnPlayerTeamChanged()
+
+> **OnPlayerTeamChanged**(`event`): `void`
+
+Defined in: [src/base/System.ts:95](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L95)
+
+Instance.OnPlayerTeamChanged
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `event` | \{ `oldTeam`: `number`; `player`: `CSPlayerPawn`; \} |
+| `event.oldTeam` | `number` |
+| `event.player` | `CSPlayerPawn` |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`System`](Namespace.Base.md#abstract-system).[`OnPlayerTeamChanged`](Namespace.Base.md#onplayerteamchanged)
+
 ##### OnRoundEnd()
 
 > **OnRoundEnd**(`event`): `void`
 
-Defined in: [src/base/System.ts:205](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L205)
+Defined in: [src/base/System.ts:107](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L107)
 
 Instance.OnRoundEnd
 
@@ -6844,7 +9084,7 @@ Instance.OnRoundEnd
 
 > **OnRoundStart**(): `void`
 
-Defined in: [src/base/System.ts:211](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L211)
+Defined in: [src/base/System.ts:101](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L101)
 
 Instance.OnRoundStart
 
@@ -6860,7 +9100,7 @@ Instance.OnRoundStart
 
 > **OnScriptReload**(): `void`
 
-Defined in: [src/base/System.ts:234](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L234)
+Defined in: [src/base/System.ts:311](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L311)
 
 Simpler Version of OnScriptReloadAfter
 
@@ -6876,7 +9116,7 @@ Simpler Version of OnScriptReloadAfter
 
 > **OnScriptReloadAfter**\<`T`\>(`memory`): `void`
 
-Defined in: [src/base/System.ts:229](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L229)
+Defined in: [src/base/System.ts:306](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L306)
 
 Instance.OnReload({after})
 
@@ -6904,7 +9144,7 @@ Instance.OnReload({after})
 
 > **OnScriptReloadBefore**\<`T`\>(): `T`
 
-Defined in: [src/base/System.ts:223](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L223)
+Defined in: [src/base/System.ts:300](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L300)
 
 Instance.OnReload({before})
 
@@ -6926,7 +9166,7 @@ Instance.OnReload({before})
 
 > **OnWeaponDrop**(`event`): `void`
 
-Defined in: [src/base/System.ts:127](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L127)
+Defined in: [src/base/System.ts:264](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L264)
 
 Instance.OnWeaponDrop
 
@@ -6950,7 +9190,7 @@ Instance.OnWeaponDrop
 
 > **OnWeaponPickup**(`event`): `void`
 
-Defined in: [src/base/System.ts:133](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L133)
+Defined in: [src/base/System.ts:270](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L270)
 
 Instance.OnWeaponPickup
 
@@ -6973,7 +9213,7 @@ Instance.OnWeaponPickup
 
 > **SetTick**(`i`): `void`
 
-Defined in: [src/base/System.ts:32](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L32)
+Defined in: [src/base/System.ts:37](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L37)
 
 ###### Parameters
 
@@ -6993,7 +9233,7 @@ Defined in: [src/base/System.ts:32](https://github.com/Orb-Workshop/scriptedeuch
 
 > **SetTickInterval**(`i`): `void`
 
-Defined in: [src/base/System.ts:31](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L31)
+Defined in: [src/base/System.ts:36](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L36)
 
 ###### Parameters
 
@@ -7013,7 +9253,7 @@ Defined in: [src/base/System.ts:31](https://github.com/Orb-Workshop/scriptedeuch
 
 > **Think**(): `void`
 
-Defined in: [src/base/System.ts:50](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L50)
+Defined in: [src/base/System.ts:55](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L55)
 
 Replacement for `Instance.SetThink()` when used with `Base.Mount`.
 
@@ -7027,9 +9267,9 @@ Replacement for `Instance.SetThink()` when used with `Base.Mount`.
 
 ***
 
-### PlayerSlidingSystem
+### PlayerSliding
 
-Defined in: [src/system/PlayerSlidingSystem.ts:46](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/system/PlayerSlidingSystem.ts#L46)
+Defined in: [src/system/PlayerSliding.ts:46](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/system/PlayerSliding.ts#L46)
 
 Mountable System Abstraction.
 
@@ -7041,13 +9281,13 @@ Mountable System Abstraction.
 
 ##### Constructor
 
-> **new PlayerSlidingSystem**(): [`PlayerSlidingSystem`](#playerslidingsystem)
+> **new PlayerSliding**(): [`PlayerSliding`](#playersliding)
 
-Defined in: [src/system/PlayerSlidingSystem.ts:48](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/system/PlayerSlidingSystem.ts#L48)
+Defined in: [src/system/PlayerSliding.ts:48](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/system/PlayerSliding.ts#L48)
 
 ###### Returns
 
-[`PlayerSlidingSystem`](#playerslidingsystem)
+[`PlayerSliding`](#playersliding)
 
 ###### Overrides
 
@@ -7057,7 +9297,7 @@ Defined in: [src/system/PlayerSlidingSystem.ts:48](https://github.com/Orb-Worksh
 
 | Property | Type | Defined in |
 | ------ | ------ | ------ |
-| <a id="player_data"></a> `player_data` | `Map`\<`CSPlayerPawn`, `PlayerSlidingData`\> | [src/system/PlayerSlidingSystem.ts:47](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/system/PlayerSlidingSystem.ts#L47) |
+| <a id="player_data"></a> `player_data` | `Map`\<`CSPlayerPawn`, `PlayerSlidingData`\> | [src/system/PlayerSliding.ts:47](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/system/PlayerSliding.ts#L47) |
 
 #### Methods
 
@@ -7065,7 +9305,7 @@ Defined in: [src/system/PlayerSlidingSystem.ts:48](https://github.com/Orb-Worksh
 
 > **DisableSystem**(): `void`
 
-Defined in: [src/base/System.ts:29](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L29)
+Defined in: [src/base/System.ts:34](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L34)
 
 ###### Returns
 
@@ -7079,7 +9319,7 @@ Defined in: [src/base/System.ts:29](https://github.com/Orb-Workshop/scriptedeuch
 
 > **EnableSystem**(): `void`
 
-Defined in: [src/base/System.ts:28](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L28)
+Defined in: [src/base/System.ts:33](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L33)
 
 ###### Returns
 
@@ -7093,7 +9333,7 @@ Defined in: [src/base/System.ts:28](https://github.com/Orb-Workshop/scriptedeuch
 
 > **GetDelta**(): `number`
 
-Defined in: [src/base/System.ts:33](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L33)
+Defined in: [src/base/System.ts:38](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L38)
 
 ###### Returns
 
@@ -7107,7 +9347,7 @@ Defined in: [src/base/System.ts:33](https://github.com/Orb-Workshop/scriptedeuch
 
 > **IsSystemEnabled**(): `boolean`
 
-Defined in: [src/base/System.ts:30](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L30)
+Defined in: [src/base/System.ts:35](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L35)
 
 ###### Returns
 
@@ -7121,7 +9361,7 @@ Defined in: [src/base/System.ts:30](https://github.com/Orb-Workshop/scriptedeuch
 
 > **MaybeThink**(): `void`
 
-Defined in: [src/base/System.ts:35](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L35)
+Defined in: [src/base/System.ts:40](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L40)
 
 ###### Returns
 
@@ -7135,7 +9375,7 @@ Defined in: [src/base/System.ts:35](https://github.com/Orb-Workshop/scriptedeuch
 
 > **OnActivate**(): `void`
 
-Defined in: [src/base/System.ts:60](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L60)
+Defined in: [src/base/System.ts:65](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L65)
 
 Instance.OnActivate()
 
@@ -7151,7 +9391,7 @@ Instance.OnActivate()
 
 > **OnBeforePlayerDamage**(`event`): `any`
 
-Defined in: [src/base/System.ts:67](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L67)
+Defined in: [src/base/System.ts:198](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L198)
 
 Instance.OnBeforePlayerDamage()
 
@@ -7171,13 +9411,13 @@ Instance.OnBeforePlayerDamage()
 
 [`System`](Namespace.Base.md#abstract-system).[`OnBeforePlayerDamage`](Namespace.Base.md#onbeforeplayerdamage)
 
-##### OnBeginRoundStart()
+##### OnBeginRoundRestart()
 
-> **OnBeginRoundStart**(): `void`
+> **OnBeginRoundRestart**(): `void`
 
-Defined in: [src/base/System.ts:217](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L217)
+Defined in: [src/base/System.ts:113](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L113)
 
-Instance.OnBeginRoundStart
+Instance.OnBeginRoundRestart
 
 ###### Returns
 
@@ -7185,13 +9425,13 @@ Instance.OnBeginRoundStart
 
 ###### Inherited from
 
-[`System`](Namespace.Base.md#abstract-system).[`OnBeginRoundStart`](Namespace.Base.md#onbeginroundstart)
+[`System`](Namespace.Base.md#abstract-system).[`OnBeginRoundRestart`](Namespace.Base.md#onbeginroundrestart)
 
 ##### OnBombDefuse()
 
 > **OnBombDefuse**(`event`): `void`
 
-Defined in: [src/base/System.ts:79](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L79)
+Defined in: [src/base/System.ts:149](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L149)
 
 Instance.OnBombDefuse()
 
@@ -7199,9 +9439,7 @@ Instance.OnBombDefuse()
 
 | Parameter | Type |
 | ------ | ------ |
-| `event` | \{ `plantedC4`: `Entity`; `planter`: `CSPlayerPawn`; \} |
-| `event.plantedC4` | `Entity` |
-| `event.planter` | `CSPlayerPawn` |
+| `event` | `BombDefuseEvent` |
 
 ###### Returns
 
@@ -7211,13 +9449,59 @@ Instance.OnBombDefuse()
 
 [`System`](Namespace.Base.md#abstract-system).[`OnBombDefuse`](Namespace.Base.md#onbombdefuse)
 
+##### OnBombDefuseAbort()
+
+> **OnBombDefuseAbort**(`event`): `void`
+
+Defined in: [src/base/System.ts:143](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L143)
+
+Instance.OnBombDefuseAbort()
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `event` | \{ `plantedC4`: `Entity`; \} |
+| `event.plantedC4` | `Entity` |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`System`](Namespace.Base.md#abstract-system).[`OnBombDefuseAbort`](Namespace.Base.md#onbombdefuseabort)
+
+##### OnBombDefuseStart()
+
+> **OnBombDefuseStart**(`event`): `void`
+
+Defined in: [src/base/System.ts:137](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L137)
+
+Instance.OnBombDefuseStart()
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `event` | \{ `plantedC4`: `Entity`; \} |
+| `event.plantedC4` | `Entity` |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`System`](Namespace.Base.md#abstract-system).[`OnBombDefuseStart`](Namespace.Base.md#onbombdefusestart)
+
 ##### OnBombExplode()
 
 > **OnBombExplode**(`event`): `void`
 
-Defined in: [src/base/System.ts:91](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L91)
+Defined in: [src/base/System.ts:155](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L155)
 
-Instance.OnBombPlant()
+Instance.OnBombExplode()
 
 ###### Parameters
 
@@ -7238,7 +9522,7 @@ Instance.OnBombPlant()
 
 > **OnBombPlant**(`event`): `void`
 
-Defined in: [src/base/System.ts:85](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L85)
+Defined in: [src/base/System.ts:131](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L131)
 
 Instance.OnBombPlant()
 
@@ -7258,11 +9542,57 @@ Instance.OnBombPlant()
 
 [`System`](Namespace.Base.md#abstract-system).[`OnBombPlant`](Namespace.Base.md#onbombplant)
 
+##### OnBombPlantAbort()
+
+> **OnBombPlantAbort**(`event`): `void`
+
+Defined in: [src/base/System.ts:125](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L125)
+
+Instance.OnBombPlantAbort()
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `event` | \{ `planter`: `CSPlayerPawn`; \} |
+| `event.planter` | `CSPlayerPawn` |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`System`](Namespace.Base.md#abstract-system).[`OnBombPlantAbort`](Namespace.Base.md#onbombplantabort)
+
+##### OnBombPlantStart()
+
+> **OnBombPlantStart**(`event`): `void`
+
+Defined in: [src/base/System.ts:119](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L119)
+
+Instance.OnBombPlantStart()
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `event` | \{ `planter`: `CSPlayerPawn`; \} |
+| `event.planter` | `CSPlayerPawn` |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`System`](Namespace.Base.md#abstract-system).[`OnBombPlantStart`](Namespace.Base.md#onbombplantstart)
+
 ##### OnBulletImpact()
 
 > **OnBulletImpact**(`event`): `void`
 
-Defined in: [src/base/System.ts:97](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L97)
+Defined in: [src/base/System.ts:258](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L258)
 
 Instance.OnBulletImpact()
 
@@ -7282,11 +9612,36 @@ Instance.OnBulletImpact()
 
 [`System`](Namespace.Base.md#abstract-system).[`OnBulletImpact`](Namespace.Base.md#onbulletimpact)
 
+##### OnCustomHudClicked()
+
+> **OnCustomHudClicked**(`event`): `void`
+
+Defined in: [src/base/System.ts:294](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L294)
+
+Instance.OnCustomHudClicked()
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `event` | \{ `buttonId`: `string`; `layout`: `CustomHudLayout`; `player`: `CSPlayerController`; \} |
+| `event.buttonId` | `string` |
+| `event.layout` | `CustomHudLayout` |
+| `event.player` | `CSPlayerController` |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`System`](Namespace.Base.md#abstract-system).[`OnCustomHudClicked`](Namespace.Base.md#oncustomhudclicked)
+
 ##### OnGrenadeBounce()
 
 > **OnGrenadeBounce**(`event`): `void`
 
-Defined in: [src/base/System.ts:103](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L103)
+Defined in: [src/base/System.ts:282](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L282)
 
 Instance.OnGrenadeBounce()
 
@@ -7310,7 +9665,7 @@ Instance.OnGrenadeBounce()
 
 > **OnGrenadeThrow**(`event`): `void`
 
-Defined in: [src/base/System.ts:109](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L109)
+Defined in: [src/base/System.ts:276](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L276)
 
 Instance.OnGrenadeThrow()
 
@@ -7334,7 +9689,7 @@ Instance.OnGrenadeThrow()
 
 > **OnGunFire**(`event`): `void`
 
-Defined in: [src/base/System.ts:115](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L115)
+Defined in: [src/base/System.ts:252](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L252)
 
 Instance.OnGunFire()
 
@@ -7357,7 +9712,7 @@ Instance.OnGunFire()
 
 > **OnGunReload**(`event`): `void`
 
-Defined in: [src/base/System.ts:121](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L121)
+Defined in: [src/base/System.ts:246](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L246)
 
 Instance.OnGunReload
 
@@ -7376,11 +9731,152 @@ Instance.OnGunReload
 
 [`System`](Namespace.Base.md#abstract-system).[`OnGunReload`](Namespace.Base.md#ongunreload)
 
+##### OnHostageDrop()
+
+> **OnHostageDrop**(`event`): `void`
+
+Defined in: [src/base/System.ts:179](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L179)
+
+Instance.OnHostageDrop
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `event` | \{ `dropper`: `CSPlayerPawn`; `hostage`: `CSHostage`; \} |
+| `event.dropper` | `CSPlayerPawn` |
+| `event.hostage` | `CSHostage` |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`System`](Namespace.Base.md#abstract-system).[`OnHostageDrop`](Namespace.Base.md#onhostagedrop)
+
+##### OnHostageKill()
+
+> **OnHostageKill**(`event`): `void`
+
+Defined in: [src/base/System.ts:191](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L191)
+
+Instance.OnHostageKill
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `event` | \{ `attacker?`: `any`; `hostage`: `CSHostage`; \} |
+| `event.attacker?` | `any` |
+| `event.hostage` | `CSHostage` |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`System`](Namespace.Base.md#abstract-system).[`OnHostageKill`](Namespace.Base.md#onhostagekill)
+
+##### OnHostagePickUp()
+
+> **OnHostagePickUp**(`event`): `void`
+
+Defined in: [src/base/System.ts:173](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L173)
+
+Instance.OnHostagePickUp
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `event` | \{ `hostage`: `CSHostage`; \} |
+| `event.hostage` | `CSHostage` |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`System`](Namespace.Base.md#abstract-system).[`OnHostagePickUp`](Namespace.Base.md#onhostagepickup)
+
+##### OnHostagePickUpAbort()
+
+> **OnHostagePickUpAbort**(`event`): `void`
+
+Defined in: [src/base/System.ts:167](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L167)
+
+Instance.OnHostagePickUpAbort
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `event` | \{ `hostage`: `CSHostage`; `player`: `CSPlayerPawn`; \} |
+| `event.hostage` | `CSHostage` |
+| `event.player` | `CSPlayerPawn` |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`System`](Namespace.Base.md#abstract-system).[`OnHostagePickUpAbort`](Namespace.Base.md#onhostagepickupabort)
+
+##### OnHostagePickUpStart()
+
+> **OnHostagePickUpStart**(`event`): `void`
+
+Defined in: [src/base/System.ts:161](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L161)
+
+Instance.OnHostagePickUpStart
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `event` | \{ `hostage`: `CSHostage`; \} |
+| `event.hostage` | `CSHostage` |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`System`](Namespace.Base.md#abstract-system).[`OnHostagePickUpStart`](Namespace.Base.md#onhostagepickupstart)
+
+##### OnHostageRescue()
+
+> **OnHostageRescue**(`event`): `void`
+
+Defined in: [src/base/System.ts:185](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L185)
+
+Instance.OnHostageRescue
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `event` | \{ `hostage`: `CSHostage`; \} |
+| `event.hostage` | `CSHostage` |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`System`](Namespace.Base.md#abstract-system).[`OnHostageRescue`](Namespace.Base.md#onhostagerescue)
+
 ##### OnKnifeAttack()
 
 > **OnKnifeAttack**(`event`): `void`
 
-Defined in: [src/base/System.ts:139](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L139)
+Defined in: [src/base/System.ts:288](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L288)
 
 Instance.OnKnifeAttack
 
@@ -7404,7 +9900,7 @@ Instance.OnKnifeAttack
 
 > **OnModifyPlayerDamage**(`event`): `any`
 
-Defined in: [src/base/System.ts:73](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L73)
+Defined in: [src/base/System.ts:204](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L204)
 
 Instance.OnModifyPlayerDamage()
 
@@ -7426,7 +9922,7 @@ Instance.OnModifyPlayerDamage()
 
 > **OnPlayerActivate**(`event`): `void`
 
-Defined in: [src/base/System.ts:145](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L145)
+Defined in: [src/base/System.ts:77](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L77)
 
 Instance.OnPlayerActivate
 
@@ -7449,7 +9945,7 @@ Instance.OnPlayerActivate
 
 > **OnPlayerChat**(`event`): `void`
 
-Defined in: [src/base/System.ts:151](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L151)
+Defined in: [src/base/System.ts:234](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L234)
 
 Instance.OnPlayerChat
 
@@ -7474,7 +9970,7 @@ Instance.OnPlayerChat
 
 > **OnPlayerConnect**(`event`): `void`
 
-Defined in: [src/base/System.ts:157](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L157)
+Defined in: [src/base/System.ts:71](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L71)
 
 Instance.OnPlayerConnect
 
@@ -7497,7 +9993,7 @@ Instance.OnPlayerConnect
 
 > **OnPlayerDamage**(`event`): `void`
 
-Defined in: [src/base/System.ts:163](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L163)
+Defined in: [src/base/System.ts:210](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L210)
 
 Instance.OnPlayerDamage
 
@@ -7519,7 +10015,7 @@ Instance.OnPlayerDamage
 
 > **OnPlayerDisconnect**(`event`): `void`
 
-Defined in: [src/base/System.ts:169](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L169)
+Defined in: [src/base/System.ts:83](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L83)
 
 Instance.OnPlayerDisconnect
 
@@ -7542,7 +10038,7 @@ Instance.OnPlayerDisconnect
 
 > **OnPlayerJump**(`event`): `void`
 
-Defined in: [src/base/System.ts:175](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L175)
+Defined in: [src/base/System.ts:222](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L222)
 
 Instance.OnPlayerJump
 
@@ -7565,7 +10061,7 @@ Instance.OnPlayerJump
 
 > **OnPlayerKill**(`event`): `void`
 
-Defined in: [src/base/System.ts:181](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L181)
+Defined in: [src/base/System.ts:216](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L216)
 
 Instance.OnPlayerKill
 
@@ -7591,7 +10087,7 @@ Instance.OnPlayerKill
 
 > **OnPlayerLand**(`event`): `void`
 
-Defined in: [src/base/System.ts:187](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L187)
+Defined in: [src/base/System.ts:228](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L228)
 
 Instance.OnPlayerLand
 
@@ -7614,7 +10110,7 @@ Instance.OnPlayerLand
 
 > **OnPlayerPing**(`event`): `void`
 
-Defined in: [src/base/System.ts:193](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L193)
+Defined in: [src/base/System.ts:240](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L240)
 
 Instance.OnPlayerPing
 
@@ -7638,7 +10134,7 @@ Instance.OnPlayerPing
 
 > **OnPlayerReset**(`event`): `void`
 
-Defined in: [src/base/System.ts:199](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L199)
+Defined in: [src/base/System.ts:89](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L89)
 
 Instance.OnPlayerReset
 
@@ -7657,11 +10153,35 @@ Instance.OnPlayerReset
 
 [`System`](Namespace.Base.md#abstract-system).[`OnPlayerReset`](Namespace.Base.md#onplayerreset)
 
+##### OnPlayerTeamChanged()
+
+> **OnPlayerTeamChanged**(`event`): `void`
+
+Defined in: [src/base/System.ts:95](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L95)
+
+Instance.OnPlayerTeamChanged
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `event` | \{ `oldTeam`: `number`; `player`: `CSPlayerPawn`; \} |
+| `event.oldTeam` | `number` |
+| `event.player` | `CSPlayerPawn` |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`System`](Namespace.Base.md#abstract-system).[`OnPlayerTeamChanged`](Namespace.Base.md#onplayerteamchanged)
+
 ##### OnRoundEnd()
 
 > **OnRoundEnd**(`event`): `void`
 
-Defined in: [src/base/System.ts:205](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L205)
+Defined in: [src/base/System.ts:107](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L107)
 
 Instance.OnRoundEnd
 
@@ -7685,7 +10205,7 @@ Instance.OnRoundEnd
 
 > **OnRoundStart**(): `void`
 
-Defined in: [src/base/System.ts:211](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L211)
+Defined in: [src/base/System.ts:101](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L101)
 
 Instance.OnRoundStart
 
@@ -7701,7 +10221,7 @@ Instance.OnRoundStart
 
 > **OnScriptReload**(): `void`
 
-Defined in: [src/base/System.ts:234](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L234)
+Defined in: [src/base/System.ts:311](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L311)
 
 Simpler Version of OnScriptReloadAfter
 
@@ -7717,7 +10237,7 @@ Simpler Version of OnScriptReloadAfter
 
 > **OnScriptReloadAfter**\<`T`\>(`memory`): `void`
 
-Defined in: [src/base/System.ts:229](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L229)
+Defined in: [src/base/System.ts:306](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L306)
 
 Instance.OnReload({after})
 
@@ -7745,7 +10265,7 @@ Instance.OnReload({after})
 
 > **OnScriptReloadBefore**\<`T`\>(): `T`
 
-Defined in: [src/base/System.ts:223](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L223)
+Defined in: [src/base/System.ts:300](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L300)
 
 Instance.OnReload({before})
 
@@ -7767,7 +10287,7 @@ Instance.OnReload({before})
 
 > **OnWeaponDrop**(`event`): `void`
 
-Defined in: [src/base/System.ts:127](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L127)
+Defined in: [src/base/System.ts:264](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L264)
 
 Instance.OnWeaponDrop
 
@@ -7791,7 +10311,7 @@ Instance.OnWeaponDrop
 
 > **OnWeaponPickup**(`event`): `void`
 
-Defined in: [src/base/System.ts:133](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L133)
+Defined in: [src/base/System.ts:270](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L270)
 
 Instance.OnWeaponPickup
 
@@ -7814,7 +10334,7 @@ Instance.OnWeaponPickup
 
 > **SetTick**(`i`): `void`
 
-Defined in: [src/base/System.ts:32](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L32)
+Defined in: [src/base/System.ts:37](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L37)
 
 ###### Parameters
 
@@ -7834,7 +10354,7 @@ Defined in: [src/base/System.ts:32](https://github.com/Orb-Workshop/scriptedeuch
 
 > **SetTickInterval**(`i`): `void`
 
-Defined in: [src/base/System.ts:31](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L31)
+Defined in: [src/base/System.ts:36](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L36)
 
 ###### Parameters
 
@@ -7854,7 +10374,7 @@ Defined in: [src/base/System.ts:31](https://github.com/Orb-Workshop/scriptedeuch
 
 > **Think**(): `void`
 
-Defined in: [src/system/PlayerSlidingSystem.ts:70](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/system/PlayerSlidingSystem.ts#L70)
+Defined in: [src/system/PlayerSliding.ts:70](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/system/PlayerSliding.ts#L70)
 
 Replacement for `Instance.SetThink()` when used with `Base.Mount`.
 
@@ -7868,9 +10388,9 @@ Replacement for `Instance.SetThink()` when used with `Base.Mount`.
 
 ***
 
-### SchedulingSystem
+### Scheduling
 
-Defined in: [src/system/SchedulingSystem.ts:17](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/system/SchedulingSystem.ts#L17)
+Defined in: [src/system/Scheduling.ts:17](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/system/Scheduling.ts#L17)
 
 Mountable System Abstraction.
 
@@ -7882,13 +10402,13 @@ Mountable System Abstraction.
 
 ##### Constructor
 
-> **new SchedulingSystem**(): [`SchedulingSystem`](#schedulingsystem)
+> **new Scheduling**(): [`Scheduling`](#scheduling)
 
-Defined in: [src/system/SchedulingSystem.ts:21](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/system/SchedulingSystem.ts#L21)
+Defined in: [src/system/Scheduling.ts:21](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/system/Scheduling.ts#L21)
 
 ###### Returns
 
-[`SchedulingSystem`](#schedulingsystem)
+[`Scheduling`](#scheduling)
 
 ###### Overrides
 
@@ -7900,7 +10420,7 @@ Defined in: [src/system/SchedulingSystem.ts:21](https://github.com/Orb-Workshop/
 
 > **clearInterval**(`id`): `void`
 
-Defined in: [src/system/SchedulingSystem.ts:50](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/system/SchedulingSystem.ts#L50)
+Defined in: [src/system/Scheduling.ts:50](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/system/Scheduling.ts#L50)
 
 ###### Parameters
 
@@ -7916,7 +10436,7 @@ Defined in: [src/system/SchedulingSystem.ts:50](https://github.com/Orb-Workshop/
 
 > **clearTimeout**(`id`): `void`
 
-Defined in: [src/system/SchedulingSystem.ts:49](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/system/SchedulingSystem.ts#L49)
+Defined in: [src/system/Scheduling.ts:49](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/system/Scheduling.ts#L49)
 
 ###### Parameters
 
@@ -7932,7 +10452,7 @@ Defined in: [src/system/SchedulingSystem.ts:49](https://github.com/Orb-Workshop/
 
 > **DisableSystem**(): `void`
 
-Defined in: [src/base/System.ts:29](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L29)
+Defined in: [src/base/System.ts:34](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L34)
 
 ###### Returns
 
@@ -7946,7 +10466,7 @@ Defined in: [src/base/System.ts:29](https://github.com/Orb-Workshop/scriptedeuch
 
 > **EnableSystem**(): `void`
 
-Defined in: [src/base/System.ts:28](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L28)
+Defined in: [src/base/System.ts:33](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L33)
 
 ###### Returns
 
@@ -7960,7 +10480,7 @@ Defined in: [src/base/System.ts:28](https://github.com/Orb-Workshop/scriptedeuch
 
 > **GetDelta**(): `number`
 
-Defined in: [src/base/System.ts:33](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L33)
+Defined in: [src/base/System.ts:38](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L38)
 
 ###### Returns
 
@@ -7974,7 +10494,7 @@ Defined in: [src/base/System.ts:33](https://github.com/Orb-Workshop/scriptedeuch
 
 > **IsSystemEnabled**(): `boolean`
 
-Defined in: [src/base/System.ts:30](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L30)
+Defined in: [src/base/System.ts:35](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L35)
 
 ###### Returns
 
@@ -7988,7 +10508,7 @@ Defined in: [src/base/System.ts:30](https://github.com/Orb-Workshop/scriptedeuch
 
 > **MaybeThink**(): `void`
 
-Defined in: [src/base/System.ts:35](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L35)
+Defined in: [src/base/System.ts:40](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L40)
 
 ###### Returns
 
@@ -8002,7 +10522,7 @@ Defined in: [src/base/System.ts:35](https://github.com/Orb-Workshop/scriptedeuch
 
 > **OnActivate**(): `void`
 
-Defined in: [src/base/System.ts:60](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L60)
+Defined in: [src/base/System.ts:65](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L65)
 
 Instance.OnActivate()
 
@@ -8018,7 +10538,7 @@ Instance.OnActivate()
 
 > **OnBeforePlayerDamage**(`event`): `any`
 
-Defined in: [src/base/System.ts:67](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L67)
+Defined in: [src/base/System.ts:198](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L198)
 
 Instance.OnBeforePlayerDamage()
 
@@ -8038,13 +10558,13 @@ Instance.OnBeforePlayerDamage()
 
 [`System`](Namespace.Base.md#abstract-system).[`OnBeforePlayerDamage`](Namespace.Base.md#onbeforeplayerdamage)
 
-##### OnBeginRoundStart()
+##### OnBeginRoundRestart()
 
-> **OnBeginRoundStart**(): `void`
+> **OnBeginRoundRestart**(): `void`
 
-Defined in: [src/base/System.ts:217](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L217)
+Defined in: [src/base/System.ts:113](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L113)
 
-Instance.OnBeginRoundStart
+Instance.OnBeginRoundRestart
 
 ###### Returns
 
@@ -8052,13 +10572,13 @@ Instance.OnBeginRoundStart
 
 ###### Inherited from
 
-[`System`](Namespace.Base.md#abstract-system).[`OnBeginRoundStart`](Namespace.Base.md#onbeginroundstart)
+[`System`](Namespace.Base.md#abstract-system).[`OnBeginRoundRestart`](Namespace.Base.md#onbeginroundrestart)
 
 ##### OnBombDefuse()
 
 > **OnBombDefuse**(`event`): `void`
 
-Defined in: [src/base/System.ts:79](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L79)
+Defined in: [src/base/System.ts:149](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L149)
 
 Instance.OnBombDefuse()
 
@@ -8066,9 +10586,7 @@ Instance.OnBombDefuse()
 
 | Parameter | Type |
 | ------ | ------ |
-| `event` | \{ `plantedC4`: `Entity`; `planter`: `CSPlayerPawn`; \} |
-| `event.plantedC4` | `Entity` |
-| `event.planter` | `CSPlayerPawn` |
+| `event` | `BombDefuseEvent` |
 
 ###### Returns
 
@@ -8078,13 +10596,59 @@ Instance.OnBombDefuse()
 
 [`System`](Namespace.Base.md#abstract-system).[`OnBombDefuse`](Namespace.Base.md#onbombdefuse)
 
+##### OnBombDefuseAbort()
+
+> **OnBombDefuseAbort**(`event`): `void`
+
+Defined in: [src/base/System.ts:143](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L143)
+
+Instance.OnBombDefuseAbort()
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `event` | \{ `plantedC4`: `Entity`; \} |
+| `event.plantedC4` | `Entity` |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`System`](Namespace.Base.md#abstract-system).[`OnBombDefuseAbort`](Namespace.Base.md#onbombdefuseabort)
+
+##### OnBombDefuseStart()
+
+> **OnBombDefuseStart**(`event`): `void`
+
+Defined in: [src/base/System.ts:137](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L137)
+
+Instance.OnBombDefuseStart()
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `event` | \{ `plantedC4`: `Entity`; \} |
+| `event.plantedC4` | `Entity` |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`System`](Namespace.Base.md#abstract-system).[`OnBombDefuseStart`](Namespace.Base.md#onbombdefusestart)
+
 ##### OnBombExplode()
 
 > **OnBombExplode**(`event`): `void`
 
-Defined in: [src/base/System.ts:91](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L91)
+Defined in: [src/base/System.ts:155](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L155)
 
-Instance.OnBombPlant()
+Instance.OnBombExplode()
 
 ###### Parameters
 
@@ -8105,7 +10669,7 @@ Instance.OnBombPlant()
 
 > **OnBombPlant**(`event`): `void`
 
-Defined in: [src/base/System.ts:85](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L85)
+Defined in: [src/base/System.ts:131](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L131)
 
 Instance.OnBombPlant()
 
@@ -8125,11 +10689,57 @@ Instance.OnBombPlant()
 
 [`System`](Namespace.Base.md#abstract-system).[`OnBombPlant`](Namespace.Base.md#onbombplant)
 
+##### OnBombPlantAbort()
+
+> **OnBombPlantAbort**(`event`): `void`
+
+Defined in: [src/base/System.ts:125](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L125)
+
+Instance.OnBombPlantAbort()
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `event` | \{ `planter`: `CSPlayerPawn`; \} |
+| `event.planter` | `CSPlayerPawn` |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`System`](Namespace.Base.md#abstract-system).[`OnBombPlantAbort`](Namespace.Base.md#onbombplantabort)
+
+##### OnBombPlantStart()
+
+> **OnBombPlantStart**(`event`): `void`
+
+Defined in: [src/base/System.ts:119](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L119)
+
+Instance.OnBombPlantStart()
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `event` | \{ `planter`: `CSPlayerPawn`; \} |
+| `event.planter` | `CSPlayerPawn` |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`System`](Namespace.Base.md#abstract-system).[`OnBombPlantStart`](Namespace.Base.md#onbombplantstart)
+
 ##### OnBulletImpact()
 
 > **OnBulletImpact**(`event`): `void`
 
-Defined in: [src/base/System.ts:97](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L97)
+Defined in: [src/base/System.ts:258](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L258)
 
 Instance.OnBulletImpact()
 
@@ -8149,11 +10759,36 @@ Instance.OnBulletImpact()
 
 [`System`](Namespace.Base.md#abstract-system).[`OnBulletImpact`](Namespace.Base.md#onbulletimpact)
 
+##### OnCustomHudClicked()
+
+> **OnCustomHudClicked**(`event`): `void`
+
+Defined in: [src/base/System.ts:294](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L294)
+
+Instance.OnCustomHudClicked()
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `event` | \{ `buttonId`: `string`; `layout`: `CustomHudLayout`; `player`: `CSPlayerController`; \} |
+| `event.buttonId` | `string` |
+| `event.layout` | `CustomHudLayout` |
+| `event.player` | `CSPlayerController` |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`System`](Namespace.Base.md#abstract-system).[`OnCustomHudClicked`](Namespace.Base.md#oncustomhudclicked)
+
 ##### OnGrenadeBounce()
 
 > **OnGrenadeBounce**(`event`): `void`
 
-Defined in: [src/base/System.ts:103](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L103)
+Defined in: [src/base/System.ts:282](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L282)
 
 Instance.OnGrenadeBounce()
 
@@ -8177,7 +10812,7 @@ Instance.OnGrenadeBounce()
 
 > **OnGrenadeThrow**(`event`): `void`
 
-Defined in: [src/base/System.ts:109](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L109)
+Defined in: [src/base/System.ts:276](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L276)
 
 Instance.OnGrenadeThrow()
 
@@ -8201,7 +10836,7 @@ Instance.OnGrenadeThrow()
 
 > **OnGunFire**(`event`): `void`
 
-Defined in: [src/base/System.ts:115](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L115)
+Defined in: [src/base/System.ts:252](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L252)
 
 Instance.OnGunFire()
 
@@ -8224,7 +10859,7 @@ Instance.OnGunFire()
 
 > **OnGunReload**(`event`): `void`
 
-Defined in: [src/base/System.ts:121](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L121)
+Defined in: [src/base/System.ts:246](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L246)
 
 Instance.OnGunReload
 
@@ -8243,11 +10878,152 @@ Instance.OnGunReload
 
 [`System`](Namespace.Base.md#abstract-system).[`OnGunReload`](Namespace.Base.md#ongunreload)
 
+##### OnHostageDrop()
+
+> **OnHostageDrop**(`event`): `void`
+
+Defined in: [src/base/System.ts:179](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L179)
+
+Instance.OnHostageDrop
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `event` | \{ `dropper`: `CSPlayerPawn`; `hostage`: `CSHostage`; \} |
+| `event.dropper` | `CSPlayerPawn` |
+| `event.hostage` | `CSHostage` |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`System`](Namespace.Base.md#abstract-system).[`OnHostageDrop`](Namespace.Base.md#onhostagedrop)
+
+##### OnHostageKill()
+
+> **OnHostageKill**(`event`): `void`
+
+Defined in: [src/base/System.ts:191](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L191)
+
+Instance.OnHostageKill
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `event` | \{ `attacker?`: `any`; `hostage`: `CSHostage`; \} |
+| `event.attacker?` | `any` |
+| `event.hostage` | `CSHostage` |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`System`](Namespace.Base.md#abstract-system).[`OnHostageKill`](Namespace.Base.md#onhostagekill)
+
+##### OnHostagePickUp()
+
+> **OnHostagePickUp**(`event`): `void`
+
+Defined in: [src/base/System.ts:173](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L173)
+
+Instance.OnHostagePickUp
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `event` | \{ `hostage`: `CSHostage`; \} |
+| `event.hostage` | `CSHostage` |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`System`](Namespace.Base.md#abstract-system).[`OnHostagePickUp`](Namespace.Base.md#onhostagepickup)
+
+##### OnHostagePickUpAbort()
+
+> **OnHostagePickUpAbort**(`event`): `void`
+
+Defined in: [src/base/System.ts:167](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L167)
+
+Instance.OnHostagePickUpAbort
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `event` | \{ `hostage`: `CSHostage`; `player`: `CSPlayerPawn`; \} |
+| `event.hostage` | `CSHostage` |
+| `event.player` | `CSPlayerPawn` |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`System`](Namespace.Base.md#abstract-system).[`OnHostagePickUpAbort`](Namespace.Base.md#onhostagepickupabort)
+
+##### OnHostagePickUpStart()
+
+> **OnHostagePickUpStart**(`event`): `void`
+
+Defined in: [src/base/System.ts:161](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L161)
+
+Instance.OnHostagePickUpStart
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `event` | \{ `hostage`: `CSHostage`; \} |
+| `event.hostage` | `CSHostage` |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`System`](Namespace.Base.md#abstract-system).[`OnHostagePickUpStart`](Namespace.Base.md#onhostagepickupstart)
+
+##### OnHostageRescue()
+
+> **OnHostageRescue**(`event`): `void`
+
+Defined in: [src/base/System.ts:185](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L185)
+
+Instance.OnHostageRescue
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `event` | \{ `hostage`: `CSHostage`; \} |
+| `event.hostage` | `CSHostage` |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`System`](Namespace.Base.md#abstract-system).[`OnHostageRescue`](Namespace.Base.md#onhostagerescue)
+
 ##### OnKnifeAttack()
 
 > **OnKnifeAttack**(`event`): `void`
 
-Defined in: [src/base/System.ts:139](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L139)
+Defined in: [src/base/System.ts:288](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L288)
 
 Instance.OnKnifeAttack
 
@@ -8271,7 +11047,7 @@ Instance.OnKnifeAttack
 
 > **OnModifyPlayerDamage**(`event`): `any`
 
-Defined in: [src/base/System.ts:73](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L73)
+Defined in: [src/base/System.ts:204](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L204)
 
 Instance.OnModifyPlayerDamage()
 
@@ -8293,7 +11069,7 @@ Instance.OnModifyPlayerDamage()
 
 > **OnPlayerActivate**(`event`): `void`
 
-Defined in: [src/base/System.ts:145](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L145)
+Defined in: [src/base/System.ts:77](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L77)
 
 Instance.OnPlayerActivate
 
@@ -8316,7 +11092,7 @@ Instance.OnPlayerActivate
 
 > **OnPlayerChat**(`event`): `void`
 
-Defined in: [src/base/System.ts:151](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L151)
+Defined in: [src/base/System.ts:234](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L234)
 
 Instance.OnPlayerChat
 
@@ -8341,7 +11117,7 @@ Instance.OnPlayerChat
 
 > **OnPlayerConnect**(`event`): `void`
 
-Defined in: [src/base/System.ts:157](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L157)
+Defined in: [src/base/System.ts:71](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L71)
 
 Instance.OnPlayerConnect
 
@@ -8364,7 +11140,7 @@ Instance.OnPlayerConnect
 
 > **OnPlayerDamage**(`event`): `void`
 
-Defined in: [src/base/System.ts:163](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L163)
+Defined in: [src/base/System.ts:210](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L210)
 
 Instance.OnPlayerDamage
 
@@ -8386,7 +11162,7 @@ Instance.OnPlayerDamage
 
 > **OnPlayerDisconnect**(`event`): `void`
 
-Defined in: [src/base/System.ts:169](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L169)
+Defined in: [src/base/System.ts:83](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L83)
 
 Instance.OnPlayerDisconnect
 
@@ -8409,7 +11185,7 @@ Instance.OnPlayerDisconnect
 
 > **OnPlayerJump**(`event`): `void`
 
-Defined in: [src/base/System.ts:175](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L175)
+Defined in: [src/base/System.ts:222](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L222)
 
 Instance.OnPlayerJump
 
@@ -8432,7 +11208,7 @@ Instance.OnPlayerJump
 
 > **OnPlayerKill**(`event`): `void`
 
-Defined in: [src/base/System.ts:181](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L181)
+Defined in: [src/base/System.ts:216](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L216)
 
 Instance.OnPlayerKill
 
@@ -8458,7 +11234,7 @@ Instance.OnPlayerKill
 
 > **OnPlayerLand**(`event`): `void`
 
-Defined in: [src/base/System.ts:187](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L187)
+Defined in: [src/base/System.ts:228](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L228)
 
 Instance.OnPlayerLand
 
@@ -8481,7 +11257,7 @@ Instance.OnPlayerLand
 
 > **OnPlayerPing**(`event`): `void`
 
-Defined in: [src/base/System.ts:193](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L193)
+Defined in: [src/base/System.ts:240](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L240)
 
 Instance.OnPlayerPing
 
@@ -8505,7 +11281,7 @@ Instance.OnPlayerPing
 
 > **OnPlayerReset**(`event`): `void`
 
-Defined in: [src/base/System.ts:199](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L199)
+Defined in: [src/base/System.ts:89](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L89)
 
 Instance.OnPlayerReset
 
@@ -8524,11 +11300,35 @@ Instance.OnPlayerReset
 
 [`System`](Namespace.Base.md#abstract-system).[`OnPlayerReset`](Namespace.Base.md#onplayerreset)
 
+##### OnPlayerTeamChanged()
+
+> **OnPlayerTeamChanged**(`event`): `void`
+
+Defined in: [src/base/System.ts:95](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L95)
+
+Instance.OnPlayerTeamChanged
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `event` | \{ `oldTeam`: `number`; `player`: `CSPlayerPawn`; \} |
+| `event.oldTeam` | `number` |
+| `event.player` | `CSPlayerPawn` |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`System`](Namespace.Base.md#abstract-system).[`OnPlayerTeamChanged`](Namespace.Base.md#onplayerteamchanged)
+
 ##### OnRoundEnd()
 
 > **OnRoundEnd**(`event`): `void`
 
-Defined in: [src/base/System.ts:205](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L205)
+Defined in: [src/base/System.ts:107](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L107)
 
 Instance.OnRoundEnd
 
@@ -8552,7 +11352,7 @@ Instance.OnRoundEnd
 
 > **OnRoundStart**(): `void`
 
-Defined in: [src/base/System.ts:211](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L211)
+Defined in: [src/base/System.ts:101](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L101)
 
 Instance.OnRoundStart
 
@@ -8568,7 +11368,7 @@ Instance.OnRoundStart
 
 > **OnScriptReload**(): `void`
 
-Defined in: [src/base/System.ts:234](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L234)
+Defined in: [src/base/System.ts:311](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L311)
 
 Simpler Version of OnScriptReloadAfter
 
@@ -8584,7 +11384,7 @@ Simpler Version of OnScriptReloadAfter
 
 > **OnScriptReloadAfter**\<`T`\>(`memory`): `void`
 
-Defined in: [src/base/System.ts:229](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L229)
+Defined in: [src/base/System.ts:306](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L306)
 
 Instance.OnReload({after})
 
@@ -8612,7 +11412,7 @@ Instance.OnReload({after})
 
 > **OnScriptReloadBefore**\<`T`\>(): `T`
 
-Defined in: [src/base/System.ts:223](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L223)
+Defined in: [src/base/System.ts:300](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L300)
 
 Instance.OnReload({before})
 
@@ -8634,7 +11434,7 @@ Instance.OnReload({before})
 
 > **OnWeaponDrop**(`event`): `void`
 
-Defined in: [src/base/System.ts:127](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L127)
+Defined in: [src/base/System.ts:264](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L264)
 
 Instance.OnWeaponDrop
 
@@ -8658,7 +11458,7 @@ Instance.OnWeaponDrop
 
 > **OnWeaponPickup**(`event`): `void`
 
-Defined in: [src/base/System.ts:133](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L133)
+Defined in: [src/base/System.ts:270](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L270)
 
 Instance.OnWeaponPickup
 
@@ -8681,7 +11481,7 @@ Instance.OnWeaponPickup
 
 > **setInterval**(`callback`, `ms`): `number`
 
-Defined in: [src/system/SchedulingSystem.ts:35](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/system/SchedulingSystem.ts#L35)
+Defined in: [src/system/Scheduling.ts:35](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/system/Scheduling.ts#L35)
 
 ###### Parameters
 
@@ -8698,7 +11498,7 @@ Defined in: [src/system/SchedulingSystem.ts:35](https://github.com/Orb-Workshop/
 
 > **SetTick**(`i`): `void`
 
-Defined in: [src/base/System.ts:32](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L32)
+Defined in: [src/base/System.ts:37](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L37)
 
 ###### Parameters
 
@@ -8718,7 +11518,7 @@ Defined in: [src/base/System.ts:32](https://github.com/Orb-Workshop/scriptedeuch
 
 > **SetTickInterval**(`i`): `void`
 
-Defined in: [src/base/System.ts:31](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L31)
+Defined in: [src/base/System.ts:36](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L36)
 
 ###### Parameters
 
@@ -8738,7 +11538,7 @@ Defined in: [src/base/System.ts:31](https://github.com/Orb-Workshop/scriptedeuch
 
 > **setTimeout**(`callback`, `ms`): `number`
 
-Defined in: [src/system/SchedulingSystem.ts:25](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/system/SchedulingSystem.ts#L25)
+Defined in: [src/system/Scheduling.ts:25](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/system/Scheduling.ts#L25)
 
 ###### Parameters
 
@@ -8755,7 +11555,7 @@ Defined in: [src/system/SchedulingSystem.ts:25](https://github.com/Orb-Workshop/
 
 > **Think**(): `void`
 
-Defined in: [src/system/SchedulingSystem.ts:52](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/system/SchedulingSystem.ts#L52)
+Defined in: [src/system/Scheduling.ts:52](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/system/Scheduling.ts#L52)
 
 Replacement for `Instance.SetThink()` when used with `Base.Mount`.
 
@@ -8769,9 +11569,9 @@ Replacement for `Instance.SetThink()` when used with `Base.Mount`.
 
 ***
 
-### SoundEventSystem
+### SoundEvent
 
-Defined in: [src/system/SoundEventSystem.ts:132](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/system/SoundEventSystem.ts#L132)
+Defined in: [src/system/SoundEvent.ts:130](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/system/SoundEvent.ts#L130)
 
 Mountable System Abstraction.
 
@@ -8783,9 +11583,9 @@ Mountable System Abstraction.
 
 ##### Constructor
 
-> **new SoundEventSystem**(`__namedParameters?`): [`SoundEventSystem`](#soundeventsystem)
+> **new SoundEvent**(`__namedParameters?`): [`SoundEvent`](#soundevent)
 
-Defined in: [src/system/SoundEventSystem.ts:137](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/system/SoundEventSystem.ts#L137)
+Defined in: [src/system/SoundEvent.ts:135](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/system/SoundEvent.ts#L135)
 
 ###### Parameters
 
@@ -8798,7 +11598,7 @@ Defined in: [src/system/SoundEventSystem.ts:137](https://github.com/Orb-Workshop
 
 ###### Returns
 
-[`SoundEventSystem`](#soundeventsystem)
+[`SoundEvent`](#soundevent)
 
 ###### Overrides
 
@@ -8810,7 +11610,7 @@ Defined in: [src/system/SoundEventSystem.ts:137](https://github.com/Orb-Workshop
 
 > **DisableSystem**(): `void`
 
-Defined in: [src/base/System.ts:29](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L29)
+Defined in: [src/base/System.ts:34](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L34)
 
 ###### Returns
 
@@ -8824,7 +11624,7 @@ Defined in: [src/base/System.ts:29](https://github.com/Orb-Workshop/scriptedeuch
 
 > **EnableSystem**(): `void`
 
-Defined in: [src/base/System.ts:28](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L28)
+Defined in: [src/base/System.ts:33](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L33)
 
 ###### Returns
 
@@ -8838,7 +11638,7 @@ Defined in: [src/base/System.ts:28](https://github.com/Orb-Workshop/scriptedeuch
 
 > **GetDelta**(): `number`
 
-Defined in: [src/base/System.ts:33](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L33)
+Defined in: [src/base/System.ts:38](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L38)
 
 ###### Returns
 
@@ -8852,7 +11652,7 @@ Defined in: [src/base/System.ts:33](https://github.com/Orb-Workshop/scriptedeuch
 
 > **IsSystemEnabled**(): `boolean`
 
-Defined in: [src/base/System.ts:30](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L30)
+Defined in: [src/base/System.ts:35](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L35)
 
 ###### Returns
 
@@ -8866,7 +11666,7 @@ Defined in: [src/base/System.ts:30](https://github.com/Orb-Workshop/scriptedeuch
 
 > **MaybeThink**(): `void`
 
-Defined in: [src/base/System.ts:35](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L35)
+Defined in: [src/base/System.ts:40](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L40)
 
 ###### Returns
 
@@ -8880,7 +11680,7 @@ Defined in: [src/base/System.ts:35](https://github.com/Orb-Workshop/scriptedeuch
 
 > **OnActivate**(): `void`
 
-Defined in: [src/system/SoundEventSystem.ts:148](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/system/SoundEventSystem.ts#L148)
+Defined in: [src/system/SoundEvent.ts:146](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/system/SoundEvent.ts#L146)
 
 Instance.OnActivate()
 
@@ -8896,7 +11696,7 @@ Instance.OnActivate()
 
 > **OnBeforePlayerDamage**(`event`): `any`
 
-Defined in: [src/base/System.ts:67](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L67)
+Defined in: [src/base/System.ts:198](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L198)
 
 Instance.OnBeforePlayerDamage()
 
@@ -8916,13 +11716,13 @@ Instance.OnBeforePlayerDamage()
 
 [`System`](Namespace.Base.md#abstract-system).[`OnBeforePlayerDamage`](Namespace.Base.md#onbeforeplayerdamage)
 
-##### OnBeginRoundStart()
+##### OnBeginRoundRestart()
 
-> **OnBeginRoundStart**(): `void`
+> **OnBeginRoundRestart**(): `void`
 
-Defined in: [src/base/System.ts:217](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L217)
+Defined in: [src/base/System.ts:113](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L113)
 
-Instance.OnBeginRoundStart
+Instance.OnBeginRoundRestart
 
 ###### Returns
 
@@ -8930,13 +11730,13 @@ Instance.OnBeginRoundStart
 
 ###### Inherited from
 
-[`System`](Namespace.Base.md#abstract-system).[`OnBeginRoundStart`](Namespace.Base.md#onbeginroundstart)
+[`System`](Namespace.Base.md#abstract-system).[`OnBeginRoundRestart`](Namespace.Base.md#onbeginroundrestart)
 
 ##### OnBombDefuse()
 
 > **OnBombDefuse**(`event`): `void`
 
-Defined in: [src/base/System.ts:79](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L79)
+Defined in: [src/base/System.ts:149](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L149)
 
 Instance.OnBombDefuse()
 
@@ -8944,9 +11744,7 @@ Instance.OnBombDefuse()
 
 | Parameter | Type |
 | ------ | ------ |
-| `event` | \{ `plantedC4`: `Entity`; `planter`: `CSPlayerPawn`; \} |
-| `event.plantedC4` | `Entity` |
-| `event.planter` | `CSPlayerPawn` |
+| `event` | `BombDefuseEvent` |
 
 ###### Returns
 
@@ -8956,13 +11754,59 @@ Instance.OnBombDefuse()
 
 [`System`](Namespace.Base.md#abstract-system).[`OnBombDefuse`](Namespace.Base.md#onbombdefuse)
 
+##### OnBombDefuseAbort()
+
+> **OnBombDefuseAbort**(`event`): `void`
+
+Defined in: [src/base/System.ts:143](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L143)
+
+Instance.OnBombDefuseAbort()
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `event` | \{ `plantedC4`: `Entity`; \} |
+| `event.plantedC4` | `Entity` |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`System`](Namespace.Base.md#abstract-system).[`OnBombDefuseAbort`](Namespace.Base.md#onbombdefuseabort)
+
+##### OnBombDefuseStart()
+
+> **OnBombDefuseStart**(`event`): `void`
+
+Defined in: [src/base/System.ts:137](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L137)
+
+Instance.OnBombDefuseStart()
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `event` | \{ `plantedC4`: `Entity`; \} |
+| `event.plantedC4` | `Entity` |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`System`](Namespace.Base.md#abstract-system).[`OnBombDefuseStart`](Namespace.Base.md#onbombdefusestart)
+
 ##### OnBombExplode()
 
 > **OnBombExplode**(`event`): `void`
 
-Defined in: [src/base/System.ts:91](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L91)
+Defined in: [src/base/System.ts:155](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L155)
 
-Instance.OnBombPlant()
+Instance.OnBombExplode()
 
 ###### Parameters
 
@@ -8983,7 +11827,7 @@ Instance.OnBombPlant()
 
 > **OnBombPlant**(`event`): `void`
 
-Defined in: [src/base/System.ts:85](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L85)
+Defined in: [src/base/System.ts:131](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L131)
 
 Instance.OnBombPlant()
 
@@ -9003,11 +11847,57 @@ Instance.OnBombPlant()
 
 [`System`](Namespace.Base.md#abstract-system).[`OnBombPlant`](Namespace.Base.md#onbombplant)
 
+##### OnBombPlantAbort()
+
+> **OnBombPlantAbort**(`event`): `void`
+
+Defined in: [src/base/System.ts:125](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L125)
+
+Instance.OnBombPlantAbort()
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `event` | \{ `planter`: `CSPlayerPawn`; \} |
+| `event.planter` | `CSPlayerPawn` |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`System`](Namespace.Base.md#abstract-system).[`OnBombPlantAbort`](Namespace.Base.md#onbombplantabort)
+
+##### OnBombPlantStart()
+
+> **OnBombPlantStart**(`event`): `void`
+
+Defined in: [src/base/System.ts:119](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L119)
+
+Instance.OnBombPlantStart()
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `event` | \{ `planter`: `CSPlayerPawn`; \} |
+| `event.planter` | `CSPlayerPawn` |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`System`](Namespace.Base.md#abstract-system).[`OnBombPlantStart`](Namespace.Base.md#onbombplantstart)
+
 ##### OnBulletImpact()
 
 > **OnBulletImpact**(`event`): `void`
 
-Defined in: [src/base/System.ts:97](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L97)
+Defined in: [src/base/System.ts:258](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L258)
 
 Instance.OnBulletImpact()
 
@@ -9027,11 +11917,36 @@ Instance.OnBulletImpact()
 
 [`System`](Namespace.Base.md#abstract-system).[`OnBulletImpact`](Namespace.Base.md#onbulletimpact)
 
+##### OnCustomHudClicked()
+
+> **OnCustomHudClicked**(`event`): `void`
+
+Defined in: [src/base/System.ts:294](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L294)
+
+Instance.OnCustomHudClicked()
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `event` | \{ `buttonId`: `string`; `layout`: `CustomHudLayout`; `player`: `CSPlayerController`; \} |
+| `event.buttonId` | `string` |
+| `event.layout` | `CustomHudLayout` |
+| `event.player` | `CSPlayerController` |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`System`](Namespace.Base.md#abstract-system).[`OnCustomHudClicked`](Namespace.Base.md#oncustomhudclicked)
+
 ##### OnGrenadeBounce()
 
 > **OnGrenadeBounce**(`event`): `void`
 
-Defined in: [src/base/System.ts:103](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L103)
+Defined in: [src/base/System.ts:282](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L282)
 
 Instance.OnGrenadeBounce()
 
@@ -9055,7 +11970,7 @@ Instance.OnGrenadeBounce()
 
 > **OnGrenadeThrow**(`event`): `void`
 
-Defined in: [src/base/System.ts:109](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L109)
+Defined in: [src/base/System.ts:276](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L276)
 
 Instance.OnGrenadeThrow()
 
@@ -9079,7 +11994,7 @@ Instance.OnGrenadeThrow()
 
 > **OnGunFire**(`event`): `void`
 
-Defined in: [src/base/System.ts:115](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L115)
+Defined in: [src/base/System.ts:252](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L252)
 
 Instance.OnGunFire()
 
@@ -9102,7 +12017,7 @@ Instance.OnGunFire()
 
 > **OnGunReload**(`event`): `void`
 
-Defined in: [src/base/System.ts:121](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L121)
+Defined in: [src/base/System.ts:246](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L246)
 
 Instance.OnGunReload
 
@@ -9121,11 +12036,152 @@ Instance.OnGunReload
 
 [`System`](Namespace.Base.md#abstract-system).[`OnGunReload`](Namespace.Base.md#ongunreload)
 
+##### OnHostageDrop()
+
+> **OnHostageDrop**(`event`): `void`
+
+Defined in: [src/base/System.ts:179](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L179)
+
+Instance.OnHostageDrop
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `event` | \{ `dropper`: `CSPlayerPawn`; `hostage`: `CSHostage`; \} |
+| `event.dropper` | `CSPlayerPawn` |
+| `event.hostage` | `CSHostage` |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`System`](Namespace.Base.md#abstract-system).[`OnHostageDrop`](Namespace.Base.md#onhostagedrop)
+
+##### OnHostageKill()
+
+> **OnHostageKill**(`event`): `void`
+
+Defined in: [src/base/System.ts:191](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L191)
+
+Instance.OnHostageKill
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `event` | \{ `attacker?`: `any`; `hostage`: `CSHostage`; \} |
+| `event.attacker?` | `any` |
+| `event.hostage` | `CSHostage` |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`System`](Namespace.Base.md#abstract-system).[`OnHostageKill`](Namespace.Base.md#onhostagekill)
+
+##### OnHostagePickUp()
+
+> **OnHostagePickUp**(`event`): `void`
+
+Defined in: [src/base/System.ts:173](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L173)
+
+Instance.OnHostagePickUp
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `event` | \{ `hostage`: `CSHostage`; \} |
+| `event.hostage` | `CSHostage` |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`System`](Namespace.Base.md#abstract-system).[`OnHostagePickUp`](Namespace.Base.md#onhostagepickup)
+
+##### OnHostagePickUpAbort()
+
+> **OnHostagePickUpAbort**(`event`): `void`
+
+Defined in: [src/base/System.ts:167](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L167)
+
+Instance.OnHostagePickUpAbort
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `event` | \{ `hostage`: `CSHostage`; `player`: `CSPlayerPawn`; \} |
+| `event.hostage` | `CSHostage` |
+| `event.player` | `CSPlayerPawn` |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`System`](Namespace.Base.md#abstract-system).[`OnHostagePickUpAbort`](Namespace.Base.md#onhostagepickupabort)
+
+##### OnHostagePickUpStart()
+
+> **OnHostagePickUpStart**(`event`): `void`
+
+Defined in: [src/base/System.ts:161](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L161)
+
+Instance.OnHostagePickUpStart
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `event` | \{ `hostage`: `CSHostage`; \} |
+| `event.hostage` | `CSHostage` |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`System`](Namespace.Base.md#abstract-system).[`OnHostagePickUpStart`](Namespace.Base.md#onhostagepickupstart)
+
+##### OnHostageRescue()
+
+> **OnHostageRescue**(`event`): `void`
+
+Defined in: [src/base/System.ts:185](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L185)
+
+Instance.OnHostageRescue
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `event` | \{ `hostage`: `CSHostage`; \} |
+| `event.hostage` | `CSHostage` |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`System`](Namespace.Base.md#abstract-system).[`OnHostageRescue`](Namespace.Base.md#onhostagerescue)
+
 ##### OnKnifeAttack()
 
 > **OnKnifeAttack**(`event`): `void`
 
-Defined in: [src/base/System.ts:139](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L139)
+Defined in: [src/base/System.ts:288](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L288)
 
 Instance.OnKnifeAttack
 
@@ -9149,7 +12205,7 @@ Instance.OnKnifeAttack
 
 > **OnModifyPlayerDamage**(`event`): `any`
 
-Defined in: [src/base/System.ts:73](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L73)
+Defined in: [src/base/System.ts:204](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L204)
 
 Instance.OnModifyPlayerDamage()
 
@@ -9171,7 +12227,7 @@ Instance.OnModifyPlayerDamage()
 
 > **OnPlayerActivate**(`event`): `void`
 
-Defined in: [src/base/System.ts:145](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L145)
+Defined in: [src/base/System.ts:77](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L77)
 
 Instance.OnPlayerActivate
 
@@ -9194,7 +12250,7 @@ Instance.OnPlayerActivate
 
 > **OnPlayerChat**(`event`): `void`
 
-Defined in: [src/base/System.ts:151](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L151)
+Defined in: [src/base/System.ts:234](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L234)
 
 Instance.OnPlayerChat
 
@@ -9219,7 +12275,7 @@ Instance.OnPlayerChat
 
 > **OnPlayerConnect**(`event`): `void`
 
-Defined in: [src/base/System.ts:157](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L157)
+Defined in: [src/base/System.ts:71](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L71)
 
 Instance.OnPlayerConnect
 
@@ -9242,7 +12298,7 @@ Instance.OnPlayerConnect
 
 > **OnPlayerDamage**(`event`): `void`
 
-Defined in: [src/base/System.ts:163](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L163)
+Defined in: [src/base/System.ts:210](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L210)
 
 Instance.OnPlayerDamage
 
@@ -9264,7 +12320,7 @@ Instance.OnPlayerDamage
 
 > **OnPlayerDisconnect**(`event`): `void`
 
-Defined in: [src/base/System.ts:169](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L169)
+Defined in: [src/base/System.ts:83](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L83)
 
 Instance.OnPlayerDisconnect
 
@@ -9287,7 +12343,7 @@ Instance.OnPlayerDisconnect
 
 > **OnPlayerJump**(`event`): `void`
 
-Defined in: [src/base/System.ts:175](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L175)
+Defined in: [src/base/System.ts:222](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L222)
 
 Instance.OnPlayerJump
 
@@ -9310,7 +12366,7 @@ Instance.OnPlayerJump
 
 > **OnPlayerKill**(`event`): `void`
 
-Defined in: [src/base/System.ts:181](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L181)
+Defined in: [src/base/System.ts:216](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L216)
 
 Instance.OnPlayerKill
 
@@ -9336,7 +12392,7 @@ Instance.OnPlayerKill
 
 > **OnPlayerLand**(`event`): `void`
 
-Defined in: [src/base/System.ts:187](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L187)
+Defined in: [src/base/System.ts:228](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L228)
 
 Instance.OnPlayerLand
 
@@ -9359,7 +12415,7 @@ Instance.OnPlayerLand
 
 > **OnPlayerPing**(`event`): `void`
 
-Defined in: [src/base/System.ts:193](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L193)
+Defined in: [src/base/System.ts:240](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L240)
 
 Instance.OnPlayerPing
 
@@ -9383,7 +12439,7 @@ Instance.OnPlayerPing
 
 > **OnPlayerReset**(`event`): `void`
 
-Defined in: [src/base/System.ts:199](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L199)
+Defined in: [src/base/System.ts:89](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L89)
 
 Instance.OnPlayerReset
 
@@ -9402,11 +12458,35 @@ Instance.OnPlayerReset
 
 [`System`](Namespace.Base.md#abstract-system).[`OnPlayerReset`](Namespace.Base.md#onplayerreset)
 
+##### OnPlayerTeamChanged()
+
+> **OnPlayerTeamChanged**(`event`): `void`
+
+Defined in: [src/base/System.ts:95](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L95)
+
+Instance.OnPlayerTeamChanged
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `event` | \{ `oldTeam`: `number`; `player`: `CSPlayerPawn`; \} |
+| `event.oldTeam` | `number` |
+| `event.player` | `CSPlayerPawn` |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`System`](Namespace.Base.md#abstract-system).[`OnPlayerTeamChanged`](Namespace.Base.md#onplayerteamchanged)
+
 ##### OnRoundEnd()
 
 > **OnRoundEnd**(`event`): `void`
 
-Defined in: [src/base/System.ts:205](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L205)
+Defined in: [src/base/System.ts:107](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L107)
 
 Instance.OnRoundEnd
 
@@ -9430,7 +12510,7 @@ Instance.OnRoundEnd
 
 > **OnRoundStart**(): `void`
 
-Defined in: [src/base/System.ts:211](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L211)
+Defined in: [src/base/System.ts:101](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L101)
 
 Instance.OnRoundStart
 
@@ -9446,7 +12526,7 @@ Instance.OnRoundStart
 
 > **OnScriptReload**(): `void`
 
-Defined in: [src/base/System.ts:234](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L234)
+Defined in: [src/base/System.ts:311](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L311)
 
 Simpler Version of OnScriptReloadAfter
 
@@ -9462,7 +12542,7 @@ Simpler Version of OnScriptReloadAfter
 
 > **OnScriptReloadAfter**\<`T`\>(`memory`): `void`
 
-Defined in: [src/base/System.ts:229](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L229)
+Defined in: [src/base/System.ts:306](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L306)
 
 Instance.OnReload({after})
 
@@ -9490,7 +12570,7 @@ Instance.OnReload({after})
 
 > **OnScriptReloadBefore**\<`T`\>(): `T`
 
-Defined in: [src/base/System.ts:223](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L223)
+Defined in: [src/base/System.ts:300](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L300)
 
 Instance.OnReload({before})
 
@@ -9512,7 +12592,7 @@ Instance.OnReload({before})
 
 > **OnWeaponDrop**(`event`): `void`
 
-Defined in: [src/base/System.ts:127](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L127)
+Defined in: [src/base/System.ts:264](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L264)
 
 Instance.OnWeaponDrop
 
@@ -9536,7 +12616,7 @@ Instance.OnWeaponDrop
 
 > **OnWeaponPickup**(`event`): `void`
 
-Defined in: [src/base/System.ts:133](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L133)
+Defined in: [src/base/System.ts:270](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L270)
 
 Instance.OnWeaponPickup
 
@@ -9559,14 +12639,14 @@ Instance.OnWeaponPickup
 
 > **PlaySoundToPlayer**(`player_pawn`, `soundevent_name`, `immediate?`): `void`
 
-Defined in: [src/system/SoundEventSystem.ts:152](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/system/SoundEventSystem.ts#L152)
+Defined in: [src/system/SoundEvent.ts:150](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/system/SoundEvent.ts#L150)
 
 ###### Parameters
 
 | Parameter | Type | Default value |
 | ------ | ------ | ------ |
-| `player_pawn` | `any` | `undefined` |
-| `soundevent_name` | `any` | `undefined` |
+| `player_pawn` | `CSPlayerPawn` | `undefined` |
+| `soundevent_name` | `string` | `undefined` |
 | `immediate` | `boolean` | `false` |
 
 ###### Returns
@@ -9577,7 +12657,7 @@ Defined in: [src/system/SoundEventSystem.ts:152](https://github.com/Orb-Workshop
 
 > **SetTick**(`i`): `void`
 
-Defined in: [src/base/System.ts:32](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L32)
+Defined in: [src/base/System.ts:37](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L37)
 
 ###### Parameters
 
@@ -9597,7 +12677,7 @@ Defined in: [src/base/System.ts:32](https://github.com/Orb-Workshop/scriptedeuch
 
 > **SetTickInterval**(`i`): `void`
 
-Defined in: [src/base/System.ts:31](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L31)
+Defined in: [src/base/System.ts:36](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L36)
 
 ###### Parameters
 
@@ -9617,7 +12697,7 @@ Defined in: [src/base/System.ts:31](https://github.com/Orb-Workshop/scriptedeuch
 
 > **Think**(): `void`
 
-Defined in: [src/system/SoundEventSystem.ts:201](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/system/SoundEventSystem.ts#L201)
+Defined in: [src/system/SoundEvent.ts:199](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/system/SoundEvent.ts#L199)
 
 Replacement for `Instance.SetThink()` when used with `Base.Mount`.
 
@@ -9631,9 +12711,9 @@ Replacement for `Instance.SetThink()` when used with `Base.Mount`.
 
 ***
 
-### WeaponReplacementSystem
+### WeaponReplacement
 
-Defined in: [src/system/WeaponReplacementSystem.ts:17](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/system/WeaponReplacementSystem.ts#L17)
+Defined in: [src/system/WeaponReplacement.ts:17](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/system/WeaponReplacement.ts#L17)
 
 Mountable System Abstraction.
 
@@ -9645,9 +12725,9 @@ Mountable System Abstraction.
 
 ##### Constructor
 
-> **new WeaponReplacementSystem**(`__namedParameters`): [`WeaponReplacementSystem`](#weaponreplacementsystem)
+> **new WeaponReplacement**(`__namedParameters`): [`WeaponReplacement`](#weaponreplacement)
 
-Defined in: [src/system/WeaponReplacementSystem.ts:22](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/system/WeaponReplacementSystem.ts#L22)
+Defined in: [src/system/WeaponReplacement.ts:22](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/system/WeaponReplacement.ts#L22)
 
 ###### Parameters
 
@@ -9661,7 +12741,7 @@ Defined in: [src/system/WeaponReplacementSystem.ts:22](https://github.com/Orb-Wo
 
 ###### Returns
 
-[`WeaponReplacementSystem`](#weaponreplacementsystem)
+[`WeaponReplacement`](#weaponreplacement)
 
 ###### Overrides
 
@@ -9673,7 +12753,7 @@ Defined in: [src/system/WeaponReplacementSystem.ts:22](https://github.com/Orb-Wo
 
 > **DisableSystem**(): `void`
 
-Defined in: [src/base/System.ts:29](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L29)
+Defined in: [src/base/System.ts:34](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L34)
 
 ###### Returns
 
@@ -9687,7 +12767,7 @@ Defined in: [src/base/System.ts:29](https://github.com/Orb-Workshop/scriptedeuch
 
 > **EnableSystem**(): `void`
 
-Defined in: [src/base/System.ts:28](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L28)
+Defined in: [src/base/System.ts:33](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L33)
 
 ###### Returns
 
@@ -9701,7 +12781,7 @@ Defined in: [src/base/System.ts:28](https://github.com/Orb-Workshop/scriptedeuch
 
 > **GetDelta**(): `number`
 
-Defined in: [src/base/System.ts:33](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L33)
+Defined in: [src/base/System.ts:38](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L38)
 
 ###### Returns
 
@@ -9715,7 +12795,7 @@ Defined in: [src/base/System.ts:33](https://github.com/Orb-Workshop/scriptedeuch
 
 > **IsSystemEnabled**(): `boolean`
 
-Defined in: [src/base/System.ts:30](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L30)
+Defined in: [src/base/System.ts:35](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L35)
 
 ###### Returns
 
@@ -9729,7 +12809,7 @@ Defined in: [src/base/System.ts:30](https://github.com/Orb-Workshop/scriptedeuch
 
 > **MaybeThink**(): `void`
 
-Defined in: [src/base/System.ts:35](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L35)
+Defined in: [src/base/System.ts:40](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L40)
 
 ###### Returns
 
@@ -9743,7 +12823,7 @@ Defined in: [src/base/System.ts:35](https://github.com/Orb-Workshop/scriptedeuch
 
 > **OnActivate**(): `void`
 
-Defined in: [src/system/WeaponReplacementSystem.ts:35](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/system/WeaponReplacementSystem.ts#L35)
+Defined in: [src/system/WeaponReplacement.ts:35](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/system/WeaponReplacement.ts#L35)
 
 Instance.OnActivate()
 
@@ -9759,7 +12839,7 @@ Instance.OnActivate()
 
 > **OnBeforePlayerDamage**(`event`): `any`
 
-Defined in: [src/base/System.ts:67](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L67)
+Defined in: [src/base/System.ts:198](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L198)
 
 Instance.OnBeforePlayerDamage()
 
@@ -9779,13 +12859,13 @@ Instance.OnBeforePlayerDamage()
 
 [`System`](Namespace.Base.md#abstract-system).[`OnBeforePlayerDamage`](Namespace.Base.md#onbeforeplayerdamage)
 
-##### OnBeginRoundStart()
+##### OnBeginRoundRestart()
 
-> **OnBeginRoundStart**(): `void`
+> **OnBeginRoundRestart**(): `void`
 
-Defined in: [src/base/System.ts:217](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L217)
+Defined in: [src/base/System.ts:113](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L113)
 
-Instance.OnBeginRoundStart
+Instance.OnBeginRoundRestart
 
 ###### Returns
 
@@ -9793,13 +12873,13 @@ Instance.OnBeginRoundStart
 
 ###### Inherited from
 
-[`System`](Namespace.Base.md#abstract-system).[`OnBeginRoundStart`](Namespace.Base.md#onbeginroundstart)
+[`System`](Namespace.Base.md#abstract-system).[`OnBeginRoundRestart`](Namespace.Base.md#onbeginroundrestart)
 
 ##### OnBombDefuse()
 
 > **OnBombDefuse**(`event`): `void`
 
-Defined in: [src/base/System.ts:79](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L79)
+Defined in: [src/base/System.ts:149](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L149)
 
 Instance.OnBombDefuse()
 
@@ -9807,9 +12887,7 @@ Instance.OnBombDefuse()
 
 | Parameter | Type |
 | ------ | ------ |
-| `event` | \{ `plantedC4`: `Entity`; `planter`: `CSPlayerPawn`; \} |
-| `event.plantedC4` | `Entity` |
-| `event.planter` | `CSPlayerPawn` |
+| `event` | `BombDefuseEvent` |
 
 ###### Returns
 
@@ -9819,13 +12897,59 @@ Instance.OnBombDefuse()
 
 [`System`](Namespace.Base.md#abstract-system).[`OnBombDefuse`](Namespace.Base.md#onbombdefuse)
 
+##### OnBombDefuseAbort()
+
+> **OnBombDefuseAbort**(`event`): `void`
+
+Defined in: [src/base/System.ts:143](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L143)
+
+Instance.OnBombDefuseAbort()
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `event` | \{ `plantedC4`: `Entity`; \} |
+| `event.plantedC4` | `Entity` |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`System`](Namespace.Base.md#abstract-system).[`OnBombDefuseAbort`](Namespace.Base.md#onbombdefuseabort)
+
+##### OnBombDefuseStart()
+
+> **OnBombDefuseStart**(`event`): `void`
+
+Defined in: [src/base/System.ts:137](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L137)
+
+Instance.OnBombDefuseStart()
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `event` | \{ `plantedC4`: `Entity`; \} |
+| `event.plantedC4` | `Entity` |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`System`](Namespace.Base.md#abstract-system).[`OnBombDefuseStart`](Namespace.Base.md#onbombdefusestart)
+
 ##### OnBombExplode()
 
 > **OnBombExplode**(`event`): `void`
 
-Defined in: [src/base/System.ts:91](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L91)
+Defined in: [src/base/System.ts:155](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L155)
 
-Instance.OnBombPlant()
+Instance.OnBombExplode()
 
 ###### Parameters
 
@@ -9846,7 +12970,7 @@ Instance.OnBombPlant()
 
 > **OnBombPlant**(`event`): `void`
 
-Defined in: [src/base/System.ts:85](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L85)
+Defined in: [src/base/System.ts:131](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L131)
 
 Instance.OnBombPlant()
 
@@ -9866,11 +12990,57 @@ Instance.OnBombPlant()
 
 [`System`](Namespace.Base.md#abstract-system).[`OnBombPlant`](Namespace.Base.md#onbombplant)
 
+##### OnBombPlantAbort()
+
+> **OnBombPlantAbort**(`event`): `void`
+
+Defined in: [src/base/System.ts:125](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L125)
+
+Instance.OnBombPlantAbort()
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `event` | \{ `planter`: `CSPlayerPawn`; \} |
+| `event.planter` | `CSPlayerPawn` |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`System`](Namespace.Base.md#abstract-system).[`OnBombPlantAbort`](Namespace.Base.md#onbombplantabort)
+
+##### OnBombPlantStart()
+
+> **OnBombPlantStart**(`event`): `void`
+
+Defined in: [src/base/System.ts:119](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L119)
+
+Instance.OnBombPlantStart()
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `event` | \{ `planter`: `CSPlayerPawn`; \} |
+| `event.planter` | `CSPlayerPawn` |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`System`](Namespace.Base.md#abstract-system).[`OnBombPlantStart`](Namespace.Base.md#onbombplantstart)
+
 ##### OnBulletImpact()
 
 > **OnBulletImpact**(`event`): `void`
 
-Defined in: [src/base/System.ts:97](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L97)
+Defined in: [src/base/System.ts:258](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L258)
 
 Instance.OnBulletImpact()
 
@@ -9890,11 +13060,36 @@ Instance.OnBulletImpact()
 
 [`System`](Namespace.Base.md#abstract-system).[`OnBulletImpact`](Namespace.Base.md#onbulletimpact)
 
+##### OnCustomHudClicked()
+
+> **OnCustomHudClicked**(`event`): `void`
+
+Defined in: [src/base/System.ts:294](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L294)
+
+Instance.OnCustomHudClicked()
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `event` | \{ `buttonId`: `string`; `layout`: `CustomHudLayout`; `player`: `CSPlayerController`; \} |
+| `event.buttonId` | `string` |
+| `event.layout` | `CustomHudLayout` |
+| `event.player` | `CSPlayerController` |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`System`](Namespace.Base.md#abstract-system).[`OnCustomHudClicked`](Namespace.Base.md#oncustomhudclicked)
+
 ##### OnGrenadeBounce()
 
 > **OnGrenadeBounce**(`event`): `void`
 
-Defined in: [src/base/System.ts:103](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L103)
+Defined in: [src/base/System.ts:282](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L282)
 
 Instance.OnGrenadeBounce()
 
@@ -9918,7 +13113,7 @@ Instance.OnGrenadeBounce()
 
 > **OnGrenadeThrow**(`event`): `void`
 
-Defined in: [src/base/System.ts:109](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L109)
+Defined in: [src/base/System.ts:276](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L276)
 
 Instance.OnGrenadeThrow()
 
@@ -9942,7 +13137,7 @@ Instance.OnGrenadeThrow()
 
 > **OnGunFire**(`event`): `void`
 
-Defined in: [src/base/System.ts:115](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L115)
+Defined in: [src/base/System.ts:252](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L252)
 
 Instance.OnGunFire()
 
@@ -9965,7 +13160,7 @@ Instance.OnGunFire()
 
 > **OnGunReload**(`event`): `void`
 
-Defined in: [src/base/System.ts:121](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L121)
+Defined in: [src/base/System.ts:246](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L246)
 
 Instance.OnGunReload
 
@@ -9984,11 +13179,152 @@ Instance.OnGunReload
 
 [`System`](Namespace.Base.md#abstract-system).[`OnGunReload`](Namespace.Base.md#ongunreload)
 
+##### OnHostageDrop()
+
+> **OnHostageDrop**(`event`): `void`
+
+Defined in: [src/base/System.ts:179](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L179)
+
+Instance.OnHostageDrop
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `event` | \{ `dropper`: `CSPlayerPawn`; `hostage`: `CSHostage`; \} |
+| `event.dropper` | `CSPlayerPawn` |
+| `event.hostage` | `CSHostage` |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`System`](Namespace.Base.md#abstract-system).[`OnHostageDrop`](Namespace.Base.md#onhostagedrop)
+
+##### OnHostageKill()
+
+> **OnHostageKill**(`event`): `void`
+
+Defined in: [src/base/System.ts:191](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L191)
+
+Instance.OnHostageKill
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `event` | \{ `attacker?`: `any`; `hostage`: `CSHostage`; \} |
+| `event.attacker?` | `any` |
+| `event.hostage` | `CSHostage` |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`System`](Namespace.Base.md#abstract-system).[`OnHostageKill`](Namespace.Base.md#onhostagekill)
+
+##### OnHostagePickUp()
+
+> **OnHostagePickUp**(`event`): `void`
+
+Defined in: [src/base/System.ts:173](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L173)
+
+Instance.OnHostagePickUp
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `event` | \{ `hostage`: `CSHostage`; \} |
+| `event.hostage` | `CSHostage` |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`System`](Namespace.Base.md#abstract-system).[`OnHostagePickUp`](Namespace.Base.md#onhostagepickup)
+
+##### OnHostagePickUpAbort()
+
+> **OnHostagePickUpAbort**(`event`): `void`
+
+Defined in: [src/base/System.ts:167](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L167)
+
+Instance.OnHostagePickUpAbort
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `event` | \{ `hostage`: `CSHostage`; `player`: `CSPlayerPawn`; \} |
+| `event.hostage` | `CSHostage` |
+| `event.player` | `CSPlayerPawn` |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`System`](Namespace.Base.md#abstract-system).[`OnHostagePickUpAbort`](Namespace.Base.md#onhostagepickupabort)
+
+##### OnHostagePickUpStart()
+
+> **OnHostagePickUpStart**(`event`): `void`
+
+Defined in: [src/base/System.ts:161](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L161)
+
+Instance.OnHostagePickUpStart
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `event` | \{ `hostage`: `CSHostage`; \} |
+| `event.hostage` | `CSHostage` |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`System`](Namespace.Base.md#abstract-system).[`OnHostagePickUpStart`](Namespace.Base.md#onhostagepickupstart)
+
+##### OnHostageRescue()
+
+> **OnHostageRescue**(`event`): `void`
+
+Defined in: [src/base/System.ts:185](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L185)
+
+Instance.OnHostageRescue
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `event` | \{ `hostage`: `CSHostage`; \} |
+| `event.hostage` | `CSHostage` |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`System`](Namespace.Base.md#abstract-system).[`OnHostageRescue`](Namespace.Base.md#onhostagerescue)
+
 ##### OnKnifeAttack()
 
 > **OnKnifeAttack**(`event`): `void`
 
-Defined in: [src/base/System.ts:139](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L139)
+Defined in: [src/base/System.ts:288](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L288)
 
 Instance.OnKnifeAttack
 
@@ -10012,7 +13348,7 @@ Instance.OnKnifeAttack
 
 > **OnModifyPlayerDamage**(`event`): `any`
 
-Defined in: [src/base/System.ts:73](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L73)
+Defined in: [src/base/System.ts:204](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L204)
 
 Instance.OnModifyPlayerDamage()
 
@@ -10034,7 +13370,7 @@ Instance.OnModifyPlayerDamage()
 
 > **OnPlayerActivate**(`event`): `void`
 
-Defined in: [src/base/System.ts:145](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L145)
+Defined in: [src/base/System.ts:77](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L77)
 
 Instance.OnPlayerActivate
 
@@ -10057,7 +13393,7 @@ Instance.OnPlayerActivate
 
 > **OnPlayerChat**(`event`): `void`
 
-Defined in: [src/base/System.ts:151](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L151)
+Defined in: [src/base/System.ts:234](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L234)
 
 Instance.OnPlayerChat
 
@@ -10082,7 +13418,7 @@ Instance.OnPlayerChat
 
 > **OnPlayerConnect**(`event`): `void`
 
-Defined in: [src/base/System.ts:157](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L157)
+Defined in: [src/base/System.ts:71](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L71)
 
 Instance.OnPlayerConnect
 
@@ -10105,7 +13441,7 @@ Instance.OnPlayerConnect
 
 > **OnPlayerDamage**(`event`): `void`
 
-Defined in: [src/base/System.ts:163](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L163)
+Defined in: [src/base/System.ts:210](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L210)
 
 Instance.OnPlayerDamage
 
@@ -10127,7 +13463,7 @@ Instance.OnPlayerDamage
 
 > **OnPlayerDisconnect**(`event`): `void`
 
-Defined in: [src/base/System.ts:169](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L169)
+Defined in: [src/base/System.ts:83](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L83)
 
 Instance.OnPlayerDisconnect
 
@@ -10150,7 +13486,7 @@ Instance.OnPlayerDisconnect
 
 > **OnPlayerJump**(`event`): `void`
 
-Defined in: [src/base/System.ts:175](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L175)
+Defined in: [src/base/System.ts:222](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L222)
 
 Instance.OnPlayerJump
 
@@ -10173,7 +13509,7 @@ Instance.OnPlayerJump
 
 > **OnPlayerKill**(`event`): `void`
 
-Defined in: [src/base/System.ts:181](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L181)
+Defined in: [src/base/System.ts:216](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L216)
 
 Instance.OnPlayerKill
 
@@ -10199,7 +13535,7 @@ Instance.OnPlayerKill
 
 > **OnPlayerLand**(`event`): `void`
 
-Defined in: [src/base/System.ts:187](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L187)
+Defined in: [src/base/System.ts:228](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L228)
 
 Instance.OnPlayerLand
 
@@ -10222,7 +13558,7 @@ Instance.OnPlayerLand
 
 > **OnPlayerPing**(`event`): `void`
 
-Defined in: [src/base/System.ts:193](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L193)
+Defined in: [src/base/System.ts:240](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L240)
 
 Instance.OnPlayerPing
 
@@ -10246,7 +13582,7 @@ Instance.OnPlayerPing
 
 > **OnPlayerReset**(`event`): `void`
 
-Defined in: [src/system/WeaponReplacementSystem.ts:83](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/system/WeaponReplacementSystem.ts#L83)
+Defined in: [src/system/WeaponReplacement.ts:83](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/system/WeaponReplacement.ts#L83)
 
 Instance.OnPlayerReset
 
@@ -10264,11 +13600,35 @@ Instance.OnPlayerReset
 
 [`System`](Namespace.Base.md#abstract-system).[`OnPlayerReset`](Namespace.Base.md#onplayerreset)
 
+##### OnPlayerTeamChanged()
+
+> **OnPlayerTeamChanged**(`event`): `void`
+
+Defined in: [src/base/System.ts:95](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L95)
+
+Instance.OnPlayerTeamChanged
+
+###### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `event` | \{ `oldTeam`: `number`; `player`: `CSPlayerPawn`; \} |
+| `event.oldTeam` | `number` |
+| `event.player` | `CSPlayerPawn` |
+
+###### Returns
+
+`void`
+
+###### Inherited from
+
+[`System`](Namespace.Base.md#abstract-system).[`OnPlayerTeamChanged`](Namespace.Base.md#onplayerteamchanged)
+
 ##### OnRoundEnd()
 
 > **OnRoundEnd**(`event`): `void`
 
-Defined in: [src/base/System.ts:205](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L205)
+Defined in: [src/base/System.ts:107](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L107)
 
 Instance.OnRoundEnd
 
@@ -10292,7 +13652,7 @@ Instance.OnRoundEnd
 
 > **OnRoundStart**(): `void`
 
-Defined in: [src/base/System.ts:211](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L211)
+Defined in: [src/base/System.ts:101](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L101)
 
 Instance.OnRoundStart
 
@@ -10308,7 +13668,7 @@ Instance.OnRoundStart
 
 > **OnScriptReload**(): `void`
 
-Defined in: [src/base/System.ts:234](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L234)
+Defined in: [src/base/System.ts:311](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L311)
 
 Simpler Version of OnScriptReloadAfter
 
@@ -10324,7 +13684,7 @@ Simpler Version of OnScriptReloadAfter
 
 > **OnScriptReloadAfter**\<`T`\>(`memory`): `void`
 
-Defined in: [src/base/System.ts:229](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L229)
+Defined in: [src/base/System.ts:306](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L306)
 
 Instance.OnReload({after})
 
@@ -10352,7 +13712,7 @@ Instance.OnReload({after})
 
 > **OnScriptReloadBefore**\<`T`\>(): `T`
 
-Defined in: [src/base/System.ts:223](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L223)
+Defined in: [src/base/System.ts:300](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L300)
 
 Instance.OnReload({before})
 
@@ -10374,7 +13734,7 @@ Instance.OnReload({before})
 
 > **OnWeaponDrop**(`event`): `void`
 
-Defined in: [src/base/System.ts:127](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L127)
+Defined in: [src/base/System.ts:264](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L264)
 
 Instance.OnWeaponDrop
 
@@ -10398,7 +13758,7 @@ Instance.OnWeaponDrop
 
 > **OnWeaponPickup**(`event`): `void`
 
-Defined in: [src/base/System.ts:133](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L133)
+Defined in: [src/base/System.ts:270](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L270)
 
 Instance.OnWeaponPickup
 
@@ -10421,7 +13781,7 @@ Instance.OnWeaponPickup
 
 > **ReplaceWeapons**(`player_pawn`): `void`
 
-Defined in: [src/system/WeaponReplacementSystem.ts:72](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/system/WeaponReplacementSystem.ts#L72)
+Defined in: [src/system/WeaponReplacement.ts:72](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/system/WeaponReplacement.ts#L72)
 
 ###### Parameters
 
@@ -10437,7 +13797,7 @@ Defined in: [src/system/WeaponReplacementSystem.ts:72](https://github.com/Orb-Wo
 
 > **SetTick**(`i`): `void`
 
-Defined in: [src/base/System.ts:32](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L32)
+Defined in: [src/base/System.ts:37](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L37)
 
 ###### Parameters
 
@@ -10457,7 +13817,7 @@ Defined in: [src/base/System.ts:32](https://github.com/Orb-Workshop/scriptedeuch
 
 > **SetTickInterval**(`i`): `void`
 
-Defined in: [src/base/System.ts:31](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L31)
+Defined in: [src/base/System.ts:36](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/base/System.ts#L36)
 
 ###### Parameters
 
@@ -10477,7 +13837,7 @@ Defined in: [src/base/System.ts:31](https://github.com/Orb-Workshop/scriptedeuch
 
 > **Think**(): `void`
 
-Defined in: [src/system/WeaponReplacementSystem.ts:78](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/system/WeaponReplacementSystem.ts#L78)
+Defined in: [src/system/WeaponReplacement.ts:78](https://github.com/Orb-Workshop/scriptedeuch/blob/master/src/system/WeaponReplacement.ts#L78)
 
 Replacement for `Instance.SetThink()` when used with `Base.Mount`.
 

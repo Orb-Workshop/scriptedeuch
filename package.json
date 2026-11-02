@@ -15,6 +15,6 @@
         "watch": "bun --watch build ./src/main.ts --outdir ./scripts --external cs_script/point_script",
         "test": "bun test",
         "docs": "bunx typedoc --skipErrorChecking",
-        "typecheck": "tsc --noEmit ./src/index.ts"
+        "typecheck": "bun check"
     }
 }
