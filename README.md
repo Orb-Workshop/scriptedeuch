@@ -1,5 +1,7 @@
 # scriptedeuch
 
+*ScriptedEuch is in beta and still considered in an experimental state*
+
 **scriptedeuch** is a Library and Framework to be used within CS2
   workshop maps. It is supposed to provide useful tools to ease
   development, and works in tandem with
@@ -16,7 +18,7 @@ API Documentation: [here](docs/README.md)
 ```typescript
 import { Base, System } from "scriptedeuch";
 
-Base.Mount.Register("HealthRegen", new System.PlayerHealthRegenerationSystem({
+Base.Mount.Register("HealthRegen", new System.PlayerHealthRegeneration({
   regeneration_rate: 10.0,    // Health Per Second
   regeneration_delay: 5.0,    // Seconds
   max_health_recovery: 100.0, // 0-100
@@ -28,7 +30,7 @@ Base.Mount.Start();
 ```typescript
 import { Base, System } from "scriptedeuch";
 
-Base.Mount.Register("PlayerModelChanger", new System.PlayerModelChangerSystem({
+Base.Mount.Register("PlayerModelChanger", new System.PlayerModelChanger({
   point_script_targetname: "main.script",
   t_models: ["characters/models/tm_professional/tm_professional_varg.vmdl"],
   ct_models: ["characters/models/ctm_swat/ctm_swat_variante.vmdl"],
@@ -40,7 +42,7 @@ Base.Mount.Start();
 
 ### I want to track killing sprees, and play sounds to players
 
-Note: `System.SoundEventSystem` requires the
+Note: `System.SoundEvent` requires the
 `./maps/prefabs/scriptedeuch/scriptedeuch_root.vmap` prefab to be
 imported into your map.
 
@@ -48,11 +50,11 @@ imported into your map.
 import { Instance as CSS } from "cs_script/point_script";
 import { Base, System, Util } from "scriptedeuch";
 
-const soundEventSystem = Base.Mount.Register("SoundEvents", new System.SoundEventSystem({
+const soundEventSystem = Base.Mount.Register("SoundEvents", new System.SoundEvent({
   debug: false,
 }));
 
-Base.Mount.Register("GameAnnouncer", new System.GameAnnouncerSystem({
+Base.Mount.Register("GameAnnouncer", new System.GameAnnouncer({
   callback:(obj) => {
     let {player_pawn, player_stats} = obj;
     let {kills_with_same_weapon = 0,
@@ -252,6 +254,10 @@ Note the key differences between Actors and Systems:
 
 ### Actor Messaging Explained
 
+Actors communicate with each other through the DefaultActorPool system.
+This system is auto-mounted upon Base.Actor creation, and communicates
+messages between individual actors and systems.
+
 Consider this Example
 ```typescript
 import { Instance as CSS } from "cs_script/point_script";
@@ -370,7 +376,7 @@ Base.Mount.Start();
 Actors communicate with each other through the static method
 `Base.Actor.SendMessage(key: string, data: any)`. All actors have the overridable method
 `Base.Actor.ReceiveMessage(key: string, data: any)`, which can be used
-as an event messaging system to build interactions between actors.
+as an event messaging system to build interactions between actors and systems.
 
 ### Mount System Actor Model
 
@@ -410,6 +416,8 @@ bun run watch
 - [CS2 Scripting API](https://www.source2.wiki/Scripting/Counter-Strike%202/cs_script/functionList?game=any)
 
 ## Related Projects
+
+- [BundledEuch] (https://github.com/Orb-Workshop/bundledeuch)
 
 - [bounty_mode](https://github.com/Orb-Workshop/bounty_mode)
 
