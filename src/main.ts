@@ -40,11 +40,11 @@ CSS.Msg("Scriptedeuch!!");
 
 const soundEventSystem = Base.Mount.Register(
     "SoundEvents",
-    new System.SoundEventSystem({ debug: false }));
+    new System.SoundEvent({ debug: false }));
 
 const gameAnnouncerSystem = Base.Mount.Register(
     "GameAnnouncer",
-    new System.GameAnnouncerSystem({callback:(obj) => {
+    new System.GameAnnouncer({callback:(obj) => {
         let {player_pawn, player_stats} = obj;
         let {kills_with_same_weapon = 0,
              killing_spree_weapon_name = null,
@@ -59,8 +59,8 @@ const gameAnnouncerSystem = Base.Mount.Register(
         soundEventSystem.PlaySoundToPlayer(player_pawn, "Vote.Passed", true);
     }}));
 
-Base.Mount.Register("HealthRegen", new System.PlayerHealthRegenerationSystem());
-//Base.Mount.Register("PlayerModelChanger", new System.PlayerModelChangerSystem({
+Base.Mount.Register("HealthRegen", new System.PlayerHealthRegeneration());
+//Base.Mount.Register("PlayerModelChanger", new System.PlayerModelChanger({
 //    point_script_targetname: "main.script"
 //}));
 
@@ -209,7 +209,7 @@ catch(e) {
     CSS.Msg("Error: " + e.toString());
 }
 
-const FreezeTime = Base.Mount.Register("FreezeTime", new System.FreezeTimeSystem());
+const FreezeTime = Base.Mount.Register("FreezeTime", new System.FreezeTime());
 new Base.ThinkTask(() => {
     //CSS.Msg(`Elapsed Freeze Time: ${FreezeTime.GetElapsedFreezeTime()}`);
     //CSS.Msg(`Elapsed Round Time: ${FreezeTime.GetElapsedRoundTime()}`);
@@ -229,8 +229,8 @@ class Hud extends Base.System {
     }
 }
 
-Base.Mount.Register("KnifeDash", new System.KnifeDashSystem());
-Base.Mount.Register("DoubleJump", new System.DoubleJumpSystem());
+Base.Mount.Register("KnifeDash", new System.KnifeDash());
+Base.Mount.Register("DoubleJump", new System.DoubleJump());
 //Base.Mount.Register("HUD", new Hud());
 
 // Listing off what's running
