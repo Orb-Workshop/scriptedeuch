@@ -1,6 +1,7 @@
-import { Instance as CSS, CSPlayerPawn } from "cs_script/point_script";
+import { Instance as CSS } from "cs_script/point_script";
 import type {
     CSPlayerController,
+    CSPlayerPawn,
     PointTemplate,
     BaseModelEntity,
     Entity,
@@ -133,11 +134,8 @@ export default class GameAnnouncerSystem extends System {
         const weapon_base = event.weapon;
         const weapon_name = weapon_base.GetData().GetName();
 
-        if (player_pawn_attacker instanceof CSPlayerPawn)
-            this._recordKill(player_pawn_attacker, player_pawn_death, weapon_name);
-
-        if (player_pawn_death instanceof CSPlayerPawn)
-            this._recordDeath(player_pawn_death);
+        this._recordKill(player_pawn_attacker, player_pawn_death, weapon_name);
+        this._recordDeath(player_pawn_death);
     }
 }
 

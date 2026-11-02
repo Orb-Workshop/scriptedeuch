@@ -1,8 +1,6 @@
-import { Instance as CSS } from "cs_script/point_script";
+import { Instance as CSS, CSPlayerPawn, PointTemplate } from "cs_script/point_script";
 import type {
-    CSPlayerPawn,
     CSPlayerController,
-    PointTemplate,
     BaseModelEntity,
     Entity,
 } from "cs_script/point_script";
@@ -14,7 +12,7 @@ function ErrorMessage(msg) {
 }
 
 type AttachSoundToPlayerParams = {
-    player_pawn:CSPlayerPawn,
+    player_pawn: CSPlayerPawn,
     soundevent_name: string,
     debug: boolean,
 }
