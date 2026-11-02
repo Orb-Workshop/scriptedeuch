@@ -36,20 +36,11 @@ import {
 
 } from "./index";
 
-const {
-    Mount,
-    ThinkTask,
-    MessageTask,
-} = Base;
-
 CSS.Msg("Scriptedeuch!!");
-
 
 const soundEventSystem = Base.Mount.Register(
     "SoundEvents",
-    new System.SoundEventSystem({
-        debug: false
-    }));
+    new System.SoundEventSystem({ debug: false }));
 
 const gameAnnouncerSystem = Base.Mount.Register(
     "GameAnnouncer",
@@ -68,8 +59,8 @@ const gameAnnouncerSystem = Base.Mount.Register(
         soundEventSystem.PlaySoundToPlayer(player_pawn, "Vote.Passed", true);
     }}));
 
-Mount.Register("HealthRegen", new System.PlayerHealthRegenerationSystem());
-//Mount.Register("PlayerModelChanger", new System.PlayerModelChangerSystem({
+Base.Mount.Register("HealthRegen", new System.PlayerHealthRegenerationSystem());
+//Base.Mount.Register("PlayerModelChanger", new System.PlayerModelChangerSystem({
 //    point_script_targetname: "main.script"
 //}));
 
@@ -78,7 +69,7 @@ let Projectile = new Actor.Projectile({fizzle_delay: 1});
 
 let idx = 0;
 let TimedEvent = new Base.ThinkTask((inst) => {
-    ThinkTask.SendMessage("Echo", {
+    Base.ThinkTask.SendMessage("Echo", {
         data: "Some Data",
         idx: idx++,
         alive_time: inst.GetLifetime(),
@@ -86,7 +77,7 @@ let TimedEvent = new Base.ThinkTask((inst) => {
     });
 }, 5);
 let TimedEvent2 = new Base.ThinkTask((inst) => {
-    ThinkTask.SendMessage("Echo", {
+    Base.ThinkTask.SendMessage("Echo", {
         data: "Some Data2",
         idx: idx++,
         alive_time: inst.GetLifetime(),
@@ -94,7 +85,7 @@ let TimedEvent2 = new Base.ThinkTask((inst) => {
     });
 }, 4);
 
-//let MessageEcho = new MessageTask((key, data, inst) => {
+//let MessageEcho = new Base.MessageTask((key, data, inst) => {
 //    if (key == "Echo") CSS.Msg("Echo: " + JSON.stringify(data));
 //});
 
@@ -127,7 +118,7 @@ class GlockShot extends Base.System {
         }).Fire();
     }
 }
-Mount.Register("GlockShot", new GlockShot());
+Base.Mount.Register("GlockShot", new GlockShot());
 
 // TODO: Offer anonymous class helpers to quickly spinup system event listeners.
 class InvincibilityTest extends Base.System {
@@ -140,9 +131,9 @@ class InvincibilityTest extends Base.System {
         new Actor.PlayerInvincibility(player_pawn, { duration: 1.0 });
     }
 }
-Mount.Register("InvincibilityTest", new InvincibilityTest());
+//Base.Mount.Register("InvincibilityTest", new InvincibilityTest());
 
-let InvincibilityEcho = new MessageTask((key, data, inst) => {
+let InvincibilityEcho = new Base.MessageTask((key, data, inst) => {
     if (key == Actor.PlayerInvincibility.Tag) {
         const { event_name, event_data } = data;
         CSS.Msg(`Invincibility - ${event_name}`);
@@ -232,7 +223,7 @@ class Hud extends Base.System {
 	super();
     }
 
-    OnRoundStart(event): void {
+    override OnRoundStart(event): void {
 	const hud_layout = Entity.CustomHudLayout.Find("test_hud_layout");
 	Util.AllPlayers().forEach(p => hud_layout.SetHasClassForPlayer(p.GetPlayerSlot(), "dialog", "Dismissed", false))
     }
@@ -241,10 +232,10 @@ class Hud extends Base.System {
 
 
 
-Mount.Register("KnifeDash", new System.KnifeDashSystem());
-Mount.Register("DoubleJump", new System.DoubleJumpSystem());
-//Mount.Register("HUD", new Hud());
+Base.Mount.Register("KnifeDash", new System.KnifeDashSystem());
+Base.Mount.Register("DoubleJump", new System.DoubleJumpSystem());
+//Base.Mount.Register("HUD", new Hud());
 
 // Listing off what's running
-CSS.Msg("Systems: " + Mount.List().join(", "))
-Mount.Start(); // go
+CSS.Msg("Systems: " + Base.Mount.List().join(", "))
+Base.Mount.Start(); // go
