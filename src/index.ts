@@ -16,7 +16,7 @@ export * as System from "./system";
 export * as Actor from "./actor";
 
 /** Effects that can react to each other. */
-//export * as Effect from "./effect";
+export * as Effect from "./effect";
 
 /** Event Listener and Sender */
 export * as Event from "./event";
