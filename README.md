@@ -433,7 +433,7 @@ bun run watch
 
 ## Related Projects
 
-- [BundledEuch] (https://github.com/Orb-Workshop/bundledeuch)
+- [BundledEuch](https://github.com/Orb-Workshop/bundledeuch)
 
 - [bounty_mode](https://github.com/Orb-Workshop/bounty_mode)
 
