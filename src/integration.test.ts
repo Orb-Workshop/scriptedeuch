@@ -1,5 +1,5 @@
 import { expect, test } from "bun:test";
-import { Base, Math } from "./index";
+import { Math } from "./index";
 
 
 test("Integration Test 1", () => {

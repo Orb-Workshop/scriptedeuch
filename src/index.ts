@@ -1,4 +1,10 @@
-/* Advanced Library Framework */
+/* Library Framework */
+
+/** Main Mounter for Base.System and Base.Actor. 'Mounts' onto the
+ * `point_script` instance event callbacks, with each `Base.System`
+ * and `Base.Actor`.
+ */
+export { Mount } from "./mount";
 
 /** Base Library Framework Components */
 export * as Base from "./base";
@@ -8,6 +14,9 @@ export * as System from "./system";
 
 /** Spawnable Actors (Auto-Mounting) that extend `Base.Actor` */
 export * as Actor from "./actor";
+
+/** Effects that can react to each other. */
+//export * as Effect from "./effect";
 
 /** Event Listener and Sender */
 export * as Event from "./event";

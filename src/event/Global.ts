@@ -8,7 +8,7 @@
 
      @see https://developer.valvesoftware.com/wiki/S_PreserveEnts
  */
-
+import { Mount } from "../mount";
 import * as Base from "../base";
 import { default as Listener, Callback } from "./Listener";
 import { default as Sender } from "./Sender";
@@ -16,13 +16,16 @@ import { default as Sender } from "./Sender";
 export const SystemName = "GlobalEvents";
 export const Tag = "Global";
 
-/** 
+/**
     Global Event System. Represents Instance.On* events as separate listeners.
     This effectively links actors to point_script instance events.
-    
+
     Note:
 
-    - Methods like OnBeforePlayerDamage return values are ignored. Full control is through a `Base.System`.
+    - To put another way, the cs_script/point_script Instance events
+      are being relayed into the ActorSystem.
+
+    - Methods like OnBeforePlayerDamage return values are ignored.
 
  */
 class EventSystem extends Base.System {
@@ -51,10 +54,10 @@ class EventSystem extends Base.System {
 /** Returns an `Event.Listener` using the global `Tag`. */
 export function GetGlobalListener(): Listener {
     // Stand up our global event system
-    if (!Base.Mount.HasSystem(SystemName)) {
-        Base.Mount.Register(SystemName, new EventSystem());
+    if (!Mount.HasSystem(SystemName)) {
+        Mount.Register(SystemName, new EventSystem());
     }
-    
+
     return new Listener(Tag);
 }
 

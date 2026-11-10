@@ -15,7 +15,7 @@ function IsFreeForAll() {
 }
 
 type Dict = {[key: string]: any};
-export default class GameAnnouncerSystem extends System {
+export default class GameAnnouncer extends System {
     private player_listing: Dict = {};
     private callback: Function;
     private kill_award_interval: number;

@@ -1,19 +1,21 @@
 import { Instance as CSS } from "cs_script/point_script";
 import {
+    // Mounter. For mounting systems to the 'point_script' entity's callbacks.
+    Mount,
 
     // Base of the Library Framework
     Base,
 
-    // Mountable Systems in Framework, which extend Base.System
+    // Mountable Systems in the Framework which extend Base.System
     System,
 
-    // Spawnable Actors in Framework, which extend Base.Actor
+    // Spawnable Actors in the Framework which extend Base.Actor
     Actor,
 
-    // Events Handling Library built on top of `Base.Actor` actor pool.
+    // Event Handling Library.
     Event,
 
-    // Entity helper classes for wrapping and adapting to source2 entities within the map.
+    // Entity helper classes for wrapping and adapting to source2 entities I/O.
     Entity,
 
     // Math data types that extend the cs2 Vector and QAngle data interface.
@@ -38,11 +40,11 @@ import {
 
 CSS.Msg("Scriptedeuch!!");
 
-const soundEventSystem = Base.Mount.Register(
+const soundEventSystem = Mount.Register(
     "SoundEvents",
     new System.SoundEvent({ debug: false }));
 
-const gameAnnouncerSystem = Base.Mount.Register(
+const gameAnnouncerSystem = Mount.Register(
     "GameAnnouncer",
     new System.GameAnnouncer({callback:(obj) => {
         let {player_pawn, player_stats} = obj;
@@ -59,8 +61,8 @@ const gameAnnouncerSystem = Base.Mount.Register(
         soundEventSystem.PlaySoundToPlayer(player_pawn, "Vote.Passed", true);
     }}));
 
-Base.Mount.Register("HealthRegen", new System.PlayerHealthRegeneration());
-//Base.Mount.Register("PlayerModelChanger", new System.PlayerModelChanger({
+Mount.Register("HealthRegen", new System.PlayerHealthRegeneration());
+//Mount.Register("PlayerModelChanger", new System.PlayerModelChanger({
 //    point_script_targetname: "main.script"
 //}));
 
@@ -118,7 +120,7 @@ class GlockShot extends Base.System {
         }).Fire();
     }
 }
-Base.Mount.Register("GlockShot", new GlockShot());
+Mount.Register("GlockShot", new GlockShot());
 
 // TODO: Offer anonymous class helpers to quickly spinup system event listeners.
 class InvincibilityTest extends Base.System {
@@ -131,7 +133,7 @@ class InvincibilityTest extends Base.System {
         new Actor.PlayerInvincibility(player_pawn, { duration: 1.0 });
     }
 }
-//Base.Mount.Register("InvincibilityTest", new InvincibilityTest());
+//Mount.Register("InvincibilityTest", new InvincibilityTest());
 
 let InvincibilityEcho = new Base.MessageTask((key, data, inst) => {
     if (key == Actor.PlayerInvincibility.Tag) {
@@ -209,7 +211,7 @@ catch(e) {
     CSS.Msg("Error: " + e.toString());
 }
 
-const FreezeTime = Base.Mount.Register("FreezeTime", new System.FreezeTime());
+const FreezeTime = Mount.Register("FreezeTime", new System.FreezeTime());
 new Base.ThinkTask(() => {
     //CSS.Msg(`Elapsed Freeze Time: ${FreezeTime.GetElapsedFreezeTime()}`);
     //CSS.Msg(`Elapsed Round Time: ${FreezeTime.GetElapsedRoundTime()}`);
@@ -229,10 +231,10 @@ class Hud extends Base.System {
     }
 }
 
-Base.Mount.Register("KnifeDash", new System.KnifeDash());
-Base.Mount.Register("DoubleJump", new System.DoubleJump());
-//Base.Mount.Register("HUD", new Hud());
+Mount.Register("KnifeDash", new System.KnifeDash());
+Mount.Register("DoubleJump", new System.DoubleJump());
+//Mount.Register("HUD", new Hud());
 
 // Listing off what's running
-CSS.Msg("Systems: " + Base.Mount.List().join(", "))
-Base.Mount.Start(); // go
+CSS.Msg("Systems: " + Mount.List().join(", "))
+Mount.Start(); // go

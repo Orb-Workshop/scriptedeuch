@@ -3,6 +3,7 @@ import type {
     CSPlayerPawn,
 } from "cs_script/point_script";
 import * as Base from "../base";
+import { Mount } from "../mount";
 
 const DefaultSystemName = "DefaultPlayerInvincibility";
 
@@ -22,8 +23,8 @@ export default class PlayerInvincibility extends Base.Actor {
         this.player_pawn = player_pawn;
         this.duration = duration;
         // Boot up a default invincibility system if it doesn't exist.
-        if (!Base.Mount.HasSystem(DefaultSystemName))
-            Base.Mount.Register(DefaultSystemName, new PlayerInvincibilitySystem());
+        if (!Mount.HasSystem(DefaultSystemName))
+            Mount.Register(DefaultSystemName, new PlayerInvincibilitySystem());
         this._register();
     }
 
@@ -32,13 +33,13 @@ export default class PlayerInvincibility extends Base.Actor {
     }
 
     private _register(): void {
-        const playerInvincibilitySystem = Base.Mount.GetSystem(DefaultSystemName);
+        const playerInvincibilitySystem = Mount.GetSystem(DefaultSystemName);
         playerInvincibilitySystem.Register(this.player_pawn);
         this.SendMessage("Invincible",  { player_pawn: this.player_pawn });
     }
 
     private _unregister(): void {
-        const playerInvincibilitySystem = Base.Mount.GetSystem(DefaultSystemName);
+        const playerInvincibilitySystem = Mount.GetSystem(DefaultSystemName);
         playerInvincibilitySystem.Unregister(this.player_pawn);
         this.SendMessage("Unvincible",  { player_pawn: this.player_pawn });
     }

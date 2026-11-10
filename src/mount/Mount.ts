@@ -32,27 +32,27 @@
 
 import { Instance as CSS } from "cs_script/point_script";
 import type {
-    CSDamageTypes,
-    CSDamageFlags,
-    CSPlayerPawn,
-    CSPlayerController,
-    CSRoundEndReason,
-    CSPlantedC4,
     BombDefuseEvent,
     BombPlantEvent,
+    CSDamageFlags,
+    CSDamageTypes,
+    CSGrenadeProjectileBase,
     CSHostage,
+    CSPlantedC4,
+    CSPlayerController,
+    CSPlayerPawn,
+    CSRoundEndReason,
+    CSWeaponAttackType,
+    CSWeaponBase,
+    CustomHudLayout,
+    Entity,
+    GrenadeBounceEvent,
     ModifyPlayerDamageEvent,
     ModifyPlayerDamageResult,
     PlayerDamageEvent,
-    Entity,
-    CSWeaponBase,
     Vector,
-    CSGrenadeProjectileBase,
-    GrenadeBounceEvent,
-    CSWeaponAttackType,
-    CustomHudLayout,
 } from "cs_script/point_script";
-import System from "./System";
+import { System } from "../base";
 
 export default class Mount {
     /** Singleton Instance */

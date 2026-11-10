@@ -4,6 +4,7 @@
 */
 import { Instance as CSS } from "cs_script/point_script";
 import * as Base from "../base";
+import { Mount } from "../mount";
 
 export default class Sender {
     private tag: string;
@@ -12,7 +13,7 @@ export default class Sender {
     }
 
     public Send(event_name: string, event_data: any): void {
-        if (Base.Mount.HasSystem("DefaultActorPool"))
+        if (Mount.HasSystem("DefaultActorPool"))
             Base.Actor.SendMessage(this.tag, { event_name, event_data });
     }
 }

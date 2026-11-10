@@ -1,13 +1,14 @@
 /**
    Simple System that returns whether the freeze time is up when a
    round starts. Can also be used to retrieve the actual round time.
-   
+
    Notes:
 
    - Includes Automount functions.
 */
 import { Instance as CSS } from "cs_script/point_script";
 import * as Base from "../base";
+import { Mount } from "../mount";
 
 const SystemName = "DefaultFreezeTime";
 
@@ -17,7 +18,7 @@ export default class FreezeTimeSystem extends Base.System {
     private round_start_time: number = CSS.GetGameTime();
     private round_end_time: number = CSS.GetGameTime();
     private is_round_ended: boolean = false;
-    
+
     constructor() {
         super();
     }
@@ -29,7 +30,7 @@ export default class FreezeTimeSystem extends Base.System {
         return this.freeze_end_time - this.freeze_start_time;
     }
 
-    /** 
+    /**
         Returns the elapsed time since the round started, taking into
         account the freeze time.
 
@@ -41,7 +42,7 @@ export default class FreezeTimeSystem extends Base.System {
         if (CSS.IsFreezePeriod()) return 0;
         return this.round_end_time - this.round_start_time;
     }
-    
+
     override OnRoundStart() {
         this.freeze_start_time = CSS.GetGameTime();
         this.is_round_ended = false;
@@ -50,7 +51,7 @@ export default class FreezeTimeSystem extends Base.System {
     override OnRoundEnd() {
         this.is_round_ended = true;
     }
-    
+
     override Think() {
         if (CSS.IsFreezePeriod()) {
             this.freeze_end_time = CSS.GetGameTime();
@@ -64,10 +65,10 @@ export default class FreezeTimeSystem extends Base.System {
 }
 
 function AutoMount(): FreezeTimeSystem {
-    if (!Base.Mount.HasSystem(SystemName)) {
-        Base.Mount.Register(SystemName, new FreezeTimeSystem());
+    if (!Mount.HasSystem(SystemName)) {
+        Mount.Register(SystemName, new FreezeTimeSystem());
     }
-    return Base.Mount.GetSystem(SystemName);
+    return Mount.GetSystem(SystemName);
 }
 
 export function GetElapsedRoundTime(): number {
@@ -77,5 +78,3 @@ export function GetElapsedRoundTime(): number {
 export function GetElapsedFreezeTime(): number {
     return AutoMount().GetElapsedFreezeTime();
 }
-
-
